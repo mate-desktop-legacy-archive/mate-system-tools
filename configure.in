@@ -324,16 +324,16 @@ interfaces/Makefile
 pixmaps/Makefile
 src/Makefile
 src/common/Makefile
-src/users/users.desktop.in
+src/users/mate-users.desktop.in
 src/users/Makefile
-src/network/network.desktop.in
+src/network/mate-network.desktop.in
 src/network/Makefile
-src/time/time.desktop.in
+src/time/mate-time.desktop.in
 src/time/Makefile
 src/time/e-map/Makefile
-src/services/services.desktop.in
+src/services/mate-services.desktop.in
 src/services/Makefile
-src/shares/shares.desktop.in
+src/shares/mate-shares.desktop.in
 src/shares/Makefile
 src/shares/caja/Makefile
 po/Makefile.in
@@ -343,13 +343,14 @@ mate-system-tools.pc
 echo "
 
 Configuration (GST):
-	Services tool:     ${enable_services}
-	Users tool:        ${enable_users}
-	Network tool:      ${enable_network}
-	Time tool:         ${enable_time}
-	Shares tool:       ${enable_shares}
-	Caja support:  ${enable_caja}
-	Use PolKit-GTK-Mate:    ${have_polkit}
 
-	Compiler:          ${CC}
+	Services tool:         ${enable_services}
+	Users tool:            ${enable_users}
+	Network tool:          ${enable_network}
+	Time tool:             ${enable_time}
+	Shares tool:           ${enable_shares}
+	Caja support:          ${enable_caja}
+	Use PolKit-GTK-Mate:   ${have_polkit}
+
+	Compiler:              ${CC}
 "
