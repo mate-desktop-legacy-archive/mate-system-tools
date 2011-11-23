@@ -1,7 +1,7 @@
 include $(top_srcdir)/mate-doc-utils.make
 dist-hook: doc-dist-hook
 
-DOC_MODULE = time-admin
+DOC_MODULE = mate-time-admin
 DOC_ENTITIES = legal.xml
 DOC_INCLUDES = 
 DOC_FIGURES = \

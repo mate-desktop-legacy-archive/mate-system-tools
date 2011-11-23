@@ -1,7 +1,7 @@
 include $(top_srcdir)/mate-doc-utils.make
 dist-hook: doc-dist-hook
 
-DOC_MODULE = shares-admin
+DOC_MODULE = mate-shares-admin
 DOC_ENTITIES = legal.xml
 DOC_INCLUDES = 
 DOC_FIGURES = figures/shares-tool.png
