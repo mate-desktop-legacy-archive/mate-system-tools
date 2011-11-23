@@ -7,7 +7,7 @@
 
 include ../common/CommonMakefile
 
-toolname = time
+toolname = mate-time
 bin_PROGRAMS = mate-time-admin
 
 SUBDIRS = e-map

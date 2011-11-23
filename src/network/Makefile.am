@@ -7,7 +7,7 @@
 
 include ../common/CommonMakefile
 
-toolname = network
+toolname = mate-network
 bin_PROGRAMS = mate-network-admin
 
 ## SUBDIRS =

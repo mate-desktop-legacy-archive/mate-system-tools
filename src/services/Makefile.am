@@ -7,7 +7,7 @@
 
 include ../common/CommonMakefile
 
-toolname = services
+toolname = mate-services
 bin_PROGRAMS = mate-services-admin
 
 ## SUBDIRS =

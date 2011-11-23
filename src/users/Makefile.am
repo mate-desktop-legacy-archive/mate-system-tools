@@ -7,7 +7,7 @@
 
 include ../common/CommonMakefile
 
-toolname = users
+toolname = mate-users
 bin_PROGRAMS = mate-users-admin
 
 SUBDIRS = 

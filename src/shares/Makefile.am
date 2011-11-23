@@ -7,7 +7,7 @@
 
 include ../common/CommonMakefile
 
-toolname = shares
+toolname = mate-shares
 bin_PROGRAMS = mate-shares-admin
 
 if BUILD_CAJA
