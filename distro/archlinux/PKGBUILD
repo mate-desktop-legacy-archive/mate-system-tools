@@ -1,5 +1,5 @@
 pkgname=mate-system-tools
-pkgver=2011.11.23
+pkgver=2011.12.01
 pkgrel=1
 pkgdesc="A system tools for MATE"
 arch=(i686 x86_64)
