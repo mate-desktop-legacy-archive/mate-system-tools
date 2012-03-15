@@ -18,12 +18,12 @@ src/network/hosts.c
 src/network/ifaces-list.c
 src/network/locations-combo.c
 src/network/main.c
-src/network/network.desktop.in.in
+src/network/mate-network.desktop.in.in
 src/network/network-tool.c
 src/services/callbacks.c
 src/services/main.c
 src/services/service.c
-src/services/services.desktop.in.in
+src/services/mate-services.desktop.in.in
 src/services/service-settings-table.c
 src/services/services-tool.c
 src/services/table.c
@@ -32,13 +32,13 @@ src/shares/main.c
 src/shares/caja/caja-shares.c
 src/shares/nfs-acl-table.c
 src/shares/share-nfs-add-hosts.c
-src/shares/shares.desktop.in.in
+src/shares/mate-shares.desktop.in.in
 src/shares/share-settings.c
 src/shares/shares-tool.c
 src/shares/table.c
 src/time/e-map/e-map.c
 src/time/main.c
-src/time/time.desktop.in.in
+src/time/mate-time.desktop.in.in
 src/time/time-tool.c
 src/time/tz.c
 src/time/tz-map.c
@@ -51,7 +51,7 @@ src/users/privileges-table.c
 [type: gettext/ini]src/users/user-profiles.conf.in
 src/users/run-passwd.c
 src/users/table.c
-src/users/users.desktop.in.in
+src/users/mate-users.desktop.in.in
 src/users/user-password.c
 src/users/user-settings.c
 src/users/users-table.c

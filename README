@@ -1,6 +1,10 @@
 About the MATE System Tools
 ----------------------------
 
+- Fork:
+
+  MATE System Tools package is a fork of GNOME System Τοols package.
+
 - Targeted to desktop users:
 
   These tools are intended to simplify the tasks of configuring a Unix system
