@@ -319,7 +319,8 @@ user_settings_show (OobsUser *user)
 	face_image = gst_dialog_get_widget (tool->main_dialog, "user_settings_face");
 	face = user_settings_get_user_face (user, 60);
 	gtk_image_set_from_pixbuf (GTK_IMAGE (face_image), face);
-	g_object_unref (face);
+	if (face)
+		g_object_unref (face);
 
 	profile_label = gst_dialog_get_widget (tool->main_dialog, "user_settings_profile");
 	profile_button = gst_dialog_get_widget (tool->main_dialog, "edit_user_profile_button");
