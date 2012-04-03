@@ -185,7 +185,10 @@ main (int argc, gchar *argv[])
     { NULL }
   };
 
-  g_thread_init (NULL);
+  #if !GLIB_CHECK_VERSION (2, 32, 0)
+    g_thread_init (NULL);
+  #endif
+
   gst_init_tool ("network-admin", argc, argv, entries);
   tool = gst_network_tool_new ();
 

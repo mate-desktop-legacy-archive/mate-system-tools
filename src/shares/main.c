@@ -104,7 +104,10 @@ main (int argc, char *argv[])
 		{ NULL }
 	};
 
-	g_thread_init (NULL);
+	#if !GLIB_CHECK_VERSION (2, 32, 0)
+		g_thread_init (NULL);
+	#endif
+
 	gst_init_tool ("shares-admin", argc, argv, entries);
 	tool = GST_TOOL (gst_shares_tool_new ());
 
