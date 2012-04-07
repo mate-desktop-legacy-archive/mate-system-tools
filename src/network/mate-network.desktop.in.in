@@ -11,4 +11,5 @@ X-MATE-Bugzilla-Bugzilla=MATE
 X-MATE-Bugzilla-Product=mate-system-tools
 X-MATE-Bugzilla-Component=network-admin
 X-MATE-Bugzilla-Version=@VERSION@
+OnlyShowIn=MATE;
 StartupNotify=true
