@@ -1,5 +1,5 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
-/* main.c: this file is part of shares-admin, a mate-system-tool frontend 
+/* main.c: this file is part of mate-shares-admin, a mate-system-tool frontend 
  * for shared folders administration.
  * 
  * Copyright (C) 2004 Carlos Garnacho
@@ -108,7 +108,7 @@ main (int argc, char *argv[])
 		g_thread_init (NULL);
 	#endif
 
-	gst_init_tool ("shares-admin", argc, argv, entries);
+	gst_init_tool ("mate-shares-admin", argc, argv, entries);
 	tool = GST_TOOL (gst_shares_tool_new ());
 
 	initialize_tables (tool);

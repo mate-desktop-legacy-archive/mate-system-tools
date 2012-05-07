@@ -1,5 +1,5 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 2 -*- */
-/* shares-admin-module.c: this file is part of shares-admin, a mate-system-tool frontend 
+/* mate-shares-admin-module.c: this file is part of mate-shares-admin, a mate-system-tool frontend 
  * for shared folders administration.
  * 
  * Copyright (C) 2004 Carlos Garnacho

@@ -1,0 +1,723 @@
+commit 35fa75392c8c52b35c08e4e4283b8aea8f757656
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Sat Apr 7 00:39:08 2012 -0400
+
+    Added OnlyShowIn=MATE; to desktop files. Thanks, Clem.
+
+ src/network/mate-network.desktop.in.in   |    1 +
+ src/services/mate-services.desktop.in.in |    1 +
+ src/shares/mate-shares.desktop.in.in     |    1 +
+ src/time/mate-time.desktop.in.in         |    1 +
+ src/users/mate-users.desktop.in.in       |    1 +
+ 5 files changed, 5 insertions(+), 0 deletions(-)
+
+commit 96d4f4cb12e3dbf11b56ce7671b657a0bb523cba
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Tue Apr 3 00:09:38 2012 -0400
+
+    Added if macros to check for glib version. Needed to build for glib versions 2.32 and higher.
+
+ configure.in       |    2 +-
+ src/network/main.c |    5 ++++-
+ src/shares/main.c  |    5 ++++-
+ 3 files changed, 9 insertions(+), 3 deletions(-)
+
+commit 9c425f7cdf83d65f4ba2c330e00f76151c210989
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Sun Mar 25 19:05:02 2012 -0400
+
+    Preparing for 1.2.1 release
+
+ configure.in |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 5c79ea42cf94a74ccce8be58011ffd88b9ef4b54
+Merge: ea9b931 f4c96c2
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Sat Mar 17 10:54:33 2012 -0700
+
+    Merge pull request #2 from benpicco/master
+    
+    sync with upstream
+
+commit f4c96c2e060920559db941b39cea0c029da646b7
+Author: Milan Bouchet-Valat <nalimilan@club.fr>
+Date:   Wed Oct 13 10:03:32 2010 +0000
+
+    Don't unref() user face if it's NULL
+    
+    If user account doesn't have a face, pixbuf is NULL, and unreferencing
+    it shows a warning.
+
+ src/users/user-settings.c |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+commit 9433cfc409dd1ce5d17dae77e48ee595b4566f2c
+Author: Milan Bouchet-Valat <nalimilan@club.fr>
+Date:   Sat Oct 2 08:50:18 2010 +0000
+
+    Bug 631143 - Remove timezone icon from main time-admin dialog
+    
+    Remove the "stock_timezone" icon in the timezone button.
+    This icon name no longer seems to exist, and usability-wise
+    it's not a good idea anyway.
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=631143
+
+ interfaces/time.ui |   27 +++------------------------
+ 1 files changed, 3 insertions(+), 24 deletions(-)
+
+commit ea9b9314048ffc069d814a4a09fec3c812eabebd
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Mar 15 09:57:08 2012 +0100
+
+    update for 1.2
+
+ AUTHORS        |    2 ++
+ README         |    4 ++++
+ autogen.sh     |    5 ++---
+ configure.in   |    2 +-
+ po/POTFILES.in |   10 +++++-----
+ 5 files changed, 14 insertions(+), 9 deletions(-)
+
+commit 413672f4bff85dc9f82981fabdfab8074e42451c
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Tue Jan 10 14:40:15 2012 -0500
+
+    Changed mate.gr.jp to gnome.gr.jp as requested in issue #86
+
+ po/ja.po |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 4787d2d1d9fca61b301fd1a07c4f0639bedcb38e
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Dec 14 12:33:09 2011 +0100
+
+    updated info for 1.1.0
+
+ AUTHORS      |    4 ++++
+ configure.in |    4 ++--
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+
+commit 3a659fa0c1598fe2c5b23764effd42ac9afe22d7
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Fri Dec 9 23:41:45 2011 -0500
+
+    updated version
+
+ configure.in              |    4 ++--
+ distro/archlinux/PKGBUILD |    2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 2a3b6cd153d745929cb5bbb6db3a2f8949bc9045
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Fri Dec 2 21:00:05 2011 -0500
+
+    Changed version to 2011.12.01
+
+ configure.in              |    2 +-
+ distro/archlinux/PKGBUILD |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 61a0bfc54750ededb3311ddaf5b6468f12669f10
+Author: Perberos <perberos@gmail.com>
+Date:   Thu Nov 24 18:45:51 2011 -0300
+
+    fixing ubuntu bug with atk
+
+ src/time/Makefile.am |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 95cbb69707dcecacf222ac8714cbb313befe6844
+Author: Perberos <perberos@gmail.com>
+Date:   Thu Nov 24 13:42:56 2011 -0300
+
+    forget this file for omf
+
+ doc/users/C/mate-users-admin.xml |  218 ++++++++++++++++++++++++++++++++++++++
+ doc/users/C/users-admin.xml      |  218 --------------------------------------
+ 2 files changed, 218 insertions(+), 218 deletions(-)
+
+commit dad8d888a27185d4187d24e8cc58f8ed0eb6c10c
+Merge: 93464a9 30e388e
+Author: Perberos <perberos@gmail.com>
+Date:   Thu Nov 24 03:51:10 2011 -0800
+
+    Merge pull request #1 from stefano-k/master
+    
+    fixed latest omf conflict
+
+commit 30e388ee9ad702fd94a229e83f81ca3a0cb8fbec
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Nov 24 12:20:27 2011 +0100
+
+    fixed latest omf conflict
+
+ doc/users/Makefile.am             |    2 +-
+ doc/users/mate-users-admin.omf.in |   11 +++++++++++
+ doc/users/users-admin.omf.in      |   11 -----------
+ 3 files changed, 12 insertions(+), 12 deletions(-)
+
+commit 93464a90331edc7b69586ab452e738f2985e70ae
+Author: Perberos <perberos@gmail.com>
+Date:   Wed Nov 23 19:14:02 2011 -0300
+
+    adding gschemas install to archlinux script
+
+ distro/archlinux/PKGBUILD                  |   25 ++++++++++++++-----------
+ distro/archlinux/mate-system-tools.install |   19 +++++++++++++++++++
+ 2 files changed, 33 insertions(+), 11 deletions(-)
+
+commit de2ca050694a2d73c6de9ffcda9bb1d97991c08c
+Author: Perberos <perberos@gmail.com>
+Date:   Wed Nov 23 18:12:30 2011 -0300
+
+    toolname must have "mate-"
+
+ doc/network/ChangeLog    |  302 ---
+ doc/services/ChangeLog   |  320 ---
+ doc/shares/ChangeLog     |  182 --
+ doc/time/ChangeLog       |  362 ---
+ doc/users/ChangeLog      |  453 ----
+ icons/ChangeLog          |   21 -
+ interfaces/ChangeLog     | 1845 --------------
+ pixmaps/ChangeLog        |  621 -----
+ po/ChangeLog             | 6071 ----------------------------------------------
+ src/common/ChangeLog     | 2470 -------------------
+ src/network/ChangeLog    | 2571 --------------------
+ src/network/Makefile.am  |    2 +-
+ src/services/Makefile.am |    2 +-
+ src/shares/Makefile.am   |    2 +-
+ src/time/Makefile.am     |    2 +-
+ src/users/Makefile.am    |    2 +-
+ 16 files changed, 5 insertions(+), 15223 deletions(-)
+
+commit a6ab10b9920f1b94a36cf65d4af86ea4e0a45405
+Author: Perberos <perberos@gmail.com>
+Date:   Wed Nov 23 17:31:41 2011 -0300
+
+    fixing desktop files conflicts with gnome
+
+ DirsMakefile                             |   10 ++--
+ configure.in                             |   29 +++++----
+ m4/lt~obsolete.m4                        |   98 ------------------------------
+ src/network/mate-network.desktop.in.in   |   14 ++++
+ src/network/network.desktop.in.in        |   14 ----
+ src/services/mate-services.desktop.in.in |   14 ++++
+ src/services/services.desktop.in.in      |   14 ----
+ src/shares/mate-shares.desktop.in.in     |   15 +++++
+ src/shares/shares.desktop.in.in          |   15 -----
+ src/time/mate-time.desktop.in.in         |   14 ++++
+ src/time/time.desktop.in.in              |   14 ----
+ src/users/mate-users.desktop.in.in       |   14 ++++
+ src/users/users.desktop.in.in            |   14 ----
+ 13 files changed, 91 insertions(+), 188 deletions(-)
+
+commit 622ddb7e76f513dd50e65662dd9ccd9aa0629d5e
+Author: Perberos <perberos@gmail.com>
+Date:   Wed Nov 23 17:24:47 2011 -0300
+
+    removing autogenerated files
+
+ m4/intltool.m4       |  216 --
+ m4/libtool.m4        | 7982 --------------------------------------------------
+ m4/ltoptions.m4      |  384 ---
+ m4/ltsugar.m4        |  123 -
+ m4/ltversion.m4      |   23 -
+ m4/mate-doc-utils.m4 |   56 -
+ 6 files changed, 0 insertions(+), 8784 deletions(-)
+
+commit 592d760d086a9dc2a7993915848cc2a7682f4bbd
+Author: Perberos <perberos@gmail.com>
+Date:   Wed Nov 23 17:22:51 2011 -0300
+
+    fixing file conflict with gnome-system-tools
+
+ doc/network/C/mate-network-admin.xml    |  273 +++++++++++++++++++++++++++++++
+ doc/network/C/network-admin.xml         |  273 -------------------------------
+ doc/network/Makefile.am                 |    2 +-
+ doc/network/mate-network-admin.omf.in   |   11 ++
+ doc/network/network-admin.omf.in        |   11 --
+ doc/services/C/mate-services-admin.xml  |  162 ++++++++++++++++++
+ doc/services/C/services-admin.xml       |  162 ------------------
+ doc/services/Makefile.am                |    2 +-
+ doc/services/mate-services-admin.omf.in |   11 ++
+ doc/services/services-admin.omf.in      |   11 --
+ doc/shares/C/mate-shares-admin.xml      |  192 ++++++++++++++++++++++
+ doc/shares/C/shares-admin.xml           |  192 ----------------------
+ doc/shares/Makefile.am                  |    2 +-
+ doc/shares/mate-shares-admin.omf.in     |   11 ++
+ doc/shares/shares-admin.omf.in          |   11 --
+ doc/time/C/mate-time-admin.xml          |  249 ++++++++++++++++++++++++++++
+ doc/time/C/time-admin.xml               |  249 ----------------------------
+ doc/time/Makefile.am                    |    2 +-
+ doc/time/mate-time-admin.omf.in         |   11 ++
+ doc/time/time-admin.omf.in              |   11 --
+ 20 files changed, 924 insertions(+), 924 deletions(-)
+
+commit d743eef2226ce0ce544c63bb7be5c29fb94d81e7
+Author: Perberos <perberos@gmail.com>
+Date:   Wed Nov 23 16:53:36 2011 -0300
+
+    moved from mate-extra
+
+ AUTHORS                                     |   21 +
+ BUGS                                        |   73 +
+ COPYING                                     |  340 ++
+ DirsMakefile                                |   14 +
+ HACKING                                     |  143 +
+ Makefile.am                                 |   52 +
+ NEWS                                        |   16 +
+ README                                      |   34 +
+ TODO                                        |   17 +
+ autogen.sh                                  |   25 +
+ configure.in                                |  355 ++
+ distro/archlinux/PKGBUILD                   |   31 +
+ doc/Makefile.am                             |    3 +
+ doc/network/C/figures/network-tool.png      |  Bin 0 -> 35397 bytes
+ doc/network/C/legal.xml                     |   76 +
+ doc/network/C/network-admin.xml             |  273 +
+ doc/network/ChangeLog                       |  302 +
+ doc/network/Makefile.am                     |   12 +
+ doc/network/ca/ca.po                        |  331 ++
+ doc/network/ca/figures/network-tool.png     |  Bin 0 -> 40891 bytes
+ doc/network/cs/cs.po                        |  542 ++
+ doc/network/cs/figures/network-tool.png     |  Bin 0 -> 40772 bytes
+ doc/network/de/de.po                        |  556 ++
+ doc/network/de/figures/network-tool.png     |  Bin 0 -> 37891 bytes
+ doc/network/el/el.po                        |  337 ++
+ doc/network/en_GB/en_GB.po                  |  540 ++
+ doc/network/es/es.po                        |  562 ++
+ doc/network/es/figures/network-tool.png     |  Bin 0 -> 45284 bytes
+ doc/network/fr/figures/network-tool.png     |  Bin 0 -> 37665 bytes
+ doc/network/fr/fr.po                        |  568 ++
+ doc/network/it/it.po                        |  556 ++
+ doc/network/network-admin.omf.in            |   11 +
+ doc/network/oc/oc.po                        |  442 ++
+ doc/network/sv/figures/network-tool.png     |  Bin 0 -> 30992 bytes
+ doc/network/sv/sv.po                        |  348 ++
+ doc/network/zh_CN/zh_CN.po                  |  501 ++
+ doc/services/C/figures/services-tool.png    |  Bin 0 -> 60481 bytes
+ doc/services/C/legal.xml                    |   76 +
+ doc/services/C/services-admin.xml           |  162 +
+ doc/services/ChangeLog                      |  320 ++
+ doc/services/Makefile.am                    |   15 +
+ doc/services/ca/ca.po                       |  179 +
+ doc/services/ca/figures/services-tool.png   |  Bin 0 -> 63692 bytes
+ doc/services/cs/cs.po                       |  191 +
+ doc/services/cs/figures/services-tool.png   |  Bin 0 -> 91615 bytes
+ doc/services/de/de.po                       |  184 +
+ doc/services/de/figures/services-tool.png   |  Bin 0 -> 61137 bytes
+ doc/services/el/el.po                       |  316 ++
+ doc/services/el/figures/services-tool.png   |  Bin 0 -> 65454 bytes
+ doc/services/en_GB/en_GB.po                 |  300 +
+ doc/services/es/es.po                       |  313 ++
+ doc/services/es/figures/services-tool.png   |  Bin 0 -> 66126 bytes
+ doc/services/fr/figures/services-tool.png   |  Bin 0 -> 62778 bytes
+ doc/services/fr/fr.po                       |  318 ++
+ doc/services/gl/gl.po                       |  269 +
+ doc/services/it/figures/services-tool.png   |  Bin 0 -> 57226 bytes
+ doc/services/it/it.po                       |  312 ++
+ doc/services/nl/Makefile.am                 |   12 +
+ doc/services/nl/figures/services-tool.png   |  Bin 0 -> 59855 bytes
+ doc/services/nl/legal.xml                   |   76 +
+ doc/services/nl/services-admin-nl.omf       |   30 +
+ doc/services/nl/services-admin.xml          |  211 +
+ doc/services/oc/oc.po                       |  248 +
+ doc/services/pl/figures/services-tool.png   |  Bin 0 -> 59821 bytes
+ doc/services/pl/pl.po                       |  200 +
+ doc/services/pt_BR/pt_BR.po                 |  308 ++
+ doc/services/services-admin.omf.in          |   11 +
+ doc/services/sv/figures/services-tool.png   |  Bin 0 -> 54081 bytes
+ doc/services/sv/sv.po                       |  194 +
+ doc/services/zh_CN/zh_CN.po                 |  275 +
+ doc/shares/C/figures/shares-tool.png        |  Bin 0 -> 20480 bytes
+ doc/shares/C/legal.xml                      |   76 +
+ doc/shares/C/shares-admin.xml               |  192 +
+ doc/shares/ChangeLog                        |  182 +
+ doc/shares/Makefile.am                      |   10 +
+ doc/shares/ca/ca.po                         |  231 +
+ doc/shares/ca/figures/shares-tool.png       |  Bin 0 -> 25065 bytes
+ doc/shares/cs/cs.po                         |  393 ++
+ doc/shares/cs/figures/shares-tool.png       |  Bin 0 -> 28072 bytes
+ doc/shares/de/de.po                         |  410 ++
+ doc/shares/de/figures/shares-tool.png       |  Bin 0 -> 30571 bytes
+ doc/shares/el/el.po                         |  400 ++
+ doc/shares/el/figures/shares-tool.png       |  Bin 0 -> 31253 bytes
+ doc/shares/en_GB/en_GB.po                   |  389 ++
+ doc/shares/es/es.po                         |  409 ++
+ doc/shares/es/figures/shares-tool.png       |  Bin 0 -> 28194 bytes
+ doc/shares/fr/figures/shares-tool.png       |  Bin 0 -> 24301 bytes
+ doc/shares/fr/fr.po                         |  413 ++
+ doc/shares/gl/gl.po                         |  368 ++
+ doc/shares/it/it.po                         |  398 ++
+ doc/shares/oc/oc.po                         |  315 ++
+ doc/shares/pt_BR/figures/shares-tool.png    |  Bin 0 -> 29488 bytes
+ doc/shares/pt_BR/pt_BR.po                   |  403 ++
+ doc/shares/shares-admin.omf.in              |   11 +
+ doc/shares/sv/figures/shares-tool.png       |  Bin 0 -> 22786 bytes
+ doc/shares/sv/sv.po                         |  232 +
+ doc/shares/zh_CN/zh_CN.po                   |  358 ++
+ doc/time/C/figures/time-map.png             |  Bin 0 -> 121922 bytes
+ doc/time/C/figures/time-servers.png         |  Bin 0 -> 32250 bytes
+ doc/time/C/figures/time-tool-automatic.png  |  Bin 0 -> 20203 bytes
+ doc/time/C/figures/time-tool-manual.png     |  Bin 0 -> 31185 bytes
+ doc/time/C/legal.xml                        |   76 +
+ doc/time/C/time-admin.xml                   |  249 +
+ doc/time/ChangeLog                          |  362 ++
+ doc/time/Makefile.am                        |   18 +
+ doc/time/ca/ca.po                           |  449 ++
+ doc/time/ca/figures/time-map.png            |  Bin 0 -> 121675 bytes
+ doc/time/ca/figures/time-servers.png        |  Bin 0 -> 33456 bytes
+ doc/time/ca/figures/time-tool-automatic.png |  Bin 0 -> 21839 bytes
+ doc/time/ca/figures/time-tool-manual.png    |  Bin 0 -> 30757 bytes
+ doc/time/cs/cs.po                           |  438 ++
+ doc/time/cs/figures/time-map.png            |  Bin 0 -> 121975 bytes
+ doc/time/cs/figures/time-servers.png        |  Bin 0 -> 24718 bytes
+ doc/time/cs/figures/time-tool-automatic.png |  Bin 0 -> 26458 bytes
+ doc/time/cs/figures/time-tool-manual.png    |  Bin 0 -> 37011 bytes
+ doc/time/de/de.po                           |  452 ++
+ doc/time/de/figures/time-map.png            |  Bin 0 -> 159512 bytes
+ doc/time/de/figures/time-servers.png        |  Bin 0 -> 33163 bytes
+ doc/time/de/figures/time-tool-automatic.png |  Bin 0 -> 26370 bytes
+ doc/time/de/figures/time-tool-manual.png    |  Bin 0 -> 27879 bytes
+ doc/time/el/el.po                           |  451 ++
+ doc/time/en_GB/en_GB.po                     |  434 ++
+ doc/time/es/es.po                           |  454 ++
+ doc/time/es/figures/time-map.png            |  Bin 0 -> 120681 bytes
+ doc/time/es/figures/time-servers.png        |  Bin 0 -> 36731 bytes
+ doc/time/es/figures/time-tool-automatic.png |  Bin 0 -> 25468 bytes
+ doc/time/es/figures/time-tool-manual.png    |  Bin 0 -> 36657 bytes
+ doc/time/fr/figures/time-map.png            |  Bin 0 -> 123061 bytes
+ doc/time/fr/figures/time-servers.png        |  Bin 0 -> 33421 bytes
+ doc/time/fr/figures/time-tool-automatic.png |  Bin 0 -> 21504 bytes
+ doc/time/fr/figures/time-tool-manual.png    |  Bin 0 -> 29280 bytes
+ doc/time/fr/fr.po                           |  462 ++
+ doc/time/gl/gl.po                           |  409 ++
+ doc/time/it/figures/time-map.png            |  Bin 0 -> 121308 bytes
+ doc/time/it/figures/time-servers.png        |  Bin 0 -> 36770 bytes
+ doc/time/it/figures/time-tool-automatic.png |  Bin 0 -> 22216 bytes
+ doc/time/it/figures/time-tool-manual.png    |  Bin 0 -> 35514 bytes
+ doc/time/it/it.po                           |  448 ++
+ doc/time/nl/Makefile.am                     |   12 +
+ doc/time/nl/figures/time-map.png            |  Bin 0 -> 123483 bytes
+ doc/time/nl/figures/time-servers.png        |  Bin 0 -> 33576 bytes
+ doc/time/nl/figures/time-tool-manual.png    |  Bin 0 -> 31467 bytes
+ doc/time/nl/legal.xml                       |   76 +
+ doc/time/nl/time-admin-nl.omf               |   31 +
+ doc/time/nl/time-admin.xml                  |  211 +
+ doc/time/oc/oc.po                           |  365 ++
+ doc/time/pt_BR/pt_BR.po                     |  450 ++
+ doc/time/ru/ru.po                           |  361 ++
+ doc/time/sv/figures/time-map.png            |  Bin 0 -> 122563 bytes
+ doc/time/sv/figures/time-servers.png        |  Bin 0 -> 32680 bytes
+ doc/time/sv/figures/time-tool-automatic.png |  Bin 0 -> 20464 bytes
+ doc/time/sv/figures/time-tool-manual.png    |  Bin 0 -> 29702 bytes
+ doc/time/sv/sv.po                           |  294 +
+ doc/time/time-admin.omf.in                  |   11 +
+ doc/time/zh_CN/zh_CN.po                     |  403 ++
+ doc/users/C/figures/groups.png              |  Bin 0 -> 20699 bytes
+ doc/users/C/figures/users-tool.png          |  Bin 0 -> 23264 bytes
+ doc/users/C/legal.xml                       |   76 +
+ doc/users/C/users-admin.xml                 |  218 +
+ doc/users/ChangeLog                         |  453 ++
+ doc/users/Makefile.am                       |   12 +
+ doc/users/ca/ca.po                          |  446 ++
+ doc/users/ca/figures/groups.png             |  Bin 0 -> 24603 bytes
+ doc/users/ca/figures/users-tool.png         |  Bin 0 -> 26762 bytes
+ doc/users/cs/cs.po                          |  438 ++
+ doc/users/cs/figures/groups.png             |  Bin 0 -> 24006 bytes
+ doc/users/cs/figures/users-tool.png         |  Bin 0 -> 35749 bytes
+ doc/users/de/de.po                          |  453 ++
+ doc/users/de/figures/groups.png             |  Bin 0 -> 17926 bytes
+ doc/users/de/figures/users-tool.png         |  Bin 0 -> 29788 bytes
+ doc/users/el/el.po                          |  458 ++
+ doc/users/el/figures/groups.png             |  Bin 0 -> 24285 bytes
+ doc/users/el/figures/users-tool.png         |  Bin 0 -> 30297 bytes
+ doc/users/en_GB/en_GB.po                    |  433 ++
+ doc/users/es/es.po                          |  458 ++
+ doc/users/es/figures/groups.png             |  Bin 0 -> 27804 bytes
+ doc/users/es/figures/users-tool.png         |  Bin 0 -> 36468 bytes
+ doc/users/fr/figures/groups.png             |  Bin 0 -> 21358 bytes
+ doc/users/fr/figures/users-tool.png         |  Bin 0 -> 19575 bytes
+ doc/users/fr/fr.po                          |  452 ++
+ doc/users/gl/gl.po                          |  411 ++
+ doc/users/it/figures/groups.png             |  Bin 0 -> 26025 bytes
+ doc/users/it/figures/users-tool.png         |  Bin 0 -> 30695 bytes
+ doc/users/it/it.po                          |  442 ++
+ doc/users/oc/oc.po                          |  354 ++
+ doc/users/pt_BR/figures/groups.png          |  Bin 0 -> 26361 bytes
+ doc/users/pt_BR/figures/users-tool.png      |  Bin 0 -> 33105 bytes
+ doc/users/pt_BR/pt_BR.po                    |  443 ++
+ doc/users/ru/ru.po                          |  467 ++
+ doc/users/sv/figures/groups.png             |  Bin 0 -> 23007 bytes
+ doc/users/sv/figures/users-tool.png         |  Bin 0 -> 26605 bytes
+ doc/users/sv/sv.po                          |  274 +
+ doc/users/users-admin.omf.in                |   11 +
+ doc/users/zh_CN/zh_CN.po                    |  392 ++
+ icons/16x16/Makefile.am                     |    4 +
+ icons/16x16/apps/Makefile.am                |   17 +
+ icons/16x16/apps/time-admin.png             |  Bin 0 -> 795 bytes
+ icons/16x16/apps/time-admin.svg             |  457 ++
+ icons/22x22/Makefile.am                     |    4 +
+ icons/22x22/apps/Makefile.am                |   17 +
+ icons/22x22/apps/time-admin.png             |  Bin 0 -> 1217 bytes
+ icons/22x22/apps/time-admin.svg             |  561 ++
+ icons/24x24/Makefile.am                     |    4 +
+ icons/24x24/apps/Makefile.am                |   13 +
+ icons/24x24/apps/time-admin.png             |  Bin 0 -> 2163 bytes
+ icons/32x32/Makefile.am                     |    4 +
+ icons/32x32/apps/Makefile.am                |   17 +
+ icons/32x32/apps/time-admin.png             |  Bin 0 -> 1982 bytes
+ icons/32x32/apps/time-admin.svg             |  687 +++
+ icons/48x48/Makefile.am                     |    4 +
+ icons/48x48/apps/Makefile.am                |   14 +
+ icons/48x48/apps/time-admin.png             |  Bin 0 -> 3838 bytes
+ icons/48x48/devices/Makefile.am             |   15 +
+ icons/48x48/devices/irda.png                |  Bin 0 -> 2227 bytes
+ icons/48x48/devices/plip.png                |  Bin 0 -> 1820 bytes
+ icons/ChangeLog                             |   21 +
+ icons/Makefile.am                           |   16 +
+ icons/scalable/Makefile.am                  |    4 +
+ icons/scalable/apps/Makefile.am             |   17 +
+ icons/scalable/apps/time-admin.svg          |  847 +++
+ interfaces/ChangeLog                        | 1845 +++++++
+ interfaces/Makefile.am                      |   15 +
+ interfaces/common.ui                        |   86 +
+ interfaces/network.ui                       | 1820 ++++++
+ interfaces/services.ui                      |  132 +
+ interfaces/shares.ui                        | 1044 ++++
+ interfaces/time.ui                          |  642 +++
+ interfaces/users.ui                         | 3314 +++++++++++
+ m4/intltool.m4                              |  216 +
+ m4/libtool.m4                               | 7982 +++++++++++++++++++++++++++
+ m4/ltoptions.m4                             |  384 ++
+ m4/ltsugar.m4                               |  123 +
+ m4/ltversion.m4                             |   23 +
+ m4/lt~obsolete.m4                           |   98 +
+ m4/mate-doc-utils.m4                        |   56 +
+ mate-system-tools.pc.in                     |   14 +
+ org.mate.system-tools.gschema.xml.in        |   18 +
+ pixmaps/ChangeLog                           |  621 +++
+ pixmaps/Makefile.am                         |    7 +
+ pixmaps/world_map-960.png                   |  Bin 0 -> 111584 bytes
+ po/ChangeLog                                | 6071 ++++++++++++++++++++
+ po/LINGUAS                                  |   90 +
+ po/POTFILES.in                              |   58 +
+ po/POTFILES.skip                            |   38 +
+ po/af.po                                    | 2079 +++++++
+ po/am.po                                    | 4300 +++++++++++++++
+ po/ar.po                                    | 2327 ++++++++
+ po/as.po                                    | 1812 ++++++
+ po/ast.po                                   | 1965 +++++++
+ po/az.po                                    | 2421 ++++++++
+ po/be.po                                    | 2173 ++++++++
+ po/be@latin.po                              | 1758 ++++++
+ po/bg.po                                    | 2211 ++++++++
+ po/bn.po                                    | 2253 ++++++++
+ po/bn_IN.po                                 | 1842 ++++++
+ po/br.po                                    | 1827 ++++++
+ po/ca.po                                    | 3774 +++++++++++++
+ po/ca@valencia.po                           | 3774 +++++++++++++
+ po/cs.po                                    | 2202 ++++++++
+ po/cy.po                                    | 2037 +++++++
+ po/da.po                                    | 2915 ++++++++++
+ po/de.po                                    | 2758 +++++++++
+ po/dz.po                                    | 2290 ++++++++
+ po/el.po                                    | 2316 ++++++++
+ po/en@shaw.po                               | 2195 ++++++++
+ po/en_CA.po                                 | 1997 +++++++
+ po/en_GB.po                                 | 2990 ++++++++++
+ po/eo.po                                    | 2133 +++++++
+ po/es.po                                    | 2361 ++++++++
+ po/et.po                                    | 1760 ++++++
+ po/eu.po                                    | 2099 +++++++
+ po/fa.po                                    | 1981 +++++++
+ po/fi.po                                    | 2196 ++++++++
+ po/fr.po                                    | 2232 ++++++++
+ po/ga.po                                    | 1804 ++++++
+ po/gl.po                                    | 2226 ++++++++
+ po/gu.po                                    | 1849 +++++++
+ po/he.po                                    | 2314 ++++++++
+ po/hi.po                                    | 1739 ++++++
+ po/hr.po                                    | 1751 ++++++
+ po/hu.po                                    | 2199 ++++++++
+ po/id.po                                    | 2539 +++++++++
+ po/is.po                                    | 1733 ++++++
+ po/it.po                                    | 2217 ++++++++
+ po/ja.po                                    | 2291 ++++++++
+ po/ka.po                                    | 1939 +++++++
+ po/kn.po                                    | 1723 ++++++
+ po/ko.po                                    | 2054 +++++++
+ po/ku.po                                    | 2230 ++++++++
+ po/lt.po                                    | 2335 ++++++++
+ po/lv.po                                    | 2234 ++++++++
+ po/mai.po                                   | 1785 ++++++
+ po/mg.po                                    | 1374 +++++
+ po/mk.po                                    | 1753 ++++++
+ po/ml.po                                    | 1798 ++++++
+ po/mn.po                                    | 1896 +++++++
+ po/mr.po                                    | 1810 ++++++
+ po/ms.po                                    | 2734 +++++++++
+ po/nb.po                                    | 2146 +++++++
+ po/nds.po                                   | 1778 ++++++
+ po/ne.po                                    | 1910 +++++++
+ po/nl.po                                    | 4662 ++++++++++++++++
+ po/nn.po                                    | 4543 +++++++++++++++
+ po/oc.po                                    | 1756 ++++++
+ po/or.po                                    | 1747 ++++++
+ po/pa.po                                    | 2316 ++++++++
+ po/pl.po                                    | 2209 ++++++++
+ po/ps.po                                    | 1721 ++++++
+ po/pt.po                                    | 3700 +++++++++++++
+ po/pt_BR.po                                 | 3325 +++++++++++
+ po/ro.po                                    | 2131 +++++++
+ po/ru.po                                    | 2129 +++++++
+ po/rw.po                                    | 2267 ++++++++
+ po/si.po                                    | 1651 ++++++
+ po/sk.po                                    | 1751 ++++++
+ po/sl.po                                    | 2298 ++++++++
+ po/sq.po                                    | 1996 +++++++
+ po/sr.po                                    | 2397 ++++++++
+ po/sr@latin.po                              | 2397 ++++++++
+ po/sv.po                                    | 2706 +++++++++
+ po/ta.po                                    | 2195 ++++++++
+ po/te.po                                    | 1803 ++++++
+ po/th.po                                    | 2511 +++++++++
+ po/tr.po                                    | 1882 +++++++
+ po/ug.po                                    | 2208 ++++++++
+ po/uk.po                                    | 2104 +++++++
+ po/vi.po                                    | 1770 ++++++
+ po/wa.po                                    | 2223 ++++++++
+ po/xh.po                                    | 2019 +++++++
+ po/zh_CN.po                                 | 2304 ++++++++
+ po/zh_HK.po                                 | 2252 ++++++++
+ po/zh_TW.po                                 | 2272 ++++++++
+ src/Makefile.am                             |   29 +
+ src/common/ChangeLog                        | 2470 +++++++++
+ src/common/CommonMakefile                   |    7 +
+ src/common/Makefile.am                      |   28 +
+ src/common/gst-dialog.c                     |  725 +++
+ src/common/gst-dialog.h                     |   95 +
+ src/common/gst-filter.c                     |  243 +
+ src/common/gst-filter.h                     |   45 +
+ src/common/gst-platform-dialog.c            |  413 ++
+ src/common/gst-platform-dialog.h            |   59 +
+ src/common/gst-service-role.c               |  260 +
+ src/common/gst-service-role.h               |  112 +
+ src/common/gst-tool.c                       |  699 +++
+ src/common/gst-tool.h                       |  128 +
+ src/common/gst.h                            |    6 +
+ src/network/ChangeLog                       | 2571 +++++++++
+ src/network/Makefile.am                     |   48 +
+ src/network/TODO                            |    2 +
+ src/network/address-list.c                  |  577 ++
+ src/network/address-list.h                  |   74 +
+ src/network/callbacks.c                     |  575 ++
+ src/network/callbacks.h                     |   76 +
+ src/network/connection.c                    |  925 ++++
+ src/network/connection.h                    |  118 +
+ src/network/essid-list.c                    |  376 ++
+ src/network/essid-list.h                    |   70 +
+ src/network/hosts.c                         |  386 ++
+ src/network/hosts.h                         |   42 +
+ src/network/ifaces-list.c                   |  487 ++
+ src/network/ifaces-list.h                   |   53 +
+ src/network/locations-combo.c               |  511 ++
+ src/network/locations-combo.h               |   61 +
+ src/network/main.c                          |  207 +
+ src/network/network-locations.c             | 1152 ++++
+ src/network/network-locations.h             |   70 +
+ src/network/network-tool.c                  |  283 +
+ src/network/network-tool.h                  |   81 +
+ src/network/network.desktop.in.in           |   14 +
+ src/network/nm-integration.c                |   93 +
+ src/network/nm-integration.h                |   44 +
+ src/services/ChangeLog                      |  551 ++
+ src/services/Makefile.am                    |   35 +
+ src/services/callbacks.c                    |  233 +
+ src/services/callbacks.h                    |   47 +
+ src/services/main.c                         |   57 +
+ src/services/service-settings-table.c       |  307 +
+ src/services/service-settings-table.h       |   25 +
+ src/services/service.c                      |  115 +
+ src/services/service.h                      |   41 +
+ src/services/services-tool.c                |  110 +
+ src/services/services-tool.h                |   56 +
+ src/services/services.desktop.in.in         |   14 +
+ src/services/table.c                        |  221 +
+ src/services/table.h                        |   47 +
+ src/shares/ChangeLog                        |  561 ++
+ src/shares/Makefile.am                      |   35 +
+ src/shares/caja/Makefile.am                 |   21 +
+ src/shares/caja/caja-shares.c               |  359 ++
+ src/shares/caja/caja-shares.h               |   66 +
+ src/shares/caja/gst-shares-module.c         |   54 +
+ src/shares/callbacks.c                      |  415 ++
+ src/shares/callbacks.h                      |   52 +
+ src/shares/main.c                           |  124 +
+ src/shares/nfs-acl-table.c                  |  114 +
+ src/shares/nfs-acl-table.h                  |   39 +
+ src/shares/share-nfs-add-hosts.c            |  263 +
+ src/shares/share-nfs-add-hosts.h            |   49 +
+ src/shares/share-settings.c                 |  514 ++
+ src/shares/share-settings.h                 |   48 +
+ src/shares/shares-tool.c                    |  240 +
+ src/shares/shares-tool.h                    |   66 +
+ src/shares/shares.desktop.in.in             |   15 +
+ src/shares/table.c                          |  271 +
+ src/shares/table.h                          |   49 +
+ src/shares/users-table.c                    |  179 +
+ src/shares/users-table.h                    |   38 +
+ src/time/ChangeLog                          | 1018 ++++
+ src/time/Makefile.am                        |   33 +
+ src/time/e-map/ChangeLog                    |  325 ++
+ src/time/e-map/Makefile.am                  |   33 +
+ src/time/e-map/e-map-marshal.list           |    1 +
+ src/time/e-map/e-map.c                      | 1769 ++++++
+ src/time/e-map/e-map.h                      |  152 +
+ src/time/main.c                             |  161 +
+ src/time/ntp-servers-list.c                 |  320 ++
+ src/time/ntp-servers-list.h                 |   35 +
+ src/time/time-tool.c                        |  778 +++
+ src/time/time-tool.h                        |   63 +
+ src/time/time.desktop.in.in                 |   14 +
+ src/time/tz-map.c                           |  432 ++
+ src/time/tz-map.h                           |   58 +
+ src/time/tz.c                               |  336 ++
+ src/time/tz.h                               |   82 +
+ src/users/ChangeLog                         | 1775 ++++++
+ src/users/Makefile.am                       |   58 +
+ src/users/TODO                              |   19 +
+ src/users/callbacks.c                       |  308 ++
+ src/users/callbacks.h                       |   60 +
+ src/users/group-members-table.c             |  180 +
+ src/users/group-members-table.h             |   24 +
+ src/users/group-settings.c                  |  325 ++
+ src/users/group-settings.h                  |   46 +
+ src/users/groups-table.c                    |  194 +
+ src/users/groups-table.h                    |   63 +
+ src/users/main.c                            |   94 +
+ src/users/passwd.c                          |   67 +
+ src/users/passwd.h                          |   33 +
+ src/users/privileges-table.c                |  337 ++
+ src/users/privileges-table.h                |   44 +
+ src/users/run-passwd.c                      |  757 +++
+ src/users/run-passwd.h                      |   58 +
+ src/users/table.c                           |  211 +
+ src/users/table.h                           |   42 +
+ src/users/test-battery.c                    |   64 +
+ src/users/test-battery.h                    |   33 +
+ src/users/user-password.c                   |  571 ++
+ src/users/user-password.h                   |   36 +
+ src/users/user-profiles.c                   |  419 ++
+ src/users/user-profiles.conf.in             |   10 +
+ src/users/user-profiles.h                   |   84 +
+ src/users/user-settings.c                   | 1475 +++++
+ src/users/user-settings.h                   |   52 +
+ src/users/users-table.c                     |  387 ++
+ src/users/users-table.h                     |   67 +
+ src/users/users-tool.c                      |  292 +
+ src/users/users-tool.h                      |   73 +
+ src/users/users.desktop.in.in               |   14 +
+ 459 files changed, 289730 insertions(+), 0 deletions(-)

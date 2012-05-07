@@ -1,5 +1,5 @@
 /* -*- Mode: C; c-file-style: "gnu"; tab-width: 8 -*- */
-/* caja-gst-shares.c: this file is part of shares-admin, a mate-system-tool frontend 
+/* caja-gst-shares.c: this file is part of mate-shares-admin, a mate-system-tool frontend 
  * for shared folders administration.
  * 
  * Copyright (C) 2004 Carlos Garnacho
@@ -97,7 +97,7 @@ on_menu_item_activate (CajaMenuItem *menu_item,
   dir  = get_path_from_file_info (info);
 
   args = g_new0 (char *, 3);
-  args[0] = g_strdup ("shares-admin");
+  args[0] = g_strdup ("mate-shares-admin");
   args[1] = g_strdup_printf ("--add-share=%s", dir);
 
   g_spawn_async (NULL, args, NULL,
