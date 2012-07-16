@@ -3,20 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Manoj Kumar Giri <mgiri@redhat.com>, 2009.
-# Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:53+0000\n"
+"PO-Revision-Date: 2012-03-15 08:47+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Interlingua (http://www.transifex.com/projects/p/MATE/language/ia/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: or\n"
+"Language: ia\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../interfaces/network.ui.h:1
@@ -53,236 +51,236 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:9
 msgid "Location:"
-msgstr "ଅବସ୍ଥାନ:"
+msgstr ""
 
 #: ../interfaces/network.ui.h:10
 msgid "Save current network configuration as a location"
-msgstr "ପ୍ରଚଳିତ ନେଟୱର୍କ ସଂରଚନାକୁ ଗୋଟିଏ ଅବସ୍ଥାନ ଭାବରେ ସଂରକ୍ଷଣ କରନ୍ତୁ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
-msgstr "ପ୍ରଚଳିତ ଅବସ୍ଥାନକୁ ଅପସାରଣ କରନ୍ତୁ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:12
 msgid "Connections"
-msgstr "ସଂଯୋଗ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:13
 msgid "_Host name:"
-msgstr "ଆଧାର ନାମ (_H):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:14
 msgid "D_omain name:"
-msgstr "ପରିସର ନାମ (_o):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:15
 msgid "Host Settings"
-msgstr "ଆଧାର ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
 msgid "General"
-msgstr "ସାଧାରଣ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:17
 msgid "DNS Servers"
-msgstr "DNS ସେବକ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:18
 msgid "Search Domains"
-msgstr "ପରିସର ମାନଙ୍କୁ ଖୋଜନ୍ତୁ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:19
 msgid "DNS"
-msgstr "DNS"
+msgstr ""
 
 #: ../interfaces/network.ui.h:20
 msgid "Hosts"
-msgstr "ଆଧାର"
+msgstr ""
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
-msgstr "ଅନ୍ତରାପ୍ରୁଷ୍ଠ ଗୁଣଧର୍ମ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:22
 msgid "E_nable this connection"
-msgstr "ଏହି ସଂଯୋଗକୁ ସକ୍ରିୟ କରନ୍ତୁ (_n)"
+msgstr ""
 
 #: ../interfaces/network.ui.h:23
 msgid "E_nable roaming mode"
-msgstr "ଘୁରିବୁଲିବା ପଦ୍ଧତିକୁ ସକ୍ରିୟ କରନ୍ତୁ (_n)"
+msgstr ""
 
 #: ../interfaces/network.ui.h:24
 msgid "Connection type:"
-msgstr "ସଂଯୋଗ ପ୍ରକାର:"
+msgstr ""
 
 #: ../interfaces/network.ui.h:25
 msgid "Network name (_ESSID):"
-msgstr "ନେଟଓ୍ବାର୍କ ନାମ (_ESSID):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:26
 msgid "Network _password:"
-msgstr "ନେଟଓ୍ବାର୍କ ପ୍ରବେଶ ସଙ୍କେତ (_p):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:27
 msgid "Password _type:"
-msgstr "ପ୍ରବେଶ ସଙ୍କେତର ପ୍ରକାର (_t):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
-msgstr "ବେତାର ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:29
 msgid "Con_figuration:"
-msgstr "ବିନ୍ଯାସ (_f):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:30
 msgid "_IP address:"
-msgstr "ଆଇ.ପି. ଠିକଣା:"
+msgstr ""
 
 #: ../interfaces/network.ui.h:31
 msgid "_Subnet mask:"
-msgstr "ସବନେଟ ମାସ୍କ (_S):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:32
 msgid "_Gateway address:"
-msgstr "ଗେଟ-ଓ୍ବେ ଠିକଣା (_G):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:33
 msgid "Connection Settings"
-msgstr "ସଂଯୋଗ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:34
 msgid "_Local IP:"
-msgstr "ସ୍ଥାନୀୟ ଆଇ.ପି. (_L):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:35
 msgid "_Remote IP:"
-msgstr "ଦୂର ଆଇ.ପି. (_R):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:36
 msgid "_Phone number:"
-msgstr "ଫୋନ ନମ୍ବର (_P):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
-msgstr "ଉପସର୍ଗକୁ ଡାଏଲ କରନ୍ତୁ (_D):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
 msgid "Access point name:"
-msgstr "ଅଭିଗମ୍ୟ ବିନ୍ଦୁ ନାମ:"
+msgstr ""
 
 #: ../interfaces/network.ui.h:39
 msgid "Internet service provider data"
-msgstr "ଇଣ୍ଟରନେଟ ସେବା ପ୍ରଦାନକର୍ତାଙ୍କ ତଥ୍ଯ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
 msgid "_Username:"
-msgstr "ଚାଳକ ନାମ (_U):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:41
 msgid "P_assword"
-msgstr "ପ୍ରବେଶ ସଙ୍କେତ (_a)"
+msgstr ""
 
 #: ../interfaces/network.ui.h:42
 msgid "Account data"
-msgstr "ଖାତାରେ ଥିବା ତଥ୍ଯ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:43
 msgid "_Modem port:"
-msgstr "ମୋଡେମ ସଂଯୋଗିକୀ (_M):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
-msgstr "ଡାଏଲ ପ୍ରକାର (_D):"
+msgstr ""
 
 #. TRANSLATORS: Volume as in loudness
 #: ../interfaces/network.ui.h:46
 msgid "_Volume:"
-msgstr "ପ୍ରବଳତା (_V):"
+msgstr ""
 
 #: ../interfaces/network.ui.h:47
 msgid "_Autodetect"
-msgstr "ସ୍ବତଃ ସନ୍ଧାନ (_A)"
+msgstr ""
 
 #: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
 msgid "Ethernet interface:"
-msgstr "ଇଥରନେଟ ଅନ୍ତରାପୃଷ୍ଠ:"
+msgstr ""
 
 #: ../interfaces/network.ui.h:49
 msgid "Modem Settings"
-msgstr "ମୋଡେମ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:50
 msgid "Modem"
-msgstr "ମୋଡେମ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:51
 msgid "_Set modem as default route to internet"
-msgstr "ଇଣ୍ଟରନେଟ ସହିତ ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ପଥ ପାଇଁ ମୋଡେମକୁ ବିନ୍ଯାସ କରନ୍ତୁ (_S)"
+msgstr ""
 
 #: ../interfaces/network.ui.h:52
 msgid "Use the Internet service provider nameservers"
-msgstr "ଇଣ୍ଟରନେଟ ସେବା ପ୍ରଦାନକର୍ତାଙ୍କ ନାମ ସେବକକୁ ବ୍ଯବହାର କରନ୍ତୁ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:53
 msgid "_Retry if the connection breaks or fails to start"
-msgstr "ଯଦି ସମ୍ପର୍କଟି ଭାଙ୍ଗିଯାଏ କିମ୍ବା ସମ୍ପର୍କ ସ୍ଥାପନ କରିବାରେ ବିଳମ୍ବ ହୁଏ ତାହାହେଲେ ପୁନର୍ବାର ପ୍ରଚେଷ୍ଟା କରନ୍ତୁ (_R)"
+msgstr ""
 
 #: ../interfaces/network.ui.h:54
 msgid "Options"
-msgstr "ବିକଲ୍ପ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:55
 msgid "Host Alias Properties"
-msgstr "ଆଧାର ଉପନାମ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
 msgid "IP address:"
-msgstr "ଆଇ.ପି. ଠିକଣା:"
+msgstr ""
 
 #: ../interfaces/network.ui.h:57
 msgid "Aliases:"
-msgstr "ଉପନାମ:"
+msgstr ""
 
 #: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
-msgstr "ଆପଣ ସକ୍ରିୟ କରିବାକୁ ଚାହୁଁଥିବା ସେବା ମାନଙ୍କୁ ଚୟନ କରନ୍ତୁ:"
+msgstr ""
 
 #: ../interfaces/services.ui.h:2
 msgid "Advanced settings:"
-msgstr "ଉନ୍ନତ ବିନ୍ଯାସ:"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:1
 msgid "_Path:"
-msgstr "ପଥ (_P):"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:2
 msgid "Share through:"
-msgstr "ଏହା ସହିତ ଭାଗ କରନ୍ତୁ:"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:3
 msgid "Shared Folder"
-msgstr "ସହଭାଗ ଫୋଲଡର"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:4
 msgid "Comment:"
-msgstr "ଟିପ୍ପଣୀ:"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:5
 msgid "Name:"
-msgstr "ନାମ:"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:6
 msgid "_Read only"
-msgstr "କେବଳ ପଠନୀୟ (_R)"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:7
 msgid "Share Properties"
-msgstr "ସହଭାଗର ଗୁଣଧର୍ମ"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:8
 msgid "Allowed Hosts"
-msgstr "ଅନୁମତି ପ୍ରାପ୍ତ ଆଧାର"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:9
 msgid "Share"
@@ -290,128 +288,128 @@ msgstr ""
 
 #: ../interfaces/shares.ui.h:10
 msgid "Add allowed hosts"
-msgstr "ଅନୁମତି ପ୍ରାପ୍ତ ଆଧାର ମାନଙ୍କୁ ଯୋଗ କରନ୍ତୁ"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:11
 msgid "Allowed hosts:"
-msgstr "ଅନୁମତି ପ୍ରାପ୍ତ ଆଧାର:"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:12
 msgid "Host name:"
-msgstr "ଆଧାର ନାମ:"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:14
 msgid "Network:"
-msgstr "ନେଟଓ୍ବାର୍କ:"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:15
 msgid "Netmask:"
-msgstr "ନେଟମାସ୍କ:"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
 msgid "Read only"
-msgstr "କେବଳ ପଠନୀୟ"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:17
 msgid "Hosts Settings"
-msgstr "ଆଧାର ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
-msgstr "ସହଭାଗ ଫୋଲଡର"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:19
 msgid "Domain / _Workgroup:"
-msgstr "ପରିସର / କାର୍ଯ୍ଯସମୂହ (_W):"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
-msgstr "ଏହି କମ୍ପୁଟରଟି ଗୋଟିଏ ଓ୍ବିନ୍ସ ସେବକ ଅଟେ (_W)"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
-msgstr "ଓ୍ବିନ୍ସ ସେବକ (_s):"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
-msgstr "ଓ୍ବିଣ୍ଡୋଜ ବଣ୍ଟନ"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:23
 msgid "General Properties"
-msgstr "ସାଧାରଣ ଗୁଣଧର୍ମ"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:24
 msgid "Users"
-msgstr "ଚାଳକମାନେ"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:25
 msgid "Enter password for user"
-msgstr "ଚାଳକ ପାଇଁ ପ୍ରବେଶ ସଙ୍କେତକୁ ଭରଣ କରନ୍ତୁ"
+msgstr ""
 
 #: ../interfaces/shares.ui.h:26
 msgid "Enter password for user:"
-msgstr "ଚାଳକ ପାଇଁ ପ୍ରବେଶ ସଂକେତ ଭରଣ କରନ୍ତୁ:"
+msgstr ""
 
 #: ../interfaces/time.ui.h:1
 msgid "Time zone"
-msgstr "ସମୟ ମଣ୍ଡଳ"
+msgstr ""
 
 #: ../interfaces/time.ui.h:2
 msgid "Time Zone"
-msgstr "ସମୟ ମଣ୍ଡଳ"
+msgstr ""
 
 #: ../interfaces/time.ui.h:3
 msgid "Time zone:"
-msgstr "ସମୟ ମଣ୍ଡଳ:"
+msgstr ""
 
 #: ../interfaces/time.ui.h:4
 msgid "Selection"
-msgstr "ଚୟନ"
+msgstr ""
 
 #: ../interfaces/time.ui.h:5
 msgid "Time servers"
-msgstr "ସମୟ ସେବକ"
+msgstr ""
 
 #: ../interfaces/time.ui.h:6
 msgid "NTP server"
-msgstr "NTP ସେବକ"
+msgstr ""
 
 #: ../interfaces/time.ui.h:7
 msgid "Add NTP Server"
-msgstr "NTP ସେବକକୁ ଯୋଗ କରନ୍ତୁ"
+msgstr ""
 
 #: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
-msgstr "ଅବିନ୍ଯସ୍ତ"
+msgstr ""
 
 #: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
-msgstr "ବିନ୍ଯାସ (_C):"
+msgstr ""
 
 #: ../interfaces/time.ui.h:10
 msgid "Time servers:"
-msgstr "ସମୟ ସର୍ଭର:"
+msgstr ""
 
 #: ../interfaces/time.ui.h:11
 msgid "Se_lect Servers"
-msgstr "ସେବକ ମାନଙ୍କୁ ଚୟନ କରନ୍ତୁ (_l)"
+msgstr ""
 
 #: ../interfaces/time.ui.h:12
 msgid "_Time:"
-msgstr "ସମୟ (_T):"
+msgstr ""
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
-msgstr "ତାରିଖ (_D):"
+msgstr ""
 
 #: ../interfaces/time.ui.h:14
 msgid "Synchronize now"
-msgstr "ବର୍ତ୍ତମାନ ସମକାଳନ କରନ୍ତୁ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:1
 msgid "_Manage Groups"
-msgstr "ସମୂହ ମାନଙ୍କର ପରିଚାଳନା କରନ୍ତୁ (_M)"
+msgstr ""
 
 #: ../interfaces/users.ui.h:2
 msgid "Account _type:"
@@ -423,7 +421,7 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:4
 msgid "_Password:"
-msgstr "ପ୍ରବେଶ ସଙ୍କେତ (_P)"
+msgstr ""
 
 #: ../interfaces/users.ui.h:5
 msgid "_Advanced Settings"
@@ -439,23 +437,23 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:8
 msgid "Group properties"
-msgstr "ସମୂହର ଗୁଣଧର୍ମ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:9
 msgid "Basic Settings"
-msgstr "ମୌଳିକ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:10
 msgid "Group _name:"
-msgstr "ସମୂହର ନାମ (_n):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:11
 msgid "Group _ID:"
-msgstr "ସମୂହର ପରିଚୟ (_I)"
+msgstr ""
 
 #: ../interfaces/users.ui.h:12
 msgid "Group Members"
-msgstr "ସମୂହ ସଦସ୍ଯ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:13
 msgid "Profile Settings"
@@ -463,55 +461,55 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:14
 msgid "Profile _name:"
-msgstr "ରୂପରେଖ ନାମ (_n):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:15
 msgid "_Comments"
-msgstr "ଟିପ୍ପଣୀ (_C)"
+msgstr ""
 
 #: ../interfaces/users.ui.h:16
 msgid "System Defaults"
-msgstr "ତନ୍ତ୍ରର ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ସାଧନ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:17
 msgid "_Home directory:"
-msgstr "ମୂଳସ୍ଥାନ ପଞ୍ଜିକା (_H):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:18
 msgid "Default _shell:"
-msgstr "ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ଆବରଣ (_s):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:19
 msgid "Default _group:"
-msgstr "ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ସମୂହ (_g):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:20
 msgid "Password Settings"
-msgstr "ପ୍ରବେଶ ସଙ୍କେତ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:21
 msgid "Number of days that a password may be used:"
-msgstr "କେତେ ଦିନ ଗୋଟିଏ ପ୍ରବେଶ ସଙ୍କେତକୁ ବ୍ଯବହାର କରିହେବ:"
+msgstr ""
 
 #: ../interfaces/users.ui.h:22
 msgid "Minimum days allowed between password changes:"
-msgstr "ପ୍ରବେଶ ସଙ୍କେତ ପରିବର୍ତନ ମଧ୍ଯରେ ସର୍ବନିମ୍ନ ସ୍ବୀକ୍ରୁତ ଦିବସ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:23
 msgid "Days between warning and password expiration:"
-msgstr "ଚେତାବନୀ ଏବଂ ପ୍ରବେଶ ସଙ୍କେତ ନଷ୍ଟ ହେବା ମଧ୍ଯରେ କେତେ ଦିନ:"
+msgstr ""
 
 #: ../interfaces/users.ui.h:24
 msgid "Assign a random password by default"
-msgstr "ଗୋଟିଏ କ୍ରମମୁକ୍ତ ପ୍ରବେଶ ସଙ୍କେତକୁ ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ଭାବରେ ନିରୂପଣ କରନ୍ତୁ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:25
 msgid "Automatic UID/GID"
-msgstr "ସ୍ବୟଂଚାଳିତ ୟୁ.ଆଇ.ଡି./ଜି.ଆଇ.ଡି."
+msgstr ""
 
 #: ../interfaces/users.ui.h:26
 msgid "Maximum UID:"
-msgstr "ସର୍ବାଧିକ ୟୁ.ଆଇ.ଡି.:"
+msgstr ""
 
 #: ../interfaces/users.ui.h:27
 msgid "Maximum GID:"
@@ -519,27 +517,27 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:28
 msgid "Minimum UID:"
-msgstr "ସର୍ବନିମ୍ନ ୟୁ.ଆଇ.ଡି.:"
+msgstr ""
 
 #: ../interfaces/users.ui.h:29
 msgid "Minimum GID:"
-msgstr "ସର୍ବନିମ୍ନ ଜି.ଆଇ.ଡି.:"
+msgstr ""
 
 #: ../interfaces/users.ui.h:31
 msgid "Privileges"
-msgstr "ବିଶେଷ ଅଧିକାର"
+msgstr ""
 
 #: ../interfaces/users.ui.h:32
 msgid "User profiles"
-msgstr "ଚାଳକର ରୂପରେଖ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:33
 msgid "_Add Profile"
-msgstr "ରୂପରେଖକୁ ଯୋଗ କରନ୍ତୁ (_A)"
+msgstr ""
 
 #: ../interfaces/users.ui.h:34
 msgid "Groups settings"
-msgstr "ସମୂହ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:35
 msgid "Groups available on the system:"
@@ -563,19 +561,19 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:40
 msgid "Con_firmation:"
-msgstr "ଅନୁମୋଦନ (_f):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:41
 msgid "Password set to: "
-msgstr "ପ୍ରବେଶ ସଙ୍କେତକୁ ଏଥିରେ ବିନ୍ଯାସ କରନ୍ତୁ: "
+msgstr ""
 
 #: ../interfaces/users.ui.h:42
 msgid "_Generate"
-msgstr "ସ୍ରୁଷ୍ଟି କରନ୍ତୁ (_G)"
+msgstr ""
 
 #: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
-msgstr "ପ୍ରବେଶ ସଙ୍କେତକୁ ହାତରେ ବିନ୍ଯାସ କରନ୍ତୁ (_y)"
+msgstr ""
 
 #: ../interfaces/users.ui.h:44
 msgid "New _password:"
@@ -583,7 +581,7 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:45
 msgid "Generate _random password"
-msgstr "କ୍ରମମୁକ୍ତ ପ୍ରବେଶ ସଙ୍କେତକୁ ସ୍ରୁଷ୍ଟି କରନ୍ତୁ (_r)"
+msgstr ""
 
 #: ../interfaces/users.ui.h:46
 msgid "Changing user password for:"
@@ -668,15 +666,15 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:68
 msgid "O_ffice location:"
-msgstr "କାର୍ଯ୍ଯାଳୟ ଅବସ୍ଥାନ (_f):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
-msgstr "କାର୍ଯ୍ଯୋପଯୋଗୀ ଫୋନ (_W):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:70
 msgid "_Home phone:"
-msgstr "ଘରୋଇ ଫୋନ (_H):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:71
 msgid "Contact Information"
@@ -684,23 +682,23 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:72
 msgid "User Privileges"
-msgstr "ଚାଳକର ଅଧିକାର"
+msgstr ""
 
 #: ../interfaces/users.ui.h:73
 msgid "Advanced Settings"
-msgstr "ଉନ୍ନତ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:74
 msgid "_Shell:"
-msgstr "ଆବରଣ (_S)"
+msgstr ""
 
 #: ../interfaces/users.ui.h:75
 msgid "_Main group:"
-msgstr "ପ୍ରମୂଖ ସମୂହ (_M):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:76
 msgid "User ID:"
-msgstr "ଚାଳକର ପରିଚୟ:"
+msgstr ""
 
 #: ../interfaces/users.ui.h:77
 msgid "You can't change user ID while the user is logged in."
@@ -712,23 +710,23 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:79
 msgid "Optional Settings"
-msgstr "ଇଚ୍ଛାଧୀନ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../interfaces/users.ui.h:80
 msgid "Mi_nimum days between password changes:"
-msgstr "ପ୍ରବେଶ ସଙ୍କେତ ପରିବର୍ତନ ମଧ୍ଯରେ ସର୍ବନିମ୍ନ ଦିନ (_n):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:81
 msgid "Ma_ximum days a password may be used:"
-msgstr "ଗୋଟିଏ ପ୍ରବେଶ ସଙ୍କେତକୁ ବ୍ଯବହାର କରିବାର ସର୍ବାଧିକ ଅବଧି (_x):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:82
 msgid "_Days between warning and password expiration:"
-msgstr "ଚେତାବନୀ ଏବଂ ପ୍ରବେଶ ସଙ୍କେତ ନଷ୍ଟ ହେବା ମଧ୍ଯରେ କେତେ ଦିନ (_D):"
+msgstr ""
 
 #: ../interfaces/users.ui.h:83
 msgid "Advanced"
-msgstr "ଉନ୍ନତ"
+msgstr ""
 
 #: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
@@ -750,7 +748,7 @@ msgstr ""
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
-msgstr "ଆପଣ ଚଳାଉଥିବା ପ୍ଲାଟଫର୍ମଟି ଏହି ଉପକରଣ ଦ୍ବାରା ସହାୟକ ନୁହେଁ"
+msgstr ""
 
 #. label
 #: ../src/common/gst-platform-dialog.c:185
@@ -758,29 +756,29 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr "ଯଦି ଆପଣ ନିଶ୍ଚିତ ଯେ ଏହା ନିମ୍ନଲିଖିତ ଗୋଟିଏ ପ୍ଲାଟଫର୍ମ ଭଳି କାର୍ଯ୍ଯ କରିବ, ତାହାହେଲେ ଆପଣ ତାହାକୁ ଚୟନ କରି ପାରିବେ ଏବଂ ଆଗକୁ ବଢି ପାରିବେ। ତଥାପି ଏହା ଦ୍ରୁଷ୍ଟି ରଖନ୍ତୁ ଯେ, ଏହା ତନ୍ତ୍ରର ବିନ୍ଯାସକୁ ନଷ୍ଟ କରିପାରେ କିମ୍ବା ଆପଣଙ୍କ କମ୍ପୁଟରକୁ ଅଟକାଇପାରେ।"
+msgstr ""
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
-msgstr "ଅସହାୟକ ପ୍ଲାଟଫର୍ମ"
+msgstr ""
 
 #: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
-msgstr "ବିନ୍ୟାସକୁ ଧାରଣ କରିହେଲା ନାହିଁ"
+msgstr ""
 
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:190
 msgid "The configuration could not be saved"
-msgstr "ବିନ୍ୟାସକୁ ସଂରକ୍ଷଣ କରିହେଲା ନାହିଁ"
+msgstr ""
 
 #: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
-msgstr "ଆପଣ ତନ୍ତ୍ର ବିନ୍ୟାସକୁ ଅଭିଗମ୍ୟ କରିବା ପାଇଁ ଅନୁମୋଦିତ ନୁହଁ।"
+msgstr ""
 
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
-msgstr "ତନ୍ତ୍ର ସଂରଚନାକୁ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ଆପଣଙ୍କ ପାଖରେ ଅନୁମତି ନାହିଁ।"
+msgstr ""
 
 #: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
@@ -793,15 +791,15 @@ msgstr ""
 
 #: ../src/common/gst-tool.c:422
 msgid "Could not display help"
-msgstr "ସହୟତାକୁ ପ୍ରଦର୍ଶନ କରିପାରିଲା ନାହିଁ"
+msgstr ""
 
 #: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
-msgstr "ତନ୍ତ୍ର ସଂରଚନା ସାମର୍ଥ୍ୟ ଅନୁସାରେ ପରିବର୍ତ୍ତନ ହୋଇଛି।"
+msgstr ""
 
 #: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
-msgstr "ବିଷୟ ବସ୍ତୁକୁ ଅଦ୍ୟତନ କରିବେ କି? ଏହି ପଦ୍ଧତିରେ ହୋଇଥିବା ଯେକୌଣସି ପରିବର୍ତ୍ତନକୁ ଏହା ହରାଇବ।"
+msgstr ""
 
 #: ../src/common/gst-tool.c:687
 #, c-format
@@ -813,114 +811,114 @@ msgstr ""
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
-msgstr "ଯୋଗ କରନ୍ତୁ (_A)"
+msgstr ""
 
 #: ../src/network/address-list.c:77 ../src/network/hosts.c:33
 #: ../src/shares/table.c:40 ../src/users/table.c:42
 msgid "_Delete"
-msgstr "ଅପସାରଣ କରନ୍ତୁ (_D)"
+msgstr ""
 
 #: ../src/network/address-list.c:485
 msgid "Type address"
-msgstr "ଠିକଣାକୁ ଟାଇପ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
-msgstr "ଅନ୍ତରାପ୍ରୁଷ୍ଠ ବିନ୍ଯାସକୁ ପରିବର୍ତନ କରୁଅଛି"
+msgstr ""
 
 #: ../src/network/callbacks.c:299
 msgid "Could not autodetect modem device"
-msgstr "ମୋଡେମ ଉପକରଣକୁ ଆପେଆପେ ଖୋଜି ପାରିଲା ନାହିଁ"
+msgstr ""
 
 #: ../src/network/callbacks.c:302
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
-msgstr "ଉପକରଣଟି ବ୍ଯସ୍ତ ନାହିଁ ଏବଂ ଏହା ସଠିକ ଭାବରେ କମ୍ପୁଟର ସହିତ ସଂଯୋଜିତ ହୋଇଛି ବୋଲି ଯାଞ୍ଚ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/network/callbacks.c:523
 msgid "The host name has changed"
-msgstr "ଆଧାର ନାମ ପରିବର୍ତିତ ହୋଇଅଛି"
+msgstr ""
 
 #: ../src/network/callbacks.c:526
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr "ଏହା ଅପଣଙ୍କୁ ନୂତନ ପ୍ରୟୋଗ ମାନଙ୍କୁ ଚଳାଇବାରୁ ନିବ୍ରୁତ ରଖିବ, ଏବଂ ତେଣୁ ଆପଣଙ୍କୁ ପୁନର୍ବାର ଲଗଇନ୍ କରିବା ପାଇଁ ପଡିବ। ତଥାପି ଜାରି ରଖିବେ କି?"
+msgstr ""
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
-msgstr "ଆଧାର ନାମକୁ ପରିବର୍ତନ କରନ୍ତୁ (_H)"
+msgstr ""
 
 #: ../src/network/connection.c:40
 msgid "Automatic configuration (DHCP)"
-msgstr "ସ୍ବତଃ ବିନ୍ଯାସ (DHCP)"
+msgstr ""
 
 #: ../src/network/connection.c:41
 msgid "Local Zeroconf network (IPv4 LL)"
-msgstr "ସ୍ଥାନୀୟ Zeroconf ନେଟୱର୍କ (IPv4 LL)"
+msgstr ""
 
 #: ../src/network/connection.c:42
 msgid "Static IP address"
-msgstr "ସ୍ଥିର ଆଇ.ପି. ଠିକଣା"
+msgstr ""
 
 #: ../src/network/connection.c:46
 msgid "WEP key (ascii)"
-msgstr "WEP କି (ascii)"
+msgstr ""
 
 #: ../src/network/connection.c:47
 msgid "WEP key (hexadecimal)"
-msgstr "WEP କି (ଷୋହଳମିକ)"
+msgstr ""
 
 #: ../src/network/connection.c:48
 msgid "WPA Personal"
-msgstr "WPA ବ୍ୟକ୍ତିଗତ"
+msgstr ""
 
 #: ../src/network/connection.c:49
 msgid "WPA2 Personal"
-msgstr "WPA2 ବ୍ୟକ୍ତିଗତ"
+msgstr ""
 
 #: ../src/network/connection.c:53
 msgid "GPRS/UMTS"
-msgstr "GPRS/UMTS"
+msgstr ""
 
 #: ../src/network/connection.c:54
 msgid "ISDN modem"
-msgstr "ISDN ମଡେମ"
+msgstr ""
 
 #: ../src/network/connection.c:55
 msgid "Serial modem"
-msgstr "କ୍ରମିକ ମଡ଼େମ"
+msgstr ""
 
 #: ../src/network/connection.c:56
 msgid "PPPoE"
-msgstr "PPPoE"
+msgstr ""
 
 #: ../src/network/connection.c:769
 #, c-format
 msgid "%s Properties"
-msgstr "%s ଗୁଣଧର୍ମ"
+msgstr ""
 
 #: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
 #: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
-msgstr "ଗୁଣଧର୍ମ (_P)"
+msgstr ""
 
 #: ../src/network/hosts.c:89
 msgid "IP Address"
-msgstr "ଆଇ.ପି. ଠିକଣା"
+msgstr ""
 
 #: ../src/network/hosts.c:97
 msgid "Aliases"
-msgstr "ଉପନାମ"
+msgstr ""
 
 #: ../src/network/ifaces-list.c:280
 msgid "This network interface is not configured"
-msgstr "ଏହି ନେଟଓ୍ବାର୍କ ଅନ୍ତରାପ୍ରୁଷ୍ଠକୁ ବିନ୍ଯାସ କରାଯାଇ ନାହିଁ"
+msgstr ""
 
 #: ../src/network/ifaces-list.c:282
 msgid "Roaming mode enabled"
-msgstr "ଘୁରିବୁଲିବା ପଦ୍ଧତିକୁ ସକ୍ରିୟ କରାଯାଇଛି"
+msgstr ""
 
 #: ../src/network/ifaces-list.c:289
 #, c-format
@@ -951,169 +949,169 @@ msgstr ""
 
 #: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
-msgstr "ବେତାର ସଂଯୋଗ"
+msgstr ""
 
 #: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
-msgstr "ଇନଫ୍ରା-ରେଡ ସଂଯୋଗ"
+msgstr ""
 
 #: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
-msgstr "ତାର ଦ୍ବାରା ସଂଯୋଗ"
+msgstr ""
 
 #: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
-msgstr "ସମାନ୍ତର ସଂଯୋଗିକୀ ସମ୍ବନ୍ଧନ"
+msgstr ""
 
 #: ../src/network/ifaces-list.c:364
 msgid "Point to point connection"
-msgstr "ବିନ୍ଦୁରୁ ବିନ୍ଦୁକୁ ସଂଯୋଗ"
+msgstr ""
 
 #: ../src/network/locations-combo.c:221
 msgid "Changing network location"
-msgstr "ନେଟୱର୍କ ସ୍ଥାନକୁ ପରିବର୍ତନ କରୁଅଛି"
+msgstr ""
 
 #: ../src/network/locations-combo.c:265
 msgid "There is already a location with the same name"
-msgstr "ସେଠାରେ ସମାନ ନାମ ବିଶିଷ୍ଟ ଗୋଟିଏ ଅବସ୍ଥାନ ପୂର୍ବରୁ ରହିଅଛି"
+msgstr ""
 
 #: ../src/network/locations-combo.c:267
 msgid "Overwrite it?"
-msgstr "ଏହାକୁ ନବଲିଖନ କରିବେ କି?"
+msgstr ""
 
 #: ../src/network/locations-combo.c:355
 msgid "Save location"
-msgstr "ଅବସ୍ଥାନକୁ ସଂରକ୍ଷଣ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/network/locations-combo.c:370
 msgid "_Location name:"
-msgstr "ଅବସ୍ଥାନ ନାମ (_L):"
+msgstr ""
 
 #: ../src/network/locations-combo.c:422
 #, c-format
 msgid "Do you want to delete location \"%s\"?"
-msgstr "ଆପଣ ଅବସ୍ଥାନ \"%s\"କୁ ଅପସାରଣ କରିବା ପାଇଁ ଚାହୁଁଛନ୍ତି କି?"
+msgstr ""
 
 #: ../src/network/main.c:135
 msgid "The interface does not exist"
-msgstr "ଅନ୍ତରାପ୍ରୁଷ୍ଠଟି ଅବସ୍ଥିତ ନାହିଁ"
+msgstr ""
 
 #: ../src/network/main.c:137
 msgid ""
 "Check that it is correctly typed and that it is correctly supported by your "
 "system."
-msgstr "ଏହାକୁ ସଠିକ ରୂପରେ ଟାଇପ କରାଯାଇଛି ଏବଂ ଏହା ଆପଣଙ୍କ ତନ୍ତ୍ର ଦ୍ବାରା ସମର୍ଥିତ ବୋଲି ଯାଞ୍ଚ କରନ୍ତୁ।"
+msgstr ""
 
 #: ../src/network/main.c:183
 msgid "Configure a network interface"
-msgstr "ଗୋଟିଏ ନେଟଓ୍ବାର୍କ ଅନ୍ତରାପ୍ରୁଷ୍ଠକୁ ବିନ୍ଯାସ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/network/main.c:183
 msgid "INTERFACE"
-msgstr "ଅନ୍ତରାପ୍ରୁଷ୍ଠ"
+msgstr ""
 
 #: ../src/network/main.c:184
 msgid "Configure the first network interface with a specific type"
-msgstr "ପ୍ରଥମ ନେଟଓ୍ବାର୍କ ଅନ୍ତରାପ୍ରୁଷ୍ଠକୁ ଗୋଟିଏ ନିର୍ଦ୍ଦିଷ୍ଟ ପ୍ରକାରରେ ବିନ୍ଯାସ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/network/main.c:184
 msgid "TYPE"
-msgstr "ପ୍ରକାର"
+msgstr ""
 
 #: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
-msgstr "ନେଟୱାର୍କ"
+msgstr ""
 
 #: ../src/network/mate-network.desktop.in.in.h:2
 msgid "Configure network devices and connections"
-msgstr "ନେଟଓ୍ବାର୍କ ଉପକରଣ ଏବଂ ସଂଯୋଗ ମାନଙ୍କୁ ବିନ୍ଯାସ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
-msgstr "ନେଟଓ୍ବାର୍କ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
-msgstr "\"%s\" ସେବା ପାଇଁ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
-msgstr "ଆପଣ ନିଶ୍ଚିତ କି ଆପଣ %s କୁ ନିଷ୍କ୍ରିୟ କରିବା ପାଇଁ ଚାହୁଁଛନ୍ତି?"
+msgstr ""
 
 #: ../src/services/callbacks.c:126
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
-msgstr "ଏହା ଆପଣଙ୍କ ତନ୍ତ୍ରର ଆଚରଣକୁ ବିଭିନ୍ନ ରୂପରେ ପ୍ରଭାବିତ କରିପାରେ, ଯାହାକି ତଥ୍ଯ ହାନିର କାରଣ ହୋଇପାରେ।"
+msgstr ""
 
 #: ../src/services/service.c:32
 msgid "Web server"
-msgstr "ଓ୍ବେବ ସେବକ"
+msgstr ""
 
 #: ../src/services/service.c:32
 msgid "Shares your web pages over the Internet"
-msgstr "ଇଣ୍ଟରନେଟ ଦ୍ବାରା ଆପଣଙ୍କର ଓ୍ବେବପ୍ରୁଷ୍ଠାକୁ ବାଣ୍ଟନ୍ତୁ"
+msgstr ""
 
 #. GST_ROLE_WEB_SERVER
 #: ../src/services/service.c:33
 msgid "Actions scheduler"
-msgstr "କାର୍ଯ୍ଯ ନିର୍ଦ୍ଧାରକ"
+msgstr ""
 
 #: ../src/services/service.c:33
 msgid "Executes scheduled actions"
-msgstr "ନିର୍ଦ୍ଧାରିତ କାର୍ଯ୍ଯକୁ ନିଷ୍ପାଦିତ କରିଥାଏ"
+msgstr ""
 
 #. GST_ROLE_COMMAND_SCHEDULER
 #: ../src/services/service.c:34
 msgid "Printer service"
-msgstr "ମୂଦ୍ରଣୀ ସେବା"
+msgstr ""
 
 #: ../src/services/service.c:34
 msgid "Allows applications to use printers"
-msgstr "ପ୍ରୟୋଗ ମାନଙ୍କୁ ମୂଦ୍ରଣୀ ବ୍ଯବହାର କରିବା ପାଇଁ ଅନୁମତି ପ୍ରଦାନ କରନ୍ତୁ"
+msgstr ""
 
 #. GST_ROLE_PRINTER_SERVICE
 #: ../src/services/service.c:35
 msgid "Mail agent"
-msgstr "ଡାକ ପ୍ରତିନିଧି"
+msgstr ""
 
 #: ../src/services/service.c:35
 msgid "Delivers your outgoing mail"
-msgstr "ଆପଣଙ୍କ ବହିର୍ଗାମୀ ଡାକକୁ ପ୍ରଦାନ କରିଥାଏ"
+msgstr ""
 
 #. GST_ROLE_MTA
 #: ../src/services/service.c:36
 msgid "MTA authentication service"
-msgstr "MTA ପ୍ରାଧିକରଣ ସର୍ଭିସ"
+msgstr ""
 
 #. GST_ROLE_MTA_AUTH
 #: ../src/services/service.c:37
 msgid "Mail fetcher"
-msgstr "ଡାକ ସଂଗ୍ରହକ"
+msgstr ""
 
 #: ../src/services/service.c:37
 msgid "Downloads your mail from remote accounts"
-msgstr "ଦୂର ଖାତାରୁ ଆପଣଙ୍କ ଡାକକୁ ଆହରଣ କରନ୍ତୁ"
+msgstr ""
 
 #. GST_ROLE_MAIL_FETCHER
 #: ../src/services/service.c:38
 msgid "Graphical login manager"
-msgstr "ଆଲେଖୀକ ଲଗଇନ୍ ପରିଚାଳକ"
+msgstr ""
 
 #: ../src/services/service.c:38
 msgid "Allows users to login graphically"
-msgstr "ଚାଳକ ମାନଙ୍କୁ ଆଲେଖୀକ ଭାବରେ ଲଗଇନ୍ କରିବାର ଅନୁମତି ପ୍ରଦାନ କରନ୍ତୁ"
+msgstr ""
 
 #. GST_ROLE_DISPLAY_MANAGER
 #: ../src/services/service.c:39
 msgid "Database server"
-msgstr "ତଥ୍ଯାଧାର ସେବକ"
+msgstr ""
 
 #: ../src/services/service.c:39
 msgid "Data storage system"
-msgstr "ତଥ୍ଯ ଭଣ୍ଡାର ତନ୍ତ୍ର"
+msgstr ""
 
 #. GST_ROLE_DATABASE_SERVER
 #. GST_ROLE_FILE_SERVER_SMB
@@ -1121,334 +1119,334 @@ msgstr "ତଥ୍ଯ ଭଣ୍ଡାର ତନ୍ତ୍ର"
 #: ../src/services/service.c:40 ../src/services/service.c:41
 #: ../src/services/service.c:43
 msgid "Folder sharing service"
-msgstr "ସେବା ବାଣ୍ଟୁଥିବା ଫୋଲଡର"
+msgstr ""
 
 #: ../src/services/service.c:40 ../src/services/service.c:41
 msgid "Shares folders over your network"
-msgstr "ଆପଣଙ୍କ ନେଟଓ୍ବାର୍କ ଦ୍ବାରା ଫୋଲଡର ମାନଙ୍କୁ ସମାନ ଭାବରେ ବାଣ୍ଟିଥାଏ"
+msgstr ""
 
 #. GST_ROLE_FILE_SERVER_NFS
 #: ../src/services/service.c:42
 msgid "FTP service"
-msgstr "FTP ସେବା"
+msgstr ""
 
 #: ../src/services/service.c:42 ../src/services/service.c:43
 msgid "Shares folders over the Internet"
-msgstr "ଇଣ୍ଡରନେଟ ଦ୍ବାରା ଫାଇଲ ମାନଙ୍କୁ ସମାନ ଭାବରେ ବାଣ୍ଟିଥାଏ"
+msgstr ""
 
 #. GST_ROLE_FILE_SERVER_TFTP
 #: ../src/services/service.c:44
 msgid "Clock synchronization service"
-msgstr "ଘଡି ସମକାଳୀନ ସେବା"
+msgstr ""
 
 #: ../src/services/service.c:44
 msgid "Synchronizes your computer clock with Internet time servers"
-msgstr "ଇଣ୍ଟରନେଟ ସମୟ ସେବକ ସହିତ ଆପଣଙ୍କ ତନ୍ତ୍ରକୁ ସମକାଳୀନ କରିଥାଏ"
+msgstr ""
 
 #. GST_ROLE_NTP_SERVER
 #: ../src/services/service.c:46
 msgid "Antivirus"
-msgstr "ଏଣ୍ଟି-ଭାଇରସ"
+msgstr ""
 
 #: ../src/services/service.c:46
 msgid "Analyzes your incoming mail for virus"
-msgstr "ଭାଇରସ ପାଇଁ ଆପଣଙ୍କର ଆଗନ୍ତୁକ ଡାକକୁ ବିଶ୍ଳେଷିତ କରିଥାଏ"
+msgstr ""
 
 #. GST_ROLE_ANTIVIRUS
 #: ../src/services/service.c:47
 msgid "Firewall"
-msgstr "ଅଗ୍ନିକବଚ"
+msgstr ""
 
 #: ../src/services/service.c:47
 msgid "Blocks undesired network access to your computer"
-msgstr "ଆପଣଙ୍କ କମ୍ପୂଟରରେ ଅନାବଶ୍ୟକ ନେଟୱର୍କ ଅଭିଗମ୍ୟତାକୁ ଅଟକ ରଖାଯାଇଛି"
+msgstr ""
 
 #. GST_ROLE_FIREWALL_MANAGEMENT
 #: ../src/services/service.c:49
 msgid "Dictionary server"
-msgstr "ଅଭିଧାନ ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_DICTIONARY_SERVER
 #: ../src/services/service.c:50
 msgid "Speech synthesis support"
-msgstr "ବାର୍ତ୍ତାଳାପ ସଂଶ୍ଳେଷଣ ସମର୍ଥନ"
+msgstr ""
 
 #. GST_ROLE_SPEECH_SYNTHESIS
 #: ../src/services/service.c:51
 msgid "Computer activity logger"
-msgstr "କମ୍ପୁଟର କାର୍ଯ୍ଯକଳାପ ଲଗର"
+msgstr ""
 
 #: ../src/services/service.c:51
 msgid "Keeps a log of your computer activity"
-msgstr "ଆପଣଙ୍କର କମ୍ପୁଟରର କାର୍ଯ୍ଯକଲାପର ଗୋଟିଏ ଲଗ ରଖନ୍ତୁ"
+msgstr ""
 
 #. GST_ROLE_SYSTEM_LOGGER
 #: ../src/services/service.c:52
 msgid "Remote backup server"
-msgstr "ସୂଦୂର ନକଲ ସଂରକ୍ଷଣ ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_REMOTE_BACKUP
 #: ../src/services/service.c:53
 msgid "Spam filter"
-msgstr "ସ୍ପାମ ଛାଣକ"
+msgstr ""
 
 #. GST_ROLE_SPAM_FILTER
 #: ../src/services/service.c:54
 msgid "Remote shell server"
-msgstr "ଦୂର ଆବରଣ ସେବକ"
+msgstr ""
 
 #: ../src/services/service.c:54
 msgid "Secure shell server"
-msgstr "ସୁରକ୍ଷିତ ଆବରଣ ସେବକ"
+msgstr ""
 
 #. GST_ROLE_SECURE_SHELL_SERVER
 #: ../src/services/service.c:55
 msgid "Application server"
-msgstr "ପ୍ରୟୋଗ ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_APPLICATION_SERVER
 #: ../src/services/service.c:56
 msgid "Automated crash reports support"
-msgstr "ସ୍ୱୟଂଚାଳିତ ନଷ୍ଟ ବିବରଣୀ ସମର୍ଥନ"
+msgstr ""
 
 #. GST_ROLE_AUTOMATED_CRASH_REPORTS_MANAGEMENT
 #: ../src/services/service.c:57
 msgid "System communication bus"
-msgstr "ତନ୍ତ୍ର ସଞ୍ଚାର ବସ"
+msgstr ""
 
 #. GST_ROLE_DBUS,
 #: ../src/services/service.c:58
 msgid "System configuration manager"
-msgstr "ତନ୍ତ୍ର ବିନ୍ୟାସ ପରିଚାଳକ"
+msgstr ""
 
 #. GST_ROLE_SYSTEM_CONFIGURATION_MANAGEMENT
 #: ../src/services/service.c:59
 msgid "School management platform"
-msgstr "ବିଦ୍ୟାଳୟ ପରିଚାଳନା ପ୍ଲାଟଫର୍ମ"
+msgstr ""
 
 #. GST_ROLE_SCHOOL_MANAGEMENT_PLATFORM
 #: ../src/services/service.c:60
 msgid "Network security auditor"
-msgstr "ନେଟୱର୍କ ସୁରକ୍ଷା ସମ୍ପାଦକ"
+msgstr ""
 
 #. GST_ROLE_SECURITY_AUDITING
 #: ../src/services/service.c:61
 msgid "Web calendar server"
-msgstr "ୱେବ କ୍ୟାଲେଣ୍ଡର ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_WEB_CALENDAR_SERVER
 #: ../src/services/service.c:62
 msgid "OEM configuration manager"
-msgstr "OEM ବିନ୍ୟାସ ପରିଚାଳକ"
+msgstr ""
 
 #. GST_ROLE_OEM_CONFIGURATION_MANAGEMENT
 #: ../src/services/service.c:63
 msgid "Terminal multiplexor"
-msgstr "ଟର୍ମିନାଲ ମଲ୍ଟିପ୍ଲେକସର"
+msgstr ""
 
 #. GST_ROLE_TERMINAL_MULTIPLEXOR
 #: ../src/services/service.c:64
 msgid "Disk quota activation"
-msgstr "ଡିସ୍କ ଅଂଶ ସକ୍ରିୟଣ"
+msgstr ""
 
 #. GST_ROLE_QUOTA_MANAGEMENT
 #: ../src/services/service.c:65
 msgid "Package index monitor"
-msgstr "ପ୍ୟାକେଜ ଅନୁକ୍ରମଣିକା ପ୍ରଦର୍ଶକ"
+msgstr ""
 
 #. GST_ROLE_PACKAGE_INDEX_MONITORING
 #: ../src/services/service.c:66
 msgid "Network service"
-msgstr "ନେଟୱର୍କ ସର୍ଭିସ"
+msgstr ""
 
 #. GST_ROLE_NETWORK
 #: ../src/services/service.c:67
 msgid "Dynamic DNS services updater"
-msgstr "ଗତିଜ DNS ସର୍ଭିସ ଅଦ୍ୟତନ"
+msgstr ""
 
 #. GST_ROLE_DYNAMIC_DNS_SERVICE
 #: ../src/services/service.c:68
 msgid "DHCP server"
-msgstr "DHCP ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_DHCP_SERVER
 #: ../src/services/service.c:69
 msgid "Domain name server"
-msgstr "ପରିସର ନାମ ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_DNS
 #: ../src/services/service.c:70
 msgid "Proxy cache service"
-msgstr "ପ୍ରକ୍ସି କ୍ୟାଶେ ସର୍ଭିସ"
+msgstr ""
 
 #. GST_ROLE_PROXY_CACHE
 #: ../src/services/service.c:71
 msgid "LDAP server"
-msgstr "LDAP ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_LDAP_SERVER
 #: ../src/services/service.c:72
 msgid "Mailing lists manager"
-msgstr "ମେଲିଙ୍ଗ ତାଲିକା ପରିଚାଳକ"
+msgstr ""
 
 #. GST_ROLE_MAILING_LISTS_MANAGER
 #: ../src/services/service.c:73
 msgid "Multicast DNS service discovery"
-msgstr "ମଲ୍ଟିକାଷ୍ଟ DNS ସର୍ଭିସ ଆବିଷ୍କାର"
+msgstr ""
 
 #. GST_ROLE_RENDEZVOUS
 #: ../src/services/service.c:74
 msgid "Account information resolver"
-msgstr "ଖାତା ସୂଚନା ସମାଧାନକାରୀ"
+msgstr ""
 
 #. GST_ROLE_NSS
 #: ../src/services/service.c:75
 msgid "Virtual Private Network server"
-msgstr "ଆଭାସୀ ବ୍ୟକ୍ତିଗତ ନେଟୱର୍କ ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_VPN_SERVER
 #: ../src/services/service.c:76
 msgid "Router advertisement server"
-msgstr "ରାଉଟର ବିଜ୍ଞାପନ ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_ROUTER_ADVERTISEMENT_SERVER
 #: ../src/services/service.c:77
 msgid "IPSec key exchange server"
-msgstr "IPSec କି ରିବର୍ତ୍ତନ ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_IPSEC_KEY_EXCHANGE_SERVER
 #: ../src/services/service.c:78
 msgid "Disk server"
-msgstr "ଡିସ୍କ ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_DISK_SERVER
 #: ../src/services/service.c:79
 msgid "Disk client"
-msgstr "ଡିସ୍କ ଗ୍ରାହକ"
+msgstr ""
 
 #. GST_ROLE_DISK_CLIENT
 #: ../src/services/service.c:80
 msgid "Route server"
-msgstr "ରାଉଟ ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_ROUTE_SERVER
 #: ../src/services/service.c:81
 msgid "RPC mapper"
-msgstr "RPC ମ୍ୟାପର"
+msgstr ""
 
 #. GST_ROLE_RPC_MAPPER
 #: ../src/services/service.c:82
 msgid "SNMP server"
-msgstr "SNMP ସର୍ଭର"
+msgstr ""
 
 #. GST_ROLE_SNMP_SERVER
 #: ../src/services/service.c:83
 msgid "Terminal server client"
-msgstr "ଟର୍ମିନାଲ ସର୍ଭର କ୍ଲାଏଣ୍ଟ"
+msgstr ""
 
 #. GST_ROLE_LTSP_CLIENT
 #: ../src/services/service.c:84
 msgid "Audio settings management"
-msgstr "ଧ୍ୱନି ସଂରଚନା ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_AUDIO_MANAGEMENT
 #: ../src/services/service.c:85
 msgid "Volumes mounter"
-msgstr "ମାତ୍ରା ଆରୋହକ"
+msgstr ""
 
 #: ../src/services/service.c:85
 msgid "Mounts your volumes automatically"
-msgstr "ଆପଣଙ୍କର ମାତ୍ରାକୁ ସ୍ବୟଂଚାଳିତ ଭାବରେ ଆରୋହଣ କରିଦିଏ"
+msgstr ""
 
 #. GST_ROLE_AUTOMOUNTER
 #: ../src/services/service.c:86
 msgid "Infrared port management"
-msgstr "ଅତିଲୋହିତ ସଂଯୋଗିକୀ ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_INFRARED_MANAGEMENT
 #: ../src/services/service.c:87
 msgid "Braille display management"
-msgstr "ବ୍ରେଲୀ ପ୍ରଦର୍ଶକ ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_BRAILLE_DISPLAY_MANAGEMENT
 #: ../src/services/service.c:88
 msgid "Bluetooth device management"
-msgstr "ବ୍ଲୁଟୁଥ ଉପକରଣ ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_BLUETOOTH_MANAGEMENT
 #: ../src/services/service.c:89
 msgid "Hard disk tuning"
-msgstr "ହାର୍ଡ ଡିସ୍କ ସମସ୍ୱରଣ"
+msgstr ""
 
 #. GST_ROLE_HDD_MANAGEMENT
 #: ../src/services/service.c:90
 msgid "Hotkeys management"
-msgstr "ହଟ କି ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_HOTKEYS_MANAGEMENT
 #: ../src/services/service.c:91
 msgid "Power management"
-msgstr "ଶକ୍ତି ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_POWER_MANAGEMENT
 #: ../src/services/service.c:92
 msgid "Logical volume management"
-msgstr "ତାର୍କିକ ଆକାର ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_LVM_MANAGEMENT
 #: ../src/services/service.c:93
 msgid "Cluster management tool"
-msgstr "କ୍ଲଷ୍ଟର ପରିଚାଳନା ସାଧନ"
+msgstr ""
 
 #. GST_ROLE_CLUSTER_MANAGEMENT
 #: ../src/services/service.c:94
 msgid "Fax settings management"
-msgstr "ଫ୍ୟାକ୍ସ ସଂରଚନା ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_FAX_MANAGEMENT
 #: ../src/services/service.c:95
 msgid "RAID disks management"
-msgstr "RAID ଡିସ୍କ ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_RAID_MANAGEMENT
 #: ../src/services/service.c:96
 msgid "Graphic tablets management"
-msgstr "ଆଲେଖୀକ ଟ୍ୟାବଲେଟ ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_GRAPHIC_TABLETS_MANAGEMENT
 #: ../src/services/service.c:97
 msgid "CPU Frequency manager"
-msgstr "CPU ଆବୃତ୍ତି ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_CPUFREQ_MANAGEMENT
 #: ../src/services/service.c:98
 msgid "Eagle USB ADSL modems manager"
-msgstr "Eagle USB ADSL ମଡେମଗୁଡ଼ିକର ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_EAGLE_USB_MODEMS_MANAGEMENT
 #: ../src/services/service.c:99
 msgid "Serial port settings management"
-msgstr "କ୍ରମିକ ସଂଯୋଗିକୀ ସଂରଚନା ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_SERIAL_PORTS_MANAGEMENT
 #: ../src/services/service.c:100
 msgid "ISDN modems manager"
-msgstr "ISDN ମଡେମଗୁଡ଼ିକର ପରିଚାଳନା"
+msgstr ""
 
 #. GST_ROLE_ISDN_MANAGEMENT
 #: ../src/services/service.c:101
 msgid "Telstra Bigpond Cable Network client"
-msgstr "Telstra Bigpond କେବଲ ନେଟୱର୍କ ଗ୍ରାହକ"
+msgstr ""
 
 #. GST_ROLE_TELSTRA_BIGPOND_NETWORK_CLIENT
 #: ../src/services/service.c:102
 msgid "Hardware monitor"
-msgstr "ହାର୍ଡୱେର ପ୍ରଦର୍ଶକ"
+msgstr ""
 
 #. GST_ROLE_HARDWARE_MONITORING
 #: ../src/services/service.c:103
 msgid "System monitor"
-msgstr "ତନ୍ତ୍ର ପ୍ରଦର୍ଶକ"
+msgstr ""
 
 #. GST_ROLE_SYSTEM_MONITORING
 #: ../src/services/service.c:104
@@ -1457,104 +1455,104 @@ msgstr ""
 
 #: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
-msgstr "ସେବା ମାନ"
+msgstr ""
 
 #: ../src/services/mate-services.desktop.in.in.h:2
 msgid "Configure which services will be run when the system starts"
-msgstr "ତନ୍ତ୍ରଟି ପ୍ରାରମ୍ଭ ହେଲେ କେଉଁ ସେବା ଗୁଡିକ ପ୍ରାରମ୍ଭ ହେବ ତାହା ବିନ୍ଯାସ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
 #: ../src/services/service-settings-table.c:109
 msgid "Start"
-msgstr "ପ୍ରାରମ୍ଭ"
+msgstr ""
 
 #: ../src/services/service-settings-table.c:79
 #: ../src/services/service-settings-table.c:99
 #: ../src/services/service-settings-table.c:111
 msgid "Stop"
-msgstr "ବନ୍ଦ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/services/service-settings-table.c:85
 #: ../src/services/service-settings-table.c:102
 msgid "Ignore"
-msgstr "ଆଗ୍ରହ୍ଯ କରିଦିଅନ୍ତୁ"
+msgstr ""
 
 #: ../src/services/service-settings-table.c:175
 msgid "Runlevel"
-msgstr "ଚାଳନ ସ୍ତର"
+msgstr ""
 
 #: ../src/services/service-settings-table.c:192
 msgid "Status"
-msgstr "ସ୍ଥିତି"
+msgstr ""
 
 #: ../src/services/service-settings-table.c:211
 msgid "Priority"
-msgstr "ଅଗ୍ରାଧିକାର"
+msgstr ""
 
 #: ../src/services/services-tool.c:106
 msgid "Services Settings"
-msgstr "ସର୍ଭିସ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../src/shares/callbacks.c:196
 msgid "Are you sure you want to delete this share?"
-msgstr "ଆପଣ ନିଶ୍ଚିତ କି ଆପଣ ଏହି ସହଭାଗକୁ ଅପସାରିତ କରିବା ପାଇଁ ଚାହାଁନ୍ତି?"
+msgstr ""
 
 #: ../src/shares/callbacks.c:198
 msgid "Other computers in your network will stop viewing this."
-msgstr "ଆପଣଙ୍କ ନେଟଓ୍ବାର୍କରେ ଥିବା ଅନ୍ଯ କମ୍ପୁଟର ଗୁଡିକ ଏହାକୁ ଦେଖିବା ବନ୍ଦ କରିଦେବେ।"
+msgstr ""
 
 #: ../src/shares/main.c:103
 msgid "Add a shared path, modifies it if it already exists"
-msgstr "ଗୋଟିଏ ସହଭାଗ ପଥକୁ ଯୋଗ କରନ୍ତୁ, ଯଦି ଏହା ପୂର୍ବରୁ ଅପସ୍ଥିତ ଥାଏ ତାହାହେଲେ ଏହାକୁ ରୂପାନ୍ତରିତ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/shares/main.c:103
 msgid "PATH"
-msgstr "ପଥ"
+msgstr ""
 
 #: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
-msgstr "ବଣ୍ଟା ଯାଇଥିବା ଫୋଲଡର (_S)..."
+msgstr ""
 
 #: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
-msgstr "ଅନ୍ଯ କମ୍ପୁଟର ମାନଙ୍କ ସହିତ ଏହି ଫୋଲଡରକୁ ବାଣ୍ଟନ୍ତୁ"
+msgstr ""
 
 #: ../src/shares/nfs-acl-table.c:50
 msgid "Allowed host/network"
-msgstr "ଅନୁମତି ପ୍ରାପ୍ତ ଆଧାର/ନେଟଓ୍ବାର୍କ"
+msgstr ""
 
 #: ../src/shares/share-nfs-add-hosts.c:117
 msgid "Specify hostname"
-msgstr "ଆଧାର ନାମକୁ ଉଲ୍ଲେକ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/shares/share-nfs-add-hosts.c:124
 msgid "Specify IP address"
-msgstr "ଆଇ.ପି. ଠିକଣାକୁ ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/shares/share-nfs-add-hosts.c:131
 msgid "Specify network"
-msgstr "ନେଟଓ୍ବାର୍କକୁ ଉଲ୍ଲେଖ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
-msgstr "ଆପଣଙ୍କ ନେଟଓ୍ବାର୍କ ପଡୋଶୀରେ କେଉଁ ଫୋଲଜର ଗୁଡିକ ରହିବେ ସେଥିପାଇଁ ବିନ୍ଯାସ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/shares/share-settings.c:61
 msgid "File System"
-msgstr "ଫାଇଲ ତନ୍ତ୍ର"
+msgstr ""
 
 #: ../src/shares/share-settings.c:144
 msgid "Do not share"
-msgstr "ବାଣ୍ଟନ୍ତୁ ନାହିଁ"
+msgstr ""
 
 #: ../src/shares/share-settings.c:152
 msgid "Windows networks (SMB)"
-msgstr "Windows ନେଟଓ୍ବାର୍କ ମାନ (SMB)"
+msgstr ""
 
 #: ../src/shares/share-settings.c:160
 msgid "Unix networks (NFS)"
-msgstr "Unix ନେଟଓ୍ବାର୍କ ମାନ (SMB)"
+msgstr ""
 
 #: ../src/shares/share-settings.c:462
 #, c-format
@@ -1567,13 +1565,13 @@ msgstr ""
 
 #: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
-msgstr "ସହଭାଗୀ ସର୍ଭିସଗୁଡ଼ିକ ସ୍ଥାପିତ ହୋଇନାହିଁ"
+msgstr ""
 
 #: ../src/shares/shares-tool.c:154
 msgid ""
 "You need to install at least either Samba or NFS in order to share your "
 "folders."
-msgstr "ଆପଣଙ୍କ ଫୋଲଡରଗୁଡ଼ିକୁ ସହଭାଗ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ଅତିକମରେ Samba କିମ୍ବା NFSକୁ ସ୍ଥାପନ କରିବା ଉଚିତ।"
+msgstr ""
 
 #: ../src/time/e-map/e-map.c:620
 msgid "World Map"
@@ -1587,100 +1585,100 @@ msgstr ""
 
 #: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
-msgstr "ସମୟ ଏବଂ ତାରିଖ"
+msgstr ""
 
 #: ../src/time/mate-time.desktop.in.in.h:2
 msgid "Change system time, date, and timezone"
-msgstr "ତନ୍ତ୍ରର ସମୟ, ତାରିଖ, ଏବଂ ସମୟ ମଣ୍ଡଳକୁ ପରିବର୍ତନ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
-msgstr "NTP ସହାୟତା ସ୍ଥାପିତ ହୋଇନାହିଁ"
+msgstr ""
 
 #: ../src/time/time-tool.c:400
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr "ଆପଣଙ୍କର ସ୍ଥାନୀୟ ସମୟ ସେବକକୁ ଇଣ୍ଟରନେଟ ସମୟ ସେବକ ସହିତ ଏକକାଳୀନ ସେବା କୁ ସକ୍ରିୟ କରିବା ପାଇଁ ଦୟାକରି ଆପଣଙ୍କ ତନ୍ତ୍ରରେ NTP ସହାୟତାକୁ ସ୍ଥାପନ ଏବଂ ସକ୍ରିୟଣ କରନ୍ତୁ।"
+msgstr ""
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
-msgstr "NTP କୁ ସକ୍ରିୟ କରୁଅଛି"
+msgstr ""
 
 #: ../src/time/time-tool.c:429
 msgid "Disabling NTP"
-msgstr "NTP କୁ ନିଷ୍କ୍ରିୟ କରୁଅଛି"
+msgstr ""
 
 #: ../src/time/time-tool.c:441
 msgid "Synchronizing system clock"
-msgstr "ତନ୍ତ୍ର ଘଡ଼ିକୁ ସମତାଳ କରୁଅଛି"
+msgstr ""
 
 #: ../src/time/time-tool.c:521
 msgid "Keep synchronized with Internet servers"
-msgstr "ଇଣ୍ଟରନେଟ ସେବକ ସହିତ ଘଡିକୁ ସମକାଳୀତ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/time/time-tool.c:522
 msgid "Manual"
-msgstr "ପୁସ୍ତିକା"
+msgstr ""
 
 #: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
-msgstr "ସମୟ ଏବଂ ତାରିଖ ବିନ୍ଯାସ"
+msgstr ""
 
 #: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
-msgstr "ପ୍ରଶାସନିକ ସମୂହକୁ ଅପସାରିତ କରିହେବ ନାହିଁ"
+msgstr ""
 
 #: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
 #: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
 #: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
-msgstr "ଏହା ତନ୍ତ୍ରକୁ ଅବ୍ଯବହାର୍ଯ୍ଯ ଅବସ୍ଥାରେ ଛାଡିଦେବ।"
+msgstr ""
 
 #: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
-msgstr "ଆପଣ ନିଶ୍ଚିତ କି ଆପଣ \"%s\" ସମୂହକୁ ଅପସାରିତ କରିବା ପାଇଁ ଚାହାଁନ୍ତି?"
+msgstr ""
 
 #: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
-msgstr "ଏହା ଫାଇଲକୁ ଫାଇଲ ତନ୍ତ୍ରରେ ଥିବା ଅବୈଧ ସମୂହ ପରିଚୟ ସହିତ ଛାଡି ଦେଇପାରେ।"
+msgstr ""
 
 #: ../src/users/group-settings.c:144
 msgid "New group"
-msgstr "ନୂତନ ସମୂହ"
+msgstr ""
 
 #: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
-msgstr "'%s' ସମୂହର ଗୁଣଧର୍ମ"
+msgstr ""
 
 #: ../src/users/group-settings.c:217
 msgid "Group name is empty"
-msgstr "ସମୂହ ନାମ ଖାଲି ଅଛି"
+msgstr ""
 
 #: ../src/users/group-settings.c:218
 msgid "A group name must be specified."
-msgstr "ଗୋଟିଏ ସମୂହ ନାମକୁ ଉଲ୍ଲେଖ କରାଯିବା ଉଚିତ।"
+msgstr ""
 
 #: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
-msgstr "ପ୍ରଶାସନିକ ସମୂହ ଚାଳକର ସମୂହ ନାମକୁ ରୂପାନ୍ତରିତ କରିବା ଉଚିତ ନୁହେଁ"
+msgstr ""
 
 #: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
-msgstr "ସମୂହ ନାମରେ ଅବୈଧ ଅକ୍ଷର ଅଛି"
+msgstr ""
 
 #: ../src/users/group-settings.c:224
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr "ଦୟାକରି ଗୋଟିଏ ବୈଧ ସମୂହ ନାମକୁ ବିନ୍ଯାସ କରନ୍ତୁ ଯାହାକି ଛୋଟ ଅକ୍ଷର ଧାରଣ କରିଅଛି ଏବଂ ଛୋଟ ଅକ୍ଷର ଆଉ ସଂଖ୍ଯା ଦ୍ବାରା ଅନୁସରିତ ଅଟେ।"
+msgstr ""
 
 #: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
-msgstr "\"%s\" ସମୂହ ପୂର୍ବରୁ ରହିଛି"
+msgstr ""
 
 #: ../src/users/group-settings.c:230
 msgid "Please choose a different group name."
@@ -1688,7 +1686,7 @@ msgstr ""
 
 #: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
-msgstr "ପ୍ରଶାସକଙ୍କ ହିସାବ ଖାତାର ସମୂହ ପରିଚୟକୁ ରୂପାନ୍ତରିତ କରିବା ଉଚିତ ନୁହେଁ"
+msgstr ""
 
 #. check that GID is free
 #: ../src/users/group-settings.c:261
@@ -1707,7 +1705,7 @@ msgstr ""
 
 #: ../src/users/groups-table.c:44
 msgid "Group name"
-msgstr "ସମୂହ ନାମ"
+msgstr ""
 
 #. TRANSLATORS:  This applies to a password. Keep the string short.
 #: ../src/users/main.c:74 ../src/users/user-settings.c:347
@@ -1720,19 +1718,19 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
-msgstr "ତନ୍ତ୍ରର ଲଗ ଉପରେ ଦ୍ରୁଷ୍ଟି ରଖନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:54
 msgid "Administer the system"
-msgstr "ତନ୍ତ୍ରର ତଦାରଖ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
-msgstr "ଧ୍ବନି ଉପକରଣ ମାନଙ୍କୁ ବ୍ଯବହାର କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:56
 msgid "Use CD-ROM drives"
-msgstr "ସି.ଡି.- ରମ୍ ଡ୍ରାଇଭକୁ ବ୍ଯବହାର କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:57
 msgid "Burn CDs / DVDs"
@@ -1740,19 +1738,19 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:58
 msgid "Use modems"
-msgstr "ମୋଡେମକୁ ବ୍ଯବହାର କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
-msgstr "ଗୋଟିଏ ମୋଡେମ ବ୍ଯବହାର କରି ଇଣ୍ଟରନେଟ ସହିତ ସଂଯୋଗ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
-msgstr "ଫାକ୍ସ ମାନଙ୍କୁ ପଠାନ୍ତୁ ଏବଂ ପ୍ରାପ୍ତ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:61
 msgid "Use floppy drives"
-msgstr "ଫ୍ଲପି ଡ୍ରାଇଭକୁ ବ୍ଯବହାର କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:62
 msgid "Mount user-space filesystems (FUSE)"
@@ -1768,7 +1766,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:65
 msgid "Access external storage devices automatically"
-msgstr "ବାହ୍ଯ ସଂରକ୍ଷଣ ଉପକରଣ ମାନଙ୍କୁ ସ୍ବତଃ ଅଭିଗମ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:66
 msgid "Suspend and hibernate the computer"
@@ -1780,11 +1778,11 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:68
 msgid "Use scanners"
-msgstr "କ୍ରମବୀକ୍ଷଣ ଯନ୍ତ୍ରକୁ ବ୍ଯବହାର କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:69
 msgid "Use tape drives"
-msgstr "ଟେପ ଡ୍ରାଇଭକୁ ବ୍ଯବହାର କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/privileges-table.c:70
 msgid "Use USB devices"
@@ -1800,7 +1798,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
-msgstr "ପ୍ରଶାସକଙ୍କ ଅଧିକାରକୁ ପାଇବରେ ସମର୍ଥ ହେବା ଉଚିତ"
+msgstr ""
 
 #: ../src/users/user-profiles.conf.in.h:1
 msgid "Desktop user"
@@ -1868,15 +1866,15 @@ msgstr ""
 
 #: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
-msgstr "ଚାଳକ ଏବଂ ସମୂହ ମାନ"
+msgstr ""
 
 #: ../src/users/mate-users.desktop.in.in.h:2
 msgid "Add or remove users and groups"
-msgstr "ଚାଳକ ଏବଂ ସମୂହ ମାନଙ୍କୁ ଯୋଗ କିମ୍ବା ଅପସାରଣ କରନ୍ତୁ"
+msgstr ""
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
-msgstr "ପ୍ରବେଶ ସଙ୍କେତଟି ବହୁତ ଛୋଟ"
+msgstr ""
 
 #: ../src/users/user-password.c:98
 msgid ""
@@ -1886,11 +1884,11 @@ msgstr ""
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
-msgstr "ପ୍ରବେଶ ସଙ୍କେତ ଅନୁମୋଦନଟି ସଠିକ ନୁହେଁ"
+msgstr ""
 
 #: ../src/users/user-password.c:102
 msgid "Check that you have provided the same password in both text fields."
-msgstr "ଆପଣ ଉଭୟ ପାଠ୍ଯ କ୍ଷେତ୍ରରେ ସମାନ ପ୍ରବେଶ ସଙ୍କେତ ଭରଣ କରିଛିନ୍ତି କି ନାହିଁ ତାହା ଯାଞ୍ଚ କରନ୍ତୁ।"
+msgstr ""
 
 #: ../src/users/user-password.c:445
 msgid "Please choose another password."
@@ -1906,7 +1904,7 @@ msgstr ""
 
 #: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
-msgstr "ପ୍ରଶାସକଙ୍କ ହିସାବ ଖାତାକୁ ଅପସାରିତ କରିହେବ ନାହିଁ"
+msgstr ""
 
 #: ../src/users/user-settings.c:96
 #, c-format
@@ -1969,15 +1967,15 @@ msgstr ""
 #: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
-msgstr "ଟିପ୍ପଣୀରେ ଅବୈଧ \"%c\" ଅକ୍ଷର"
+msgstr ""
 
 #: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
-msgstr "ଏହି ଅକ୍ଷରଟି ବ୍ଯବହାର ହେଉନାହିଁ ବୋଲି ଯାଞ୍ଚ କରନ୍ତୁ।"
+msgstr ""
 
 #: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
-msgstr "ମୂଳସ୍ଥାନ ପଞ୍ଜିକାରେ ଅସମ୍ପୂର୍ଣ୍ଣ ପଥ"
+msgstr ""
 
 #: ../src/users/user-settings.c:427
 msgid ""
@@ -2074,7 +2072,7 @@ msgstr ""
 
 #: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
-msgstr "ଆବରଣରେ ଅସମ୍ପୂର୍ଣ୍ଣ ପଥ"
+msgstr ""
 
 #: ../src/users/user-settings.c:629
 msgid ""
@@ -2114,4 +2112,4 @@ msgstr ""
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
-msgstr "ଚାଳକ ବିନ୍ଯାସ"
+msgstr ""

@@ -1,646 +1,751 @@
-# translation of mate-system-tools.mate-2-28.te.po to Telugu
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Krishna Babu K <kkrothap@redhat.com>, 2008, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools.mate-2-28.te\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-system-tools&component=general\n"
-"POT-Creation-Date: 2009-09-05 19:20+0000\n"
-"PO-Revision-Date: 2009-09-17 17:52+0530\n"
-"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
-"Language-Team: Telugu <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:50+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
-"\n"
-"\n"
-"\n"
-
-#: ../mate-system-tools.schemas.in.h:1
-msgid "Whether the users-admin tool should show all users and groups or not"
-msgstr "వినియోగదారుల-నిర్వాహకి సాధనం అన్ని వినియోగదారులను మరియు సమూహాలను చూపాలా వద్దా"
+"Language: te\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../interfaces/network.ui.h:1
-msgid "Account data"
-msgstr "ఖాతా డాటా"
-
-#: ../interfaces/network.ui.h:2
-msgid "Connection Settings"
-msgstr "అనుసంధానము అమరికలు"
-
-#: ../interfaces/network.ui.h:3
-msgid "DNS Servers"
-msgstr "DNS సేవికలు"
-
-#: ../interfaces/network.ui.h:4
-msgid "Host Settings"
-msgstr "హోస్టు అమరికలు"
-
-#: ../interfaces/network.ui.h:5
-msgid "Internet service provider data"
-msgstr "ఇంటర్నెట్ సర్వీస్ ప్రొవైడర్ డాటా"
-
-#: ../interfaces/network.ui.h:6
-msgid "Modem Settings"
-msgstr "మోడెమ్ అమరికలు"
-
-#: ../interfaces/network.ui.h:7
-msgid "Search Domains"
-msgstr "శోధన అమరికలు"
-
-#: ../interfaces/network.ui.h:8
-msgid "Wireless Settings"
-msgstr "వైర్‌లెస్ అమరికలు"
-
-#: ../interfaces/network.ui.h:9
-msgid "Access point name:"
-msgstr "యాక్సెస్ బిందువు నామము:"
-
-#: ../interfaces/network.ui.h:10
-msgid "Aliases:"
-msgstr "ఉపనామాలు:"
-
-#: ../interfaces/network.ui.h:11
-msgid "Con_figuration:"
-msgstr "ఆకృతీకరణ(_f):"
-
-#: ../interfaces/network.ui.h:12
-msgid "Connection type:"
-msgstr "అనుసంధానము రకము:"
-
-#: ../interfaces/network.ui.h:13
-msgid "Connections"
-msgstr "అనుసంధానములు"
-
-#: ../interfaces/network.ui.h:14
-msgid "DNS"
-msgstr "DNS"
-
-#: ../interfaces/network.ui.h:15
-msgid "D_omain name:"
-msgstr "డొమైన్ నామము (_o):"
-
-#: ../interfaces/network.ui.h:16
-msgid "Delete current location"
-msgstr "ప్రస్తుత స్థానమును తొలగించుము"
-
-#: ../interfaces/network.ui.h:17
-msgid "E_nable roaming mode"
-msgstr "రోమింగ్ రీతిని చేతనముచేయుము (_n)"
-
-#: ../interfaces/network.ui.h:18
-msgid "E_nable this connection"
-msgstr "ఈ అనుసంధానమును చేతనముచేయుము (_n)"
-
-#: ../interfaces/network.ui.h:19
-msgid "Ethernet interface:"
-msgstr "ఈథర్నెట్ ఇంటర్ఫేస్:"
-
-#: ../interfaces/network.ui.h:20 ../interfaces/users.ui.h:21
-msgid "General"
-msgstr "సాధారణ"
-
-#: ../interfaces/network.ui.h:21
-msgid "Hexadecimal"
-msgstr "హెక్సాడెసిమల్"
-
-#: ../interfaces/network.ui.h:22
-msgid "Host Alias Properties"
-msgstr "హోస్టు ఉపనామ లక్షణములు"
-
-#: ../interfaces/network.ui.h:23
-msgid "Hosts"
-msgstr "హోస్టులు"
-
-#: ../interfaces/network.ui.h:24 ../interfaces/shares.ui.h:14
-msgid "IP address:"
-msgstr "IP చిరునామా:"
-
-#: ../interfaces/network.ui.h:25
-msgid "Interface properties"
-msgstr "ఇంటర్ఫేస్ లక్షణాలు"
-
-#: ../interfaces/network.ui.h:26
-msgid "Location:"
-msgstr "స్థానము:"
-
-#: ../interfaces/network.ui.h:27
-msgid "Loud"
-msgstr "పెద్దగా"
-
-#: ../interfaces/network.ui.h:28
-msgid "Low"
-msgstr "చిన్నగా"
-
-#: ../interfaces/network.ui.h:29
-msgid "Medium"
-msgstr "మద్యమం"
-
-#: ../interfaces/network.ui.h:30
-msgid "Modem"
-msgstr "మోడెమ్"
-
-#: ../interfaces/network.ui.h:31
-msgid "Network _password:"
-msgstr "నెట్వర్కు సంకేతపదము (_p):"
-
-#: ../interfaces/network.ui.h:32
-msgid "Network name (_ESSID):"
-msgstr "నెట్వర్కు నామము (_ESSID):"
-
-#: ../interfaces/network.ui.h:33
 msgid "Off"
 msgstr "ఆఫ్"
 
-#: ../interfaces/network.ui.h:34
-msgid "Options"
-msgstr "ఇచ్ఛాపూర్వకాలు"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
+msgstr "చిన్నగా"
 
-#: ../interfaces/network.ui.h:35
-msgid "P_assword"
-msgstr "సంకేతపదము (_a)"
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
+msgstr "మద్యమం"
 
-#: ../interfaces/network.ui.h:36
-msgid "Password _type:"
-msgstr "సంకేతపదము రకము (_t):"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr "పెద్దగా"
 
-#: ../interfaces/network.ui.h:37
-msgid "Plain (ASCII)"
-msgstr "సాదా (ASCII)"
-
-#: ../interfaces/network.ui.h:38
-msgid "Pulses"
-msgstr "పల్సులు"
-
-#: ../interfaces/network.ui.h:39
-msgid "Save current network configuration as a location"
-msgstr "ప్రస్తుత నెట్వర్కు ఆకృతీకరణను స్థానమువలె దాయుము"
-
-#: ../interfaces/network.ui.h:40
+#: ../interfaces/network.ui.h:5
 msgid "Tones"
 msgstr "టోన్లు"
 
-#: ../interfaces/network.ui.h:41
-msgid "Use the Internet service provider nameservers"
-msgstr "ఇంటర్నెట్ సర్వీస్ ప్రొవైడర్ నామపుసేవికలను వుపయోగించుము"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr "పల్సులు"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "స్వయంచాలకంగా గుర్తించుము (_A)"
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr "సాదా (ASCII)"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr "హెక్సాడెసిమల్"
+
+#: ../interfaces/network.ui.h:9
+msgid "Location:"
+msgstr "స్థానము:"
+
+#: ../interfaces/network.ui.h:10
+msgid "Save current network configuration as a location"
+msgstr "ప్రస్తుత నెట్వర్కు ఆకృతీకరణను స్థానమువలె దాయుము"
+
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr "ప్రస్తుత స్థానమును తొలగించుము"
+
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "అనుసంధానములు"
+
+#: ../interfaces/network.ui.h:13
+msgid "_Host name:"
+msgstr "హోస్టు నామము (_H):"
+
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "డొమైన్ నామము (_o):"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "హోస్టు అమరికలు"
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "సాధారణ"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "DNS సేవికలు"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "శోధన అమరికలు"
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "హోస్టులు"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "ఇంటర్ఫేస్ లక్షణాలు"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "ఈ అనుసంధానమును చేతనముచేయుము (_n)"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr "రోమింగ్ రీతిని చేతనముచేయుము (_n)"
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr "అనుసంధానము రకము:"
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "నెట్వర్కు నామము (_ESSID):"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "నెట్వర్కు సంకేతపదము (_p):"
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr "సంకేతపదము రకము (_t):"
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr "వైర్‌లెస్ అమరికలు"
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "ఆకృతీకరణ(_f):"
+
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "IP చిరునామా (_I):"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "సబ్‌నెట్ మాస్క్ (_S):"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "గేట్‌వే చిరునామా (_G):"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "అనుసంధానము అమరికలు"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "స్థానిక IP (_L):"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "దూరస్థ IP (_R):"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "ఫోన్ నంబర్ (_P):"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "ప్రిఫిక్స్ డైల్ చేయుము (_D):"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "యాక్సెస్ బిందువు నామము:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "ఇంటర్నెట్ సర్వీస్ ప్రొవైడర్ డాటా"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "వినియోగదారు నామము(_U):"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "సంకేతపదము (_a)"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "ఖాతా డాటా"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "మోడెమ్ పోర్డు (_M):"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "డైల్ రకము (_D):"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "గేట్‌వే చిరునామా (_G):"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "హోస్టు నామము (_H):"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "IP చిరునామా (_I):"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "స్థానిక IP (_L):"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "మోడెమ్ పోర్డు (_M):"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "ఫోన్ నంబర్ (_P):"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "దూరస్థ IP (_R):"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "అనుసంధానము సగంలో ఆగిపోయినా లేక ప్రారంభములో విఫలమైనా పునఃప్రయత్నించుము (_R)"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "మెడెమ్‌ను ఇంటర్నెట్‌కు అప్రమేయ రూట్‌లా అమర్చుము (_S)"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "సబ్‌నెట్ మాస్క్ (_S):"
-
-#: ../interfaces/network.ui.h:55 ../interfaces/users.ui.h:59
-msgid "_Username:"
-msgstr "వినియోగదారు నామము(_U):"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "ధ్వని (_V):"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "అధునాతన అమరికలు:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "స్వయంచాలకంగా గుర్తించుము (_A)"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "ఈథర్నెట్ ఇంటర్ఫేస్:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "మోడెమ్ అమరికలు"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "మోడెమ్"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "మెడెమ్‌ను ఇంటర్నెట్‌కు అప్రమేయ రూట్‌లా అమర్చుము (_S)"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "ఇంటర్నెట్ సర్వీస్ ప్రొవైడర్ నామపుసేవికలను వుపయోగించుము"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "అనుసంధానము సగంలో ఆగిపోయినా లేక ప్రారంభములో విఫలమైనా పునఃప్రయత్నించుము (_R)"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "ఇచ్ఛాపూర్వకాలు"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "హోస్టు ఉపనామ లక్షణములు"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP చిరునామా:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "ఉపనామాలు:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "మీరు క్రియాశీలము చేయదలుచుకున్న సేవలను యెంపికచేయుము:"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "అధునాతన అమరికలు:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Allowed Hosts"
-msgstr "హోస్టులను అనుమతించుము"
-
-#: ../interfaces/shares.ui.h:2
-msgid "Hosts Settings"
-msgstr "హోస్టుల అమరికలు"
-
-#: ../interfaces/shares.ui.h:3
-msgid "Share Properties"
-msgstr "లక్షణములను పంచుకొనుము"
-
-#: ../interfaces/shares.ui.h:4
-msgid "Shared Folder"
-msgstr "పంచబడిన ఫోల్డర్"
-
-#: ../interfaces/shares.ui.h:5
-msgid "Windows sharing"
-msgstr "విండోస్ భాగస్వామ్యం"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user:"
-msgstr "వినియోగదారుని సంకేతపదమును ప్రవేశపెట్టండి:"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Add allowed hosts"
-msgstr "అనుతించబడిన హోస్టులను జతచేయుము"
-
-#: ../interfaces/shares.ui.h:8
-msgid "Allowed hosts:"
-msgstr "అనుతించబడిన హోస్టులు:"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Comment:"
-msgstr "వ్యాఖ్య:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Domain / _Workgroup:"
-msgstr "డొమైన్ / పనిసమూహం (_W):"
-
-#: ../interfaces/shares.ui.h:11
-msgid "Enter password for user"
-msgstr "వినియోగదారి సంకేతపదమును ప్రవేశపెట్టుము"
-
-#: ../interfaces/shares.ui.h:12
-msgid "General Properties"
-msgstr "సాదారణ లక్షణాలు"
-
-#: ../interfaces/shares.ui.h:13
-msgid "Host name:"
-msgstr "హోస్టు నామము:"
-
-#: ../interfaces/shares.ui.h:15
-msgid "Name:"
-msgstr "నామము:"
-
-#: ../interfaces/shares.ui.h:16
-msgid "Netmask:"
-msgstr "నెట్‌మాస్క్:"
-
-#: ../interfaces/shares.ui.h:17
-msgid "Network:"
-msgstr "నెట్వర్కు:"
-
-#: ../interfaces/shares.ui.h:18 ../src/shares/nfs-acl-table.c:56
-msgid "Read only"
-msgstr "చదువుట మాత్రమే"
-
-#: ../interfaces/shares.ui.h:19
-msgid "Share"
-msgstr "పంచుకొను"
-
-#: ../interfaces/shares.ui.h:20
-msgid "Share through:"
-msgstr "దీనిగుండా పంచుము:"
-
-#: ../interfaces/shares.ui.h:21 ../src/shares/shares.desktop.in.in.h:2
-#: ../src/shares/shares-tool.c:239
-msgid "Shared Folders"
-msgstr "పంచుకొనుచున్న సంచయాలు"
-
-#: ../interfaces/shares.ui.h:22
-msgid "This computer is a _WINS server"
-msgstr "ఈ కంప్యూటర్ _WINS సేవిక"
-
-#: ../interfaces/shares.ui.h:23
-msgid "Users"
-msgstr "వినియోగదారులు"
-
-#: ../interfaces/shares.ui.h:24
-msgid "WINS _server:"
-msgstr "WINS సేవిక (_s):"
-
-#: ../interfaces/shares.ui.h:25
 msgid "_Path:"
 msgstr "పాత్(_P):"
 
-#: ../interfaces/shares.ui.h:26
+#: ../interfaces/shares.ui.h:2
+msgid "Share through:"
+msgstr "దీనిగుండా పంచుము:"
+
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr "పంచబడిన ఫోల్డర్"
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "వ్యాఖ్య:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "నామము:"
+
+#: ../interfaces/shares.ui.h:6
 msgid "_Read only"
 msgstr "చదువుట మాత్రమే (_R)"
 
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "లక్షణములను పంచుకొనుము"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "హోస్టులను అనుమతించుము"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "పంచుకొను"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "అనుతించబడిన హోస్టులను జతచేయుము"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "అనుతించబడిన హోస్టులు:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "హోస్టు నామము:"
+
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "నెట్వర్కు:"
+
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "నెట్‌మాస్క్:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "చదువుట మాత్రమే"
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr "హోస్టుల అమరికలు"
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
+#: ../src/shares/shares-tool.c:237
+msgid "Shared Folders"
+msgstr "పంచుకొనుచున్న సంచయాలు"
+
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "డొమైన్ / పనిసమూహం (_W):"
+
+#: ../interfaces/shares.ui.h:20
+msgid "This computer is a _WINS server"
+msgstr "ఈ కంప్యూటర్ _WINS సేవిక"
+
+#: ../interfaces/shares.ui.h:21
+msgid "WINS _server:"
+msgstr "WINS సేవిక (_s):"
+
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr "విండోస్ భాగస్వామ్యం"
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "సాదారణ లక్షణాలు"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "వినియోగదారులు"
+
+#: ../interfaces/shares.ui.h:25
+msgid "Enter password for user"
+msgstr "వినియోగదారి సంకేతపదమును ప్రవేశపెట్టుము"
+
+#: ../interfaces/shares.ui.h:26
+msgid "Enter password for user:"
+msgstr "వినియోగదారుని సంకేతపదమును ప్రవేశపెట్టండి:"
+
 #: ../interfaces/time.ui.h:1
-msgid "Selection"
-msgstr "ఎంపిక"
+msgid "Time zone"
+msgstr "సమయ క్షేత్రము"
 
 #: ../interfaces/time.ui.h:2
 msgid "Time Zone"
 msgstr "సమయ క్షేత్రము"
 
 #: ../interfaces/time.ui.h:3
-msgid "Add NTP Server"
-msgstr "NTP సేనికను జతచేయుము"
-
-#: ../interfaces/time.ui.h:4
-msgid "NTP server"
-msgstr "NTP సేవిక"
-
-#: ../interfaces/time.ui.h:5
-msgid "Se_lect Servers"
-msgstr "సేవికలను ఎంపికచేయుము (_l)"
-
-#: ../interfaces/time.ui.h:6
-msgid "Synchronize now"
-msgstr "ఇప్పుడు ఏకకాలంచేయుము"
-
-#: ../interfaces/time.ui.h:7
-msgid "Time servers"
-msgstr "సమయ సేవికలు"
-
-#: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "సమయ సేవికలు:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "సమయ క్షేత్రము"
-
-#: ../interfaces/time.ui.h:10
 msgid "Time zone:"
 msgstr "సమయ క్షేత్రము:"
 
-#: ../interfaces/time.ui.h:11
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr "ఎంపిక"
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "సమయ సేవికలు"
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP సేవిక"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "NTP సేనికను జతచేయుము"
+
+#: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
 msgstr "ఆకృతీకరించని"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "ఆకృతీకరణ (_C):"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "సమయ సేవికలు:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "సేవికలను ఎంపికచేయుము (_l)"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "సమయం(_T):"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "తేది (_D):"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "సమయం(_T):"
+msgid "Synchronize now"
+msgstr "ఇప్పుడు ఏకకాలంచేయుము"
 
 #: ../interfaces/users.ui.h:1
-msgid "Advanced Settings"
-msgstr "అధునాతన అమరికలు"
-
-#: ../interfaces/users.ui.h:2
-msgid "Automatic UID/GID"
-msgstr "స్వయంచాలక UID/GID"
-
-#: ../interfaces/users.ui.h:3
-msgid "Basic Settings"
-msgstr "ప్రాధమిక అమర్పులు"
-
-#: ../interfaces/users.ui.h:4
-msgid "Group Members"
-msgstr "సమూహ సభ్యులు"
-
-#: ../interfaces/users.ui.h:5
-msgid "Optional Settings"
-msgstr "ఐచ్చిక అమర్పులు"
-
-#: ../interfaces/users.ui.h:6
-msgid "Password Settings"
-msgstr "సంకేతపదము అమర్పులు"
-
-
-
-#: ../interfaces/users.ui.h:9
-msgid "System Defaults"
-msgstr "సిస్టమ్ అప్రమేయాలు"
-
-#: ../interfaces/users.ui.h:10
-msgid "Account"
-msgstr "ఖాతా"
-
-#: ../interfaces/users.ui.h:11
-msgid "Advanced"
-msgstr "ఆధునాతన"
-
-#: ../interfaces/users.ui.h:12
-msgid ""
-"Allow this user to open a local session without entering his password. The "
-"password will still be required to perform administrative tasks."
-msgstr ""
-"అతని సంకేతపదము ప్రవేశపెట్టకుండానే ఈ వినియోగదారి స్థానిక సెషన్‌ను తెరుచుటకు అనుమతించుము. "
-"నిర్వహణాత్మక కర్తవ్యాలను నిర్వహించుటకు సంకేతపదము అవసరమే."
-
-#: ../interfaces/users.ui.h:13
-msgid "Assign a random password by default"
-msgstr "అప్రమేయంగా యాధృచ్చిక సంకేతపదమును అప్పగించుము"
-
-#: ../interfaces/users.ui.h:14
-msgid "Check password _quality"
-msgstr "సంకేతపదము నాణ్యతను పరిశీలించుము (_q)"
-
-#: ../interfaces/users.ui.h:15
-msgid "Con_firmation:"
-msgstr "నిర్ధారణ (_f):"
-
-
-#: ../interfaces/users.ui.h:17
-msgid "Days between warning and password expiration:"
-msgstr "హెచ్చరికకు మరియు సంకేతపదము కాలముతీరుటకు మద్య రోజులు:"
-
-#: ../interfaces/users.ui.h:18
-msgid "Default _group:"
-msgstr "అప్రమేయ సమూహము (_g):"
-
-#: ../interfaces/users.ui.h:19
-msgid "Default _shell:"
-msgstr "అప్రమేయ షెల్ (_s):"
-
-#: ../interfaces/users.ui.h:20
-msgid "Don't ask for password on _login"
-msgstr "లాగిన్ నందు సంకేతపదము కొరకు అడుగవద్దు (_I)"
-
-#: ../interfaces/users.ui.h:22
-msgid "Generate _random password"
-msgstr "యాదృచ్చిక సంకేతపదమును జనియింపచేయుము (_r)"
-
-#: ../interfaces/users.ui.h:23
-msgid "Group _ID:"
-msgstr "సమూహం _ID:"
-
-#: ../interfaces/users.ui.h:24
-msgid "Group _name:"
-msgstr "సమూహం నామము (_n):"
-
-#: ../interfaces/users.ui.h:25
-msgid "Group properties"
-msgstr "సమూహం లక్షణాలు"
-
-#: ../interfaces/users.ui.h:26
-msgid "Groups settings"
-msgstr "సమూహాల అమరికలు"
-
-#: ../interfaces/users.ui.h:27
-msgid "Ma_ximum days a password may be used:"
-msgstr "సంకేతపదమును వుపయోగించదగిన గరిష్ట దినములు (_x):"
-
-#: ../interfaces/users.ui.h:28
-msgid "Maximum GID:"
-msgstr "గరిష్ట GID:"
-
-#: ../interfaces/users.ui.h:29
-msgid "Maximum UID:"
-msgstr "గరిష్ట UID:"
-
-#: ../interfaces/users.ui.h:30
-msgid "Mi_nimum days between password changes:"
-msgstr "సంకేతపదము మార్పుల మద్య కనీస దినములు (_n):"
-
-#: ../interfaces/users.ui.h:31
-msgid "Minimum GID:"
-msgstr "కనిష్ట GID:"
-
-#: ../interfaces/users.ui.h:32
-msgid "Minimum UID:"
-msgstr "కనిష్ట UID:"
-
-#: ../interfaces/users.ui.h:33
-msgid "Minimum days allowed between password changes:"
-msgstr "సంకేతపదము మార్పుల మధ్యన అనుమతించదగు కనిష్ట దినములు:"
-
-#: ../interfaces/users.ui.h:34
-msgid "Number of days that a password may be used:"
-msgstr "సంకేతపదము వుపయోగించదగిన దినముల సంఖ్య:"
-
-#: ../interfaces/users.ui.h:35
-msgid "O_ffice location:"
-msgstr "కార్యాలయ స్థానము (_f):"
-
-#: ../interfaces/users.ui.h:36
-msgid "Password set to: "
-msgstr "సంకేతపదం దీనికి అమర్చబడింది: "
-
-#: ../interfaces/users.ui.h:37
-msgid "Privileges"
-msgstr "అనుమతులు"
-
-#: ../interfaces/users.ui.h:38
-msgid "Profile _name:"
-msgstr "ప్రొఫైల్ నామము(_n):"
-
-#: ../interfaces/users.ui.h:39
-msgid "Set password b_y hand"
-msgstr "సంకేతపదమును చేతితో అమర్చుము (_y)"
-
-#: ../interfaces/users.ui.h:40
-msgid "User ID:"
-msgstr "యూజర్  ఐడి:"
-
-#: ../interfaces/users.ui.h:41
-msgid "User Privileges"
-msgstr "వినియోగదారి అనుమతులు"
-
-#: ../interfaces/users.ui.h:42
-msgid "User _password:"
-msgstr "వినియోగదారి సంకేతపదము (_p):"
-
-#: ../interfaces/users.ui.h:43
-msgid "User must log out before you can change his ID."
-msgstr "మీరు అతని IDను మార్చుటకు ముందుగా వినియోగదారి తప్పక లాగవుట్ కావాలి."
-
-#: ../interfaces/users.ui.h:44
-msgid "User profiles"
-msgstr "వినియోగదారి ప్రొఫైల్స్"
-
-#: ../interfaces/users.ui.h:45
-msgid "_Add Group"
-msgstr "సమూహం జతచేయుము (_A)"
-
-#: ../interfaces/users.ui.h:46
-msgid "_Add Profile"
-msgstr "ప్రొఫైల్ జతచేయుము (_A)"
-
-#: ../interfaces/users.ui.h:47
-msgid "_Add User"
-msgstr "వినియోగదారి జతచేయుము (_A)"
-
-#: ../interfaces/users.ui.h:48
-msgid "_Comments"
-msgstr "వ్యాఖ్యానములు (_C)"
-
-#: ../interfaces/users.ui.h:49
-msgid "_Days between warning and password expiration:"
-msgstr "హెచ్చరిక మరియు సంకేతపదము కాలముగింపు మద్య దినములు (_D):"
-
-#: ../interfaces/users.ui.h:50 ../src/network/address-list.c:77
-#: ../src/network/hosts.c:33 ../src/shares/table.c:40 ../src/users/table.c:40
-msgid "_Delete"
-msgstr "తొలగించుము(_D)"
-
-#: ../interfaces/users.ui.h:51
-msgid "_Generate"
-msgstr "జనియింపచేయుము (_G)"
-
-#: ../interfaces/users.ui.h:52
-msgid "_Home directory:"
-msgstr "నివాస సంచయం (_H):"
-
-#: ../interfaces/users.ui.h:53
-msgid "_Home phone:"
-msgstr "నివాసపు ఫోన్ (_H):"
-
-#: ../interfaces/users.ui.h:54
-msgid "_Main group:"
-msgstr "ముఖ్య సమూహం (_M):"
-
-#: ../interfaces/users.ui.h:55
 msgid "_Manage Groups"
 msgstr "సమూహములను నిర్వహించుము (_M)"
 
-#: ../interfaces/users.ui.h:56
-msgid "_Profile:"
-msgstr "ప్రొఫైల్ (_P):"
+#: ../interfaces/users.ui.h:2
+msgid "Account _type:"
+msgstr ""
 
-#: ../interfaces/users.ui.h:57
-msgid "_Real name:"
-msgstr "వాస్తవ నామము(_R):"
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr ""
 
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr ""
+
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:8
+msgid "Group properties"
+msgstr "సమూహం లక్షణాలు"
+
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "ప్రాధమిక అమర్పులు"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "సమూహం నామము (_n):"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "సమూహం _ID:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "సమూహ సభ్యులు"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "ప్రొఫైల్ నామము(_n):"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "వ్యాఖ్యానములు (_C)"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "సిస్టమ్ అప్రమేయాలు"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "నివాస సంచయం (_H):"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "అప్రమేయ షెల్ (_s):"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "అప్రమేయ సమూహము (_g):"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "సంకేతపదము అమర్పులు"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "సంకేతపదము వుపయోగించదగిన దినముల సంఖ్య:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "సంకేతపదము మార్పుల మధ్యన అనుమతించదగు కనిష్ట దినములు:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "హెచ్చరికకు మరియు సంకేతపదము కాలముతీరుటకు మద్య రోజులు:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "అప్రమేయంగా యాధృచ్చిక సంకేతపదమును అప్పగించుము"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "స్వయంచాలక UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "గరిష్ట UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "గరిష్ట GID:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "కనిష్ట UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "కనిష్ట GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "అనుమతులు"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "వినియోగదారి ప్రొఫైల్స్"
+
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr "ప్రొఫైల్ జతచేయుము (_A)"
+
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr "సమూహాల అమరికలు"
+
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr ""
+
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr ""
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "నిర్ధారణ (_f):"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "సంకేతపదం దీనికి అమర్చబడింది: "
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "జనియింపచేయుము (_G)"
+
+#: ../interfaces/users.ui.h:43
+msgid "Set password b_y hand"
+msgstr "సంకేతపదమును చేతితో అమర్చుము (_y)"
+
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "యాదృచ్చిక సంకేతపదమును జనియింపచేయుము (_r)"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "లాగిన్ నందు సంకేతపదము కొరకు అడుగవద్దు (_I)"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr ""
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr ""
+
+#: ../interfaces/users.ui.h:52
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr ""
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr ""
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
+msgstr ""
+
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
 #: ../interfaces/users.ui.h:58
+msgid ""
+"Username must consist of:\n"
+"  ➣ lower case letters from the English alphabet\n"
+"  ➣ digits\n"
+"  ➣ any of the characters \".\", \"-\" and \"_\""
+msgstr ""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr ""
+
+#: ../interfaces/users.ui.h:63
+msgid "Username must start with a letter!"
+msgstr ""
+
+#: ../interfaces/users.ui.h:64
+msgid "_Encrypt home folder to protect sensitive data"
+msgstr ""
+
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr ""
+
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "కార్యాలయ స్థానము (_f):"
+
+#: ../interfaces/users.ui.h:69
+msgid "_Work phone:"
+msgstr "పనిచోట ఫోన్(_W):"
+
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "నివాసపు ఫోన్ (_H):"
+
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr ""
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "వినియోగదారి అనుమతులు"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "అధునాతన అమరికలు"
+
+#: ../interfaces/users.ui.h:74
 msgid "_Shell:"
 msgstr "షెల్ (_S):"
 
-#: ../interfaces/users.ui.h:60
-msgid "_Work phone:"
-msgstr "పనిచోట ఫోన్(_W):"
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "ముఖ్య సమూహం (_M):"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "యూజర్  ఐడి:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr ""
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "ఐచ్చిక అమర్పులు"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "సంకేతపదము మార్పుల మద్య కనీస దినములు (_n):"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "సంకేతపదమును వుపయోగించదగిన గరిష్ట దినములు (_x):"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "హెచ్చరిక మరియు సంకేతపదము కాలముగింపు మద్య దినములు (_D):"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "ఆధునాతన"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr ""
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -652,61 +757,69 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr ""
-"ఈ క్రింద జాబితాచేసిన ప్లాట్‌ఫాంస్ లో ఒకటి లాగా ఇది తప్పకుండా పనిచేస్తుందని మీక తెలిస్తే, మీరు దానిని "
-"ఎంపికచేసుకొని కొనసాగించవచ్చు. గమనిక, ఏమైనప్పటికి, ఇది సిస్టమ్ ఆకృతీకరణను నష్టం కలిగించవచ్చు లేదా మీ "
-"కంప్యూటర్ ను అవటిదాన్ని చేయవచ్చు."
+msgstr "ఈ క్రింద జాబితాచేసిన ప్లాట్‌ఫాంస్ లో ఒకటి లాగా ఇది తప్పకుండా పనిచేస్తుందని మీక తెలిస్తే, మీరు దానిని ఎంపికచేసుకొని కొనసాగించవచ్చు. గమనిక, ఏమైనప్పటికి, ఇది సిస్టమ్ ఆకృతీకరణను నష్టం కలిగించవచ్చు లేదా మీ కంప్యూటర్ ను అవటిదాన్ని చేయవచ్చు."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
 msgstr "మద్దతీయబడని ప్లాట్‌ఫాం"
 
-#: ../src/common/gst-tool.c:181
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr "ఆకృతీకరణ నింపబడ లేకపోయింది"
 
 #. OPERATION_COMMIT
-#: ../src/common/gst-tool.c:183
+#: ../src/common/gst-tool.c:190
 msgid "The configuration could not be saved"
 msgstr "ఆకృతీకరణ దాయబడలేదు"
 
-#: ../src/common/gst-tool.c:187
+#: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
 msgstr "మీరు సిస్టమ్ ఆకృతీకరణను వాడుకొనుటకు అనుమతించబడరు."
 
 #. OPERATION_COMMIT
-#: ../src/common/gst-tool.c:189
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
 msgstr "మీరు సిస్టమ్ ఆకృతీకరణనను సవరించుటకు అనుమతించబడరు."
 
-#: ../src/common/gst-tool.c:192
+#: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
 msgstr "చెల్లని డాటా కనుగొనబడింది."
 
 #. OOBS_RESULT_ERROR
-#: ../src/common/gst-tool.c:194
-#| msgid "An unexpected error has occurred."
+#: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
 msgstr "ఒక తెలియని దోషము యెదురైంది."
 
-#: ../src/common/gst-tool.c:416
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "సహాయంను ప్రదర్శించ లేకపోయింది"
 
-#: ../src/common/gst-tool.c:600
+#: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
 msgstr "సిస్టమ్ ఆకృతీకరణ సంభావనీయముగా మార్చబడింది."
 
-#: ../src/common/gst-tool.c:602
+#: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
 msgstr "సారములను నవీకరించాలా? గమనములో ఇది ఏ సవరింపునైనా పొగొట్టుకుంటుంది."
 
+#: ../src/common/gst-tool.c:687
+#, c-format
+msgid ""
+"An error occurred while checking for authorizations: %s\n"
+"You may report this as a bug."
+msgstr ""
+
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
-#: ../src/shares/table.c:38 ../src/users/table.c:38
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "జతచేయుము(_A)"
 
-#: ../src/network/address-list.c:486
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
+msgid "_Delete"
+msgstr "తొలగించుము(_D)"
+
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "చిరునామాను టైపుచేయుము"
 
@@ -732,9 +845,7 @@ msgstr "అతిధేయ నామము మార్చబడినది"
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr ""
-"ఇది మిమ్ముల్ని కొత్త అనువర్తనం దింపుట నుండి నిరోధిస్తుంది, మరియు అందువలన మీరు మరలా లాగిన్ "
-"అవ్వవలిసిఉంటుంది. ఏమైనా కొనసాగించాలా?"
+msgstr "ఇది మిమ్ముల్ని కొత్త అనువర్తనం దింపుట నుండి నిరోధిస్తుంది, మరియు అందువలన మీరు మరలా లాగిన్ అవ్వవలిసిఉంటుంది. ఏమైనా కొనసాగించాలా?"
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
@@ -790,7 +901,7 @@ msgid "%s Properties"
 msgstr "%s లక్షణాలు"
 
 #: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
-#: ../src/shares/table.c:39 ../src/users/table.c:39
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "లక్షణాలు(_P)"
 
@@ -812,61 +923,48 @@ msgstr "రోమింగ్ రీతి చేతనపరచిఉంది"
 
 #: ../src/network/ifaces-list.c:289
 #, c-format
-msgid "Essid: %s "
-msgstr "Essid: %s "
+msgid "<b>Essid:</b> %s "
+msgstr ""
 
-#: ../src/network/ifaces-list.c:295
-#, c-format
-msgid "Address: %s Subnet mask: %s"
-msgstr "చిరునామా: %s సబ్‌నెట్ తొడుగు: %s"
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:299
-#, c-format
-msgid "Address: %s"
-msgstr "చిరునామా: %s"
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:303
-#, c-format
-msgid "Address: %s Remote address: %s"
-msgstr "చిరునామా: %s దూరస్థ చిరునామా: %s"
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:315
-#, c-format
-msgid "Type: %s Phone number: %s"
-msgstr "రకం: %s ఫోన్ సంఖ్య: %s"
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:318
-#, c-format
-msgid "Type: %s Access point name: %s"
-msgstr "రకం: %s ఏక్సిస్ సూచి నామము: %s"
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:325
-#, c-format
-msgid "Type: %s Ethernet interface: %s"
-msgstr "రకం: %s ఈధర్‌నెట్ అంతర్ముఖి: %s"
-
-#: ../src/network/ifaces-list.c:329
-#, c-format
-msgid "Type: %s"
-msgstr "రకం: %s"
-
-#: ../src/network/ifaces-list.c:346
+#: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
 msgstr "వైర్‌లెస్ అనుసంధానం"
 
-#: ../src/network/ifaces-list.c:348
+#: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
 msgstr "ఇన్‌ఫ్రారెడ్ అనుసంధానం"
 
-#: ../src/network/ifaces-list.c:350
+#: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
 msgstr "వైర్‌డ్ అనుసంధానం"
 
-#: ../src/network/ifaces-list.c:352
+#: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
 msgstr "సమాంతర పోర్టు అనుసంధానం"
 
-#: ../src/network/ifaces-list.c:354
+#: ../src/network/ifaces-list.c:364
 msgid "Point to point connection"
 msgstr "బిందువు నుండి బిందువుకు అనుసంధానం"
 
@@ -921,29 +1019,29 @@ msgstr "ప్రధమ నెట్వర్కు అంతర్ముఖి�
 msgid "TYPE"
 msgstr "రకము"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "నెట్వర్కు పరికరాలను మరియు అనుసంధానాలను ఆకృతీకరించుము"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "నెట్వర్కు"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "నెట్వర్కు పరికరాలను మరియు అనుసంధానాలను ఆకృతీకరించుము"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
 msgstr "నెట్వర్కు అమరికలు"
 
-#: ../src/services/callbacks.c:59
+#: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
 msgstr "\"%s\" సేవ కొరకు అమరికలు"
 
-#: ../src/services/callbacks.c:119
+#: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
 msgstr "మీరు ఖచ్చితంగా %s ను క్రియాహీనం చేద్దామనుకుంటున్నారా?"
 
-#: ../src/services/callbacks.c:123
+#: ../src/services/callbacks.c:126
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
@@ -1356,13 +1454,13 @@ msgstr "సిస్టమ్ మానిటర్"
 msgid "Virtual Machine management"
 msgstr "వర్చ్యువల్ మిషన్ నిర్వహణ"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "సిస్టమ్ ప్రారంభమైనప్పుడు ఏ సేవలు ప్రారంభమవ్వాలో ఆకృతీకరించుము"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "సేవలు"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "సిస్టమ్ ప్రారంభమైనప్పుడు ఏ సేవలు ప్రారంభమవ్వాలో ఆకృతీకరించుము"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1393,7 +1491,7 @@ msgstr "స్థితి"
 msgid "Priority"
 msgstr "ప్రాముఖ్యత"
 
-#: ../src/services/services-tool.c:99
+#: ../src/services/services-tool.c:106
 msgid "Services Settings"
 msgstr "సేవల అమరికలు"
 
@@ -1413,11 +1511,11 @@ msgstr "భాగస్వామ్య పాత్ ను జతచేయుమ
 msgid "PATH"
 msgstr "పాత్"
 
-#: ../src/shares/caja/caja-shares.c:152
+#: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
 msgstr "భాగస్వామ్య సంచయం(_S)..."
 
-#: ../src/shares/caja/caja-shares.c:153
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr "ఈ సంచయంను ఇతర కంప్యూటర్లతో పంచుము"
 
@@ -1437,7 +1535,7 @@ msgstr "IP చిరునామా ను తెలుపుము"
 msgid "Specify network"
 msgstr "నెట్వర్కు ను తెలుపుము"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "మీ నెట్వర్కు నైబర్‌హుడ్ కొరకు ఏ సంచయాలను అందుబాటులో ఉంచాలో ఆకృతీకరించుము"
 
@@ -1466,35 +1564,43 @@ msgstr "'%s' ఫోల్డర్ కొరకు అమరికలు"
 msgid "Share Folder"
 msgstr "ఫొల్డరును పంచుకొనుము"
 
-#: ../src/shares/shares-tool.c:155
+#: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
 msgstr "పంచుకొను సేవలు సంస్థాపించలేదు"
 
-#: ../src/shares/shares-tool.c:157
+#: ../src/shares/shares-tool.c:154
 msgid ""
 "You need to install at least either Samba or NFS in order to share your "
 "folders."
 msgstr "మీ సంచయాలను పంచుకొనుటకు మీరు కనీసం Samba లేదా NFS ను సంస్థాపించవలసి ఉన్నది."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "సిస్టమ్ సమయం, తేది, మరియు సమయక్షేత్రం ను మార్చుము"
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
+msgstr ""
 
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/e-map/e-map.c:622
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
+msgstr ""
+
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "సమయం మరియు తేది"
 
-#: ../src/time/time-tool.c:397
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "సిస్టమ్ సమయం, తేది, మరియు సమయక్షేత్రం ను మార్చుము"
+
+#: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "NTP మద్దతు సంస్థాపించబడలేదు"
 
-#: ../src/time/time-tool.c:399
+#: ../src/time/time-tool.c:400
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr ""
-"మీ స్థానిక సమయ సేవికను ఇంటర్నెట్ సమయ సేవికల తో ఏకకాలం చేయుటకు దయచేసి NTP మద్దతును సిస్టమ్ నందు "
-"సంస్థాపించండి లేదా క్రియాశీలం చేయండి."
+msgstr "మీ స్థానిక సమయ సేవికను ఇంటర్నెట్ సమయ సేవికల తో ఏకకాలం చేయుటకు దయచేసి NTP మద్దతును సిస్టమ్ నందు సంస్థాపించండి లేదా క్రియాశీలం చేయండి."
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
@@ -1516,288 +1622,495 @@ msgstr "ఇంటర్నెట్ సేవికలతో ఏకకాలం�
 msgid "Manual"
 msgstr "మానవీయ"
 
-#: ../src/time/time-tool.c:668
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "సమయ మరియు తేది అమరికలు"
 
-#: ../src/users/group-settings.c:52
+#: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
 msgstr "నిర్వహణాదికారి సమూహం తొలగించబడదు"
 
-#: ../src/users/group-settings.c:55 ../src/users/group-settings.c:295
-#: ../src/users/group-settings.c:319 ../src/users/user-settings.c:61
-#: ../src/users/user-settings.c:674
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "ఇది సిస్టమ్ ను ఉపయోగంలేకుండా చేసివదులుతుంది."
 
-#: ../src/users/group-settings.c:68
+#: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
 msgstr "మీరు ఖచ్చితంగా సమూహం \"%s\" ను తొలగించాలని అనుకుంటున్నారా?"
 
-#: ../src/users/group-settings.c:71
+#: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
 msgstr "ఇది దస్త్రాలను దస్త్రవిధానం నందు సరిగాని సమూహ ID తో వదిలిఉండవచ్చు."
 
-#: ../src/users/group-settings.c:167
+#: ../src/users/group-settings.c:144
 msgid "New group"
 msgstr "కొత్త సమూహం"
 
-#: ../src/users/group-settings.c:175
+#: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
 msgstr "సమూహం '%s' లక్షణాలు"
 
-#: ../src/users/group-settings.c:291
+#: ../src/users/group-settings.c:217
 msgid "Group name is empty"
 msgstr "సమూహం నామము ఖాళీ"
 
-#: ../src/users/group-settings.c:292
+#: ../src/users/group-settings.c:218
 msgid "A group name must be specified."
 msgstr "ఒక సమూహం నామము తప్పక తెలుపవలెను."
 
-#: ../src/users/group-settings.c:294
+#: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
 msgstr "కార్యనిర్వాహకుని సమూహం యొక్క సమూహ నామము వినియోగదారి సవరింపకూడదు"
 
-#: ../src/users/group-settings.c:297
+#: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
 msgstr "సమూహ నామము చెల్లని అక్షరాలను కలిగిఉంది"
 
-#: ../src/users/group-settings.c:298
+#: ../src/users/group-settings.c:224
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr ""
-"చిన్న బడి అక్షరములు మరియు సంఖ్యలను అనుసరించుచూ దయచేసి చిన్నబడి అక్షరములు కలిగిఉన్న "
-"చెల్లునటువంటి సమూహ నామము ను అమర్చండి."
+msgstr "చిన్న బడి అక్షరములు మరియు సంఖ్యలను అనుసరించుచూ దయచేసి చిన్నబడి అక్షరములు కలిగిఉన్న చెల్లునటువంటి సమూహ నామము ను అమర్చండి."
 
-#: ../src/users/group-settings.c:302 ../src/users/user-settings.c:607
+#: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
 msgstr "సమూహం \"%s\" ఇప్పటికే ఉంది"
 
-#: ../src/users/group-settings.c:303
+#: ../src/users/group-settings.c:230
 msgid "Please choose a different group name."
 msgstr "దయచేసి వేరే సమూహ నామమును యెంచుకొనుము."
 
-#: ../src/users/group-settings.c:318
+#: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
 msgstr "కార్యనిర్వహకుని ఖాతా యొక్క సమూహ ID సవరింపకూడదు"
 
-#: ../src/users/groups-table.c:45
+#. check that GID is free
+#: ../src/users/group-settings.c:261
+#, c-format
+msgid "Group ID %d is already used by group \"%s\""
+msgstr ""
+
+#: ../src/users/group-settings.c:264
+msgid "Please choose a different numeric identifier for the new group."
+msgstr ""
+
+#: ../src/users/group-settings.c:266
+#, c-format
+msgid "Please choose a different numeric identifier for group \"%s\"."
+msgstr ""
+
+#: ../src/users/groups-table.c:44
 msgid "Group name"
 msgstr "సమూహం నామము"
 
-#: ../src/users/privileges-table.c:49
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
+msgstr ""
+
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
+msgstr ""
+
+#: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
 msgstr "సిస్టమ్ లాగ్‌లను గమనించుము"
 
-#: ../src/users/privileges-table.c:50
+#: ../src/users/privileges-table.c:54
 msgid "Administer the system"
 msgstr "సిస్టమ్ నిర్వహించు"
 
-#: ../src/users/privileges-table.c:51
+#: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
 msgstr "ఆడియో పరికరాలను ఉపయోగించు"
 
-#: ../src/users/privileges-table.c:52
+#: ../src/users/privileges-table.c:56
 msgid "Use CD-ROM drives"
 msgstr "CD-ROM డ్రైవ్ లను ఉపయోగించు"
 
-#: ../src/users/privileges-table.c:53
+#: ../src/users/privileges-table.c:57
 msgid "Burn CDs / DVDs"
 msgstr "CDలు / DVDలు బర్న్ చేయుము"
 
-#: ../src/users/privileges-table.c:54
+#: ../src/users/privileges-table.c:58
 msgid "Use modems"
 msgstr "మోడెమ్సు ను ఉపయోగించు"
 
-#: ../src/users/privileges-table.c:55
+#: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
 msgstr "మోడెమ్ ను ఉపయోగించుచూ ఇంటర్నెట్ కు అనుసంధానంకమ్ము"
 
-#: ../src/users/privileges-table.c:56
+#: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
 msgstr "ఫాక్సెస్ ను పంపుము మరియు స్వీకరించుము"
 
-#: ../src/users/privileges-table.c:57
+#: ../src/users/privileges-table.c:61
 msgid "Use floppy drives"
 msgstr "ఫ్లాపీ డ్రైవ్‌ లను ఉపయోగించుము"
 
-#: ../src/users/privileges-table.c:58
+#: ../src/users/privileges-table.c:62
+msgid "Mount user-space filesystems (FUSE)"
+msgstr ""
+
+#: ../src/users/privileges-table.c:63
+msgid "Configure printers"
+msgstr ""
+
+#: ../src/users/privileges-table.c:64
+msgid "Connect to wireless and ethernet networks"
+msgstr ""
+
+#: ../src/users/privileges-table.c:65
 msgid "Access external storage devices automatically"
 msgstr "బహిర్గత నిల్వ పరికరాలను స్వయంచాలకంగా వాడుకుంటుంది"
 
-#: ../src/users/privileges-table.c:59
+#: ../src/users/privileges-table.c:66
+msgid "Suspend and hibernate the computer"
+msgstr ""
+
+#: ../src/users/privileges-table.c:67
 msgid "Access /proc filesystem"
 msgstr "/proc దస్త్రవ్యవస్థను యాక్సెస్ చేయుము"
 
-#: ../src/users/privileges-table.c:60
+#: ../src/users/privileges-table.c:68
 msgid "Use scanners"
 msgstr "గ్రాహకాలను ఉపయోగిస్తుంది"
 
-#: ../src/users/privileges-table.c:61
+#: ../src/users/privileges-table.c:69
 msgid "Use tape drives"
 msgstr "టేప్ డ్రైవ్ లను ఉపయోగిస్తుంది"
 
-#: ../src/users/privileges-table.c:62
-#| msgid "Use audio devices"
+#: ../src/users/privileges-table.c:70
 msgid "Use USB devices"
 msgstr "USB పరికరాలను వుపయోగించుము"
 
-#: ../src/users/privileges-table.c:63
-#| msgid "Use audio devices"
+#: ../src/users/privileges-table.c:71
+msgid "Use VirtualBox virtualization solution"
+msgstr ""
+
+#: ../src/users/privileges-table.c:72
 msgid "Use video devices"
 msgstr "వీడియో పరికరాలను వుపయోగించుము"
 
-#: ../src/users/privileges-table.c:64
+#: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
 msgstr "నిర్వాహకుని అధికారాలను పొందునట్లు ఉండండి"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "వినియోగదారులను మరియు సమూహాలను జతచేయుము లేదా తీసివేయుము"
+#: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr ""
 
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr ""
+
+#: ../src/users/run-passwd.c:421
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/users/run-passwd.c:498
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/users/run-passwd.c:504
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/users/run-passwd.c:510
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/users/run-passwd.c:513
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/users/run-passwd.c:517
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/users/run-passwd.c:524
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/users/run-passwd.c:528
+#, c-format
+msgid "Unknown error"
+msgstr ""
+
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "వినియోగదారులు మరియు సమూహాలు"
 
-#: ../src/users/user-settings.c:58
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "వినియోగదారులను మరియు సమూహాలను జతచేయుము లేదా తీసివేయుము"
+
+#: ../src/users/user-password.c:97
+msgid "Password is too short"
+msgstr "సంకేతపదం చాలా చిన్నగాఉంది"
+
+#: ../src/users/user-password.c:98
+msgid ""
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
+msgstr ""
+
+#: ../src/users/user-password.c:101
+msgid "Password confirmation is not correct"
+msgstr "సంకేతపదం నిర్దారణ సరైనది కాదు"
+
+#: ../src/users/user-password.c:102
+msgid "Check that you have provided the same password in both text fields."
+msgstr "మీరు రెండు పాఠ్య క్షేత్రాలలో ఒకే సంకేతపదాన్ని సమకూర్చినారేమో పరిశీలించుకొనండి."
+
+#: ../src/users/user-password.c:445
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/users/user-password.c:456
+msgid "Please type again your current password."
+msgstr ""
+
+#: ../src/users/user-password.c:463
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
 msgstr "నిర్వాహకుని ఖాతా తొలగించబడదు"
 
-#: ../src/users/user-settings.c:72
+#: ../src/users/user-settings.c:96
 #, c-format
-msgid "Are you sure you want to delete account \"%s\"?"
-msgstr "మీరు ఖచ్చితంగా ఖాతాను తొలగించుదామని అనుకుంటున్నారా \"%s\"?"
-
-#: ../src/users/user-settings.c:75
-msgid ""
-"This will disable this user's access to the system without deleting the "
-"user's home directory."
-msgstr "వినియోగదారుని నివాస సంచయంను తొలగించకుండా నే ఇది సిస్టమ్ కు వినియోగదారుని ప్రవేశాన్ని అచేతనం చేస్తుంది."
-
-#: ../src/users/user-settings.c:85
-msgid "This user is currently using this computer"
-msgstr "ఈ వినియోగదారి ప్రస్తుతం ఈ కంప్యూటర్ ను ఉపయోగిస్తున్నాడు"
-
-#: ../src/users/user-settings.c:411
-msgid "New user account"
-msgstr "కొత్త వినియోగదారి ఖాతా"
-
-#: ../src/users/user-settings.c:432
-#, c-format
-msgid "Account '%s' Properties"
-msgstr "ఖాతా '%s' లక్షణాలు"
-
-#: ../src/users/user-settings.c:593
-msgid "User name is empty"
-msgstr "వినియోగదారి నామము ఖాళీగాఉంది"
-
-#: ../src/users/user-settings.c:594
-msgid "A user name must be specified."
-msgstr "ఒక వినియోగదారి నామము తప్పక తెలుపవలెను."
-
-#: ../src/users/user-settings.c:596
-msgid "User name has invalid characters"
-msgstr "వినియోగదారి నామము సరికాని ఆక్షరములను కలిగిఉంది"
-
-#: ../src/users/user-settings.c:597
-msgid ""
-"Please set a valid user name consisting of a lower case letter followed by "
-"lower case letters and numbers."
+msgid "%s is currently using this computer"
 msgstr ""
-"చిన్నబడి అక్షరములను మరియు సంఖ్యలను అనుసరించుచూ దయచేసి చిన్నబడి అక్షరములను కలిగిఉన్న "
-"చెల్లునటువంటి వినియోగదారి నామమును అమర్చుము."
 
-#: ../src/users/user-settings.c:601
+#: ../src/users/user-settings.c:99
+msgid "Please ensure the user has logged out before deleting this account."
+msgstr ""
+
+#: ../src/users/user-settings.c:109
+msgid "Can't delete the only administrator account"
+msgstr ""
+
+#: ../src/users/user-settings.c:111
 #, c-format
-msgid "User name \"%s\" already exists"
-msgstr "వినియోగదారినామము \"%s\" ఇప్పటికే ఉంది"
+msgid ""
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
+msgstr ""
 
-#: ../src/users/user-settings.c:602 ../src/users/user-settings.c:608
-msgid "Please choose a different user name."
-msgstr "దయచేసి వేరే వినియోగదారి నామమును యెంచుకొనుము."
+#: ../src/users/user-settings.c:121
+#, c-format
+msgid "Remove home folder for %s?"
+msgstr ""
 
-#: ../src/users/user-settings.c:633
+#: ../src/users/user-settings.c:124
+#, c-format
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr ""
+
+#: ../src/users/user-settings.c:132
+msgid "Keep Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:133
+msgid "Don't Remove Account"
+msgstr ""
+
+#: ../src/users/user-settings.c:134
+msgid "Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:330
+msgid "Superuser"
+msgstr ""
+
+#: ../src/users/user-settings.c:335
+msgid "Custom"
+msgstr ""
+
+#. TRANSLATORS: This applies to a password.
+#: ../src/users/user-settings.c:344
+msgid "None"
+msgstr ""
+
+#: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
 msgstr "వ్యాఖ్య నందు చెల్లని ఆక్షరం \"%c\""
 
-#: ../src/users/user-settings.c:634
+#: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
 msgstr "ఈ అక్షరం ఉపంయోగించకుండా ఉండునట్లు పరిశీలించుము."
 
-#: ../src/users/user-settings.c:652
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "నివాస సంచయం నందు పూర్తిగాలేని పాత్"
 
-#: ../src/users/user-settings.c:653
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
-"i.e.: /home/john."
+"<span size=\"smaller\">i.e.: /home/john</span>."
 msgstr ""
-"దయచేసి నివాస సంచయం కొరకు పూర్తి పాత్ ను ప్రవేశపెట్టండి\n"
-"i.e.: /home/john."
 
-#: ../src/users/user-settings.c:656
-msgid "Home directory already exists"
-msgstr "నివాస సంచయం ఇప్పటికే ఉంది"
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
+msgstr ""
 
-#: ../src/users/user-settings.c:657
-msgid "Please enter a different home directory path."
-msgstr "దయచేసి వేరే నివాస సంచయం పాత్ ను ప్రవేశపెట్టండి."
+#: ../src/users/user-settings.c:449
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr ""
 
-#: ../src/users/user-settings.c:673
-msgid "Administrator account's user ID should not be modified"
-msgstr "నిర్వాహకుని ఖాతా యొక్క వినియోగదారుని ID సవరింపకూడదు"
+#: ../src/users/user-settings.c:461
+msgid "_Replace With Old Files"
+msgstr ""
 
-#: ../src/users/user-settings.c:688
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr ""
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr ""
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr ""
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr ""
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr ""
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:604
+msgid "ID for the root user should not be modified"
+msgstr ""
+
+#. check that UID is free
+#: ../src/users/user-settings.c:608
+#, c-format
+msgid "User ID %d is already used by user %s"
+msgstr ""
+
+#: ../src/users/user-settings.c:610
+#, c-format
+msgid "Please choose a different numeric identifier for %s."
+msgstr ""
+
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr "షెల్ నందు పూర్తిగాలేని పాత్"
 
-#: ../src/users/user-settings.c:689
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
-"i.e.: /bin/bash."
+"<span size=\"smaller\">i.e.: /bin/bash</span>."
 msgstr ""
-"దయచేసి షెల్ కొరకు పూర్తి పాత్ ను ప్రవేశపెట్టండి\n"
-"i.e.: /bin/bash."
 
-#: ../src/users/user-settings.c:722
-msgid "Password is too short"
-msgstr "సంకేతపదం చాలా చిన్నగాఉంది"
+#: ../src/users/user-settings.c:663
+msgid "Can't revoke administration rights"
+msgstr ""
 
-#: ../src/users/user-settings.c:723
+#: ../src/users/user-settings.c:666
+#, c-format
 msgid ""
-"User passwords must be longer than 6 characters and preferably formed by "
-"numbers, letters and special characters."
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
 msgstr ""
-"వినియోగదారుని సంకేతపదాలు తప్పక 6 అక్షరాలకన్నా ఎక్కువగాఉండాలి మరియు ఇష్టానుసారం సంఖ్యలు, అక్షరములు "
-"మరియు ప్రత్యేక అక్షరములో రూపీకరించాలి."
 
-#: ../src/users/user-settings.c:726
-msgid "Password confirmation is not correct"
-msgstr "సంకేతపదం నిర్దారణ సరైనది కాదు"
+#: ../src/users/user-settings.c:683
+msgid "You are about to revoke your own administration rights"
+msgstr ""
 
-#: ../src/users/user-settings.c:727
-msgid "Check that you have provided the same password in both text fields."
-msgstr "మీరు రెండు పాఠ్య క్షేత్రాలలో ఒకే సంకేతపదాన్ని సమకూర్చినారేమో పరిశీలించుకొనండి."
+#: ../src/users/user-settings.c:686
+#, c-format
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
+msgstr ""
 
-#: ../src/users/users-table.c:44
-msgid "Name"
-msgstr "నామము"
+#: ../src/users/user-settings.c:691
+msgid "Give up administration rights"
+msgstr ""
 
-#: ../src/users/users-table.c:67
-msgid "Login name"
-msgstr "లాగిన్ నామము"
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr ""
 
-#: ../src/users/users-table.c:77
-msgid "Home directory"
-msgstr "నివాస సంచయం"
-
-#: ../src/users/users-tool.c:216
+#: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "వినియోగదారుల అమరికలు"
-

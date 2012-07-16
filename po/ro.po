@@ -1,738 +1,754 @@
-# translation of mate-system-tools.HEAD.ro.po to Română
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010.
 # Mișu Moldovan <dumol@mate.ro>, 2004, 2005.
 # Mugurel Tudor <mugurelu@mate.ro>, 2006.
-# Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009
-# Romanian translation for mate-system-tools
-# Copyright (C) 2004 - 2005, 2006 Free Software Foundation, Inc
-# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools.HEAD.ro\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-system-tools&component=general\n"
-"POT-Creation-Date: 2010-03-24 20:49+0000\n"
-"PO-Revision-Date: 2010-03-27 14:08+0200\n"
-"Last-Translator: Adi Roiban <adi@roiban.ro>\n"
-"Language-Team: Romanian MATE Team <matero-list@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:52+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
-"X-Generator: Virtaal 0.5.2\n"
-"X-Launchpad-Export-Date: 2009-08-02 14:48+0000\n"
-
-#: ../mate-system-tools.schemas.in.h:1
-msgid "Whether the users-admin tool should show system users in the users list"
-msgstr "Specifică dacă instrumentul „users-admin” va afișa utilizatorii de sistem în lista de utilizatori"
-
-#: ../mate-system-tools.schemas.in.h:2
-msgid "Whether the users-admin tool should show the root user in the users list"
-msgstr "Specifică dacă instrumentul „users-admin” va afișa utilizatorul „root” în lista de utilizatori"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1))\n"
 
 #: ../interfaces/network.ui.h:1
-msgid "Account data"
-msgstr "Date cont"
-
-#: ../interfaces/network.ui.h:2
-msgid "Connection Settings"
-msgstr "Configurări conexiune"
-
-#: ../interfaces/network.ui.h:3
-msgid "DNS Servers"
-msgstr "Servere DNS"
-
-#: ../interfaces/network.ui.h:4
-msgid "Host Settings"
-msgstr "Configurări gazdă"
-
-#: ../interfaces/network.ui.h:5
-msgid "Internet service provider data"
-msgstr "Date furnizor servicii Internet"
-
-#: ../interfaces/network.ui.h:6
-msgid "Modem Settings"
-msgstr "Configurări modem"
-
-#: ../interfaces/network.ui.h:7
-msgid "Search Domains"
-msgstr "Domenii de căutare"
-
-#: ../interfaces/network.ui.h:8
-msgid "Wireless Settings"
-msgstr "Configurări rețea fără fir"
-
-#: ../interfaces/network.ui.h:9
-msgid "Access point name:"
-msgstr "Nume punct de acces:"
-
-#: ../interfaces/network.ui.h:10
-msgid "Aliases:"
-msgstr "Aliasuri:"
-
-#: ../interfaces/network.ui.h:11
-msgid "Con_figuration:"
-msgstr "Con_figurație:"
-
-#: ../interfaces/network.ui.h:12
-msgid "Connection type:"
-msgstr "Tip conexiune:"
-
-#: ../interfaces/network.ui.h:13
-msgid "Connections"
-msgstr "Conexiuni"
-
-#: ../interfaces/network.ui.h:14
-msgid "DNS"
-msgstr "DNS"
-
-#: ../interfaces/network.ui.h:15
-msgid "D_omain name:"
-msgstr "Nume d_omeniu:"
-
-#: ../interfaces/network.ui.h:16
-msgid "Delete current location"
-msgstr "Șterge locația curentă"
-
-#: ../interfaces/network.ui.h:17
-msgid "E_nable roaming mode"
-msgstr "A_ctivează modul roaming"
-
-#: ../interfaces/network.ui.h:18
-msgid "E_nable this connection"
-msgstr "Activea_ză această conexiune"
-
-#: ../interfaces/network.ui.h:19
-msgid "Ethernet interface:"
-msgstr "Interfață ethernet:"
-
-#: ../interfaces/network.ui.h:20
-#: ../interfaces/users.ui.h:32
-msgid "General"
-msgstr "Generale"
-
-#: ../interfaces/network.ui.h:21
-msgid "Hexadecimal"
-msgstr "Hexadecimal"
-
-#: ../interfaces/network.ui.h:22
-msgid "Host Alias Properties"
-msgstr "Proprietăți alias gazdă"
-
-#: ../interfaces/network.ui.h:23
-msgid "Hosts"
-msgstr "Gazde"
-
-#: ../interfaces/network.ui.h:24
-#: ../interfaces/shares.ui.h:14
-msgid "IP address:"
-msgstr "Adresă IP:"
-
-#: ../interfaces/network.ui.h:25
-msgid "Interface properties"
-msgstr "Proprietăți interfață"
-
-#: ../interfaces/network.ui.h:26
-msgid "Location:"
-msgstr "Locație:"
-
-#: ../interfaces/network.ui.h:27
-msgid "Loud"
-msgstr "Tare"
-
-#: ../interfaces/network.ui.h:28
-msgid "Low"
-msgstr "Scăzut"
-
-#: ../interfaces/network.ui.h:29
-msgid "Medium"
-msgstr "Mediu"
-
-#: ../interfaces/network.ui.h:30
-msgid "Modem"
-msgstr "Modem"
-
-#: ../interfaces/network.ui.h:31
-msgid "Network _password:"
-msgstr "_Parolă rețea:"
-
-#: ../interfaces/network.ui.h:32
-msgid "Network name (_ESSID):"
-msgstr "Nume rețea (_ESSID):"
-
-#: ../interfaces/network.ui.h:33
 msgid "Off"
 msgstr "Dezactivat"
 
-#: ../interfaces/network.ui.h:34
-msgid "Options"
-msgstr "Opțiuni"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
+msgstr "Scăzut"
 
-#: ../interfaces/network.ui.h:35
-msgid "P_assword"
-msgstr "P_arolă"
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
+msgstr "Mediu"
 
-#: ../interfaces/network.ui.h:36
-msgid "Password _type:"
-msgstr "_Tip parolă:"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr "Tare"
 
-#: ../interfaces/network.ui.h:37
-msgid "Plain (ASCII)"
-msgstr "Text simplu (ASCII)"
-
-#: ../interfaces/network.ui.h:38
-msgid "Pulses"
-msgstr "Pulsuri"
-
-#: ../interfaces/network.ui.h:39
-msgid "Save current network configuration as a location"
-msgstr "Salvează configurația curentă a rețelei ca și locație"
-
-#: ../interfaces/network.ui.h:40
+#: ../interfaces/network.ui.h:5
 msgid "Tones"
 msgstr "Tonuri"
 
-#: ../interfaces/network.ui.h:41
-msgid "Use the Internet service provider nameservers"
-msgstr "Utilizează serverele DNS ale furnizorului de Internet"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr "Pulsuri"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "_Autodetectare"
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr "Text simplu (ASCII)"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr "Hexadecimal"
+
+#: ../interfaces/network.ui.h:9
+msgid "Location:"
+msgstr "Locație:"
+
+#: ../interfaces/network.ui.h:10
+msgid "Save current network configuration as a location"
+msgstr "Salvează configurația curentă a rețelei ca și locație"
+
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr "Șterge locația curentă"
+
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "Conexiuni"
+
+#: ../interfaces/network.ui.h:13
+msgid "_Host name:"
+msgstr "_Nume gazdă:"
+
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "Nume d_omeniu:"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "Configurări gazdă"
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Generale"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "Servere DNS"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Domenii de căutare"
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "Gazde"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "Proprietăți interfață"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "Activea_ză această conexiune"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr "A_ctivează modul roaming"
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr "Tip conexiune:"
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "Nume rețea (_ESSID):"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "_Parolă rețea:"
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr "_Tip parolă:"
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr "Configurări rețea fără fir"
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "Con_figurație:"
+
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "Adresă _IP:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "Mască _subnet:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "Adresă _gateway:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "Configurări conexiune"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "IP _local:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "_IP la distanță:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "Număr _telefon:"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "_Prefix apel:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "Nume punct de acces:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "Date furnizor servicii Internet"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "Nume _utilizator:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "P_arolă"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Date cont"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "Port _modem:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "Tip t_on:"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "Adresă _gateway:"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "_Nume gazdă:"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "Adresă _IP:"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "IP _local:"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "Port _modem:"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "Număr _telefon:"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "_IP la distanță:"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "_Reîncearcă dacă nu se realizează conexiunea"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "Configurare _rută implicită către Internet prin modem"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "Mască _subnet:"
-
-#: ../interfaces/network.ui.h:55
-msgid "_Username:"
-msgstr "Nume _utilizator:"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Volum:"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "Configurări avansate:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "_Autodetectare"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "Interfață ethernet:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "Configurări modem"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modem"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "Configurare _rută implicită către Internet prin modem"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Utilizează serverele DNS ale furnizorului de Internet"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "_Reîncearcă dacă nu se realizează conexiunea"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Opțiuni"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "Proprietăți alias gazdă"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "Adresă IP:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Aliasuri:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Selectați serviciile pe care doriți să le activați:"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Configurări avansate:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Allowed Hosts"
-msgstr "Gazde permise"
+msgid "_Path:"
+msgstr "Cal_e:"
 
 #: ../interfaces/shares.ui.h:2
-msgid "Hosts Settings"
-msgstr "Configurări gazde"
-
-#: ../interfaces/shares.ui.h:3
-msgid "Share Properties"
-msgstr "Proprietăți partajare"
-
-#: ../interfaces/shares.ui.h:4
-msgid "Shared Folder"
-msgstr "Dosar partajat"
-
-#: ../interfaces/shares.ui.h:5
-msgid "Windows sharing"
-msgstr "Partajare Windows"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user:"
-msgstr "Introduceți parola utilizatorului:"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Add allowed hosts"
-msgstr "Adăugă gazdele permise"
-
-#: ../interfaces/shares.ui.h:8
-msgid "Allowed hosts:"
-msgstr "Gazde permise:"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Comment:"
-msgstr "Comentariu:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Domain / _Workgroup:"
-msgstr "Domeniu / _Grup de lucru:"
-
-#: ../interfaces/shares.ui.h:11
-msgid "Enter password for user"
-msgstr "Introduceți parola utilizatorului"
-
-#: ../interfaces/shares.ui.h:12
-msgid "General Properties"
-msgstr "Proprietăți generale"
-
-#: ../interfaces/shares.ui.h:13
-msgid "Host name:"
-msgstr "Nume gazdă:"
-
-#: ../interfaces/shares.ui.h:15
-msgid "Name:"
-msgstr "Nume:"
-
-#: ../interfaces/shares.ui.h:16
-msgid "Netmask:"
-msgstr "Mască rețea:"
-
-#: ../interfaces/shares.ui.h:17
-msgid "Network:"
-msgstr "Rețea:"
-
-#: ../interfaces/shares.ui.h:18
-#: ../src/shares/nfs-acl-table.c:56
-msgid "Read only"
-msgstr "Doar citire"
-
-#: ../interfaces/shares.ui.h:19
-msgid "Share"
-msgstr "Partajare"
-
-#: ../interfaces/shares.ui.h:20
 msgid "Share through:"
 msgstr "Partajează prin:"
 
-#: ../interfaces/shares.ui.h:21
-#: ../src/shares/shares.desktop.in.in.h:2
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr "Dosar partajat"
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "Comentariu:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "Nume:"
+
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr "Doar citi_re"
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "Proprietăți partajare"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "Gazde permise"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "Partajare"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Adăugă gazdele permise"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Gazde permise:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Nume gazdă:"
+
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "Rețea:"
+
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Mască rețea:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "Doar citire"
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr "Configurări gazde"
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
 msgstr "Dosare partajate"
 
-#: ../interfaces/shares.ui.h:22
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "Domeniu / _Grup de lucru:"
+
+#: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
 msgstr "Acest calculator este un server _WINS"
 
-#: ../interfaces/shares.ui.h:23
-msgid "Users"
-msgstr "Utilizatori"
-
-#: ../interfaces/shares.ui.h:24
+#: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
 msgstr "_Server WINS:"
 
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr "Partajare Windows"
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Proprietăți generale"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "Utilizatori"
+
 #: ../interfaces/shares.ui.h:25
-msgid "_Path:"
-msgstr "Cal_e:"
+msgid "Enter password for user"
+msgstr "Introduceți parola utilizatorului"
 
 #: ../interfaces/shares.ui.h:26
-msgid "_Read only"
-msgstr "Doar citi_re"
+msgid "Enter password for user:"
+msgstr "Introduceți parola utilizatorului:"
 
 #: ../interfaces/time.ui.h:1
-msgid "Selection"
-msgstr "Selecție"
+msgid "Time zone"
+msgstr "Fus orar"
 
 #: ../interfaces/time.ui.h:2
 msgid "Time Zone"
 msgstr "Fus orar"
 
 #: ../interfaces/time.ui.h:3
-msgid "Add NTP Server"
-msgstr "Adăugă server NTP"
-
-#: ../interfaces/time.ui.h:4
-msgid "NTP server"
-msgstr "Server NTP"
-
-#: ../interfaces/time.ui.h:5
-msgid "Se_lect Servers"
-msgstr "A_legere servere"
-
-#: ../interfaces/time.ui.h:6
-msgid "Synchronize now"
-msgstr "Sincronizează acum"
-
-#: ../interfaces/time.ui.h:7
-msgid "Time servers"
-msgstr "Servere de timp"
-
-#: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "Servere de timp:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "Fus orar"
-
-#: ../interfaces/time.ui.h:10
 msgid "Time zone:"
 msgstr "Fus orar:"
 
-#: ../interfaces/time.ui.h:11
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr "Selecție"
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "Servere de timp"
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "Server NTP"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "Adăugă server NTP"
+
+#: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
 msgstr "Neconfigurat"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_Configurație:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "Servere de timp:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "A_legere servere"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "_Oră:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "_Dată:"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "_Oră:"
+msgid "Synchronize now"
+msgstr "Sincronizează acum"
 
 #: ../interfaces/users.ui.h:1
-msgid "Advanced Settings"
-msgstr "Configurări avansate"
+msgid "_Manage Groups"
+msgstr "_Gestionare grupuri"
 
 #: ../interfaces/users.ui.h:2
-msgid "Automatic UID/GID"
-msgstr "UID/GID automat"
-
-#: ../interfaces/users.ui.h:3
-msgid "Basic Settings"
-msgstr "Configurări principale"
-
-#: ../interfaces/users.ui.h:4
-msgid "Group Members"
-msgstr "Membri grup"
-
-#: ../interfaces/users.ui.h:5
-msgid "Optional Settings"
-msgstr "Configurări opționale"
-
-#: ../interfaces/users.ui.h:6
-msgid "Password Settings"
-msgstr "Configurări parolă"
-
-
-#: ../interfaces/users.ui.h:8
-msgid "System Defaults"
-msgstr "Configurări implicite"
-
-#: ../interfaces/users.ui.h:9
 msgid "Account _type:"
 msgstr "_Tip cont:"
 
-#: ../interfaces/users.ui.h:10
-msgid "Advanced"
-msgstr "Avansate"
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr "S_chimbă..."
 
-#: ../interfaces/users.ui.h:11
-msgid "A user with this name already exists. Please choose a different short name for the new user."
-msgstr "Există deja un utilizator cu acest nume. Alegeți un alt nume scurt pentru noul utilizator."
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "_Parola:"
 
-#: ../interfaces/users.ui.h:12
-msgid "Assign a random password by default"
-msgstr "Atribuie implicit o parolă aleatoare"
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr "Configurări _avansate"
 
-#: ../interfaces/users.ui.h:13
-msgid "Change Advanced User Settings"
-msgstr "Schimbă configurările avansate ale utilizatorului"
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr "Acest cont este dezactivat."
 
-#: ../interfaces/users.ui.h:14
-msgid "Change User Account Type"
-msgstr "Schimbă tipul contului"
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr "Activ_ează contul"
 
-#: ../interfaces/users.ui.h:15
-msgid "Change User Name and Login"
-msgstr "Schimbă numele de utilizator și de autentificare"
-
-#: ../interfaces/users.ui.h:16
-msgid "Change User Password"
-msgstr "Schimbă parola utilizatorului"
-
-#: ../interfaces/users.ui.h:17
-msgid "Changing advanced settings for:"
-msgstr "Se schimbă configurările avansate pentru:"
-
-#: ../interfaces/users.ui.h:18
-msgid "Changing user account type for:"
-msgstr "Se schimbă tipul contului de utilizator pentru:"
-
-#: ../interfaces/users.ui.h:19
-msgid "Changing user name for:"
-msgstr "Se schimbă numele de utilizator pentru:"
-
-#: ../interfaces/users.ui.h:20
-msgid "Changing user password for:"
-msgstr "Se schimbă parola utilizatorului pentru:"
-
-#: ../interfaces/users.ui.h:21
-msgid "Con_firmation:"
-msgstr "Con_firmare:"
-
-
-#: ../interfaces/users.ui.h:23
-msgid "Create New User"
-msgstr "Creare utilizator nou"
-
-#: ../interfaces/users.ui.h:24
-msgid "Create a new user"
-msgstr "Creează un utilizator nou"
-
-#: ../interfaces/users.ui.h:25
-msgid "Days between warning and password expiration:"
-msgstr "Zile de la avertizare și până la expirarea parolei:"
-
-#: ../interfaces/users.ui.h:26
-msgid "Default _group:"
-msgstr "_Grup implicit:"
-
-#: ../interfaces/users.ui.h:27
-msgid "Default _shell:"
-msgstr "_Shell implicit:"
-
-#: ../interfaces/users.ui.h:28
-msgid "Disable _account"
-msgstr "Dez_activează cont"
-
-#: ../interfaces/users.ui.h:29
-msgid "Don't ask for password on _login"
-msgstr "Nu cere o parolă _la autentificare"
-
-#: ../interfaces/users.ui.h:30
-msgid "Encrypt all your files with your login password to strongly protect them from people with physical access to your computer, at the expense of a slightly reduced performance."
-msgstr "Criptează toate fișierele personale folosind parola de autentificare pentru a le proteja de persoane care au acces fizic la calculatorul dumneavoastră, cu costul unei reduceri minore de performanță."
-
-#: ../interfaces/users.ui.h:31
-msgid "Full _Name:"
-msgstr "_Nume întreg:"
-
-#: ../interfaces/users.ui.h:33
-msgid "Generate _random password"
-msgstr "Generează o parolă aleatoa_re"
-
-#: ../interfaces/users.ui.h:34
-msgid "Group _ID:"
-msgstr "_ID grup:"
-
-#: ../interfaces/users.ui.h:35
-msgid "Group _name:"
-msgstr "_Nume grup:"
-
-#: ../interfaces/users.ui.h:36
+#: ../interfaces/users.ui.h:8
 msgid "Group properties"
 msgstr "Proprietăți grup"
 
-#: ../interfaces/users.ui.h:37
-msgid "Groups settings"
-msgstr "Configurări grupuri"
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "Configurări principale"
 
-#: ../interfaces/users.ui.h:38
-msgid "Ma_ximum days a password may be used:"
-msgstr "Numărul ma_xim de zile pentru utilizarea unei parole:"
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "_Nume grup:"
 
-#: ../interfaces/users.ui.h:39
-msgid "Maximum GID:"
-msgstr "GID maxim:"
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "_ID grup:"
 
-#: ../interfaces/users.ui.h:40
-msgid "Maximum UID:"
-msgstr "UID maxim:"
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Membri grup"
 
-#: ../interfaces/users.ui.h:41
-msgid "Mi_nimum days between password changes:"
-msgstr "Numărul mi_nim de zile între două schimbări de parolă:"
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr ""
 
-#: ../interfaces/users.ui.h:42
-msgid "Minimum GID:"
-msgstr "GID minim:"
-
-#: ../interfaces/users.ui.h:43
-msgid "Minimum UID:"
-msgstr "UID minim:"
-
-#: ../interfaces/users.ui.h:44
-msgid "Minimum days allowed between password changes:"
-msgstr "Numărul mi_nim de zile permis între două schimbări de parolă:"
-
-#: ../interfaces/users.ui.h:45
-msgid "New _password:"
-msgstr "_Parola nouă:"
-
-#: ../interfaces/users.ui.h:46
-msgid "Number of days that a password may be used:"
-msgstr "Numărul de zile în care o parolă poate fi utilizată:"
-
-#: ../interfaces/users.ui.h:47
-msgid "O_ffice location:"
-msgstr "Locație _birou:"
-
-#: ../interfaces/users.ui.h:48
-msgid "Password set to: "
-msgstr "Parola este: "
-
-#: ../interfaces/users.ui.h:49
-msgid "Privileges"
-msgstr "Drepturi"
-
-#: ../interfaces/users.ui.h:50
+#: ../interfaces/users.ui.h:14
 msgid "Profile _name:"
 msgstr "_Nume profil:"
 
-#: ../interfaces/users.ui.h:51
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Comentarii"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Configurări implicite"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "Dosar _personal:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "_Shell implicit:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "_Grup implicit:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Configurări parolă"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Numărul de zile în care o parolă poate fi utilizată:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Numărul mi_nim de zile permis între două schimbări de parolă:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Zile de la avertizare și până la expirarea parolei:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Atribuie implicit o parolă aleatoare"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "UID/GID automat"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "UID maxim:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "GID maxim:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "UID minim:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "GID minim:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Drepturi"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Profiluri utilizatori"
+
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr "_Adaugă profil"
+
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr "Configurări grupuri"
+
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr ""
+
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr "_Nume întreg:"
+
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr "Se schimbă numele de utilizator pentru:"
+
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr "Schimbă parola utilizatorului"
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "Con_firmare:"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "Parola este: "
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "_Generează"
+
+#: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
 msgstr "Definire _manuală a parolei"
 
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
-#: ../interfaces/users.ui.h:53
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "_Parola nouă:"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "Generează o parolă aleatoa_re"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "Se schimbă parola utilizatorului pentru:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "Nu cere o parolă _la autentificare"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "Parola _curentă:"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "Schimbă tipul contului"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "Se schimbă tipul contului de utilizator pentru:"
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "_Personalizat"
+
+#: ../interfaces/users.ui.h:52
 msgid ""
-"Short name must consist of:\n"
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr "Acest cont folosește configurări speciale care au fost definite manual. Pentru a le modifica, folosiți dialogul <i>Configurări avansate</i>."
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "Creare utilizator nou"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "_Nume:"
+
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
+msgstr "Creează un utilizator nou"
+
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
+msgid ""
+"Username must consist of:\n"
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
 msgstr ""
-"Numele scurt trebuie să conțină:\n"
-"  &#x27A3; litere mici din alfabetul englez\n"
-"  &#x27A3; cifre\n"
-"  &#x27A3; oricare dintre caracterele „.”, „-” și „_”"
-
-#: ../interfaces/users.ui.h:57
-msgid "Short name must start with a letter!"
-msgstr "Numele scurt trebuie să înceapă cu o literă!"
-
-#: ../interfaces/users.ui.h:58
-msgid "This account is disabled."
-msgstr "Acest cont este dezactivat."
-
-#: ../interfaces/users.ui.h:59
-msgid "This account is using special settings that have been defined manually. Use the <i>Advanced Settings</i> dialog to tune them."
-msgstr "Acest cont folosește configurări speciale care au fost definite manual. Pentru a le modifica, folosiți dialogul <i>Configurări avansate</i>."
-
-#: ../interfaces/users.ui.h:60
-msgid "User ID:"
-msgstr "ID utilizator:"
-
-#: ../interfaces/users.ui.h:61
-msgid "User Privileges"
-msgstr "Drepturi utilizator"
 
 #: ../interfaces/users.ui.h:62
-msgid "User profiles"
-msgstr "Profiluri utilizatori"
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr ""
 
 #: ../interfaces/users.ui.h:63
-msgid "You can't change user ID while the user is logged in."
-msgstr "Nu puteți schimba identificatorul utilizatorului în timp ce acesta este conectat."
+msgid "Username must start with a letter!"
+msgstr ""
 
 #: ../interfaces/users.ui.h:64
-msgid "_Add Profile"
-msgstr "_Adaugă profil"
-
-#: ../interfaces/users.ui.h:65
-msgid "_Advanced Settings"
-msgstr "Configurări _avansate"
-
-#: ../interfaces/users.ui.h:66
-msgid "_Change..."
-msgstr "S_chimbă..."
-
-#: ../interfaces/users.ui.h:67
-msgid "_Comments"
-msgstr "_Comentarii"
-
-#: ../interfaces/users.ui.h:68
-msgid "_Current password:"
-msgstr "Parola _curentă:"
-
-#: ../interfaces/users.ui.h:69
-msgid "_Custom"
-msgstr "_Personalizat"
-
-#: ../interfaces/users.ui.h:70
-msgid "_Days between warning and password expiration:"
-msgstr "Numărul de zile _de la avertizare până la expirarea parolei:"
-
-#: ../interfaces/users.ui.h:71
-msgid "_Enable Account"
-msgstr "Activ_ează contul"
-
-#: ../interfaces/users.ui.h:72
 msgid "_Encrypt home folder to protect sensitive data"
 msgstr "Cript_ează dosarul personal pentru a proteja datele sensibile"
 
-#: ../interfaces/users.ui.h:73
-msgid "_Generate"
-msgstr "_Generează"
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "Criptează toate fișierele personale folosind parola de autentificare pentru a le proteja de persoane care au acces fizic la calculatorul dumneavoastră, cu costul unei reduceri minore de performanță."
 
-#: ../interfaces/users.ui.h:74
-msgid "_Home directory:"
-msgstr "Dosar _personal:"
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "Schimbă configurările avansate ale utilizatorului"
 
-#: ../interfaces/users.ui.h:75
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "Se schimbă configurările avansate pentru:"
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "Locație _birou:"
+
+#: ../interfaces/users.ui.h:69
+msgid "_Work phone:"
+msgstr "Telefon ser_viciu:"
+
+#: ../interfaces/users.ui.h:70
 msgid "_Home phone:"
 msgstr "Telefon _acasă:"
 
-#: ../interfaces/users.ui.h:76
-msgid "_Main group:"
-msgstr "Grup p_rincipal:"
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr ""
 
-#: ../interfaces/users.ui.h:77
-msgid "_Manage Groups"
-msgstr "_Gestionare grupuri"
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "Drepturi utilizator"
 
-#: ../interfaces/users.ui.h:78
-msgid "_Name:"
-msgstr "_Nume:"
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Configurări avansate"
 
-#: ../interfaces/users.ui.h:79
-msgid "_Password:"
-msgstr "_Parola:"
-
-#: ../interfaces/users.ui.h:80
+#: ../interfaces/users.ui.h:74
 msgid "_Shell:"
 msgstr "_Shell:"
 
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "Grup p_rincipal:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "ID utilizator:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "Nu puteți schimba identificatorul utilizatorului în timp ce acesta este conectat."
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "Dez_activează cont"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Configurări opționale"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Numărul mi_nim de zile între două schimbări de parolă:"
+
 #: ../interfaces/users.ui.h:81
-msgid "_Short Name:"
-msgstr "Nume _scurt:"
+msgid "Ma_ximum days a password may be used:"
+msgstr "Numărul ma_xim de zile pentru utilizarea unei parole:"
 
 #: ../interfaces/users.ui.h:82
-msgid "_Work phone:"
-msgstr "Telefon ser_viciu:"
+msgid "_Days between warning and password expiration:"
+msgstr "Numărul de zile _de la avertizare până la expirarea parolei:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Avansate"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr ""
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -740,82 +756,77 @@ msgstr "Platforma pe care operați nu este suportată de acest utilitar"
 
 #. label
 #: ../src/common/gst-platform-dialog.c:185
-msgid "If you know for sure that it works like one of the platforms listed below, you can select that and continue. Note, however, that this might damage the system configuration or downright cripple your computer."
+msgid ""
+"If you know for sure that it works like one of the platforms listed below, "
+"you can select that and continue. Note, however, that this might damage the "
+"system configuration or downright cripple your computer."
 msgstr "Dacă știți sigur că funcționează la fel ca una dintre platformele listate mai jos, selectați-o și continuați. Atenție însă, o alegere greșită vă poate invalida configurările sistemului, chiar într-un mod ireversibil."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
 msgstr "Platformă nesuportată"
 
-#: ../src/common/gst-tool.c:190
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr "Configurația nu a putut fi încărcată"
 
 #. OPERATION_COMMIT
-#: ../src/common/gst-tool.c:192
+#: ../src/common/gst-tool.c:190
 msgid "The configuration could not be saved"
 msgstr "Configurația nu a putut fi salvată"
 
-#: ../src/common/gst-tool.c:196
+#: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
 msgstr "Nu vă este permis accesul la configurația sistemului."
 
 #. OPERATION_COMMIT
-#: ../src/common/gst-tool.c:198
-#: ../src/common/gst-tool.c:690
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
 msgstr "Nu vă este permisă modificarea configurației sistemului."
 
-#: ../src/common/gst-tool.c:201
+#: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
 msgstr "Au fost găsite date nevalide."
 
 #. OOBS_RESULT_ERROR
-#: ../src/common/gst-tool.c:203
+#: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
 msgstr "A survenit o eroare necunoscută."
 
-#: ../src/common/gst-tool.c:427
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "Nu s-a putut afișa ajutorul"
 
-#: ../src/common/gst-tool.c:621
+#: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
 msgstr "Este posibil să se fi schimbat configurația sistemului."
 
-#: ../src/common/gst-tool.c:623
+#: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
 msgstr "Doriți actualizarea conținutului? Toate modificările în curs se vor pierde."
 
-#: ../src/common/gst-tool.c:692
+#: ../src/common/gst-tool.c:687
 #, c-format
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr ""
-"A intervenit o eroare la verificarea autorizărilor: %s\n"
-"Puteți raporta aceasta ca defecțiune."
+msgstr "A intervenit o eroare la verificarea autorizărilor: %s\nPuteți raporta aceasta ca defecțiune."
 
-#: ../src/network/address-list.c:76
-#: ../src/network/hosts.c:31
-#: ../src/shares/table.c:38
-#: ../src/users/table.c:40
+#: ../src/network/address-list.c:76 ../src/network/hosts.c:31
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "_Adaugă"
 
-#: ../src/network/address-list.c:77
-#: ../src/network/hosts.c:33
-#: ../src/shares/table.c:40
-#: ../src/users/table.c:42
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
 msgid "_Delete"
 msgstr "Șter_ge"
 
-#: ../src/network/address-list.c:486
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "Tastați adresa"
 
-#: ../src/network/callbacks.c:237
-#: ../src/network/callbacks.c:487
+#: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
 msgstr "Se schimbă configurația interfeței"
 
@@ -824,7 +835,9 @@ msgid "Could not autodetect modem device"
 msgstr "Nu s-a putut detecta automat modemul"
 
 #: ../src/network/callbacks.c:302
-msgid "Check that the device is not busy and that is correctly attached to the computer."
+msgid ""
+"Check that the device is not busy and that is correctly attached to the "
+"computer."
 msgstr "Verificați dacă nu cumva dispozitivul este ocupat sau greșit conectat la calculator."
 
 #: ../src/network/callbacks.c:523
@@ -832,7 +845,9 @@ msgid "The host name has changed"
 msgstr "Numele gazdei s-a schimbat"
 
 #: ../src/network/callbacks.c:526
-msgid "This will prevent you from launching new applications, and so you will have to log in again. Continue anyway?"
+msgid ""
+"This will prevent you from launching new applications, and so you will have "
+"to log in again. Continue anyway?"
 msgstr "Aceasta va împiedica lansarea de noi aplicații, astfel încât va trebui să vă autentificați din nou. Continuați oricum?"
 
 #: ../src/network/callbacks.c:532
@@ -888,10 +903,8 @@ msgstr "PPPoE"
 msgid "%s Properties"
 msgstr "Proprietăți pentru %s"
 
-#: ../src/network/hosts.c:32
-#: ../src/network/ifaces-list.c:33
-#: ../src/shares/table.c:39
-#: ../src/users/table.c:41
+#: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "_Proprietăți"
 
@@ -913,61 +926,48 @@ msgstr "Mod roaming activat"
 
 #: ../src/network/ifaces-list.c:289
 #, c-format
-msgid "Essid: %s "
-msgstr "Essid: %s "
+msgid "<b>Essid:</b> %s "
+msgstr ""
 
-#: ../src/network/ifaces-list.c:295
-#, c-format
-msgid "Address: %s Subnet mask: %s"
-msgstr "Adresă: %s Mască subrețea: %s"
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:299
-#, c-format
-msgid "Address: %s"
-msgstr "Adresă: %s"
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:303
-#, c-format
-msgid "Address: %s Remote address: %s"
-msgstr "Adresă: %s Adresă la distanță: %s"
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:315
-#, c-format
-msgid "Type: %s Phone number: %s"
-msgstr "Tip: %s Număr telefon: %s"
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:318
-#, c-format
-msgid "Type: %s Access point name: %s"
-msgstr "Tip: %s Nume punct de acces: %s"
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:325
-#, c-format
-msgid "Type: %s Ethernet interface: %s"
-msgstr "Tip: %s Interfață ethernet: %s"
-
-#: ../src/network/ifaces-list.c:329
-#, c-format
-msgid "Type: %s"
-msgstr "Tip: %s"
-
-#: ../src/network/ifaces-list.c:346
+#: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
 msgstr "Conexiune rețea fără fir"
 
-#: ../src/network/ifaces-list.c:348
+#: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
 msgstr "Conexiune prin infraroșu"
 
-#: ../src/network/ifaces-list.c:350
+#: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
 msgstr "Conexiune cu fir"
 
-#: ../src/network/ifaces-list.c:352
+#: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
 msgstr "Conexiune prin port paralel"
 
-#: ../src/network/ifaces-list.c:354
+#: ../src/network/ifaces-list.c:364
 msgid "Point to point connection"
 msgstr "Conexiune punct la punct"
 
@@ -1001,7 +1001,9 @@ msgid "The interface does not exist"
 msgstr "Interfața nu există"
 
 #: ../src/network/main.c:137
-msgid "Check that it is correctly typed and that it is correctly supported by your system."
+msgid ""
+"Check that it is correctly typed and that it is correctly supported by your "
+"system."
 msgstr "Verificați dacă este corect introdus și este suportat de către sistem."
 
 #: ../src/network/main.c:183
@@ -1020,13 +1022,13 @@ msgstr "Configurează prima interfață rețea cu un tip anume"
 msgid "TYPE"
 msgstr "TIP"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "Configurare conexiuni și dispozitive de rețea"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "Rețea"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Configurare conexiuni și dispozitive de rețea"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
@@ -1037,13 +1039,15 @@ msgstr "Configurări rețea"
 msgid "Settings for service \"%s\""
 msgstr "Configurările pentru serviciul „%s”"
 
-#: ../src/services/callbacks.c:125
+#: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
 msgstr "Sigur doriți dezactivarea serviciului %s?"
 
-#: ../src/services/callbacks.c:129
-msgid "This may affect your system behavior in several ways, possibly leading to data loss."
+#: ../src/services/callbacks.c:126
+msgid ""
+"This may affect your system behavior in several ways, possibly leading to "
+"data loss."
 msgstr "Această acțiune poate afecta comportamentul sistemului, ducând la posibile pierderi de date."
 
 #: ../src/services/service.c:32
@@ -1116,14 +1120,12 @@ msgstr "Sistem de stocare date"
 #. GST_ROLE_DATABASE_SERVER
 #. GST_ROLE_FILE_SERVER_SMB
 #. GST_ROLE_FILE_SERVER_FTP
-#: ../src/services/service.c:40
-#: ../src/services/service.c:41
+#: ../src/services/service.c:40 ../src/services/service.c:41
 #: ../src/services/service.c:43
 msgid "Folder sharing service"
 msgstr "Serviciu de partajare dosare"
 
-#: ../src/services/service.c:40
-#: ../src/services/service.c:41
+#: ../src/services/service.c:40 ../src/services/service.c:41
 msgid "Shares folders over your network"
 msgstr "Partajează dosarele în rețea"
 
@@ -1132,8 +1134,7 @@ msgstr "Partajează dosarele în rețea"
 msgid "FTP service"
 msgstr "Serviciu FTP"
 
-#: ../src/services/service.c:42
-#: ../src/services/service.c:43
+#: ../src/services/service.c:42 ../src/services/service.c:43
 msgid "Shares folders over the Internet"
 msgstr "Partajează dosare pe Internet"
 
@@ -1456,13 +1457,13 @@ msgstr "Monitor sistem"
 msgid "Virtual Machine management"
 msgstr "Administrare mașini virtuale"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "Specificați ce servicii vor fi pornite la inițializarea sistemului"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Servicii"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Specificați ce servicii vor fi pornite la inițializarea sistemului"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1513,11 +1514,11 @@ msgstr "Adaugă un dosar partajat sau îl modifică dacă există deja"
 msgid "PATH"
 msgstr "CALE"
 
-#: ../src/shares/caja/caja-shares.c:152
+#: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
 msgstr "Partajare do_sar..."
 
-#: ../src/shares/caja/caja-shares.c:153
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr "Partajează acest dosar cu alte calculatoare"
 
@@ -1537,7 +1538,7 @@ msgstr "Specificați adresa IP"
 msgid "Specify network"
 msgstr "Specificați rețeaua"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Specificați ce dosare să fie disponibile în rețeaua locală"
 
@@ -1571,46 +1572,60 @@ msgid "Sharing services are not installed"
 msgstr "Serviciile de partajare nu sunt instalate"
 
 #: ../src/shares/shares-tool.c:154
-msgid "You need to install at least either Samba or NFS in order to share your folders."
+msgid ""
+"You need to install at least either Samba or NFS in order to share your "
+"folders."
 msgstr "Trebuie să instalați cel puțin Samba sau NFS pentru a partaja dosare."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Configurări oră, dată și fus orar"
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
+msgstr ""
 
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/e-map/e-map.c:622
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
+msgstr ""
+
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Oră și dată"
 
-#: ../src/time/time-tool.c:402
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Configurări oră, dată și fus orar"
+
+#: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "Suportul NTP nu este instalat"
 
-#: ../src/time/time-tool.c:404
-msgid "Please install and activate NTP support in the system to enable synchronization of your local time server with internet time servers."
+#: ../src/time/time-tool.c:400
+msgid ""
+"Please install and activate NTP support in the system to enable "
+"synchronization of your local time server with internet time servers."
 msgstr "Instalați și activați suportul NTP pentru a permite sincronizarea ceasului sistemului cu serverele NTP din Internet."
 
-#: ../src/time/time-tool.c:433
+#: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
 msgstr "Activare NTP"
 
-#: ../src/time/time-tool.c:433
+#: ../src/time/time-tool.c:429
 msgid "Disabling NTP"
 msgstr "Dezactivare NTP"
 
-#: ../src/time/time-tool.c:445
+#: ../src/time/time-tool.c:441
 msgid "Synchronizing system clock"
 msgstr "Sincronizare ceas sistem"
 
-#: ../src/time/time-tool.c:525
+#: ../src/time/time-tool.c:521
 msgid "Keep synchronized with Internet servers"
 msgstr "Menține sincronizarea cu serverele din Internet"
 
-#: ../src/time/time-tool.c:526
+#: ../src/time/time-tool.c:522
 msgid "Manual"
 msgstr "Manual"
 
-#: ../src/time/time-tool.c:672
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "Configurări oră și dată"
 
@@ -1618,11 +1633,9 @@ msgstr "Configurări oră și dată"
 msgid "Administrator group can not be deleted"
 msgstr "Grupul „administrator” nu poate fi șters"
 
-#: ../src/users/group-settings.c:58
-#: ../src/users/group-settings.c:221
-#: ../src/users/group-settings.c:258
-#: ../src/users/user-settings.c:88
-#: ../src/users/user-settings.c:476
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "Această acțiune ar face sistemul inutilizabil."
 
@@ -1661,7 +1674,9 @@ msgid "Group name has invalid characters"
 msgstr "Numele grupului conține caractere nevalide"
 
 #: ../src/users/group-settings.c:224
-msgid "Please set a valid group name consisting of a lower case letter followed by lower case letters and numbers."
+msgid ""
+"Please set a valid group name consisting of a lower case letter followed by "
+"lower case letters and numbers."
 msgstr "Introduceți un nume de grup valid, care să înceapă cu o literă mică și să conțină doar litere mici sau numere."
 
 #: ../src/users/group-settings.c:229
@@ -1695,6 +1710,15 @@ msgstr "Alegeți un alt identificator numeric pentru grupul „%s”."
 #: ../src/users/groups-table.c:44
 msgid "Group name"
 msgstr "Nume grup"
+
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
+msgstr "Nesolicitată la autentificare"
+
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
+msgstr "Solicitată la autentificare"
 
 #: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
@@ -1781,75 +1805,86 @@ msgid "Be able to get administrator privileges"
 msgstr "Poate obține drepturi de administrator"
 
 #: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr "Utilizator desktop"
+
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr "Poate efectua acțiuni obișnuite. Nu poate să instaleze software sau să modifice configurări care afectează toți utilizatorii."
+
+#: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
 msgstr "Administrator"
 
-#: ../src/users/user-profiles.conf.in.h:2
-msgid "Can change anything on the system, including installing and upgrading software."
-msgstr "Poate schimba orice pe sistem, incluzând instalarea și actualizarea aplicațiilor."
-
-#: ../src/users/user-profiles.conf.in.h:3
-msgid "Can perform common tasks. Can't install software or change settings affecting all users."
-msgstr "Poate efectua acțiuni obișnuite. Nu poate să instaleze software sau să modifice configurări care afectează toți utilizatorii."
-
 #: ../src/users/user-profiles.conf.in.h:4
-msgid "Desktop user"
-msgstr "Utilizator desktop"
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr "Poate schimba orice pe sistem, incluzând instalarea și actualizarea aplicațiilor."
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
 msgstr "Autentificarea a eșuat"
 
-#: ../src/users/run-passwd.c:495
+#: ../src/users/run-passwd.c:498
 #, c-format
 msgid "The new password is too short"
 msgstr "Parola nouă este prea scurtă"
 
-#: ../src/users/run-passwd.c:500
+#: ../src/users/run-passwd.c:504
 #, c-format
 msgid "The new password is too simple"
 msgstr "Parola nouă este prea simplă"
 
-#: ../src/users/run-passwd.c:505
+#: ../src/users/run-passwd.c:510
 #, c-format
 msgid "The old and new passwords are too similar"
 msgstr "Vechea și noua parolă sunt prea asemănătoare"
 
-#: ../src/users/run-passwd.c:508
+#: ../src/users/run-passwd.c:513
 #, c-format
 msgid "The new password must contain numeric or special characters"
 msgstr "Noua parolă trebuie să conțină caractere speciale sau numerice"
 
-#: ../src/users/run-passwd.c:512
+#: ../src/users/run-passwd.c:517
 #, c-format
 msgid "The old and new passwords are the same"
 msgstr "Parola veche și cea nouă sunt identice"
 
-#: ../src/users/run-passwd.c:516
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/users/run-passwd.c:524
 #, c-format
 msgid "Your password has been changed since you initially authenticated!"
 msgstr "Parola a fost schimbată de la autentificarea inițială!"
 
-#: ../src/users/run-passwd.c:520
+#: ../src/users/run-passwd.c:528
 #, c-format
 msgid "Unknown error"
 msgstr "Eroare necunoscută"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Adăugați sau ștergeți utilizatori și grupuri"
-
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Utilizatori și grupuri"
+
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Adăugați sau ștergeți utilizatori și grupuri"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
 msgstr "Parola este prea scurtă"
 
 #: ../src/users/user-password.c:98
-msgid "User passwords must be longer than 6 characters and preferably formed by numbers, letters and special characters."
-msgstr "Parola utilizatorului trebuie să fie mai lungă de 6 caractere și, preferabil, să fie formată din numere, litere și caractere speciale."
+msgid ""
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
+msgstr ""
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1859,15 +1894,15 @@ msgstr "Parola nu a fost confirmată corect"
 msgid "Check that you have provided the same password in both text fields."
 msgstr "Verificați introducerea aceleiași parole în cele două câmpuri."
 
-#: ../src/users/user-password.c:426
+#: ../src/users/user-password.c:445
 msgid "Please choose another password."
 msgstr "Alegeți o altă parolă."
 
-#: ../src/users/user-password.c:437
+#: ../src/users/user-password.c:456
 msgid "Please type again your current password."
 msgstr "Introduceți din nou parolă curentă."
 
-#: ../src/users/user-password.c:444
+#: ../src/users/user-password.c:463
 msgid "Password could not be changed"
 msgstr "Parola nu a putut fi schimbată"
 
@@ -1890,7 +1925,9 @@ msgstr "Nu se poate șterge singurul cont de administrator"
 
 #: ../src/users/user-settings.c:111
 #, c-format
-msgid "%s is the only administrator on this computer. Deleting this account would lock you out of administrating the system."
+msgid ""
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
 msgstr "%s este singurul administrator pe acest calculator. Ștergerea acestui cont vă va bloca accesul la administrarea sistemului."
 
 #: ../src/users/user-settings.c:121
@@ -1900,7 +1937,10 @@ msgstr "Eliminați dosarul personal pentru %s?"
 
 #: ../src/users/user-settings.c:124
 #, c-format
-msgid "Files owned by user %s in <tt>%s</tt> can be completely removed if you don't need them anymore. You may want to back them up before deleting the account, or keep them so that an administrator can save them later."
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
 msgstr "Dacă nu mai aveți nevoie de ele, fișierele deținute de %s din <tt>%s</tt> pot fi șterse. Dacă doriți, puteți să faceți copii de siguranță înainte de a șterge contul sau să le păstrați, astfel încât un administrator să le poată salva ulterior."
 
 #: ../src/users/user-settings.c:132
@@ -1928,15 +1968,6 @@ msgstr "Personalizat"
 msgid "None"
 msgstr "Niciuna"
 
-#. TRANSLATORS:  This applies to a password. Keep the string short.
-#: ../src/users/user-settings.c:347
-msgid "Not asked on login"
-msgstr "Nesolicitată la autentificare"
-
-#: ../src/users/user-settings.c:349
-msgid "Asked on login"
-msgstr "Solicitată la autentificare"
-
 #: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
@@ -1946,186 +1977,143 @@ msgstr "Caracter nevalid „%c” în comentariu"
 msgid "Check that this character is not used."
 msgstr "Verificați ca acest caracter să nu fie folosit."
 
-#: ../src/users/user-settings.c:417
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "Cale incompletă pentru dosar personal"
 
-#: ../src/users/user-settings.c:418
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
-"i.e.: /home/john."
+"<span size=\"smaller\">i.e.: /home/john</span>."
 msgstr ""
-"Introduceți calea completă pentru dosarul personal\n"
-"de ex.: /home/mihai."
 
-#: ../src/users/user-settings.c:433
-msgid "Home directory already exists"
-msgstr "Există deja dosarul personal al utilizatorului"
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
+msgstr ""
 
-#: ../src/users/user-settings.c:434
+#: ../src/users/user-settings.c:449
 #, c-format
-msgid "The directory <tt>%s</tt> already exists. User may not have the permissions required to read or write in that directory. Do you want to use it anyway?"
-msgstr "Există deja dosarul <tt>%s</tt>. Este posibil ca utilizatorul să nu aibă permisiunile necesare pentru a citi și a scrie în acel dosar. Doriți să îl folosiți oricum?"
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr ""
 
-#: ../src/users/user-settings.c:440
-msgid "Use this directory"
-msgstr "Folosește acest dosar"
+#: ../src/users/user-settings.c:461
+msgid "_Replace With Old Files"
+msgstr ""
 
-#: ../src/users/user-settings.c:475
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr ""
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr ""
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr ""
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr ""
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr ""
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:604
 msgid "ID for the root user should not be modified"
 msgstr "ID-ul utilizatorului „root” nu trebuie modificat"
 
 #. check that UID is free
-#: ../src/users/user-settings.c:479
+#: ../src/users/user-settings.c:608
 #, c-format
 msgid "User ID %d is already used by user %s"
 msgstr "Identificatorul de utilizator %d este deja folosit de utilizatorul %s"
 
-#: ../src/users/user-settings.c:481
+#: ../src/users/user-settings.c:610
 #, c-format
 msgid "Please choose a different numeric identifier for %s."
 msgstr "Alegeți un alt identificator numeric pentru %s."
 
-#: ../src/users/user-settings.c:499
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr "Cale incompletă pentru shell"
 
-#: ../src/users/user-settings.c:500
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
-"i.e.: /bin/bash."
+"<span size=\"smaller\">i.e.: /bin/bash</span>."
 msgstr ""
-"Introduceți calea completă pentru shell\n"
-"ex.: /bin/bash."
 
-#: ../src/users/user-settings.c:534
+#: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
 msgstr "Nu se pot revoca drepturile de administrare"
 
-#: ../src/users/user-settings.c:537
+#: ../src/users/user-settings.c:666
 #, c-format
-msgid "%s is the only administrator on this computer. Revoking administration rights for this account would lock you out of administrating the system."
+msgid ""
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
 msgstr "%s este singurul administrator pe acest calculator. Revocarea drepturilor de administrare pentru acest cont vă va bloca accesul la administrarea sistemului."
 
-#: ../src/users/user-settings.c:554
+#: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
 msgstr "Sunteți în curs de a vă revoca propriile drepturi de administrare"
 
-#: ../src/users/user-settings.c:557
+#: ../src/users/user-settings.c:686
 #, c-format
-msgid "%s will no longer be able to perform administrative tasks. This account won't be allowed to get administration rights back on its own."
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
 msgstr "%s nu va mai putea efectua sarcini de administrare. Acestui cont nu i se va permite recuperarea drepturilor de administrare."
 
-#: ../src/users/user-settings.c:562
+#: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
 msgstr "Renunță la drepturile de administrare"
 
-#: ../src/users/users-tool.c:284
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr ""
+
+#: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "Configurări utilizatori"
-#~ msgid ""
-#~ "Allow this user to open a local session without entering his password. "
-#~ "The password will still be required to perform administrative tasks."
-#~ msgstr ""
-#~ "Permite acestui utilizator să deschidă o sesiune locală fără a introduce "
-#~ "o parolă. Va fi totuși nevoie de o parolă pentru sarcini administrative."
-#~ msgid "Check password _quality"
-#~ msgstr "Verifică _calitatea parolei"
-#~ msgid "User _password:"
-#~ msgstr "_Parolă utilizator:"
-#~ msgid "User must log out before you can change his ID."
-#~ msgstr ""
-#~ "Utilizatorul trebuie să-și închidă sesiunea înainte de a-i putea schimba "
-#~ "ID-ul."
-#~ msgid "_Add Group"
-#~ msgstr "_Adaugă grup"
-#~ msgid "_Add User"
-#~ msgstr "_Adaugă utilizator"
-#~ msgid "_Profile:"
-#~ msgstr "_Profil:"
-#~ msgid "_Real name:"
-#~ msgstr "Nume _real:"
-#~ msgid "Are you sure you want to delete account \"%s\"?"
-#~ msgstr "Doriți ștergerea contului „%s”?"
-#~ msgid ""
-#~ "This will disable this user's access to the system without deleting the "
-#~ "user's home directory."
-#~ msgstr ""
-#~ "Accesul utilizatorului la sistem nu va mai fi posibil, dar dosarul său "
-#~ "personal nu va fi șters"
-#~ msgid "Account '%s' Properties"
-#~ msgstr "Proprietățile contului „%s”"
-#~ msgid "User name is empty"
-#~ msgstr "Numele de utilizator este gol"
-#~ msgid "A user name must be specified."
-#~ msgstr "Trebuie specificat un nume de utilizator."
-#~ msgid "User name has invalid characters"
-#~ msgstr "Numele utilizatorului conține caractere nevalide"
-#~ msgid ""
-#~ "Please set a valid user name consisting of a lower case letter followed "
-#~ "by lower case letters and numbers."
-#~ msgstr ""
-#~ "Introduceți un nume de utilizator valid, format dintr-o literă mică "
-#~ "urmată de litere mici și numere."
-#~ msgid "User name \"%s\" already exists"
-#~ msgstr "Numele de utilizator „%s” există deja"
-#~ msgid "Please enter a different home directory path."
-#~ msgstr "Introduceți o altă cale pentru dosarul personal."
-#~ msgid "Administrator account's user ID should not be modified"
-#~ msgstr "ID-ul contului de administrare nu poate fi modificat"
-#~ msgid "Name"
-#~ msgstr "Nume"
-#~ msgid "Login name"
-#~ msgstr "Nume cont"
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Please enter your root password</"
-#~ "span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Introduceți parola "
-#~ "administratorului „root”"
-#~ msgid ""
-#~ "You need administrator privileges to use this tool. Enter a password to "
-#~ "modify\n"
-#~ "your system configuration."
-#~ msgstr ""
-#~ "Pentru a utiliza acest program aveți nevoie de privilegii de "
-#~ "administrator.\n"
-#~ "Introduceți parola de administrator pentru a modifica configurările "
-#~ "sistemului."
-#~ msgid "/dev/modem"
-#~ msgstr "/dev/modem"
-#~ msgid "/dev/ttyS0"
-#~ msgstr "/dev/ttyS0"
-#~ msgid "/dev/ttyS1"
-#~ msgstr "/dev/ttyS1"
-#~ msgid "/dev/ttyS2"
-#~ msgstr "/dev/ttyS2"
-#~ msgid "/dev/ttyS3"
-#~ msgstr "/dev/ttyS3"
-#~ msgid "Apply location as the current configuration"
-#~ msgstr "Aplică locația ca și configurație curentă"
-#~ msgid "_Unlock"
-#~ msgstr "_Deblochează"
-#~ msgid "This action is not allowed"
-#~ msgstr "Această acțiune nu este permisă"
-#~ msgid "Could not authenticate"
-#~ msgstr "Nu s-a putut autentifica"
-#~ msgid "Install services"
-#~ msgstr "Instalare servicii"
-#~ msgid "Install Unix networks support (_NFS)"
-#~ msgstr "Instalare suport rețele Unix (_NFS)"
-#~ msgid "Install Windows networks support (_SMB)"
-#~ msgstr "Instalare suport rețele Windows (_SMB)"
-#~ msgid "Install NTP support"
-#~ msgstr "Instalează suport pentru NTP"
-#~ msgid "Share files with the local network"
-#~ msgstr "Partajare fișiere în rețea locală"
-#~ msgid "Use VirtualBox"
-#~ msgstr "Folosește VirtualBox"
-#~ msgid "Capture video from TV or Webcams, and use 3d acceleration"
-#~ msgstr "Capturează video de la TV sau camere Web și folosește accelerare 3d"
-#~ msgid "Please select a different user name."
-#~ msgstr "Alegeți un alt nume de utilizator."
-#~ msgid "Contact Information"
-#~ msgstr "Informații de contact"
-

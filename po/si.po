@@ -1,609 +1,751 @@
-# translation of mate-system-tools.si.po to Sinhala
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Danishka Navin <snavin@redhat.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools.si\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-06-19 04:36+0100\n"
-"PO-Revision-Date: 2007-06-22 18:13+0530\n"
-"Last-Translator: Danishka Navin <snavin@redhat.com>\n"
-"Language-Team: Sinhala <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:52+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: si\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../mate-system-tools.schemas.in.h:1
-msgid "Whether the users-admin tool should show all users and groups or not"
+#: ../interfaces/network.ui.h:1
+msgid "Off"
 msgstr ""
 
-#: ../interfaces/common.glade.in.h:1
-msgid "<span weight=\"bold\" size=\"larger\">Please enter your root password"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
 msgstr ""
 
-#: ../interfaces/common.glade.in.h:2
-msgid "Enter Password"
-msgstr "රහස්පදය ඇතුළත් කරන්න"
-
-#: ../interfaces/common.glade.in.h:3
-msgid ""
-"You need administrator privileges to use this tool. Enter a password to "
-"modify\n"
-"your system configuration."
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
 msgstr ""
-"මෙම මෙවලම භාවිතයට ඔබට පරිපාළකගේ බලතල අවශ්‍යවේ. වෙනස් කිරීම සඳහා "
-"රහස්පදය ඇතුලත් කරන්න\n"
-"ඔබගේ පද්ධති මානකරණය."
 
-#: ../interfaces/common.glade.in.h:5
-msgid "_Password:"
-msgstr "රහස්පදය: (_P)"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:1
-msgid "Account data"
-msgstr "ගිණුම් දත්ත"
+#: ../interfaces/network.ui.h:5
+msgid "Tones"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:2
-msgid "Connection settings"
-msgstr "සම්බන්ධතා සැකසුම්"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:3
-msgid "DNS Servers"
-msgstr "DNS සේවාදායක"
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:4
-msgid "Host Settings"
-msgstr "දායක සැකසුම්"
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:5
-msgid "Internet service provider data"
-msgstr "අන්තර් ජාල සේවා සැපයුම්කරුගේ දත්ත"
-
-#: ../interfaces/network.glade.in.h:6
-msgid "Modem settings"
-msgstr "මොඩමයේ සැකසුම්"
-
-#: ../interfaces/network.glade.in.h:7
-msgid "Search Domains"
-msgstr "කළාප සොයන්න"
-
-#: ../interfaces/network.glade.in.h:8
-msgid "Wireless settings"
-msgstr "නොරැහැන් සැකසුම්"
-
-#: ../interfaces/network.glade.in.h:9
-msgid "Aliases:"
-msgstr "අපරනාමය:"
-
-#: ../interfaces/network.glade.in.h:10
-msgid "C_onfiguration:"
-msgstr "මානකරණය (_o):"
-
-#: ../interfaces/network.glade.in.h:11
-msgid "Connections"
-msgstr "සම්බන්ධතා"
-
-#: ../interfaces/network.glade.in.h:12
-msgid "DNS"
-msgstr "DNS"
-
-#: ../interfaces/network.glade.in.h:13
-msgid "D_omain name:"
-msgstr "කළාප නම (_o):"
-
-#: ../interfaces/network.glade.in.h:14
-msgid "Delete current location"
-msgstr "දැනට ඇති පිහිටීම මකන්න"
-
-#: ../interfaces/network.glade.in.h:15
-msgid "E_nable roaming mode"
-msgstr "සැරිසැරීමේ ආකාරය සක්‍රීය කරන්න (_n)"
-
-#: ../interfaces/network.glade.in.h:16
-msgid "E_nable this connection"
-msgstr "මෙම සම්බන්ධය සක්‍රීය කරන්න (_n)"
-
-#: ../interfaces/network.glade.in.h:17 ../interfaces/users.glade.in.h:19
-msgid "General"
-msgstr "සාමාන්‍ය"
-
-#: ../interfaces/network.glade.in.h:18
-msgid "Host alias settings"
-msgstr "ධාරක අපරනාම සැකසුම්"
-
-#: ../interfaces/network.glade.in.h:19
-msgid "Hosts"
-msgstr "ධාරක"
-
-#: ../interfaces/network.glade.in.h:20 ../interfaces/shares.glade.in.h:12
-msgid "IP address:"
-msgstr "IP ලිපිනය:"
-
-#: ../interfaces/network.glade.in.h:21
-msgid "Interface properties"
-msgstr "අතුරුමුහුණත් වත්කම්"
-
-#: ../interfaces/network.glade.in.h:22
+#: ../interfaces/network.ui.h:9
 msgid "Location:"
 msgstr "පිහිටීම:"
 
-#: ../interfaces/network.glade.in.h:23
-msgid "Modem"
-msgstr "මොඩමය"
-
-#: ../interfaces/network.glade.in.h:24
-msgid "Network _password:"
-msgstr "ජාල රහස්පදය (_p):"
-
-#: ../interfaces/network.glade.in.h:25
-msgid "Network name (_ESSID):"
-msgstr "ජාල නාමය (_ESSID):"
-
-#: ../interfaces/network.glade.in.h:26
-#, fuzzy
-msgid ""
-"Off\n"
-"Low\n"
-"Medium\n"
-"Loud"
-msgstr ""
-"වසා දමන්න\n"
-"අවම\n"
-"මධ්‍යම\n"
-"උපරිම"
-
-#: ../interfaces/network.glade.in.h:30
-msgid "Options"
-msgstr "විකල්ප"
-
-#: ../interfaces/network.glade.in.h:31
-msgid "P_assword"
-msgstr "රහස්පදය (_a)"
-
-#: ../interfaces/network.glade.in.h:32
-msgid "Password _type:"
-msgstr "රහස්පදයේ වර්‍ගය (_t):"
-
-#: ../interfaces/network.glade.in.h:33
-msgid ""
-"Plain (ASCII)\n"
-"Hexadecimal"
-msgstr ""
-"සරල (ASCII)\n"
-"දහසයේ පාදය"
-
-#: ../interfaces/network.glade.in.h:35
+#: ../interfaces/network.ui.h:10
 msgid "Save current network configuration as a location"
 msgstr "දැනට ඇති ජාල මානකරණය පිහිටීමක් ලෙස සුරකින්න"
 
-#: ../interfaces/network.glade.in.h:36
-msgid ""
-"Tones\n"
-"Pulses"
-msgstr ""
-"ස්වරය\n"
-"ස්ඵන්දනය"
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr "දැනට ඇති පිහිටීම මකන්න"
 
-#: ../interfaces/network.glade.in.h:38
-msgid "Use the Internet service provider nameservers"
-msgstr "අන්තර් ජාල සේවා සැපයුම්කරුගේ නාම සේවාදායක භාවිතා කරන්න"
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "සම්බන්ධතා"
 
-#: ../interfaces/network.glade.in.h:39
-msgid "_Autodetect"
-msgstr ""
-
-#: ../interfaces/network.glade.in.h:40
-msgid "_Dial prefix:"
-msgstr ""
-
-#: ../interfaces/network.glade.in.h:41
-msgid "_Dial type:"
-msgstr ""
-
-#: ../interfaces/network.glade.in.h:42
-msgid "_Gateway address:"
-msgstr ""
-
-#: ../interfaces/network.glade.in.h:43
+#: ../interfaces/network.ui.h:13
 msgid "_Host name:"
 msgstr "ධාරක නම (_H):"
 
-#: ../interfaces/network.glade.in.h:44
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "කළාප නම (_o):"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "දායක සැකසුම්"
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "සාමාන්‍ය"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "DNS සේවාදායක"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "කළාප සොයන්න"
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "ධාරක"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "අතුරුමුහුණත් වත්කම්"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "මෙම සම්බන්ධය සක්‍රීය කරන්න (_n)"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr "සැරිසැරීමේ ආකාරය සක්‍රීය කරන්න (_n)"
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "ජාල නාමය (_ESSID):"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "ජාල රහස්පදය (_p):"
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr "රහස්පදයේ වර්‍ගය (_t):"
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:30
 msgid "_IP address:"
 msgstr "_IP ලිපිනය:"
 
-#: ../interfaces/network.glade.in.h:45
-msgid "_Local IP:"
-msgstr "ප්‍රාදේශිය IP (_L):"
-
-#: ../interfaces/network.glade.in.h:46
-msgid "_Modem port:"
-msgstr ""
-
-#: ../interfaces/network.glade.in.h:47
-msgid "_Phone number:"
-msgstr ""
-
-#: ../interfaces/network.glade.in.h:48
-msgid "_Remote IP:"
-msgstr "දුරස්ථ IP (_R):"
-
-#: ../interfaces/network.glade.in.h:49
-msgid "_Retry if the connection breaks or fails to start"
-msgstr ""
-
-#: ../interfaces/network.glade.in.h:50
-msgid "_Set modem as default route to internet"
-msgstr ""
-
-#: ../interfaces/network.glade.in.h:51
+#: ../interfaces/network.ui.h:31
 msgid "_Subnet mask:"
 msgstr ""
 
-#: ../interfaces/network.glade.in.h:52 ../interfaces/users.glade.in.h:55
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "ප්‍රාදේශිය IP (_L):"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "දුරස්ථ IP (_R):"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:37
+msgid "_Dial prefix:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "අන්තර් ජාල සේවා සැපයුම්කරුගේ දත්ත"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
 msgid "_Username:"
 msgstr "පරිශීලක නම (_U):"
 
-#: ../interfaces/network.glade.in.h:53
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "රහස්පදය (_a)"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "ගිණුම් දත්ත"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:44
+msgid "_Dial type:"
+msgstr ""
+
+#. TRANSLATORS: Volume as in loudness
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "පරිමාව (_V):"
 
-#: ../interfaces/services.glade.in.h:1
-msgid "Advanced settings:"
-msgstr "උසස් සැකසුම්:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr ""
 
-#: ../interfaces/services.glade.in.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "මොඩමය"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr ""
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "අන්තර් ජාල සේවා සැපයුම්කරුගේ නාම සේවාදායක භාවිතා කරන්න"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr ""
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "විකල්ප"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr ""
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP ලිපිනය:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "අපරනාමය:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "ඔබ සක්‍රීය කිරීමට බලාපොරොත්තුවන සේවාව තෝරන්න:"
 
-#: ../interfaces/shares.glade.in.h:1
-msgid "Allowed Hosts"
-msgstr "අනුමත ධාරක"
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "උසස් සැකසුම්:"
 
-#: ../interfaces/shares.glade.in.h:2
-msgid "Hosts Settings"
-msgstr "ධාරක සැකසුම්"
-
-#: ../interfaces/shares.glade.in.h:3
-msgid "Share Properties"
-msgstr "හවුලේ වත්කම්"
-
-#: ../interfaces/shares.glade.in.h:4
-msgid "Shared Folder"
-msgstr "හවුල් බහලුම"
-
-#: ../interfaces/shares.glade.in.h:5
-msgid "Windows sharing"
-msgstr "Windows හවුල"
-
-#: ../interfaces/shares.glade.in.h:6
-msgid "Add allowed hosts"
-msgstr "අනුමත ධාරක එක් කරන්න"
-
-#: ../interfaces/shares.glade.in.h:7
-msgid "Allowed hosts:"
-msgstr "අනුමත ධාරක:"
-
-#: ../interfaces/shares.glade.in.h:8
-msgid "Comment:"
-msgstr "සටහන:"
-
-#: ../interfaces/shares.glade.in.h:9
-msgid "Domain / _Workgroup:"
-msgstr "කළාප / වැඩ සමූහ (_W):"
-
-#: ../interfaces/shares.glade.in.h:10
-msgid "General Properties"
-msgstr "සාමාන්‍ය වත්කම්"
-
-#: ../interfaces/shares.glade.in.h:11
-msgid "Host name:"
-msgstr "ධාරක නම:"
-
-#: ../interfaces/shares.glade.in.h:13
-msgid "Name:"
-msgstr "නම:"
-
-#: ../interfaces/shares.glade.in.h:14
-msgid "Netmask:"
-msgstr "ජාලාවරකය:"
-
-#: ../interfaces/shares.glade.in.h:15
-msgid "Network:"
-msgstr "ජාලය:"
-
-#: ../interfaces/shares.glade.in.h:16 ../src/shares/nfs-acl-table.c:56
-msgid "Read only"
-msgstr "කිවීම පමණයි"
-
-#: ../interfaces/shares.glade.in.h:17
-msgid "Share through:"
-msgstr ""
-
-#: ../interfaces/shares.glade.in.h:18 ../src/shares/shares.desktop.in.in.h:2
-#: ../src/shares/shares-tool.c:207
-msgid "Shared Folders"
-msgstr "හවුල් බහලුම්"
-
-#: ../interfaces/shares.glade.in.h:19
-msgid "This computer is a _WINS server"
-msgstr "මෙම පරිගණකය _WINS සේවාදයකයකි"
-
-#: ../interfaces/shares.glade.in.h:20
-msgid "WINS _server:"
-msgstr "WINS සේවාදායකය (_s):"
-
-#: ../interfaces/shares.glade.in.h:21
+#: ../interfaces/shares.ui.h:1
 msgid "_Path:"
 msgstr "මාර්‍ගය (_P):"
 
-#: ../interfaces/shares.glade.in.h:22
+#: ../interfaces/shares.ui.h:2
+msgid "Share through:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr "හවුල් බහලුම"
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "සටහන:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "නම:"
+
+#: ../interfaces/shares.ui.h:6
 msgid "_Read only"
 msgstr "කිවීම පමණයි (_R)"
 
-#: ../interfaces/time.glade.in.h:1
-msgid "Selection"
-msgstr "තේරිම"
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "හවුලේ වත්කම්"
 
-#: ../interfaces/time.glade.in.h:2
-msgid "Time Zone"
-msgstr "වේලා කළාපය"
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "අනුමත ධාරක"
 
-#: ../interfaces/time.glade.in.h:3
-msgid "Add NTP Server"
-msgstr "NTP සේවාදායකය එක් කරන්න"
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr ""
 
-#: ../interfaces/time.glade.in.h:4
-msgid "NTP server"
-msgstr "NTP සේවාදායකය"
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "අනුමත ධාරක එක් කරන්න"
 
-#: ../interfaces/time.glade.in.h:5
-msgid "Se_lect Servers"
-msgstr "සේවාදායක තෝරන්න (_l)"
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "අනුමත ධාරක:"
 
-#: ../interfaces/time.glade.in.h:6
-msgid "Time servers"
-msgstr "වේලා සේවාදායක"
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "ධාරක නම:"
 
-#: ../interfaces/time.glade.in.h:7
-msgid "Time servers:"
-msgstr "වේලා සේවාදායක:"
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "ජාලය:"
 
-#: ../interfaces/time.glade.in.h:8
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "ජාලාවරකය:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "කිවීම පමණයි"
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr "ධාරක සැකසුම්"
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
+#: ../src/shares/shares-tool.c:237
+msgid "Shared Folders"
+msgstr "හවුල් බහලුම්"
+
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "කළාප / වැඩ සමූහ (_W):"
+
+#: ../interfaces/shares.ui.h:20
+msgid "This computer is a _WINS server"
+msgstr "මෙම පරිගණකය _WINS සේවාදයකයකි"
+
+#: ../interfaces/shares.ui.h:21
+msgid "WINS _server:"
+msgstr "WINS සේවාදායකය (_s):"
+
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr "Windows හවුල"
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "සාමාන්‍ය වත්කම්"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:25
+msgid "Enter password for user"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:26
+msgid "Enter password for user:"
+msgstr ""
+
+#: ../interfaces/time.ui.h:1
 msgid "Time zone"
 msgstr "වේලා කළාපය"
 
-#: ../interfaces/time.glade.in.h:9
+#: ../interfaces/time.ui.h:2
+msgid "Time Zone"
+msgstr "වේලා කළාපය"
+
+#: ../interfaces/time.ui.h:3
 msgid "Time zone:"
 msgstr "වේලා කළාපය:"
 
-#: ../interfaces/time.glade.in.h:10
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr "තේරිම"
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "වේලා සේවාදායක"
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP සේවාදායකය"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "NTP සේවාදායකය එක් කරන්න"
+
+#: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
 msgstr ""
 
-#: ../interfaces/time.glade.in.h:11
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "මානකරණය (_C):"
 
-#: ../interfaces/time.glade.in.h:12
-msgid "_Date:"
-msgstr "දිනය (_D):"
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "වේලා සේවාදායක:"
 
-#: ../interfaces/time.glade.in.h:13
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "සේවාදායක තෝරන්න (_l)"
+
+#: ../interfaces/time.ui.h:12
 msgid "_Time:"
 msgstr "වේලාව (_T):"
 
-#: ../interfaces/users.glade.in.h:1
-msgid "Advanced Settings"
-msgstr "උසස් සැකසුම්"
+#: ../interfaces/time.ui.h:13
+msgid "_Date:"
+msgstr "දිනය (_D):"
 
-#: ../interfaces/users.glade.in.h:2
-msgid "Automatic UID/GID"
-msgstr "ස්වයංක්‍රීය UID/GID"
-
-#: ../interfaces/users.glade.in.h:3
-msgid "Basic Settings"
-msgstr "මූලීක සැකසුම්"
-
-
-#: ../interfaces/users.glade.in.h:5
-msgid "Group Members"
-msgstr "සමූහ සාමාජිකයන්"
-
-#: ../interfaces/users.glade.in.h:6
-msgid "Optional Settings"
-msgstr "වෛකල්පිත සැකසුම්"
-
-#: ../interfaces/users.glade.in.h:7
-msgid "Password Settings"
-msgstr "රහස්පද සැකසුම්"
-
-
-
-#: ../interfaces/users.glade.in.h:10
-msgid "System Defaults"
-msgstr "පද්ධති පෙරනිමි"
-
-#: ../interfaces/users.glade.in.h:11
-msgid "Account"
-msgstr "ගිණුම"
-
-#: ../interfaces/users.glade.in.h:12
-msgid "Advanced"
-msgstr "උසස්"
-
-#: ../interfaces/users.glade.in.h:13
-msgid "Assign a random password by default"
-msgstr "පෙරනිමියෙන් අහබු රහස්පදයක් යොදන්න"
-
-#: ../interfaces/users.glade.in.h:14
-msgid "Check password _quality"
-msgstr "රහස්පදයේ තත්වය පරීක්‍ෂාකරන්න (_q)"
-
-#: ../interfaces/users.glade.in.h:15
-msgid "Con_firmation:"
+#: ../interfaces/time.ui.h:14
+msgid "Synchronize now"
 msgstr ""
 
-#: ../interfaces/users.glade.in.h:16
-msgid "Days between warning and password expiration:"
-msgstr "අවවාදය සහ රහස්පදය කල් ඉකුත්වීම අතරදින ගණන:"
-
-#: ../interfaces/users.glade.in.h:17
-msgid "Default _group:"
-msgstr "පෙරනිමි සමූහ (_g):"
-
-#: ../interfaces/users.glade.in.h:18
-msgid "Default _shell:"
-msgstr ""
-
-#: ../interfaces/users.glade.in.h:20
-msgid "Generate _random password"
-msgstr "අහබු රහස්පදයක් ජනනය කරන්න (_r)"
-
-#: ../interfaces/users.glade.in.h:21
-msgid "Group _ID:"
-msgstr "සමූහ අංකය (_ )ID:"
-
-#: ../interfaces/users.glade.in.h:22
-msgid "Group _name:"
-msgstr "සමුහ නම (_n):"
-
-#: ../interfaces/users.glade.in.h:23
-msgid "Group properties"
-msgstr "සමුහ වත්කම්"
-
-#: ../interfaces/users.glade.in.h:24
-msgid "Groups settings"
-msgstr "සමුහ සැකසුම්"
-
-#: ../interfaces/users.glade.in.h:25
-msgid "Ma_ximum days a password may be used:"
-msgstr ""
-
-#: ../interfaces/users.glade.in.h:26
-msgid "Maximum UID:"
-msgstr "උපරිම UID:"
-
-#: ../interfaces/users.glade.in.h:27
-msgid "Mi_nimum days between password changes:"
-msgstr ""
-
-#: ../interfaces/users.glade.in.h:28
-msgid "Minimum GID:"
-msgstr "අවම GID:"
-
-#: ../interfaces/users.glade.in.h:29
-msgid "Minimum UID:"
-msgstr "අවම UID:"
-
-#: ../interfaces/users.glade.in.h:30
-msgid "Minimum days allowed between password changes:"
-msgstr ""
-
-#: ../interfaces/users.glade.in.h:31
-msgid "Number of days that a password may be used:"
-msgstr ""
-
-#: ../interfaces/users.glade.in.h:32
-msgid "O_ffice location:"
-msgstr "නොබැදි පිහිටීම (_f):"
-
-#: ../interfaces/users.glade.in.h:33
-msgid "Password set to: "
-msgstr "රහස්පදය ලෙස සකසන්න: "
-
-#: ../interfaces/users.glade.in.h:34
-msgid "Privileges"
-msgstr "වරප්‍රසාද"
-
-#: ../interfaces/users.glade.in.h:35
-msgid "Profile _name:"
-msgstr "පැතිකඩ නම (_n):"
-
-#: ../interfaces/users.glade.in.h:36
-msgid "Set password b_y hand"
-msgstr ""
-
-#: ../interfaces/users.glade.in.h:37
-msgid "User ID:"
-msgstr "පරිශීලක අංකය:"
-
-#: ../interfaces/users.glade.in.h:38
-msgid "User Privileges"
-msgstr "පරිශීලක වරප්‍රසාද"
-
-#: ../interfaces/users.glade.in.h:39
-msgid "User _password:"
-msgstr "පරිශීලක රහස්පදය (_p):"
-
-#: ../interfaces/users.glade.in.h:40
-msgid "User profiles"
-msgstr "පරිශීලක පැතිකඩ"
-
-#: ../interfaces/users.glade.in.h:41
-msgid "_Add Group"
-msgstr "සමූහය එක් කරන්න (_A)"
-
-#: ../interfaces/users.glade.in.h:42
-msgid "_Add Profile"
-msgstr "පැතිකඩ එක් කරන්න (_A)"
-
-#: ../interfaces/users.glade.in.h:43
-msgid "_Add User"
-msgstr "පරිශීලක එක් කරන්න (_A)"
-
-#: ../interfaces/users.glade.in.h:44
-msgid "_Comments"
-msgstr "සටහන් (_C)"
-
-#: ../interfaces/users.glade.in.h:45
-msgid "_Days between warning and password expiration:"
-msgstr "අවවාදය සහ රහස්පදය කල් ඉකුත්වීම අතරදින ගණන (_D):"
-
-#: ../interfaces/users.glade.in.h:46 ../src/network/address-list.c:77
-#: ../src/network/hosts.c:33 ../src/shares/table.c:40 ../src/users/table.c:40
-msgid "_Delete"
-msgstr "මකන්න (_D)"
-
-#: ../interfaces/users.glade.in.h:47
-msgid "_Generate"
-msgstr "ජනනය (_G)"
-
-#: ../interfaces/users.glade.in.h:48
-msgid "_Home directory:"
-msgstr "නිවාස බහලුම (_H):"
-
-#: ../interfaces/users.glade.in.h:49
-msgid "_Home phone:"
-msgstr "ගෘහස්ථ දුරකතනය (_H):"
-
-#: ../interfaces/users.glade.in.h:50
-msgid "_Main group:"
-msgstr "ප්‍රධාන සමූහය (_M):"
-
-#: ../interfaces/users.glade.in.h:51
+#: ../interfaces/users.ui.h:1
 msgid "_Manage Groups"
 msgstr "සමූහ කළමනාකරණය (_M)"
 
-#: ../interfaces/users.glade.in.h:52
-msgid "_Profile:"
-msgstr "පැතිකඩ (_P):"
+#: ../interfaces/users.ui.h:2
+msgid "Account _type:"
+msgstr ""
 
-#: ../interfaces/users.glade.in.h:53
-msgid "_Real name:"
-msgstr "සත්‍ය නම (_R):"
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr ""
 
-#: ../interfaces/users.glade.in.h:54
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "රහස්පදය: (_P)"
+
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr ""
+
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:8
+msgid "Group properties"
+msgstr "සමුහ වත්කම්"
+
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "මූලීක සැකසුම්"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "සමුහ නම (_n):"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "සමූහ අංකය (_ )ID:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "සමූහ සාමාජිකයන්"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "පැතිකඩ නම (_n):"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "සටහන් (_C)"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "පද්ධති පෙරනිමි"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "නිවාස බහලුම (_H):"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "පෙරනිමි සමූහ (_g):"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "රහස්පද සැකසුම්"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "අවවාදය සහ රහස්පදය කල් ඉකුත්වීම අතරදින ගණන:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "පෙරනිමියෙන් අහබු රහස්පදයක් යොදන්න"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "ස්වයංක්‍රීය UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "උපරිම UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "අවම UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "අවම GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "වරප්‍රසාද"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "පරිශීලක පැතිකඩ"
+
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr "පැතිකඩ එක් කරන්න (_A)"
+
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr "සමුහ සැකසුම්"
+
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr ""
+
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr ""
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "රහස්පදය ලෙස සකසන්න: "
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "ජනනය (_G)"
+
+#: ../interfaces/users.ui.h:43
+msgid "Set password b_y hand"
+msgstr ""
+
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "අහබු රහස්පදයක් ජනනය කරන්න (_r)"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr ""
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr ""
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr ""
+
+#: ../interfaces/users.ui.h:52
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr ""
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr ""
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
+msgstr ""
+
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
+msgid ""
+"Username must consist of:\n"
+"  ➣ lower case letters from the English alphabet\n"
+"  ➣ digits\n"
+"  ➣ any of the characters \".\", \"-\" and \"_\""
+msgstr ""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr ""
+
+#: ../interfaces/users.ui.h:63
+msgid "Username must start with a letter!"
+msgstr ""
+
+#: ../interfaces/users.ui.h:64
+msgid "_Encrypt home folder to protect sensitive data"
+msgstr ""
+
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr ""
+
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "නොබැදි පිහිටීම (_f):"
+
+#: ../interfaces/users.ui.h:69
+msgid "_Work phone:"
+msgstr "රාජකාරී දුරකතනය (_W):"
+
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "ගෘහස්ථ දුරකතනය (_H):"
+
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr ""
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "පරිශීලක වරප්‍රසාද"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "උසස් සැකසුම්"
+
+#: ../interfaces/users.ui.h:74
 msgid "_Shell:"
 msgstr ""
 
-#: ../interfaces/users.glade.in.h:56
-msgid "_Work phone:"
-msgstr "රාජකාරී දුරකතනය (_W):"
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "ප්‍රධාන සමූහය (_M):"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "පරිශීලක අංකය:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr ""
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "වෛකල්පිත සැකසුම්"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "අවවාදය සහ රහස්පදය කල් ඉකුත්වීම අතරදින ගණන (_D):"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "උසස්"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr ""
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -621,85 +763,145 @@ msgstr ""
 msgid "Unsupported platform"
 msgstr "සහාය නොදක්වන වේදිකාව"
 
-#: ../src/common/gst-tool.c:178
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr ""
 
-#: ../src/common/gst-tool.c:180
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:190
+msgid "The configuration could not be saved"
+msgstr ""
+
+#: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
 msgstr ""
 
-#: ../src/common/gst-tool.c:358
-msgid "MATE System Tools"
-msgstr "MATE පද්ධති මෙවලම්"
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
+msgid "You are not allowed to modify the system configuration."
+msgstr ""
 
-#: ../src/common/gst-tool.c:415
+#: ../src/common/gst-tool.c:199
+msgid "Invalid data was found."
+msgstr ""
+
+#. OOBS_RESULT_ERROR
+#: ../src/common/gst-tool.c:201
+msgid "An unknown error occurred."
+msgstr ""
+
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "සහාය දර්ශනය කළ නොහැක"
 
+#: ../src/common/gst-tool.c:616
+msgid "The system configuration has potentially changed."
+msgstr ""
+
+#: ../src/common/gst-tool.c:618
+msgid "Update content? This will lose any modification in course."
+msgstr ""
+
+#: ../src/common/gst-tool.c:687
+#, c-format
+msgid ""
+"An error occurred while checking for authorizations: %s\n"
+"You may report this as a bug."
+msgstr ""
+
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
-#: ../src/shares/table.c:38 ../src/users/table.c:38
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "එක් කරන්න (_A)"
 
-#: ../src/network/address-list.c:486
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
+msgid "_Delete"
+msgstr "මකන්න (_D)"
+
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "ලිපිනය ඇතුළත් කරන්න"
 
-#: ../src/network/callbacks.c:186 ../src/network/callbacks.c:432
+#: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
 msgstr ""
 
-#: ../src/network/callbacks.c:244
+#: ../src/network/callbacks.c:299
 msgid "Could not autodetect modem device"
 msgstr ""
 
-#: ../src/network/callbacks.c:247
+#: ../src/network/callbacks.c:302
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
 msgstr ""
 
-#: ../src/network/callbacks.c:468
+#: ../src/network/callbacks.c:523
 msgid "The host name has changed"
 msgstr "ධාරක නම වෙනස් විය"
 
-#: ../src/network/callbacks.c:471
+#: ../src/network/callbacks.c:526
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
 msgstr ""
 
-#: ../src/network/callbacks.c:477
+#: ../src/network/callbacks.c:532
 msgid "Change _Host name"
 msgstr "ධාරක නම වෙනස් කරන්න (_H)"
 
-#: ../src/network/connection.c:39
+#: ../src/network/connection.c:40
 msgid "Automatic configuration (DHCP)"
 msgstr "ස්වයංක්‍රීය මානකරණය (DHCP)"
 
-#: ../src/network/connection.c:40
+#: ../src/network/connection.c:41
 msgid "Local Zeroconf network (IPv4 LL)"
 msgstr ""
 
-#: ../src/network/connection.c:41
+#: ../src/network/connection.c:42
 msgid "Static IP address"
 msgstr ""
 
-#: ../src/network/connection.c:45
+#: ../src/network/connection.c:46
 msgid "WEP key (ascii)"
 msgstr "WEP යතුර (ascii)"
 
-#: ../src/network/connection.c:46
+#: ../src/network/connection.c:47
 msgid "WEP key (hexadecimal)"
 msgstr "WEP යතුර (දසයේ පාදය)"
 
-#: ../src/network/connection.c:47
-msgid "WPA"
-msgstr "WPA"
+#: ../src/network/connection.c:48
+msgid "WPA Personal"
+msgstr ""
+
+#: ../src/network/connection.c:49
+msgid "WPA2 Personal"
+msgstr ""
+
+#: ../src/network/connection.c:53
+msgid "GPRS/UMTS"
+msgstr ""
+
+#: ../src/network/connection.c:54
+msgid "ISDN modem"
+msgstr ""
+
+#: ../src/network/connection.c:55
+msgid "Serial modem"
+msgstr ""
+
+#: ../src/network/connection.c:56
+msgid "PPPoE"
+msgstr ""
+
+#: ../src/network/connection.c:769
+#, c-format
+msgid "%s Properties"
+msgstr ""
 
 #: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
-#: ../src/shares/table.c:39 ../src/users/table.c:39
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "වත්කම් (_P)"
 
@@ -711,137 +913,135 @@ msgstr "IP ලිපිනය"
 msgid "Aliases"
 msgstr "අපරනාමය"
 
-#: ../src/network/ifaces-list.c:282
+#: ../src/network/ifaces-list.c:280
 msgid "This network interface is not configured"
 msgstr ""
 
-#: ../src/network/ifaces-list.c:284
+#: ../src/network/ifaces-list.c:282
 msgid "Roaming mode enabled"
 msgstr "සැරිසැරීමේ ආකාරය සක්‍රීය"
 
-#: ../src/network/ifaces-list.c:291
+#: ../src/network/ifaces-list.c:289
 #, c-format
-msgid "Essid: %s "
+msgid "<b>Essid:</b> %s "
 msgstr ""
 
-#: ../src/network/ifaces-list.c:297
-#, c-format
-msgid "Address: %s Subnet mask: %s"
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
 msgstr ""
 
-#: ../src/network/ifaces-list.c:301
-#, c-format
-msgid "Address: %s"
-msgstr "ලිපිය: %s"
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:305
-#, c-format
-msgid "Address: %s Remote address: %s"
-msgstr "ලිපිය: %s දුරස්ථ ලිපිය: %s"
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:311
-#, c-format
-msgid "Phone number: %s Login: %s"
-msgstr "දුරකථන අංකය: %s පිවිසීම: %s"
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:330
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
 msgstr "නොරැහැන් සම්බන්ධතාවය"
 
-#: ../src/network/ifaces-list.c:332
+#: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
 msgstr ""
 
-#: ../src/network/ifaces-list.c:334
+#: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
 msgstr "රැහැන් සම්බන්ධතාවය"
 
-#: ../src/network/ifaces-list.c:336
+#: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
 msgstr ""
 
-#: ../src/network/ifaces-list.c:338
-msgid "Modem connection"
-msgstr "මොඩම් සම්බන්ධතාවය"
+#: ../src/network/ifaces-list.c:364
+msgid "Point to point connection"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:340
-msgid "ISDN connection"
-msgstr "ISDN සම්බන්ධතාවය"
-
-#: ../src/network/locations-combo.c:224
+#: ../src/network/locations-combo.c:221
 msgid "Changing network location"
 msgstr ""
 
-#: ../src/network/locations-combo.c:268
+#: ../src/network/locations-combo.c:265
 msgid "There is already a location with the same name"
 msgstr ""
 
-#: ../src/network/locations-combo.c:270
+#: ../src/network/locations-combo.c:267
 msgid "Overwrite it?"
 msgstr ""
 
-#: ../src/network/locations-combo.c:358
+#: ../src/network/locations-combo.c:355
 msgid "Save location"
 msgstr "සුරකීමේ පිහිටුම"
 
-#: ../src/network/locations-combo.c:373
+#: ../src/network/locations-combo.c:370
 msgid "_Location name:"
 msgstr "පිහිටීමේ නම (_L):"
 
-#: ../src/network/locations-combo.c:425
+#: ../src/network/locations-combo.c:422
 #, c-format
 msgid "Do you want to delete location \"%s\"?"
 msgstr ""
 
-#: ../src/network/main.c:112
+#: ../src/network/main.c:135
 msgid "The interface does not exist"
 msgstr ""
 
-#: ../src/network/main.c:114
+#: ../src/network/main.c:137
 msgid ""
 "Check that it is correctly typed and that it is correctly supported by your "
 "system."
 msgstr ""
 
-#: ../src/network/main.c:160
+#: ../src/network/main.c:183
 msgid "Configure a network interface"
 msgstr ""
 
-#: ../src/network/main.c:160
+#: ../src/network/main.c:183
 msgid "INTERFACE"
 msgstr "INTERFACE"
 
-#: ../src/network/main.c:161
+#: ../src/network/main.c:184
 msgid "Configure the first network interface with a specific type"
 msgstr ""
 
-#: ../src/network/main.c:161
+#: ../src/network/main.c:184
 msgid "TYPE"
 msgstr "TYPE"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr ""
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "ජාලය"
 
-#: ../src/network/network-tool.c:285
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr ""
+
+#: ../src/network/network-tool.c:280
 msgid "Network Settings"
 msgstr "ජාල සැකසුම්"
 
-#: ../src/services/callbacks.c:58
+#: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
 msgstr "\"%s\" සේවාව සඳහා සැකසුම්"
 
-#: ../src/services/callbacks.c:111
+#: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
 msgstr ""
 
-#: ../src/services/callbacks.c:115
+#: ../src/services/callbacks.c:126
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
@@ -1249,13 +1449,18 @@ msgstr "දෘඩාංග නිරීක්‍ෂකය"
 msgid "System monitor"
 msgstr "පද්ධති නිරීක්‍ෂකය"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
+#. GST_ROLE_SYSTEM_MONITORING
+#: ../src/services/service.c:104
+msgid "Virtual Machine management"
 msgstr ""
 
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "සේවාවන්"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr ""
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1286,9 +1491,9 @@ msgstr "තත්වය"
 msgid "Priority"
 msgstr "ප්‍රමුකත්වය"
 
-#: ../src/services/services-tool.c:100
-msgid "Services settings"
-msgstr "සේවා සැකසුම්"
+#: ../src/services/services-tool.c:106
+msgid "Services Settings"
+msgstr ""
 
 #: ../src/shares/callbacks.c:196
 msgid "Are you sure you want to delete this share?"
@@ -1298,19 +1503,19 @@ msgstr "ඔබට විශ්වාසද? ඔබට මෙම හවුල ම
 msgid "Other computers in your network will stop viewing this."
 msgstr ""
 
-#: ../src/shares/main.c:92
+#: ../src/shares/main.c:103
 msgid "Add a shared path, modifies it if it already exists"
 msgstr ""
 
-#: ../src/shares/main.c:92
+#: ../src/shares/main.c:103
 msgid "PATH"
 msgstr "PATH"
 
-#: ../src/shares/caja/caja-shares.c:124
-msgid "_Share folder"
+#: ../src/shares/caja/caja-shares.c:151
+msgid "_Share Folder..."
 msgstr ""
 
-#: ../src/shares/caja/caja-shares.c:125
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr ""
 
@@ -1330,7 +1535,7 @@ msgstr "IP ලිපිනය දක්වන්න"
 msgid "Specify network"
 msgstr "ජාලය දක්වන්න"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr ""
 
@@ -1350,302 +1555,562 @@ msgstr "Windows ජාල (SMB)"
 msgid "Unix networks (NFS)"
 msgstr "Unix ජාල (NFS)"
 
-#: ../src/shares/shares-tool.c:125
+#: ../src/shares/share-settings.c:462
+#, c-format
+msgid "Settings for folder '%s'"
+msgstr ""
+
+#: ../src/shares/share-settings.c:469
+msgid "Share Folder"
+msgstr ""
+
+#: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
 msgstr ""
 
-#: ../src/shares/shares-tool.c:127
+#: ../src/shares/shares-tool.c:154
 msgid ""
 "You need to install at least either Samba or NFS in order to share your "
 "folders."
 msgstr ""
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "පද්ධතියේ වේලාව, දිනය සහ වේලා කළාපය වෙනස් කරන්න"
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
+msgstr ""
 
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/e-map/e-map.c:622
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
+msgstr ""
+
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "දිනය සහ වේලාව"
 
-#: ../src/time/time-tool.c:377
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "පද්ධතියේ වේලාව, දිනය සහ වේලා කළාපය වෙනස් කරන්න"
+
+#: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "NTP සහාය ස්ථාපනය කර නැත"
 
-#: ../src/time/time-tool.c:379
+#: ../src/time/time-tool.c:400
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
 msgstr ""
 
-#: ../src/time/time-tool.c:409
+#: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
 msgstr "NTP සක්‍රීය කිරීම"
 
-#: ../src/time/time-tool.c:409
+#: ../src/time/time-tool.c:429
 msgid "Disabling NTP"
 msgstr "NTP අක්‍රීය කිරීම"
 
-#: ../src/time/time-tool.c:421
+#: ../src/time/time-tool.c:441
 msgid "Synchronizing system clock"
 msgstr "පද්ධති ඔරලෝසුව සමකාලීක කරමින්"
 
-#: ../src/time/time-tool.c:431
-msgid "_Synchronize now"
-msgstr "දැන් සමකාලීක කරන්න (_S)"
-
-#: ../src/time/time-tool.c:527
+#: ../src/time/time-tool.c:521
 msgid "Keep synchronized with Internet servers"
 msgstr "අන්තර් ජාල සේවාදායක සමඟ සමකාලීක කරන්න"
 
-#: ../src/time/time-tool.c:528
+#: ../src/time/time-tool.c:522
 msgid "Manual"
 msgstr ""
 
-#: ../src/time/time-tool.c:677
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "දින සහ වේලා සැකසුම්"
 
-#: ../src/users/group-settings.c:52
+#: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
 msgstr "පරිපාළක සමූහය මැකිය නොහැක"
 
-#: ../src/users/group-settings.c:55 ../src/users/group-settings.c:281
-#: ../src/users/group-settings.c:305 ../src/users/user-settings.c:60
-#: ../src/users/user-settings.c:446 ../src/users/user-settings.c:516
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr ""
 
-#: ../src/users/group-settings.c:68
+#: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
 msgstr "ඔබට විශ්වාසද? ඔබට \"%s\" සමූහය මැකීමට අවශ්‍යද?"
 
-#: ../src/users/group-settings.c:71
+#: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
 msgstr ""
 
-#: ../src/users/group-settings.c:170
+#: ../src/users/group-settings.c:144
 msgid "New group"
 msgstr "නව සමූහය"
 
-#: ../src/users/group-settings.c:178
+#: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
 msgstr "'%s' සමූහයේ වත්කම්"
 
-#: ../src/users/group-settings.c:277
+#: ../src/users/group-settings.c:217
 msgid "Group name is empty"
 msgstr "සමූහයේ නම හිස් ව ඇත"
 
-#: ../src/users/group-settings.c:278
+#: ../src/users/group-settings.c:218
 msgid "A group name must be specified."
 msgstr "සමූහයේ නම සැයිය යුතුම වේ."
 
-#: ../src/users/group-settings.c:280
+#: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
 msgstr ""
 
-#: ../src/users/group-settings.c:283
+#: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
 msgstr "සමූහ නමේ සාවද්‍ය අක්‍ෂර ඇත"
 
-#: ../src/users/group-settings.c:284
+#: ../src/users/group-settings.c:224
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
 msgstr ""
 
-#: ../src/users/group-settings.c:288
+#: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
 msgstr "\"%s\" සමූහය දැනටමත් භාවිතා වේ"
 
-#: ../src/users/group-settings.c:289 ../src/users/user-settings.c:454
-msgid "Please select a different user name."
-msgstr "කරුණාකර වෙනස් පරිශීලක නමක් තෝරන්න."
+#: ../src/users/group-settings.c:230
+msgid "Please choose a different group name."
+msgstr ""
 
-#: ../src/users/group-settings.c:304
+#: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
 msgstr ""
 
-#: ../src/users/groups-table.c:45
+#. check that GID is free
+#: ../src/users/group-settings.c:261
+#, c-format
+msgid "Group ID %d is already used by group \"%s\""
+msgstr ""
+
+#: ../src/users/group-settings.c:264
+msgid "Please choose a different numeric identifier for the new group."
+msgstr ""
+
+#: ../src/users/group-settings.c:266
+#, c-format
+msgid "Please choose a different numeric identifier for group \"%s\"."
+msgstr ""
+
+#: ../src/users/groups-table.c:44
 msgid "Group name"
 msgstr "සමූහයේ නම"
 
-#: ../src/users/privileges-table.c:49
-msgid "Monitor system logs"
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
 msgstr ""
 
-#: ../src/users/privileges-table.c:50
-msgid "Administer the system"
-msgstr "පද්ධතිය පාරිපාලණය කරන්න"
-
-#: ../src/users/privileges-table.c:51
-msgid "Use audio devices"
-msgstr ""
-
-#: ../src/users/privileges-table.c:52
-msgid "Use CD-ROM drives"
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
 msgstr ""
 
 #: ../src/users/privileges-table.c:53
-msgid "Use modems"
+msgid "Monitor system logs"
 msgstr ""
 
 #: ../src/users/privileges-table.c:54
-msgid "Connect to Internet using a modem"
-msgstr ""
+msgid "Administer the system"
+msgstr "පද්ධතිය පාරිපාලණය කරන්න"
 
 #: ../src/users/privileges-table.c:55
-msgid "Send and receive faxes"
+msgid "Use audio devices"
 msgstr ""
 
 #: ../src/users/privileges-table.c:56
-msgid "Use floppy drives"
+msgid "Use CD-ROM drives"
 msgstr ""
 
 #: ../src/users/privileges-table.c:57
-msgid "Access external storage devices automatically"
+msgid "Burn CDs / DVDs"
 msgstr ""
 
 #: ../src/users/privileges-table.c:58
-msgid "Use scanners"
+msgid "Use modems"
 msgstr ""
 
 #: ../src/users/privileges-table.c:59
-msgid "Use tape drives"
+msgid "Connect to Internet using a modem"
 msgstr ""
 
 #: ../src/users/privileges-table.c:60
+msgid "Send and receive faxes"
+msgstr ""
+
+#: ../src/users/privileges-table.c:61
+msgid "Use floppy drives"
+msgstr ""
+
+#: ../src/users/privileges-table.c:62
+msgid "Mount user-space filesystems (FUSE)"
+msgstr ""
+
+#: ../src/users/privileges-table.c:63
+msgid "Configure printers"
+msgstr ""
+
+#: ../src/users/privileges-table.c:64
+msgid "Connect to wireless and ethernet networks"
+msgstr ""
+
+#: ../src/users/privileges-table.c:65
+msgid "Access external storage devices automatically"
+msgstr ""
+
+#: ../src/users/privileges-table.c:66
+msgid "Suspend and hibernate the computer"
+msgstr ""
+
+#: ../src/users/privileges-table.c:67
+msgid "Access /proc filesystem"
+msgstr ""
+
+#: ../src/users/privileges-table.c:68
+msgid "Use scanners"
+msgstr ""
+
+#: ../src/users/privileges-table.c:69
+msgid "Use tape drives"
+msgstr ""
+
+#: ../src/users/privileges-table.c:70
+msgid "Use USB devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:71
+msgid "Use VirtualBox virtualization solution"
+msgstr ""
+
+#: ../src/users/privileges-table.c:72
+msgid "Use video devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
 msgstr ""
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
+#: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
 msgstr ""
 
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr ""
+
+#: ../src/users/run-passwd.c:421
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/users/run-passwd.c:498
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/users/run-passwd.c:504
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/users/run-passwd.c:510
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/users/run-passwd.c:513
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/users/run-passwd.c:517
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/users/run-passwd.c:524
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/users/run-passwd.c:528
+#, c-format
+msgid "Unknown error"
+msgstr ""
+
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "පිරිශීලකයින් සහ සමූහ"
 
-#: ../src/users/user-settings.c:57
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr ""
+
+#: ../src/users/user-password.c:97
+msgid "Password is too short"
+msgstr "රහස්පදය ඉතාමත් කුඩා වේ"
+
+#: ../src/users/user-password.c:98
+msgid ""
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
+msgstr ""
+
+#: ../src/users/user-password.c:101
+msgid "Password confirmation is not correct"
+msgstr ""
+
+#: ../src/users/user-password.c:102
+msgid "Check that you have provided the same password in both text fields."
+msgstr ""
+
+#: ../src/users/user-password.c:445
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/users/user-password.c:456
+msgid "Please type again your current password."
+msgstr ""
+
+#: ../src/users/user-password.c:463
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
 msgstr ""
 
-#: ../src/users/user-settings.c:73
+#: ../src/users/user-settings.c:96
 #, c-format
-msgid "Are you sure you want to delete account \"%s\"?"
-msgstr "ඔබට විශ්වාසද? ඔබට \"%s\" ගිණුම මැකීමට අවශ්‍යද?"
+msgid "%s is currently using this computer"
+msgstr ""
 
-#: ../src/users/user-settings.c:76
+#: ../src/users/user-settings.c:99
+msgid "Please ensure the user has logged out before deleting this account."
+msgstr ""
+
+#: ../src/users/user-settings.c:109
+msgid "Can't delete the only administrator account"
+msgstr ""
+
+#: ../src/users/user-settings.c:111
+#, c-format
 msgid ""
-"This will disable this user's access to the system without deleting the "
-"user's home directory."
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
 msgstr ""
 
-#: ../src/users/user-settings.c:289
-msgid "New user account"
-msgstr "නව පරිශීලක ගිණුම"
-
-#: ../src/users/user-settings.c:304
+#: ../src/users/user-settings.c:121
 #, c-format
-msgid "Account '%s' Properties"
-msgstr "'%s' ගිණුමේ වත්කම්"
-
-#: ../src/users/user-settings.c:442
-msgid "User name is empty"
-msgstr "පරිශීලක නම හිස්ව ඇත"
-
-#: ../src/users/user-settings.c:443
-msgid "A user name must be specified."
-msgstr "පරිශීලක නම දැක්විය යුතුම වේ."
-
-#: ../src/users/user-settings.c:445
-msgid "Administrator account's user name should not be modified"
+msgid "Remove home folder for %s?"
 msgstr ""
 
-#: ../src/users/user-settings.c:448
-msgid "User name has invalid characters"
-msgstr "පරිශීලක නමේ සාවද්‍ය අක්‍ෂර ඇත"
-
-#: ../src/users/user-settings.c:449
+#: ../src/users/user-settings.c:124
+#, c-format
 msgid ""
-"Please set a valid user name consisting of a lower case letter followed by "
-"lower case letters and numbers."
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
 msgstr ""
 
-#: ../src/users/user-settings.c:453
-#, c-format
-msgid "User name \"%s\" already exists"
-msgstr "\"%s\" පරිශීලක නම දැනටමත් භාවිතා වේ"
+#: ../src/users/user-settings.c:132
+msgid "Keep Files"
+msgstr ""
 
-#: ../src/users/user-settings.c:480
+#: ../src/users/user-settings.c:133
+msgid "Don't Remove Account"
+msgstr ""
+
+#: ../src/users/user-settings.c:134
+msgid "Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:330
+msgid "Superuser"
+msgstr ""
+
+#: ../src/users/user-settings.c:335
+msgid "Custom"
+msgstr ""
+
+#. TRANSLATORS: This applies to a password.
+#: ../src/users/user-settings.c:344
+msgid "None"
+msgstr ""
+
+#: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
 msgstr "සටහන තුළ \"%c\" සාවද්‍ය අක්‍ෂරය ඇත"
 
-#: ../src/users/user-settings.c:481
+#: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
 msgstr ""
 
-#: ../src/users/user-settings.c:498
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "නිවාස බහලුමේ අසම්පූර්ණ මාර්‍ගයකි"
 
-#: ../src/users/user-settings.c:499
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
-"i.e.: /home/john."
-msgstr ""
-"කරුණාකර නිවාස බහලුම සඳහා පූර්‍ණ මාර්‍ගය ඇතුළත් කරන්න\n"
-"උදා.: /home/danishka."
-
-#: ../src/users/user-settings.c:515
-msgid "Administrator account's user ID should not be modified"
+"<span size=\"smaller\">i.e.: /home/john</span>."
 msgstr ""
 
-#: ../src/users/user-settings.c:531
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
+msgstr ""
+
+#: ../src/users/user-settings.c:449
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr ""
+
+#: ../src/users/user-settings.c:461
+msgid "_Replace With Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr ""
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr ""
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr ""
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr ""
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr ""
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:604
+msgid "ID for the root user should not be modified"
+msgstr ""
+
+#. check that UID is free
+#: ../src/users/user-settings.c:608
+#, c-format
+msgid "User ID %d is already used by user %s"
+msgstr ""
+
+#: ../src/users/user-settings.c:610
+#, c-format
+msgid "Please choose a different numeric identifier for %s."
+msgstr ""
+
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr ""
 
-#: ../src/users/user-settings.c:532
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
-"i.e.: /bin/bash."
+"<span size=\"smaller\">i.e.: /bin/bash</span>."
 msgstr ""
 
-#: ../src/users/user-settings.c:560
-msgid "Password is too short"
-msgstr "රහස්පදය ඉතාමත් කුඩා වේ"
+#: ../src/users/user-settings.c:663
+msgid "Can't revoke administration rights"
+msgstr ""
 
-#: ../src/users/user-settings.c:561
+#: ../src/users/user-settings.c:666
+#, c-format
 msgid ""
-"User passwords must be longer than 6 characters and preferably formed by "
-"numbers, letters and special characters."
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
 msgstr ""
 
-#: ../src/users/user-settings.c:564
-msgid "Password confirmation is not correct"
+#: ../src/users/user-settings.c:683
+msgid "You are about to revoke your own administration rights"
 msgstr ""
 
-#: ../src/users/user-settings.c:565
-msgid "Check that you have provided the same password in both text fields."
+#: ../src/users/user-settings.c:686
+#, c-format
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
 msgstr ""
 
-#: ../src/users/users-table.c:44
-msgid "Name"
-msgstr "නම"
+#: ../src/users/user-settings.c:691
+msgid "Give up administration rights"
+msgstr ""
 
-#: ../src/users/users-table.c:63
-msgid "Login name"
-msgstr "පිවිසුම් නම"
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr ""
 
-#: ../src/users/users-table.c:70
-msgid "Home directory"
-msgstr "නිවාස බහලුම"
-
-#: ../src/users/users-tool.c:191
-msgid "Users settings"
-msgstr "පරිශීලක සැකසුම්"
-
+#: ../src/users/users-tool.c:288
+msgid "Users Settings"
+msgstr ""

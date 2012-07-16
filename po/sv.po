@@ -1,752 +1,752 @@
-# Swedish messages for MATE System Tools.
-# Copyright (C) 2000-2010 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
-# Martin Norbäck <d95mback@dtek.chalmers.se>, 2003.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010.
-#
-# FIXME: Internet should be spelled uppercase. That should be bug reported.
-#
+# Martin Norbäck <d95mback@dtek.chalmers.se>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-05 23:32+0200\n"
-"PO-Revision-Date: 2010-09-05 23:38+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:51+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../interfaces/network.ui.h:1
-#: ../src/network/ifaces-list.c:326
-msgid "Access point name:"
-msgstr "Namn på accesspunkt:"
+msgid "Off"
+msgstr "Av"
 
 #: ../interfaces/network.ui.h:2
-msgid "Account data"
-msgstr "Kontodata"
+msgid "Low"
+msgstr "Låg"
 
 #: ../interfaces/network.ui.h:3
-msgid "Aliases:"
-msgstr "Alias:"
+msgid "Medium"
+msgstr "Medel"
 
 #: ../interfaces/network.ui.h:4
-msgid "Con_figuration:"
-msgstr "Kon_figuration:"
+msgid "Loud"
+msgstr "Hög"
 
 #: ../interfaces/network.ui.h:5
-msgid "Connection Settings"
-msgstr "Anslutningsinställningar"
+msgid "Tones"
+msgstr "Toner"
 
 #: ../interfaces/network.ui.h:6
-msgid "Connection type:"
-msgstr "Anslutningstyp:"
+msgid "Pulses"
+msgstr "Pulser"
 
 #: ../interfaces/network.ui.h:7
-msgid "Connections"
-msgstr "Anslutningar"
+msgid "Plain (ASCII)"
+msgstr "Vanlig text (ASCII)"
 
 #: ../interfaces/network.ui.h:8
-msgid "DNS"
-msgstr "DNS"
+msgid "Hexadecimal"
+msgstr "Hexadecimal"
 
 #: ../interfaces/network.ui.h:9
-msgid "DNS Servers"
-msgstr "DNS-servrar"
+msgid "Location:"
+msgstr "Plats:"
 
 #: ../interfaces/network.ui.h:10
-msgid "D_omain name:"
-msgstr "D_omännamn:"
+msgid "Save current network configuration as a location"
+msgstr "Spara aktuell nätverkskonfiguration som en plats"
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
 msgstr "Ta bort aktuell plats"
 
 #: ../interfaces/network.ui.h:12
-msgid "E_nable roaming mode"
-msgstr "A_ktivera roaming-läge"
+msgid "Connections"
+msgstr "Anslutningar"
 
 #: ../interfaces/network.ui.h:13
-msgid "E_nable this connection"
-msgstr "A_ktivera denna anslutning"
+msgid "_Host name:"
+msgstr "_Värdnamn:"
 
 #: ../interfaces/network.ui.h:14
-#: ../src/network/ifaces-list.c:335
-msgid "Ethernet interface:"
-msgstr "Ethernet-gränssnitt:"
+msgid "D_omain name:"
+msgstr "D_omännamn:"
 
 #: ../interfaces/network.ui.h:15
-#: ../interfaces/users.ui.h:27
-msgid "General"
-msgstr "Allmänt"
-
-#: ../interfaces/network.ui.h:16
-msgid "Hexadecimal"
-msgstr "Hexadecimal"
-
-#: ../interfaces/network.ui.h:17
-msgid "Host Alias Properties"
-msgstr "Inställningar för värdalias"
-
-#: ../interfaces/network.ui.h:18
 msgid "Host Settings"
 msgstr "Värdinställningar"
 
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Allmänt"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "DNS-servrar"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Sökdomäner"
+
 #: ../interfaces/network.ui.h:19
-msgid "Hosts"
-msgstr "Värdar"
+msgid "DNS"
+msgstr "DNS"
 
 #: ../interfaces/network.ui.h:20
-#: ../interfaces/shares.ui.h:11
-msgid "IP address:"
-msgstr "IP-adress:"
+msgid "Hosts"
+msgstr "Värdar"
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
 msgstr "Gränssnittsegenskaper"
 
 #: ../interfaces/network.ui.h:22
-msgid "Internet service provider data"
-msgstr "Data för internetleverantör"
+msgid "E_nable this connection"
+msgstr "A_ktivera denna anslutning"
 
 #: ../interfaces/network.ui.h:23
-msgid "Location:"
-msgstr "Plats:"
+msgid "E_nable roaming mode"
+msgstr "A_ktivera roaming-läge"
 
 #: ../interfaces/network.ui.h:24
-msgid "Loud"
-msgstr "Hög"
+msgid "Connection type:"
+msgstr "Anslutningstyp:"
 
 #: ../interfaces/network.ui.h:25
-msgid "Low"
-msgstr "Låg"
-
-#: ../interfaces/network.ui.h:26
-msgid "Medium"
-msgstr "Medel"
-
-#: ../interfaces/network.ui.h:27
-msgid "Modem"
-msgstr "Modem"
-
-#: ../interfaces/network.ui.h:28
-msgid "Modem Settings"
-msgstr "Modeminställningar"
-
-#: ../interfaces/network.ui.h:29
-msgid "Network _password:"
-msgstr "Nätverks_lösenord:"
-
-#: ../interfaces/network.ui.h:30
 msgid "Network name (_ESSID):"
 msgstr "Nätverksnamn (_ESSID):"
 
-#: ../interfaces/network.ui.h:31
-msgid "Off"
-msgstr "Av"
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "Nätverks_lösenord:"
 
-#: ../interfaces/network.ui.h:32
-msgid "Options"
-msgstr "Alternativ"
-
-#: ../interfaces/network.ui.h:33
-msgid "P_assword"
-msgstr "L_ösenord"
-
-#: ../interfaces/network.ui.h:34
+#: ../interfaces/network.ui.h:27
 msgid "Password _type:"
 msgstr "Lösenords_typ:"
 
-#: ../interfaces/network.ui.h:35
-msgid "Plain (ASCII)"
-msgstr "Vanlig text (ASCII)"
-
-#: ../interfaces/network.ui.h:36
-msgid "Pulses"
-msgstr "Pulser"
-
-#: ../interfaces/network.ui.h:37
-msgid "Save current network configuration as a location"
-msgstr "Spara aktuell nätverkskonfiguration som en plats"
-
-#: ../interfaces/network.ui.h:38
-msgid "Search Domains"
-msgstr "Sökdomäner"
-
-#: ../interfaces/network.ui.h:39
-msgid "Tones"
-msgstr "Toner"
-
-#: ../interfaces/network.ui.h:40
-msgid "Use the Internet service provider nameservers"
-msgstr "Använd internetleverantörens namnservrar"
-
-#: ../interfaces/network.ui.h:41
+#: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
 msgstr "Trådlösa inställningar"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "_Detektera automatiskt"
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "Kon_figuration:"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_IP-adress:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "_Subnätmask:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "_Gateway-adress:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "Anslutningsinställningar"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "_Lokalt IP:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "_Fjärr-IP:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "_Telefonnummer:"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "_Uppringningsprefix:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "Namn på accesspunkt:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "Data för internetleverantör"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "_Användarnamn:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "L_ösenord"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Kontodata"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "_Modemport:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "_Uppringningstyp:"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "_Gateway-adress:"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "_Värdnamn:"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "_IP-adress:"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "_Lokalt IP:"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "_Modemport:"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "_Telefonnummer:"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "_Fjärr-IP:"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "_Försök igen om anslutningen bryts eller inte startar"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "_Ställ in modemet som standardväg till Internet"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "_Subnätmask:"
-
-#: ../interfaces/network.ui.h:55
-#: ../interfaces/users.ui.h:82
-msgid "_Username:"
-msgstr "_Användarnamn:"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Volym:"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "Avancerade inställningar:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "_Detektera automatiskt"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "Ethernet-gränssnitt:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "Modeminställningar"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modem"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "_Ställ in modemet som standardväg till Internet"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Använd internetleverantörens namnservrar"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "_Försök igen om anslutningen bryts eller inte startar"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Alternativ"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "Inställningar för värdalias"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP-adress:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Alias:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Välj de tjänster som du vill aktivera."
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Avancerade inställningar:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Add allowed hosts"
-msgstr "Lägg till tillåtna värdar"
+msgid "_Path:"
+msgstr "_Sökväg:"
 
 #: ../interfaces/shares.ui.h:2
-msgid "Allowed Hosts"
-msgstr "Tillåtna värdar"
+msgid "Share through:"
+msgstr "Dela ut genom:"
 
 #: ../interfaces/shares.ui.h:3
-msgid "Allowed hosts:"
-msgstr "Tillåtna värdar:"
+msgid "Shared Folder"
+msgstr "Utdelad mapp"
 
 #: ../interfaces/shares.ui.h:4
 msgid "Comment:"
 msgstr "Kommentar:"
 
 #: ../interfaces/shares.ui.h:5
-msgid "Domain / _Workgroup:"
-msgstr "Domän / A_rbetsgrupp:"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user"
-msgstr "Ange lösenord för användare"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Enter password for user:"
-msgstr "Ange lösenord för användare:"
-
-#: ../interfaces/shares.ui.h:8
-msgid "General Properties"
-msgstr "Allmänna egenskaper"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Host name:"
-msgstr "Värdnamn:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Hosts Settings"
-msgstr "Värdinställningar"
-
-#: ../interfaces/shares.ui.h:12
 msgid "Name:"
 msgstr "Namn:"
 
-#: ../interfaces/shares.ui.h:13
-msgid "Netmask:"
-msgstr "Nätmask:"
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr "_Skrivskyddad"
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "Egenskaper för utdelning"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "Tillåtna värdar"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "Dela ut"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Lägg till tillåtna värdar"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Tillåtna värdar:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Värdnamn:"
 
 #: ../interfaces/shares.ui.h:14
 msgid "Network:"
 msgstr "Nätverk:"
 
 #: ../interfaces/shares.ui.h:15
-#: ../src/shares/nfs-acl-table.c:56
+msgid "Netmask:"
+msgstr "Nätmask:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
 msgid "Read only"
 msgstr "Skrivskyddad"
 
-#: ../interfaces/shares.ui.h:16
-msgid "Share"
-msgstr "Dela ut"
-
 #: ../interfaces/shares.ui.h:17
-msgid "Share Properties"
-msgstr "Egenskaper för utdelning"
+msgid "Hosts Settings"
+msgstr "Värdinställningar"
 
-#: ../interfaces/shares.ui.h:18
-msgid "Share through:"
-msgstr "Dela ut genom:"
-
-#: ../interfaces/shares.ui.h:19
-msgid "Shared Folder"
-msgstr "Utdelad mapp"
-
-#: ../interfaces/shares.ui.h:20
-#: ../src/shares/shares.desktop.in.in.h:2
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
 msgstr "Utdelade mappar"
 
-#: ../interfaces/shares.ui.h:21
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "Domän / A_rbetsgrupp:"
+
+#: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
 msgstr "Denna dator är en _WINS-server"
 
-#: ../interfaces/shares.ui.h:22
-msgid "Users"
-msgstr "Användare"
-
-#: ../interfaces/shares.ui.h:23
+#: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
 msgstr "WINS-_server:"
 
-#: ../interfaces/shares.ui.h:24
+#: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
 msgstr "Windows-utdelning"
 
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Allmänna egenskaper"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "Användare"
+
 #: ../interfaces/shares.ui.h:25
-msgid "_Path:"
-msgstr "_Sökväg:"
+msgid "Enter password for user"
+msgstr "Ange lösenord för användare"
 
 #: ../interfaces/shares.ui.h:26
-msgid "_Read only"
-msgstr "_Skrivskyddad"
+msgid "Enter password for user:"
+msgstr "Ange lösenord för användare:"
 
 #: ../interfaces/time.ui.h:1
-msgid "Add NTP Server"
-msgstr "Lägg till NTP-server"
+msgid "Time zone"
+msgstr "Tidszon"
 
 #: ../interfaces/time.ui.h:2
-msgid "NTP server"
-msgstr "NTP-server"
+msgid "Time Zone"
+msgstr "Tidszon"
 
 #: ../interfaces/time.ui.h:3
-msgid "Se_lect Servers"
-msgstr "Vä_lj servrar"
+msgid "Time zone:"
+msgstr "Tidszon:"
 
 #: ../interfaces/time.ui.h:4
 msgid "Selection"
 msgstr "Val"
 
 #: ../interfaces/time.ui.h:5
-msgid "Synchronize now"
-msgstr "Synkronisera nu"
-
-#: ../interfaces/time.ui.h:6
-msgid "Time Zone"
-msgstr "Tidszon"
-
-#: ../interfaces/time.ui.h:7
 msgid "Time servers"
 msgstr "Tidsservrar"
 
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP-server"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "Lägg till NTP-server"
+
 #: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "Tidsservrar:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "Tidszon"
-
-#: ../interfaces/time.ui.h:10
-msgid "Time zone:"
-msgstr "Tidszon:"
-
-#: ../interfaces/time.ui.h:11
 msgid "Unconfigured"
 msgstr "Inte konfigurerat"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_Konfiguration:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "Tidsservrar:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "Vä_lj servrar"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "_Tid:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "_Datum:"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "_Tid:"
+msgid "Synchronize now"
+msgstr "Synkronisera nu"
 
 #: ../interfaces/users.ui.h:1
-msgid "A user with this name already exists. Please choose a different name for the new user."
-msgstr "En användare med detta namn finns redan. Välj ett annat namn för den nya användaren."
+msgid "_Manage Groups"
+msgstr "_Hantera grupper"
 
 #: ../interfaces/users.ui.h:2
 msgid "Account _type:"
 msgstr "Konto_typ:"
 
 #: ../interfaces/users.ui.h:3
-msgid "Advanced"
-msgstr "Avancerat"
+msgid "_Change..."
+msgstr "Än_dra..."
 
 #: ../interfaces/users.ui.h:4
-msgid "Advanced Settings"
-msgstr "Avancerade inställningar"
+msgid "_Password:"
+msgstr "_Lösenord:"
 
 #: ../interfaces/users.ui.h:5
-msgid "Assign a random password by default"
-msgstr "Tilldela ett slumpmässigt lösenord som standard"
+msgid "_Advanced Settings"
+msgstr "A_vancerade inställningar"
 
 #: ../interfaces/users.ui.h:6
-msgid "Automatic UID/GID"
-msgstr "Automatiskt UID/GID"
+msgid "This account is disabled."
+msgstr "Detta konto är inaktiverat."
 
 #: ../interfaces/users.ui.h:7
-msgid "Basic Settings"
-msgstr "Grundläggande inställningar"
+msgid "_Enable Account"
+msgstr "_Aktivera konto"
 
 #: ../interfaces/users.ui.h:8
-msgid "Change Advanced User Settings"
-msgstr "Ändra avancerade användarinställningar"
-
-#: ../interfaces/users.ui.h:9
-msgid "Change User Account Type"
-msgstr "Ändra typ av användarkonto"
-
-#: ../interfaces/users.ui.h:10
-msgid "Change User Name"
-msgstr "Ändra användarnamn"
-
-#: ../interfaces/users.ui.h:11
-msgid "Change User Password"
-msgstr "Ändra användarlösenord"
-
-#: ../interfaces/users.ui.h:12
-msgid "Changing advanced settings for:"
-msgstr "Ändrar avancerade inställningar för:"
-
-#: ../interfaces/users.ui.h:13
-msgid "Changing user account type for:"
-msgstr "Ändrar typ av användarkonto för:"
-
-#: ../interfaces/users.ui.h:14
-msgid "Changing user name for:"
-msgstr "Ändrar användarnamn för:"
-
-#: ../interfaces/users.ui.h:15
-msgid "Changing user password for:"
-msgstr "Ändrar användarlösenord för:"
-
-#: ../interfaces/users.ui.h:16
-msgid "Con_firmation:"
-msgstr "_Bekräftelse:"
-
-#: ../interfaces/users.ui.h:17
-msgid "Contact Information"
-msgstr "Kontaktinformation"
-
-#: ../interfaces/users.ui.h:18
-msgid "Create New User"
-msgstr "Skapa ny användare"
-
-#: ../interfaces/users.ui.h:19
-msgid "Create a new user"
-msgstr "Skapa en ny användare"
-
-#: ../interfaces/users.ui.h:20
-msgid "Days between warning and password expiration:"
-msgstr "Antalet dagar mellan varning och utgång av lösenord:"
-
-#: ../interfaces/users.ui.h:21
-msgid "Default _group:"
-msgstr "Standard_grupp:"
-
-#: ../interfaces/users.ui.h:22
-msgid "Default _shell:"
-msgstr "Standard_skal:"
-
-#: ../interfaces/users.ui.h:23
-msgid "Disable _account"
-msgstr "Inaktivera _konto"
-
-#: ../interfaces/users.ui.h:24
-msgid "Don't ask for password on _login"
-msgstr "Fråga inte efter lösenordet vid in_loggning"
-
-#: ../interfaces/users.ui.h:25
-msgid "Encrypt all your files with your login password to strongly protect them from people with physical access to your computer, at the expense of a slightly reduced performance."
-msgstr "Kryptera alla dina filer med ditt inloggningslösenord för att skydda dem från personer med fysisk åtkomst till din dator. Detta ger dock viss reducerad prestanda."
-
-#: ../interfaces/users.ui.h:26
-msgid "Full _Name:"
-msgstr "Fullständigt _namn:"
-
-#: ../interfaces/users.ui.h:28
-msgid "Generate _random password"
-msgstr "Generera _slumpmässigt lösenord"
-
-#: ../interfaces/users.ui.h:29
-msgid "Group Members"
-msgstr "Gruppmedlemmar"
-
-#: ../interfaces/users.ui.h:30
-msgid "Group _ID:"
-msgstr "Grupp-_id:"
-
-#: ../interfaces/users.ui.h:31
-msgid "Group _name:"
-msgstr "Grupp_namn:"
-
-#: ../interfaces/users.ui.h:32
 msgid "Group properties"
 msgstr "Gruppegenskaper"
 
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "Grundläggande inställningar"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "Grupp_namn:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "Grupp-_id:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Gruppmedlemmar"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr "Profilinställningar"
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "Profil_namn:"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Kommentarer"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Systemstandardalternativ"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "_Hemkatalog:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "Standard_skal:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "Standard_grupp:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Lösenordsinställningar"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Antalet dagar som ett lösenord får användas:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Minsta antalet dagar mellan lösenordsbyten:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Antalet dagar mellan varning och utgång av lösenord:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Tilldela ett slumpmässigt lösenord som standard"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "Automatiskt UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "Högsta UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "Högsta GID:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "Lägsta UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "Lägsta GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Rättigheter"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Användarprofiler"
+
 #: ../interfaces/users.ui.h:33
-msgid "Groups available on the system:"
-msgstr "Grupper tillgängliga på systemet:"
+msgid "_Add Profile"
+msgstr "_Lägg till profil"
 
 #: ../interfaces/users.ui.h:34
 msgid "Groups settings"
 msgstr "Gruppinställningar"
 
 #: ../interfaces/users.ui.h:35
-msgid "Ma_ximum days a password may be used:"
-msgstr "Ma_ximalt antal dagar som ett lösenord kan användas:"
+msgid "Groups available on the system:"
+msgstr "Grupper tillgängliga på systemet:"
 
 #: ../interfaces/users.ui.h:36
-msgid "Maximum GID:"
-msgstr "Högsta GID:"
+msgid "Change User Name"
+msgstr "Ändra användarnamn"
 
 #: ../interfaces/users.ui.h:37
-msgid "Maximum UID:"
-msgstr "Högsta UID:"
+msgid "Full _Name:"
+msgstr "Fullständigt _namn:"
 
 #: ../interfaces/users.ui.h:38
-msgid "Mi_nimum days between password changes:"
-msgstr "Mi_nsta antalet dagar mellan lösenordsbyten:"
+msgid "Changing user name for:"
+msgstr "Ändrar användarnamn för:"
 
 #: ../interfaces/users.ui.h:39
-msgid "Minimum GID:"
-msgstr "Lägsta GID:"
+msgid "Change User Password"
+msgstr "Ändra användarlösenord"
 
 #: ../interfaces/users.ui.h:40
-msgid "Minimum UID:"
-msgstr "Lägsta UID:"
+msgid "Con_firmation:"
+msgstr "_Bekräftelse:"
 
 #: ../interfaces/users.ui.h:41
-msgid "Minimum days allowed between password changes:"
-msgstr "Minsta antalet dagar mellan lösenordsbyten:"
-
-#: ../interfaces/users.ui.h:42
-msgid "New _password:"
-msgstr "Nytt _lösenord:"
-
-#: ../interfaces/users.ui.h:43
-msgid "Number of days that a password may be used:"
-msgstr "Antalet dagar som ett lösenord får användas:"
-
-#: ../interfaces/users.ui.h:44
-msgid "O_ffice location:"
-msgstr "_Kontorsadress:"
-
-#: ../interfaces/users.ui.h:45
-msgid "Optional Settings"
-msgstr "Valfria inställningar"
-
-#: ../interfaces/users.ui.h:46
-msgid "Password Settings"
-msgstr "Lösenordsinställningar"
-
-#: ../interfaces/users.ui.h:47
 msgid "Password set to: "
 msgstr "Lösenordet sattes till: "
 
-#: ../interfaces/users.ui.h:48
-msgid "Privileges"
-msgstr "Rättigheter"
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "_Skapa"
 
-#: ../interfaces/users.ui.h:49
-msgid "Profile Settings"
-msgstr "Profilinställningar"
-
-#: ../interfaces/users.ui.h:50
-msgid "Profile _name:"
-msgstr "Profil_namn:"
-
-#: ../interfaces/users.ui.h:51
+#: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
 msgstr "Ange lösenord f_ör hand"
 
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "Nytt _lösenord:"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "Generera _slumpmässigt lösenord"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "Ändrar användarlösenord för:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "Fråga inte efter lösenordet vid in_loggning"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "_Nuvarande lösenord:"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "Ändra typ av användarkonto"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "Ändrar typ av användarkonto för:"
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "A_npassad"
+
 #: ../interfaces/users.ui.h:52
-msgid "System Defaults"
-msgstr "Systemstandardalternativ"
-
-#: ../interfaces/users.ui.h:53
-msgid "This account is disabled."
-msgstr "Detta konto är inaktiverat."
-
-#: ../interfaces/users.ui.h:54
-msgid "This account is using special settings that have been defined manually. Use the <i>Advanced Settings</i> dialog to tune them."
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
 msgstr "Detta konto använder specialinställningar som har definierats manuellt. Använd dialogrutan <i>Avancerade inställningar</i> för att justera dem."
 
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "Skapa ny användare"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "_Namn:"
+
 #: ../interfaces/users.ui.h:55
-msgid "User ID:"
-msgstr "Användar-id:"
+msgid "Create a new user"
+msgstr "Skapa en ny användare"
 
-#: ../interfaces/users.ui.h:56
-msgid "User Privileges"
-msgstr "Användarprivilegier"
-
-#: ../interfaces/users.ui.h:57
-msgid "User profiles"
-msgstr "Användarprofiler"
-
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
-#: ../interfaces/users.ui.h:59
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
 msgid ""
 "Username must consist of:\n"
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
-"Användarnamn måste bestå av:\n"
-"  ➣ gemena bokstäver från engelska alfabetet (inte åäö)\n"
-"  ➣ siffror\n"
-"  ➣ något av tecknen \".\", \"-\" och \"_\""
+msgstr "Användarnamn måste bestå av:\n  ➣ gemena bokstäver från engelska alfabetet (inte åäö)\n  ➣ siffror\n  ➣ något av tecknen \".\", \"-\" och \"_\""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr "En användare med detta namn finns redan. Välj ett annat namn för den nya användaren."
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
 msgstr "Användarnamn måste börja med en bokstav!"
 
 #: ../interfaces/users.ui.h:64
-msgid "You can't change user ID while the user is logged in."
-msgstr "Du kan inte ändra användar-id samtidigt som användaren är inloggad."
-
-#: ../interfaces/users.ui.h:65
-msgid "_Add Profile"
-msgstr "_Lägg till profil"
-
-#: ../interfaces/users.ui.h:66
-msgid "_Advanced Settings"
-msgstr "A_vancerade inställningar"
-
-#: ../interfaces/users.ui.h:67
-msgid "_Change..."
-msgstr "Än_dra..."
-
-#: ../interfaces/users.ui.h:68
-msgid "_Comments"
-msgstr "_Kommentarer"
-
-#: ../interfaces/users.ui.h:69
-msgid "_Current password:"
-msgstr "_Nuvarande lösenord:"
-
-#: ../interfaces/users.ui.h:70
-msgid "_Custom"
-msgstr "A_npassad"
-
-#: ../interfaces/users.ui.h:71
-msgid "_Days between warning and password expiration:"
-msgstr "Antalet _dagar mellan varning och utgång av lösenord:"
-
-#: ../interfaces/users.ui.h:72
-msgid "_Enable Account"
-msgstr "_Aktivera konto"
-
-#: ../interfaces/users.ui.h:73
 msgid "_Encrypt home folder to protect sensitive data"
 msgstr "_Kryptera hemmappen för att skydda känslig data"
 
-#: ../interfaces/users.ui.h:74
-msgid "_Generate"
-msgstr "_Skapa"
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "Kryptera alla dina filer med ditt inloggningslösenord för att skydda dem från personer med fysisk åtkomst till din dator. Detta ger dock viss reducerad prestanda."
 
-#: ../interfaces/users.ui.h:75
-msgid "_Home directory:"
-msgstr "_Hemkatalog:"
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "Ändra avancerade användarinställningar"
 
-#: ../interfaces/users.ui.h:76
-msgid "_Home phone:"
-msgstr "_Hemtelefon:"
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "Ändrar avancerade inställningar för:"
 
-#: ../interfaces/users.ui.h:77
-msgid "_Main group:"
-msgstr "_Huvudgrupp:"
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "_Kontorsadress:"
 
-#: ../interfaces/users.ui.h:78
-msgid "_Manage Groups"
-msgstr "_Hantera grupper"
-
-#: ../interfaces/users.ui.h:79
-msgid "_Name:"
-msgstr "_Namn:"
-
-#: ../interfaces/users.ui.h:80
-msgid "_Password:"
-msgstr "_Lösenord:"
-
-#: ../interfaces/users.ui.h:81
-msgid "_Shell:"
-msgstr "_Skal:"
-
-#: ../interfaces/users.ui.h:83
+#: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
 msgstr "_Jobbtelefon:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:1
-msgid "Show root user"
-msgstr "Visa root-användaren"
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "_Hemtelefon:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:2
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr "Kontaktinformation"
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "Användarprivilegier"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Avancerade inställningar"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "_Skal:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "_Huvudgrupp:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "Användar-id:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "Du kan inte ändra användar-id samtidigt som användaren är inloggad."
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "Inaktivera _konto"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Valfria inställningar"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Mi_nsta antalet dagar mellan lösenordsbyten:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "Ma_ximalt antal dagar som ett lösenord kan användas:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "Antalet _dagar mellan varning och utgång av lösenord:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
 msgstr "Visa systemanvändare"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:3
-msgid "Whether the users-admin tool should show system users in the users list."
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
 msgstr "Huruvida användaradministrationsverktyget ska visa systemanvändare i användarlistan."
 
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr "Visa root-användaren"
+
 #: ../org.mate.system-tools.gschema.xml.in.h:4
-msgid "Whether the users-admin tool should show the root user in the users list."
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
 msgstr "Huruvida användaradministrationsverktyget ska visa root-användaren i användarlistan."
 
 #: ../src/common/gst-platform-dialog.c:179
@@ -755,7 +755,10 @@ msgstr "Den plattform som du kör på stöds inte av detta verktyg"
 
 #. label
 #: ../src/common/gst-platform-dialog.c:185
-msgid "If you know for sure that it works like one of the platforms listed below, you can select that and continue. Note, however, that this might damage the system configuration or downright cripple your computer."
+msgid ""
+"If you know for sure that it works like one of the platforms listed below, "
+"you can select that and continue. Note, however, that this might damage the "
+"system configuration or downright cripple your computer."
 msgstr "Om du är säker på att det fungerar som en av de plattformar som anges nedan kan du välja denna och fortsätta. Observera dock att detta kan skada systemkonfigurationen eller rentav förstöra data på din dator."
 
 #: ../src/common/gst-platform-dialog.c:212
@@ -776,8 +779,7 @@ msgid "You are not allowed to access the system configuration."
 msgstr "Du tillåts inte komma åt systemkonfigurationen."
 
 #. OPERATION_COMMIT
-#: ../src/common/gst-tool.c:196
-#: ../src/common/gst-tool.c:685
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
 msgstr "Du tillåts inte att ändra systemkonfigurationen."
 
@@ -807,21 +809,15 @@ msgstr "Uppdatera innehållet? Detta innebär att ändringar går förlorade."
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr ""
-"Ett fel inträffade vid behörighetskontroll: %s\n"
-"Du kan rapportera detta som ett fel."
+msgstr "Ett fel inträffade vid behörighetskontroll: %s\nDu kan rapportera detta som ett fel."
 
-#: ../src/network/address-list.c:76
-#: ../src/network/hosts.c:31
-#: ../src/shares/table.c:38
-#: ../src/users/table.c:40
+#: ../src/network/address-list.c:76 ../src/network/hosts.c:31
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "_Lägg till"
 
-#: ../src/network/address-list.c:77
-#: ../src/network/hosts.c:33
-#: ../src/shares/table.c:40
-#: ../src/users/table.c:42
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
 msgid "_Delete"
 msgstr "_Ta bort"
 
@@ -829,8 +825,7 @@ msgstr "_Ta bort"
 msgid "Type address"
 msgstr "Typadress"
 
-#: ../src/network/callbacks.c:237
-#: ../src/network/callbacks.c:487
+#: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
 msgstr "Ändrar gränssnittskonfiguration"
 
@@ -839,7 +834,9 @@ msgid "Could not autodetect modem device"
 msgstr "Kunde inte automatiskt detektera modemenheten"
 
 #: ../src/network/callbacks.c:302
-msgid "Check that the device is not busy and that is correctly attached to the computer."
+msgid ""
+"Check that the device is not busy and that is correctly attached to the "
+"computer."
 msgstr "Kontrollera att enheten inte är upptagen och att den är korrekt ansluten till datorn."
 
 #: ../src/network/callbacks.c:523
@@ -847,7 +844,9 @@ msgid "The host name has changed"
 msgstr "Värdnamnet har ändrats"
 
 #: ../src/network/callbacks.c:526
-msgid "This will prevent you from launching new applications, and so you will have to log in again. Continue anyway?"
+msgid ""
+"This will prevent you from launching new applications, and so you will have "
+"to log in again. Continue anyway?"
 msgstr "Detta kommer att hindra dig från att starta nya program, och därför kommer du att behöva logga in igen. Fortsätta ändå?"
 
 #: ../src/network/callbacks.c:532
@@ -903,10 +902,8 @@ msgstr "PPPoE"
 msgid "%s Properties"
 msgstr "Egenskaper för %s"
 
-#: ../src/network/hosts.c:32
-#: ../src/network/ifaces-list.c:33
-#: ../src/shares/table.c:39
-#: ../src/users/table.c:41
+#: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "_Egenskaper"
 
@@ -931,8 +928,7 @@ msgstr "Roaming-läget aktiverat"
 msgid "<b>Essid:</b> %s "
 msgstr "<b>Essid:</b> %s "
 
-#: ../src/network/ifaces-list.c:296
-#: ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
 #: ../src/network/ifaces-list.c:306
 msgid "Address:"
 msgstr "Adress:"
@@ -945,10 +941,8 @@ msgstr "Subnätmask:"
 msgid "Remote address:"
 msgstr "Fjärradress:"
 
-#: ../src/network/ifaces-list.c:320
-#: ../src/network/ifaces-list.c:325
-#: ../src/network/ifaces-list.c:334
-#: ../src/network/ifaces-list.c:339
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
 msgid "Type:"
 msgstr "Typ:"
 
@@ -1006,7 +1000,9 @@ msgid "The interface does not exist"
 msgstr "Gränssnittet finns inte"
 
 #: ../src/network/main.c:137
-msgid "Check that it is correctly typed and that it is correctly supported by your system."
+msgid ""
+"Check that it is correctly typed and that it is correctly supported by your "
+"system."
 msgstr "Kontrollera att det är korrekt angivet och att det stöds korrekt av ditt system."
 
 #: ../src/network/main.c:183
@@ -1025,13 +1021,13 @@ msgstr "Konfigurera det första nätverksgränssnittet med en viss typ"
 msgid "TYPE"
 msgstr "TYP"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "Konfigurera nätverksenheter och nätverksanslutningar"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "Nätverk"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Konfigurera nätverksenheter och nätverksanslutningar"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
@@ -1048,7 +1044,9 @@ msgid "Are you sure you want to deactivate %s?"
 msgstr "Är du säker på att du vill inaktivera %s?"
 
 #: ../src/services/callbacks.c:126
-msgid "This may affect your system behavior in several ways, possibly leading to data loss."
+msgid ""
+"This may affect your system behavior in several ways, possibly leading to "
+"data loss."
 msgstr "Detta kan påverka ditt systems beteende på många sätt, och kan möjligen leda till förlust av data."
 
 #: ../src/services/service.c:32
@@ -1121,14 +1119,12 @@ msgstr "Datalagringssystem"
 #. GST_ROLE_DATABASE_SERVER
 #. GST_ROLE_FILE_SERVER_SMB
 #. GST_ROLE_FILE_SERVER_FTP
-#: ../src/services/service.c:40
-#: ../src/services/service.c:41
+#: ../src/services/service.c:40 ../src/services/service.c:41
 #: ../src/services/service.c:43
 msgid "Folder sharing service"
 msgstr "Mappdelningstjänst"
 
-#: ../src/services/service.c:40
-#: ../src/services/service.c:41
+#: ../src/services/service.c:40 ../src/services/service.c:41
 msgid "Shares folders over your network"
 msgstr "Delar ut mappar över ditt nätverk"
 
@@ -1137,8 +1133,7 @@ msgstr "Delar ut mappar över ditt nätverk"
 msgid "FTP service"
 msgstr "FTP-tjänst"
 
-#: ../src/services/service.c:42
-#: ../src/services/service.c:43
+#: ../src/services/service.c:42 ../src/services/service.c:43
 msgid "Shares folders over the Internet"
 msgstr "Delar ut mappar över Internet"
 
@@ -1461,13 +1456,13 @@ msgstr "Systemövervakare"
 msgid "Virtual Machine management"
 msgstr "Hantering av virtuell maskin"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "Konfigurera vilka tjänster som körs då systemet startar"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Tjänster"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Konfigurera vilka tjänster som körs då systemet startar"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1542,7 +1537,7 @@ msgstr "Ange IP-adress"
 msgid "Specify network"
 msgstr "Ange nätverk"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Konfigurera vilka mappar som är tillgängliga för ditt nätverk"
 
@@ -1576,7 +1571,9 @@ msgid "Sharing services are not installed"
 msgstr "Utdelningstjänster är inte installerade"
 
 #: ../src/shares/shares-tool.c:154
-msgid "You need to install at least either Samba or NFS in order to share your folders."
+msgid ""
+"You need to install at least either Samba or NFS in order to share your "
+"folders."
 msgstr "Du måste åtminstone installera antingen Samba eller NFS för att kunna dela dina mappar."
 
 #: ../src/time/e-map/e-map.c:620
@@ -1584,23 +1581,27 @@ msgid "World Map"
 msgstr "Världskarta"
 
 #: ../src/time/e-map/e-map.c:622
-msgid "Mouse-based interactive map widget for selecting timezone. Keyboard users should instead select the timezone from the drop-down combination box below."
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
 msgstr "Musbaserad, interaktiv kartwidget för att välja tidszon. Tangentbordsanvändare bör istället välja tidszon från rullgardinsmenyn nedan."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Ändra systemtid, datum och tidszon."
-
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Tid och datum"
+
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Ändra systemtid, datum och tidszon."
 
 #: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "Stöd för NTP är inte installerat"
 
 #: ../src/time/time-tool.c:400
-msgid "Please install and activate NTP support in the system to enable synchronization of your local time server with internet time servers."
+msgid ""
+"Please install and activate NTP support in the system to enable "
+"synchronization of your local time server with internet time servers."
 msgstr "Installera och aktivera NTP-stöd på systemet för att aktivera synkronisering av din lokala tidsserver med Internet-tidsservrar."
 
 #: ../src/time/time-tool.c:429
@@ -1631,10 +1632,8 @@ msgstr "Inställningar för tid och datum"
 msgid "Administrator group can not be deleted"
 msgstr "Administratörsgruppen kan inte tas bort"
 
-#: ../src/users/group-settings.c:58
-#: ../src/users/group-settings.c:221
-#: ../src/users/group-settings.c:258
-#: ../src/users/user-settings.c:88
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
 #: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "Detta skulle lämna systemet i ett oanvändbart tillstånd."
@@ -1674,7 +1673,9 @@ msgid "Group name has invalid characters"
 msgstr "Gruppnamnet har ogiltiga tecken"
 
 #: ../src/users/group-settings.c:224
-msgid "Please set a valid group name consisting of a lower case letter followed by lower case letters and numbers."
+msgid ""
+"Please set a valid group name consisting of a lower case letter followed by "
+"lower case letters and numbers."
 msgstr "Ställ in ett giltigt gruppnamn som består av en liten bokstav följt av små bokstäver och siffror."
 
 #: ../src/users/group-settings.c:229
@@ -1710,13 +1711,11 @@ msgid "Group name"
 msgstr "Gruppnamn"
 
 #. TRANSLATORS:  This applies to a password. Keep the string short.
-#: ../src/users/main.c:74
-#: ../src/users/user-settings.c:347
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
 msgid "Not asked on login"
 msgstr "Efterfrågas inte vid inloggning"
 
-#: ../src/users/main.c:74
-#: ../src/users/user-settings.c:349
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
 msgid "Asked on login"
 msgstr "Efterfrågas vid inloggning"
 
@@ -1805,20 +1804,24 @@ msgid "Be able to get administrator privileges"
 msgstr "Möjligheten att få administratörsprivilegier"
 
 #: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr "Skrivbordsanvändare"
+
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr "Kan genomföra vanliga åtgärder. Kan inte installera program eller ändra inställningar som påverkar alla användare."
+
+#: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
 msgstr "Administratör"
 
-#: ../src/users/user-profiles.conf.in.h:2
-msgid "Can change anything on the system, including installing and upgrading software."
-msgstr "Kan ändra vad som helst i systemet, inklusive installation och uppgradering av program."
-
-#: ../src/users/user-profiles.conf.in.h:3
-msgid "Can perform common tasks. Can't install software or change settings affecting all users."
-msgstr "Kan genomföra vanliga åtgärder. Kan inte installera program eller ändra inställningar som påverkar alla användare."
-
 #: ../src/users/user-profiles.conf.in.h:4
-msgid "Desktop user"
-msgstr "Skrivbordsanvändare"
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr "Kan ändra vad som helst i systemet, inklusive installation och uppgradering av program."
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
@@ -1864,20 +1867,22 @@ msgstr "Ditt lösenord har ändrats sedan du loggade in!"
 msgid "Unknown error"
 msgstr "Okänt fel"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Lägg till eller ta bort användare och grupper"
-
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Användare och grupper"
+
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Lägg till eller ta bort användare och grupper"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
 msgstr "Lösenordet är för kort"
 
 #: ../src/users/user-password.c:98
-msgid "User passwords must be longer than 5 characters and preferably formed by numbers, letters and special characters."
+msgid ""
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
 msgstr "Användarlösenord måste vara längre än 5 tecken och föredragsvis konstruerade av siffror, bokstäver och specialtecken."
 
 #: ../src/users/user-password.c:101
@@ -1888,15 +1893,15 @@ msgstr "Lösenordsbekräftelsen är inte korrekt"
 msgid "Check that you have provided the same password in both text fields."
 msgstr "Kontrollera att du har angett samma lösenord i båda textfälten."
 
-#: ../src/users/user-password.c:426
+#: ../src/users/user-password.c:445
 msgid "Please choose another password."
 msgstr "Välj ett annat lösenord."
 
-#: ../src/users/user-password.c:437
+#: ../src/users/user-password.c:456
 msgid "Please type again your current password."
 msgstr "Ange ditt nuvarande lösenord igen."
 
-#: ../src/users/user-password.c:444
+#: ../src/users/user-password.c:463
 msgid "Password could not be changed"
 msgstr "Lösenordet kunde inte ändras"
 
@@ -1919,7 +1924,9 @@ msgstr "Kan inte ta bort det enda administratörskontot"
 
 #: ../src/users/user-settings.c:111
 #, c-format
-msgid "%s is the only administrator on this computer. Deleting this account would lock you out of administrating the system."
+msgid ""
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
 msgstr "%s är den enda administratören på denna dator. Borttagning av detta konto skulle förhindra dig från att administrera systemet."
 
 #: ../src/users/user-settings.c:121
@@ -1929,7 +1936,10 @@ msgstr "Ta bort hemmappen för %s?"
 
 #: ../src/users/user-settings.c:124
 #, c-format
-msgid "Files owned by user %s in <tt>%s</tt> can be completely removed if you don't need them anymore. You may want to back them up before deleting the account, or keep them so that an administrator can save them later."
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
 msgstr "Filer som ägs av användaren %s i <tt>%s</tt> kan tas bort helt om du inte behöver dem längre. Du kanske vill säkerhetskopiera dem innan kontot tas bort eller behålla dem så att en administratör kan spara dem senare."
 
 #: ../src/users/user-settings.c:132
@@ -1974,12 +1984,9 @@ msgstr "Ofullständig sökväg i hemkatalogen"
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
-"Ange fullständig sökväg till hemkatalogen\n"
-"<span size=\"smaller\">t.ex.: /home/johan</span>."
+msgstr "Ange fullständig sökväg till hemkatalogen\n<span size=\"smaller\">t.ex.: /home/johan</span>."
 
-#: ../src/users/user-settings.c:447
-#: ../src/users/user-settings.c:491
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
 msgstr "Ny hemkatalog finns redan. Använd den?"
 
@@ -1989,17 +1996,13 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
 "In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
-msgstr ""
-"Hemkatalogen för %s har ställts in till <tt>%s</tt>, vilken redan finns. Vill du använda filerna från denna katalog, eller kopiera innehållet för <tt>%s</tt> till det nya hemmet och skriva över den?\n"
-"\n"
-"Om du är osäker så använd den nya katalogen för att undvika att data förloras. Kopiera sedan över filer från den gamla katalogen."
+msgstr "Hemkatalogen för %s har ställts in till <tt>%s</tt>, vilken redan finns. Vill du använda filerna från denna katalog, eller kopiera innehållet för <tt>%s</tt> till det nya hemmet och skriva över den?\n\nOm du är osäker så använd den nya katalogen för att undvika att data förloras. Kopiera sedan över filer från den gamla katalogen."
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
 msgstr "_Ersätt med gamla filer"
 
-#: ../src/users/user-settings.c:462
-#: ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
 #: ../src/users/user-settings.c:540
 msgid "_Cancel Change"
 msgstr "_Avbryt ändring"
@@ -2010,13 +2013,11 @@ msgstr "_Avbryt ändring"
 msgid "_Use New Files"
 msgstr "Använd _nya filer"
 
-#: ../src/users/user-settings.c:470
-#: ../src/users/user-settings.c:510
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
 msgid "Make user the _owner of the new home directory"
 msgstr "Gör användaren till ä_gare av nya hemkatalogen"
 
-#: ../src/users/user-settings.c:473
-#: ../src/users/user-settings.c:547
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
 msgid "_Delete old home directory"
 msgstr "Ta bort _gamla hemkatalogen"
 
@@ -2026,10 +2027,7 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr ""
-"Hemkatalogen för %s har ställts in till <tt>%s</tt>, vilken redan finns. Vill du använda filer från denna katalog eller ta bort allt dess innehåll och använda en helt tom hemkatalog?\n"
-"\n"
-"Om du är osäker så behåll filerna och ta bort dem senare om det behövs."
+msgstr "Hemkatalogen för %s har ställts in till <tt>%s</tt>, vilken redan finns. Vill du använda filer från denna katalog eller ta bort allt dess innehåll och använda en helt tom hemkatalog?\n\nOm du är osäker så behåll filerna och ta bort dem senare om det behövs."
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
@@ -2049,10 +2047,7 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
 "If you choose to copy the files to the new location, it's safe to delete the old directory."
-msgstr ""
-"Hemkatalogen för %s har ställts in till <tt>%s</tt>, vilken inte finns. Vill du kopiera innehållet i den gamla hemkatalogen (<tt>%s</tt>) eller använda en helt tom hemkatalog?\n"
-"\n"
-"Om du väljer att kopiera filerna till den nya platsen så är det säkert att ta bort den gamla katalogen."
+msgstr "Hemkatalogen för %s har ställts in till <tt>%s</tt>, vilken inte finns. Vill du kopiera innehållet i den gamla hemkatalogen (<tt>%s</tt>) eller använda en helt tom hemkatalog?\n\nOm du väljer att kopiera filerna till den nya platsen så är det säkert att ta bort den gamla katalogen."
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
@@ -2086,9 +2081,7 @@ msgstr "Ofullständig sökväg i skal"
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
-"Ange fullständig sökväg till skalet\n"
-"<span size=\"smaller\">t.ex.: /bin/bash</span>."
+msgstr "Ange fullständig sökväg till skalet\n<span size=\"smaller\">t.ex.: /bin/bash</span>."
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
@@ -2096,7 +2089,9 @@ msgstr "Kan inte återkalla administrationsrättigheter"
 
 #: ../src/users/user-settings.c:666
 #, c-format
-msgid "%s is the only administrator on this computer. Revoking administration rights for this account would lock you out of administrating the system."
+msgid ""
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
 msgstr "%s är den enda administratören på denna dator. Återkallning av administrationsrättigheter för detta konto skulle förhindra dig från att administrera systemet."
 
 #: ../src/users/user-settings.c:683
@@ -2105,602 +2100,19 @@ msgstr "Du är på väg att återkalla dina egna administrationsrättigheter"
 
 #: ../src/users/user-settings.c:686
 #, c-format
-msgid "%s will no longer be able to perform administrative tasks. This account won't be allowed to get administration rights back on its own."
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
 msgstr "%s kommer inte längre att kunna genomföra administrativa åtgärder. Detta konto kommer inte att tillåtas att få tillbaka administrationsrättigheter på egen hand."
 
 #: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
 msgstr "Lämna tillbaka administrationsrättigheter"
 
-#: ../src/users/user-settings.c:1459
+#: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
 msgstr "Verkställer ändringar i användarinställningarna..."
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "Användarinställningar"
-
-#~ msgid ""
-#~ "The directory <tt>%s</tt> already exists. User may not have the "
-#~ "permissions required to read or write in that directory. Do you want to "
-#~ "use it anyway?"
-#~ msgstr ""
-#~ "Katalogen <tt>%s</tt> finns redan. Användaren kanske inte har rättigheter "
-#~ "som krävs för att läsa eller skriva i den katalogen. Vill du använda den "
-#~ "ändå?"
-#~ msgid "_Short Name:"
-#~ msgstr "_Kortnamn:"
-#~ msgid "Address: %s Subnet mask: %s"
-#~ msgstr "Adress: %s Subnätmask: %s"
-#~ msgid "Address: %s Remote address: %s"
-#~ msgstr "Adress: %s Fjärradress: %s"
-#~ msgid "Type: %s Phone number: %s"
-#~ msgstr "Typ: %s Telefonnummer: %s"
-#~ msgid "Type: %s Access point name: %s"
-#~ msgstr "Typ: %s Namn på accesspunkt: %s"
-#~ msgid "Type: %s Ethernet interface: %s"
-#~ msgstr "Typ: %s Ethernet-gränssnitt: %s"
-#~ msgid "Type: %s"
-#~ msgstr "Typ: %s"
-#~ msgid "Check password _quality"
-#~ msgstr "_Kontrollera lösenordskvalitet"
-#~ msgid "User _password:"
-#~ msgstr "Användar_lösenord:"
-#~ msgid "Password"
-#~ msgstr "Lösenord"
-#~ msgid ""
-#~ "Allow this user to open a local session without entering his password. "
-#~ "The password will still be required to perform administrative tasks."
-#~ msgstr ""
-#~ "Tillåter att denna användare kan öppna en lokal session utan att ange "
-#~ "sitt lösenord. Lösenordet kommer fortfarande att krävas för att genomföra "
-#~ "administrativa åtgärder."
-#~ msgid "User must log out before you can change his ID."
-#~ msgstr "Användaren måste logga ut innan du kan ändra id."
-#~ msgid "_Add Group"
-#~ msgstr "_Lägg till grupp"
-#~ msgid "_Add User"
-#~ msgstr "_Lägg till användare"
-#~ msgid "_Profile:"
-#~ msgstr "_Profil:"
-#~ msgid "_Real name:"
-#~ msgstr "_Verkligt namn:"
-#~ msgid "Are you sure you want to delete account \"%s\"?"
-#~ msgstr "Är du säker på att du vill ta bort kontot \"%s\"?"
-#~ msgid ""
-#~ "This will disable this user's access to the system without deleting the "
-#~ "user's home directory."
-#~ msgstr ""
-#~ "Detta kommer att inaktivera användarens åtkomst till systemet utan att "
-#~ "användarens hemkatalog tas bort."
-#~ msgid "Account '%s' Properties"
-#~ msgstr "Egenskaper för kontot \"%s\""
-#~ msgid "User name is empty"
-#~ msgstr "Användarnamnet är tomt"
-#~ msgid "A user name must be specified."
-#~ msgstr "Ett användarnamn måste anges."
-#~ msgid "User name has invalid characters"
-#~ msgstr "Användarnamnet har ogiltiga tecken"
-#~ msgid ""
-#~ "Please set a valid user name consisting of a lower case letter followed "
-#~ "by lower case letters and numbers."
-#~ msgstr ""
-#~ "Ställ in ett giltigt användarnamn som består av en liten bokstav följt av "
-#~ "små bokstäver och siffror."
-#~ msgid "User name \"%s\" already exists"
-#~ msgstr "Användarnamnet \"%s\" finns redan"
-#~ msgid "Please enter a different home directory path."
-#~ msgstr "Ange en annan sökväg för hemkatalog."
-#~ msgid "Administrator account's user ID should not be modified"
-#~ msgstr "Användar-id för administratörskontot bör inte ändras"
-#~ msgid "Name"
-#~ msgstr "Namn"
-#~ msgid "Login name"
-#~ msgstr "Inloggningsnamn"
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Please enter your root password</"
-#~ "span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Ange ditt rootlösenord"
-#~ msgid ""
-#~ "You need administrator privileges to use this tool. Enter a password to "
-#~ "modify\n"
-#~ "your system configuration."
-#~ msgstr ""
-#~ "För att använda detta verktyg behöver du administratörsrättigheter. Ange "
-#~ "ett lösenord\n"
-#~ "för att ändra din systemkonfiguration."
-#~ msgid "/dev/modem"
-#~ msgstr "/dev/modem"
-#~ msgid "/dev/ttyS0"
-#~ msgstr "/dev/ttyS0"
-#~ msgid "/dev/ttyS1"
-#~ msgstr "/dev/ttyS1"
-#~ msgid "/dev/ttyS2"
-#~ msgstr "/dev/ttyS2"
-#~ msgid "/dev/ttyS3"
-#~ msgstr "/dev/ttyS3"
-#~ msgid "_Unlock"
-#~ msgstr "Lås _upp"
-#~ msgid "This action is not allowed"
-#~ msgstr "Den här åtgärden tillåts inte"
-#~ msgid "Could not authenticate"
-#~ msgstr "Kunde inte autentisera"
-#~ msgid "Phone number: %s Login: %s"
-#~ msgstr "Telefonnummer: %s Inloggningsnamn: %s"
-#~ msgid "Administrator account's user name should not be modified"
-#~ msgstr "Användarnamnet för administratörskontot bör inte ändras"
-#~ msgid "Modem connection"
-#~ msgstr "Modemanslutning"
-#~ msgid "ISDN connection"
-#~ msgstr "ISDN-anslutning"
-#~ msgid ""
-#~ "Off\n"
-#~ "Low\n"
-#~ "Medium\n"
-#~ "Loud"
-#~ msgstr ""
-#~ "Av\n"
-#~ "Låg\n"
-#~ "Mellan\n"
-#~ "Hög"
-#~ msgid "MATE System Tools"
-#~ msgstr "MATE-systemverktygen"
-#~ msgid "WPA"
-#~ msgstr "WPA"
-#~ msgid ""
-#~ "Comma separated list of hosts that the GST will be able to access when "
-#~ "the remote configuration option is enabled"
-#~ msgstr ""
-#~ "Kommaseparerad lista med värdar som GST kommer att komma åt då "
-#~ "alternativet för fjärrkonfiguration är aktiverat"
-#~ msgid "Last GST version executed"
-#~ msgstr "Senaste GST-version som körts"
-#~ msgid "Preferred bootloader that boot-admin will configure"
-#~ msgstr ""
-#~ "Föredragen starthanterare som startadministrationsverktyget kommer att "
-#~ "konfigurera"
-#~ msgid "Remote hosts"
-#~ msgstr "Fjärrvärdar"
-#~ msgid ""
-#~ "The GST are able to do remote configuration through SSH, enable this "
-#~ "option to use this feature"
-#~ msgstr ""
-#~ "GST kan utföra fjärrkonfiguration genom SSH. Aktivera detta alternativ "
-#~ "för att använda denna funktion"
-#~ msgid "The last GST version that this computer has run"
-#~ msgstr "Den senaste GST-versionen som denna dator har kört"
-#~ msgid ""
-#~ "This key stores the bootloader that boot-admin will configure if there "
-#~ "are more than one installed, if it's not set or isn't valid, then boot-"
-#~ "admin will ask the user"
-#~ msgstr ""
-#~ "Denna nyckel lagrar den starthanterare som startadministrationsverktyget "
-#~ "kommer att konfigurera om det finns fler än ett installerat, och om det "
-#~ "inte är inställt eller giltigt kommer startadministrationsverktyget att "
-#~ "fråga användaren"
-#~ msgid "Whether the tools will use remote administration or not"
-#~ msgstr "Huruvida verktygen ska använda fjärradministration eller inte"
-#~ msgid "Whether the warning dialog should be shown or not"
-#~ msgstr "Huruvida varningsdialogen ska visas eller inte"
-#~ msgid "Default _gateway device:"
-#~ msgstr "Standard_gatewayenhet:"
-#~ msgid "Select location name"
-#~ msgstr "Välj platsnamn"
-#~ msgid "_Select Time Zone..."
-#~ msgstr "_Välj tidszon..."
-#~ msgid "User Profile"
-#~ msgstr "Användarprofil"
-#~ msgid "_Edit User Profiles..."
-#~ msgstr "_Redigera användarprofiler..."
-#~ msgid "Activating network interface"
-#~ msgstr "Aktiverar nätverksgränssnitt"
-#~ msgid "_Activate"
-#~ msgstr "_Aktivera"
-#~ msgid "_Deactivate"
-#~ msgstr "_Inaktivera"
-#~ msgid "Networking"
-#~ msgstr "Nätverk"
-#~ msgid "File sharing service"
-#~ msgstr "Fildelningstjänst"
-#~ msgid "Hosts in the %s network"
-#~ msgstr "Värdar i nätverket %s"
-#~ msgid "User name of the administrator account should not be modified"
-#~ msgstr "Användarnamnet för administratörskontot bör inte ändras"
-#~ msgid "User ID of the administrator account should not be modified"
-#~ msgstr "Användar-id för administratörskontot bör inte ändras"
-#~ msgid "A password must be provided."
-#~ msgstr "Ett lösenord måste anges."
-#~ msgid "Password confirmation isn't correct"
-#~ msgstr "Lösenordsbekräftelsen är inte korrekt"
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">The platform you are running is not "
-#~ "supported by this tool"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Den plattform som du använder stöds "
-#~ "inte av detta verktyg"
-#~ msgid "Run _Without Password"
-#~ msgstr "Kör _utan lösenord"
-#~ msgid "Unsupported Platform"
-#~ msgstr "Plattformen stöds inte"
-#~ msgid ""
-#~ "/dev/modem\n"
-#~ "/dev/ttyS0\n"
-#~ "/dev/ttyS1\n"
-#~ "/dev/ttyS2\n"
-#~ "/dev/ttyS3"
-#~ msgstr ""
-#~ "/dev/modem\n"
-#~ "/dev/ttyS0\n"
-#~ "/dev/ttyS1\n"
-#~ "/dev/ttyS2\n"
-#~ "/dev/ttyS3"
-#~ msgid ":"
-#~ msgstr "."
-#~ msgid "Security"
-#~ msgstr "Säkerhet"
-#~ msgid ""
-#~ "Several bootloaders have been found\n"
-#~ "\n"
-#~ "please select which do you want to configure"
-#~ msgstr ""
-#~ "Flera starthanterare har hittats</span>\n"
-#~ "\n"
-#~ "välj vilken du vill konfigurera"
-#~ msgid "Image Settings"
-#~ msgstr "Avbildsinställningar"
-#~ msgid "Other Settings"
-#~ msgstr "Andra inställningar"
-#~ msgid "Starting the Computer"
-#~ msgstr "Start av datorn"
-#~ msgid "Ask at boot"
-#~ msgstr "Fråga vid uppstart"
-#~ msgid "Boot Manager Settings"
-#~ msgstr "Inställningar för starthanterare"
-#~ msgid ""
-#~ "Choose a kernel image to boot, and a partition to mount as the root "
-#~ "partition. Optionally, you may also enter parameters passed to the kernel "
-#~ "at boot time."
-#~ msgstr ""
-#~ "Välj en kärnavbild att starta, och en partition som kan monteras som "
-#~ "rotpartition. Du kan alternativt också ange tilläggsparametrar som "
-#~ "skickas till kärnan då start sker."
-#~ msgid "Click \"Forward\" to continue"
-#~ msgstr "Klicka på \"Framåt\" för att fortsätta"
-#~ msgid "Creating a new boot image"
-#~ msgstr "Skapar en ny startavbild"
-#~ msgid "Enable IDE SCSI emulation"
-#~ msgstr "Använd SCSI-emulering för IDE"
-#~ msgid ""
-#~ "Enter a name for the boot image, and specify what kind of operating "
-#~ "system it is."
-#~ msgstr ""
-#~ "Ange ett namn för startavbilden, och ange vilken typ av operativsystem "
-#~ "det är."
-#~ msgid "Finished"
-#~ msgstr "Klart"
-#~ msgid "Number of colors:"
-#~ msgstr "Antal färger:"
-#~ msgid "Other parameters:"
-#~ msgstr "Andra parametrar:"
-#~ msgid "Protect with password"
-#~ msgstr "Skydda med lösenord"
-#~ msgid "Resolution:"
-#~ msgstr "Upplösning:"
-#~ msgid "Seconds to wait before loading default kernel or OS"
-#~ msgstr ""
-#~ "Sekunder att vänta innan standardkärnan eller -operativsystemet startas"
-#~ msgid "Select a kernel image"
-#~ msgstr "Välj en kärnavbild"
-#~ msgid "Select an initrd image"
-#~ msgstr "Välj en initrd-avbild"
-#~ msgid "Specify the partition on which the operating system is installed."
-#~ msgstr "Ange den partition som operativsystemet är installerat på."
-#~ msgid ""
-#~ "The new boot image has been added. Please click \"Apply\" to save your "
-#~ "changes."
-#~ msgstr ""
-#~ "Den nya startavbilden har lagts till. Klicka på \"Verkställ\" för att "
-#~ "spara dina ändringar."
-#~ msgid ""
-#~ "This assistant is designed to help you quickly and easily add a new boot "
-#~ "image to your system."
-#~ msgstr ""
-#~ "Denna assistent är gjord för att hjälpa dig att snabbt och enkelt lägga "
-#~ "till en ny startavbild (boot image) till ditt system."
-#~ msgid "Video modes (only frame buffer)"
-#~ msgstr "Videolägen (endast rambuffert)"
-#~ msgid "_Add..."
-#~ msgstr "_Lägg till..."
-#~ msgid "_Device:"
-#~ msgstr "_Enhet:"
-#~ msgid "_Edit"
-#~ msgstr "_Redigera"
-#~ msgid "_Initrd image path:"
-#~ msgstr "Sökväg till _initrd-avbild:"
-#~ msgid "_Kernel image path:"
-#~ msgstr "Sökväg till _kärnavbild:"
-#~ msgid "_Operating system:"
-#~ msgstr "_Operativsystem:"
-#~ msgid "_Parameters:"
-#~ msgstr "_Parametrar:"
-#~ msgid "_Root file system device:"
-#~ msgstr "Enhet för _rotfilsystem:"
-#~ msgid "Use this window to select the computer you wish to configure"
-#~ msgstr "Använda detta fönster för att välja den dator du vill konfigurera"
-#~ msgid ""
-#~ "You need administrator privileges to use this tool. Enter a password to "
-#~ "modify your system configuration."
-#~ msgstr ""
-#~ "För att använda detta verktyg behöver du administratörsrättigheter. Ange "
-#~ msgid "Device:"
-#~ msgstr "Enhet:"
-#~ msgid "Interface name:"
-#~ msgstr "Gränssnittsnamn:"
-#~ msgid "Key _type:"
-#~ msgstr "_Nyckeltyp:"
-#~ msgid "WEP _key:"
-#~ msgstr "_WEP-nyckel:"
-#~ msgid "_Hostname:"
-#~ msgstr "_Värdnamn:"
-#~ msgid "Hosts settings"
-#~ msgstr "Värdinställningar"
-#~ msgid "WINS server"
-#~ msgstr "WINS-server"
-#~ msgid "Allow _browsing folder"
-#~ msgstr "Tillåt _bläddrande i mapp"
-#~ msgid "Do not use WINS server"
-#~ msgstr "Använd inte WINS-server"
-#~ msgid "General Windows sharing settings"
-#~ msgstr "Allmänna inställningar för Windows-delning"
-#~ msgid "Windows sharing settings"
-#~ msgstr "Inställningar för Windows-delning"
-#~ msgid "_Add host"
-#~ msgstr "_Lägg till värd"
-#~ msgid "_Host description:"
-#~ msgstr "_Värdbeskrivning:"
-#~ msgid "Allow user to:"
-#~ msgstr "Tillåt användare att:"
-#~ msgid "Group _members:"
-#~ msgstr "Grupp_medlemmar:"
-#~ msgid "Groups"
-#~ msgstr "Grupper"
-#~ msgid "Show a_ll users and groups"
-#~ msgstr "Visa a_lla användare och grupper"
-#~ msgid "_All users:"
-#~ msgstr "_Alla användare:"
-#~ msgid "32,768"
-#~ msgstr "32 768"
-#~ msgid "65,536"
-#~ msgstr "65 536"
-#~ msgid "16,777,216"
-#~ msgstr "16 777 216"
-#~ msgid "Invalid VGA value"
-#~ msgstr "Ogiltigt VGA-värde"
-#~ msgid "\"%s\" is not a valid VGA value."
-#~ msgstr "\"%s\" är inte ett giltigt VGA-värde."
-#~ msgid "Error creating boot image"
-#~ msgstr "Fel vid skapande av startavbild"
-#~ msgid "Creating a new boot image (%d of %d)"
-#~ msgstr "Skapar en ny startavbild (%d av %d)"
-#~ msgid "Finished creating a new boot image"
-#~ msgstr "Slutförde skapandet av en ny startavbild"
-#~ msgid "Windows NT"
-#~ msgstr "Windows NT"
-#~ msgid "Windows 9x"
-#~ msgstr "Windows 9x"
-#~ msgid "Dos"
-#~ msgstr "DOS"
-#~ msgid "Linux"
-#~ msgstr "Linux"
-#~ msgid "Linux swap"
-#~ msgstr "Linux-växlingsutrymme"
-#~ msgid "GNU/Hurd"
-#~ msgstr "GNU/Hurd"
-#~ msgid "\"%s\" is an invalid path"
-#~ msgstr "\"%s\" är en ogiltig sökväg"
-#~ msgid "\"%s\" already exists, please set another name."
-#~ msgstr "\"%s\" finns redan, ställ in ett annat namn."
-#~ msgid "Invalid image name: \"%s\"."
-#~ msgstr "Ogiltigt namn på avbild: \"%s\"."
-#~ msgid "Invalid image: \"%s\"."
-#~ msgstr "Ogiltig avbild: \"%s\"."
-#~ msgid "Invalid root device: \"%s\"."
-#~ msgstr "Ogiltig rotenhet: \"%s\"."
-#~ msgid "_Module path:"
-#~ msgstr "_Modulsökväg:"
-#~ msgid "Error modifying boot image"
-#~ msgstr "Fel vid ändring av startavbild"
-#~ msgid "Boot"
-#~ msgstr "Start"
-#~ msgid "Configure the system boot process"
-#~ msgstr "Konfigurera systemstartprocessen"
-#~ msgid "Boot Image Editor"
-#~ msgstr "Redigerare för startavbild"
-#~ msgid "Boot Append Editor"
-#~ msgstr "Redigerare för starttillägg"
-#~ msgid "Error deleting boot image"
-#~ msgstr "Fel vid borttagning av startavbild"
-#~ msgid "Without at least one boot image your computer will not start."
-#~ msgstr "Din dator kommer inte att starta utan minst en startavbild."
-#~ msgid "This may leave this operating system unbootable."
-#~ msgstr "Detta kan lämna detta operativsystem i ett ostartbart tillstånd."
-#~ msgid "The configuration will show empty"
-#~ msgstr "Konfigurationen kommer att vara tom"
-#~ msgid "The file \"%s\" is missing or could not be read."
-#~ msgstr "Filen \"%s\" saknas eller kunde inte läsas."
-#~ msgid "Default"
-#~ msgstr "Standard"
-#~ msgid "Kernel Image"
-#~ msgstr "Kärnavbild"
-#~ msgid "Device"
-#~ msgstr "Enhet"
-#~ msgid "The tool could not connect to the computer"
-#~ msgstr "Verktyget kunde inte ansluta till datorn"
-#~ msgid ""
-#~ "Check that you have access to this network and that the computer is "
-#~ "actually working and running the SSH daemon"
-#~ msgstr ""
-#~ "Kontrollera att du har åtkomst till detta nätverk och att datorn "
-#~ "verkligen fungerar och kör SSH-demonen"
-#~ msgid ""
-#~ "Check that you typed it correctly and that you haven't activated the "
-#~ "\"caps lock\" key"
-#~ msgstr ""
-#~ "Kontrollera att du skrev in det korrekt och att du inte har aktiverat "
-#~ "tangenten \"caps lock\""
-#~ msgid "Could not run \"%s\""
-#~ msgstr "Kunde inte köra \"%s\""
-#~ msgid "Check that you have permissions to run this command"
-#~ msgstr "Kontrollera att du har rättigheter att köra detta kommando"
-#~ msgid "Could not execute the backend"
-#~ msgstr "Kunde inte köra bakänden"
-#~ msgid ""
-#~ "There was an error creating the child process, the tool will close now."
-#~ msgstr ""
-#~ "Det uppstod ett fel vid skapandet av barnprocessen. Verktyget kommer nu "
-#~ "att stängas."
-#~ msgid "Could not find widget: %s"
-#~ msgstr "Kunde inte hitta widget: %s"
-#~ msgid "There are changes which have not been applied"
-#~ msgstr "Det finns ändringar som inte har verkställts"
-#~ msgid "Apply them now?"
-#~ msgstr "Verkställ dem nu?"
-#~ msgid "Error connection signal `%s' in widget `%s'"
-#~ msgstr "Fel anslutningssignal \"%s\" i widgeten \"%s\""
-#~ msgid "There was an error running the backend script"
-#~ msgstr "Det uppstod ett fel vid körning av bakändesskriptet"
-#~ msgid "Welcome to the %s prerelease of the MATE System Tools"
-#~ msgstr "Välkommen till förhandsversion %s av MATE-systemverktygen"
-#~ msgid ""
-#~ "This is still a work in progress, and so it may have serious bugs. Due to "
-#~ "the nature of these tools, bugs may render your computer <span weight="
-#~ "\"bold\">practically useless, costing time, effort and sanity points. You "
-#~ "have been warned. Thank you for trying out this prerelease of the MATE "
-#~ "System Tools!"
-#~ msgstr ""
-#~ "Det här är ett pågående arbete och det kan därför ha allvarliga fel. På "
-#~ "grund av naturen hos dessa verktyg kan fel göra din dator <span weight="
-#~ "\"bold\">praktiskt taget oanvändbar, och kosta tid, arbetstid och gråa "
-#~ "hår. Du har nu blivit varnad. Tack för att du provar denna "
-#~ "förhandsversion av MATE-systemverktygen!"
-#~ msgid "Warning"
-#~ msgstr "Varning"
-#~ msgid "Don't show me this again"
-#~ msgstr "Visa inte detta igen"
-#~ msgid "Could not enable the interface %s"
-#~ msgstr "Kunde inte aktivera gränssnittet %s"
-#~ msgid ""
-#~ "Check that the settings are correct for this network and that the "
-#~ "computer is correctly connected to it."
-#~ msgstr ""
-#~ "Kontrollera att inställningarna är korrekta för detta nätverk och att "
-#~ "datorn är korrekt ansluten till det."
-#~ msgid "Changing profile"
-#~ msgstr "Ändrar profil"
-#~ msgid "The interface %s is not active"
-#~ msgstr "Gränssnittet %s är inte aktivt"
-#~ msgid "The interface %s is active"
-#~ msgstr "Gränssnittet %s är aktivt"
-#~ msgid "Settings for \"%s\""
-#~ msgstr "Inställningar för \"%s\""
-#~ msgid "Are you sure you want to deactivate this service?"
-#~ msgstr "Är du säker på att du vill inaktivera denna tjänst?"
-#~ msgid "Shared folders settings"
-#~ msgstr "Inställningar för delade mappar"
-#~ msgid "SMB"
-#~ msgstr "SMB"
-#~ msgid "NFS"
-#~ msgstr "NFS"
-#~ msgid ""
-#~ "Please install and activate NTP support in the system to enable "
-#~ "synchronization of your local time server with Internet time servers."
-#~ msgstr ""
-#~ "Installera och aktivera NTP-stöd på systemet för att aktivera "
-#~ "synkronisering av din lokala tidsserver med Internet-tidsservrar."
-#~ msgid "Error saving profile"
-#~ msgstr "Fel vid sparande av profil"
-#~ msgid "Invalid group ID"
-#~ msgstr "Ogiltigt grupp-id"
-#~ msgid "Group ID must be a positive number"
-#~ msgstr "Grupp-id måste vara ett positivt tal"
-#~ msgid "This would leave the system unusable"
-#~ msgstr "Detta skulle lämna systemet i ett oanvändbart tillstånd"
-#~ msgid "Group ID %s already exists"
-#~ msgstr "Grupp-id %s finns redan"
-#~ msgid "The group name is too long"
-#~ msgstr "Gruppnamnet är för långt"
-#~ msgid "To be valid, the group name should have less than %d character"
-#~ msgid_plural ""
-#~ "To be valid, the group name should have less than %d characters"
-#~ msgstr[0] "Gruppnamnet bör ha färre än %d tecken för att vara giltigt"
-#~ msgstr[1] "Gruppnamnet bör ha färre än %d tecken för att vara giltigt"
-#~ msgid "Please set a valid group name, using only lower case letters"
-#~ msgstr "Ange ett giltigt gruppnamn med endast små bokstäver"
-#~ msgid "The group \"root\" should not be deleted"
-#~ msgstr "Gruppen \"root\" bör inte tas bort"
-#~ msgid "Settings for Group %s"
-#~ msgstr "Inställningar för gruppen %s"
-#~ msgid "Group"
-#~ msgstr "Grupp"
-#~ msgid "GID"
-#~ msgstr "GID"
-#~ msgid "User name contains"
-#~ msgstr "Användarnamnet innehåller"
-#~ msgid "User ID is"
-#~ msgstr "Användar-id är"
-#~ msgid "Group name contains"
-#~ msgstr "Gruppnamnet innehåller"
-#~ msgid "User GID is"
-#~ msgstr "Användar-GID är"
-#~ msgid "Passwords do not match"
-#~ msgstr "Lösenorden stämmer inte överens"
-#~ msgid ""
-#~ "Bad password: %s.\n"
-#~ "Please try with a new password"
-#~ msgstr ""
-#~ "Felaktigt lösenord: %s.\n"
-#~ "Försök med ett nytt lösenord"
-#~ msgid "The profile must have a name"
-#~ msgstr "Profilen måste ha ett namn"
-#~ msgid "The profile must have a default home"
-#~ msgstr "Profilen måste ha ett standardhem"
-#~ msgid "The profile must have a default shell"
-#~ msgstr "Profilen måste ha ett standardskal"
-#~ msgid "The default profile should not be deleted"
-#~ msgstr "Standardprofilen bör inte tas bort"
-#~ msgid "This profile is used for setting default data for new users"
-#~ msgstr ""
-#~ "Denna profil används för att ställa in standarddata för nya användare"
-#~ msgid ""
-#~ "You will not be able to recover this profile after pressing \"apply\"."
-#~ msgstr ""
-#~ "Du kommer inte att kunna återställa denna profil efter att du klickar på "
-#~ "\"verkställ\"."
-#~ msgid "Profile"
-#~ msgstr "Profil"
-#~ msgid "Comment"
-#~ msgstr "Kommentar"
-#~ msgid "C_lear"
-#~ msgstr "T_öm"
-#~ msgid "Choice"
-#~ msgstr "Val"
-#~ msgid "Text"
-#~ msgstr "Text"
-#~ msgid "The \"root\" user should not be deleted"
-#~ msgstr "Användaren \"root\" bör inte tas bort"
-#~ msgid "Are you sure you want to delete user \"%s\"?"
-#~ msgstr "Är du säker på att du vill ta bort användaren \"%s\"?"
-#~ msgid "The user name is too long"
-#~ msgstr "Användarnamnet är för långt"
-#~ msgid "To be valid, the user name should have less than %d character"
-#~ msgid_plural ""
-#~ "To be valid, the user name should have less than %d characters"
-#~ msgstr[0] "Användarnamnet bör ha färre än %d tecken för att vara giltigt"
-#~ msgstr[1] "Användarnamnet bör ha färre än %d tecken för att vara giltigt"
-#~ msgid "Home directory should not be empty"
-#~ msgstr "Hemkatalogen bör inte vara tom."
-#~ msgid "Invalid user ID"
-#~ msgstr "Ogiltigt användar-id"
-#~ msgid "User ID must be a positive number."
-#~ msgstr "Användar-id måste vara ett positivt tal."
-

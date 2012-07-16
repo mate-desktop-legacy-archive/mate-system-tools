@@ -1,819 +1,952 @@
-# MALAGASY TRANSLATION OF MATE-SYSTEM-TOOLS.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Thierry Randrianiriana <randrianiriana@gmail.com>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE-SYSTEM-TOOLS VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-07-19 07:33+0200\n"
-"PO-Revision-Date: 2006-08-22 23:13+0300\n"
-"Last-Translator: Fano Rajaonarisoa <fano@isvtec.com>\n"
-"Language-Team: MALAGASY <i18n-malagasy-mate@gna.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:50+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: mg\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: ../mate-system-tools.schemas.in.h:1
-msgid "Comma separated list of hosts that the GST will be able to access when the remote configuration option is enabled"
-msgstr "Amboaram-pampiantrano saraham-paingo azon'ny GST ifandraisana rehefa mandeha ny safidin'ny kirakira avy laitra"
-
-#: ../mate-system-tools.schemas.in.h:2
-msgid "Last GST version executed"
-msgstr "Kinovan'ny GST nalefa farany"
-
-#: ../mate-system-tools.schemas.in.h:3
-msgid "Preferred bootloader that boot-admin will configure"
-msgstr "Ny fiatombohana safidy hokirakirain'ny boot-admin"
-
-#: ../mate-system-tools.schemas.in.h:4
-msgid "Remote hosts"
-msgstr "Mpampiantrano lavi-toerana"
-
-#: ../mate-system-tools.schemas.in.h:5
-msgid "The GST are able to do remote configuration through SSH, enable this option to use this feature"
-msgstr "Afaka manao fikirakirana avy lavitra amin'ny alalan'ny SSH ny GST. Alefaso ity safidy ity raha hampiasa io fahasahaza io"
-
-#: ../mate-system-tools.schemas.in.h:6
-msgid "The last GST version that this computer has run"
-msgstr "Ny kinovan'ny GST nampiasain'ity solosaina ity"
-
-#: ../mate-system-tools.schemas.in.h:7
-msgid "This key stores the bootloader that boot-admin will configure if there are more than one installed, if it's not set or isn't valid, then boot-admin will ask the user"
-msgstr "Io famaha io dia mirakitra ny fiatombohana hokirakirain'ny boot-admin raha toa ka maro ny isany. Raha toa ka tsy voafaritra na tsy marina izy io, dia manontany ny mpampiasa ny boot-admin"
-
-#: ../mate-system-tools.schemas.in.h:8
-msgid "Whether the tools will use remote administration or not"
-msgstr "Raha hampiasa fitantanana avy lavitra na tsia ireo fitaovana ireo"
-
-#: ../mate-system-tools.schemas.in.h:9
-msgid "Whether the users-admin tool should show all users and groups or not"
-msgstr "Raha "
-
-#: ../mate-system-tools.schemas.in.h:10
-msgid "Whether the warning dialog should be shown or not"
-msgstr "Raha tokony haseho ny takila fampilazana ny tsia"
-
-#: ../interfaces/common.glade.in.h:1
-msgid "<span weight=\"bold\" size=\"larger\">Please enter your root password"
-msgstr "<span weight=\"bold\" size=\"larger\">Soraty ny teny fanalahidy fototrao"
-
-#: ../interfaces/common.glade.in.h:2
-msgid "<span weight=\"bold\" size=\"larger\">The platform you are running is not supported by this tool"
-msgstr "<span weight=\"bold\" size=\"larger\">Tsy raisin'ity fitaovana ity an-tànana ny plateforme iasanao"
-
-#: ../interfaces/common.glade.in.h:3
-msgid "Enter Password"
-msgstr "Manorata teny fanalahidy"
-
-#. label
-#: ../interfaces/common.glade.in.h:4
-#: ../src/common/gst-platform-dialog.c:224
-msgid "If you know for sure that it works like one of the platforms listed below, you can select that and continue. Note, however, that this might damage the system configuration or downright cripple your computer."
-msgstr "Raha toa ka azonao antoka fa tahaka ny fiasan'iray amin'ireo plateforme voalaza etsy ambany ireo ny fiasany, dia azonao safidiana izany ary manohy rehefa avy eo. Marihana anefa fa mety hanimba ny kirakiran'ny rafitrao na hampandringa ny solosainao ny fanaovana izany."
-
-#: ../interfaces/common.glade.in.h:5
-msgid "Remote administration"
-msgstr "Fitantanana avy lavitra"
-
-#: ../interfaces/common.glade.in.h:6
-msgid "Run _Without Password"
-msgstr "Alefaso _tsy misy teny fanalahidy"
-
-#: ../interfaces/common.glade.in.h:7
-msgid "Unsupported Platform"
-msgstr "Plateforme tsy raisina an-tànana"
-
-#: ../interfaces/common.glade.in.h:8
-msgid ""
-"You need administrator privileges to use this tool. Enter a password to modify\n"
-"your system configuration."
+#: ../interfaces/network.ui.h:1
+msgid "Off"
 msgstr ""
-"Mila ny tombontsoa manokan'ny mpitantana ianao vao afaka mampiasa ity fitaovana ity.\n"
-"Manorata teny fanalahidy hanovana ny kirakiran'ny rafitrao."
 
-#: ../interfaces/common.glade.in.h:10
-msgid "_Password:"
-msgstr "_Teny fanalahidy:"
-
-#: ../interfaces/network.glade.in.h:1
-msgid ""
-"/dev/modem\n"
-"/dev/ttyS0\n"
-"/dev/ttyS1\n"
-"/dev/ttyS2\n"
-"/dev/ttyS3"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
 msgstr ""
-"/dev/modem\n"
-"/dev/ttyS0\n"
-"/dev/ttyS1\n"
-"/dev/ttyS2\n"
-"/dev/ttyS3"
 
-#: ../interfaces/network.glade.in.h:6
-msgid "Account data"
-msgstr "Datan'ny kaonty"
-
-#: ../interfaces/network.glade.in.h:7
-msgid "Connection settings"
-msgstr "Fandrindran'ny fifandraisana"
-
-#: ../interfaces/network.glade.in.h:8
-msgid "DNS Servers"
-msgstr "Mpizara DNS"
-
-#: ../interfaces/network.glade.in.h:9
-msgid "Host Settings"
-msgstr "Fandrindran'ny mpampiantrano"
-
-#: ../interfaces/network.glade.in.h:10
-msgid "Internet service provider data"
-msgstr "Datan'ny mpamatsy fifandraisana amin'ny Internet"
-
-#: ../interfaces/network.glade.in.h:11
-msgid "Modem settings"
-msgstr "Fandrindran'ny modem"
-
-#: ../interfaces/network.glade.in.h:12
-msgid "Search Domains"
-msgstr "Seha-pikarohana"
-
-#: ../interfaces/network.glade.in.h:13
-msgid "Wireless settings"
-msgstr "Fandrindran'ny fifandraisana tsy misy mpampitohy"
-
-#: ../interfaces/network.glade.in.h:14
-msgid "Add location"
-msgstr "Hanampy toerana"
-
-#: ../interfaces/network.glade.in.h:15
-msgid "Aliases:"
-msgstr "Alias:"
-
-#: ../interfaces/network.glade.in.h:16
-msgid ""
-"Automatic Configuration (DHCP)\n"
-"Static IP address"
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
 msgstr ""
-"Kirakira vita hoazy (DHCP)\n"
-"Adiresy IP midôko"
 
-#: ../interfaces/network.glade.in.h:18
-msgid "C_onfiguration:"
-msgstr "Kira_kira:"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:19
-msgid "Connections"
-msgstr "Fifandraisana"
+#: ../interfaces/network.ui.h:5
+msgid "Tones"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:20
-msgid "DNS"
-msgstr "DNS"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:21
-msgid "D_omain name:"
-msgstr "Anaran'ny _domena:"
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:22
-msgid "Default _gateway device:"
-msgstr "Periferikan'ny _gateway tsotra:"
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:23
-msgid "E_nable this connection"
-msgstr "_Ekeo io fifandraisana io"
-
-#: ../interfaces/network.glade.in.h:24
-#: ../interfaces/users.glade.in.h:20
-msgid "General"
-msgstr "Ankapobe"
-
-#: ../interfaces/network.glade.in.h:25
-msgid "Host alias settings"
-msgstr "Fandrindran'ny alias-n'ny mpampiantrano"
-
-#: ../interfaces/network.glade.in.h:26
-msgid "Hosts"
-msgstr "Mpampiantrano"
-
-#: ../interfaces/network.glade.in.h:27
-#: ../interfaces/shares.glade.in.h:12
-msgid "IP address:"
-msgstr "Adiresy IP:"
-
-#: ../interfaces/network.glade.in.h:28
-msgid "Interface properties"
-msgstr "Toetoetran'ilay mpanera"
-
-#: ../interfaces/network.glade.in.h:29
-msgid "Location name:"
-msgstr "Anaran'ilay toerana:"
-
-#: ../interfaces/network.glade.in.h:30
+#: ../interfaces/network.ui.h:9
 msgid "Location:"
 msgstr "Toerana:"
 
-#: ../interfaces/network.glade.in.h:31
-msgid "Modem"
-msgstr "Modem"
-
-#: ../interfaces/network.glade.in.h:32
-msgid "Network _password:"
-msgstr "Teny _fanalahidin'ny rezo:"
-
-#: ../interfaces/network.glade.in.h:33
-msgid "Network name (_ESSID):"
-msgstr "Anaran'ilay rezo (_ESSID):"
-
-#: ../interfaces/network.glade.in.h:34
-msgid ""
-"Off\n"
-"Low\n"
-"Medium\n"
-"Loud"
+#: ../interfaces/network.ui.h:10
+msgid "Save current network configuration as a location"
 msgstr ""
-"Tsy misy\n"
-"Ambany\n"
-"Antonony\n"
-"Mafy"
 
-#: ../interfaces/network.glade.in.h:38
-msgid "Options"
-msgstr "Safidy"
-
-#: ../interfaces/network.glade.in.h:39
-msgid "P_assword"
-msgstr "Teny _fanalahidy"
-
-#: ../interfaces/network.glade.in.h:40
-msgid "Password _type:"
-msgstr "_Karazan'ilay teny fanalahidy:"
-
-#: ../interfaces/network.glade.in.h:41
-msgid ""
-"Plain (ASCII)\n"
-"Hexadecimal"
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
 msgstr ""
-"Tsotra (ASCII)\n"
-"Hexadecimal"
 
-#: ../interfaces/network.glade.in.h:43
-msgid "Remove location"
-msgstr "Hanaisotra ilay toerana"
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "Fifandraisana"
 
-#: ../interfaces/network.glade.in.h:44
-msgid "Select location name"
-msgstr "Hisafidy anaran-toerana"
-
-#: ../interfaces/network.glade.in.h:45
-msgid ""
-"Tones\n"
-"Pulses"
-msgstr ""
-"Vocale\n"
-"Décimale"
-
-#: ../interfaces/network.glade.in.h:47
-msgid "Use the Internet service provider nameservers"
-msgstr "Ampiasao mpizara anaran'ny mpamatsy fifandraisana amin'ny Internet"
-
-#: ../interfaces/network.glade.in.h:48
-#: ../src/network/ifaces-list.c:33
-msgid "_Activate"
-msgstr "_Alefaso"
-
-#: ../interfaces/network.glade.in.h:49
-msgid "_Autodetect"
-msgstr "_Zahavo avy hatrany"
-
-#: ../interfaces/network.glade.in.h:50
-#: ../src/network/ifaces-list.c:34
-msgid "_Deactivate"
-msgstr "_Atsaharo"
-
-#: ../interfaces/network.glade.in.h:51
-msgid "_Dial prefix:"
-msgstr "Tovon'ny _fiantsoana laharana:"
-
-#: ../interfaces/network.glade.in.h:52
-msgid "_Dial type:"
-msgstr "Karazan'ilay _fiantsoana laharana:"
-
-#: ../interfaces/network.glade.in.h:53
-msgid "_Gateway address:"
-msgstr "Adiresin'ny gateway:"
-
-#: ../interfaces/network.glade.in.h:54
+#: ../interfaces/network.ui.h:13
 msgid "_Host name:"
 msgstr "Anaran'ny _mpampiantrano:"
 
-#: ../interfaces/network.glade.in.h:55
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "Anaran'ny _domena:"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "Fandrindran'ny mpampiantrano"
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Ankapobe"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "Mpizara DNS"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Seha-pikarohana"
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "Mpampiantrano"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "Toetoetran'ilay mpanera"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "_Ekeo io fifandraisana io"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr ""
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "Anaran'ilay rezo (_ESSID):"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "Teny _fanalahidin'ny rezo:"
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr "_Karazan'ilay teny fanalahidy:"
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:30
 msgid "_IP address:"
 msgstr "Adiresy _IP:"
 
-#: ../interfaces/network.glade.in.h:56
-msgid "_Local IP:"
-msgstr "_IP an-toerana:"
-
-#: ../interfaces/network.glade.in.h:57
-msgid "_Modem port:"
-msgstr "Iriky ny _Modem:"
-
-#: ../interfaces/network.glade.in.h:58
-msgid "_Phone number:"
-msgstr "Mari-daharan-tele_faonina:"
-
-#: ../interfaces/network.glade.in.h:59
-msgid "_Remote IP:"
-msgstr "IP _lavi-toerana:"
-
-#: ../interfaces/network.glade.in.h:60
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "_Andramo indray raha tapaka na tsy mety miantomboka ny fifandraisana"
-
-#: ../interfaces/network.glade.in.h:61
-msgid "_Set modem as default route to internet"
-msgstr "_Ataovy zotran'ny Internet tsotra ny modem "
-
-#: ../interfaces/network.glade.in.h:62
+#: ../interfaces/network.ui.h:31
 msgid "_Subnet mask:"
 msgstr "Saron'ny _zana-drezo:"
 
-#: ../interfaces/network.glade.in.h:63
-#: ../interfaces/users.glade.in.h:57
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "Adiresin'ny gateway:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "_IP an-toerana:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "IP _lavi-toerana:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "Mari-daharan-tele_faonina:"
+
+#: ../interfaces/network.ui.h:37
+msgid "_Dial prefix:"
+msgstr "Tovon'ny _fiantsoana laharana:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "Datan'ny mpamatsy fifandraisana amin'ny Internet"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
 msgid "_Username:"
 msgstr "_Anaran'ny mpampiasa:"
 
-#: ../interfaces/network.glade.in.h:64
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "Teny _fanalahidy"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Datan'ny kaonty"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "Iriky ny _Modem:"
+
+#: ../interfaces/network.ui.h:44
+msgid "_Dial type:"
+msgstr "Karazan'ilay _fiantsoana laharana:"
+
+#. TRANSLATORS: Volume as in loudness
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Hadiry:"
 
-#: ../interfaces/services.glade.in.h:1
-msgid "Advanced settings:"
-msgstr "Fandrindrana avo lenta:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "_Zahavo avy hatrany"
 
-#: ../interfaces/services.glade.in.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modem"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "_Ataovy zotran'ny Internet tsotra ny modem "
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Ampiasao mpizara anaran'ny mpamatsy fifandraisana amin'ny Internet"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "_Andramo indray raha tapaka na tsy mety miantomboka ny fifandraisana"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Safidy"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr ""
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "Adiresy IP:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Alias:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Safidio ireo sampan'asa tianao alefa:"
 
-#: ../interfaces/shares.glade.in.h:1
-msgid "Allowed Hosts"
-msgstr "Mpampiantrano ekena"
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Fandrindrana avo lenta:"
 
-#: ../interfaces/shares.glade.in.h:2
-msgid "Hosts Settings"
-msgstr "Fandrindran'ny mpampiantrano"
-
-#: ../interfaces/shares.glade.in.h:3
-msgid "Share Properties"
-msgstr "Toetoetry ny fifampizarana"
-
-#: ../interfaces/shares.glade.in.h:4
-msgid "Shared Folder"
-msgstr "Lahatahiry iraisana"
-
-#: ../interfaces/shares.glade.in.h:5
-msgid "Windows sharing"
-msgstr "Fifampizarana fikandrana"
-
-#: ../interfaces/shares.glade.in.h:6
-msgid "Add allowed hosts"
-msgstr "Hampiditra mpampiantrano ekena"
-
-#: ../interfaces/shares.glade.in.h:7
-msgid "Allowed hosts:"
-msgstr "Mpampiantrano ekena:"
-
-#: ../interfaces/shares.glade.in.h:8
-msgid "Comment:"
-msgstr "Fanamarihana:"
-
-#: ../interfaces/shares.glade.in.h:9
-msgid "Domain / _Workgroup:"
-msgstr "Domena / _Vondron-tsolosaina:"
-
-#: ../interfaces/shares.glade.in.h:10
-msgid "General Properties"
-msgstr "Toetoetra ankapobe"
-
-#: ../interfaces/shares.glade.in.h:11
-msgid "Host name:"
-msgstr "Anaran'ny mpampiantrano:"
-
-#: ../interfaces/shares.glade.in.h:13
-msgid "Name:"
-msgstr "Anarana:"
-
-#: ../interfaces/shares.glade.in.h:14
-msgid "Netmask:"
-msgstr "Saron-drezo:"
-
-#: ../interfaces/shares.glade.in.h:15
-msgid "Network:"
-msgstr "Rezo:"
-
-#: ../interfaces/shares.glade.in.h:16
-#: ../src/shares/nfs-acl-table.c:56
-msgid "Read only"
-msgstr "Vakiana fotsiny"
-
-#: ../interfaces/shares.glade.in.h:17
-msgid "Share through:"
-msgstr "Zaraina amin'ny alalan'ny:"
-
-#: ../interfaces/shares.glade.in.h:18
-#: ../src/shares/shares.desktop.in.in.h:2
-#: ../src/shares/shares-tool.c:158
-msgid "Shared Folders"
-msgstr "Lahatahiry iraisana"
-
-#: ../interfaces/shares.glade.in.h:19
-msgid "This computer is a _WINS server"
-msgstr "Mpizara  _WINS ity solosaina ity"
-
-#: ../interfaces/shares.glade.in.h:20
-msgid "WINS _server:"
-msgstr "_Mpizara WINS:"
-
-#: ../interfaces/shares.glade.in.h:21
+#: ../interfaces/shares.ui.h:1
 msgid "_Path:"
 msgstr "_Sori-dàlana:"
 
-#: ../interfaces/shares.glade.in.h:22
+#: ../interfaces/shares.ui.h:2
+msgid "Share through:"
+msgstr "Zaraina amin'ny alalan'ny:"
+
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr "Lahatahiry iraisana"
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "Fanamarihana:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "Anarana:"
+
+#: ../interfaces/shares.ui.h:6
 msgid "_Read only"
 msgstr "_Vakiana fotsiny"
 
-#: ../interfaces/time.glade.in.h:1
-msgid "(unconfigured)"
-msgstr "(tsy voakirakira)"
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "Toetoetry ny fifampizarana"
 
-#: ../interfaces/time.glade.in.h:2
-msgid ":"
-msgstr ":"
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "Mpampiantrano ekena"
 
-#: ../interfaces/time.glade.in.h:3
-msgid "Selection"
-msgstr "Famaritana"
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr ""
 
-#: ../interfaces/time.glade.in.h:4
-msgid "Time Zone"
-msgstr "Faritrora"
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Hampiditra mpampiantrano ekena"
 
-#: ../interfaces/time.glade.in.h:5
-msgid "Add NTP Server"
-msgstr "Hampiditra mpizara NTP"
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Mpampiantrano ekena:"
 
-#: ../interfaces/time.glade.in.h:6
-msgid "NTP server"
-msgstr "Mpizara NTP"
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Anaran'ny mpampiantrano:"
 
-#: ../interfaces/time.glade.in.h:7
-msgid "S_ynchronize clock with Internet servers:"
-msgstr "_Lasiro amin'ny alalan'ny mpizara Internet ny ora:"
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "Rezo:"
 
-#: ../interfaces/time.glade.in.h:8
-msgid "Se_lect Servers"
-msgstr "Hisa_fidy mpizara"
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Saron-drezo:"
 
-#: ../interfaces/time.glade.in.h:9
-msgid "Time servers"
-msgstr "Mpizara fotoana"
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "Vakiana fotsiny"
 
-#: ../interfaces/time.glade.in.h:10
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr "Fandrindran'ny mpampiantrano"
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
+#: ../src/shares/shares-tool.c:237
+msgid "Shared Folders"
+msgstr "Lahatahiry iraisana"
+
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "Domena / _Vondron-tsolosaina:"
+
+#: ../interfaces/shares.ui.h:20
+msgid "This computer is a _WINS server"
+msgstr "Mpizara  _WINS ity solosaina ity"
+
+#: ../interfaces/shares.ui.h:21
+msgid "WINS _server:"
+msgstr "_Mpizara WINS:"
+
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr "Fifampizarana fikandrana"
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Toetoetra ankapobe"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:25
+msgid "Enter password for user"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:26
+msgid "Enter password for user:"
+msgstr ""
+
+#: ../interfaces/time.ui.h:1
 msgid "Time zone"
 msgstr "Faritrora"
 
-#: ../interfaces/time.glade.in.h:11
+#: ../interfaces/time.ui.h:2
+msgid "Time Zone"
+msgstr "Faritrora"
+
+#: ../interfaces/time.ui.h:3
 msgid "Time zone:"
 msgstr "Faritrora:"
 
-#: ../interfaces/time.glade.in.h:12
-msgid "_Date:"
-msgstr "_Daty:"
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr "Famaritana"
 
-#: ../interfaces/time.glade.in.h:13
-msgid "_Select Time Zone..."
-msgstr "_Hisafidy faritrora..."
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "Mpizara fotoana"
 
-#: ../interfaces/time.glade.in.h:14
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "Mpizara NTP"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "Hampiditra mpizara NTP"
+
+#: ../interfaces/time.ui.h:8
+msgid "Unconfigured"
+msgstr ""
+
+#: ../interfaces/time.ui.h:9
+msgid "_Configuration:"
+msgstr ""
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr ""
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "Hisa_fidy mpizara"
+
+#: ../interfaces/time.ui.h:12
 msgid "_Time:"
 msgstr "_Ora:"
 
-#: ../interfaces/users.glade.in.h:1
-msgid "Advanced Settings"
-msgstr "Fandrindrana avo lenta"
+#: ../interfaces/time.ui.h:13
+msgid "_Date:"
+msgstr "_Daty:"
 
-#: ../interfaces/users.glade.in.h:2
-msgid "Automatic UID/GID"
-msgstr "UID/GID mandeha hoazy"
+#: ../interfaces/time.ui.h:14
+msgid "Synchronize now"
+msgstr ""
 
-#: ../interfaces/users.glade.in.h:3
-msgid "Basic Settings"
-msgstr "Fandrindrana fototra"
-
-
-#: ../interfaces/users.glade.in.h:5
-msgid "Group Members"
-msgstr "Mpikamban'ilay vondrona"
-
-#: ../interfaces/users.glade.in.h:6
-msgid "Optional Settings"
-msgstr "Fandrindrana safidy"
-
-#: ../interfaces/users.glade.in.h:7
-msgid "Password Settings"
-msgstr "Fandrindran'ny teny fanalahidy"
-
-
-
-#: ../interfaces/users.glade.in.h:10
-msgid "System Defaults"
-msgstr "Sanda tsotran'ny rafitra"
-
-#: ../interfaces/users.glade.in.h:11
-msgid "User Profile"
-msgstr "Profiln'ny mpampiasa"
-
-#: ../interfaces/users.glade.in.h:12
-msgid "Account"
-msgstr "Kaonty"
-
-#: ../interfaces/users.glade.in.h:13
-msgid "Advanced"
-msgstr "Avo lenta"
-
-#: ../interfaces/users.glade.in.h:14
-msgid "Assign a random password by default"
-msgstr "Manomeza teny fanalahidy an-tsapaka (tsotra)"
-
-#: ../interfaces/users.glade.in.h:15
-msgid "Check password _quality"
-msgstr "Hijery ny _hatsaran'ilay teny fanalahidy"
-
-#: ../interfaces/users.glade.in.h:16
-msgid "Con_firmation:"
-msgstr "Fana_marinana:"
-
-#: ../interfaces/users.glade.in.h:17
-msgid "Days between warning and password expiration:"
-msgstr "Andro manelanelana ny fampilazana sy ny fahataperam-potoanan'ilay teny fanalahidy:"
-
-#: ../interfaces/users.glade.in.h:18
-msgid "Default _group:"
-msgstr "_Vondrona tsotra:"
-
-#: ../interfaces/users.glade.in.h:19
-msgid "Default _shell:"
-msgstr "_Akora tsotra:"
-
-#: ../interfaces/users.glade.in.h:21
-msgid "Generate _random password"
-msgstr "Mamorona teny fanalahidy _an-tsapaka"
-
-#: ../interfaces/users.glade.in.h:22
-msgid "Group _ID:"
-msgstr "_IDn'ilay vondrona:"
-
-#: ../interfaces/users.glade.in.h:23
-msgid "Group _name:"
-msgstr "_Anaran'ilay vondrona:"
-
-#: ../interfaces/users.glade.in.h:24
-msgid "Group properties"
-msgstr "Toetoetr'ilay vondrona"
-
-#: ../interfaces/users.glade.in.h:25
-msgid "Groups settings"
-msgstr "Fandrindran'ny vondrona"
-
-#: ../interfaces/users.glade.in.h:26
-msgid "Ma_ximum days a password may be used:"
-msgstr "Isan'andro _be indrindra azo ampiasana teny fanalahidy iray:"
-
-#: ../interfaces/users.glade.in.h:27
-msgid "Maximum UID:"
-msgstr "UID be indrindra:"
-
-#: ../interfaces/users.glade.in.h:28
-msgid "Mi_nimum days between password changes:"
-msgstr "Isan'andro _kely indrindra manelanelana ny fanovana teny fanalahidy:"
-
-#: ../interfaces/users.glade.in.h:29
-msgid "Minimum GID:"
-msgstr "GID kely indrindra:"
-
-#: ../interfaces/users.glade.in.h:30
-msgid "Minimum UID:"
-msgstr "UID kely indrindra:"
-
-#: ../interfaces/users.glade.in.h:31
-msgid "Minimum days allowed between password changes:"
-msgstr "Isan'andro kely indrindra ekena manelanelana ny fanovana teny fanalahidy:"
-
-#: ../interfaces/users.glade.in.h:32
-msgid "Number of days that a password may be used:"
-msgstr "Isan'andro azo ampiasana teny fanalahidy iray:"
-
-#: ../interfaces/users.glade.in.h:33
-msgid "O_ffice location:"
-msgstr "_Toeram-piasana:"
-
-#: ../interfaces/users.glade.in.h:34
-msgid "Password set to: "
-msgstr "Teny fanalahidy voafaritra ho an'i:"
-
-#: ../interfaces/users.glade.in.h:35
-msgid "Privileges"
-msgstr "Tombontsoa manokana"
-
-#: ../interfaces/users.glade.in.h:36
-msgid "Profile _name:"
-msgstr "_Anaran'ilay profil:"
-
-#: ../interfaces/users.glade.in.h:37
-msgid "Set password b_y hand"
-msgstr "Teny fanalahidy _taon-tanana"
-
-#: ../interfaces/users.glade.in.h:38
-msgid "User ID:"
-msgstr "IDn'ny mpampiasa:"
-
-#: ../interfaces/users.glade.in.h:39
-msgid "User Privileges"
-msgstr "Tombontsoa manokan'ny mpampiasa"
-
-#: ../interfaces/users.glade.in.h:40
-msgid "User _password:"
-msgstr "_eny fanalahidin'ny mpampiasa:"
-
-#: ../interfaces/users.glade.in.h:41
-msgid "User profiles"
-msgstr "Profiln'ny mpampiasa"
-
-#: ../interfaces/users.glade.in.h:42
-msgid "_Add Group"
-msgstr "_Hampoiditra vondrona"
-
-#: ../interfaces/users.glade.in.h:43
-msgid "_Add Profile"
-msgstr "_Hampiditra profil"
-
-#: ../interfaces/users.glade.in.h:44
-msgid "_Add User"
-msgstr "_Hampiditra mpampiasa"
-
-#: ../interfaces/users.glade.in.h:45
-msgid "_Comments"
-msgstr "_Fanamarihana"
-
-#: ../interfaces/users.glade.in.h:46
-msgid "_Days between warning and password expiration:"
-msgstr "_Isan'andro manelanelana ny fampilazana sy ny fahataperam-potoan'ilay teny fanalahidy:"
-
-#: ../interfaces/users.glade.in.h:47
-#: ../src/network/address-list.c:77
-#: ../src/network/hosts.c:39
-#: ../src/shares/table.c:40
-#: ../src/users/table.c:40
-msgid "_Delete"
-msgstr "_Fafao"
-
-#: ../interfaces/users.glade.in.h:48
-msgid "_Edit User Profiles..."
-msgstr "_Hanova profiln'ny mpampiasa..."
-
-#: ../interfaces/users.glade.in.h:49
-msgid "_Generate"
-msgstr "_Hamorona"
-
-#: ../interfaces/users.glade.in.h:50
-msgid "_Home directory:"
-msgstr "_Lahatahirin'ny fandraisana:"
-
-#: ../interfaces/users.glade.in.h:51
-msgid "_Home phone:"
-msgstr "_Laharan-telefaonina an-trano:"
-
-#: ../interfaces/users.glade.in.h:52
-msgid "_Main group:"
-msgstr "_Vondrona fototra:"
-
-#: ../interfaces/users.glade.in.h:53
+#: ../interfaces/users.ui.h:1
 msgid "_Manage Groups"
 msgstr "_Handrindra vondrona"
 
-#: ../interfaces/users.glade.in.h:54
-msgid "_Profile:"
-msgstr "_Profil:"
+#: ../interfaces/users.ui.h:2
+msgid "Account _type:"
+msgstr ""
 
-#: ../interfaces/users.glade.in.h:55
-msgid "_Real name:"
-msgstr "_Tena anarana:"
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr ""
 
-#: ../interfaces/users.glade.in.h:56
-msgid "_Shell:"
-msgstr "_Akora:"
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "_Teny fanalahidy:"
 
-#: ../interfaces/users.glade.in.h:58
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr ""
+
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:8
+msgid "Group properties"
+msgstr "Toetoetr'ilay vondrona"
+
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "Fandrindrana fototra"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "_Anaran'ilay vondrona:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "_IDn'ilay vondrona:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Mpikamban'ilay vondrona"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "_Anaran'ilay profil:"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Fanamarihana"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Sanda tsotran'ny rafitra"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "_Lahatahirin'ny fandraisana:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "_Akora tsotra:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "_Vondrona tsotra:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Fandrindran'ny teny fanalahidy"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Isan'andro azo ampiasana teny fanalahidy iray:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Isan'andro kely indrindra ekena manelanelana ny fanovana teny fanalahidy:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Andro manelanelana ny fampilazana sy ny fahataperam-potoanan'ilay teny fanalahidy:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Manomeza teny fanalahidy an-tsapaka (tsotra)"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "UID/GID mandeha hoazy"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "UID be indrindra:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "UID kely indrindra:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "GID kely indrindra:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Tombontsoa manokana"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Profiln'ny mpampiasa"
+
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr "_Hampiditra profil"
+
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr "Fandrindran'ny vondrona"
+
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr ""
+
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr ""
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "Fana_marinana:"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "Teny fanalahidy voafaritra ho an'i:"
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "_Hamorona"
+
+#: ../interfaces/users.ui.h:43
+msgid "Set password b_y hand"
+msgstr "Teny fanalahidy _taon-tanana"
+
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "Mamorona teny fanalahidy _an-tsapaka"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr ""
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr ""
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr ""
+
+#: ../interfaces/users.ui.h:52
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr ""
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr ""
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
+msgstr ""
+
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
+msgid ""
+"Username must consist of:\n"
+"  ➣ lower case letters from the English alphabet\n"
+"  ➣ digits\n"
+"  ➣ any of the characters \".\", \"-\" and \"_\""
+msgstr ""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr ""
+
+#: ../interfaces/users.ui.h:63
+msgid "Username must start with a letter!"
+msgstr ""
+
+#: ../interfaces/users.ui.h:64
+msgid "_Encrypt home folder to protect sensitive data"
+msgstr ""
+
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr ""
+
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "_Toeram-piasana:"
+
+#: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
 msgstr "_Telefaonin'ny toeram-piasana:"
 
-#: ../src/common/gst-platform-dialog.c:218
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "_Laharan-telefaonina an-trano:"
+
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr ""
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "Tombontsoa manokan'ny mpampiasa"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Fandrindrana avo lenta"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "_Akora:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "_Vondrona fototra:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "IDn'ny mpampiasa:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr ""
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Fandrindrana safidy"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Isan'andro _kely indrindra manelanelana ny fanovana teny fanalahidy:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "Isan'andro _be indrindra azo ampiasana teny fanalahidy iray:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "_Isan'andro manelanelana ny fampilazana sy ny fahataperam-potoan'ilay teny fanalahidy:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Avo lenta"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr ""
+
+#: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
 msgstr "Tsy raisin'ity fitaovana ity an-tànana io plateforme iasanao io"
 
-#: ../src/common/gst-platform-dialog.c:250
+#. label
+#: ../src/common/gst-platform-dialog.c:185
+msgid ""
+"If you know for sure that it works like one of the platforms listed below, "
+"you can select that and continue. Note, however, that this might damage the "
+"system configuration or downright cripple your computer."
+msgstr "Raha toa ka azonao antoka fa tahaka ny fiasan'iray amin'ireo plateforme voalaza etsy ambany ireo ny fiasany, dia azonao safidiana izany ary manohy rehefa avy eo. Marihana anefa fa mety hanimba ny kirakiran'ny rafitrao na hampandringa ny solosainao ny fanaovana izany."
+
+#: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
 msgstr "Plateforme tsy raisina an-tànana"
 
-#: ../src/common/gst-tool.c:1352
-msgid "MATE System Tools"
-msgstr "Fitaovan-drafitry ny MATE"
+#: ../src/common/gst-tool.c:188
+msgid "The configuration could not be loaded"
+msgstr ""
 
-#: ../src/common/gst-tool.c:1373
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:190
+msgid "The configuration could not be saved"
+msgstr ""
+
+#: ../src/common/gst-tool.c:194
+msgid "You are not allowed to access the system configuration."
+msgstr ""
+
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
+msgid "You are not allowed to modify the system configuration."
+msgstr ""
+
+#: ../src/common/gst-tool.c:199
+msgid "Invalid data was found."
+msgstr ""
+
+#. OOBS_RESULT_ERROR
+#: ../src/common/gst-tool.c:201
+msgid "An unknown error occurred."
+msgstr ""
+
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "Tsy afaka naneho ny toro-làlana"
 
-#: ../src/network/address-list.c:76
-#: ../src/network/hosts.c:37
-#: ../src/shares/table.c:38
-#: ../src/users/table.c:38
+#: ../src/common/gst-tool.c:616
+msgid "The system configuration has potentially changed."
+msgstr ""
+
+#: ../src/common/gst-tool.c:618
+msgid "Update content? This will lose any modification in course."
+msgstr ""
+
+#: ../src/common/gst-tool.c:687
+#, c-format
+msgid ""
+"An error occurred while checking for authorizations: %s\n"
+"You may report this as a bug."
+msgstr ""
+
+#: ../src/network/address-list.c:76 ../src/network/hosts.c:31
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "_Ampidiro"
 
-#: ../src/network/address-list.c:486
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
+msgid "_Delete"
+msgstr "_Fafao"
+
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "Soraty ilay adiresy"
 
-#: ../src/network/callbacks.c:157
+#: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
 msgstr "Manolo ny kirakiran'ilay mpanera"
 
-#: ../src/network/callbacks.c:200
+#: ../src/network/callbacks.c:299
 msgid "Could not autodetect modem device"
 msgstr "Tsy afaka mizaha avy hatrany ny modem"
 
-#: ../src/network/callbacks.c:203
-msgid "Check that the device is not busy and that is correctly attached to the computer."
+#: ../src/network/callbacks.c:302
+msgid ""
+"Check that the device is not busy and that is correctly attached to the "
+"computer."
 msgstr "Jereo hoe tsy miasa ary mipetaka tsara amin'ny solosaina io periferika io."
 
-#: ../src/network/callbacks.c:479
-msgid "Activating network interface"
-msgstr "Mandefa ny mpaneran-drezo"
-
-#: ../src/network/callbacks.c:514
+#: ../src/network/callbacks.c:523
 msgid "The host name has changed"
 msgstr "Niova ilay anaran'ny mpampiasa"
 
-#: ../src/network/callbacks.c:517
-msgid "This will prevent you from launching new applications, and so you will have to log in again. Continue anyway?"
+#: ../src/network/callbacks.c:526
+msgid ""
+"This will prevent you from launching new applications, and so you will have "
+"to log in again. Continue anyway?"
 msgstr "Hanakana anao handefa rindranasa vaovao izany, ka tsy maintsy miverina miditra indray ianao avy eo. Hanohy ihany na dia izany aza?"
 
-#: ../src/network/callbacks.c:523
+#: ../src/network/callbacks.c:532
 msgid "Change _Host name"
 msgstr "Hanova ny anaran'ny _mpampiasa"
 
-#: ../src/network/hosts.c:38
-#: ../src/network/ifaces-list.c:32
-#: ../src/shares/table.c:39
-#: ../src/users/table.c:39
+#: ../src/network/connection.c:40
+msgid "Automatic configuration (DHCP)"
+msgstr ""
+
+#: ../src/network/connection.c:41
+msgid "Local Zeroconf network (IPv4 LL)"
+msgstr ""
+
+#: ../src/network/connection.c:42
+msgid "Static IP address"
+msgstr ""
+
+#: ../src/network/connection.c:46
+msgid "WEP key (ascii)"
+msgstr ""
+
+#: ../src/network/connection.c:47
+msgid "WEP key (hexadecimal)"
+msgstr ""
+
+#: ../src/network/connection.c:48
+msgid "WPA Personal"
+msgstr ""
+
+#: ../src/network/connection.c:49
+msgid "WPA2 Personal"
+msgstr ""
+
+#: ../src/network/connection.c:53
+msgid "GPRS/UMTS"
+msgstr ""
+
+#: ../src/network/connection.c:54
+msgid "ISDN modem"
+msgstr ""
+
+#: ../src/network/connection.c:55
+msgid "Serial modem"
+msgstr ""
+
+#: ../src/network/connection.c:56
+msgid "PPPoE"
+msgstr ""
+
+#: ../src/network/connection.c:769
+#, c-format
+msgid "%s Properties"
+msgstr ""
+
+#: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "_Toetoetra"
 
-#: ../src/network/hosts.c:95
+#: ../src/network/hosts.c:89
 msgid "IP Address"
 msgstr "Adiresy IP"
 
-#: ../src/network/hosts.c:103
+#: ../src/network/hosts.c:97
 msgid "Aliases"
 msgstr "Alias"
 
-#: ../src/network/ifaces-list.c:315
+#: ../src/network/ifaces-list.c:280
 msgid "This network interface is not configured"
 msgstr "Tsy voakirakira ity mpaneran-drezo ity"
 
-#: ../src/network/ifaces-list.c:319
-#, c-format
-msgid "Essid: %s "
-msgstr "Essid: %s "
+#: ../src/network/ifaces-list.c:282
+msgid "Roaming mode enabled"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:323
+#: ../src/network/ifaces-list.c:289
 #, c-format
-msgid "Address: %s Subnet mask: %s"
-msgstr "Adiresy: %s Saron-drezo: %s"
+msgid "<b>Essid:</b> %s "
+msgstr ""
 
-#: ../src/network/ifaces-list.c:327
-msgid "Address: DHCP"
-msgstr "Adiresy: DHCP"
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:331
-#, c-format
-msgid "Address: %s Remote address: %s"
-msgstr "Adiresy: %s Adiresy lavitra: %s"
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:337
-#, c-format
-msgid "Phone number: %s Login: %s"
-msgstr "Laharan-telefaonina: %s Anarana fidirana: %s"
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr ""
 
 #: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
@@ -832,187 +965,502 @@ msgid "Parallel port connection"
 msgstr "Fifandraisana amin'ny irika parallèle"
 
 #: ../src/network/ifaces-list.c:364
-msgid "Modem connection"
-msgstr "Fifandraisana amin'ny modem"
+msgid "Point to point connection"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:366
-msgid "ISDN connection"
-msgstr "Fifandraisana amin'ny ISDN"
+#: ../src/network/locations-combo.c:221
+msgid "Changing network location"
+msgstr ""
 
-#: ../src/network/main.c:110
+#: ../src/network/locations-combo.c:265
+msgid "There is already a location with the same name"
+msgstr ""
+
+#: ../src/network/locations-combo.c:267
+msgid "Overwrite it?"
+msgstr ""
+
+#: ../src/network/locations-combo.c:355
+msgid "Save location"
+msgstr ""
+
+#: ../src/network/locations-combo.c:370
+msgid "_Location name:"
+msgstr ""
+
+#: ../src/network/locations-combo.c:422
+#, c-format
+msgid "Do you want to delete location \"%s\"?"
+msgstr ""
+
+#: ../src/network/main.c:135
 msgid "The interface does not exist"
 msgstr "Tsy misy io mpanera io"
 
-#: ../src/network/main.c:112
-msgid "Check that it is correctly typed and that it is correctly supported by your system."
+#: ../src/network/main.c:137
+msgid ""
+"Check that it is correctly typed and that it is correctly supported by your "
+"system."
 msgstr "Jereo hoe voasoratra araka ny tokony ho izy ilay izy ary raisin'ny rafitrao an-tànana tsara."
 
-#: ../src/network/main.c:158
+#: ../src/network/main.c:183
 msgid "Configure a network interface"
 msgstr "Hikirakira mpaneran-drezo"
 
-#: ../src/network/main.c:158
+#: ../src/network/main.c:183
 msgid "INTERFACE"
 msgstr "MPANERA"
 
-#: ../src/network/main.c:159
+#: ../src/network/main.c:184
 msgid "Configure the first network interface with a specific type"
 msgstr "Mikirakira ny mpaneran-drezo amina karazana voafaritra"
 
-#: ../src/network/main.c:159
+#: ../src/network/main.c:184
 msgid "TYPE"
 msgstr "KARAZANA"
 
-#: ../src/network/network.desktop.in.in.h:1
+#: ../src/network/mate-network.desktop.in.in.h:1
+msgid "Network"
+msgstr ""
+
+#: ../src/network/mate-network.desktop.in.in.h:2
 msgid "Configure network devices and connections"
 msgstr "Hikirakira ny periferika rezo sy ny fifandraisana"
 
-#: ../src/network/network.desktop.in.in.h:2
-msgid "Networking"
-msgstr "Rezo"
-
-#: ../src/network/network-tool.c:270
+#: ../src/network/network-tool.c:280
 msgid "Network Settings"
 msgstr "Fandrindran'ny rezo"
 
-#: ../src/services/callbacks.c:58
+#: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
 msgstr "Fandrindrana ho an'ny sampan'asa \"%s\""
 
-#: ../src/services/callbacks.c:110
+#: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
 msgstr "Tianao atsahatra tokoa ve ny %s?"
 
-#: ../src/services/callbacks.c:114
-msgid "This may affect your system behavior in several ways, possibly leading to data loss."
+#: ../src/services/callbacks.c:126
+msgid ""
+"This may affect your system behavior in several ways, possibly leading to "
+"data loss."
 msgstr "Mety hanova ny fiasan'ny rafitrao amin'ny fomba maro izany, ary mety hitarika fahaverezana data."
 
 #: ../src/services/service.c:32
-msgid "Antivirus"
-msgstr "Antivirus"
-
-#: ../src/services/service.c:32
-msgid "Analyzes your incoming mail for virus"
-msgstr "Mizaha virus anatin'izay mailakao tonga"
-
-#: ../src/services/service.c:33
-msgid "Volumes mounter"
-msgstr "Mpampakatra kapila"
-
-#: ../src/services/service.c:33
-msgid "Mounts your volumes automatically"
-msgstr "Mampakatra hoazy ny kapilanao"
-
-#: ../src/services/service.c:34
-msgid "Actions scheduler"
-msgstr "Mpandahatra asa"
-
-#: ../src/services/service.c:34
-msgid "Executes scheduled actions"
-msgstr "Manatanteraka izay asa voalahatra"
-
-#: ../src/services/service.c:35
-msgid "Database server"
-msgstr "Mpizara soratra fototra"
-
-#: ../src/services/service.c:35
-msgid "Data storage system"
-msgstr "Rafitra fitahirizana data"
-
-#: ../src/services/service.c:36
-msgid "Graphical login manager"
-msgstr "Mpandrindra fidirana an-tsary"
-
-#: ../src/services/service.c:36
-msgid "Allows users to login graphically"
-msgstr "Avelao hampiasa fidirana an-tsary ny mpampiasa"
-
-#: ../src/services/service.c:37
-msgid "Folder sharing service"
-msgstr "Sampan'asa mpizara lahatahiry"
-
-#: ../src/services/service.c:37
-msgid "Shares folders over your network"
-msgstr "Mizara lahatahiry manerana ny rezonao"
-
-#: ../src/services/service.c:38
-msgid "File sharing service"
-msgstr "Sampan'asa mpizara rakitra"
-
-#: ../src/services/service.c:38
-#: ../src/services/service.c:39
-msgid "Shares files over the Internet"
-msgstr "Mizara amin'ny Internet"
-
-#: ../src/services/service.c:39
-msgid "FTP service"
-msgstr "Sampan'asa FTP"
-
-#: ../src/services/service.c:40
-msgid "Mail fetcher"
-msgstr "Mpaka mailaka"
-
-#: ../src/services/service.c:40
-msgid "Downloads your mail from remote accounts"
-msgstr "Mampidina ny mailakao avy amin'ny kaonty lavi-toerana"
-
-#: ../src/services/service.c:41
-msgid "Mail agent"
-msgstr "Mpiandraikitra mailaka"
-
-#: ../src/services/service.c:41
-msgid "Delivers your outgoing mail"
-msgstr "Manatitra ny mailaka alefanao"
-
-#: ../src/services/service.c:42
-msgid "Clock synchronization service"
-msgstr "Sampan'asa mandasitra ny ora"
-
-#: ../src/services/service.c:42
-msgid "Synchronizes your computer clock with Internet time servers"
-msgstr "Mandasitra ny oran'ny solosainao amin'ny mpizara ora amin'ny Internet"
-
-#: ../src/services/service.c:43
-msgid "Printer service"
-msgstr "Sampan'asan'ny mpanonta printy"
-
-#: ../src/services/service.c:43
-msgid "Allows applications to use printers"
-msgstr "Mamela ny rindranasa hampiasa mpanonta printy"
-
-#: ../src/services/service.c:44
-msgid "Remote shell server"
-msgstr "Mpizara akora lavi-toerana"
-
-#: ../src/services/service.c:44
-msgid "Secure shell server"
-msgstr "Mpizara akora azo antoka"
-
-#: ../src/services/service.c:45
-msgid "Computer activity logger"
-msgstr "Mpandray an-tsoratra ny asan'ny solosaina"
-
-#: ../src/services/service.c:45
-msgid "Keeps a log of your computer activity"
-msgstr "Mitana raki-tatitra mirakitra ny asan'ny solosainao"
-
-#: ../src/services/service.c:46
 msgid "Web server"
 msgstr "Mpizara tranonkala"
 
-#: ../src/services/service.c:46
+#: ../src/services/service.c:32
 msgid "Shares your web pages over the Internet"
 msgstr "Mizara ny pejin-tranonkalanao eraka ny Internet"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "Farito izay sampan'asa halefa amin'ny fiantombohan'ny rafitra"
+#. GST_ROLE_WEB_SERVER
+#: ../src/services/service.c:33
+msgid "Actions scheduler"
+msgstr "Mpandahatra asa"
 
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/service.c:33
+msgid "Executes scheduled actions"
+msgstr "Manatanteraka izay asa voalahatra"
+
+#. GST_ROLE_COMMAND_SCHEDULER
+#: ../src/services/service.c:34
+msgid "Printer service"
+msgstr "Sampan'asan'ny mpanonta printy"
+
+#: ../src/services/service.c:34
+msgid "Allows applications to use printers"
+msgstr "Mamela ny rindranasa hampiasa mpanonta printy"
+
+#. GST_ROLE_PRINTER_SERVICE
+#: ../src/services/service.c:35
+msgid "Mail agent"
+msgstr "Mpiandraikitra mailaka"
+
+#: ../src/services/service.c:35
+msgid "Delivers your outgoing mail"
+msgstr "Manatitra ny mailaka alefanao"
+
+#. GST_ROLE_MTA
+#: ../src/services/service.c:36
+msgid "MTA authentication service"
+msgstr ""
+
+#. GST_ROLE_MTA_AUTH
+#: ../src/services/service.c:37
+msgid "Mail fetcher"
+msgstr "Mpaka mailaka"
+
+#: ../src/services/service.c:37
+msgid "Downloads your mail from remote accounts"
+msgstr "Mampidina ny mailakao avy amin'ny kaonty lavi-toerana"
+
+#. GST_ROLE_MAIL_FETCHER
+#: ../src/services/service.c:38
+msgid "Graphical login manager"
+msgstr "Mpandrindra fidirana an-tsary"
+
+#: ../src/services/service.c:38
+msgid "Allows users to login graphically"
+msgstr "Avelao hampiasa fidirana an-tsary ny mpampiasa"
+
+#. GST_ROLE_DISPLAY_MANAGER
+#: ../src/services/service.c:39
+msgid "Database server"
+msgstr "Mpizara soratra fototra"
+
+#: ../src/services/service.c:39
+msgid "Data storage system"
+msgstr "Rafitra fitahirizana data"
+
+#. GST_ROLE_DATABASE_SERVER
+#. GST_ROLE_FILE_SERVER_SMB
+#. GST_ROLE_FILE_SERVER_FTP
+#: ../src/services/service.c:40 ../src/services/service.c:41
+#: ../src/services/service.c:43
+msgid "Folder sharing service"
+msgstr "Sampan'asa mpizara lahatahiry"
+
+#: ../src/services/service.c:40 ../src/services/service.c:41
+msgid "Shares folders over your network"
+msgstr "Mizara lahatahiry manerana ny rezonao"
+
+#. GST_ROLE_FILE_SERVER_NFS
+#: ../src/services/service.c:42
+msgid "FTP service"
+msgstr "Sampan'asa FTP"
+
+#: ../src/services/service.c:42 ../src/services/service.c:43
+msgid "Shares folders over the Internet"
+msgstr ""
+
+#. GST_ROLE_FILE_SERVER_TFTP
+#: ../src/services/service.c:44
+msgid "Clock synchronization service"
+msgstr "Sampan'asa mandasitra ny ora"
+
+#: ../src/services/service.c:44
+msgid "Synchronizes your computer clock with Internet time servers"
+msgstr "Mandasitra ny oran'ny solosainao amin'ny mpizara ora amin'ny Internet"
+
+#. GST_ROLE_NTP_SERVER
+#: ../src/services/service.c:46
+msgid "Antivirus"
+msgstr "Antivirus"
+
+#: ../src/services/service.c:46
+msgid "Analyzes your incoming mail for virus"
+msgstr "Mizaha virus anatin'izay mailakao tonga"
+
+#. GST_ROLE_ANTIVIRUS
+#: ../src/services/service.c:47
+msgid "Firewall"
+msgstr ""
+
+#: ../src/services/service.c:47
+msgid "Blocks undesired network access to your computer"
+msgstr ""
+
+#. GST_ROLE_FIREWALL_MANAGEMENT
+#: ../src/services/service.c:49
+msgid "Dictionary server"
+msgstr ""
+
+#. GST_ROLE_DICTIONARY_SERVER
+#: ../src/services/service.c:50
+msgid "Speech synthesis support"
+msgstr ""
+
+#. GST_ROLE_SPEECH_SYNTHESIS
+#: ../src/services/service.c:51
+msgid "Computer activity logger"
+msgstr "Mpandray an-tsoratra ny asan'ny solosaina"
+
+#: ../src/services/service.c:51
+msgid "Keeps a log of your computer activity"
+msgstr "Mitana raki-tatitra mirakitra ny asan'ny solosainao"
+
+#. GST_ROLE_SYSTEM_LOGGER
+#: ../src/services/service.c:52
+msgid "Remote backup server"
+msgstr ""
+
+#. GST_ROLE_REMOTE_BACKUP
+#: ../src/services/service.c:53
+msgid "Spam filter"
+msgstr ""
+
+#. GST_ROLE_SPAM_FILTER
+#: ../src/services/service.c:54
+msgid "Remote shell server"
+msgstr "Mpizara akora lavi-toerana"
+
+#: ../src/services/service.c:54
+msgid "Secure shell server"
+msgstr "Mpizara akora azo antoka"
+
+#. GST_ROLE_SECURE_SHELL_SERVER
+#: ../src/services/service.c:55
+msgid "Application server"
+msgstr ""
+
+#. GST_ROLE_APPLICATION_SERVER
+#: ../src/services/service.c:56
+msgid "Automated crash reports support"
+msgstr ""
+
+#. GST_ROLE_AUTOMATED_CRASH_REPORTS_MANAGEMENT
+#: ../src/services/service.c:57
+msgid "System communication bus"
+msgstr ""
+
+#. GST_ROLE_DBUS,
+#: ../src/services/service.c:58
+msgid "System configuration manager"
+msgstr ""
+
+#. GST_ROLE_SYSTEM_CONFIGURATION_MANAGEMENT
+#: ../src/services/service.c:59
+msgid "School management platform"
+msgstr ""
+
+#. GST_ROLE_SCHOOL_MANAGEMENT_PLATFORM
+#: ../src/services/service.c:60
+msgid "Network security auditor"
+msgstr ""
+
+#. GST_ROLE_SECURITY_AUDITING
+#: ../src/services/service.c:61
+msgid "Web calendar server"
+msgstr ""
+
+#. GST_ROLE_WEB_CALENDAR_SERVER
+#: ../src/services/service.c:62
+msgid "OEM configuration manager"
+msgstr ""
+
+#. GST_ROLE_OEM_CONFIGURATION_MANAGEMENT
+#: ../src/services/service.c:63
+msgid "Terminal multiplexor"
+msgstr ""
+
+#. GST_ROLE_TERMINAL_MULTIPLEXOR
+#: ../src/services/service.c:64
+msgid "Disk quota activation"
+msgstr ""
+
+#. GST_ROLE_QUOTA_MANAGEMENT
+#: ../src/services/service.c:65
+msgid "Package index monitor"
+msgstr ""
+
+#. GST_ROLE_PACKAGE_INDEX_MONITORING
+#: ../src/services/service.c:66
+msgid "Network service"
+msgstr ""
+
+#. GST_ROLE_NETWORK
+#: ../src/services/service.c:67
+msgid "Dynamic DNS services updater"
+msgstr ""
+
+#. GST_ROLE_DYNAMIC_DNS_SERVICE
+#: ../src/services/service.c:68
+msgid "DHCP server"
+msgstr ""
+
+#. GST_ROLE_DHCP_SERVER
+#: ../src/services/service.c:69
+msgid "Domain name server"
+msgstr ""
+
+#. GST_ROLE_DNS
+#: ../src/services/service.c:70
+msgid "Proxy cache service"
+msgstr ""
+
+#. GST_ROLE_PROXY_CACHE
+#: ../src/services/service.c:71
+msgid "LDAP server"
+msgstr ""
+
+#. GST_ROLE_LDAP_SERVER
+#: ../src/services/service.c:72
+msgid "Mailing lists manager"
+msgstr ""
+
+#. GST_ROLE_MAILING_LISTS_MANAGER
+#: ../src/services/service.c:73
+msgid "Multicast DNS service discovery"
+msgstr ""
+
+#. GST_ROLE_RENDEZVOUS
+#: ../src/services/service.c:74
+msgid "Account information resolver"
+msgstr ""
+
+#. GST_ROLE_NSS
+#: ../src/services/service.c:75
+msgid "Virtual Private Network server"
+msgstr ""
+
+#. GST_ROLE_VPN_SERVER
+#: ../src/services/service.c:76
+msgid "Router advertisement server"
+msgstr ""
+
+#. GST_ROLE_ROUTER_ADVERTISEMENT_SERVER
+#: ../src/services/service.c:77
+msgid "IPSec key exchange server"
+msgstr ""
+
+#. GST_ROLE_IPSEC_KEY_EXCHANGE_SERVER
+#: ../src/services/service.c:78
+msgid "Disk server"
+msgstr ""
+
+#. GST_ROLE_DISK_SERVER
+#: ../src/services/service.c:79
+msgid "Disk client"
+msgstr ""
+
+#. GST_ROLE_DISK_CLIENT
+#: ../src/services/service.c:80
+msgid "Route server"
+msgstr ""
+
+#. GST_ROLE_ROUTE_SERVER
+#: ../src/services/service.c:81
+msgid "RPC mapper"
+msgstr ""
+
+#. GST_ROLE_RPC_MAPPER
+#: ../src/services/service.c:82
+msgid "SNMP server"
+msgstr ""
+
+#. GST_ROLE_SNMP_SERVER
+#: ../src/services/service.c:83
+msgid "Terminal server client"
+msgstr ""
+
+#. GST_ROLE_LTSP_CLIENT
+#: ../src/services/service.c:84
+msgid "Audio settings management"
+msgstr ""
+
+#. GST_ROLE_AUDIO_MANAGEMENT
+#: ../src/services/service.c:85
+msgid "Volumes mounter"
+msgstr "Mpampakatra kapila"
+
+#: ../src/services/service.c:85
+msgid "Mounts your volumes automatically"
+msgstr "Mampakatra hoazy ny kapilanao"
+
+#. GST_ROLE_AUTOMOUNTER
+#: ../src/services/service.c:86
+msgid "Infrared port management"
+msgstr ""
+
+#. GST_ROLE_INFRARED_MANAGEMENT
+#: ../src/services/service.c:87
+msgid "Braille display management"
+msgstr ""
+
+#. GST_ROLE_BRAILLE_DISPLAY_MANAGEMENT
+#: ../src/services/service.c:88
+msgid "Bluetooth device management"
+msgstr ""
+
+#. GST_ROLE_BLUETOOTH_MANAGEMENT
+#: ../src/services/service.c:89
+msgid "Hard disk tuning"
+msgstr ""
+
+#. GST_ROLE_HDD_MANAGEMENT
+#: ../src/services/service.c:90
+msgid "Hotkeys management"
+msgstr ""
+
+#. GST_ROLE_HOTKEYS_MANAGEMENT
+#: ../src/services/service.c:91
+msgid "Power management"
+msgstr ""
+
+#. GST_ROLE_POWER_MANAGEMENT
+#: ../src/services/service.c:92
+msgid "Logical volume management"
+msgstr ""
+
+#. GST_ROLE_LVM_MANAGEMENT
+#: ../src/services/service.c:93
+msgid "Cluster management tool"
+msgstr ""
+
+#. GST_ROLE_CLUSTER_MANAGEMENT
+#: ../src/services/service.c:94
+msgid "Fax settings management"
+msgstr ""
+
+#. GST_ROLE_FAX_MANAGEMENT
+#: ../src/services/service.c:95
+msgid "RAID disks management"
+msgstr ""
+
+#. GST_ROLE_RAID_MANAGEMENT
+#: ../src/services/service.c:96
+msgid "Graphic tablets management"
+msgstr ""
+
+#. GST_ROLE_GRAPHIC_TABLETS_MANAGEMENT
+#: ../src/services/service.c:97
+msgid "CPU Frequency manager"
+msgstr ""
+
+#. GST_ROLE_CPUFREQ_MANAGEMENT
+#: ../src/services/service.c:98
+msgid "Eagle USB ADSL modems manager"
+msgstr ""
+
+#. GST_ROLE_EAGLE_USB_MODEMS_MANAGEMENT
+#: ../src/services/service.c:99
+msgid "Serial port settings management"
+msgstr ""
+
+#. GST_ROLE_SERIAL_PORTS_MANAGEMENT
+#: ../src/services/service.c:100
+msgid "ISDN modems manager"
+msgstr ""
+
+#. GST_ROLE_ISDN_MANAGEMENT
+#: ../src/services/service.c:101
+msgid "Telstra Bigpond Cable Network client"
+msgstr ""
+
+#. GST_ROLE_TELSTRA_BIGPOND_NETWORK_CLIENT
+#: ../src/services/service.c:102
+msgid "Hardware monitor"
+msgstr ""
+
+#. GST_ROLE_HARDWARE_MONITORING
+#: ../src/services/service.c:103
+msgid "System monitor"
+msgstr ""
+
+#. GST_ROLE_SYSTEM_MONITORING
+#: ../src/services/service.c:104
+msgid "Virtual Machine management"
+msgstr ""
+
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Sampan'asa"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Farito izay sampan'asa halefa amin'ny fiantombohan'ny rafitra"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1043,31 +1491,31 @@ msgstr "Toetra"
 msgid "Priority"
 msgstr "Hamehana"
 
-#: ../src/services/services-tool.c:89
-msgid "Services settings"
-msgstr "Fandrindran'ny sampan'asa"
+#: ../src/services/services-tool.c:106
+msgid "Services Settings"
+msgstr ""
 
-#: ../src/shares/callbacks.c:194
+#: ../src/shares/callbacks.c:196
 msgid "Are you sure you want to delete this share?"
 msgstr "Tianao fafàna tokoa ve ity fifampizarana ity?"
 
-#: ../src/shares/callbacks.c:196
+#: ../src/shares/callbacks.c:198
 msgid "Other computers in your network will stop viewing this."
 msgstr "Tsy hahita io zavatra io intsony ny solosaina sasany anatin'ny rezonao."
 
-#: ../src/shares/main.c:90
+#: ../src/shares/main.c:103
 msgid "Add a shared path, modifies it if it already exists"
 msgstr "Mampiditra sori-dàlana iraisana; manova izany raha toa ka efa misy"
 
-#: ../src/shares/main.c:90
+#: ../src/shares/main.c:103
 msgid "PATH"
 msgstr "SORI-DALANA"
 
-#: ../src/shares/caja/caja-shares.c:129
-msgid "_Share folder"
-msgstr "_Hizara lahatahiry"
+#: ../src/shares/caja/caja-shares.c:151
+msgid "_Share Folder..."
+msgstr ""
 
-#: ../src/shares/caja/caja-shares.c:130
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr "Mizara io lahatahiry io amin'ny solosaina sasany"
 
@@ -1075,300 +1523,594 @@ msgstr "Mizara io lahatahiry io amin'ny solosaina sasany"
 msgid "Allowed host/network"
 msgstr "Mpampiantrano/rezo ekena"
 
-#: ../src/shares/share-nfs-add-hosts.c:114
-#, c-format
-msgid "Hosts in the %s network"
-msgstr "Mpampiantrano anatin'ny rezo %s"
-
-#: ../src/shares/share-nfs-add-hosts.c:146
+#: ../src/shares/share-nfs-add-hosts.c:117
 msgid "Specify hostname"
 msgstr "Farito ny anaran'ilay mpampiantrano"
 
-#: ../src/shares/share-nfs-add-hosts.c:153
+#: ../src/shares/share-nfs-add-hosts.c:124
 msgid "Specify IP address"
 msgstr "Farito ny adiresy IP"
 
-#: ../src/shares/share-nfs-add-hosts.c:160
+#: ../src/shares/share-nfs-add-hosts.c:131
 msgid "Specify network"
 msgstr "Farito ny rezo"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Farito izay lahatahiry mety ampiasaina ho an'ny fivondronan-tsolosaina"
 
-#: ../src/shares/share-settings.c:63
+#: ../src/shares/share-settings.c:61
 msgid "File System"
 msgstr "Rafi-drakitra"
 
-#: ../src/shares/share-settings.c:147
+#: ../src/shares/share-settings.c:144
 msgid "Do not share"
 msgstr "Aza zaraina"
 
-#: ../src/shares/share-settings.c:155
+#: ../src/shares/share-settings.c:152
 msgid "Windows networks (SMB)"
 msgstr "Rezo Windows (SMB)"
 
-#: ../src/shares/share-settings.c:163
+#: ../src/shares/share-settings.c:160
 msgid "Unix networks (NFS)"
 msgstr "Rezo Unix (NFS)"
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Hanova ny ora, daty, ary faitroran'ny rafitra"
+#: ../src/shares/share-settings.c:462
+#, c-format
+msgid "Settings for folder '%s'"
+msgstr ""
 
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/shares/share-settings.c:469
+msgid "Share Folder"
+msgstr ""
+
+#: ../src/shares/shares-tool.c:152
+msgid "Sharing services are not installed"
+msgstr ""
+
+#: ../src/shares/shares-tool.c:154
+msgid ""
+"You need to install at least either Samba or NFS in order to share your "
+"folders."
+msgstr ""
+
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
+msgstr ""
+
+#: ../src/time/e-map/e-map.c:622
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
+msgstr ""
+
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Daty sy ora"
 
-#: ../src/time/time-tool.c:294
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Hanova ny ora, daty, ary faitroran'ny rafitra"
+
+#: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "Tsy voapetraka ny fandraisana an-tànana NTP"
 
-#: ../src/time/time-tool.c:296
-msgid "Please install and activate NTP support in the system to enable synchronization of your local time server with internet time servers."
+#: ../src/time/time-tool.c:400
+msgid ""
+"Please install and activate NTP support in the system to enable "
+"synchronization of your local time server with internet time servers."
 msgstr "Apetrao ary alefaso ny fandraisana an-tànana NTP ahafahana mampifanaraka ny mpizara oram-paritra amin'ny mpizara ora amin'ny Internet."
 
-#: ../src/time/time-tool.c:414
+#: ../src/time/time-tool.c:429
+msgid "Enabling NTP"
+msgstr ""
+
+#: ../src/time/time-tool.c:429
+msgid "Disabling NTP"
+msgstr ""
+
+#: ../src/time/time-tool.c:441
+msgid "Synchronizing system clock"
+msgstr ""
+
+#: ../src/time/time-tool.c:521
+msgid "Keep synchronized with Internet servers"
+msgstr ""
+
+#: ../src/time/time-tool.c:522
+msgid "Manual"
+msgstr ""
+
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "Fandrindran'ny daty sy ora"
 
-#: ../src/users/group-settings.c:52
+#: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
 msgstr "Tsy mety fafàna ny vondron'ny mpitantana"
 
-#: ../src/users/group-settings.c:55
-#: ../src/users/group-settings.c:278
-#: ../src/users/group-settings.c:302
-#: ../src/users/user-settings.c:59
-#: ../src/users/user-settings.c:416
-#: ../src/users/user-settings.c:486
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "Hahatonga ny rafitra tsy hety ampiasaina izany."
 
-#: ../src/users/group-settings.c:68
+#: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
 msgstr "Tianao fafàna tokoa ve ny vondrona \"%s\"?"
 
-#: ../src/users/group-settings.c:71
+#: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
 msgstr "Mety hahatonga ny IDn'ny vondrona ho diso ny fanaovana izany."
 
-#: ../src/users/group-settings.c:167
+#: ../src/users/group-settings.c:144
 msgid "New group"
 msgstr "Vondrona vaovao"
 
-#: ../src/users/group-settings.c:175
+#: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
 msgstr "Toetoetran'ny vondronda '%s'"
 
-#: ../src/users/group-settings.c:274
+#: ../src/users/group-settings.c:217
 msgid "Group name is empty"
 msgstr "Foana ny anaran'ilay vondrona"
 
-#: ../src/users/group-settings.c:275
+#: ../src/users/group-settings.c:218
 msgid "A group name must be specified."
 msgstr "Tsy maintsy manome anara-bondrona ianao."
 
-#: ../src/users/group-settings.c:277
+#: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
 msgstr "Tsy tokony hovaina ny anaram-bondron'ny mpampiasa vondron'ny mpitantana"
 
-#: ../src/users/group-settings.c:280
+#: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
 msgstr "Misy marika tsy mety anatin'ilay anaram-bondrona"
 
-#: ../src/users/group-settings.c:281
-msgid "Please set a valid group name consisting of a lower case letter followed by lower case letters and numbers."
+#: ../src/users/group-settings.c:224
+msgid ""
+"Please set a valid group name consisting of a lower case letter followed by "
+"lower case letters and numbers."
 msgstr "Mampiasà zanatsoratra iray arahan-janatsoratra sy isa ho an'ilay anaram-bondrona."
 
-#: ../src/users/group-settings.c:285
+#: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
 msgstr "Efa misy ny vondrona \"%s\""
 
-#: ../src/users/group-settings.c:286
-#: ../src/users/user-settings.c:424
-msgid "Please select a different user name."
-msgstr "Misafidiana anaram-mpampiasa hafa."
+#: ../src/users/group-settings.c:230
+msgid "Please choose a different group name."
+msgstr ""
 
-#: ../src/users/group-settings.c:301
+#: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
 msgstr "Tsy tokony hovaina ny IDn'ny vondron'ny kaontin'ny mpitantana"
 
-#: ../src/users/groups-table.c:45
+#. check that GID is free
+#: ../src/users/group-settings.c:261
+#, c-format
+msgid "Group ID %d is already used by group \"%s\""
+msgstr ""
+
+#: ../src/users/group-settings.c:264
+msgid "Please choose a different numeric identifier for the new group."
+msgstr ""
+
+#: ../src/users/group-settings.c:266
+#, c-format
+msgid "Please choose a different numeric identifier for group \"%s\"."
+msgstr ""
+
+#: ../src/users/groups-table.c:44
 msgid "Group name"
 msgstr "Anaran'ilay vondrona"
 
-#: ../src/users/privileges-table.c:48
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
+msgstr ""
+
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
+msgstr ""
+
+#: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
 msgstr "Manara-maso ny raki-tatitry ny rafitra"
 
-#: ../src/users/privileges-table.c:49
+#: ../src/users/privileges-table.c:54
 msgid "Administer the system"
 msgstr "Mitantana ilay rafitra"
 
-#: ../src/users/privileges-table.c:50
+#: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
 msgstr "Mampiasà periferika audio"
 
-#: ../src/users/privileges-table.c:51
+#: ../src/users/privileges-table.c:56
 msgid "Use CD-ROM drives"
 msgstr "Mampiasà mpanodina CD-ROM"
 
-#: ../src/users/privileges-table.c:52
+#: ../src/users/privileges-table.c:57
+msgid "Burn CDs / DVDs"
+msgstr ""
+
+#: ../src/users/privileges-table.c:58
 msgid "Use modems"
 msgstr "Mampiasà modem"
 
-#: ../src/users/privileges-table.c:53
+#: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
 msgstr "Hifandray amin'ny Internet amin'ny alalana modem"
 
-#: ../src/users/privileges-table.c:54
+#: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
 msgstr "Mandefa sy mandray fax"
 
-#: ../src/users/privileges-table.c:55
+#: ../src/users/privileges-table.c:61
 msgid "Use floppy drives"
 msgstr "Mampiasà zana-kapila"
 
-#: ../src/users/privileges-table.c:56
+#: ../src/users/privileges-table.c:62
+msgid "Mount user-space filesystems (FUSE)"
+msgstr ""
+
+#: ../src/users/privileges-table.c:63
+msgid "Configure printers"
+msgstr ""
+
+#: ../src/users/privileges-table.c:64
+msgid "Connect to wireless and ethernet networks"
+msgstr ""
+
+#: ../src/users/privileges-table.c:65
 msgid "Access external storage devices automatically"
 msgstr "Avy dia sokafy ny periferika fitahirizana ivelany"
 
-#: ../src/users/privileges-table.c:57
+#: ../src/users/privileges-table.c:66
+msgid "Suspend and hibernate the computer"
+msgstr ""
+
+#: ../src/users/privileges-table.c:67
+msgid "Access /proc filesystem"
+msgstr ""
+
+#: ../src/users/privileges-table.c:68
 msgid "Use scanners"
 msgstr "Mampiasà scanner"
 
-#: ../src/users/privileges-table.c:58
+#: ../src/users/privileges-table.c:69
 msgid "Use tape drives"
 msgstr "Mampiasà mpanodina horonam-peo"
 
-#: ../src/users/privileges-table.c:59
+#: ../src/users/privileges-table.c:70
+msgid "Use USB devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:71
+msgid "Use VirtualBox virtualization solution"
+msgstr ""
+
+#: ../src/users/privileges-table.c:72
+msgid "Use video devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
 msgstr "Afaka mahazo tombontsoa manokan'ny mpitantana"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Hampiditra na hanesotra mpampiasa sy vondrona"
+#: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr ""
 
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr ""
+
+#: ../src/users/run-passwd.c:421
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/users/run-passwd.c:498
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/users/run-passwd.c:504
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/users/run-passwd.c:510
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/users/run-passwd.c:513
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/users/run-passwd.c:517
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/users/run-passwd.c:524
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/users/run-passwd.c:528
+#, c-format
+msgid "Unknown error"
+msgstr ""
+
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Mpampiasa sy vondrona"
 
-#: ../src/users/user-settings.c:56
-msgid "Administrator account can not be deleted"
-msgstr "Tsy mety fafàna ny kaontin'ny mpitantana"
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Hampiditra na hanesotra mpampiasa sy vondrona"
 
-#: ../src/users/user-settings.c:72
+#: ../src/users/user-password.c:97
+msgid "Password is too short"
+msgstr ""
+
+#: ../src/users/user-password.c:98
+msgid ""
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
+msgstr ""
+
+#: ../src/users/user-password.c:101
+msgid "Password confirmation is not correct"
+msgstr ""
+
+#: ../src/users/user-password.c:102
+msgid "Check that you have provided the same password in both text fields."
+msgstr "Jereo hoe mitovy ireo teny fanalahidy nosoratanao tanatin'ireo fari-tsoratra roa."
+
+#: ../src/users/user-password.c:445
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/users/user-password.c:456
+msgid "Please type again your current password."
+msgstr ""
+
+#: ../src/users/user-password.c:463
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/users/user-settings.c:85
+msgid "Administrator account cannot be deleted"
+msgstr ""
+
+#: ../src/users/user-settings.c:96
 #, c-format
-msgid "Are you sure you want to delete account \"%s\"?"
-msgstr "Tianao fafàna tokoa ve ny kaonty \"%s\"?"
+msgid "%s is currently using this computer"
+msgstr ""
 
-#: ../src/users/user-settings.c:75
-msgid "This will disable this user's access to the system without deleting the user's home directory."
-msgstr "Hanatsahatra ny fahazoan'ity mpampiasa ity mampiasa ny rafitra nefa tsy mamafa ny lahatahirin'ny fandraisany ny fanaovana izany."
+#: ../src/users/user-settings.c:99
+msgid "Please ensure the user has logged out before deleting this account."
+msgstr ""
 
-#: ../src/users/user-settings.c:266
-msgid "New user account"
-msgstr "Kaontin'ny mpampiasa vaovao"
+#: ../src/users/user-settings.c:109
+msgid "Can't delete the only administrator account"
+msgstr ""
 
-#: ../src/users/user-settings.c:278
+#: ../src/users/user-settings.c:111
 #, c-format
-msgid "Account '%s' Properties"
-msgstr "Toetoetran'ny kaonty '%s'"
+msgid ""
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
+msgstr ""
 
-#: ../src/users/user-settings.c:412
-msgid "User name is empty"
-msgstr "Foana ny anaran'ilay mpampiasa"
-
-#: ../src/users/user-settings.c:413
-msgid "A user name must be specified."
-msgstr "Tsy maintsy manome anaram-pampiasa ianao."
-
-#: ../src/users/user-settings.c:415
-msgid "User name of the administrator account should not be modified"
-msgstr "Tsy tokony hovaina ny anaram-pampiasan'ny kaontin'ny mpitantana"
-
-#: ../src/users/user-settings.c:418
-msgid "User name has invalid characters"
-msgstr "Misy marika tsy mety anatin'ilay anaram-pampiasa"
-
-#: ../src/users/user-settings.c:419
-msgid "Please set a valid user name consisting of a lower case letter followed by lower case letters and numbers."
-msgstr "Mampiasà zanatsoratra iray arahan-janatsoratra sy isa ho an'ilay anaram-pampiasa."
-
-#: ../src/users/user-settings.c:423
+#: ../src/users/user-settings.c:121
 #, c-format
-msgid "User name \"%s\" already exists"
-msgstr "Efa misy ny anaram-pampiasa \"%s\""
+msgid "Remove home folder for %s?"
+msgstr ""
 
-#: ../src/users/user-settings.c:450
+#: ../src/users/user-settings.c:124
+#, c-format
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr ""
+
+#: ../src/users/user-settings.c:132
+msgid "Keep Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:133
+msgid "Don't Remove Account"
+msgstr ""
+
+#: ../src/users/user-settings.c:134
+msgid "Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:330
+msgid "Superuser"
+msgstr ""
+
+#: ../src/users/user-settings.c:335
+msgid "Custom"
+msgstr ""
+
+#. TRANSLATORS: This applies to a password.
+#: ../src/users/user-settings.c:344
+msgid "None"
+msgstr ""
+
+#: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
 msgstr "Marika tsy mitombina \"%c\" anatin'ny fanamarihana"
 
-#: ../src/users/user-settings.c:451
+#: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
 msgstr "Jereo hoe tsy misy mampiasa io marika io."
 
-#: ../src/users/user-settings.c:468
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "Sori-dàlana tsy feno anatin'ny lahatahirin'ny fandraisana"
 
-#: ../src/users/user-settings.c:469
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
-"i.e.: /home/john."
+"<span size=\"smaller\">i.e.: /home/john</span>."
 msgstr ""
-"Soraty ny sori-dàlan'ny lahatahirin'ny fandraisana feno\n"
-"oh.: /home/thierry."
 
-#: ../src/users/user-settings.c:485
-msgid "User ID of the administrator account should not be modified"
-msgstr "Tsy tokony hovaina ny IDn'ny mpampiasa amin'ny kaontin'ny mpitantana"
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
+msgstr ""
 
-#: ../src/users/user-settings.c:501
+#: ../src/users/user-settings.c:449
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr ""
+
+#: ../src/users/user-settings.c:461
+msgid "_Replace With Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr ""
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr ""
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr ""
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr ""
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr ""
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:604
+msgid "ID for the root user should not be modified"
+msgstr ""
+
+#. check that UID is free
+#: ../src/users/user-settings.c:608
+#, c-format
+msgid "User ID %d is already used by user %s"
+msgstr ""
+
+#: ../src/users/user-settings.c:610
+#, c-format
+msgid "Please choose a different numeric identifier for %s."
+msgstr ""
+
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr "Sori-dàlana tsy feno anatin'ny akora"
 
-#: ../src/users/user-settings.c:502
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
-"i.e.: /bin/bash."
+"<span size=\"smaller\">i.e.: /bin/bash</span>."
 msgstr ""
-"Soraty ny sori-dàlana feno ho an'ny akora\n"
-"oh.: /bin/bash."
 
-#: ../src/users/user-settings.c:521
-msgid "Password should not be empty"
-msgstr "Tsy tokony ho foana ny teny fanalahidy"
+#: ../src/users/user-settings.c:663
+msgid "Can't revoke administration rights"
+msgstr ""
 
-#: ../src/users/user-settings.c:522
-msgid "A password must be provided."
-msgstr "Tsy maintsy manome teny fanalahidy ianao."
+#: ../src/users/user-settings.c:666
+#, c-format
+msgid ""
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
+msgstr ""
 
-#: ../src/users/user-settings.c:524
-msgid "Password confirmation isn't correct"
-msgstr "Tsy mety ilay fanamarinana teny fanalahidy"
+#: ../src/users/user-settings.c:683
+msgid "You are about to revoke your own administration rights"
+msgstr ""
 
-#: ../src/users/user-settings.c:525
-msgid "Check that you have provided the same password in both text fields."
-msgstr "Jereo hoe mitovy ireo teny fanalahidy nosoratanao tanatin'ireo fari-tsoratra roa."
+#: ../src/users/user-settings.c:686
+#, c-format
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
+msgstr ""
 
-#: ../src/users/users-table.c:44
-msgid "Name"
-msgstr "Anarana"
+#: ../src/users/user-settings.c:691
+msgid "Give up administration rights"
+msgstr ""
 
-#: ../src/users/users-table.c:63
-msgid "Login name"
-msgstr "Anarana fidirana"
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr ""
 
-#: ../src/users/users-table.c:70
-msgid "Home directory"
-msgstr "Lahatahirin'ny fandraisana"
-
-#: ../src/users/users-tool.c:155
-msgid "Users settings"
-msgstr "Fandrindran'ny mpampiasa"
+#: ../src/users/users-tool.c:288
+msgid "Users Settings"
+msgstr ""

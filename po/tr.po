@@ -1,674 +1,754 @@
-# translation of mate-system-tools to Turkish
-# Ozgur Dogan GUNES <ozgur@geek.com>, 2001.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Arman Aksoy <armish@linux-sevenler.de>, 2003.
+# Baris Cicek <baris@teamforce.name.tr>, 2005, 2007, 2009.
+# Ozgur Dogan GUNES <ozgur@geek.com>, 2001.
 # Tamer Sezgin <tamer_sezgin@yahoo.com>, 2004.
-# Baris Cicek <baris@teamforce.name.tr>, 2005, 2007.
-# translation of mate-system-tools to Turkish
-# Copyright (C) 2001, 2003, 2004, 2005, 2007 Free Software Foundation, Inc.
-# Baris Cicek <baris@teamforce.name.tr>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-30 20:33+0300\n"
-"PO-Revision-Date: 2009-08-30 20:29+0300\n"
-"Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
-"Language-Team: Turkish <mate-turk@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-21 06:42+0000\n"
+"Last-Translator: mauron <mauron@vmail.me>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/MATE/language/tr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=1; plural=0;\n"
-
-#: ../mate-system-tools.schemas.in.h:1
-msgid "Whether the users-admin tool should show all users and groups or not"
-msgstr ""
-"Kullanıcı yöneticisi aracının tüm kullanıcıları ve grupları göstermesine "
-"izin verilip verilmeyeceği"
-
-#: ../interfaces/common.ui.h:1
-msgid ""
-"<span weight=\"bold\" size=\"larger\">Please enter your root password"
-msgstr ""
-"<span weight=\"bold\" size=\"larger\">Lütfen root parolanızı girin"
-
-#: ../interfaces/common.ui.h:2
-msgid "Enter Password"
-msgstr "Parolayı Girin"
-
-#: ../interfaces/common.ui.h:3
-msgid ""
-"You need administrator privileges to use this tool. Enter a password to "
-"modify\n"
-"your system configuration."
-msgstr ""
-"Bu aracı kullanabilmeniz için yönetici yetkilerine sahip olmalısınız. Sistem "
-"ayarlarınızı değiştirmek\n"
-"için parolanızı girin."
-
-#: ../interfaces/common.ui.h:5
-msgid "_Password:"
-msgstr "_Parola:"
+"Language: tr\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../interfaces/network.ui.h:1
-msgid "Account data"
-msgstr "Hesap verisi"
-
-#: ../interfaces/network.ui.h:2
-msgid "Connection Settings"
-msgstr "Bağlantı Ayarları"
-
-#: ../interfaces/network.ui.h:3
-msgid "DNS Servers"
-msgstr "DNS Sunucuları"
-
-#: ../interfaces/network.ui.h:4
-msgid "Host Settings"
-msgstr "Makine Ayarları"
-
-#: ../interfaces/network.ui.h:5
-msgid "Internet service provider data"
-msgstr "İnternet servis sağlayıcı verileri"
-
-#: ../interfaces/network.ui.h:6
-msgid "Modem Settings"
-msgstr "Modem Ayarları"
-
-#: ../interfaces/network.ui.h:7
-msgid "Search Domains"
-msgstr "Alan Adı Ara"
-
-#: ../interfaces/network.ui.h:8
-msgid "Wireless Settings"
-msgstr "Kablosuz Ağ Ayarları"
-
-#: ../interfaces/network.ui.h:9
-msgid "Access point name:"
-msgstr "Erişim noktası adı:"
-
-#: ../interfaces/network.ui.h:10
-msgid "Aliases:"
-msgstr "Takma Adlar:"
-
-#: ../interfaces/network.ui.h:11
-msgid "Con_figuration:"
-msgstr "_Yapılandırma:"
-
-#: ../interfaces/network.ui.h:12
-msgid "Connection type:"
-msgstr "Bağlantı tipi:"
-
-#: ../interfaces/network.ui.h:13
-msgid "Connections"
-msgstr "Bağlantılar"
-
-#: ../interfaces/network.ui.h:14
-msgid "DNS"
-msgstr "DNS"
-
-#: ../interfaces/network.ui.h:15
-msgid "D_omain name:"
-msgstr "A_lan adı:"
-
-#: ../interfaces/network.ui.h:16
-msgid "Delete current location"
-msgstr "Geçerli konumu sil"
-
-#: ../interfaces/network.ui.h:17
-msgid "E_nable roaming mode"
-msgstr "Dolaşım kipini etki_nleştir"
-
-#: ../interfaces/network.ui.h:18
-msgid "E_nable this connection"
-msgstr "_Bu bağlantıyı etkinleştir"
-
-#: ../interfaces/network.ui.h:19
-msgid "Ethernet interface:"
-msgstr "Ethernet arayüzü:"
-
-#: ../interfaces/network.ui.h:20 ../interfaces/users.ui.h:21
-msgid "General"
-msgstr "Genel"
-
-#: ../interfaces/network.ui.h:21
-msgid "Hexadecimal"
-msgstr "Onaltılı"
-
-#: ../interfaces/network.ui.h:22
-msgid "Host Alias Properties"
-msgstr "Makine Takma Adı Özellikleri"
-
-#: ../interfaces/network.ui.h:23
-msgid "Hosts"
-msgstr "Makineler"
-
-#: ../interfaces/network.ui.h:24 ../interfaces/shares.ui.h:14
-msgid "IP address:"
-msgstr "IP adresi:"
-
-#: ../interfaces/network.ui.h:25
-msgid "Interface properties"
-msgstr "Arayüz özellikleri"
-
-# archiver/location-list.c:347
-#: ../interfaces/network.ui.h:26
-msgid "Location:"
-msgstr "Konum:"
-
-#: ../interfaces/network.ui.h:27
-msgid "Loud"
-msgstr "Gürültülü"
-
-#: ../interfaces/network.ui.h:28
-msgid "Low"
-msgstr "Alçak"
-
-#: ../interfaces/network.ui.h:29
-msgid "Medium"
-msgstr "Orta"
-
-#: ../interfaces/network.ui.h:30
-msgid "Modem"
-msgstr "Modem"
-
-#: ../interfaces/network.ui.h:31
-msgid "Network _password:"
-msgstr "Ağ _parolası:"
-
-#: ../interfaces/network.ui.h:32
-msgid "Network name (_ESSID):"
-msgstr "Ağ adı (_ESSID):"
-
-#: ../interfaces/network.ui.h:33
 msgid "Off"
 msgstr "Kapalı"
 
-#: ../interfaces/network.ui.h:34
-msgid "Options"
-msgstr "Seçenekler"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
+msgstr "Alçak"
 
-#: ../interfaces/network.ui.h:35
-msgid "P_assword"
-msgstr "P_arola"
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
+msgstr "Orta"
 
-#: ../interfaces/network.ui.h:36
-msgid "Password _type:"
-msgstr "Parola _türü:"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr "Gürültülü"
 
-#: ../interfaces/network.ui.h:37
-msgid "Plain (ASCII)"
-msgstr "Düz (ASCII)"
-
-#: ../interfaces/network.ui.h:38
-msgid "Pulses"
-msgstr "Darbeli"
-
-#: ../interfaces/network.ui.h:39
-msgid "Save current network configuration as a location"
-msgstr "Şimdiki ağ yapılandırmasını bir konum olarak kaydet"
-
-#: ../interfaces/network.ui.h:40
+#: ../interfaces/network.ui.h:5
 msgid "Tones"
 msgstr "Tonlar"
 
-#: ../interfaces/network.ui.h:41
-msgid "Use the Internet service provider nameservers"
-msgstr "İnternet servis sağlayıcı ad sunucularını kullan"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr "Darbeli"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "Otom_atik tanı"
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr "Düz (ASCII)"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr "Onaltılı"
+
+#: ../interfaces/network.ui.h:9
+msgid "Location:"
+msgstr "Konum:"
+
+#: ../interfaces/network.ui.h:10
+msgid "Save current network configuration as a location"
+msgstr "Şimdiki ağ yapılandırmasını bir konum olarak kaydet"
+
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr "Geçerli konumu sil"
+
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "Bağlantılar"
+
+#: ../interfaces/network.ui.h:13
+msgid "_Host name:"
+msgstr "_Makine adı:"
+
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "A_lan adı:"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "Makine Ayarları"
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Genel"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "DNS Sunucuları"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Alan Adı Ara"
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "Makineler"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "Arayüz özellikleri"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "_Bu bağlantıyı etkinleştir"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr "Dolaşım kipini etki_nleştir"
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr "Bağlantı tipi:"
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "Ağ adı (_ESSID):"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "Ağ _parolası:"
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr "Parola _türü:"
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr "Kablosuz Ağ Ayarları"
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "_Yapılandırma:"
+
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_IP adresi:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "Alt ağ ma_skesi:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "Ağ _geçidi adresi:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "Bağlantı Ayarları"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "Yere_l IP:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "_Uzaktaki IP:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "_Telefon numarası:"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "_Arama öneki:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "Erişim noktası adı:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "İnternet servis sağlayıcı verileri"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "K_ullanıcı adı:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "P_arola"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Hesap verisi"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "_Modem portu:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "Arama _tipi:"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "Ağ _geçidi adresi:"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "_Makine adı:"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "_IP adresi:"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "Yere_l IP:"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "_Modem portu:"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "_Telefon numarası:"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "_Uzaktaki IP:"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "Eğer bağlantı kopar ya da çalıştırılamazsa tek_rar dene"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "_Modemi, İnternet'e öntanımlı geçit olarak ayarla"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "Alt ağ ma_skesi:"
-
-#: ../interfaces/network.ui.h:55 ../interfaces/users.ui.h:59
-msgid "_Username:"
-msgstr "K_ullanıcı adı:"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Ses:"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "Gelişmiş ayarlar:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "Otom_atik tanı"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "Ethernet arayüzü:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "Modem Ayarları"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modem"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "_Modemi, İnternet'e öntanımlı geçit olarak ayarla"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "İnternet servis sağlayıcı ad sunucularını kullan"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "Eğer bağlantı kopar ya da çalıştırılamazsa tek_rar dene"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Seçenekler"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "Makine Takma Adı Özellikleri"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP adresi:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Takma Adlar:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Etkinleştirmek istediğiniz servisleri seçin:"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Gelişmiş ayarlar:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Allowed Hosts"
-msgstr "İzinli Makineler"
-
-#: ../interfaces/shares.ui.h:2
-msgid "Hosts Settings"
-msgstr "Makine Ayarları"
-
-#: ../interfaces/shares.ui.h:3
-msgid "Share Properties"
-msgstr "Paylaşım Özellikleri"
-
-#: ../interfaces/shares.ui.h:4
-msgid "Shared Folder"
-msgstr "Paylaşılan Klasörler"
-
-#: ../interfaces/shares.ui.h:5
-msgid "Windows sharing"
-msgstr "Windows paylaşımı"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user:"
-msgstr ""
-"Kullanıcı için parolayı girin:"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Add allowed hosts"
-msgstr "İzinli makine ekle"
-
-#: ../interfaces/shares.ui.h:8
-msgid "Allowed hosts:"
-msgstr "İzinli makineler:"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Comment:"
-msgstr "Açıklama:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Domain / _Workgroup:"
-msgstr "Alan adı / Çalışma _grubu:"
-
-#: ../interfaces/shares.ui.h:11
-msgid "Enter password for user"
-msgstr "Kullanıcı için parolayı girin"
-
-#: ../interfaces/shares.ui.h:12
-msgid "General Properties"
-msgstr "Genel Özellikler"
-
-#: ../interfaces/shares.ui.h:13
-msgid "Host name:"
-msgstr "Makine adı:"
-
-#: ../interfaces/shares.ui.h:15
-msgid "Name:"
-msgstr "İsim:"
-
-#: ../interfaces/shares.ui.h:16
-msgid "Netmask:"
-msgstr "Ağ maskesi:"
-
-#: ../interfaces/shares.ui.h:17
-msgid "Network:"
-msgstr "Ağ:"
-
-#: ../interfaces/shares.ui.h:18 ../src/shares/nfs-acl-table.c:56
-msgid "Read only"
-msgstr "Salt okunur"
-
-#: ../interfaces/shares.ui.h:19
-msgid "Share"
-msgstr "Paylaş"
-
-#: ../interfaces/shares.ui.h:20
-msgid "Share through:"
-msgstr "Birlikte paylaş:"
-
-#: ../interfaces/shares.ui.h:21 ../src/shares/shares.desktop.in.in.h:2
-#: ../src/shares/shares-tool.c:239
-msgid "Shared Folders"
-msgstr "Paylaşılan Klasörler"
-
-#: ../interfaces/shares.ui.h:22
-msgid "This computer is a _WINS server"
-msgstr "Bu bilgisayar bir _WINS sunucusudur"
-
-#: ../interfaces/shares.ui.h:23
-msgid "Users"
-msgstr "Kullanıcılar"
-
-#: ../interfaces/shares.ui.h:24
-msgid "WINS _server:"
-msgstr "WINS _sunucusu:"
-
-#: ../interfaces/shares.ui.h:25
 msgid "_Path:"
 msgstr "_Yol:"
 
-#: ../interfaces/shares.ui.h:26
+#: ../interfaces/shares.ui.h:2
+msgid "Share through:"
+msgstr "Birlikte paylaş:"
+
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr "Paylaşılan Klasörler"
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "Açıklama:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "İsim:"
+
+#: ../interfaces/shares.ui.h:6
 msgid "_Read only"
 msgstr "_Salt okunur"
 
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "Paylaşım Özellikleri"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "İzinli Makineler"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "Paylaş"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "İzinli makine ekle"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "İzinli makineler:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Makine adı:"
+
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "Ağ:"
+
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Ağ maskesi:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "Salt okunur"
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr "Makine Ayarları"
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
+#: ../src/shares/shares-tool.c:237
+msgid "Shared Folders"
+msgstr "Paylaşılan Klasörler"
+
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "Alan adı / Çalışma _grubu:"
+
+#: ../interfaces/shares.ui.h:20
+msgid "This computer is a _WINS server"
+msgstr "Bu bilgisayar bir _WINS sunucusudur"
+
+#: ../interfaces/shares.ui.h:21
+msgid "WINS _server:"
+msgstr "WINS _sunucusu:"
+
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr "Windows paylaşımı"
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Genel Özellikler"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: ../interfaces/shares.ui.h:25
+msgid "Enter password for user"
+msgstr "Kullanıcı için parolayı girin"
+
+#: ../interfaces/shares.ui.h:26
+msgid "Enter password for user:"
+msgstr "Kullanıcı için parolayı girin:"
+
 #: ../interfaces/time.ui.h:1
-msgid "Selection"
-msgstr "Seçim"
+msgid "Time zone"
+msgstr "Zaman dilimi"
 
 #: ../interfaces/time.ui.h:2
 msgid "Time Zone"
 msgstr "Zaman Dilimi"
 
 #: ../interfaces/time.ui.h:3
-msgid "Add NTP Server"
-msgstr "NTP Sunucusu Ekle"
-
-#: ../interfaces/time.ui.h:4
-msgid "NTP server"
-msgstr "NTP sunucusu"
-
-#: ../interfaces/time.ui.h:5
-msgid "Se_lect Servers"
-msgstr "Sunucu_ları Seç"
-
-#: ../interfaces/time.ui.h:6
-msgid "Synchronize now"
-msgstr "Şimdi eş zamanlandır"
-
-#: ../interfaces/time.ui.h:7
-msgid "Time servers"
-msgstr "Zaman sunucuları"
-
-#: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "Zaman sunucuları:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "Zaman dilimi"
-
-#: ../interfaces/time.ui.h:10
 msgid "Time zone:"
 msgstr "Zaman dilimi:"
 
-#: ../interfaces/time.ui.h:11
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr "Seçim"
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "Zaman sunucuları"
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP sunucusu"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "NTP Sunucusu Ekle"
+
+#: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
 msgstr "Yapılandırılmamış"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_Yapılandırma:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "Zaman sunucuları:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "Sunucu_ları Seç"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "_Saat:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "_Tarih:"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "_Saat:"
+msgid "Synchronize now"
+msgstr "Şimdi eş zamanlandır"
 
 #: ../interfaces/users.ui.h:1
-msgid "Advanced Settings"
-msgstr "Gelişmiş Ayarlar"
-
-#: ../interfaces/users.ui.h:2
-msgid "Automatic UID/GID"
-msgstr "Otomatik UID/GID"
-
-#: ../interfaces/users.ui.h:3
-msgid "Basic Settings"
-msgstr "Temel Ayarlar"
-
-#: ../interfaces/users.ui.h:4
-msgid "Group Members"
-msgstr "Grup Üyeleri"
-
-#: ../interfaces/users.ui.h:5
-msgid "Optional Settings"
-msgstr "Seçimlik Ayarlar"
-
-#: ../interfaces/users.ui.h:6
-msgid "Password Settings"
-msgstr "Parola Ayarları"
-
-
-
-#: ../interfaces/users.ui.h:9
-msgid "System Defaults"
-msgstr "Sistem Öntanımları"
-
-#: ../interfaces/users.ui.h:10
-msgid "Account"
-msgstr "Hesap"
-
-#: ../interfaces/users.ui.h:11
-msgid "Advanced"
-msgstr "Gelişmiş"
-
-#: ../interfaces/users.ui.h:12
-msgid ""
-"Allow this user to open a local session without entering his password. The "
-"password will still be required to perform administrative tasks."
-msgstr ""
-"Bu kullanıcının yerel bir oturumu parolasını girmeden açabilmesine olanak "
-"sağlar. Parola yönetim görevlerini yerine getirmek için gene de sorulacaktır."
-
-#: ../interfaces/users.ui.h:13
-msgid "Assign a random password by default"
-msgstr "Öntanımlı olarak rastgele bir parola ata"
-
-#: ../interfaces/users.ui.h:14
-msgid "Check password _quality"
-msgstr "Parola _kalitesini sına"
-
-#: ../interfaces/users.ui.h:15
-msgid "Con_firmation:"
-msgstr "_Doğrula:"
-
-
-#: ../interfaces/users.ui.h:17
-msgid "Days between warning and password expiration:"
-msgstr "Parola uyarısı ve zaman aşımı arasındaki gün sayısı:"
-
-#: ../interfaces/users.ui.h:18
-msgid "Default _group:"
-msgstr "Öntanımlı _grup:"
-
-#: ../interfaces/users.ui.h:19
-msgid "Default _shell:"
-msgstr "Öntanımlı _kabuk:"
-
-#: ../interfaces/users.ui.h:20
-msgid "Don't ask for password on _login"
-msgstr "_Girişte parola sorma"
-
-#: ../interfaces/users.ui.h:22
-msgid "Generate _random password"
-msgstr "Rastgele _parola üret"
-
-#: ../interfaces/users.ui.h:23
-msgid "Group _ID:"
-msgstr "Grup _ID:"
-
-#: ../interfaces/users.ui.h:24
-msgid "Group _name:"
-msgstr "Grup _adı:"
-
-#: ../interfaces/users.ui.h:25
-msgid "Group properties"
-msgstr "Grup özellikleri"
-
-#: ../interfaces/users.ui.h:26
-msgid "Groups settings"
-msgstr "Grup ayarları"
-
-#: ../interfaces/users.ui.h:27
-msgid "Ma_ximum days a password may be used:"
-msgstr "Parolanın _kullanılabileceği azami gün sayısı:"
-
-#: ../interfaces/users.ui.h:28
-msgid "Maximum GID:"
-msgstr "En büyük GID:"
-
-#: ../interfaces/users.ui.h:29
-msgid "Maximum UID:"
-msgstr "En büyük UID:"
-
-#: ../interfaces/users.ui.h:30
-msgid "Mi_nimum days between password changes:"
-msgstr "Parola değişiklikleri arasındaki a_sgari gün sayısı:"
-
-#: ../interfaces/users.ui.h:31
-msgid "Minimum GID:"
-msgstr "En küçük GID:"
-
-#: ../interfaces/users.ui.h:32
-msgid "Minimum UID:"
-msgstr "En küçük UID:"
-
-#: ../interfaces/users.ui.h:33
-msgid "Minimum days allowed between password changes:"
-msgstr "Parola değişiklikleri arasındaki izin verilen asgari gün sayısı:"
-
-#: ../interfaces/users.ui.h:34
-msgid "Number of days that a password may be used:"
-msgstr "Bir parolanın kullanılabileceği gün sayısı:"
-
-# archiver/location-list.c:347
-#: ../interfaces/users.ui.h:35
-msgid "O_ffice location:"
-msgstr "O_fis konumu:"
-
-#: ../interfaces/users.ui.h:36
-msgid "Password set to: "
-msgstr "Ayarlanan parola: "
-
-#: ../interfaces/users.ui.h:37
-msgid "Privileges"
-msgstr "Ayrıcalıklar"
-
-#: ../interfaces/users.ui.h:38
-msgid "Profile _name:"
-msgstr "Profil _adı:"
-
-#: ../interfaces/users.ui.h:39
-msgid "Set password b_y hand"
-msgstr "Parola_yı el ile ayarla"
-
-#: ../interfaces/users.ui.h:40
-msgid "User ID:"
-msgstr "Kullanıcı Kimliği:"
-
-#: ../interfaces/users.ui.h:41
-msgid "User Privileges"
-msgstr "Kullanıcı Ayrıcalıkları"
-
-#: ../interfaces/users.ui.h:42
-msgid "User _password:"
-msgstr "Kullanıcı _parolası:"
-
-#: ../interfaces/users.ui.h:43
-msgid "User must log out before you can change his ID."
-msgstr "Kullanıcı kimliğini değiştirmeden önce çıkış yapmış olmalıdır."
-
-#: ../interfaces/users.ui.h:44
-msgid "User profiles"
-msgstr "Kullanıcı profilleri"
-
-#: ../interfaces/users.ui.h:45
-msgid "_Add Group"
-msgstr "_Grup Ekle"
-
-#: ../interfaces/users.ui.h:46
-msgid "_Add Profile"
-msgstr "_Profil Ekle"
-
-#: ../interfaces/users.ui.h:47
-msgid "_Add User"
-msgstr "_Kullanıcı Ekle"
-
-#: ../interfaces/users.ui.h:48
-msgid "_Comments"
-msgstr "_Açıklamalar"
-
-#: ../interfaces/users.ui.h:49
-msgid "_Days between warning and password expiration:"
-msgstr "Parola uyarısı ve zaman aşımı arasın_daki gün sayısı:"
-
-#: ../interfaces/users.ui.h:50 ../src/network/address-list.c:77
-#: ../src/network/hosts.c:33 ../src/shares/table.c:40 ../src/users/table.c:40
-msgid "_Delete"
-msgstr "_Sil"
-
-#: ../interfaces/users.ui.h:51
-msgid "_Generate"
-msgstr "Üre_t"
-
-#: ../interfaces/users.ui.h:52
-msgid "_Home directory:"
-msgstr "Başlangıç _dizini:"
-
-#: ../interfaces/users.ui.h:53
-msgid "_Home phone:"
-msgstr "Ev _telefonu:"
-
-#: ../interfaces/users.ui.h:54
-msgid "_Main group:"
-msgstr "_Ana grup:"
-
-#: ../interfaces/users.ui.h:55
 msgid "_Manage Groups"
 msgstr "Grupları _Yönet"
 
-#: ../interfaces/users.ui.h:56
-msgid "_Profile:"
-msgstr "_Profil:"
+#: ../interfaces/users.ui.h:2
+msgid "Account _type:"
+msgstr "Hesap _türü:"
 
-#: ../interfaces/users.ui.h:57
-msgid "_Real name:"
-msgstr "Ge_rçek ad:"
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr "_Değiştir..."
 
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "_Parola:"
+
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr "_Gelişmiş Ayarlar"
+
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr "Bu hesap devre dışı bırakılmıştır."
+
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr "Hesabı _Etkinleştir"
+
+#: ../interfaces/users.ui.h:8
+msgid "Group properties"
+msgstr "Grup özellikleri"
+
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "Temel Ayarlar"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "Grup _adı:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "Grup _ID:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Grup Üyeleri"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr "Profil Ayarları"
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "Profil _adı:"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Açıklamalar"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Sistem Öntanımları"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "Başlangıç _dizini:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "Öntanımlı _kabuk:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "Öntanımlı _grup:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Parola Ayarları"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Bir parolanın kullanılabileceği gün sayısı:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Parola değişiklikleri arasındaki izin verilen asgari gün sayısı:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Parola uyarısı ve zaman aşımı arasındaki gün sayısı:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Öntanımlı olarak rastgele bir parola ata"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "Otomatik UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "En büyük UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "En büyük GID:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "En küçük UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "En küçük GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Ayrıcalıklar"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Kullanıcı profilleri"
+
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr "_Profil Ekle"
+
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr "Grup ayarları"
+
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr "Sistemde mevcut gruplar:"
+
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr "Kullanıcı İsmini Değiştir"
+
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr "Tam _İsim:"
+
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr "Şu kullanıcının adı değiştiriliyor:"
+
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr "Kullanıcı Parolasını Değiştir"
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "_Doğrula:"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "Ayarlanan parola: "
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "Üre_t"
+
+#: ../interfaces/users.ui.h:43
+msgid "Set password b_y hand"
+msgstr "Parola_yı el ile ayarla"
+
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "Yeni _parola:"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "Rastgele _parola üret"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "Şu kullanıcı için parola değiştiriliyor:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "_Girişte parola sorma"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "_Güncel parola"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "Kullanıcı Hesap Türünü Değiştir"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "Şu kullanıcı için hesap türü değiştiriliyor:"
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "_Özel"
+
+#: ../interfaces/users.ui.h:52
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr "Bu hesap elle belirlenmiş özel ayarlar kullanıyor. Onları ayarlamak için <i>Gelişmiş Ayarlar</i>'ı kullanın"
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "Yeni Kullanıcı Oluştur"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "_İsim:"
+
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
+msgstr "Yeni bir kullanıcı oluştur"
+
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
 #: ../interfaces/users.ui.h:58
+msgid ""
+"Username must consist of:\n"
+"  ➣ lower case letters from the English alphabet\n"
+"  ➣ digits\n"
+"  ➣ any of the characters \".\", \"-\" and \"_\""
+msgstr "Kullanıcı adı şunlardan oluşmalıdır:\n  ➣ İngiliz alfabesindeki küçük harfler\n  ➣ sayılar\n  ➣ şu karakterler \".\", \"-\" and \"_\""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr "Bu isimde bir kullanıcı zaten mevcuttur. Lütfen yeni kullanıcı için başka bir isim seçiniz."
+
+#: ../interfaces/users.ui.h:63
+msgid "Username must start with a letter!"
+msgstr "Kullanıcı ismi bir harf ile başlamalıdır!"
+
+#: ../interfaces/users.ui.h:64
+msgid "_Encrypt home folder to protect sensitive data"
+msgstr "Hassas verileri korumak için ev klasörünü _şifrele"
+
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "Tüm dosyalarınızı bilgisayarınıza fiziki erişimi bulunan kişilerden güçlü bir şekilde korumak için giriş parolanız ile şifreleyin. Performansın biraz düşmesine neden olur."
+
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "Gelişmiş Kullanıcı Ayarlarını Değiştir"
+
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "Şu kullanıcı için gelişmiş ayarlar değiştiriliyor:"
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "O_fis konumu:"
+
+#: ../interfaces/users.ui.h:69
+msgid "_Work phone:"
+msgstr "İş _telefonu:"
+
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "Ev _telefonu:"
+
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr "İrtibat Bilgisi"
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "Kullanıcı Ayrıcalıkları"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Gelişmiş Ayarlar"
+
+#: ../interfaces/users.ui.h:74
 msgid "_Shell:"
 msgstr "_Kabuk:"
 
-#: ../interfaces/users.ui.h:60
-msgid "_Work phone:"
-msgstr "İş _telefonu:"
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "_Ana grup:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "Kullanıcı Kimliği:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "Kullanıcı oturumda bulunduğunda kimliğini değiştiremezsiniz."
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "Hes_abı devre dışı bırak"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Seçimlik Ayarlar"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Parola değişiklikleri arasındaki a_sgari gün sayısı:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "Parolanın _kullanılabileceği azami gün sayısı:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "Parola uyarısı ve zaman aşımı arasın_daki gün sayısı:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr "Sistem kullanıcılarını göster"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr "users-admin aracının sistem kullanıcılarını kullanıcı listesinde gösterip göstermeyeceğini ayarlar."
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr "Root kullanıcıyı göster"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr "users-admin aracının root kullanıcıyı kullanıcı listesinde gösterip göstermeyeceğini ayarlar."
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -680,60 +760,69 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr ""
-"Eğer aşağıda listelenen ortamlardan birisi gibi çalıştığına kesinlikle "
-"eminseniz, onu seçip devam edebilirsiniz. Bununla birlikte, bunun sistem "
-"yapılandırmanızı ya da doğrudan bilgisayarınızı bozabileceğini dikkate alın."
+msgstr "Eğer aşağıda listelenen ortamlardan birisi gibi çalıştığına kesinlikle eminseniz, onu seçip devam edebilirsiniz. Bununla birlikte, bunun sistem yapılandırmanızı ya da doğrudan bilgisayarınızı bozabileceğini dikkate alın."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
 msgstr "Desteklenmeyen platform"
 
-#: ../src/common/gst-tool.c:179 ../src/common/gst-tool.c:213
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr "Yapılandırma yüklenemedi"
 
-#: ../src/common/gst-tool.c:180
-msgid "You are not allowed to access the system configuration."
-msgstr "Sistem yapılandırmasına erişmeye yetkili değilsiniz."
-
-#: ../src/common/gst-tool.c:182 ../src/common/gst-tool.c:215
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:190
 msgid "The configuration could not be saved"
 msgstr "Yapılandırma kaydedilemedi"
 
-#: ../src/common/gst-tool.c:183
+#: ../src/common/gst-tool.c:194
+msgid "You are not allowed to access the system configuration."
+msgstr "Sistem yapılandırmasına erişmeye yetkili değilsiniz."
+
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
 msgstr "Sistem yapılandırmasını değiştirmeye yetkili değilsiniz."
 
-#: ../src/common/gst-tool.c:218
+#: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
 msgstr "Geçersiz veri bulundu."
 
 #. OOBS_RESULT_ERROR
-#: ../src/common/gst-tool.c:220
+#: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
 msgstr "Bilinmeyen bir hata oluştu."
 
-#: ../src/common/gst-tool.c:442
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "Yardım gösterilemedi"
 
-#: ../src/common/gst-tool.c:626
+#: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
 msgstr "Sistem yapılandırması potansiyel olarak değişmiş."
 
-#: ../src/common/gst-tool.c:628
+#: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
-msgstr ""
-"İçerik güncellensin mi? Bu şu anki tüm değişikliklerin kaybolmasına sebep "
-"olacaktır."
+msgstr "İçerik güncellensin mi? Bu şu anki tüm değişikliklerin kaybolmasına sebep olacaktır."
+
+#: ../src/common/gst-tool.c:687
+#, c-format
+msgid ""
+"An error occurred while checking for authorizations: %s\n"
+"You may report this as a bug."
+msgstr "İzinler denetlenirken bir hata meydana geldi: %s\nBunu bir hata olarak rapor edebilirsiniz."
 
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
-#: ../src/shares/table.c:38 ../src/users/table.c:38
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "_Ekle"
 
-#: ../src/network/address-list.c:486
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
+msgid "_Delete"
+msgstr "_Sil"
+
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "Adresi yazın"
 
@@ -749,9 +838,7 @@ msgstr "Modem aygıtı otomatik tanınamadı"
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
-msgstr ""
-"Aygıtın meşgul olmadığından ve bilgisayara doğru bir şekilde bağlandığından "
-"emin olun."
+msgstr "Aygıtın meşgul olmadığından ve bilgisayara doğru bir şekilde bağlandığından emin olun."
 
 #: ../src/network/callbacks.c:523
 msgid "The host name has changed"
@@ -761,9 +848,7 @@ msgstr "Makine adı değişti"
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr ""
-"Bu durumda yeni uygulamalar başlatamayacak, ve yeniden giriş yapmak zorunda "
-"kalacaksınız. Yine de devam ediyor musunuz?"
+msgstr "Bu durumda yeni uygulamalar başlatamayacak, ve yeniden giriş yapmak zorunda kalacaksınız. Yine de devam ediyor musunuz?"
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
@@ -819,7 +904,7 @@ msgid "%s Properties"
 msgstr "%s Özellikleri"
 
 #: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
-#: ../src/shares/table.c:39 ../src/users/table.c:39
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "Ö_zellikler"
 
@@ -841,65 +926,51 @@ msgstr "Dolaşım kipi etkinleştirildi"
 
 #: ../src/network/ifaces-list.c:289
 #, c-format
-msgid "Essid: %s "
-msgstr "Essid: %s "
+msgid "<b>Essid:</b> %s "
+msgstr "<b>Essid:</b> %s "
 
-#: ../src/network/ifaces-list.c:295
-#, c-format
-msgid "Address: %s Subnet mask: %s"
-msgstr "Adres: %s Alt ağ maskesi: %s"
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
+msgstr "Adres:"
 
-#: ../src/network/ifaces-list.c:299
-#, c-format
-msgid "Address: %s"
-msgstr "Adres: %s"
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr "Ağ maskesi:"
 
-#: ../src/network/ifaces-list.c:303
-#, c-format
-msgid "Address: %s Remote address: %s"
-msgstr "Adres: %s Uzaktaki adres: %s"
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr "Uzaktaki adres:"
 
-#: ../src/network/ifaces-list.c:315
-#, c-format
-msgid "Type: %s Phone number: %s"
-msgstr "Tür: %s Telefon numarası: %s"
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr "Tür:"
 
-#: ../src/network/ifaces-list.c:318
-#, c-format
-msgid "Type: %s Access point name: %s"
-msgstr "Tür: %s Erişim noktası adı: %s"
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr "Telefon numarası:"
 
-#: ../src/network/ifaces-list.c:325
-#, c-format
-msgid "Type: %s Ethernet interface: %s"
-msgstr "Tür: %s Ethernet arayüzü: %s"
-
-#: ../src/network/ifaces-list.c:329
-#, c-format
-msgid "Type: %s"
-msgstr "Tür: %s"
-
-#: ../src/network/ifaces-list.c:346
+#: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
 msgstr "Kablosuz bağlantı"
 
-#: ../src/network/ifaces-list.c:348
+#: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
 msgstr "Kızılötesi bağlantısı"
 
-#: ../src/network/ifaces-list.c:350
+#: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
 msgstr "Kablolu bağlantı"
 
-#: ../src/network/ifaces-list.c:352
+#: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
 msgstr "Paralel port bağlantısı"
 
-#: ../src/network/ifaces-list.c:354
+#: ../src/network/ifaces-list.c:364
 msgid "Point to point connection"
 msgstr "Noktadan noktaya bağlantı"
 
-# archiver/location-list.c:347
 #: ../src/network/locations-combo.c:221
 msgid "Changing network location"
 msgstr "Ağ konumu değiştiriliyor"
@@ -912,7 +983,6 @@ msgstr "Aynı isimde bir konum zaten var"
 msgid "Overwrite it?"
 msgstr "Üstüne yazılsın mı?"
 
-# archiver/location-list.c:347
 #: ../src/network/locations-combo.c:355
 msgid "Save location"
 msgstr "Konumu kaydet"
@@ -934,9 +1004,7 @@ msgstr "Arayüz mevcut değil"
 msgid ""
 "Check that it is correctly typed and that it is correctly supported by your "
 "system."
-msgstr ""
-"Doğru girildiğini ve sisteminiz tarafından doğru bir şekilde desteklendiğini "
-"kontrol edin."
+msgstr "Doğru girildiğini ve sisteminiz tarafından doğru bir şekilde desteklendiğini kontrol edin."
 
 #: ../src/network/main.c:183
 msgid "Configure a network interface"
@@ -954,35 +1022,33 @@ msgstr "İlk ağ arayüzünü belirli bir tür ile yapılandır"
 msgid "TYPE"
 msgstr "TÜR"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "Ağ aygıtlarını ve bağlantılarını yapılandır"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "Ağ"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Ağ aygıtlarını ve bağlantılarını yapılandır"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
 msgstr "Ağ Ayarları"
 
-#: ../src/services/callbacks.c:59
+#: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
 msgstr "\"%s\" servisi için ayarlar"
 
-#: ../src/services/callbacks.c:119
+#: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
 msgstr "%s servisini devre dışı bırakmak istediğinize emin misiniz?"
 
-#: ../src/services/callbacks.c:123
+#: ../src/services/callbacks.c:126
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
-msgstr ""
-"Bu, sisteminizin davranışını birkaç yolla etkileyebilir, belki de veri "
-"kaybına neden olabilir."
+msgstr "Bu, sisteminizin davranışını birkaç yolla etkileyebilir, belki de veri kaybına neden olabilir."
 
 #: ../src/services/service.c:32
 msgid "Web server"
@@ -1391,13 +1457,13 @@ msgstr "Sistem izleyicisi"
 msgid "Virtual Machine management"
 msgstr "Sanal Makine yönetimi"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "Sistem açıldığında hangi hizmetlerin çalıştırılacağını seçin"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Hizmetler"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Sistem açıldığında hangi hizmetlerin çalıştırılacağını seçin"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1428,7 +1494,7 @@ msgstr "Durum"
 msgid "Priority"
 msgstr "Öncelik"
 
-#: ../src/services/services-tool.c:99
+#: ../src/services/services-tool.c:106
 msgid "Services Settings"
 msgstr "Servis Ayarları"
 
@@ -1448,11 +1514,11 @@ msgstr "Paylaşılan yol ekle, eğer mevcut ise değiştir"
 msgid "PATH"
 msgstr "YOL"
 
-#: ../src/shares/caja/caja-shares.c:152
+#: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
 msgstr "Kla_sörü Paylaş..."
 
-#: ../src/shares/caja/caja-shares.c:153
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr "Bu klasörü diğer bilgisayarlar ile paylaş"
 
@@ -1472,7 +1538,7 @@ msgstr "IP adresini belirtin"
 msgid "Specify network"
 msgstr "Ağ belirtin"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Ağ komşularınız için uygun olan klasörleri yapılandırın"
 
@@ -1501,38 +1567,43 @@ msgstr "'%s' klasörü için ayarlar"
 msgid "Share Folder"
 msgstr "Klasör Paylaş"
 
-#: ../src/shares/shares-tool.c:155
+#: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
 msgstr "Paylaşım hizmeti kurulu değil"
 
-#: ../src/shares/shares-tool.c:157
+#: ../src/shares/shares-tool.c:154
 msgid ""
 "You need to install at least either Samba or NFS in order to share your "
 "folders."
-msgstr ""
-"Klasörlerinizi paylaşabilmeniz için en azından Samba ya da NFS kurmanız "
-"gerekli."
+msgstr "Klasörlerinizi paylaşabilmeniz için en azından Samba ya da NFS kurmanız gerekli."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Sistem zamanı, tarihi ve zaman dilimini değiştir"
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
+msgstr "Dünya Haritası"
 
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/e-map/e-map.c:622
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
+msgstr "Zaman dilimini seçmek için fareye dayalı etkileşimli harita. Klayve kullanıcıları bunun yerine saat dilimini aşağıdaki kutudan seçmelidir."
+
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Zaman ve Tarih"
 
-#: ../src/time/time-tool.c:397
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Sistem zamanı, tarihi ve zaman dilimini değiştir"
+
+#: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "NTP desteği kurulu değil"
 
-#: ../src/time/time-tool.c:399
+#: ../src/time/time-tool.c:400
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr ""
-"Yerel zaman sunucunuz ile İnternet zaman sunucuları arasındaki "
-"eşzamanlandırmayı sağlamak için lütfen NTP desteğini kurun ve etkin hale "
-"getirin."
+msgstr "Yerel zaman sunucunuz ile İnternet zaman sunucuları arasındaki eşzamanlandırmayı sağlamak için lütfen NTP desteğini kurun ve etkin hale getirin."
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
@@ -1554,329 +1625,495 @@ msgstr "İnternet sunucuları ile eşzamanlı tut"
 msgid "Manual"
 msgstr "El ile"
 
-#: ../src/time/time-tool.c:668
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "Zaman ve Tarih Ayarları"
 
-#: ../src/users/group-settings.c:52
+#: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
 msgstr "Yönetici grubu silinemez"
 
-#: ../src/users/group-settings.c:55 ../src/users/group-settings.c:296
-#: ../src/users/group-settings.c:320 ../src/users/user-settings.c:61
-#: ../src/users/user-settings.c:660
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "Bu işlem sistemi kullanışsız bir halde getirebilir."
 
-#: ../src/users/group-settings.c:68
+#: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
 msgstr "\"%s\" grubunu silmek istediğinize emin misiniz?"
 
-#: ../src/users/group-settings.c:71
+#: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
-msgstr ""
-"Bu işlem dosya sisteminde geçersiz grup numasına sahip dosyalar bırakabilir."
+msgstr "Bu işlem dosya sisteminde geçersiz grup kimliğine sahip dosyalar bırakabilir."
 
-#: ../src/users/group-settings.c:167
+#: ../src/users/group-settings.c:144
 msgid "New group"
 msgstr "Yeni grup"
 
-#: ../src/users/group-settings.c:175
+#: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
 msgstr "'%s' Grubunun Özellikleri"
 
-#: ../src/users/group-settings.c:292
+#: ../src/users/group-settings.c:217
 msgid "Group name is empty"
 msgstr "Grup adı boş"
 
-#: ../src/users/group-settings.c:293
+#: ../src/users/group-settings.c:218
 msgid "A group name must be specified."
 msgstr "Bir grup adı belirtilmesi zorunludur."
 
-#: ../src/users/group-settings.c:295
+#: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
 msgstr "Yönetici grubu kullanıcısı için grup adı değiştirilmemelidir"
 
-#: ../src/users/group-settings.c:298
+#: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
 msgstr "Grup adında geçersiz harfler var"
 
-#: ../src/users/group-settings.c:299
+#: ../src/users/group-settings.c:224
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr ""
-"Lütfen küçük harfle başlayıp küçük harf ve rakamlarla devam eden geçerli bir "
-"grup adı tanımlayın."
+msgstr "Lütfen küçük harfle başlayıp küçük harf ve rakamlarla devam eden geçerli bir grup adı tanımlayın."
 
-#: ../src/users/group-settings.c:303 ../src/users/user-settings.c:593
+#: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
 msgstr "\"%s\" grubu zaten var"
 
-#: ../src/users/group-settings.c:304
+#: ../src/users/group-settings.c:230
 msgid "Please choose a different group name."
 msgstr "Lütfen farklı bir grup adı seçin."
 
-#: ../src/users/group-settings.c:319
+#: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
 msgstr "Yönetici hesabı grup kimliği değiştirilmemelidir"
 
-#: ../src/users/groups-table.c:45
+#. check that GID is free
+#: ../src/users/group-settings.c:261
+#, c-format
+msgid "Group ID %d is already used by group \"%s\""
+msgstr "%d grup kimliği zaten \"%s\" grubu tarafından kullanılmaktadır."
+
+#: ../src/users/group-settings.c:264
+msgid "Please choose a different numeric identifier for the new group."
+msgstr "Yeni grup için farklı bir sayısal tanımlayıcı seçiniz."
+
+#: ../src/users/group-settings.c:266
+#, c-format
+msgid "Please choose a different numeric identifier for group \"%s\"."
+msgstr "\"%s\" grubu için farklı bir sayısal tanımlayıcı seçiniz."
+
+#: ../src/users/groups-table.c:44
 msgid "Group name"
 msgstr "Grup adı"
 
-#: ../src/users/privileges-table.c:49
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
+msgstr "Oturum açmada sorulmaz"
+
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
+msgstr "Oturum açmada sorulur"
+
+#: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
 msgstr "Sistem kayıtlarını izle"
 
-#: ../src/users/privileges-table.c:50
+#: ../src/users/privileges-table.c:54
 msgid "Administer the system"
 msgstr "Sistemi yönet"
 
-#: ../src/users/privileges-table.c:51
+#: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
 msgstr "Ses aygıtlarını kullan"
 
-#: ../src/users/privileges-table.c:52
+#: ../src/users/privileges-table.c:56
 msgid "Use CD-ROM drives"
 msgstr "CD-ROM sürücüleri kullan"
 
-#: ../src/users/privileges-table.c:53
+#: ../src/users/privileges-table.c:57
 msgid "Burn CDs / DVDs"
 msgstr "CD / DVD Yaz"
 
-#: ../src/users/privileges-table.c:54
+#: ../src/users/privileges-table.c:58
 msgid "Use modems"
 msgstr "Modemleri kullan"
 
-#: ../src/users/privileges-table.c:55
+#: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
 msgstr "Bir modem kullanarak internete bağlan"
 
-#: ../src/users/privileges-table.c:56
+#: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
 msgstr "Faks gönder ve al"
 
-#: ../src/users/privileges-table.c:57
+#: ../src/users/privileges-table.c:61
 msgid "Use floppy drives"
 msgstr "Disket sürücüleri kullan"
 
-#: ../src/users/privileges-table.c:58
+#: ../src/users/privileges-table.c:62
+msgid "Mount user-space filesystems (FUSE)"
+msgstr "Kullanıcı alanı dosya sistemlerini bağla (FUSE)"
+
+#: ../src/users/privileges-table.c:63
+msgid "Configure printers"
+msgstr "Yazıcıları yapılandır"
+
+#: ../src/users/privileges-table.c:64
+msgid "Connect to wireless and ethernet networks"
+msgstr "Kablosuz ve kablolu ağlara bağlan"
+
+#: ../src/users/privileges-table.c:65
 msgid "Access external storage devices automatically"
 msgstr "Harici depolama aygıtlarına otomatik olarak eriş"
 
-#: ../src/users/privileges-table.c:59
+#: ../src/users/privileges-table.c:66
+msgid "Suspend and hibernate the computer"
+msgstr "Bilgisayarı beklemeye al ya da hazırda beklet"
+
+#: ../src/users/privileges-table.c:67
 msgid "Access /proc filesystem"
 msgstr "/proc dosya sistemine eriş"
 
-#: ../src/users/privileges-table.c:60
+#: ../src/users/privileges-table.c:68
 msgid "Use scanners"
 msgstr "Tarayıcıları kullan"
 
-#: ../src/users/privileges-table.c:61
+#: ../src/users/privileges-table.c:69
 msgid "Use tape drives"
 msgstr "Manyetik bant sürücülerini kullan"
 
-#: ../src/users/privileges-table.c:62
+#: ../src/users/privileges-table.c:70
 msgid "Use USB devices"
 msgstr "USB aygıtlarını kullan"
 
-#: ../src/users/privileges-table.c:63
+#: ../src/users/privileges-table.c:71
+msgid "Use VirtualBox virtualization solution"
+msgstr "Virtualbox sanallaştırma çözümünü kullan"
+
+#: ../src/users/privileges-table.c:72
 msgid "Use video devices"
 msgstr "Video aygıtlarını kullan"
 
-#: ../src/users/privileges-table.c:64
+#: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
 msgstr "Yönetici yetkilerine sahip olmak için"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Kullanıcı ve grup ekle ya da sil"
+#: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr "Masaüstü kullanıcısı"
 
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr "Normal işlemleri yapabilir. Yazılım kuramaz ve tüm kullanıcıları etkileyen ayarları değiştiremez."
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr "Yönetici"
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr "Sistemde her şeyi değiştirebilir, buna yazılım kurmak ve güncellemek de dahildir."
+
+#: ../src/users/run-passwd.c:421
+msgid "Authentication failed"
+msgstr "Kimlik doğrulaması başarısız"
+
+#: ../src/users/run-passwd.c:498
+#, c-format
+msgid "The new password is too short"
+msgstr "Yeni parola çok kısa"
+
+#: ../src/users/run-passwd.c:504
+#, c-format
+msgid "The new password is too simple"
+msgstr "Yeni parola çok basit"
+
+#: ../src/users/run-passwd.c:510
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Eski ve yeni parolalar birbirlerine çok benziyor"
+
+#: ../src/users/run-passwd.c:513
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Yeni parola sayısal ya da özel karakterler içermelidir"
+
+#: ../src/users/run-passwd.c:517
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Yeni parola eski parolanın aynısı"
+
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Yeni parola zaten yakın geçmişte kullanılmıştı."
+
+#: ../src/users/run-passwd.c:524
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Başlangıçta doğrulamadan yana parolanız değiştirilmiştir!"
+
+#: ../src/users/run-passwd.c:528
+#, c-format
+msgid "Unknown error"
+msgstr "Bilinmeyen hata"
+
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Kullanıcılar ve Gruplar"
 
-#: ../src/users/user-settings.c:58
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Kullanıcı ve grup ekle ya da sil"
+
+#: ../src/users/user-password.c:97
+msgid "Password is too short"
+msgstr "Parola çok kısa"
+
+#: ../src/users/user-password.c:98
+msgid ""
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
+msgstr "Kullanıcı parolaları 5 karakterden uzun olmalı ve tercihen sayı, harf ve özel karakterler içermelidir. "
+
+#: ../src/users/user-password.c:101
+msgid "Password confirmation is not correct"
+msgstr "Parola onaylama doğru değil"
+
+#: ../src/users/user-password.c:102
+msgid "Check that you have provided the same password in both text fields."
+msgstr "Her iki metin alanına da aynı parolayı girdiğinizden emin olun."
+
+#: ../src/users/user-password.c:445
+msgid "Please choose another password."
+msgstr "Başka bir parola seçiniz."
+
+#: ../src/users/user-password.c:456
+msgid "Please type again your current password."
+msgstr "Güncel parolanızı yeniden giriniz."
+
+#: ../src/users/user-password.c:463
+msgid "Password could not be changed"
+msgstr "Parola değiştirilemedi"
+
+#: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
 msgstr "Yönetici hesabı silinemez"
 
-#: ../src/users/user-settings.c:72
+#: ../src/users/user-settings.c:96
 #, c-format
-msgid "Are you sure you want to delete account \"%s\"?"
-msgstr "\"%s\" hesabını silmek istediğinize emin misiniz?"
+msgid "%s is currently using this computer"
+msgstr "%s şu anda bu bilgisayarı kullanmaktadır"
 
-#: ../src/users/user-settings.c:75
+#: ../src/users/user-settings.c:99
+msgid "Please ensure the user has logged out before deleting this account."
+msgstr "Hesabını silmeden önce kullanıcının çıkış yaptığından emin olunuz."
+
+#: ../src/users/user-settings.c:109
+msgid "Can't delete the only administrator account"
+msgstr "Kalan tek yönetici hesabı silinemez"
+
+#: ../src/users/user-settings.c:111
+#, c-format
 msgid ""
-"This will disable this user's access to the system without deleting the "
-"user's home directory."
-msgstr ""
-"Bu, kullanıcının sisteme olan erişimini kullanıcının başlangıç dizinini "
-"silmeden kapatacaktır."
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
+msgstr "%s bu bilgisayardaki tek yöneticidir. Bu hesabı silebilseydiniz, bu, sistemi yönetemeyeceğiniz anlamına gelirdi."
 
-#: ../src/users/user-settings.c:85
-msgid "This user is currently using this computer"
-msgstr "Bu kullanıcı şu anda bu bilgisayarı kullanmakta"
+#: ../src/users/user-settings.c:121
+#, c-format
+msgid "Remove home folder for %s?"
+msgstr "%s için ev klasörü kaldırılsın mı?"
+
+#: ../src/users/user-settings.c:124
+#, c-format
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr "%s adlı kullanıcının <tt>%s</tt> içinde sahip olduğu dosyalar artık ihtiyacınız yoksa tamamen silinebilir. Hesabı silmeden önce yedekleme yapabilir ya da bir yöneticinin daha sonra kaydetmesi için yapması için bu dosyaları tutabilirsiniz."
+
+#: ../src/users/user-settings.c:132
+msgid "Keep Files"
+msgstr "Dosyaları Tut"
+
+#: ../src/users/user-settings.c:133
+msgid "Don't Remove Account"
+msgstr "Hesabı Kaldırma"
+
+#: ../src/users/user-settings.c:134
+msgid "Delete Files"
+msgstr "Dosyaları Sil"
+
+#: ../src/users/user-settings.c:330
+msgid "Superuser"
+msgstr "Süper kullanıcı"
+
+#: ../src/users/user-settings.c:335
+msgid "Custom"
+msgstr "Özel"
+
+#. TRANSLATORS: This applies to a password.
+#: ../src/users/user-settings.c:344
+msgid "None"
+msgstr "Boş"
 
 #: ../src/users/user-settings.c:393
-msgid "New user account"
-msgstr "Yeni kullanıcı hesabı"
-
-#: ../src/users/user-settings.c:414
-#, c-format
-msgid "Account '%s' Properties"
-msgstr "'%s' Hesabının Özellikleri"
-
-#: ../src/users/user-settings.c:579
-msgid "User name is empty"
-msgstr "Kullanıcı adı boş"
-
-#: ../src/users/user-settings.c:580
-msgid "A user name must be specified."
-msgstr "Bir kullanıcı adı belirtilmelidir."
-
-#: ../src/users/user-settings.c:582
-msgid "User name has invalid characters"
-msgstr "Kullanıcı adı geçersiz karakterler içeriyor"
-
-#: ../src/users/user-settings.c:583
-msgid ""
-"Please set a valid user name consisting of a lower case letter followed by "
-"lower case letters and numbers."
-msgstr ""
-"Lütfen küçük harfle başlayıp küçük harf ve rakamlarla devam eden geçerli bir "
-"kullanıcı adı tanımlayın."
-
-#: ../src/users/user-settings.c:587
-#, c-format
-msgid "User name \"%s\" already exists"
-msgstr "\"%s\" kullanıcı adı zaten var"
-
-#: ../src/users/user-settings.c:588 ../src/users/user-settings.c:594
-msgid "Please choose a different user name."
-msgstr "Lütfen farklı bir kullanıcı adı seçin."
-
-#: ../src/users/user-settings.c:619
 #, c-format
 msgid "Invalid character \"%c\" in comment"
 msgstr "Açıklamada \"%c\" geçersiz karakteri"
 
-#: ../src/users/user-settings.c:620
+#: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
 msgstr "Bu karakterin kullanılmadığını kontrol edin."
 
-#: ../src/users/user-settings.c:638
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "Başlangıç dizininde tamamlanmamış yol"
 
-#: ../src/users/user-settings.c:639
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
-"i.e.: /home/john."
-msgstr ""
-"Lütfen başlangıç dizini için tam yolu girin\n"
-"örn.: /home/deniz."
+"<span size=\"smaller\">i.e.: /home/john</span>."
+msgstr "Ev klasörü için tam yolu giriniz.\n<span size=\"smaller\">mesela: /home/avanakavni</span>."
 
-#: ../src/users/user-settings.c:642
-msgid "Home directory already exists"
-msgstr "Başlangıç dizini zaten mevcut"
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
+msgstr "Yeni ev klasörü zaten mevcut, kullanılsın mı?"
 
-#: ../src/users/user-settings.c:643
-msgid "Please enter a different home directory path."
-msgstr "Lütfen "
+#: ../src/users/user-settings.c:449
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr "%s için ev klasörü <tt>%s</tt> olarak ayarlandı, ancak bu klasör zaten mevcut. Dosyaları bu klasörden kullanmak mı yoksa <tt>%s</tt> konumunun içeriğini eski verilerin üzerine yazılacak şekilde yeni eve kopyalamak mı istiyorsunuz?\n\nEmin değilseniz veri kaybetmemek için yeni klasörü kullanın ve sonra eski klasörden dosyaları kopyalayın."
 
-#: ../src/users/user-settings.c:659
-msgid "Administrator account's user ID should not be modified"
-msgstr "Yönetici hesabının kullanıcı ID'si değiştirilmemelidir"
+#: ../src/users/user-settings.c:461
+msgid "_Replace With Old Files"
+msgstr "Eski Dosyalarla De_ğiştir"
 
-#: ../src/users/user-settings.c:674
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr "Değişikliği _İptal Et"
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr "Yeni Dosyaları _Kullan"
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr "Kullanıcıyı yeni ev klasörünün _sahibi yap"
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr "Eski ev klasörünü _sil"
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr "%s için ev klasörü <tt>%s</tt> olarak ayarlandı, ancak bu klasör zaten mevcut. Dosyaları bu klasörden kullanmak mı yoksa tüm içeriğini silip tamamen boş bir ev klasörü mü kullanmak istiyorsunuz?\n\nEmin değilseniz dosyaları tutun ve gerekirse sonra silin."
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr "Dosyaları _Sİl"
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr "Mevcut Dosyalar_ı Kullan"
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr "Eski ev klasörü yeni konuma kopyalansın mı?"
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr "%s için ev klasörü <tt>%s</tt> olarak ayarlandı, ki bu klasör mevcut değil. Eski ev klasörünün (<tt>%s</tt>) içeriğini kopyalamak mı yoksa tamamen boş bir ev klasörü mü kullanmak istiyorsunuz?\n\nDosyaları yeni konuma kopyalamayı seçerseniz eski klasörün silinmesi güvenlidir."
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr "Bo_ş Klasör Kullan"
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr "Eski Dosyaları Ko_pyala"
+
+#: ../src/users/user-settings.c:604
+msgid "ID for the root user should not be modified"
+msgstr "Root kullanıcının kimliği değiştirilmemelidir"
+
+#. check that UID is free
+#: ../src/users/user-settings.c:608
+#, c-format
+msgid "User ID %d is already used by user %s"
+msgstr "%d kullanıcı kimliği zaten %s tarafından kullanılmaktadır"
+
+#: ../src/users/user-settings.c:610
+#, c-format
+msgid "Please choose a different numeric identifier for %s."
+msgstr "%s için farklı bir sayısal tanımlayıcı seçiniz."
+
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr "Kabukta tamamlanmamış yol"
 
-#: ../src/users/user-settings.c:675
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
-"i.e.: /bin/bash."
-msgstr ""
-"Lütfen kabuk için tam yolu girin\n"
-"örn.: /bin/bash."
+"<span size=\"smaller\">i.e.: /bin/bash</span>."
+msgstr "Kabuk için tam yol giriniz\n<span size=\"smaller\">mesela: /bin/bash</span>."
 
-#: ../src/users/user-settings.c:708
-msgid "Password is too short"
-msgstr "Parola çok kısa"
+#: ../src/users/user-settings.c:663
+msgid "Can't revoke administration rights"
+msgstr "Yönetim izinleri iptal edilemedi"
 
-#: ../src/users/user-settings.c:709
+#: ../src/users/user-settings.c:666
+#, c-format
 msgid ""
-"User passwords must be longer than 6 characters and preferably formed by "
-"numbers, letters and special characters."
-msgstr ""
-"Kullanıcı parolaları 6 karakterden uzun olmalı ve tercihen rakamlardan, "
-"harflerden ve özel karakterlerden oluşmalı."
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
+msgstr "%s bu bilgisayardaki tek yöneticidir. Bu hesap için yönetim izinlerini iptal edebilseydiniz, bu, sistemi yönetemeyeceğiniz anlamına gelirdi."
 
-#: ../src/users/user-settings.c:712
-msgid "Password confirmation is not correct"
-msgstr "Parola onaylama doğru değil"
+#: ../src/users/user-settings.c:683
+msgid "You are about to revoke your own administration rights"
+msgstr "Kendi yönetici haklarınızı iptal etmek üzeresiniz"
 
-#: ../src/users/user-settings.c:713
-msgid "Check that you have provided the same password in both text fields."
-msgstr "Her iki metin alanına da aynı parolayı girdiğinizden emin olun."
+#: ../src/users/user-settings.c:686
+#, c-format
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
+msgstr "%s artık yönetimsel görevleri gerçekleştiremeyecektir. Bu hesabın yönetim haklarını kendi kendine tekrar edinmesine izin verilmeyecektir."
 
-#: ../src/users/users-table.c:44
-msgid "Name"
-msgstr "İsim"
+#: ../src/users/user-settings.c:691
+msgid "Give up administration rights"
+msgstr "Yönetici haklarından vazgeç"
 
-#: ../src/users/users-table.c:67
-msgid "Login name"
-msgstr "Giriş adı"
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr "Değişiklikler kullanıcı ayarlarına uygulanıyor..."
 
-#: ../src/users/users-table.c:77
-msgid "Home directory"
-msgstr "Başlangıç dizini"
-
-#: ../src/users/users-tool.c:216
+#: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "Kullanıcı Ayarları"
-
-#~ msgid "_Unlock"
-#~ msgstr "_Kilidi Aç"
-
-#~ msgid "This action is allowed"
-#~ msgstr "Bu eyleme izin veriliyor"
-
-#~ msgid "This action is not allowed"
-#~ msgstr "Bu eyleme izin verilmiyor"
-
-#~ msgid "Could not authenticate"
-#~ msgstr "Kimlik doğrulanamadı"
-
-#~ msgid ""
-#~ "Off\n"
-#~ "Low\n"
-#~ "Medium\n"
-#~ "Loud"
-#~ msgstr ""
-#~ "Kapalı\n"
-#~ "Düşük\n"
-#~ "Orta\n"
-#~ "Yüksek"
-
-#~ msgid "MATE System Tools"
-#~ msgstr "MATE Sistem Araçları"
-
-#~ msgid "WPA"
-#~ msgstr "WPA"
-
-#~ msgid "Phone number: %s Login: %s"
-#~ msgstr "Telefon numarası: %s Giriş: %s"
-
-#~ msgid "Modem connection"
-#~ msgstr "Modem bağlantısı"
-
-#~ msgid "ISDN connection"
-#~ msgstr "ISDN bağlantısı"
-
-#~ msgid "Administrator account's user name should not be modified"
-#~ msgstr "Yönetici hesabının kullanıcı adı değiştirilmemelidir"

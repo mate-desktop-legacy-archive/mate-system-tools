@@ -1,1760 +1,2118 @@
-# Mate Süsteemitööriistade eesti keele tõlge.
-# Estonian translation of Mate System Tools.
-#
-# Copyright (C) 2002, 2005, 2006 Free Software Foundation, Inc.
-# Copyright (C) 2007–2010 The MATE Project
-# This file is distributed under the same license as the mate-system-tools
-# package.
-#
-# Tõivo Leedjärv <toivo linux ee>, 2002.
-# Ivar Smolin <okul linux ee>, 2005–2010.
-# Priit Laes <amd store20 com>, 2006.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Mattias Põldaru <mahfiaz gmail com>, 2010.
-#
+# Priit Laes <amd store20 com>, 2006.
+# Tõivo Leedjärv <toivo linux ee>, 2002.
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE System Tools MASTER\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-"
-"system-tools&component=general\n"
-"POT-Creation-Date: 2010-08-20 09:55+0000\n"
-"PO-Revision-Date: 2010-08-27 13:47+0300\n"
-"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
-"Language-Team: Estonian <mate-et@linux.ee>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:52+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Estonian (http://www.transifex.com/projects/p/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-msgid "Access point name:"
-msgstr "Access pointi nimi:"
-
-msgid "Account data"
-msgstr "Konto andmed"
-
-msgid "Aliases:"
-msgstr "Aliased:"
-
-msgid "Con_figuration:"
-msgstr "_Sätted:"
-
-msgid "Connection Settings"
-msgstr "Ühenduse sätted"
-
-msgid "Connection type:"
-msgstr "Ühenduse liik:"
-
-msgid "Connections"
-msgstr "Ühendused"
-
-msgid "DNS"
-msgstr "DNS"
-
-msgid "DNS Servers"
-msgstr "Nimeserverid"
-
-msgid "D_omain name:"
-msgstr "_Domeeni nimi:"
-
-msgid "Delete current location"
-msgstr "Käesoleva asukoha kustutamine"
-
-msgid "E_nable roaming mode"
-msgstr "Luba _uitühenduse režiim"
-
-msgid "E_nable this connection"
-msgstr "Ühendus on _lubatud"
-
-msgid "Ethernet interface:"
-msgstr "Ethernet-liides:"
-
-msgid "General"
-msgstr "Üldine"
-
-msgid "Hexadecimal"
-msgstr "Kuuteteistkümnendsüsteem"
-
-msgid "Host Alias Properties"
-msgstr "Hosti aliase omadused"
-
-msgid "Host Settings"
-msgstr "Hosti sätted"
-
-msgid "Hosts"
-msgstr "Hostid"
-
-msgid "IP address:"
-msgstr "IP-aadress:"
-
-msgid "Interface properties"
-msgstr "Liidese omadused"
-
-msgid "Internet service provider data"
-msgstr "Interneti teenusepakkuja andmed"
-
-msgid "Location:"
-msgstr "Asukoht:"
-
-msgid "Loud"
-msgstr "Vali"
-
-msgid "Low"
-msgstr "Vaikne"
-
-msgid "Medium"
-msgstr "Keskmine"
-
-msgid "Modem"
-msgstr "Modem"
-
-msgid "Modem Settings"
-msgstr "Modemi sätted"
-
-msgid "Network _password:"
-msgstr "Võrgu _parool:"
-
-msgid "Network name (_ESSID):"
-msgstr "Võrgu nimi (_ESSID):"
-
+#: ../interfaces/network.ui.h:1
 msgid "Off"
 msgstr "Väljas"
 
-msgid "Options"
-msgstr "Valikud"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
+msgstr "Vaikne"
 
-msgid "P_assword"
-msgstr "_Parool"
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
+msgstr "Keskmine"
 
-msgid "Password _type:"
-msgstr "_Parooli tüüp:"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr "Vali"
 
-msgid "Plain (ASCII)"
-msgstr "Lihtne (ASCII)"
-
-msgid "Pulses"
-msgstr "Pulssvalimine"
-
-msgid "Save current network configuration as a location"
-msgstr "Praeguse võrguseadistuse salvestamine asukohaks"
-
-msgid "Search Domains"
-msgstr "Otsingudomeenid"
-
+#: ../interfaces/network.ui.h:5
 msgid "Tones"
 msgstr "Toonvalimine"
 
-msgid "Use the Internet service provider nameservers"
-msgstr "Interneti teenusepakkuja nimeserverite kasutamine"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr "Pulssvalimine"
 
-msgid "Wireless Settings"
-msgstr "Traadita võrgu sätted"
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr "Lihtne (ASCII)"
 
-msgid "_Autodetect"
-msgstr "_Automaattuvastus"
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr "Kuuteteistkümnendsüsteem"
 
-msgid "_Dial prefix:"
-msgstr "_Suunakood:"
+#: ../interfaces/network.ui.h:9
+msgid "Location:"
+msgstr "Asukoht:"
 
-msgid "_Dial type:"
-msgstr "_Helistamise tüüp:"
+#: ../interfaces/network.ui.h:10
+msgid "Save current network configuration as a location"
+msgstr "Praeguse võrguseadistuse salvestamine asukohaks"
 
-msgid "_Gateway address:"
-msgstr "_Võrgulüüsi aadress:"
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr "Käesoleva asukoha kustutamine"
 
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "Ühendused"
+
+#: ../interfaces/network.ui.h:13
 msgid "_Host name:"
 msgstr "_Hostinimi:"
 
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "_Domeeni nimi:"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "Hosti sätted"
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Üldine"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "Nimeserverid"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Otsingudomeenid"
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "Hostid"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "Liidese omadused"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "Ühendus on _lubatud"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr "Luba _uitühenduse režiim"
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr "Ühenduse liik:"
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "Võrgu nimi (_ESSID):"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "Võrgu _parool:"
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr "_Parooli tüüp:"
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr "Traadita võrgu sätted"
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "_Sätted:"
+
+#: ../interfaces/network.ui.h:30
 msgid "_IP address:"
 msgstr "_IP-aadress:"
 
-msgid "_Local IP:"
-msgstr "_Kohalik IP:"
-
-msgid "_Modem port:"
-msgstr "_Modemi port:"
-
-msgid "_Phone number:"
-msgstr "_Telefoninumber:"
-
-msgid "_Remote IP:"
-msgstr "K_aug-IP:"
-
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "Ühenduse katkemisel või tõrke korral _proovitakse uuesti"
-
-msgid "_Set modem as default route to internet"
-msgstr "_Modem on määratud vaikimisi marsruudiks internetti"
-
+#: ../interfaces/network.ui.h:31
 msgid "_Subnet mask:"
 msgstr "_Alamvõrgu mask:"
 
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "_Võrgulüüsi aadress:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "Ühenduse sätted"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "_Kohalik IP:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "K_aug-IP:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "_Telefoninumber:"
+
+#: ../interfaces/network.ui.h:37
+msgid "_Dial prefix:"
+msgstr "_Suunakood:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "Access pointi nimi:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "Interneti teenusepakkuja andmed"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
 msgid "_Username:"
 msgstr "_Kasutajanimi:"
 
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "_Parool"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Konto andmed"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "_Modemi port:"
+
+#: ../interfaces/network.ui.h:44
+msgid "_Dial type:"
+msgstr "_Helistamise tüüp:"
+
 #. TRANSLATORS: Volume as in loudness
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Helitugevus:"
 
-msgid "Advanced settings:"
-msgstr "Laiendatud sätted:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "_Automaattuvastus"
 
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "Ethernet-liides:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "Modemi sätted"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modem"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "_Modem on määratud vaikimisi marsruudiks internetti"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Interneti teenusepakkuja nimeserverite kasutamine"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "Ühenduse katkemisel või tõrke korral _proovitakse uuesti"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Valikud"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "Hosti aliase omadused"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP-aadress:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Aliased:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Vali teenused, mida soovid aktiveerida:"
 
-msgid "Add allowed hosts"
-msgstr "Lubatud hostide lisamine"
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Laiendatud sätted:"
 
-msgid "Allowed Hosts"
-msgstr "Lubatud hostid"
-
-msgid "Allowed hosts:"
-msgstr "Lubatud hostid:"
-
-msgid "Comment:"
-msgstr "Märkus:"
-
-msgid "Domain / _Workgroup:"
-msgstr "Domeen / _töögrupp:"
-
-msgid "Enter password for user"
-msgstr "Sisesta kasutaja parool"
-
-msgid "Enter password for user:"
-msgstr "Sisesta kasutaja parool:"
-
-msgid "General Properties"
-msgstr "Üldised omadused"
-
-msgid "Host name:"
-msgstr "Hostinimi:"
-
-msgid "Hosts Settings"
-msgstr "Hostide sätted"
-
-msgid "Name:"
-msgstr "Nimi:"
-
-msgid "Netmask:"
-msgstr "Alamvõrgu mask:"
-
-msgid "Network:"
-msgstr "Võrk:"
-
-msgid "Read only"
-msgstr "Ainult lugemiseks"
-
-msgid "Share"
-msgstr "Jaga"
-
-msgid "Share Properties"
-msgstr "Jagatud kataloogi omadused"
-
-msgid "Share through:"
-msgstr "Mille kaudu jagada:"
-
-msgid "Shared Folder"
-msgstr "Jagatud kataloog"
-
-msgid "Shared Folders"
-msgstr "Jagatud kataloogid"
-
-msgid "This computer is a _WINS server"
-msgstr "See arvuti on _WINS server"
-
-msgid "Users"
-msgstr "Kasutajad"
-
-msgid "WINS _server:"
-msgstr "WINS _server:"
-
-msgid "Windows sharing"
-msgstr "Windowsi jagatud kataloogid"
-
+#: ../interfaces/shares.ui.h:1
 msgid "_Path:"
 msgstr "_Asukoht:"
 
+#: ../interfaces/shares.ui.h:2
+msgid "Share through:"
+msgstr "Mille kaudu jagada:"
+
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr "Jagatud kataloog"
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "Märkus:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "Nimi:"
+
+#: ../interfaces/shares.ui.h:6
 msgid "_Read only"
 msgstr "Ainult _lugemiseks"
 
-msgid "Add NTP Server"
-msgstr "Lisa NTP server"
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "Jagatud kataloogi omadused"
 
-msgid "NTP server"
-msgstr "NTP server"
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "Lubatud hostid"
 
-msgid "Se_lect Servers"
-msgstr "Vali _serverid"
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "Jaga"
 
-msgid "Selection"
-msgstr "Valik"
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Lubatud hostide lisamine"
 
-msgid "Synchronize now"
-msgstr "Sünkroniseeri kohe"
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Lubatud hostid:"
 
-msgid "Time Zone"
-msgstr "Ajavöönd"
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Hostinimi:"
 
-msgid "Time servers"
-msgstr "Ajaserverid"
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "Võrk:"
 
-msgid "Time servers:"
-msgstr "Ajaserverid:"
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Alamvõrgu mask:"
 
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "Ainult lugemiseks"
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr "Hostide sätted"
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
+#: ../src/shares/shares-tool.c:237
+msgid "Shared Folders"
+msgstr "Jagatud kataloogid"
+
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "Domeen / _töögrupp:"
+
+#: ../interfaces/shares.ui.h:20
+msgid "This computer is a _WINS server"
+msgstr "See arvuti on _WINS server"
+
+#: ../interfaces/shares.ui.h:21
+msgid "WINS _server:"
+msgstr "WINS _server:"
+
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr "Windowsi jagatud kataloogid"
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Üldised omadused"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "Kasutajad"
+
+#: ../interfaces/shares.ui.h:25
+msgid "Enter password for user"
+msgstr "Sisesta kasutaja parool"
+
+#: ../interfaces/shares.ui.h:26
+msgid "Enter password for user:"
+msgstr "Sisesta kasutaja parool:"
+
+#: ../interfaces/time.ui.h:1
 msgid "Time zone"
 msgstr "Ajavöönd"
 
+#: ../interfaces/time.ui.h:2
+msgid "Time Zone"
+msgstr "Ajavöönd"
+
+#: ../interfaces/time.ui.h:3
 msgid "Time zone:"
 msgstr "Ajavöönd:"
 
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr "Valik"
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "Ajaserverid"
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP server"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "Lisa NTP server"
+
+#: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
 msgstr "Seadistamata"
 
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_Sätted:"
 
-msgid "_Date:"
-msgstr "_Kuupäev:"
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "Ajaserverid:"
 
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "Vali _serverid"
+
+#: ../interfaces/time.ui.h:12
 msgid "_Time:"
 msgstr "Ae_g:"
 
-msgid ""
-"A user with this name already exists. Please choose a different name for the "
-"new user."
-msgstr ""
-"Sellise nimega kasutaja on juba olemas. Palun vali uue kasutaja kontole mõni "
-"muu nimi."
+#: ../interfaces/time.ui.h:13
+msgid "_Date:"
+msgstr "_Kuupäev:"
 
+#: ../interfaces/time.ui.h:14
+msgid "Synchronize now"
+msgstr "Sünkroniseeri kohe"
+
+#: ../interfaces/users.ui.h:1
+msgid "_Manage Groups"
+msgstr "Halda _gruppe"
+
+#: ../interfaces/users.ui.h:2
 msgid "Account _type:"
 msgstr "Konto _liik:"
 
-msgid "Advanced"
-msgstr "Laiendatud"
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr "_Muuda..."
 
-msgid "Advanced Settings"
-msgstr "Laiendatud sätted"
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "_Parool:"
 
-msgid "Assign a random password by default"
-msgstr "Vaikimisi suvalise parooli määramine"
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr "_Laiendatud sätted"
 
-msgid "Automatic UID/GID"
-msgstr "Automaatne UID/GID"
-
-msgid "Basic Settings"
-msgstr "Põhisätted"
-
-msgid "Change Advanced User Settings"
-msgstr "Kasutaja laiendatud sätete muutmine"
-
-msgid "Change User Account Type"
-msgstr "Kasutajakonto liigi muutmine"
-
-msgid "Change User Name"
-msgstr "Kasutajanime muutmine"
-
-msgid "Change User Password"
-msgstr "Kasutaja parooli muutmine"
-
-msgid "Changing advanced settings for:"
-msgstr "Täpsemate sätete muutmine kasutajal:"
-
-msgid "Changing user account type for:"
-msgstr "Konto liigi muutmine kasutajal:"
-
-msgid "Changing user name for:"
-msgstr "Kasutajanime muutmine kasutajal:"
-
-msgid "Changing user password for:"
-msgstr "Parooli muutmine kasutajal:"
-
-msgid "Con_firmation:"
-msgstr "_Paroolikordus:"
-
-msgid "Contact Information"
-msgstr "Kontaktandmed"
-
-msgid "Create New User"
-msgstr "Uue kasutaja loomine"
-
-msgid "Create a new user"
-msgstr "Uue kasutaja loomine"
-
-msgid "Days between warning and password expiration:"
-msgstr "Päevade arv, mil enne parooli aegumist kuvatakse hoiatust:"
-
-msgid "Default _group:"
-msgstr "Vaikimisi _grupp:"
-
-msgid "Default _shell:"
-msgstr "Vaikimisi _kest (shell):"
-
-msgid "Disable _account"
-msgstr "_Keela konto"
-
-msgid "Don't ask for password on _login"
-msgstr "Sisselogimisel parooli _ei küsita"
-
-msgid ""
-"Encrypt all your files with your login password to strongly protect them "
-"from people with physical access to your computer, at the expense of a "
-"slightly reduced performance."
-msgstr ""
-"Krüpteeri kõik oma failid sisselogimisparooliga, et neid pisut väiksema "
-"jõudluse hinnaga tõhusalt kaitsta ka nende inimeste eest, kellel on "
-"füüsiline ligipääs arvutile."
-
-msgid "Full _Name:"
-msgstr "Täis_nimi:"
-
-msgid "Generate _random password"
-msgstr "_Juhusliku parooli genereerimine"
-
-msgid "Group Members"
-msgstr "Grupi liikmed"
-
-msgid "Group _ID:"
-msgstr "Grupi _ID:"
-
-msgid "Group _name:"
-msgstr "Grupi _nimi:"
-
-msgid "Group properties"
-msgstr "Grupi omadused"
-
-msgid "Groups available on the system:"
-msgstr "Süsteemis saadaolevad grupid:"
-
-msgid "Groups settings"
-msgstr "Gruppide sätted"
-
-msgid "Ma_ximum days a password may be used:"
-msgstr "_Suurim päevade arv, millal parooli saab kasutada:"
-
-msgid "Maximum GID:"
-msgstr "Suurim GID:"
-
-msgid "Maximum UID:"
-msgstr "Suurim UID:"
-
-msgid "Mi_nimum days between password changes:"
-msgstr "_Väikseim päevade vahemik paroolimuutmiste vahel:"
-
-msgid "Minimum GID:"
-msgstr "Väikseim GID:"
-
-msgid "Minimum UID:"
-msgstr "Väikseim UID:"
-
-msgid "Minimum days allowed between password changes:"
-msgstr "Vähim lubatud arv päevi paroolimuutmiste vahel:"
-
-msgid "New _password:"
-msgstr "_Uus parool:"
-
-msgid "Number of days that a password may be used:"
-msgstr "Päevade arv, mil parooli tohib kasutada:"
-
-msgid "O_ffice location:"
-msgstr "_Kontori asukoht:"
-
-msgid "Optional Settings"
-msgstr "Valikulised sätted"
-
-msgid "Password Settings"
-msgstr "Parooli seaded"
-
-msgid "Password set to: "
-msgstr "Parooliks määrati:"
-
-msgid "Privileges"
-msgstr "Õigused"
-
-msgid "Profile Settings"
-msgstr "Profiili sätted"
-
-msgid "Profile _name:"
-msgstr "_Profiili nimi:"
-
-msgid "Set password b_y hand"
-msgstr "Parooli _käsitsi määramine"
-
-msgid "System Defaults"
-msgstr "Süsteemi vaikesätted"
-
+#: ../interfaces/users.ui.h:6
 msgid "This account is disabled."
 msgstr "See konto on keelatud."
 
-msgid ""
-"This account is using special settings that have been defined manually. Use "
-"the <i>Advanced Settings</i> dialog to tune them."
-msgstr ""
-"Seda kontot on käsitsi kohandatud. Nende kohanduste muutmiseks kasuta "
-"laiendatud sätete dialoogi."
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr "_Luba konto"
 
-msgid "User ID:"
-msgstr "Kasutaja ID:"
+#: ../interfaces/users.ui.h:8
+msgid "Group properties"
+msgstr "Grupi omadused"
 
-msgid "User Privileges"
-msgstr "Kasutaja õigused"
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "Põhisätted"
 
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "Grupi _nimi:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "Grupi _ID:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Grupi liikmed"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr "Profiili sätted"
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "_Profiili nimi:"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Kommentaarid"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Süsteemi vaikesätted"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "_Kodukataloog:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "Vaikimisi _kest (shell):"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "Vaikimisi _grupp:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Parooli seaded"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Päevade arv, mil parooli tohib kasutada:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Vähim lubatud arv päevi paroolimuutmiste vahel:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Päevade arv, mil enne parooli aegumist kuvatakse hoiatust:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Vaikimisi suvalise parooli määramine"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "Automaatne UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "Suurim UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "Suurim GID:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "Väikseim UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "Väikseim GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Õigused"
+
+#: ../interfaces/users.ui.h:32
 msgid "User profiles"
 msgstr "Kasutajaprofiilid"
 
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr "_Lisa profiil"
+
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr "Gruppide sätted"
+
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr "Süsteemis saadaolevad grupid:"
+
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr "Kasutajanime muutmine"
+
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr "Täis_nimi:"
+
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr "Kasutajanime muutmine kasutajal:"
+
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr "Kasutaja parooli muutmine"
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "_Paroolikordus:"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "Parooliks määrati:"
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "_Genereeri"
+
+#: ../interfaces/users.ui.h:43
+msgid "Set password b_y hand"
+msgstr "Parooli _käsitsi määramine"
+
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "_Uus parool:"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "_Juhusliku parooli genereerimine"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "Parooli muutmine kasutajal:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "Sisselogimisel parooli _ei küsita"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "P_raegune parool:"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "Kasutajakonto liigi muutmine"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "Konto liigi muutmine kasutajal:"
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "Ko_handatud"
+
+#: ../interfaces/users.ui.h:52
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr "Seda kontot on käsitsi kohandatud. Nende kohanduste muutmiseks kasuta laiendatud sätete dialoogi."
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "Uue kasutaja loomine"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "_Nimi:"
+
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
+msgstr "Uue kasutaja loomine"
+
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
 msgid ""
 "Username must consist of:\n"
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
-"Kasutajanimes võivad olla:\n"
-"  ➣ täppideta väiketähed\n"
-"  ➣ numbrid\n"
-"  ➣ märgid \".\", \"-\" ja \"_\""
+msgstr "Kasutajanimes võivad olla:\n  ➣ täppideta väiketähed\n  ➣ numbrid\n  ➣ märgid \".\", \"-\" ja \"_\""
 
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr "Sellise nimega kasutaja on juba olemas. Palun vali uue kasutaja kontole mõni muu nimi."
+
+#: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
 msgstr "Kasutajanimi peab algama tähega!"
 
-msgid "You can't change user ID while the user is logged in."
-msgstr ""
-"Kasutaja ID-d pole võimalik muuta sel ajal, kui kasutaja on sisse logitud."
-
-msgid "_Add Profile"
-msgstr "_Lisa profiil"
-
-msgid "_Advanced Settings"
-msgstr "_Laiendatud sätted"
-
-msgid "_Change..."
-msgstr "_Muuda..."
-
-msgid "_Comments"
-msgstr "_Kommentaarid"
-
-msgid "_Current password:"
-msgstr "P_raegune parool:"
-
-msgid "_Custom"
-msgstr "Ko_handatud"
-
-msgid "_Days between warning and password expiration:"
-msgstr "_Päevade arv hoiatuse ja parooli aegumise vahel:"
-
-msgid "_Enable Account"
-msgstr "_Luba konto"
-
+#: ../interfaces/users.ui.h:64
 msgid "_Encrypt home folder to protect sensitive data"
 msgstr "_Kodukataloog krüpteeritakse tundlike andmete kaitseks"
 
-msgid "_Generate"
-msgstr "_Genereeri"
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "Krüpteeri kõik oma failid sisselogimisparooliga, et neid pisut väiksema jõudluse hinnaga tõhusalt kaitsta ka nende inimeste eest, kellel on füüsiline ligipääs arvutile."
 
-msgid "_Home directory:"
-msgstr "_Kodukataloog:"
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "Kasutaja laiendatud sätete muutmine"
 
-msgid "_Home phone:"
-msgstr "_Kodutelefon:"
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "Täpsemate sätete muutmine kasutajal:"
 
-msgid "_Main group:"
-msgstr "_Peagrupp:"
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "_Kontori asukoht:"
 
-msgid "_Manage Groups"
-msgstr "Halda _gruppe"
-
-msgid "_Name:"
-msgstr "_Nimi:"
-
-msgid "_Password:"
-msgstr "_Parool:"
-
-msgid "_Shell:"
-msgstr "K_est:"
-
+#: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
 msgstr "_Töötelefon:"
 
-msgid "Show root user"
-msgstr "Juurkasutaja näitamine"
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "_Kodutelefon:"
 
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr "Kontaktandmed"
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "Kasutaja õigused"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Laiendatud sätted"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "K_est:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "_Peagrupp:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "Kasutaja ID:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "Kasutaja ID-d pole võimalik muuta sel ajal, kui kasutaja on sisse logitud."
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "_Keela konto"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Valikulised sätted"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "_Väikseim päevade vahemik paroolimuutmiste vahel:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "_Suurim päevade arv, millal parooli saab kasutada:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "_Päevade arv hoiatuse ja parooli aegumise vahel:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Laiendatud"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
 msgstr "Süsteemsete kasutajate näitamine"
 
+#: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
 "Whether the users-admin tool should show system users in the users list."
-msgstr ""
-"Kas kasutajate haldamise vahend peab kasutajate nimekirjas näitama ka "
-"süsteemseid kasutajaid või mitte."
+msgstr "Kas kasutajate haldamise vahend peab kasutajate nimekirjas näitama ka süsteemseid kasutajaid või mitte."
 
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr "Juurkasutaja näitamine"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
 "Whether the users-admin tool should show the root user in the users list."
-msgstr ""
-"Kas kasutajate haldamise vahend peab kasutajate nimekirjas näitama ka "
-"juurkasutajat või mitte."
+msgstr "Kas kasutajate haldamise vahend peab kasutajate nimekirjas näitama ka juurkasutajat või mitte."
 
+#: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
 msgstr "Sinu poolt kasutatav platvorm pole käesoleva vahendi poolt toetatud"
 
 #. label
+#: ../src/common/gst-platform-dialog.c:185
 msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr ""
-"Kui sa oled kindel, et see töötab samamoodi nagu allpoolloetletud "
-"platvormidel, siis võid sa selle tööriista kasutamist jätkata. Olgu "
-"siinkohal märgitud, et see võib rikkuda su süsteemi seadistused ja muuta "
-"sinu arvuti kasutamiskõlbmatuks."
+msgstr "Kui sa oled kindel, et see töötab samamoodi nagu allpoolloetletud platvormidel, siis võid sa selle tööriista kasutamist jätkata. Olgu siinkohal märgitud, et see võib rikkuda su süsteemi seadistused ja muuta sinu arvuti kasutamiskõlbmatuks."
 
+#: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
 msgstr "Toetamata platvorm"
 
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr "Seadistusi pole võimalik laadida"
 
 #. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:190
 msgid "The configuration could not be saved"
 msgstr "Seadistusi pole võimalik salvestada"
 
+#: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
 msgstr "Sul pole lubatud süsteemi sätetele ligi pääseda."
 
 #. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
 msgstr "Sul pole lubatud süsteemi sätteid muuta."
 
+#: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
 msgstr "Leiti vigased andmed."
 
 #. OOBS_RESULT_ERROR
+#: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
 msgstr "Leidis aset tundmatu viga."
 
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "Abiteavet pole võimalik kuvada"
 
+#: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
 msgstr "Süsteemi sätteid on tõenäoliselt muudetud."
 
+#: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
 msgstr "Kas uuendada sisu? Sel juhul lähevad tehtud muudatused kaotsi."
 
+#: ../src/common/gst-tool.c:687
 #, c-format
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr ""
-"Autoriseeringute kontrollil esines viga: %s\n"
-"Võid sellest veast raporteerida."
+msgstr "Autoriseeringute kontrollil esines viga: %s\nVõid sellest veast raporteerida."
 
+#: ../src/network/address-list.c:76 ../src/network/hosts.c:31
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "_Lisa"
 
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
 msgid "_Delete"
 msgstr "_Eemalda"
 
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "Sisesta aadress"
 
+#: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
 msgstr "Liidese sätete muutmine"
 
+#: ../src/network/callbacks.c:299
 msgid "Could not autodetect modem device"
 msgstr "Modemit pole võimalik automaatselt tuvastada"
 
+#: ../src/network/callbacks.c:302
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
 msgstr "Veendu, et seade poleks hõivatud ja on arvutiga korralikult ühendatud."
 
+#: ../src/network/callbacks.c:523
 msgid "The host name has changed"
 msgstr "Hosti nimi on muudetud"
 
+#: ../src/network/callbacks.c:526
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr ""
-"See takistab uute rakenduste käivitamist ja seetõttu pead sa uuesti sisse "
-"logima. Kas jätkata ikkagi?"
+msgstr "See takistab uute rakenduste käivitamist ja seetõttu pead sa uuesti sisse logima. Kas jätkata ikkagi?"
 
+#: ../src/network/callbacks.c:532
 msgid "Change _Host name"
 msgstr "Muuda _hostinime"
 
+#: ../src/network/connection.c:40
 msgid "Automatic configuration (DHCP)"
 msgstr "Automaatne seadistamine (DHCP)"
 
+#: ../src/network/connection.c:41
 msgid "Local Zeroconf network (IPv4 LL)"
 msgstr "Kohalik Zeroconf võrk (IPv4 LL)"
 
+#: ../src/network/connection.c:42
 msgid "Static IP address"
 msgstr "Staatiline IP-aadress"
 
+#: ../src/network/connection.c:46
 msgid "WEP key (ascii)"
 msgstr "WEP-võti (ascii)"
 
+#: ../src/network/connection.c:47
 msgid "WEP key (hexadecimal)"
 msgstr "WEP-võti (kuuteteistkümnendsüsteem)"
 
+#: ../src/network/connection.c:48
 msgid "WPA Personal"
 msgstr "Isiklik WPA"
 
+#: ../src/network/connection.c:49
 msgid "WPA2 Personal"
 msgstr "Isiklik WPA2"
 
+#: ../src/network/connection.c:53
 msgid "GPRS/UMTS"
 msgstr "GPRS/UMTS"
 
+#: ../src/network/connection.c:54
 msgid "ISDN modem"
 msgstr "ISDN-modem"
 
+#: ../src/network/connection.c:55
 msgid "Serial modem"
 msgstr "Järjestikmodem"
 
+#: ../src/network/connection.c:56
 msgid "PPPoE"
 msgstr "PPPoE"
 
+#: ../src/network/connection.c:769
 #, c-format
 msgid "%s Properties"
 msgstr "%s - omadused"
 
+#: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "_Omadused"
 
+#: ../src/network/hosts.c:89
 msgid "IP Address"
 msgstr "IP-aadress"
 
+#: ../src/network/hosts.c:97
 msgid "Aliases"
 msgstr "Aliased"
 
+#: ../src/network/ifaces-list.c:280
 msgid "This network interface is not configured"
 msgstr "Võrguliides pole seadistatud"
 
+#: ../src/network/ifaces-list.c:282
 msgid "Roaming mode enabled"
 msgstr "Uitrežiim on lubatud"
 
+#: ../src/network/ifaces-list.c:289
 #, c-format
 msgid "<b>Essid:</b> %s "
 msgstr "<b>Essid:</b> %s "
 
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
 msgid "Address:"
 msgstr "Aadress:"
 
+#: ../src/network/ifaces-list.c:298
 msgid "Subnet mask:"
 msgstr "Alamvõrgu mask:"
 
+#: ../src/network/ifaces-list.c:308
 msgid "Remote address:"
 msgstr "Kaugaadress:"
 
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
 msgid "Type:"
 msgstr "Liik:"
 
+#: ../src/network/ifaces-list.c:321
 msgid "Phone number:"
 msgstr "Telefoninumber:"
 
+#: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
 msgstr "Traadita ühendus"
 
+#: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
 msgstr "Infrapunaliidese ühendus"
 
+#: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
 msgstr "Traadiga ühendus"
 
+#: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
 msgstr "Rööppordi ühendus"
 
+#: ../src/network/ifaces-list.c:364
 msgid "Point to point connection"
 msgstr "Punktist punkti ühendus"
 
+#: ../src/network/locations-combo.c:221
 msgid "Changing network location"
 msgstr "Võrguasukoha muutmine"
 
+#: ../src/network/locations-combo.c:265
 msgid "There is already a location with the same name"
 msgstr "Selle nimega asukoht on juba olemas"
 
+#: ../src/network/locations-combo.c:267
 msgid "Overwrite it?"
 msgstr "Kas kirjutada see üle?"
 
+#: ../src/network/locations-combo.c:355
 msgid "Save location"
 msgstr "Asukoha salvestamine"
 
+#: ../src/network/locations-combo.c:370
 msgid "_Location name:"
 msgstr "_Asukoha nimi:"
 
+#: ../src/network/locations-combo.c:422
 #, c-format
 msgid "Do you want to delete location \"%s\"?"
 msgstr "Kas soovid asukoha \"%s\" kustutada?"
 
+#: ../src/network/main.c:135
 msgid "The interface does not exist"
 msgstr "Liidest pole olemas"
 
+#: ../src/network/main.c:137
 msgid ""
 "Check that it is correctly typed and that it is correctly supported by your "
 "system."
-msgstr ""
-"Kontrolli, kas see on õigesti sisestatud ja sinu süsteemi poolt toetatud."
+msgstr "Kontrolli, kas see on õigesti sisestatud ja sinu süsteemi poolt toetatud."
 
+#: ../src/network/main.c:183
 msgid "Configure a network interface"
 msgstr "Võrguliidese seadistamine"
 
+#: ../src/network/main.c:183
 msgid "INTERFACE"
 msgstr "LIIDES"
 
+#: ../src/network/main.c:184
 msgid "Configure the first network interface with a specific type"
 msgstr "Esimese seda tüüpi võrguliidese seadistamine"
 
+#: ../src/network/main.c:184
 msgid "TYPE"
 msgstr "TÜÜP"
 
-msgid "Configure network devices and connections"
-msgstr "Võrguseadmete ja -ühenduste seadistamine"
-
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "Võrk"
 
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Võrguseadmete ja -ühenduste seadistamine"
+
+#: ../src/network/network-tool.c:280
 msgid "Network Settings"
 msgstr "Võrgusätted"
 
+#: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
 msgstr "Teenuse \"%s\" sätted"
 
+#: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
 msgstr "Kas soovid deaktiveerida \"%s\"?"
 
+#: ../src/services/callbacks.c:126
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
-msgstr ""
-"See võib mõjutada sinu süsteemi käitumist mitmel moel ning võib põhjustada "
-"ka andmete kaotsiminekut."
+msgstr "See võib mõjutada sinu süsteemi käitumist mitmel moel ning võib põhjustada ka andmete kaotsiminekut."
 
+#: ../src/services/service.c:32
 msgid "Web server"
 msgstr "Veebiserver"
 
+#: ../src/services/service.c:32
 msgid "Shares your web pages over the Internet"
 msgstr "Sinu veebilehtede jagamine internetti"
 
 #. GST_ROLE_WEB_SERVER
+#: ../src/services/service.c:33
 msgid "Actions scheduler"
 msgstr "Toimingute ajastaja"
 
+#: ../src/services/service.c:33
 msgid "Executes scheduled actions"
 msgstr "Ajastatud toimingute käivitamine"
 
 #. GST_ROLE_COMMAND_SCHEDULER
+#: ../src/services/service.c:34
 msgid "Printer service"
 msgstr "Printeriteenus"
 
+#: ../src/services/service.c:34
 msgid "Allows applications to use printers"
 msgstr "Rakendustest printerikasutamise lubamine"
 
 #. GST_ROLE_PRINTER_SERVICE
+#: ../src/services/service.c:35
 msgid "Mail agent"
 msgstr "E-posti agent"
 
+#: ../src/services/service.c:35
 msgid "Delivers your outgoing mail"
 msgstr "Väljuva posti edastaja"
 
 #. GST_ROLE_MTA
+#: ../src/services/service.c:36
 msgid "MTA authentication service"
 msgstr "Meiliedastusagendi autentimisteenus"
 
 #. GST_ROLE_MTA_AUTH
+#: ../src/services/service.c:37
 msgid "Mail fetcher"
 msgstr "E-posti hankija"
 
+#: ../src/services/service.c:37
 msgid "Downloads your mail from remote accounts"
 msgstr "Võrgukontodelt e-posti allalaadimine"
 
 #. GST_ROLE_MAIL_FETCHER
+#: ../src/services/service.c:38
 msgid "Graphical login manager"
 msgstr "Graafiline sisselogimishaldur"
 
+#: ../src/services/service.c:38
 msgid "Allows users to login graphically"
 msgstr "Kasutajate sisselogimine graafilisest keskkonnast"
 
 #. GST_ROLE_DISPLAY_MANAGER
+#: ../src/services/service.c:39
 msgid "Database server"
 msgstr "Andmebaasiserver"
 
+#: ../src/services/service.c:39
 msgid "Data storage system"
 msgstr "Andmete salvestamissüsteem"
 
 #. GST_ROLE_DATABASE_SERVER
 #. GST_ROLE_FILE_SERVER_SMB
 #. GST_ROLE_FILE_SERVER_FTP
+#: ../src/services/service.c:40 ../src/services/service.c:41
+#: ../src/services/service.c:43
 msgid "Folder sharing service"
 msgstr "Kataloogide ühiskasutuseks jagamise teenus"
 
+#: ../src/services/service.c:40 ../src/services/service.c:41
 msgid "Shares folders over your network"
 msgstr "Kataloogide jagamine võrku"
 
 #. GST_ROLE_FILE_SERVER_NFS
+#: ../src/services/service.c:42
 msgid "FTP service"
 msgstr "FTP teenus"
 
+#: ../src/services/service.c:42 ../src/services/service.c:43
 msgid "Shares folders over the Internet"
 msgstr "Kataloogide jagamine internetti"
 
 #. GST_ROLE_FILE_SERVER_TFTP
+#: ../src/services/service.c:44
 msgid "Clock synchronization service"
 msgstr "Kella sünkroniseerimise teenus"
 
+#: ../src/services/service.c:44
 msgid "Synchronizes your computer clock with Internet time servers"
 msgstr "Sinu arvuti kella sünkroniseerimine interneti ajaserveritega"
 
 #. GST_ROLE_NTP_SERVER
+#: ../src/services/service.c:46
 msgid "Antivirus"
 msgstr "Viirustõrje"
 
+#: ../src/services/service.c:46
 msgid "Analyzes your incoming mail for virus"
 msgstr "Sissetulevate sõnumite viiruskontroll"
 
 #. GST_ROLE_ANTIVIRUS
+#: ../src/services/service.c:47
 msgid "Firewall"
 msgstr "Tulemüür"
 
+#: ../src/services/service.c:47
 msgid "Blocks undesired network access to your computer"
 msgstr "Sinu arvutisse soovimatu võrguligipääsu piiramine"
 
 #. GST_ROLE_FIREWALL_MANAGEMENT
+#: ../src/services/service.c:49
 msgid "Dictionary server"
 msgstr "Sõnastikuserver"
 
 #. GST_ROLE_DICTIONARY_SERVER
+#: ../src/services/service.c:50
 msgid "Speech synthesis support"
 msgstr "Kõnesünteesi tugi"
 
 #. GST_ROLE_SPEECH_SYNTHESIS
+#: ../src/services/service.c:51
 msgid "Computer activity logger"
 msgstr "Arvuti aktiivsuse logija"
 
+#: ../src/services/service.c:51
 msgid "Keeps a log of your computer activity"
 msgstr "Arvutis tehtavate toimingute logimine"
 
 #. GST_ROLE_SYSTEM_LOGGER
+#: ../src/services/service.c:52
 msgid "Remote backup server"
 msgstr "Kaugvarundusserver"
 
 #. GST_ROLE_REMOTE_BACKUP
+#: ../src/services/service.c:53
 msgid "Spam filter"
 msgstr "Rämpspostifilter"
 
 #. GST_ROLE_SPAM_FILTER
+#: ../src/services/service.c:54
 msgid "Remote shell server"
 msgstr "Remote shell server"
 
+#: ../src/services/service.c:54
 msgid "Secure shell server"
 msgstr "Secure shell server"
 
 #. GST_ROLE_SECURE_SHELL_SERVER
+#: ../src/services/service.c:55
 msgid "Application server"
 msgstr "Rakendusteserver"
 
 #. GST_ROLE_APPLICATION_SERVER
+#: ../src/services/service.c:56
 msgid "Automated crash reports support"
 msgstr "Automatiseeritud krahhiraportite tugi"
 
 #. GST_ROLE_AUTOMATED_CRASH_REPORTS_MANAGEMENT
+#: ../src/services/service.c:57
 msgid "System communication bus"
 msgstr "Süsteemne kommunikatsioonisiin"
 
 #. GST_ROLE_DBUS,
+#: ../src/services/service.c:58
 msgid "System configuration manager"
 msgstr "Süsteemi seadistuste haldur"
 
 #. GST_ROLE_SYSTEM_CONFIGURATION_MANAGEMENT
+#: ../src/services/service.c:59
 msgid "School management platform"
 msgstr "Koolide haldusplatvorm"
 
 #. GST_ROLE_SCHOOL_MANAGEMENT_PLATFORM
+#: ../src/services/service.c:60
 msgid "Network security auditor"
 msgstr "Võrguturvalisuse audiitor"
 
 #. GST_ROLE_SECURITY_AUDITING
+#: ../src/services/service.c:61
 msgid "Web calendar server"
 msgstr "Veebikalendri server"
 
 #. GST_ROLE_WEB_CALENDAR_SERVER
+#: ../src/services/service.c:62
 msgid "OEM configuration manager"
 msgstr "OEM-sätete haldur"
 
 #. GST_ROLE_OEM_CONFIGURATION_MANAGEMENT
+#: ../src/services/service.c:63
 msgid "Terminal multiplexor"
 msgstr "Terminali multiplekser"
 
 #. GST_ROLE_TERMINAL_MULTIPLEXOR
+#: ../src/services/service.c:64
 msgid "Disk quota activation"
 msgstr "Kettakvootide aktiveerimine"
 
 #. GST_ROLE_QUOTA_MANAGEMENT
+#: ../src/services/service.c:65
 msgid "Package index monitor"
 msgstr "Pakiindeksi monitor"
 
 #. GST_ROLE_PACKAGE_INDEX_MONITORING
+#: ../src/services/service.c:66
 msgid "Network service"
 msgstr "Võrguteenus"
 
 #. GST_ROLE_NETWORK
+#: ../src/services/service.c:67
 msgid "Dynamic DNS services updater"
 msgstr "Dünaamiliste DNS-teenuste uuendaja"
 
 #. GST_ROLE_DYNAMIC_DNS_SERVICE
+#: ../src/services/service.c:68
 msgid "DHCP server"
 msgstr "DHCP server"
 
 #. GST_ROLE_DHCP_SERVER
+#: ../src/services/service.c:69
 msgid "Domain name server"
 msgstr "Domeeni nimeserver"
 
 #. GST_ROLE_DNS
+#: ../src/services/service.c:70
 msgid "Proxy cache service"
 msgstr "Proksi-puhverserver"
 
 #. GST_ROLE_PROXY_CACHE
+#: ../src/services/service.c:71
 msgid "LDAP server"
 msgstr "LDAP server"
 
 #. GST_ROLE_LDAP_SERVER
+#: ../src/services/service.c:72
 msgid "Mailing lists manager"
 msgstr "Postiloendite haldus"
 
 #. GST_ROLE_MAILING_LISTS_MANAGER
+#: ../src/services/service.c:73
 msgid "Multicast DNS service discovery"
 msgstr "Multicast DNS-teenuse avastaja"
 
 #. GST_ROLE_RENDEZVOUS
+#: ../src/services/service.c:74
 msgid "Account information resolver"
 msgstr "Kontoandmete lahendaja"
 
 #. GST_ROLE_NSS
+#: ../src/services/service.c:75
 msgid "Virtual Private Network server"
 msgstr "Virtuaalse privaatvõrgu server"
 
 #. GST_ROLE_VPN_SERVER
+#: ../src/services/service.c:76
 msgid "Router advertisement server"
 msgstr "Ruuteri teavitusserver (Router advertisement)"
 
 #. GST_ROLE_ROUTER_ADVERTISEMENT_SERVER
+#: ../src/services/service.c:77
 msgid "IPSec key exchange server"
 msgstr "IPSec'i võtmevahetusserver"
 
 #. GST_ROLE_IPSEC_KEY_EXCHANGE_SERVER
+#: ../src/services/service.c:78
 msgid "Disk server"
 msgstr "Kettaserver"
 
 #. GST_ROLE_DISK_SERVER
+#: ../src/services/service.c:79
 msgid "Disk client"
 msgstr "Kettaklient"
 
 #. GST_ROLE_DISK_CLIENT
+#: ../src/services/service.c:80
 msgid "Route server"
 msgstr "Marsruutimisserver"
 
 #. GST_ROLE_ROUTE_SERVER
+#: ../src/services/service.c:81
 msgid "RPC mapper"
 msgstr "RPC kaardistaja (RPC mapper)"
 
 #. GST_ROLE_RPC_MAPPER
+#: ../src/services/service.c:82
 msgid "SNMP server"
 msgstr "SNMP server"
 
 #. GST_ROLE_SNMP_SERVER
+#: ../src/services/service.c:83
 msgid "Terminal server client"
 msgstr "Terminaliserveri klient"
 
 #. GST_ROLE_LTSP_CLIENT
+#: ../src/services/service.c:84
 msgid "Audio settings management"
 msgstr "Audiosätete haldus"
 
 #. GST_ROLE_AUDIO_MANAGEMENT
+#: ../src/services/service.c:85
 msgid "Volumes mounter"
 msgstr "Kettaseadmete ühendaja"
 
+#: ../src/services/service.c:85
 msgid "Mounts your volumes automatically"
 msgstr "Kettaseadmete automaatne ühendamine"
 
 #. GST_ROLE_AUTOMOUNTER
+#: ../src/services/service.c:86
 msgid "Infrared port management"
 msgstr "Infrapunapordi haldus"
 
 #. GST_ROLE_INFRARED_MANAGEMENT
+#: ../src/services/service.c:87
 msgid "Braille display management"
 msgstr "Braille'i kuvahaldur"
 
 #. GST_ROLE_BRAILLE_DISPLAY_MANAGEMENT
+#: ../src/services/service.c:88
 msgid "Bluetooth device management"
 msgstr "Bluetooth seadmete haldus"
 
 #. GST_ROLE_BLUETOOTH_MANAGEMENT
+#: ../src/services/service.c:89
 msgid "Hard disk tuning"
 msgstr "Kõvaketta timmimine"
 
 #. GST_ROLE_HDD_MANAGEMENT
+#: ../src/services/service.c:90
 msgid "Hotkeys management"
 msgstr "Kiirklahvide haldus"
 
 #. GST_ROLE_HOTKEYS_MANAGEMENT
+#: ../src/services/service.c:91
 msgid "Power management"
 msgstr "Vooluhaldus"
 
 #. GST_ROLE_POWER_MANAGEMENT
+#: ../src/services/service.c:92
 msgid "Logical volume management"
 msgstr "Loogiliste ketaste haldus"
 
 #. GST_ROLE_LVM_MANAGEMENT
+#: ../src/services/service.c:93
 msgid "Cluster management tool"
 msgstr "Klastri haldusvahend"
 
 #. GST_ROLE_CLUSTER_MANAGEMENT
+#: ../src/services/service.c:94
 msgid "Fax settings management"
 msgstr "Faksisätete haldus"
 
 #. GST_ROLE_FAX_MANAGEMENT
+#: ../src/services/service.c:95
 msgid "RAID disks management"
 msgstr "RAID-ketaste haldus"
 
 #. GST_ROLE_RAID_MANAGEMENT
+#: ../src/services/service.c:96
 msgid "Graphic tablets management"
 msgstr "Graafiliste digitahvlite haldus"
 
 #. GST_ROLE_GRAPHIC_TABLETS_MANAGEMENT
+#: ../src/services/service.c:97
 msgid "CPU Frequency manager"
 msgstr "Protsessoritakti haldur"
 
 #. GST_ROLE_CPUFREQ_MANAGEMENT
+#: ../src/services/service.c:98
 msgid "Eagle USB ADSL modems manager"
 msgstr "Eagle USB ADSL modemite haldur"
 
 #. GST_ROLE_EAGLE_USB_MODEMS_MANAGEMENT
+#: ../src/services/service.c:99
 msgid "Serial port settings management"
 msgstr "Järjestikportide sätete haldus"
 
 #. GST_ROLE_SERIAL_PORTS_MANAGEMENT
+#: ../src/services/service.c:100
 msgid "ISDN modems manager"
 msgstr "ISDN-modemite haldur"
 
 #. GST_ROLE_ISDN_MANAGEMENT
+#: ../src/services/service.c:101
 msgid "Telstra Bigpond Cable Network client"
 msgstr "Telstra Bigpond kaabelvõrgu klient"
 
 #. GST_ROLE_TELSTRA_BIGPOND_NETWORK_CLIENT
+#: ../src/services/service.c:102
 msgid "Hardware monitor"
 msgstr "Riistvarajälgija"
 
 #. GST_ROLE_HARDWARE_MONITORING
+#: ../src/services/service.c:103
 msgid "System monitor"
 msgstr "Süsteemijälgija"
 
 #. GST_ROLE_SYSTEM_MONITORING
+#: ../src/services/service.c:104
 msgid "Virtual Machine management"
 msgstr "Virtuaalmasinate haldus"
 
-msgid "Configure which services will be run when the system starts"
-msgstr "Süsteemi käivitamisel käivitatavate teenuste valimine"
-
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Teenused"
 
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Süsteemi käivitamisel käivitatavate teenuste valimine"
+
+#: ../src/services/service-settings-table.c:73
+#: ../src/services/service-settings-table.c:97
+#: ../src/services/service-settings-table.c:109
 msgid "Start"
 msgstr "Käivita"
 
+#: ../src/services/service-settings-table.c:79
+#: ../src/services/service-settings-table.c:99
+#: ../src/services/service-settings-table.c:111
 msgid "Stop"
 msgstr "Peata"
 
+#: ../src/services/service-settings-table.c:85
+#: ../src/services/service-settings-table.c:102
 msgid "Ignore"
 msgstr "Eira"
 
+#: ../src/services/service-settings-table.c:175
 msgid "Runlevel"
 msgstr "Runlevel"
 
+#: ../src/services/service-settings-table.c:192
 msgid "Status"
 msgstr "Olek"
 
+#: ../src/services/service-settings-table.c:211
 msgid "Priority"
 msgstr "Prioriteet"
 
+#: ../src/services/services-tool.c:106
 msgid "Services Settings"
 msgstr "Teenuste sätted"
 
+#: ../src/shares/callbacks.c:196
 msgid "Are you sure you want to delete this share?"
 msgstr "Kas soovid kustutada selle jagatud kataloogi?"
 
+#: ../src/shares/callbacks.c:198
 msgid "Other computers in your network will stop viewing this."
 msgstr "Teised võrgus olevad arvutid ei näe seda enam."
 
+#: ../src/shares/main.c:103
 msgid "Add a shared path, modifies it if it already exists"
 msgstr "Jagatud raja lisamine või selle muutmine olemasolu korral"
 
+#: ../src/shares/main.c:103
 msgid "PATH"
 msgstr "RADA"
 
+#: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
 msgstr "_Jaga kataloog..."
 
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr "Kataloogi jagamine ühiskasutuseks teiste arvutitega"
 
+#: ../src/shares/nfs-acl-table.c:50
 msgid "Allowed host/network"
 msgstr "Lubatud host/võrk"
 
+#: ../src/shares/share-nfs-add-hosts.c:117
 msgid "Specify hostname"
 msgstr "Hostinime määramine"
 
+#: ../src/shares/share-nfs-add-hosts.c:124
 msgid "Specify IP address"
 msgstr "Kohaliku IP-aadressi määramine"
 
+#: ../src/shares/share-nfs-add-hosts.c:131
 msgid "Specify network"
 msgstr "Võrgu määramine"
 
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Võrgunaabritele jagavate kataloogide seadistamine"
 
+#: ../src/shares/share-settings.c:61
 msgid "File System"
 msgstr "Failisüsteem"
 
+#: ../src/shares/share-settings.c:144
 msgid "Do not share"
 msgstr "Mitte jagada"
 
+#: ../src/shares/share-settings.c:152
 msgid "Windows networks (SMB)"
 msgstr "Windows'i võrgud (SMB)"
 
+#: ../src/shares/share-settings.c:160
 msgid "Unix networks (NFS)"
 msgstr "Unix'i võrgud (NFS)"
 
+#: ../src/shares/share-settings.c:462
 #, c-format
 msgid "Settings for folder '%s'"
 msgstr "Kataloogi \"%s\" sätted"
 
+#: ../src/shares/share-settings.c:469
 msgid "Share Folder"
 msgstr "Kataloogi jagamine"
 
+#: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
 msgstr "Jagamisteenused ei ole paigaldatud"
 
+#: ../src/shares/shares-tool.c:154
 msgid ""
 "You need to install at least either Samba or NFS in order to share your "
 "folders."
-msgstr ""
-"Oma kataloogide jagamiseks peab sul olema paigaldatud kas Samba või NFS."
+msgstr "Oma kataloogide jagamiseks peab sul olema paigaldatud kas Samba või NFS."
 
+#: ../src/time/e-map/e-map.c:620
 msgid "World Map"
 msgstr "Maailma kaart"
 
+#: ../src/time/e-map/e-map.c:622
 msgid ""
 "Mouse-based interactive map widget for selecting timezone. Keyboard users "
 "should instead select the timezone from the drop-down combination box below."
-msgstr ""
-"Hiirega juhitav interaktiivne vidin ajavööndi valimiseks. Klaviatuuri "
-"kasutajad peaks ajavööndi valimiseks kasutama allpool asuvat valikukasti."
+msgstr "Hiirega juhitav interaktiivne vidin ajavööndi valimiseks. Klaviatuuri kasutajad peaks ajavööndi valimiseks kasutama allpool asuvat valikukasti."
 
-msgid "Change system time, date, and timezone"
-msgstr "Kellaaja, kuupäeva ja ajavööndi muutmine"
-
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Kellaaeg ja kuupäev"
 
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Kellaaja, kuupäeva ja ajavööndi muutmine"
+
+#: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "NTP tugi ei ole paigaldatud"
 
+#: ../src/time/time-tool.c:400
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr ""
-"Kohaliku ajaserveri sünkroniseerimiseks internetis olevate ajaserveritega "
-"pead sa paigaldama ja aktiveerima süsteemis NTP toe."
+msgstr "Kohaliku ajaserveri sünkroniseerimiseks internetis olevate ajaserveritega pead sa paigaldama ja aktiveerima süsteemis NTP toe."
 
+#: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
 msgstr "NTP lubamine"
 
+#: ../src/time/time-tool.c:429
 msgid "Disabling NTP"
 msgstr "NTP keelamine"
 
+#: ../src/time/time-tool.c:441
 msgid "Synchronizing system clock"
 msgstr "Süsteemse kella sünkroniseerimine"
 
+#: ../src/time/time-tool.c:521
 msgid "Keep synchronized with Internet servers"
 msgstr "Internetis olevate serveritega sünkroonis hoidmine"
 
+#: ../src/time/time-tool.c:522
 msgid "Manual"
 msgstr "Käsitsi"
 
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "Kella ja kuupäeva sätted"
 
+#: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
 msgstr "Administraatori gruppi pole võimalik kustutada"
 
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "See võib muuta arvuti kasutamatuks."
 
+#: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
 msgstr "Kas soovid eemaldada grupi \"%s\"?"
 
+#: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
 msgstr "Selle tagajärjel võivad failisüsteemi jääda failid vigase grupi ID'ga."
 
+#: ../src/users/group-settings.c:144
 msgid "New group"
 msgstr "Uus grupp"
 
+#: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
 msgstr "Grupi '%s' omadused"
 
+#: ../src/users/group-settings.c:217
 msgid "Group name is empty"
 msgstr "Grupi nimi on tühi"
 
+#: ../src/users/group-settings.c:218
 msgid "A group name must be specified."
 msgstr "Grupi nimi peab olema määratud."
 
+#: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
 msgstr "Administraatori kasutajagrupi nime ei tohiks muuta"
 
+#: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
 msgstr "Grupinimi sisaldab lubamatuid sümboleid"
 
+#: ../src/users/group-settings.c:224
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr ""
-"Palun sisesta korrektne grupinimi, kasutades esimese tähena väiketähte, "
-"millele järgnevad ainult väiketähed ja/või numbrid."
+msgstr "Palun sisesta korrektne grupinimi, kasutades esimese tähena väiketähte, millele järgnevad ainult väiketähed ja/või numbrid."
 
+#: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
 msgstr "Grupp \"%s\" on juba olemas"
 
+#: ../src/users/group-settings.c:230
 msgid "Please choose a different group name."
 msgstr "Palun vali mõni muu grupinimi."
 
+#: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
 msgstr "Administraatori grupi ID-d ei tohiks muuta"
 
 #. check that GID is free
+#: ../src/users/group-settings.c:261
 #, c-format
 msgid "Group ID %d is already used by group \"%s\""
 msgstr "Kasutaja ID %d on juba grupi \"%s\" poolt kasutusel"
 
+#: ../src/users/group-settings.c:264
 msgid "Please choose a different numeric identifier for the new group."
 msgstr "Palun määra uuele grupile mõni muu numbriline identifikaator."
 
+#: ../src/users/group-settings.c:266
 #, c-format
 msgid "Please choose a different numeric identifier for group \"%s\"."
 msgstr "Palun määra grupile \"%s\" mõni muu numbriline identifikaator."
 
+#: ../src/users/groups-table.c:44
 msgid "Group name"
 msgstr "Grupi nimi"
 
 #. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
 msgid "Not asked on login"
 msgstr "Sisselogimisel ei küsita"
 
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
 msgid "Asked on login"
 msgstr "Küsitakse sisselogimisel"
 
+#: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
 msgstr "Süsteemilogide monitooring"
 
+#: ../src/users/privileges-table.c:54
 msgid "Administer the system"
 msgstr "Süsteemi haldamine"
 
+#: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
 msgstr "Audioseadmete kasutamine"
 
+#: ../src/users/privileges-table.c:56
 msgid "Use CD-ROM drives"
 msgstr "CD-ROM seadmete kasutamine"
 
+#: ../src/users/privileges-table.c:57
 msgid "Burn CDs / DVDs"
 msgstr "CD/DVD-plaatide kirjutamine"
 
+#: ../src/users/privileges-table.c:58
 msgid "Use modems"
 msgstr "Modemite kasutamine"
 
+#: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
 msgstr "Modemi kaudu internetti ühendumine"
 
+#: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
 msgstr "Fakside saatmine ja vastuvõtmine"
 
+#: ../src/users/privileges-table.c:61
 msgid "Use floppy drives"
 msgstr "Flopiseadmete kasutamine"
 
+#: ../src/users/privileges-table.c:62
 msgid "Mount user-space filesystems (FUSE)"
 msgstr "Kasutajaruumi failisüsteemide haakimine (FUSE)"
 
+#: ../src/users/privileges-table.c:63
 msgid "Configure printers"
 msgstr "Printerite seadistamine"
 
+#: ../src/users/privileges-table.c:64
 msgid "Connect to wireless and ethernet networks"
 msgstr "Ühendumine juhtmega võrkudesse ja raadiovõrkudesse"
 
+#: ../src/users/privileges-table.c:65
 msgid "Access external storage devices automatically"
 msgstr "Väliste salvestusseadmete automaatne kasutamine"
 
+#: ../src/users/privileges-table.c:66
 msgid "Suspend and hibernate the computer"
 msgstr "Arvuti uinutamine ja talveunne jätmine"
 
+#: ../src/users/privileges-table.c:67
 msgid "Access /proc filesystem"
 msgstr "Ligipääs /proc failisüsteemile"
 
+#: ../src/users/privileges-table.c:68
 msgid "Use scanners"
 msgstr "Skannerite kasutamine"
 
+#: ../src/users/privileges-table.c:69
 msgid "Use tape drives"
 msgstr "Lindiseadmete kasutamine"
 
+#: ../src/users/privileges-table.c:70
 msgid "Use USB devices"
 msgstr "USB-seadmete kasutamine"
 
+#: ../src/users/privileges-table.c:71
 msgid "Use VirtualBox virtualization solution"
 msgstr "VirtualBoxi virtualiseerimislahenduse kasutamine"
 
+#: ../src/users/privileges-table.c:72
 msgid "Use video devices"
 msgstr "Videoseadmete kasutamine"
 
+#: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
 msgstr "Administraatori õiguste saamise võimalus"
 
-msgid "Administrator"
-msgstr "Administraator"
-
-msgid ""
-"Can change anything on the system, including installing and upgrading "
-"software."
-msgstr ""
-"Võib teha arvutis ükskõik mida, sealhulgas tarkvara paigaldada ja uuendada."
-
-msgid ""
-"Can perform common tasks. Can't install software or change settings "
-"affecting all users."
-msgstr ""
-"Võib sooritada tavapäraseid ülesandeid. Ei tohi paigaldada tarkvara ega "
-"muuta teisi kasutajaid mõjutavaid sätteid."
-
+#: ../src/users/user-profiles.conf.in.h:1
 msgid "Desktop user"
 msgstr "Töölauakasutaja"
 
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr "Võib sooritada tavapäraseid ülesandeid. Ei tohi paigaldada tarkvara ega muuta teisi kasutajaid mõjutavaid sätteid."
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr "Administraator"
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr "Võib teha arvutis ükskõik mida, sealhulgas tarkvara paigaldada ja uuendada."
+
+#: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
 msgstr "Tõrge autentimisel"
 
+#: ../src/users/run-passwd.c:498
 #, c-format
 msgid "The new password is too short"
 msgstr "Uus parool on liiga lühike"
 
+#: ../src/users/run-passwd.c:504
 #, c-format
 msgid "The new password is too simple"
 msgstr "Uus parool on liiga lihtne"
 
+#: ../src/users/run-passwd.c:510
 #, c-format
 msgid "The old and new passwords are too similar"
 msgstr "Vana ja uus parool on liiga sarnased"
 
+#: ../src/users/run-passwd.c:513
 #, c-format
 msgid "The new password must contain numeric or special characters"
 msgstr "Uus parool peab sisaldama numbreid ja erimärke"
 
+#: ../src/users/run-passwd.c:517
 #, c-format
 msgid "The old and new passwords are the same"
 msgstr "Vana ja uus parool on samasugused"
 
+#: ../src/users/run-passwd.c:520
 #, c-format
 msgid "The new password has already been used recently."
 msgstr "Uus parool on hiljuti kasutusel olnud."
 
+#: ../src/users/run-passwd.c:524
 #, c-format
 msgid "Your password has been changed since you initially authenticated!"
 msgstr "Sinu parooli on pärast esmast sisselogimist muudetud!"
 
+#: ../src/users/run-passwd.c:528
 #, c-format
 msgid "Unknown error"
 msgstr "Tundmatu viga"
 
-msgid "Add or remove users and groups"
-msgstr "Kasutajate ja gruppide lisamine või eemaldamine"
-
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Kasutajad ja grupid"
 
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Kasutajate ja gruppide lisamine või eemaldamine"
+
+#: ../src/users/user-password.c:97
 msgid "Password is too short"
 msgstr "Parool on liiga lühike"
 
+#: ../src/users/user-password.c:98
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr ""
-"Kasutajate paroolid peavad olema pikemad kui 5 märki ja eelistatavalt "
-"sisaldama ka numbreid, tähti ja erimärke."
+msgstr "Kasutajate paroolid peavad olema pikemad kui 5 märki ja eelistatavalt sisaldama ka numbreid, tähti ja erimärke."
 
+#: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
 msgstr "Paroolikordus pole sama"
 
+#: ../src/users/user-password.c:102
 msgid "Check that you have provided the same password in both text fields."
 msgstr "Veendu, et sul oleks mõlemale väljale sisestatud sama parool."
 
+#: ../src/users/user-password.c:445
 msgid "Please choose another password."
 msgstr "Palun vali mõni muu parool."
 
+#: ../src/users/user-password.c:456
 msgid "Please type again your current password."
 msgstr "Palun sisesta oma praegune parool uuesti."
 
+#: ../src/users/user-password.c:463
 msgid "Password could not be changed"
 msgstr "Parooli pole võimalik muuta"
 
+#: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
 msgstr "Administraatori kontot pole võimalik kustutada"
 
+#: ../src/users/user-settings.c:96
 #, c-format
 msgid "%s is currently using this computer"
 msgstr "Kasutaja %s pruugib hetkel seda arvutit"
 
+#: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
-msgstr ""
-"Palun veendu, et kasutaja on enne selle konto kustutamist välja logitud."
+msgstr "Palun veendu, et kasutaja on enne selle konto kustutamist välja logitud."
 
+#: ../src/users/user-settings.c:109
 msgid "Can't delete the only administrator account"
 msgstr "Ainsa administraatori kontot pole võimalik kustutada"
 
+#: ../src/users/user-settings.c:111
 #, c-format
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr ""
-"Kasutaja %s on ainukene administraator selles arvutis. Selle konto "
-"kustutamine muudaks süsteemi administreerimise võimatuks."
+msgstr "Kasutaja %s on ainukene administraator selles arvutis. Selle konto kustutamine muudaks süsteemi administreerimise võimatuks."
 
+#: ../src/users/user-settings.c:121
 #, c-format
 msgid "Remove home folder for %s?"
 msgstr "Kas eemaldada kasutaja %s kodukataloog?"
 
+#: ../src/users/user-settings.c:124
 #, c-format
 msgid ""
-"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't "
-"need them anymore. You may want to back them up before deleting the account, "
-"or keep them so that an administrator can save them later."
-msgstr ""
-"Kasutajale %s kuuluvad failid kaustas <tt>%s</tt> võib täielikult kustutada, "
-"kui sa neid enam ei vaja. Võib-olla tahad aga enne konto kustutamist need "
-"failid varundada või säilitada, et administraatoril oleks võimalus neid "
-"hiljem päästa."
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr "Kasutajale %s kuuluvad failid kaustas <tt>%s</tt> võib täielikult kustutada, kui sa neid enam ei vaja. Võib-olla tahad aga enne konto kustutamist need failid varundada või säilitada, et administraatoril oleks võimalus neid hiljem päästa."
 
+#: ../src/users/user-settings.c:132
 msgid "Keep Files"
 msgstr "Failid säilitatakse"
 
+#: ../src/users/user-settings.c:133
 msgid "Don't Remove Account"
 msgstr "Kontot ei eemaldata"
 
+#: ../src/users/user-settings.c:134
 msgid "Delete Files"
 msgstr "Failid kustutatakse"
 
+#: ../src/users/user-settings.c:330
 msgid "Superuser"
 msgstr "Superkasutaja"
 
+#: ../src/users/user-settings.c:335
 msgid "Custom"
 msgstr "Kohandatud"
 
 #. TRANSLATORS: This applies to a password.
+#: ../src/users/user-settings.c:344
 msgid "None"
 msgstr "Puudub"
 
+#: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
 msgstr "Kommentaaris on lubamatu sümbol \"%c\""
 
+#: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
 msgstr "Veendu, et seda sümbolit poleks kasutusel."
 
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "Mittetäielik kodukataloogi asukoht"
 
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
-"Palun sisesta kodukataloogi täielik asukoht\n"
-"<span size=\"smaller\">näiteks: /home/john</span>."
+msgstr "Palun sisesta kodukataloogi täielik asukoht\n<span size=\"smaller\">näiteks: /home/john</span>."
 
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
 msgstr "Uus kodukataloog on juba olemas, kas kasutada seda?"
 
+#: ../src/users/user-settings.c:449
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or copy the contents of <tt>"
-"%s</tt> to the new home, overwriting it?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
-"In doubt, use the new directory to avoid losing data, and copy files from "
-"the old directory later."
-msgstr ""
-"Kasutaja %s kodukataloogiks on määratud juba olemas olev kataloog "
-"<tt>%s</tt>. "
-"Kas soovid kasutada selles kataloogis olevaid faile või asendada need failid "
-"kataloogist <tt>%s</tt> kopeeritavate failidega?\n"
-"\n"
-"Kõhkluste korral kasuta andmete kaotsimineku vältimiseks uues kodukataloogis "
-"olevaid faile ja lükka vanast kataloogist failide kopeerimine edasi."
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr "Kasutaja %s kodukataloogiks on määratud juba olemas olev kataloog <tt>%s</tt>. Kas soovid kasutada selles kataloogis olevaid faile või asendada need failid kataloogist <tt>%s</tt> kopeeritavate failidega?\n\nKõhkluste korral kasuta andmete kaotsimineku vältimiseks uues kodukataloogis olevaid faile ja lükka vanast kataloogist failide kopeerimine edasi."
 
+#: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
 msgstr "_Asenda vanade failidega"
 
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
 msgid "_Cancel Change"
 msgstr "_Tühista muudatus"
 
 #. TRANSLATORS: This means "use the files from the new location",
 #. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
 msgid "_Use New Files"
 msgstr "Kasuta _uusi faile"
 
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
 msgid "Make user the _owner of the new home directory"
 msgstr "Kasutaja määratakse _uue kodukataloogi omanikuks"
 
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
 msgid "_Delete old home directory"
 msgstr "Kustuta _vana kodukataloog"
 
+#: ../src/users/user-settings.c:493
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or delete all its contents and "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr ""
-"Kasutaja %s kodukataloogiks on määratud juba olemas olev kataloog "
-"<tt>%s</tt>. "
-"Kas soovid kasutada selles kataloogis olevaid faile või tuleb see kataloog "
-"tühjendada ja kasutada täiesti tühja kodukataloogi?\n"
-"\n"
-"Kõhkluste korral säilita olemasolevad failid ja vajadusel kustuta need "
-"hiljem."
+msgstr "Kasutaja %s kodukataloogiks on määratud juba olemas olev kataloog <tt>%s</tt>. Kas soovid kasutada selles kataloogis olevaid faile või tuleb see kataloog tühjendada ja kasutada täiesti tühja kodukataloogi?\n\nKõhkluste korral säilita olemasolevad failid ja vajadusel kustuta need hiljem."
 
+#: ../src/users/user-settings.c:503
 msgid "_Delete Files"
 msgstr "_Kustuta failid"
 
+#: ../src/users/user-settings.c:505
 msgid "_Use Existing Files"
 msgstr "Kasuta _olemasolevaid faile"
 
+#: ../src/users/user-settings.c:526
 msgid "Copy old home directory to new location?"
 msgstr "Kas kopeerida vana kodukataloog uuele asukohale?"
 
+#: ../src/users/user-settings.c:528
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. "
-"Do you want to copy the contents of the old home directory (<tt>%s</tt>), or "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
-"If you choose to copy the files to the new location, it's safe to delete the "
-"old directory."
-msgstr ""
-"Kasutaja %s kodukataloogiks on määratud olematu kataloog <tt>%s</tt>. "
-"Kas soovid sinna kopeerida vana kodukataloogi (<tt>%s</tt>) failid või "
-"soovid luua täiesti tühja kodukataloogi?\n"
-"\n"
-"Kui valida vanade failide kopeerimine, siis ei tohiks vana kodukataloogi "
-"kustutamisest probleeme tekkida."
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr "Kasutaja %s kodukataloogiks on määratud olematu kataloog <tt>%s</tt>. Kas soovid sinna kopeerida vana kodukataloogi (<tt>%s</tt>) failid või soovid luua täiesti tühja kodukataloogi?\n\nKui valida vanade failide kopeerimine, siis ei tohiks vana kodukataloogi kustutamisest probleeme tekkida."
 
+#: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
 msgstr "Kasuta _tühja kataloogi"
 
 #. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
 msgid "Co_py Old Files"
 msgstr "_Kopeeri vanad failid"
 
+#: ../src/users/user-settings.c:604
 msgid "ID for the root user should not be modified"
 msgstr "Juurkasutaja ID-d ei tohiks muuta"
 
 #. check that UID is free
+#: ../src/users/user-settings.c:608
 #, c-format
 msgid "User ID %d is already used by user %s"
 msgstr "Kasutaja ID %d on juba kasutaja %s poolt kasutusel"
 
+#: ../src/users/user-settings.c:610
 #, c-format
 msgid "Please choose a different numeric identifier for %s."
 msgstr "Palun määra kasutajale %s mõni muu numbriline identifikaator."
 
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr "Mittetäielik kestprogrammi asukoht"
 
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
-"Palun sisesta kestprogrammi täielik asukoht\n"
-"<span size=\"smaller\">näiteks: /bin/bash</span>."
+msgstr "Palun sisesta kestprogrammi täielik asukoht\n<span size=\"smaller\">näiteks: /bin/bash</span>."
 
+#: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
 msgstr "Administraatori õiguseid pole võimalik saada"
 
+#: ../src/users/user-settings.c:666
 #, c-format
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr ""
-"Kasutaja %s on ainukene administraator selles arvutis. Selle konto "
-"administratiivõiguste tühistamine muudaks süsteemi administreerimise "
-"võimatuks."
+msgstr "Kasutaja %s on ainukene administraator selles arvutis. Selle konto administratiivõiguste tühistamine muudaks süsteemi administreerimise võimatuks."
 
+#: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
 msgstr "Sa tühistad praegu enda administratiivõigused"
 
+#: ../src/users/user-settings.c:686
 #, c-format
 msgid ""
 "%s will no longer be able to perform administrative tasks. This account "
 "won't be allowed to get administration rights back on its own."
-msgstr ""
-"%s ei ole siis enam võimeline sooritama administratiivülesandeid. Selle "
-"konto omanik ei saa pärast seda enam administratiivõiguseid ise tagasi võtta."
+msgstr "%s ei ole siis enam võimeline sooritama administratiivülesandeid. Selle konto omanik ei saa pärast seda enam administratiivõiguseid ise tagasi võtta."
 
+#: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
 msgstr "Ütle administraatori õigustest lahti"
 
+#: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
 msgstr "Muudatuste rakendamine kasutaja sätetele..."
 
+#: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "Kasutajate sätted"
-
-#~ msgid ""
-#~ "The directory <tt>%s</tt> already exists. User may not have the "
-#~ "permissions required to read or write in that directory. Do you want to "
-#~ "use it anyway?"
-#~ msgstr ""
-#~ "Kataloog <tt>%s</tt> on juba olemas. Kasutajal ei pruugi olla selle "
-#~ "kataloogi jaoks vajalikke lugemis- ja kirjutamisõiguseid. Kas soovid "
-#~ "siiski seda kataloogi kasutada?"
-
-#~ msgid "_Short Name:"
-#~ msgstr "_Lühinimi:"
-
-#~ msgid "Address: %s Subnet mask: %s"
-#~ msgstr "Aadress: %s Alamvõrgu mask: %s"
-
-#~ msgid "Address: %s Remote address: %s"
-#~ msgstr "Aadress: %s Kaugaadress: %s"
-
-#~ msgid "Type: %s Phone number: %s"
-#~ msgstr "Liik: %s Telefoninumber: %s"
-
-#~ msgid "Type: %s Access point name: %s"
-#~ msgstr "Liik: %s Access point'i nimi: %s"
-
-#~ msgid "Type: %s Ethernet interface: %s"
-#~ msgstr "Liik: %s Etherneti võrguliides: %s"
-
-#~ msgid "Check password _quality"
-#~ msgstr "Parooli _kvaliteedi kontroll"
-
-#~ msgid "User _password:"
-#~ msgstr "Kasutaja _parool:"
-
-#~ msgid "User must log out before you can change his ID."
-#~ msgstr "Kasutaja peab enne ID muutmist välja logima."
-
-#~ msgid ""
-#~ "This will disable this user's access to the system without deleting the "
-#~ "user's home directory."
-#~ msgstr ""
-#~ "Selle abil saab keelata kasutajal süsteemi ligipääsu ilma kasutaja "
-#~ "kodukataloogi kustutamata."
-
-#~ msgid "Administrator account's user ID should not be modified"
-#~ msgstr "Administraatori konto kasutaja ID-d ei tohiks muuta"

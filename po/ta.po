@@ -1,766 +1,754 @@
-# translation of mate-system-tools.master.ta.po to Tamil
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# Jayaradha N <jaya@pune.redhat.com>, 2004.
-# Felix <ifelix@redhat.com>, 2006.
-# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2009, 2010.
-# I. Felix <ifelix@redhat.com>, 2008, 2009.
+# 
+# Translators:
 # Dr,T,Vasudevan <agnihot3@gmail.com>, 2010.
+# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2009, 2010.
+# Felix <ifelix@redhat.com>, 2006.
+# I. Felix <ifelix@redhat.com>, 2008, 2009.
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools.master.ta\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-03 17:30+0530\n"
-"PO-Revision-Date: 2010-09-03 17:47+0530\n"
-"Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
-"Language-Team: Tamil <<Ubuntu-l10n-tam@lists.ubuntu.com>>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:50+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
+"Language: ta\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../interfaces/network.ui.h:1 ../src/network/ifaces-list.c:326
-msgid "Access point name:"
-msgstr "அணுகல் புள்ளி பெயர்:"
+#: ../interfaces/network.ui.h:1
+msgid "Off"
+msgstr "செயல் நீக்கு"
 
 #: ../interfaces/network.ui.h:2
-msgid "Account data"
-msgstr "கணக்கு தரவு"
+msgid "Low"
+msgstr "குறைவான"
 
 #: ../interfaces/network.ui.h:3
-msgid "Aliases:"
-msgstr "மறுபெயர்கள்:"
+msgid "Medium"
+msgstr "நடுத்தரம்"
 
 #: ../interfaces/network.ui.h:4
-msgid "Con_figuration:"
-msgstr "கட்டமைப்பு (_f):"
+msgid "Loud"
+msgstr "உரத்த"
 
 #: ../interfaces/network.ui.h:5
-msgid "Connection Settings"
-msgstr "இணைப்பு அமைவுகள்"
+msgid "Tones"
+msgstr "தொனிகள்"
 
 #: ../interfaces/network.ui.h:6
-msgid "Connection type:"
-msgstr "இணைப்பு வகை:"
+msgid "Pulses"
+msgstr "துடிப்புகள்"
 
 #: ../interfaces/network.ui.h:7
-msgid "Connections"
-msgstr "இணைப்புகள்"
+msgid "Plain (ASCII)"
+msgstr "வெற்று ஆஸ்கி(ASCII)"
 
 #: ../interfaces/network.ui.h:8
-msgid "DNS"
-msgstr "DNS"
+msgid "Hexadecimal"
+msgstr "பதின்அறும"
 
 #: ../interfaces/network.ui.h:9
-msgid "DNS Servers"
-msgstr "DNS சேவையகங்கள்"
+msgid "Location:"
+msgstr "இடம்:"
 
 #: ../interfaces/network.ui.h:10
-msgid "D_omain name:"
-msgstr "(_o)டொமைன் பெயர்:"
+msgid "Save current network configuration as a location"
+msgstr "இப்போதைய வலையமைப்பை ஒரு இடமாக சேமி"
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
 msgstr "இப்போதைய இடத்தை நீக்கு"
 
 #: ../interfaces/network.ui.h:12
-msgid "E_nable roaming mode"
-msgstr "அலையும் முறைமையை செயல்படுத்து"
+msgid "Connections"
+msgstr "இணைப்புகள்"
 
 #: ../interfaces/network.ui.h:13
-msgid "E_nable this connection"
-msgstr "இந்த இணைப்பினை செயல்படுத்து (_n)"
+msgid "_Host name:"
+msgstr "புரவலன் பெயர்: (_H)"
 
-#: ../interfaces/network.ui.h:14 ../src/network/ifaces-list.c:335
-msgid "Ethernet interface:"
-msgstr "ஈத்தர்நெட் முகப்பு:"
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "(_o)டொமைன் பெயர்:"
 
-#: ../interfaces/network.ui.h:15 ../interfaces/users.ui.h:27
-msgid "General"
-msgstr "பொதுவான"
-
-#: ../interfaces/network.ui.h:16
-msgid "Hexadecimal"
-msgstr "பதின்அறும"
-
-#: ../interfaces/network.ui.h:17
-msgid "Host Alias Properties"
-msgstr "புரவலன் மாற்று அமைவுகள்"
-
-#: ../interfaces/network.ui.h:18
+#: ../interfaces/network.ui.h:15
 msgid "Host Settings"
 msgstr "புரவலன் அமைவுகள்"
 
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "பொதுவான"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "DNS சேவையகங்கள்"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "களங்களை தேடு"
+
 #: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
 msgid "Hosts"
 msgstr "புரவலன்"
-
-#: ../interfaces/network.ui.h:20 ../interfaces/shares.ui.h:11
-msgid "IP address:"
-msgstr "IP முகவரி:"
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
 msgstr "இடைமுக பண்புகள்"
 
 #: ../interfaces/network.ui.h:22
-msgid "Internet service provider data"
-msgstr "இணைய சேவை வழங்குபவர் தரவு"
+msgid "E_nable this connection"
+msgstr "இந்த இணைப்பினை செயல்படுத்து (_n)"
 
 #: ../interfaces/network.ui.h:23
-msgid "Location:"
-msgstr "இடம்:"
+msgid "E_nable roaming mode"
+msgstr "அலையும் முறைமையை செயல்படுத்து"
 
 #: ../interfaces/network.ui.h:24
-msgid "Loud"
-msgstr "உரத்த"
+msgid "Connection type:"
+msgstr "இணைப்பு வகை:"
 
 #: ../interfaces/network.ui.h:25
-msgid "Low"
-msgstr "குறைவான"
-
-#: ../interfaces/network.ui.h:26
-msgid "Medium"
-msgstr "நடுத்தரம்"
-
-#: ../interfaces/network.ui.h:27
-msgid "Modem"
-msgstr "மோடம்"
-
-#: ../interfaces/network.ui.h:28
-msgid "Modem Settings"
-msgstr "மோடம் அமைவுகள்"
-
-#: ../interfaces/network.ui.h:29
-msgid "Network _password:"
-msgstr "பிணைய கடவுச்சொல்: (_p)"
-
-#: ../interfaces/network.ui.h:30
 msgid "Network name (_ESSID):"
 msgstr "பிணைய பெயர் (_ESSID):"
 
-#: ../interfaces/network.ui.h:31
-msgid "Off"
-msgstr "செயல் நீக்கு"
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "பிணைய கடவுச்சொல்: (_p)"
 
-#: ../interfaces/network.ui.h:32
-msgid "Options"
-msgstr "விருப்பங்கள்"
-
-#: ../interfaces/network.ui.h:33
-msgid "P_assword"
-msgstr "கடவுச்சொல் (_a)"
-
-#: ../interfaces/network.ui.h:34
+#: ../interfaces/network.ui.h:27
 msgid "Password _type:"
 msgstr "கடவுச்சொல் வகை: (_t)"
 
-#: ../interfaces/network.ui.h:35
-msgid "Plain (ASCII)"
-msgstr "வெற்று ஆஸ்கி(ASCII)"
-
-#: ../interfaces/network.ui.h:36
-msgid "Pulses"
-msgstr "துடிப்புகள்"
-
-#: ../interfaces/network.ui.h:37
-msgid "Save current network configuration as a location"
-msgstr "இப்போதைய வலையமைப்பை ஒரு இடமாக சேமி"
-
-#: ../interfaces/network.ui.h:38
-msgid "Search Domains"
-msgstr "களங்களை தேடு"
-
-#: ../interfaces/network.ui.h:39
-msgid "Tones"
-msgstr "தொனிகள்"
-
-#: ../interfaces/network.ui.h:40
-msgid "Use the Internet service provider nameservers"
-msgstr "இணைய சேவை வழங்கும் பெயர் சேவையகங்களை பயன்படுத்து"
-
-#: ../interfaces/network.ui.h:41
+#: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
 msgstr "வடமில்லா அமைவுகள்"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "(_A)தானாக கண்டறி"
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "கட்டமைப்பு (_f):"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_IP முகவரி:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "(_S)சப்நெட் மாஸ்க்:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "(_G)நுழைவாயில் முகவரி:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "இணைப்பு அமைவுகள்"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "(_L)உள் IP:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "(_R)தொலை IP:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "(_P)தொலைபேசி எண்:"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "அழைப்பு முன்னொட்டு:(_D)"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "அணுகல் புள்ளி பெயர்:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "இணைய சேவை வழங்குபவர் தரவு"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "(_U)பயனீட்டாளர் பெயர்:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "கடவுச்சொல் (_a)"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "கணக்கு தரவு"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "(_M)மோடம் பாதை:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "(_D)டையல் வகை:"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "(_G)நுழைவாயில் முகவரி:"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "புரவலன் பெயர்: (_H)"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "_IP முகவரி:"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "(_L)உள் IP:"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "(_M)மோடம் பாதை:"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "(_P)தொலைபேசி எண்:"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "(_R)தொலை IP:"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "(_R)இணைப்பு அருபட்டால் அல்லது துவங்கவில்லை என்றால் மீண்டும் முயற்சிக்கவும்"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "(_r)இணையத்தின் பொது பாதையாக மோடமை அமைக்கவும்"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "(_S)சப்நெட் மாஸ்க்:"
-
-#: ../interfaces/network.ui.h:55 ../interfaces/users.ui.h:82
-msgid "_Username:"
-msgstr "(_U)பயனீட்டாளர் பெயர்:"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "தொகுதி: (_V)"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "கூடுதல் அமைவுகள்:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "(_A)தானாக கண்டறி"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "ஈத்தர்நெட் முகப்பு:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "மோடம் அமைவுகள்"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "மோடம்"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "(_r)இணையத்தின் பொது பாதையாக மோடமை அமைக்கவும்"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "இணைய சேவை வழங்கும் பெயர் சேவையகங்களை பயன்படுத்து"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "(_R)இணைப்பு அருபட்டால் அல்லது துவங்கவில்லை என்றால் மீண்டும் முயற்சிக்கவும்"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "விருப்பங்கள்"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "புரவலன் மாற்று அமைவுகள்"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP முகவரி:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "மறுபெயர்கள்:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "செயல்படுத்த வேண்டிய சேவைகளை தேர்ந்தெடுக்கவும்"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "கூடுதல் அமைவுகள்:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Add allowed hosts"
-msgstr "அனுமதிக்கப்பட்ட புரவலன்களை சேர்"
+msgid "_Path:"
+msgstr "பாதை: (_P)"
 
 #: ../interfaces/shares.ui.h:2
-msgid "Allowed Hosts"
-msgstr "அனுமதிக்கப்பட்ட புரவலன்கள்"
+msgid "Share through:"
+msgstr "பகிர்:"
 
 #: ../interfaces/shares.ui.h:3
-msgid "Allowed hosts:"
-msgstr "அனுமதிக்கப்பட்ட புரவலன்கள்:"
+msgid "Shared Folder"
+msgstr "பகிரப்பட்ட அடைவு"
 
 #: ../interfaces/shares.ui.h:4
 msgid "Comment:"
 msgstr "குறிப்பு:"
 
 #: ../interfaces/shares.ui.h:5
-msgid "Domain / _Workgroup:"
-msgstr "டொமைன்/ (_W)பணிகுழு:"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user"
-msgstr "பயனரின் கடவுச்சொல்லை உள்ளிடு"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Enter password for user:"
-msgstr "பயனருக்கான கடவுச்சொல்லை உள்ளிடவும்:"
-
-#: ../interfaces/shares.ui.h:8
-msgid "General Properties"
-msgstr "பொது பண்புகள்"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Host name:"
-msgstr "புரவலன் பெயர்:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Hosts Settings"
-msgstr "புரவலன்கள் அமைவுகள்"
-
-#: ../interfaces/shares.ui.h:12
 msgid "Name:"
 msgstr "பெயர்:"
 
-#: ../interfaces/shares.ui.h:13
-msgid "Netmask:"
-msgstr "Netmask:"
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr "வாசிப்பு மட்டும் (_R)"
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "பகிர்வு பண்புகள்"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "அனுமதிக்கப்பட்ட புரவலன்கள்"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "பகிர்க"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "அனுமதிக்கப்பட்ட புரவலன்களை சேர்"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "அனுமதிக்கப்பட்ட புரவலன்கள்:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "புரவலன் பெயர்:"
 
 #: ../interfaces/shares.ui.h:14
 msgid "Network:"
 msgstr "பிணையம்:"
 
-#: ../interfaces/shares.ui.h:15 ../src/shares/nfs-acl-table.c:56
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Netmask:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
 msgid "Read only"
 msgstr "வாசிப்பு மட்டும்"
 
-#: ../interfaces/shares.ui.h:16
-msgid "Share"
-msgstr "பகிர்க"
-
 #: ../interfaces/shares.ui.h:17
-msgid "Share Properties"
-msgstr "பகிர்வு பண்புகள்"
+msgid "Hosts Settings"
+msgstr "புரவலன்கள் அமைவுகள்"
 
-#: ../interfaces/shares.ui.h:18
-msgid "Share through:"
-msgstr "பகிர்:"
-
-#: ../interfaces/shares.ui.h:19
-msgid "Shared Folder"
-msgstr "பகிரப்பட்ட அடைவு"
-
-#: ../interfaces/shares.ui.h:20 ../src/shares/shares.desktop.in.in.h:2
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
 msgstr "பகிரப்பட்ட அடைவுகள்"
 
-#: ../interfaces/shares.ui.h:21
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "டொமைன்/ (_W)பணிகுழு:"
+
+#: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
 msgstr "இந்த கணினி ஒரு _WINS சேவையகம்"
 
-#: ../interfaces/shares.ui.h:22
-msgid "Users"
-msgstr "பயனர்கள்"
-
-#: ../interfaces/shares.ui.h:23
+#: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
 msgstr "WINS சேவையகம்: (_s)"
 
-#: ../interfaces/shares.ui.h:24
+#: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
 msgstr "விண்டோஸ் பகிர்வு"
 
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "பொது பண்புகள்"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "பயனர்கள்"
+
 #: ../interfaces/shares.ui.h:25
-msgid "_Path:"
-msgstr "பாதை: (_P)"
+msgid "Enter password for user"
+msgstr "பயனரின் கடவுச்சொல்லை உள்ளிடு"
 
 #: ../interfaces/shares.ui.h:26
-msgid "_Read only"
-msgstr "வாசிப்பு மட்டும் (_R)"
+msgid "Enter password for user:"
+msgstr "பயனருக்கான கடவுச்சொல்லை உள்ளிடவும்:"
 
 #: ../interfaces/time.ui.h:1
-msgid "Add NTP Server"
-msgstr "NTP சேவகனை சேர்"
+msgid "Time zone"
+msgstr "நேரம் இடம்"
 
 #: ../interfaces/time.ui.h:2
-msgid "NTP server"
-msgstr "NTP சேவகன்"
+msgid "Time Zone"
+msgstr "நேரம் மண்டலம்"
 
 #: ../interfaces/time.ui.h:3
-msgid "Se_lect Servers"
-msgstr "சேவையகங்களை தேர்ந்தெடு (_l)"
+msgid "Time zone:"
+msgstr "நேரம் இடம்:"
 
 #: ../interfaces/time.ui.h:4
 msgid "Selection"
 msgstr "தேர்வுகள்"
 
 #: ../interfaces/time.ui.h:5
-msgid "Synchronize now"
-msgstr "இப்போது ஒத்திசை"
-
-#: ../interfaces/time.ui.h:6
-msgid "Time Zone"
-msgstr "நேரம் மண்டலம்"
-
-#: ../interfaces/time.ui.h:7
 msgid "Time servers"
 msgstr "நேர சேவகன்"
 
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP சேவகன்"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "NTP சேவகனை சேர்"
+
 #: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "நேர சேவகர்:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "நேரம் இடம்"
-
-#: ../interfaces/time.ui.h:10
-msgid "Time zone:"
-msgstr "நேரம் இடம்:"
-
-#: ../interfaces/time.ui.h:11
 msgid "Unconfigured"
 msgstr "அமைக்கப்படாத"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_கட்டமைப்பு:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "நேர சேவகர்:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "சேவையகங்களை தேர்ந்தெடு (_l)"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "(_T)நேரம்:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "(_D)தேதி:"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "(_T)நேரம்:"
+msgid "Synchronize now"
+msgstr "இப்போது ஒத்திசை"
 
 #: ../interfaces/users.ui.h:1
-msgid ""
-"A user with this name already exists. Please choose a different name for the "
-"new user."
-msgstr ""
-"இந்த பெயரில் பயனர் ஏற்கெனெவே உள்ளார். தயவு செய்து புதிய பயனருக்கு வேறு சுருக்கப்பெயரை "
-"தேர்ந்தெடுக்கவும்."
+msgid "_Manage Groups"
+msgstr "குழுக்களை மேலாண் செய் (_M)"
 
 #: ../interfaces/users.ui.h:2
 msgid "Account _type:"
 msgstr "_t கணக்கு வகை:"
 
 #: ../interfaces/users.ui.h:3
-msgid "Advanced"
-msgstr "மேம்பட்ட"
+msgid "_Change..."
+msgstr "_C மாற்று..."
 
 #: ../interfaces/users.ui.h:4
-msgid "Advanced Settings"
-msgstr "மேம்பட்ட அமைப்புகள்"
+msgid "_Password:"
+msgstr "(_P)கடவுச்சொல்:"
 
 #: ../interfaces/users.ui.h:5
-msgid "Assign a random password by default"
-msgstr " தொடர்பற்ற கடவுச்சொல்லை அமைக்கவும்"
+msgid "_Advanced Settings"
+msgstr "_A கூடுதல் அமைவுகள்:"
 
 #: ../interfaces/users.ui.h:6
-msgid "Automatic UID/GID"
-msgstr "தனிப்பயன் UID/GID"
+msgid "This account is disabled."
+msgstr "இந்த கணக்கு முடக்கப்பட்டது"
 
 #: ../interfaces/users.ui.h:7
-msgid "Basic Settings"
-msgstr "அடிப்படை அமைப்புகள்"
+msgid "_Enable Account"
+msgstr "_E கணக்கு செயல்படுத்து"
 
 #: ../interfaces/users.ui.h:8
-msgid "Change Advanced User Settings"
-msgstr "கூடுதல் பயனர் அமைவுகளை மாற்றுக:"
-
-#: ../interfaces/users.ui.h:9
-msgid "Change User Account Type"
-msgstr "பயனர் கணக்கு வகையை மாற்று"
-
-#: ../interfaces/users.ui.h:10
-msgid "Change User Name"
-msgstr "பயனர் பெயரை மாற்றுக"
-
-#: ../interfaces/users.ui.h:11
-msgid "Change User Password"
-msgstr "பயனர் கடவுச்சொல்லை மாற்று"
-
-#: ../interfaces/users.ui.h:12
-msgid "Changing advanced settings for:"
-msgstr "கூடுதல் அமைவுகளை மாற்றுக:"
-
-#: ../interfaces/users.ui.h:13
-msgid "Changing user account type for:"
-msgstr "பயனர் கணக்கு வகையை இவருக்கு மாற்றவும்:"
-
-#: ../interfaces/users.ui.h:14
-msgid "Changing user name for:"
-msgstr "பயனர் பெயரை இவருக்கு மாற்றவும்:"
-
-#: ../interfaces/users.ui.h:15
-msgid "Changing user password for:"
-msgstr "பயனர் கடவுச்சொல்லை இவருக்கு மாற்றவும்:"
-
-#: ../interfaces/users.ui.h:16
-msgid "Con_firmation:"
-msgstr "(_f)உறுதிப்படுத்து:"
-
-#: ../interfaces/users.ui.h:17
-msgid "Contact Information"
-msgstr "தொடர்பு தகவல்"
-
-#: ../interfaces/users.ui.h:18
-msgid "Create New User"
-msgstr "புதிய பயனரை உருவாக்கு"
-
-#: ../interfaces/users.ui.h:19
-msgid "Create a new user"
-msgstr "புதிய பயனரை உருவாக்கு"
-
-#: ../interfaces/users.ui.h:20
-msgid "Days between warning and password expiration:"
-msgstr "கடவுச்சொல் காலாவதியாவதற்கு எத்தனை நாளைக்கு முன் எச்சரிக்கை செய்தி அனுப்ப வேண்டும்:"
-
-#: ../interfaces/users.ui.h:21
-msgid "Default _group:"
-msgstr "(_g)பொதுவான குழு:"
-
-#: ../interfaces/users.ui.h:22
-msgid "Default _shell:"
-msgstr "(_s)பொதுவான செல்:"
-
-#: ../interfaces/users.ui.h:23
-msgid "Disable _account"
-msgstr "_a கணக்கை செயல் நீக்கு"
-
-#: ../interfaces/users.ui.h:24
-msgid "Don't ask for password on _login"
-msgstr "உள் நுழையும் போது கடவுச்சொல் கேட்காதே (_l)"
-
-#: ../interfaces/users.ui.h:25
-msgid ""
-"Encrypt all your files with your login password to strongly protect them "
-"from people with physical access to your computer, at the expense of a "
-"slightly reduced performance."
-msgstr ""
-"உங்கள் உள்நுழை கடவுச்சொல்லுடன் எல்லா கோப்புக்களையும் குறிமுறையாக்குக. இது உங்கள் கணினியை "
-"பயன்படுத்தும் மற்றவரிடம் இருந்து அவற்றை காப்பாற்றும். கணினியின் செயல்திறன் சற்றே குறையலாம்."
-
-#: ../interfaces/users.ui.h:26
-msgid "Full _Name:"
-msgstr "_N முழுப் பெயர்:"
-
-#: ../interfaces/users.ui.h:28
-msgid "Generate _random password"
-msgstr "(_r)தொடர்பற்ற கடவுச்சொல்லை உருவாக்கு"
-
-#: ../interfaces/users.ui.h:29
-msgid "Group Members"
-msgstr "குழு உறுப்பினர்கள்"
-
-#: ../interfaces/users.ui.h:30
-msgid "Group _ID:"
-msgstr "(_I)குழு _ID:ID:"
-
-#: ../interfaces/users.ui.h:31
-msgid "Group _name:"
-msgstr "(_n)குழு பெயர்:"
-
-#: ../interfaces/users.ui.h:32
 msgid "Group properties"
 msgstr "குழு பண்புகள்"
 
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "அடிப்படை அமைப்புகள்"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "(_n)குழு பெயர்:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "(_I)குழு _ID:ID:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "குழு உறுப்பினர்கள்"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr "வரிவுரு அமைவுகள்"
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "விவர பெயர்: (_n)"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "(_C)விளக்கங்கள்"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "கணினியில் இயல்பானவைகள்"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "(_H)இல்ல அடைவு"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "(_s)பொதுவான செல்:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "(_g)பொதுவான குழு:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "கடவுச்சொல் அமைப்புகள்"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "கடவுச்சொல் பயன்படுத்த வேண்டிய நாட்கள்:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "கடவுச்சொல்லை மாற்ற அனுமதிக்கப்பட்ட குறைந்தபட்ச கால இடைவெளி"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "கடவுச்சொல் காலாவதியாவதற்கு எத்தனை நாளைக்கு முன் எச்சரிக்கை செய்தி அனுப்ப வேண்டும்:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr " தொடர்பற்ற கடவுச்சொல்லை அமைக்கவும்"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "தனிப்பயன் UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "அதிகபட்ச UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "அதிகபட்ச GID:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "குறைந்தபட்ச UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "குறைந்த பட்ச GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "சலுகை"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "பயனீட்டாளர் விவரம்"
+
 #: ../interfaces/users.ui.h:33
-msgid "Groups available on the system:"
-msgstr "கணினி அமைப்பில் கிடைக்கும் குழுக்கள்:"
+msgid "_Add Profile"
+msgstr "விவரக்குறிப்பினை சேர் (_A)"
 
 #: ../interfaces/users.ui.h:34
 msgid "Groups settings"
 msgstr "குழுக்கள் அமைவுகள்"
 
 #: ../interfaces/users.ui.h:35
-msgid "Ma_ximum days a password may be used:"
-msgstr "(_x)கடவுச்சொல்லை பயன்படுத்த வேண்டிய அதிக பட்ச நாட்கள்:"
+msgid "Groups available on the system:"
+msgstr "கணினி அமைப்பில் கிடைக்கும் குழுக்கள்:"
 
 #: ../interfaces/users.ui.h:36
-msgid "Maximum GID:"
-msgstr "அதிகபட்ச GID:"
+msgid "Change User Name"
+msgstr "பயனர் பெயரை மாற்றுக"
 
 #: ../interfaces/users.ui.h:37
-msgid "Maximum UID:"
-msgstr "அதிகபட்ச UID:"
+msgid "Full _Name:"
+msgstr "_N முழுப் பெயர்:"
 
 #: ../interfaces/users.ui.h:38
-msgid "Mi_nimum days between password changes:"
-msgstr "(_n)கடவுச்சொல் மாற்ற பட வேண்டிய குறைந்தபட்ச கால இடைவெளி:"
+msgid "Changing user name for:"
+msgstr "பயனர் பெயரை இவருக்கு மாற்றவும்:"
 
 #: ../interfaces/users.ui.h:39
-msgid "Minimum GID:"
-msgstr "குறைந்த பட்ச GID:"
+msgid "Change User Password"
+msgstr "பயனர் கடவுச்சொல்லை மாற்று"
 
 #: ../interfaces/users.ui.h:40
-msgid "Minimum UID:"
-msgstr "குறைந்தபட்ச UID:"
+msgid "Con_firmation:"
+msgstr "(_f)உறுதிப்படுத்து:"
 
 #: ../interfaces/users.ui.h:41
-msgid "Minimum days allowed between password changes:"
-msgstr "கடவுச்சொல்லை மாற்ற அனுமதிக்கப்பட்ட குறைந்தபட்ச கால இடைவெளி"
-
-#: ../interfaces/users.ui.h:42
-msgid "New _password:"
-msgstr "புதிய கடவுச்சொல்: (_p)"
-
-#: ../interfaces/users.ui.h:43
-msgid "Number of days that a password may be used:"
-msgstr "கடவுச்சொல் பயன்படுத்த வேண்டிய நாட்கள்:"
-
-#: ../interfaces/users.ui.h:44
-msgid "O_ffice location:"
-msgstr "(_f)அலுவலகம் இருக்குமிடம்:"
-
-#: ../interfaces/users.ui.h:45
-msgid "Optional Settings"
-msgstr "விருப்ப அமைப்புகள்"
-
-#: ../interfaces/users.ui.h:46
-msgid "Password Settings"
-msgstr "கடவுச்சொல் அமைப்புகள்"
-
-#: ../interfaces/users.ui.h:47
 msgid "Password set to: "
 msgstr "அமைக்க வேண்டிய கடவுச்சொல்"
 
-#: ../interfaces/users.ui.h:48
-msgid "Privileges"
-msgstr "சலுகை"
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "உருவாக்கு (_G)"
 
-#: ../interfaces/users.ui.h:49
-msgid "Profile Settings"
-msgstr "வரிவுரு அமைவுகள்"
-
-#: ../interfaces/users.ui.h:50
-msgid "Profile _name:"
-msgstr "விவர பெயர்: (_n)"
-
-#: ../interfaces/users.ui.h:51
+#: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
 msgstr "(_y)கடவுச்சொல்லை கைமுறையாக அமை"
 
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "புதிய கடவுச்சொல்: (_p)"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "(_r)தொடர்பற்ற கடவுச்சொல்லை உருவாக்கு"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "பயனர் கடவுச்சொல்லை இவருக்கு மாற்றவும்:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "உள் நுழையும் போது கடவுச்சொல் கேட்காதே (_l)"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "நடப்பு கடவுச்சொல்: (_C)"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "பயனர் கணக்கு வகையை மாற்று"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "பயனர் கணக்கு வகையை இவருக்கு மாற்றவும்:"
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "(_C) தனிப்பயன்"
+
 #: ../interfaces/users.ui.h:52
-msgid "System Defaults"
-msgstr "கணினியில் இயல்பானவைகள்"
-
-#: ../interfaces/users.ui.h:53
-msgid "This account is disabled."
-msgstr "இந்த கணக்கு முடக்கப்பட்டது"
-
-#: ../interfaces/users.ui.h:54
 msgid ""
 "This account is using special settings that have been defined manually. Use "
 "the <i>Advanced Settings</i> dialog to tune them."
-msgstr ""
-"இந்த கணக்கு கைமுறையாக அமைத்த விசேட அமைப்புக்களை பயன்படுத்துகிறது. அவற்றை நுண்திருத்த "
-"<i>கூடுதல் அமைப்பு</i> உரையாடலை பயன்படுத்தவும்."
+msgstr "இந்த கணக்கு கைமுறையாக அமைத்த விசேட அமைப்புக்களை பயன்படுத்துகிறது. அவற்றை நுண்திருத்த <i>கூடுதல் அமைப்பு</i> உரையாடலை பயன்படுத்தவும்."
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "புதிய பயனரை உருவாக்கு"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr " பெயர் _N :"
 
 #: ../interfaces/users.ui.h:55
-msgid "User ID:"
-msgstr "பயனர் ID:"
+msgid "Create a new user"
+msgstr "புதிய பயனரை உருவாக்கு"
 
-#: ../interfaces/users.ui.h:56
-msgid "User Privileges"
-msgstr "பயனர்களின் சலுகை"
-
-#: ../interfaces/users.ui.h:57
-msgid "User profiles"
-msgstr "பயனீட்டாளர் விவரம்"
-
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
-#: ../interfaces/users.ui.h:59
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
 msgid ""
 "Username must consist of:\n"
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
-"பயனர் பெயரில் இருக்க வேண்டியவை:\n"
-"  ➣ ஆங்கில எழுத்துக்களில் கீழ்நிலை எழுத்துக்கள்\n"
-"  ➣ எண்கள்\n"
-"  ➣ பின் வரும் எழுத்துருக்களில் ஏதேனும் ஒன்று\".\", \"-\" மற்றும் \"_\""
+msgstr "பயனர் பெயரில் இருக்க வேண்டியவை:\n  ➣ ஆங்கில எழுத்துக்களில் கீழ்நிலை எழுத்துக்கள்\n  ➣ எண்கள்\n  ➣ பின் வரும் எழுத்துருக்களில் ஏதேனும் ஒன்று\".\", \"-\" மற்றும் \"_\""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr "இந்த பெயரில் பயனர் ஏற்கெனெவே உள்ளார். தயவு செய்து புதிய பயனருக்கு வேறு சுருக்கப்பெயரை தேர்ந்தெடுக்கவும்."
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
 msgstr "பயனர் பெயர் ஒரு எழுத்துடன் ஆரம்பிக்க வேண்டும்"
 
 #: ../interfaces/users.ui.h:64
-msgid "You can't change user ID while the user is logged in."
-msgstr "பயனர் உள் நுழைந்து உள்ள போது பயனர் அடையாளத்தை மாற்ற முடியாது"
-
-#: ../interfaces/users.ui.h:65
-msgid "_Add Profile"
-msgstr "விவரக்குறிப்பினை சேர் (_A)"
-
-#: ../interfaces/users.ui.h:66
-msgid "_Advanced Settings"
-msgstr "_A கூடுதல் அமைவுகள்:"
-
-#: ../interfaces/users.ui.h:67
-msgid "_Change..."
-msgstr "_C மாற்று..."
-
-#: ../interfaces/users.ui.h:68
-msgid "_Comments"
-msgstr "(_C)விளக்கங்கள்"
-
-#: ../interfaces/users.ui.h:69
-msgid "_Current password:"
-msgstr "நடப்பு கடவுச்சொல்: (_C)"
-
-#: ../interfaces/users.ui.h:70
-msgid "_Custom"
-msgstr "(_C) தனிப்பயன்"
-
-#: ../interfaces/users.ui.h:71
-msgid "_Days between warning and password expiration:"
-msgstr "(_D)எச்சரிக்கைக்கும் கடவுச்சொல் காலாவதி ஆவதற்கும் இடைப்பட்ட கால இடைவெளி:"
-
-#: ../interfaces/users.ui.h:72
-msgid "_Enable Account"
-msgstr "_E கணக்கு செயல்படுத்து"
-
-#: ../interfaces/users.ui.h:73
 msgid "_Encrypt home folder to protect sensitive data"
 msgstr "_E அந்தரங்க தரவுகளை பாதுகாக்க இல்ல அடைவை குறிமுறையாக்குக"
 
-#: ../interfaces/users.ui.h:74
-msgid "_Generate"
-msgstr "உருவாக்கு (_G)"
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "உங்கள் உள்நுழை கடவுச்சொல்லுடன் எல்லா கோப்புக்களையும் குறிமுறையாக்குக. இது உங்கள் கணினியை பயன்படுத்தும் மற்றவரிடம் இருந்து அவற்றை காப்பாற்றும். கணினியின் செயல்திறன் சற்றே குறையலாம்."
 
-#: ../interfaces/users.ui.h:75
-msgid "_Home directory:"
-msgstr "(_H)இல்ல அடைவு"
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "கூடுதல் பயனர் அமைவுகளை மாற்றுக:"
 
-#: ../interfaces/users.ui.h:76
-msgid "_Home phone:"
-msgstr "(_H)இல்ல தொலைபேசி:"
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "கூடுதல் அமைவுகளை மாற்றுக:"
 
-#: ../interfaces/users.ui.h:77
-msgid "_Main group:"
-msgstr "(_M)முதன்மை குழு:"
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "(_f)அலுவலகம் இருக்குமிடம்:"
 
-#: ../interfaces/users.ui.h:78
-msgid "_Manage Groups"
-msgstr "குழுக்களை மேலாண் செய் (_M)"
-
-#: ../interfaces/users.ui.h:79
-msgid "_Name:"
-msgstr " பெயர் _N :"
-
-#: ../interfaces/users.ui.h:80
-msgid "_Password:"
-msgstr "(_P)கடவுச்சொல்:"
-
-#: ../interfaces/users.ui.h:81
-msgid "_Shell:"
-msgstr "(_S)செல்:"
-
-#: ../interfaces/users.ui.h:83
+#: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
 msgstr "(_W)அலுவலக தொலைபேசி:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:1
-msgid "Show root user"
-msgstr "ரூட் பயனரைக்காட்டு"
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "(_H)இல்ல தொலைபேசி:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:2
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr "தொடர்பு தகவல்"
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "பயனர்களின் சலுகை"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "மேம்பட்ட அமைப்புகள்"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "(_S)செல்:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "(_M)முதன்மை குழு:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "பயனர் ID:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "பயனர் உள் நுழைந்து உள்ள போது பயனர் அடையாளத்தை மாற்ற முடியாது"
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "_a கணக்கை செயல் நீக்கு"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "விருப்ப அமைப்புகள்"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "(_n)கடவுச்சொல் மாற்ற பட வேண்டிய குறைந்தபட்ச கால இடைவெளி:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "(_x)கடவுச்சொல்லை பயன்படுத்த வேண்டிய அதிக பட்ச நாட்கள்:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "(_D)எச்சரிக்கைக்கும் கடவுச்சொல் காலாவதி ஆவதற்கும் இடைப்பட்ட கால இடைவெளி:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "மேம்பட்ட"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
 msgstr "கணினி பயனர்களை காட்டு"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:3
-msgid "Whether the users-admin tool should show system users in the users list."
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
 msgstr "users-admin கருவி எல்லா கணினி பயனீட்டாளரையும் பயனர் பட்டியலில்  காட்ட வேண்டுமா"
 
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr "ரூட் பயனரைக்காட்டு"
+
 #: ../org.mate.system-tools.gschema.xml.in.h:4
-msgid "Whether the users-admin tool should show the root user in the users list."
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
 msgstr "users-admin கருவி ரூட் பயனீட்டாளரை பயனர் பட்டியலில்  காட்ட வேண்டுமா"
 
 #: ../src/common/gst-platform-dialog.c:179
@@ -773,9 +761,7 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr ""
-"கீழே குறிப்பிடப்பட்ட மென்பொருள் ஏதாவது ஒன்றில் இது இயங்கும் என நீங்கள் நம்பினால் அதை தேர்வு "
-"செய்து தொடரவும். குறிப்பு இதனால் உங்கள் கணினிக்கு பாதிப்பு நிகழ வாய்ப்பு உள்ளது."
+msgstr "கீழே குறிப்பிடப்பட்ட மென்பொருள் ஏதாவது ஒன்றில் இது இயங்கும் என நீங்கள் நம்பினால் அதை தேர்வு செய்து தொடரவும். குறிப்பு இதனால் உங்கள் கணினிக்கு பாதிப்பு நிகழ வாய்ப்பு உள்ளது."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
@@ -825,9 +811,7 @@ msgstr "உள்ளடக்கத்தை மேம்படுத்த வ�
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr ""
-"அனுமதிகளை சோதிக்கும்போது ஒரு பிழை நேர்ந்தது: %s\n"
-"இதை ஒரு வழிவாக அறிவிக்கலாம்."
+msgstr "அனுமதிகளை சோதிக்கும்போது ஒரு பிழை நேர்ந்தது: %s\nஇதை ஒரு வழிவாக அறிவிக்கலாம்."
 
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
@@ -855,9 +839,7 @@ msgstr "மோடம் சாதனத்தை தானாக கண்டற
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
-msgstr ""
-"சாதனம் வேலை பளுவில் இல்லாது உள்ளதா மற்றும் அது கணினியுடன் சரியாக இணைக்கப்பட்டுள்ளதா "
-"என்பதை பரிசோதிக்கவும்"
+msgstr "சாதனம் வேலை பளுவில் இல்லாது உள்ளதா மற்றும் அது கணினியுடன் சரியாக இணைக்கப்பட்டுள்ளதா என்பதை பரிசோதிக்கவும்"
 
 #: ../src/network/callbacks.c:523
 msgid "The host name has changed"
@@ -867,9 +849,7 @@ msgstr "புரவலன் பெயர் மாற்றப்பட்ட�
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr ""
-"இது புதிய பயன்பாட்டை துவக்குவதை தடுக்கும் நீங்கள் மீண்டும் உள்நுழைய வேண்டும். தொடர "
-"விருப்பமா?"
+msgstr "இது புதிய பயன்பாட்டை துவக்குவதை தடுக்கும் நீங்கள் மீண்டும் உள்நுழைய வேண்டும். தொடர விருப்பமா?"
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
@@ -1043,13 +1023,13 @@ msgstr "முதல் வலைப்பின்னல் இடைமுக�
 msgid "TYPE"
 msgstr "TYPE"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "வலைப்பின்னல் சாதனம் மற்றும் இணைப்பை அமைக்கவும்"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "வலையமைப்பு"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "வலைப்பின்னல் சாதனம் மற்றும் இணைப்பை அமைக்கவும்"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
@@ -1478,13 +1458,13 @@ msgstr "அமைப்பு கண்காணிப்பாளர்"
 msgid "Virtual Machine management"
 msgstr "மெய்நிகர் இயந்திர மேலாண்மை"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "கணினி துவங்கும் போது இயக்கப்பட வேண்டிய சேவைகளை அமைக்கவும்"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "சேவைகள்"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "கணினி துவங்கும் போது இயக்கப்பட வேண்டிய சேவைகளை அமைக்கவும்"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1559,7 +1539,7 @@ msgstr "IP முகவரிகளை குறிப்பிடு:"
 msgid "Specify network"
 msgstr "பிணையத்தை குறிப்பிடு"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "உங்கள் வலையமைப்பு அண்டை வீட்டுகாரர்களுக்கு எந்த அடைவுகள் கிடைக்கும் என வடிவமை"
 
@@ -1606,17 +1586,15 @@ msgstr "உலகப்படம்"
 msgid ""
 "Mouse-based interactive map widget for selecting timezone. Keyboard users "
 "should instead select the timezone from the drop-down combination box below."
-msgstr ""
-"நேர மண்டலங்களை தேர்ந்தெடுக்க சொடுக்கி அடிப்படையிலான ஊடாடும் பட விட்செட். விசைப்பலகை "
-"பயனாளர் கீழுள்ள இறங்கு கூட்டு மெனுவிலிருந்து நேர மண்டலத்தை தேர்ந்தெடுக்க வேண்டும்."
+msgstr "நேர மண்டலங்களை தேர்ந்தெடுக்க சொடுக்கி அடிப்படையிலான ஊடாடும் பட விட்செட். விசைப்பலகை பயனாளர் கீழுள்ள இறங்கு கூட்டு மெனுவிலிருந்து நேர மண்டலத்தை தேர்ந்தெடுக்க வேண்டும்."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "கணினி நேரம், தேதி மற்றும் இடத்திற்கேற்ப நேரம் இவைகளை மாற்றவும்"
-
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "தேதி மற்றும் நேரம்"
+
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "கணினி நேரம், தேதி மற்றும் இடத்திற்கேற்ப நேரம் இவைகளை மாற்றவும்"
 
 #: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
@@ -1626,9 +1604,7 @@ msgstr "NTP துணை நிறுவப்படவில்லை"
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr ""
-"இணைய நேர சேவையகங்களுடன் உங்கள் உள்ளமை சேவயகத்தை ஒத்திசைக்க தயவு செய்து என்டிபி ஐ "
-"நிறுவி செயல்படுத்துக."
+msgstr "இணைய நேர சேவையகங்களுடன் உங்கள் உள்ளமை சேவயகத்தை ஒத்திசைக்க தயவு செய்து என்டிபி ஐ நிறுவி செயல்படுத்துக."
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
@@ -1702,9 +1678,7 @@ msgstr "குழு பெயரில் செல்லாத எழுத்
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr ""
-"தயவு செய்து கீழ்நிலை எழுத்து கொண்டு பின்னால் கீழ்நிலை எழுத்துக்கள் மற்றும் எண்கள் கொண்ட "
-"செல்லுபடியாகும் குழுப்பெயரை அமைக்கவும்."
+msgstr "தயவு செய்து கீழ்நிலை எழுத்து கொண்டு பின்னால் கீழ்நிலை எழுத்துக்கள் மற்றும் எண்கள் கொண்ட செல்லுபடியாகும் குழுப்பெயரை அமைக்கவும்."
 
 #: ../src/users/group-settings.c:229
 #, c-format
@@ -1832,26 +1806,24 @@ msgid "Be able to get administrator privileges"
 msgstr "நிர்வாகி உரிமைகள் பெற இயல வேண்டும்."
 
 #: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr "மேல்மேசை பயனர்"
+
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr "சாதாரண வேலைகளை செய்யலாம். மென்பொருட்களை நிறுவுதல், மேம்படுத்தல்,  கணினி அமைப்பில் மாற்றம் ஆகிய செய்ய இயலாது."
+
+#: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
 msgstr "நிர்வாகி"
 
-#: ../src/users/user-profiles.conf.in.h:2
+#: ../src/users/user-profiles.conf.in.h:4
 msgid ""
 "Can change anything on the system, including installing and upgrading "
 "software."
 msgstr "மென்பொருட்களை நிறுவுதல் மேம்படுத்தல் உள்ளிட்ட எதையும் கணினி அமைப்பில் மாற்றலாம்."
-
-#: ../src/users/user-profiles.conf.in.h:3
-msgid ""
-"Can perform common tasks. Can't install software or change settings "
-"affecting all users."
-msgstr ""
-"சாதாரண வேலைகளை செய்யலாம். மென்பொருட்களை நிறுவுதல், மேம்படுத்தல்,  கணினி அமைப்பில் "
-"மாற்றம் ஆகிய செய்ய இயலாது."
-
-#: ../src/users/user-profiles.conf.in.h:4
-msgid "Desktop user"
-msgstr "மேல்மேசை பயனர்"
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
@@ -1897,13 +1869,13 @@ msgstr "ஆரம்ப அங்கீகாரத்திலிருந்�
 msgid "Unknown error"
 msgstr "ஒரு தெரியாத பிழை ஏற்பட்டது."
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "பயனர் அல்லது குழுக்களை சேர் அல்லது நீக்கு"
-
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "பயனீட்டாளர்கள் மற்றும் குழுக்கள்"
+
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "பயனர் அல்லது குழுக்களை சேர் அல்லது நீக்கு"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
@@ -1913,9 +1885,7 @@ msgstr "கடவுச்சொல் மிகச் சிறியதாக 
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr ""
-"பயனர் கடவுச்சொற்கள் 5 எண் எழுத்துக்கள் குறியீடுகள் க்கு மேல் கொண்டு இருக்க வேண்டும் மற்றும் எண் "
-"எழுத்துக்கள் மற்றும் சிறப்பு குறியீடுகள் ஆல் உருவாக்கப்பட வேண்டும்."
+msgstr "பயனர் கடவுச்சொற்கள் 5 எண் எழுத்துக்கள் குறியீடுகள் க்கு மேல் கொண்டு இருக்க வேண்டும் மற்றும் எண் எழுத்துக்கள் மற்றும் சிறப்பு குறியீடுகள் ஆல் உருவாக்கப்பட வேண்டும்."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1925,15 +1895,15 @@ msgstr "கடவுச்சொல் உறுதிப்படுத்த�
 msgid "Check that you have provided the same password in both text fields."
 msgstr "இரு உரை புலங்களிலும் ஒரே கடவுச்சொல் உள்ளிடப்பட்டதா என சரிபார்க்கவும்."
 
-#: ../src/users/user-password.c:426
+#: ../src/users/user-password.c:445
 msgid "Please choose another password."
 msgstr "தயவு செய்து வேறு கடவுச்சொல்லை தேர்ந்தெடுக்கவும்."
 
-#: ../src/users/user-password.c:437
+#: ../src/users/user-password.c:456
 msgid "Please type again your current password."
 msgstr "தயை செய்து நடப்பு கடவுச்சொல்லை மீண்டும் உள்ளிடவும்"
 
-#: ../src/users/user-password.c:444
+#: ../src/users/user-password.c:463
 msgid "Password could not be changed"
 msgstr "கடவுச்சொல்லை மாற்ற முடியாது."
 
@@ -1959,9 +1929,7 @@ msgstr "ஒரே நிர்வாகி கணக்கை நீக்க �
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr ""
-"இந்த கணினிக்கு  %s தான் ஒரே நிர்வாகி. அவரது உரிமைகளை நீக்குதல் உங்களை இந்த "
-"கணினியிலிருந்து வெளித்தள்ளி நிர்வாகத்தை பூட்டிவிடும்."
+msgstr "இந்த கணினிக்கு  %s தான் ஒரே நிர்வாகி. அவரது உரிமைகளை நீக்குதல் உங்களை இந்த கணினியிலிருந்து வெளித்தள்ளி நிர்வாகத்தை பூட்டிவிடும்."
 
 #: ../src/users/user-settings.c:121
 #, c-format
@@ -1971,13 +1939,10 @@ msgstr "%s இன் இல்ல அடைவை நீக்கவா?"
 #: ../src/users/user-settings.c:124
 #, c-format
 msgid ""
-"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't "
-"need them anymore. You may want to back them up before deleting the account, "
-"or keep them so that an administrator can save them later."
-msgstr ""
-"தேவை இல்லை எனில் பயனர் %s <tt>%s</tt> இல் வைத்துள்ள கோப்புக்கள் முழுதும் நீக்கப்படும். ஒ "
-"ரு நிர்வாகி அவற்றை சேமிக்கும் பொருட்டு, கணக்கை நீக்கு முன் அந்த கோப்புக்களை வைத்துக்கொள்ளவோ "
-"பாதுகாக்கவோ நீங்கள் விரும்பலாம்."
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr "தேவை இல்லை எனில் பயனர் %s <tt>%s</tt> இல் வைத்துள்ள கோப்புக்கள் முழுதும் நீக்கப்படும். ஒ ரு நிர்வாகி அவற்றை சேமிக்கும் பொருட்டு, கணக்கை நீக்கு முன் அந்த கோப்புக்களை வைத்துக்கொள்ளவோ பாதுகாக்கவோ நீங்கள் விரும்பலாம்."
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
@@ -2021,9 +1986,7 @@ msgstr "இல்ல அடைவில் முழுமையடையாத 
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
-"இல்ல அடைவின் முழு பாதையையும் உள்ளிடவும்\n"
-"<span size=\"smaller\">i.e.: /home/john</span>."
+msgstr "இல்ல அடைவின் முழு பாதையையும் உள்ளிடவும்\n<span size=\"smaller\">i.e.: /home/john</span>."
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
@@ -2032,19 +1995,10 @@ msgstr "இல்ல அடைவு ஏற்கனவே உள்ளது, �
 #: ../src/users/user-settings.c:449
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or copy the contents of <tt>%"
-"s</tt> to the new home, overwriting it?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
-"In doubt, use the new directory to avoid losing data, and copy files from "
-"the old directory later."
-msgstr ""
-"%s க்கான இல்ல அடைவு <tt>%s</tt> ஆக மைக்கப்பட்டது, அது ஏற்கெனெவே இருக்கிறது."
-"இந்த அடைவில் உள்ள கோப்புக்களை பயன்படுத்த வேண்டுமா, அல்லது  <tt>%s</tt> இன் உள்ளடக்கத்தை புதிய "
-"இல்ல அடைவுக்கு மேலெழுதி நகலெடுக்க வேண்டுமா?\n"
-"\n"
-"முடிவு எடுக்க முடியவில்லையானால் தரவை இழக்காமல் இருக்க புதிய அடைவை பயன்படுத்துக, பழைய அடவில் "
-"இருந்து பின்னால் கோப்புகளை நகலெடுத்துக்கொள்ளலாம்."
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr "%s க்கான இல்ல அடைவு <tt>%s</tt> ஆக மைக்கப்பட்டது, அது ஏற்கெனெவே இருக்கிறது.இந்த அடைவில் உள்ள கோப்புக்களை பயன்படுத்த வேண்டுமா, அல்லது  <tt>%s</tt> இன் உள்ளடக்கத்தை புதிய இல்ல அடைவுக்கு மேலெழுதி நகலெடுக்க வேண்டுமா?\n\nமுடிவு எடுக்க முடியவில்லையானால் தரவை இழக்காமல் இருக்க புதிய அடைவை பயன்படுத்துக, பழைய அடவில் இருந்து பின்னால் கோப்புகளை நகலெடுத்துக்கொள்ளலாம்."
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
@@ -2072,17 +2026,10 @@ msgstr "_D பழைய இல்ல அடைவை நீக்குக"
 #: ../src/users/user-settings.c:493
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or delete all its contents and "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr ""
-"%s க்கான இல்ல அடைவு <tt>%s</tt> ஆக அமைக்கப்பட்டது, அது ஏற்கெனெவே இருக்கிறது."
-"இந்த அடைவில் உள்ள கோப்புக்களை பயன்படுத்த வேண்டுமா, அல்லது உள்ளடக்கத்தை முழுதும் அழித்துவிட்டு "
-"புதிய காலி இல்ல அடைவு ஒன்றை பயன்படுத்த வேண்டுமா?\n"
-"\n"
-"முடிவு எடுக்க முடியவில்லையானால் இவற்றை வைத்துக்கொண்டு தேவையை பார்த்து பின்னால் நீக்கிவிடலாம்."
+msgstr "%s க்கான இல்ல அடைவு <tt>%s</tt> ஆக அமைக்கப்பட்டது, அது ஏற்கெனெவே இருக்கிறது.இந்த அடைவில் உள்ள கோப்புக்களை பயன்படுத்த வேண்டுமா, அல்லது உள்ளடக்கத்தை முழுதும் அழித்துவிட்டு புதிய காலி இல்ல அடைவு ஒன்றை பயன்படுத்த வேண்டுமா?\n\nமுடிவு எடுக்க முடியவில்லையானால் இவற்றை வைத்துக்கொண்டு தேவையை பார்த்து பின்னால் நீக்கிவிடலாம்."
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
@@ -2099,18 +2046,10 @@ msgstr "பழைய இல்ல அடைவை புது இடத்த�
 #: ../src/users/user-settings.c:528
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. "
-"Do you want to copy the contents of the old home directory (<tt>%s</tt>), or "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
-"If you choose to copy the files to the new location, it's safe to delete the "
-"old directory."
-msgstr ""
-"%s க்கான இல்ல அடைவு <tt>%s</tt> ஆக அமைக்கப்பட்டது, அது இருப்பில் இல்லை. பழைய "
-"இல்ல அடைவு <tt>%s</tt> இல் உள்ள கோப்புக்களை நகலெடுக்க வேண்டுமா, அல்லது புதிய காலி இல்ல அடைவு "
-"ஒன்றை பயன்படுத்த வேண்டுமா?\n"
-"\n"
-"புதிய இடத்துக்கு நாலெடுப்பதானால் பழைய அடைவை தைரியமாக நீக்கிவிடலாம்."
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr "%s க்கான இல்ல அடைவு <tt>%s</tt> ஆக அமைக்கப்பட்டது, அது இருப்பில் இல்லை. பழைய இல்ல அடைவு <tt>%s</tt> இல் உள்ள கோப்புக்களை நகலெடுக்க வேண்டுமா, அல்லது புதிய காலி இல்ல அடைவு ஒன்றை பயன்படுத்த வேண்டுமா?\n\nபுதிய இடத்துக்கு நாலெடுப்பதானால் பழைய அடைவை தைரியமாக நீக்கிவிடலாம்."
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
@@ -2144,9 +2083,7 @@ msgstr "செல்லில் முழுமையடையாத பாத�
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
-"ஷெல்லின் முழுப்பாதையையும் உள்ளிடவும்\n"
-"<span size=\"smaller\">i.e.: /bin/bash</span>."
+msgstr "ஷெல்லின் முழுப்பாதையையும் உள்ளிடவும்\n<span size=\"smaller\">i.e.: /bin/bash</span>."
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
@@ -2157,9 +2094,7 @@ msgstr "நிர்வாகி உரிமைகள் ஐ நீக்க �
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr ""
-"இந்த கணினிக்கு  %s தான் ஒரே நிர்வாகி. அவரது உரிமைகளை நீக்குதல் உங்களை இந்த "
-"கணினியிலிருந்து வெளித்தள்ளி நிர்வாகத்தை பூட்டிவிடும்."
+msgstr "இந்த கணினிக்கு  %s தான் ஒரே நிர்வாகி. அவரது உரிமைகளை நீக்குதல் உங்களை இந்த கணினியிலிருந்து வெளித்தள்ளி நிர்வாகத்தை பூட்டிவிடும்."
 
 #: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
@@ -2170,26 +2105,16 @@ msgstr "உங்களது நிர்வாக உரிமைகளை ந
 msgid ""
 "%s will no longer be able to perform administrative tasks. This account "
 "won't be allowed to get administration rights back on its own."
-msgstr ""
-"%s இனி நிர்வாகி பணிகளை செய்ய இயலாது. இந்த கணக்குக்கு தானே நிர்வாக உரிமைகளை பெற "
-"இயலாது."
+msgstr "%s இனி நிர்வாகி பணிகளை செய்ய இயலாது. இந்த கணக்குக்கு தானே நிர்வாக உரிமைகளை பெற இயலாது."
 
 #: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
 msgstr "நிர்வாக உரிமைகளை விட்டுக்கொடு."
 
-#: ../src/users/user-settings.c:1459
+#: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
 msgstr "பயனர் அமைவுகளில் மாற்றங்களை செய்கிறது..."
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "பயனர்கள் அமைவுகள்"
-
-#~ msgid ""
-#~ "The directory <tt>%s</tt> already exists. User may not have the "
-#~ "permissions required to read or write in that directory. Do you want to "
-#~ "use it anyway?"
-#~ msgstr ""
-#~ "<tt>%s</tt> அடைவு ஏற்கெனெவே உள்ளது. பயனருக்கு அதை படிக்கவோ எழுதவோ உரிமை "
-#~ "இல்லாமல் இருக்கலாம். அதை எப்படியும் பயன்படுத்த வேண்டுமா?"

@@ -1,781 +1,753 @@
-# translation of lv.po to Latvian
-# ximian-setup-tools for Latvian.
-# Copyright (C) 2002 ximian, inc
-# This file is distributed under the same license as the ximian-setup-tools package.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Peteris Krisjanis <peteris.krisjanis@os.lv>, 2002.
 # Raivis Dejus <orvils@gmail.com>, 2006, 2007, 2009.
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: lv\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug."
-"cgi?product=mate-system-tools&component=general\n"
-"POT-Creation-Date: 2010-04-05 16:32+0000\n"
-"PO-Revision-Date: 2010-06-13 22:22+0300\n"
-"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
-"Language-Team: Latviešu <kde-i18n-doc@kde.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:50+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
-
-#: ../mate-system-tools.schemas.in.h:1
-#| msgid "Whether the users-admin tool should show all users and groups or not"
-msgid "Whether the users-admin tool should show system users in the users list"
-msgstr "Vai user-admin rīkam būtu jārāda sistēmas lietotāji lietotāju sarakstā"
-
-#: ../mate-system-tools.schemas.in.h:2
-#| msgid "Whether the users-admin tool should show all users and groups or not"
-msgid ""
-"Whether the users-admin tool should show the root user in the users list"
-msgstr "Vai user-admin rīkam būtu jārāda root lietotājs lietotāju sarakstā"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2)\n"
 
 #: ../interfaces/network.ui.h:1
-msgid "<b>Account data</b>"
-msgstr "<b>Konta dati</b>"
-
-#: ../interfaces/network.ui.h:2
-msgid "<b>Connection Settings</b>"
-msgstr "<b>Savienojuma iestatījumi</b>"
-
-#: ../interfaces/network.ui.h:3
-msgid "<b>DNS Servers</b>"
-msgstr "<b>DNS serveri</b>"
-
-#: ../interfaces/network.ui.h:4
-msgid "<b>Host Settings</b>"
-msgstr "<b>Saimnieka iestatījumi</b>"
-
-#: ../interfaces/network.ui.h:5
-msgid "<b>Internet service provider data</b>"
-msgstr "<b>Interneta pakalpojumu sniedzēja dati</b>"
-
-#: ../interfaces/network.ui.h:6
-msgid "<b>Modem Settings</b>"
-msgstr "<b>Modema iestatījumi</b>"
-
-#: ../interfaces/network.ui.h:7
-msgid "<b>Search Domains</b>"
-msgstr "<b>Meklēt domēnos</b>"
-
-#: ../interfaces/network.ui.h:8
-msgid "<b>Wireless Settings</b>"
-msgstr "<b>Bezvadu tīkla iestatījumi</b>"
-
-#: ../interfaces/network.ui.h:9
-msgid "Access point name:"
-msgstr "Piekļuves punkta nosaukums:"
-
-#: ../interfaces/network.ui.h:10
-msgid "Aliases:"
-msgstr "Aliasi:"
-
-#: ../interfaces/network.ui.h:11
-msgid "Con_figuration:"
-msgstr "Kon_figurācija:"
-
-#: ../interfaces/network.ui.h:12
-msgid "Connection type:"
-msgstr "Savienojuma tips:"
-
-#: ../interfaces/network.ui.h:13
-msgid "Connections"
-msgstr "Savienojumi"
-
-#: ../interfaces/network.ui.h:14
-msgid "DNS"
-msgstr "DNS"
-
-#: ../interfaces/network.ui.h:15
-msgid "D_omain name:"
-msgstr "D_omēna vārds:"
-
-#: ../interfaces/network.ui.h:16
-msgid "Delete current location"
-msgstr "Dzēst pašreizējo vietu"
-
-#: ../interfaces/network.ui.h:17
-msgid "E_nable roaming mode"
-msgstr "Aktivizēt klejoša_nu"
-
-#: ../interfaces/network.ui.h:18
-msgid "E_nable this connection"
-msgstr "Aktivizēt šo savie_nojumu"
-
-#: ../interfaces/network.ui.h:19
-msgid "Ethernet interface:"
-msgstr "Ethernet saskarne:"
-
-#: ../interfaces/network.ui.h:20 ../interfaces/users.ui.h:32
-msgid "General"
-msgstr "Vispārīgi"
-
-#: ../interfaces/network.ui.h:21
-#| msgid "WEP key (hexadecimal)"
-msgid "Hexadecimal"
-msgstr "Heksadecimāla"
-
-#: ../interfaces/network.ui.h:22
-msgid "Host Alias Properties"
-msgstr "Resursdatora aliasu iestatījumi"
-
-#: ../interfaces/network.ui.h:23
-msgid "Hosts"
-msgstr "Serveri"
-
-#: ../interfaces/network.ui.h:24 ../interfaces/shares.ui.h:14
-msgid "IP address:"
-msgstr "IP adreses:"
-
-#: ../interfaces/network.ui.h:25
-msgid "Interface properties"
-msgstr "Interfeisa parametri"
-
-#: ../interfaces/network.ui.h:26
-msgid "Location:"
-msgstr "Vieta:"
-
-#: ../interfaces/network.ui.h:27
-msgid "Loud"
-msgstr "Skaļi"
-
-#: ../interfaces/network.ui.h:28
-msgid "Low"
-msgstr "Klusi"
-
-#: ../interfaces/network.ui.h:29
-msgid "Medium"
-msgstr "Vidēji"
-
-#: ../interfaces/network.ui.h:30
-msgid "Modem"
-msgstr "Modems"
-
-#: ../interfaces/network.ui.h:31
-msgid "Network _password:"
-msgstr "Tīkla _parole:"
-
-#: ../interfaces/network.ui.h:32
-msgid "Network name (_ESSID):"
-msgstr "Tīkla nosaukums (_ESSID):"
-
-#: ../interfaces/network.ui.h:33
 msgid "Off"
 msgstr "Izslēgts"
 
-#: ../interfaces/network.ui.h:34
-msgid "Options"
-msgstr "Opcijas"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
+msgstr "Klusi"
 
-#: ../interfaces/network.ui.h:35
-msgid "P_assword"
-msgstr "P_arole"
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
+msgstr "Vidēji"
 
-#: ../interfaces/network.ui.h:36
-msgid "Password _type:"
-msgstr "Paroles _tips:"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr "Skaļi"
 
-#: ../interfaces/network.ui.h:37
-msgid "Plain (ASCII)"
-msgstr "Vienkāršs (ASCII)"
-
-#: ../interfaces/network.ui.h:38
-#| msgid "Aliases"
-msgid "Pulses"
-msgstr "Pulsi"
-
-#: ../interfaces/network.ui.h:39
-msgid "Save current network configuration as a location"
-msgstr "Saglabāt pašreizējo tīkla konfigurāciju kā konkrētu vietu"
-
-#: ../interfaces/network.ui.h:40
+#: ../interfaces/network.ui.h:5
 msgid "Tones"
 msgstr "Skaņas signāli"
 
-#: ../interfaces/network.ui.h:41
-msgid "Use the Internet service provider nameservers"
-msgstr "Izmantot Interneta pakalpojumu sniedzēja domēnu vārdu serverus"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr "Pulsi"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "_Automātiski noteikt"
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr "Vienkāršs (ASCII)"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr "Heksadecimāla"
+
+#: ../interfaces/network.ui.h:9
+msgid "Location:"
+msgstr "Vieta:"
+
+#: ../interfaces/network.ui.h:10
+msgid "Save current network configuration as a location"
+msgstr "Saglabāt pašreizējo tīkla konfigurāciju kā konkrētu vietu"
+
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr "Dzēst pašreizējo vietu"
+
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "Savienojumi"
+
+#: ../interfaces/network.ui.h:13
+msgid "_Host name:"
+msgstr "_Servera nosaukums:"
+
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "D_omēna vārds:"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Vispārīgi"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr ""
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr ""
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "Serveri"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "Interfeisa parametri"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "Aktivizēt šo savie_nojumu"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr "Aktivizēt klejoša_nu"
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr "Savienojuma tips:"
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "Tīkla nosaukums (_ESSID):"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "Tīkla _parole:"
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr "Paroles _tips:"
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "Kon_figurācija:"
+
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_IP adrese:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "Apakštīkla ma_ska:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "_Vārtejas adrese:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "_Lokālā IP:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "A_ttālinātais IP:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "_Tālruņa numurs:"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "_Zvanīšanas prefikss:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "Piekļuves punkta nosaukums:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr ""
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "_Lietotājvārds:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "P_arole"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr ""
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "_Modema ports:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "_Zvanīšanas tips:"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "_Vārtejas adrese:"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "_Servera nosaukums:"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "_IP adrese:"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "_Lokālā IP:"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "_Modema ports:"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "_Tālruņa numurs:"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "A_ttālinātais IP:"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "Atkā_rtot, ja savienojums pārtrūkst vai nevar palaisties"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "Ie_statīt modemu kā noklusēto maršrutu uz Internetu"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "Apakštīkla ma_ska:"
-
-#: ../interfaces/network.ui.h:55
-msgid "_Username:"
-msgstr "_Lietotājvārds:"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Skaļums:"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "Paplašinātie iestatījumi:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "_Automātiski noteikt"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "Ethernet saskarne:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modems"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "Ie_statīt modemu kā noklusēto maršrutu uz Internetu"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Izmantot Interneta pakalpojumu sniedzēja domēnu vārdu serverus"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "Atkā_rtot, ja savienojums pārtrūkst vai nevar palaisties"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Opcijas"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "Resursdatora aliasu iestatījumi"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP adreses:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Aliasi:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Izvēlieties servisus, kurus vēlaties aktivizēt:"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Paplašinātie iestatījumi:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "<b>Allowed Hosts</b>"
-msgstr "<b>Atļautie serveri</b>"
+msgid "_Path:"
+msgstr "_Ceļš:"
 
 #: ../interfaces/shares.ui.h:2
-msgid "<b>Hosts Settings</b>"
-msgstr "<b>Serveru iestatījumi</b>"
-
-#: ../interfaces/shares.ui.h:3
-msgid "<b>Share Properties</b>"
-msgstr "<b>Koplietošanas rekvizīti</b>"
-
-#: ../interfaces/shares.ui.h:4
-msgid "<b>Shared Folder</b>"
-msgstr "<b>Koplietošanas mape</b>"
-
-#: ../interfaces/shares.ui.h:5
-msgid "<b>Windows sharing</b>"
-msgstr "<b>Windows koplietošana</b>"
-
-#: ../interfaces/shares.ui.h:6
-msgid "<span size=\"larger\" weight=\"bold\">Enter password for user:</span>"
-msgstr ""
-"<span size=\"larger\" weight=\"bold\">Ievadiet lietotāja paroli:</span>"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Add allowed hosts"
-msgstr "Pievienot atļautos serverus"
-
-#: ../interfaces/shares.ui.h:8
-msgid "Allowed hosts:"
-msgstr "Atļautie serveri:"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Comment:"
-msgstr "Komentārs:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Domain / _Workgroup:"
-msgstr "_Domēns / darba grupa:"
-
-#: ../interfaces/shares.ui.h:11
-msgid "Enter password for user"
-msgstr "Ievadiet lietotāja paroli"
-
-#: ../interfaces/shares.ui.h:12
-msgid "General Properties"
-msgstr "Vispārīgie iestatījumi"
-
-#: ../interfaces/shares.ui.h:13
-msgid "Host name:"
-msgstr "Servera nosaukums:"
-
-#: ../interfaces/shares.ui.h:15
-msgid "Name:"
-msgstr "Nosaukums:"
-
-#: ../interfaces/shares.ui.h:16
-msgid "Netmask:"
-msgstr "Tīkla maska:"
-
-#: ../interfaces/shares.ui.h:17
-msgid "Network:"
-msgstr "Tīkls:"
-
-#: ../interfaces/shares.ui.h:18 ../src/shares/nfs-acl-table.c:56
-msgid "Read only"
-msgstr "Tikai lasāms"
-
-#: ../interfaces/shares.ui.h:19
-#| msgid "Start"
-msgid "Share"
-msgstr "Koplietot"
-
-#: ../interfaces/shares.ui.h:20
 msgid "Share through:"
 msgstr "Koplietot izmantojot:"
 
-#: ../interfaces/shares.ui.h:21 ../src/shares/shares.desktop.in.in.h:2
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "Komentārs:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "Nosaukums:"
+
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr "_Tikai lasāms"
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "Koplietot"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Pievienot atļautos serverus"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Atļautie serveri:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Servera nosaukums:"
+
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "Tīkls:"
+
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Tīkla maska:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "Tikai lasāms"
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
 msgstr "Koplietošanas mapes"
 
-#: ../interfaces/shares.ui.h:22
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "_Domēns / darba grupa:"
+
+#: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
 msgstr "Šis dators ir _WINS serveris"
 
-#: ../interfaces/shares.ui.h:23
-msgid "Users"
-msgstr "Lietotāji"
-
-#: ../interfaces/shares.ui.h:24
+#: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
 msgstr "WINS _serveris:"
 
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Vispārīgie iestatījumi"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "Lietotāji"
+
 #: ../interfaces/shares.ui.h:25
-msgid "_Path:"
-msgstr "_Ceļš:"
+msgid "Enter password for user"
+msgstr "Ievadiet lietotāja paroli"
 
 #: ../interfaces/shares.ui.h:26
-msgid "_Read only"
-msgstr "_Tikai lasāms"
+msgid "Enter password for user:"
+msgstr ""
 
 #: ../interfaces/time.ui.h:1
-msgid "<b>Selection</b>"
-msgstr "<b>Izvēle</b>"
-
-#: ../interfaces/time.ui.h:2
-msgid "<b>Time Zone</b>"
-msgstr "<b>Laiks josla</b>"
-
-#: ../interfaces/time.ui.h:3
-msgid "Add NTP Server"
-msgstr "Pievienot NTP serveri"
-
-#: ../interfaces/time.ui.h:4
-msgid "NTP server"
-msgstr "NTP serveris"
-
-#: ../interfaces/time.ui.h:5
-msgid "Se_lect Servers"
-msgstr "Izvē_lieties serverus"
-
-#: ../interfaces/time.ui.h:6
-msgid "Synchronize now"
-msgstr "Sinhronizēt tagad"
-
-#: ../interfaces/time.ui.h:7
-msgid "Time servers"
-msgstr "Laika serveri"
-
-#: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "Laika serveri:"
-
-#: ../interfaces/time.ui.h:9
 msgid "Time zone"
 msgstr "Laika josla"
 
-#: ../interfaces/time.ui.h:10
+#: ../interfaces/time.ui.h:2
+msgid "Time Zone"
+msgstr ""
+
+#: ../interfaces/time.ui.h:3
 msgid "Time zone:"
 msgstr "Laika josla:"
 
-#: ../interfaces/time.ui.h:11
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr ""
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "Laika serveri"
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP serveris"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "Pievienot NTP serveri"
+
+#: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
 msgstr "Nekonfigurēts"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_Konfigurācija:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "Laika serveri:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "Izvē_lieties serverus"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "_Laiks:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "_Datums:"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "_Laiks:"
+msgid "Synchronize now"
+msgstr "Sinhronizēt tagad"
 
 #: ../interfaces/users.ui.h:1
-msgid "<span weight=\"bold\">Advanced Settings</span>"
-msgstr "<span weight=\"bold\">Paplašinātie iestatījumi</span>"
+msgid "_Manage Groups"
+msgstr "_Pārvaldīt grupas"
 
 #: ../interfaces/users.ui.h:2
-msgid "<span weight=\"bold\">Automatic UID/GID</span>"
-msgstr "<span weight=\"bold\">Automātisks UID/GID</span>"
-
-#: ../interfaces/users.ui.h:3
-msgid "<span weight=\"bold\">Basic Settings</span>"
-msgstr "<span weight=\"bold\">Vispārīgi iestatījumi</span>"
-
-#: ../interfaces/users.ui.h:4
-msgid "<span weight=\"bold\">Group Members</span>"
-msgstr "<span weight=\"bold\">Grupas dalībnieki</span>"
-
-#: ../interfaces/users.ui.h:5
-msgid "<span weight=\"bold\">Optional Settings</span>"
-msgstr "<span weight=\"bold\">Papildus iestatījumi</span>"
-
-#: ../interfaces/users.ui.h:6
-msgid "<span weight=\"bold\">Password Settings</span>"
-msgstr "<span weight=\"bold\">Paroles iestatījumi</span>"
-
-#: ../interfaces/users.ui.h:7
-msgid "<span weight=\"bold\">Profile Settings</span>"
-msgstr "<span weight=\"bold\">Profila iestatījumi</span>"
-
-#: ../interfaces/users.ui.h:8
-msgid "<span weight=\"bold\">System Defaults</span>"
-msgstr "<span weight=\"bold\">Sistēmas noklusējumi</span>"
-
-#: ../interfaces/users.ui.h:9
-msgid ""
-"A user with this name already exists. Please choose a different short name "
-"for the new user."
-msgstr ""
-"Lietotājs ar šādu vārdu jau ir. Lūdzu, izvēlieties citu īso vārdu jaunajam "
-"lietotājam."
-
-#: ../interfaces/users.ui.h:10
-#| msgid "Account"
 msgid "Account _type:"
 msgstr "Konta _tips:"
 
-#: ../interfaces/users.ui.h:11
-msgid "Advanced"
-msgstr "Paplašināti"
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr "_Mainīt..."
 
-#: ../interfaces/users.ui.h:12
-msgid "Assign a random password by default"
-msgstr "Piešķirt nejaušu paroli pēc noklusējuma"
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "_Parole:"
 
-#: ../interfaces/users.ui.h:13
-#| msgid "Advanced settings:"
-msgid "Change Advanced User Settings"
-msgstr "Mainīt paplašinātos lietotāja iestatījumus"
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr "P_aplašinātie iestatījumi"
 
-#: ../interfaces/users.ui.h:14
-#| msgid "New user account"
-msgid "Change User Account Type"
-msgstr "Mainīt lietotāja konta tipu"
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr "Konts ir deaktivizēts."
 
-#: ../interfaces/users.ui.h:15
-msgid "Change User Name and Login"
-msgstr "Mainīt lietotāja vārdu"
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr "_Aktivizēt kontu"
 
-#: ../interfaces/users.ui.h:16
-#| msgid "Enter Password"
-msgid "Change User Password"
-msgstr "Mainīt lietotāja paroli"
-
-#: ../interfaces/users.ui.h:17
-#| msgid "Advanced settings:"
-msgid "Changing advanced settings for:"
-msgstr "Maina paplašinātos iestatījumus lietotājam:"
-
-#: ../interfaces/users.ui.h:18
-msgid "Changing user account type for:"
-msgstr "Maina lietotāja konta tipu:"
-
-#: ../interfaces/users.ui.h:19
-#| msgid "Change _Host name"
-msgid "Changing user name for:"
-msgstr "Maina lietotāja vārdu:"
-
-#: ../interfaces/users.ui.h:20
-#| msgid "Enter password for user"
-msgid "Changing user password for:"
-msgstr "Maina lietotāja paroli:"
-
-#: ../interfaces/users.ui.h:21
-msgid "Con_firmation:"
-msgstr "_Apstiprinājums:"
-
-#: ../interfaces/users.ui.h:22
-#| msgid "Con_firmation:"
-msgid "Contact Information"
-msgstr "Kontaktinformācija"
-
-#: ../interfaces/users.ui.h:23
-msgid "Create New User"
-msgstr "Izveidot jaunu lietotāju"
-
-#: ../interfaces/users.ui.h:24
-msgid "Create a new user"
-msgstr "Izveidot jaunu lietotāju"
-
-#: ../interfaces/users.ui.h:25
-msgid "Days between warning and password expiration:"
-msgstr "Dienas starp brīdinājumu un paroles iztecēšanu:"
-
-#: ../interfaces/users.ui.h:26
-msgid "Default _group:"
-msgstr "Noklusētā _grupa:"
-
-#: ../interfaces/users.ui.h:27
-msgid "Default _shell:"
-msgstr "Noklu_sētā čaula:"
-
-#: ../interfaces/users.ui.h:28
-#| msgid "New user account"
-msgid "Disable _account"
-msgstr "_Deaktivizēt kontu"
-
-#: ../interfaces/users.ui.h:29
-msgid "Don't ask for password on _login"
-msgstr "Piesakoties neprasīt paro_li"
-
-#: ../interfaces/users.ui.h:30
-msgid ""
-"Encrypt all your files with your login password to strongly protect them "
-"from people with physical access to your computer, at the expense of a "
-"slightly reduced performance."
-msgstr ""
-"Šifrēt visus savus failus ar lietotāja paroli, lai tos aizsargātu no "
-"cilvēkiem, kuriem ir fiziska pieeja jūsu datoram, bet būs jāpacieš nedaudz "
-"zemāka veiktspēja."
-
-#: ../interfaces/users.ui.h:31
-#| msgid "Name:"
-msgid "Full _Name:"
-msgstr "Pilns _vārds:"
-
-#: ../interfaces/users.ui.h:33
-msgid "Generate _random password"
-msgstr "Ģene_rēt nejaušu paroli"
-
-#: ../interfaces/users.ui.h:34
-msgid "Group _ID:"
-msgstr "Grupas _ID:"
-
-#: ../interfaces/users.ui.h:35
-msgid "Group _name:"
-msgstr "Grupas _nosaukums:"
-
-#: ../interfaces/users.ui.h:36
+#: ../interfaces/users.ui.h:8
 msgid "Group properties"
 msgstr "Grupas īpašības"
 
-#: ../interfaces/users.ui.h:37
-msgid "Groups settings"
-msgstr "Grupas iestatījumi"
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr ""
 
-#: ../interfaces/users.ui.h:38
-msgid "Ma_ximum days a password may be used:"
-msgstr "Ma_ksimālais dienu skaits, cik parole var tikt lietota:"
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "Grupas _nosaukums:"
 
-#: ../interfaces/users.ui.h:39
-#| msgid "Maximum UID:"
-msgid "Maximum GID:"
-msgstr "Maksimālais GID:"
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "Grupas _ID:"
 
-#: ../interfaces/users.ui.h:40
-msgid "Maximum UID:"
-msgstr "Maksimālais UID:"
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr ""
 
-#: ../interfaces/users.ui.h:41
-msgid "Mi_nimum days between password changes:"
-msgstr "Mi_nimālais dienu skaits starp paroļu maiņām:"
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr ""
 
-#: ../interfaces/users.ui.h:42
-msgid "Minimum GID:"
-msgstr "Minimālais GID:"
-
-#: ../interfaces/users.ui.h:43
-msgid "Minimum UID:"
-msgstr "Minimālais UID:"
-
-#: ../interfaces/users.ui.h:44
-msgid "Minimum days allowed between password changes:"
-msgstr "Minimums atļauto dienu skaits starp paroļu maiņām:"
-
-#: ../interfaces/users.ui.h:45
-#| msgid "Network _password:"
-msgid "New _password:"
-msgstr "Jaunā _parole:"
-
-#: ../interfaces/users.ui.h:46
-msgid "Number of days that a password may be used:"
-msgstr "Dienu skaits, cik parole var tikt lietota:"
-
-#: ../interfaces/users.ui.h:47
-msgid "O_ffice location:"
-msgstr "Biroja _vieta:"
-
-#: ../interfaces/users.ui.h:48
-msgid "Password set to: "
-msgstr "Parole iestatīta: "
-
-#: ../interfaces/users.ui.h:49
-msgid "Privileges"
-msgstr "Privilēģijas"
-
-#: ../interfaces/users.ui.h:50
+#: ../interfaces/users.ui.h:14
 msgid "Profile _name:"
 msgstr "Profila _nosaukums:"
 
-#: ../interfaces/users.ui.h:51
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Komentāri"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr ""
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "_Mājas mape:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "Noklu_sētā čaula:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "Noklusētā _grupa:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Dienu skaits, cik parole var tikt lietota:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Minimums atļauto dienu skaits starp paroļu maiņām:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Dienas starp brīdinājumu un paroles iztecēšanu:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Piešķirt nejaušu paroli pēc noklusējuma"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr ""
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "Maksimālais UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "Maksimālais GID:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "Minimālais UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "Minimālais GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Privilēģijas"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Lietotāju profili"
+
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr "_Pievienot profilu"
+
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr "Grupas iestatījumi"
+
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr ""
+
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr "Pilns _vārds:"
+
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr "Maina lietotāja vārdu:"
+
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr "Mainīt lietotāja paroli"
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "_Apstiprinājums:"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "Parole iestatīta: "
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "Ģ_enerēt"
+
+#: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
 msgstr "Iestatīt paroli ar _roku"
 
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
-#: ../interfaces/users.ui.h:53
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "Jaunā _parole:"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "Ģene_rēt nejaušu paroli"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "Maina lietotāja paroli:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "Piesakoties neprasīt paro_li"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "_Pašreizējā parole:"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "Mainīt lietotāja konta tipu"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "Maina lietotāja konta tipu:"
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "_Pielāgots"
+
+#: ../interfaces/users.ui.h:52
 msgid ""
-"Short name must consist of:\n"
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr "Šis konts izmanto īpašus iestatījumus, kuri ir noteikti pašrocīgi. Izmantojiet <i>paplašināto iestatījumu</i> dialogu, lai tos pielāgotu."
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "Izveidot jaunu lietotāju"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "_Vārds:"
+
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
+msgstr "Izveidot jaunu lietotāju"
+
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
+msgid ""
+"Username must consist of:\n"
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
 msgstr ""
-"Īsajam vārdam vajadzētu saturēt:\n"
-"  ➣ mazos burtus no angļu alfabēta\n"
-"  ➣ ciparus\n"
-"  ➣ jebkuru no rakstzīmēm \".\", \"-\", \"_\""
-
-#: ../interfaces/users.ui.h:57
-msgid "Short name must start with a letter!"
-msgstr "Īsajam vārdam jāsākas ar burtu!"
-
-#: ../interfaces/users.ui.h:58
-#| msgid "This action is allowed"
-msgid "This account is disabled."
-msgstr "Konts ir deaktivizēts."
-
-#: ../interfaces/users.ui.h:59
-msgid ""
-"This account is using special settings that have been defined manually. Use "
-"the <i>Advanced Settings</i> dialog to tune them."
-msgstr ""
-"Šis konts izmanto īpašus iestatījumus, kuri ir noteikti pašrocīgi. "
-"Izmantojiet "
-"<i>paplašināto iestatījumu</i> dialogu, lai tos pielāgotu."
-
-#: ../interfaces/users.ui.h:60
-msgid "User ID:"
-msgstr "Lietotāja ID:"
-
-#: ../interfaces/users.ui.h:61
-msgid "User Privileges"
-msgstr "Lietotāja privilēģijas"
 
 #: ../interfaces/users.ui.h:62
-msgid "User profiles"
-msgstr "Lietotāju profili"
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr ""
 
 #: ../interfaces/users.ui.h:63
-msgid "You can't change user ID while the user is logged in."
-msgstr "Jūs nevarat mainīt lietotāja ID, kamēr lietotājs ir pieteicies."
+msgid "Username must start with a letter!"
+msgstr ""
 
 #: ../interfaces/users.ui.h:64
-msgid "_Add Profile"
-msgstr "_Pievienot profilu"
-
-#: ../interfaces/users.ui.h:65
-#| msgid "Advanced settings:"
-msgid "_Advanced Settings"
-msgstr "P_aplašinātie iestatījumi"
-
-#: ../interfaces/users.ui.h:66
-msgid "_Change..."
-msgstr "_Mainīt..."
-
-#: ../interfaces/users.ui.h:67
-msgid "_Comments"
-msgstr "_Komentāri"
-
-#: ../interfaces/users.ui.h:68
-#| msgid "Network _password:"
-msgid "_Current password:"
-msgstr "_Pašreizējā parole:"
-
-#: ../interfaces/users.ui.h:69
-msgid "_Custom"
-msgstr "_Pielāgots"
-
-#: ../interfaces/users.ui.h:70
-msgid "_Days between warning and password expiration:"
-msgstr "_Dienas starp brīdinājumu un paroles iztecēšanu:"
-
-#: ../interfaces/users.ui.h:71
-#| msgid "Account"
-msgid "_Enable Account"
-msgstr "_Aktivizēt kontu"
-
-#: ../interfaces/users.ui.h:72
 msgid "_Encrypt home folder to protect sensitive data"
 msgstr "Šifrēt mājas mapi, lai aizsargātu s_ensitīvus datus"
 
-#: ../interfaces/users.ui.h:73
-msgid "_Generate"
-msgstr "Ģ_enerēt"
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "Šifrēt visus savus failus ar lietotāja paroli, lai tos aizsargātu no cilvēkiem, kuriem ir fiziska pieeja jūsu datoram, bet būs jāpacieš nedaudz zemāka veiktspēja."
 
-#: ../interfaces/users.ui.h:74
-msgid "_Home directory:"
-msgstr "_Mājas mape:"
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "Mainīt paplašinātos lietotāja iestatījumus"
 
-#: ../interfaces/users.ui.h:75
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "Maina paplašinātos iestatījumus lietotājam:"
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "Biroja _vieta:"
+
+#: ../interfaces/users.ui.h:69
+msgid "_Work phone:"
+msgstr "_Darba tālrunis:"
+
+#: ../interfaces/users.ui.h:70
 msgid "_Home phone:"
 msgstr "_Mājas tālrunis:"
 
-#: ../interfaces/users.ui.h:76
-msgid "_Main group:"
-msgstr "_Galvenā grupa:"
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr "Kontaktinformācija"
 
-#: ../interfaces/users.ui.h:77
-msgid "_Manage Groups"
-msgstr "_Pārvaldīt grupas"
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "Lietotāja privilēģijas"
 
-#: ../interfaces/users.ui.h:78
-#| msgid "Name:"
-msgid "_Name:"
-msgstr "_Vārds:"
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr ""
 
-#: ../interfaces/users.ui.h:79
-msgid "_Password:"
-msgstr "_Parole:"
-
-#: ../interfaces/users.ui.h:80
+#: ../interfaces/users.ui.h:74
 msgid "_Shell:"
 msgstr "Č_aula:"
 
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "_Galvenā grupa:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "Lietotāja ID:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "Jūs nevarat mainīt lietotāja ID, kamēr lietotājs ir pieteicies."
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "_Deaktivizēt kontu"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Mi_nimālais dienu skaits starp paroļu maiņām:"
+
 #: ../interfaces/users.ui.h:81
-#| msgid "_Host name:"
-msgid "_Short Name:"
-msgstr "Ī_sais vārds:"
+msgid "Ma_ximum days a password may be used:"
+msgstr "Ma_ksimālais dienu skaits, cik parole var tikt lietota:"
 
 #: ../interfaces/users.ui.h:82
-msgid "_Work phone:"
-msgstr "_Darba tālrunis:"
+msgid "_Days between warning and password expiration:"
+msgstr "_Dienas starp brīdinājumu un paroles iztecēšanu:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Paplašināti"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr ""
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -787,64 +759,57 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr ""
-"Ja jūs droši zināt, ka tā strādā kā viena no platformām sarakstā zemāk, jūs "
-"varat to izvēlēties un turpināt. Ievērojiet, ka šī darbība var sabojāt jūsu "
-"sistēmas konfigurāciju vai galīgi nobeigt jūsu datoru."
+msgstr "Ja jūs droši zināt, ka tā strādā kā viena no platformām sarakstā zemāk, jūs varat to izvēlēties un turpināt. Ievērojiet, ka šī darbība var sabojāt jūsu sistēmas konfigurāciju vai galīgi nobeigt jūsu datoru."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
 msgstr "Neatbalstīta platforma"
 
-#: ../src/common/gst-tool.c:190
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr "Nevarēja ielādēt konfigurāciju"
 
 #. OPERATION_COMMIT
-#: ../src/common/gst-tool.c:192
+#: ../src/common/gst-tool.c:190
 msgid "The configuration could not be saved"
 msgstr "Nevar saglabāt konfigurāciju"
 
-#: ../src/common/gst-tool.c:196
+#: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
 msgstr "Jums nav tiesību piekļūt šai sistēmas konfigurācijas daļai."
 
 #. OPERATION_COMMIT
-#: ../src/common/gst-tool.c:198 ../src/common/gst-tool.c:690
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
 msgstr "Jums nav tiesību veikt sistēmas konfigurācijas izmaiņas."
 
-#: ../src/common/gst-tool.c:201
+#: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
 msgstr "Tika atrasti nederīgi dati."
 
 #. OOBS_RESULT_ERROR
-#: ../src/common/gst-tool.c:203
-#| msgid "An unexpected error has occurred."
+#: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
 msgstr "Notika nezināma kļūda."
 
-#: ../src/common/gst-tool.c:427
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "Nevarēja parādīt palīdzību"
 
-#: ../src/common/gst-tool.c:621
+#: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
 msgstr "Iespējams, ka sistēmas konfigurācija ir mainījusies."
 
-#: ../src/common/gst-tool.c:623
+#: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
-msgstr ""
-"Atjaunot saturu? Šīs darbības rezultātā visas veiktās izmaiņas tiks zaudētas."
+msgstr "Atjaunot saturu? Šīs darbības rezultātā visas veiktās izmaiņas tiks zaudētas."
 
-#: ../src/common/gst-tool.c:692
+#: ../src/common/gst-tool.c:687
 #, c-format
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr ""
-"Gadījās kļūda, pārbaudot autorizācijas: %s\n"
-"Jūs varētu vēlēties to ziņot kā kļūdu."
+msgstr "Gadījās kļūda, pārbaudot autorizācijas: %s\nJūs varētu vēlēties to ziņot kā kļūdu."
 
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
@@ -856,7 +821,7 @@ msgstr "_Pievienot"
 msgid "_Delete"
 msgstr "_Dzēst"
 
-#: ../src/network/address-list.c:486
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "Ievadiet adresi"
 
@@ -872,8 +837,7 @@ msgstr "Nevarēja automātiski noteikt modema ierīci"
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
-msgstr ""
-"Pārbaudiet, vai iekārta nav aizņemta un vai tā ir pareizi pievienota datoram."
+msgstr "Pārbaudiet, vai iekārta nav aizņemta un vai tā ir pareizi pievienota datoram."
 
 #: ../src/network/callbacks.c:523
 msgid "The host name has changed"
@@ -883,9 +847,7 @@ msgstr "Saimniekdatora vārds ir mainījies"
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr ""
-"Tas atturēs jūs no jaunu lietotņu palaišanas un tāpēc jums būs jāpiesakās "
-"vēlreiz. Tomēr turpināt?"
+msgstr "Tas atturēs jūs no jaunu lietotņu palaišanas un tāpēc jums būs jāpiesakās vēlreiz. Tomēr turpināt?"
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
@@ -966,58 +928,45 @@ msgstr "Klejošanas režīms ir aktivizēts"
 msgid "<b>Essid:</b> %s "
 msgstr "<b>Essid:</b> %s "
 
-#: ../src/network/ifaces-list.c:295
-#, c-format
-msgid "<b>Address:</b> %s <b>Subnet mask:</b> %s"
-msgstr "<b>Adrese:</b> %s <b>Apakštīkla maska:</b> %s"
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:299
-#, c-format
-msgid "<b>Address:</b> %s"
-msgstr "<b>Adrese:</b> %s"
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:303
-#, c-format
-msgid "<b>Address:</b> %s <b>Remote address:</b> %s"
-msgstr "<b>Adrese:</b> %s <b>Attālinātā adrese:</b> %s"
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:315
-#, c-format
-msgid "<b>Type:</b> %s <b>Phone number:</b> %s"
-msgstr "<b>Tips:</b> %s <b>Telefona numurs:</b> %s"
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:318
-#, c-format
-msgid "<b>Type:</b> %s <b>Access point name:</b> %s"
-msgstr "<b>Tips:</b> %s <b>Piekļuves punkta nosaukums:</b> %s"
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:325
-#, c-format
-msgid "<b>Type:</b> %s <b>Ethernet interface:</b> %s"
-msgstr "<b>Tips:</b> %s <b>Ethernet saskarne:</b> %s"
-
-#: ../src/network/ifaces-list.c:329
-#, c-format
-msgid "<b>Type:</b> %s"
-msgstr "<b>Tips:</b> %s"
-
-#: ../src/network/ifaces-list.c:346
+#: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
 msgstr "Bezvadu savienojums"
 
-#: ../src/network/ifaces-list.c:348
+#: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
 msgstr "Infrasarkanais savienojums"
 
-#: ../src/network/ifaces-list.c:350
+#: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
 msgstr "Vadu savienojums"
 
-#: ../src/network/ifaces-list.c:352
+#: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
 msgstr "Paralēlā porta savienojums"
 
-#: ../src/network/ifaces-list.c:354
+#: ../src/network/ifaces-list.c:364
 msgid "Point to point connection"
 msgstr "Punkts uz punktu savienojums"
 
@@ -1054,9 +1003,7 @@ msgstr "Saskarne neeksistē"
 msgid ""
 "Check that it is correctly typed and that it is correctly supported by your "
 "system."
-msgstr ""
-"Pārbaudiet, vai esat pareizi ierakstījuši un vai tas ir korekti "
-"atbalstīts šajā sistēmā."
+msgstr "Pārbaudiet, vai esat pareizi ierakstījuši un vai tas ir korekti atbalstīts šajā sistēmā."
 
 #: ../src/network/main.c:183
 msgid "Configure a network interface"
@@ -1074,13 +1021,13 @@ msgstr "Konfigurēt pirmo tīkla saskarni ar noteiktu tipu"
 msgid "TYPE"
 msgstr "TIPS"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "Konfigurēt tīkla iekārtas un savienojumus"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "Tīkls"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Konfigurēt tīkla iekārtas un savienojumus"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
@@ -1091,18 +1038,16 @@ msgstr "Tīkla iestatījumi"
 msgid "Settings for service \"%s\""
 msgstr "\"%s\" servisa iestatījumi"
 
-#: ../src/services/callbacks.c:125
+#: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
 msgstr "Vai tiešām vēlaties deaktivizēt %s?"
 
-#: ../src/services/callbacks.c:129
+#: ../src/services/callbacks.c:126
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
-msgstr ""
-"Šis var ietekmēt jūsu sistēmas darbību dažādos veidos, iespējami izraisot "
-"datu zudumus."
+msgstr "Šis var ietekmēt jūsu sistēmas darbību dažādos veidos, iespējami izraisot datu zudumus."
 
 #: ../src/services/service.c:32
 msgid "Web server"
@@ -1508,17 +1453,16 @@ msgstr "Sistēmas pārraugs"
 
 #. GST_ROLE_SYSTEM_MONITORING
 #: ../src/services/service.c:104
-#| msgid "Logical volume management"
 msgid "Virtual Machine management"
 msgstr "Virtuālo mašīnu pārvaldība"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "Konfigurēt, kuras iekārtas tiks palaistas, kad sistēma startēsies"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Servisi"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Konfigurēt, kuras iekārtas tiks palaistas, kad sistēma startēsies"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1569,11 +1513,11 @@ msgstr "Pievieno koplietošanas ceļu, maina to ja tāds jau eksistē"
 msgid "PATH"
 msgstr "CEĻŠ"
 
-#: ../src/shares/caja/caja-shares.c:152
+#: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
 msgstr "_Koplietot mapi..."
 
-#: ../src/shares/caja/caja-shares.c:153
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr "Koplietot šo mapi ar citiem datoriem"
 
@@ -1593,7 +1537,7 @@ msgstr "Norādiet IP adresi"
 msgid "Specify network"
 msgstr "Norādiet tīklu"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Konfigurēt mapes, kuras varētu būt pieejamas apkārtējam tīklam"
 
@@ -1615,12 +1559,10 @@ msgstr "Unix tīkls (NFS)"
 
 #: ../src/shares/share-settings.c:462
 #, c-format
-#| msgid "Settings for service \"%s\""
 msgid "Settings for folder '%s'"
 msgstr "\"%s\" mapes iestatījumi"
 
 #: ../src/shares/share-settings.c:469
-#| msgid "Shared Folders"
 msgid "Share Folder"
 msgstr "Koplietot mapi"
 
@@ -1632,51 +1574,57 @@ msgstr "Koplietošanas servisi nav uzinstalēti"
 msgid ""
 "You need to install at least either Samba or NFS in order to share your "
 "folders."
+msgstr "Jums ir jāuzinstalē Samba vai NFS pakotnes, lai varētu koplietot mapes."
+
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
 msgstr ""
-"Jums ir jāuzinstalē Samba vai NFS pakotnes, lai varētu koplietot mapes."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Maina sistēmas laiku, datumu un laika zonu"
+#: ../src/time/e-map/e-map.c:622
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
+msgstr ""
 
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Laiks un datums"
 
-#: ../src/time/time-tool.c:402
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Maina sistēmas laiku, datumu un laika zonu"
+
+#: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "NTP atbalsts nav uzinstalēts"
 
-#: ../src/time/time-tool.c:404
+#: ../src/time/time-tool.c:400
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr ""
-"Lūdzu, aktivizējiet NTP atbalstu sistēmā, lai aktivizētu sinhronizāciju "
-"starp "
-"jūsu lokālo laika serveri un serveriem internetā."
+msgstr "Lūdzu, aktivizējiet NTP atbalstu sistēmā, lai aktivizētu sinhronizāciju starp jūsu lokālo laika serveri un serveriem internetā."
 
-#: ../src/time/time-tool.c:433
+#: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
 msgstr "Aktivizē NTP"
 
-#: ../src/time/time-tool.c:433
+#: ../src/time/time-tool.c:429
 msgid "Disabling NTP"
 msgstr "Deaktivizē NTP"
 
-#: ../src/time/time-tool.c:445
+#: ../src/time/time-tool.c:441
 msgid "Synchronizing system clock"
 msgstr "Sinhronizē sistēmas pulksteni"
 
-#: ../src/time/time-tool.c:525
+#: ../src/time/time-tool.c:521
 msgid "Keep synchronized with Internet servers"
 msgstr "Sinhronizē pulksteni ar Interneta serveriem"
 
-#: ../src/time/time-tool.c:526
+#: ../src/time/time-tool.c:522
 msgid "Manual"
 msgstr "Pašrocīgi"
 
-#: ../src/time/time-tool.c:672
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "Laika un datuma iestatījumi"
 
@@ -1686,7 +1634,7 @@ msgstr "Administratoru grupu nevar izdzēst"
 
 #: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
 #: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
-#: ../src/users/user-settings.c:476
+#: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "Šis varētu padarīt sistēmu nelietojamu."
 
@@ -1728,9 +1676,7 @@ msgstr "Grupas nosaukumā ir nederīgas rakstzīmes"
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr ""
-"Lūdzu, norādiet derīgu grupas nosaukumu, kas sastāv no mazā burta, kam seko "
-"citi mazie burti un cipari."
+msgstr "Lūdzu, norādiet derīgu grupas nosaukumu, kas sastāv no mazā burta, kam seko citi mazie burti un cipari."
 
 #: ../src/users/group-settings.c:229
 #, c-format
@@ -1738,7 +1684,6 @@ msgid "Group \"%s\" already exists"
 msgstr "Grupa \"%s\" jau eksistē"
 
 #: ../src/users/group-settings.c:230
-#| msgid "Please select a different user name."
 msgid "Please choose a different group name."
 msgstr "Lūdzu, izvēlieties citu grupas nosaukumu."
 
@@ -1753,19 +1698,26 @@ msgid "Group ID %d is already used by group \"%s\""
 msgstr "Grupas ID %d jau izmanto grupa \"%s\""
 
 #: ../src/users/group-settings.c:264
-#| msgid "Please enter a different home directory path."
 msgid "Please choose a different numeric identifier for the new group."
 msgstr "Lūdzu, izvēlieties citu skaitlisku identifikatoru grupai."
 
 #: ../src/users/group-settings.c:266
 #, c-format
-#| msgid "Please enter a different home directory path."
 msgid "Please choose a different numeric identifier for group \"%s\"."
 msgstr "Lūdzu, izvēlieties citu skaitlisku identifikatoru grupai \"%s\"."
 
 #: ../src/users/groups-table.c:44
 msgid "Group name"
 msgstr "Grupas nosaukums"
+
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
+msgstr "Neprasīt piesakoties"
+
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
+msgstr "Prasīt piesakoties"
 
 #: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
@@ -1808,7 +1760,6 @@ msgid "Mount user-space filesystems (FUSE)"
 msgstr "Montēt lietotāja-telpas failu sistēmas (FUSE)"
 
 #: ../src/users/privileges-table.c:63
-#| msgid "Configure a network interface"
 msgid "Configure printers"
 msgstr "Konfigurēt printerus"
 
@@ -1837,7 +1788,6 @@ msgid "Use tape drives"
 msgstr "Izmantot lenšu dziņus"
 
 #: ../src/users/privileges-table.c:70
-#| msgid "Use audio devices"
 msgid "Use USB devices"
 msgstr "Izmantot USB ierīces"
 
@@ -1846,7 +1796,6 @@ msgid "Use VirtualBox virtualization solution"
 msgstr "Izmantot VirtualBox virtualizācijas risinājumu"
 
 #: ../src/users/privileges-table.c:72
-#| msgid "Use audio devices"
 msgid "Use video devices"
 msgstr "Izmantot video ierīces"
 
@@ -1855,78 +1804,76 @@ msgid "Be able to get administrator privileges"
 msgstr "Varēt iegūt administratora privilēģijas"
 
 #: ../src/users/user-profiles.conf.in.h:1
-msgid "Administrator"
-msgstr "Administrators"
-
-#: ../src/users/user-profiles.conf.in.h:2
-msgid ""
-"Can change anything on the system, including installing and upgrading "
-"software."
-msgstr ""
-"Var sistēmā mainīt jebko, tai skaitā instalēt un uzlabot programmatūru."
-
-#: ../src/users/user-profiles.conf.in.h:3
-msgid ""
-"Can perform common tasks. Can't install software or change settings "
-"affecting all users."
-msgstr ""
-"Var veikt parastos uzdevumus. Nevar instalēt programmatūru vai mainīt "
-"iestatījumus, kas ietekmē visus lietotājus."
-
-#: ../src/users/user-profiles.conf.in.h:4
-#| msgid "Disk server"
 msgid "Desktop user"
 msgstr "Darbvirsmas lietotājs"
 
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr "Var veikt parastos uzdevumus. Nevar instalēt programmatūru vai mainīt iestatījumus, kas ietekmē visus lietotājus."
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr "Administrators"
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr "Var sistēmā mainīt jebko, tai skaitā instalēt un uzlabot programmatūru."
+
 #: ../src/users/run-passwd.c:421
-#| msgid "MTA authentication service"
 msgid "Authentication failed"
 msgstr "Autentifikācija neizdevās"
 
-#: ../src/users/run-passwd.c:495
+#: ../src/users/run-passwd.c:498
 #, c-format
-#| msgid "Password is too short"
 msgid "The new password is too short"
 msgstr "Jaunā parole ir par īsu"
 
-#: ../src/users/run-passwd.c:500
+#: ../src/users/run-passwd.c:504
 #, c-format
-#| msgid "Password is too short"
 msgid "The new password is too simple"
 msgstr "Jaunā parole ir pārāk vienkārša"
 
-#: ../src/users/run-passwd.c:505
+#: ../src/users/run-passwd.c:510
 #, c-format
 msgid "The old and new passwords are too similar"
 msgstr "Jaunā un vecā parole ir pārāk līdzīgas"
 
-#: ../src/users/run-passwd.c:508
+#: ../src/users/run-passwd.c:513
 #, c-format
 msgid "The new password must contain numeric or special characters"
 msgstr "Jaunajai parolei jāsatur arī cipari vai īpašās rakstzīmes"
 
-#: ../src/users/run-passwd.c:512
+#: ../src/users/run-passwd.c:517
 #, c-format
 msgid "The old and new passwords are the same"
 msgstr "Jaunā un vecā parole ir vienādas"
 
-#: ../src/users/run-passwd.c:516
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/users/run-passwd.c:524
 #, c-format
 msgid "Your password has been changed since you initially authenticated!"
 msgstr "Jūsu parole ir mainīta kopš jūsu sākotnējās autorizācijas!"
 
-#: ../src/users/run-passwd.c:520
+#: ../src/users/run-passwd.c:528
 #, c-format
 msgid "Unknown error"
 msgstr "Nezināma kļūda"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Pievienot vai dzēst lietotājus un grupas"
-
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Lietotāji un grupas"
+
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Pievienot vai dzēst lietotājus un grupas"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
@@ -1934,11 +1881,9 @@ msgstr "Parole ir pārāk īsa"
 
 #: ../src/users/user-password.c:98
 msgid ""
-"User passwords must be longer than 6 characters and preferably formed by "
+"User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
 msgstr ""
-"Lietotāja parolei ir jābūt vismaz 6 simbolus garai, tai būtu jāsastāv no "
-"burtiem, cipariem un speciālajām rakstu zīmēm."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1946,19 +1891,17 @@ msgstr "Paroles nesakrīt"
 
 #: ../src/users/user-password.c:102
 msgid "Check that you have provided the same password in both text fields."
-msgstr ""
-"Pārbaudiet, vai jūs esat ievadījis vienu un to pašu paroli abos teksta "
-"laukos."
+msgstr "Pārbaudiet, vai jūs esat ievadījis vienu un to pašu paroli abos teksta laukos."
 
-#: ../src/users/user-password.c:426
+#: ../src/users/user-password.c:445
 msgid "Please choose another password."
 msgstr "Lūdzu, izvēlieties citu paroli."
 
-#: ../src/users/user-password.c:437
+#: ../src/users/user-password.c:456
 msgid "Please type again your current password."
 msgstr "Lūdzu, atkal ievadiet savu pašreizējo paroli."
 
-#: ../src/users/user-password.c:444
+#: ../src/users/user-password.c:463
 msgid "Password could not be changed"
 msgstr "Neizdevās nomainīt paroli"
 
@@ -1968,7 +1911,6 @@ msgstr "Administratora kontu nevar izdzēst"
 
 #: ../src/users/user-settings.c:96
 #, c-format
-#| msgid "This user is currently using this computer"
 msgid "%s is currently using this computer"
 msgstr "%s pašlaik lieto šo datoru"
 
@@ -1985,9 +1927,7 @@ msgstr "Nevar izdzēst vienīgo administratora kontu"
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr ""
-"%s ir vienīgais administrators uz šī datora. Šī konta dzēšana izslēgs jūs "
-"ārā no sistēmas administrēšanas."
+msgstr "%s ir vienīgais administrators uz šī datora. Šī konta dzēšana izslēgs jūs ārā no sistēmas administrēšanas."
 
 #: ../src/users/user-settings.c:121
 #, c-format
@@ -1997,15 +1937,10 @@ msgstr "Dzēst %s mājas mapi?"
 #: ../src/users/user-settings.c:124
 #, c-format
 msgid ""
-"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't "
-"need them anymore. You may want to back them up before deleting the account, "
-"or keep them so that an administrator can save them later."
-msgstr ""
-"Failus, kuri pieder lietotājam %s mapē <tt>%s</tt> var pilnībā izmest, ja "
-"jums "
-"tos vairs nevajag. Jūs varat izveidot to rezerves kopiju, pirms dzēšat "
-"kontu, "
-"vai arī paturēt tos, lai administrators var tos saglabāt vēlāk."
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr "Failus, kuri pieder lietotājam %s mapē <tt>%s</tt> var pilnībā izmest, ja jums tos vairs nevajag. Jūs varat izveidot to rezerves kopiju, pirms dzēšat kontu, vai arī paturēt tos, lai administrators var tos saglabāt vēlāk."
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
@@ -2016,7 +1951,6 @@ msgid "Don't Remove Account"
 msgstr "Nedzēst kontu"
 
 #: ../src/users/user-settings.c:134
-#| msgid "_Delete"
 msgid "Delete Files"
 msgstr "Dzēst failus"
 
@@ -2033,15 +1967,6 @@ msgstr "Pielāgots"
 msgid "None"
 msgstr "Nav"
 
-#. TRANSLATORS:  This applies to a password. Keep the string short.
-#: ../src/users/user-settings.c:347
-msgid "Not asked on login"
-msgstr "Neprasīt piesakoties"
-
-#: ../src/users/user-settings.c:349
-msgid "Asked on login"
-msgstr "Prasīt piesakoties"
-
 #: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
@@ -2051,184 +1976,143 @@ msgstr "Nederīga rakstzīme \"%c\" komentārā"
 msgid "Check that this character is not used."
 msgstr "Pārbaudiet, vai šī rakstzīme netiek lietota."
 
-#: ../src/users/user-settings.c:417
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "Nepilnīgs ceļš uz mājas mapi"
 
-#: ../src/users/user-settings.c:418
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
+msgstr "Lūdzu, ievadiet pilnu ceļu uz mājas mapi\n<span size=\"smaller\">piem.: /home/janis</span>."
+
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
 msgstr ""
-"Lūdzu, ievadiet pilnu ceļu uz mājas mapi\n"
-"<span size=\"smaller\">piem.: /home/janis</span>."
 
-#: ../src/users/user-settings.c:433
-msgid "Home directory already exists"
-msgstr "Mājas mape jau eksistē"
-
-#: ../src/users/user-settings.c:434
+#: ../src/users/user-settings.c:449
 #, c-format
 msgid ""
-"The directory <tt>%s</tt> already exists. User may not have the permissions "
-"required to read or write in that directory. Do you want to use it anyway?"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
 msgstr ""
-"Mape <tt>%s</tt> jau eksistē. Lietotājam varētu nebūt tiesību lasīt vai "
-"rakstīt šajā mapē. Vai tomēr vēlaties turpināt?"
 
-#: ../src/users/user-settings.c:440
-#| msgid "Home directory"
-msgid "Use this directory"
-msgstr "Izmantot šo mapi"
+#: ../src/users/user-settings.c:461
+msgid "_Replace With Old Files"
+msgstr ""
 
-#: ../src/users/user-settings.c:475
-#| msgid "Group name of the administrator group user should not be modified"
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr ""
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr ""
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr ""
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr ""
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr ""
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:604
 msgid "ID for the root user should not be modified"
 msgstr "root lietotāja ID nevajadzētu mainīt"
 
 #. check that UID is free
-#: ../src/users/user-settings.c:479
+#: ../src/users/user-settings.c:608
 #, c-format
-#| msgid "User name \"%s\" already exists"
 msgid "User ID %d is already used by user %s"
 msgstr "Lietotāja ID %d jau izmanto lietotājs %s"
 
-#: ../src/users/user-settings.c:481
+#: ../src/users/user-settings.c:610
 #, c-format
-#| msgid "Please select a different user name."
 msgid "Please choose a different numeric identifier for %s."
 msgstr "Lūdzu, izvēlieties citu skaitlisku identifikatoru lietotājam %s."
 
-#: ../src/users/user-settings.c:499
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr "Nepilnīgs ceļš čaulā"
 
-#: ../src/users/user-settings.c:500
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
-"Lūdzu, ievadiet pilnu čaulas ceļu\n"
-"<span size=\"smaller\">piem.: /bin/bash</span>."
+msgstr "Lūdzu, ievadiet pilnu čaulas ceļu\n<span size=\"smaller\">piem.: /bin/bash</span>."
 
-#: ../src/users/user-settings.c:534
-#| msgid "Be able to get administrator privileges"
+#: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
 msgstr "Atņemt administrēšanas tiesības"
 
-#: ../src/users/user-settings.c:537
+#: ../src/users/user-settings.c:666
 #, c-format
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr ""
-"%s ir vienīgais administrators uz šī datora. Administratora tiesību "
-"atņemšana "
-"šim lietotājam izslēgtu jūs no šīs sistēmas administrēšanas."
+msgstr "%s ir vienīgais administrators uz šī datora. Administratora tiesību atņemšana šim lietotājam izslēgtu jūs no šīs sistēmas administrēšanas."
 
-#: ../src/users/user-settings.c:554
+#: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
 msgstr "Jūs grasāties pats sev atņemt administrēšanas tiesības"
 
-#: ../src/users/user-settings.c:557
+#: ../src/users/user-settings.c:686
 #, c-format
 msgid ""
 "%s will no longer be able to perform administrative tasks. This account "
 "won't be allowed to get administration rights back on its own."
-msgstr ""
-"%s vairs nevarēs veikt administratīvos uzdevumus. Šis konts nevarēs pats sev "
-"piešķirt administratīvās tiesības atpakaļ."
+msgstr "%s vairs nevarēs veikt administratīvos uzdevumus. Šis konts nevarēs pats sev piešķirt administratīvās tiesības atpakaļ."
 
-#: ../src/users/user-settings.c:562
+#: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
 msgstr "Atteikties no administratīvajām tiesībām"
 
-#: ../src/users/users-tool.c:284
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr ""
+
+#: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "Lietotāju iestatījumi"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Please enter your root password</"
-#~ "span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Lūdzu ievadiet savu root paroli</"
-#~ "span>"
-
-#~ msgid ""
-#~ "You need administrator privileges to use this tool. Enter a password to "
-#~ "modify\n"
-#~ "your system configuration."
-#~ msgstr ""
-#~ "Jums ir jābūt administratora privilēģijām, lai lietotu šo rīku. Ievadiet "
-#~ "paroli,lai mainītu \n"
-#~ "jūsu sistēmas konfigurāciju."
-
-#~ msgid "<span weight=\"bold\">Contact Information</span>"
-#~ msgstr "<span weight=\"bold\">Kontaktinformācija</span>"
-
-#~ msgid "<span weight=\"bold\">Password</span>"
-#~ msgstr "<span weight=\"bold\">Parole</span>"
-
-#~ msgid "Check password _quality"
-#~ msgstr "Pārbaudīt paroles _kvalitāti"
-
-#~ msgid "User _password:"
-#~ msgstr "Lietotāja _parole:"
-
-#~ msgid "_Add Group"
-#~ msgstr "_Pievienot grupu"
-
-#~ msgid "_Add User"
-#~ msgstr "_Pievienot lietotāju"
-
-#~ msgid "_Profile:"
-#~ msgstr "_Profils:"
-
-#~ msgid "_Real name:"
-#~ msgstr "Īstais vā_rds:"
-
-#~ msgid "_Unlock"
-#~ msgstr "_Atslēgt"
-
-#~ msgid "This action is not allowed"
-#~ msgstr "Šī darbība nav atļauta"
-
-#~ msgid "Could not authenticate"
-#~ msgstr "Nevar autentificēt"
-
-#~ msgid "Are you sure you want to delete account \"%s\"?"
-#~ msgstr "Vai tiešām vēlaties dzēst kontu \"%s\"?"
-
-#~ msgid ""
-#~ "This will disable this user's access to the system without deleting the "
-#~ "user's home directory."
-#~ msgstr ""
-#~ "Šis aizliegs lietotāja pieeju sistēmai bez mājas direktorijas izdzēšanas."
-
-#~ msgid "Account '%s' Properties"
-#~ msgstr "Konta '%s' rekvizīti"
-
-#~ msgid "User name is empty"
-#~ msgstr "Lietotājs vārds ir tukšs"
-
-#~ msgid "A user name must be specified."
-#~ msgstr "Lietotāja vārds ir jānorāda."
-
-#~ msgid "User name has invalid characters"
-#~ msgstr "Lietotāja vārds satur neatļautas rakstzīmes"
-
-#~ msgid ""
-#~ "Please set a valid user name consisting of a lower case letter followed "
-#~ "by lower case letters and numbers."
-#~ msgstr ""
-#~ "Lūdzu sastādiet derīgu lietotājvārdu, kas sastāv no mazā burta, kam seko "
-#~ "mazie burti un/vai cipari."
-
-#~ msgid "Administrator account's user ID should not be modified"
-#~ msgstr "Administratora konta lietotāja ID nevajadzētu mainīt"
-
-#~ msgid "Name"
-#~ msgstr "Nosaukums"
-
-#~ msgid "Login name"
-#~ msgstr "Lietotāja vārds"

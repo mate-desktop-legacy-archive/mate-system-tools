@@ -1,1996 +1,2116 @@
-# Përkthimi i mesazheve të mate-system-tools në shqip
-# This file is distributed under the same license as the mate-system-tools package.
-# Copyright (C) 2006 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Laurent Dhima <laurenti@alblinux.net>, 2004, 2005, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-23 08:12+0100\n"
-"PO-Revision-Date: 2006-02-23 12:09+0100\n"
-"Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
-"Language-Team: Albanian <mate-albanian-perkthyesit@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:53+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../mate-system-tools.schemas.in.h:1
-msgid ""
-"Comma separated list of hosts that the GST will be able to access when the "
-"remote configuration option is enabled"
+#: ../interfaces/network.ui.h:1
+msgid "Off"
 msgstr ""
-"Lista e hosteve, të ndarë me presje, në të cilën GST do të jetë në gjendje "
-"të futet kur aktivohet opcioni i konfigurimit remot"
 
-#: ../mate-system-tools.schemas.in.h:2
-msgid "Last GST version executed"
-msgstr "Versioni i fundit i ekzekutuar i GST"
-
-#: ../mate-system-tools.schemas.in.h:3
-msgid "Preferred bootloader that boot-admin will configure"
-msgstr "Bootloader i preferuar që boot-admin do të konfigurojë"
-
-#: ../mate-system-tools.schemas.in.h:4
-msgid "Remote hosts"
-msgstr "Hosts remote"
-
-#: ../mate-system-tools.schemas.in.h:5
-msgid ""
-"The GST are able to do remote configuration through SSH, enable this option "
-"to use this feature"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
 msgstr ""
-"GST është në gjendje të kryejë konfigurime remote duke shfrytëzuar SSH, "
-"aktivo këtë opcion për të përdorur këtë karakteristikë"
 
-#: ../mate-system-tools.schemas.in.h:6
-msgid "The last GST version that this computer has run"
-msgstr "Versioni i fundit i GST në këtë kompjuter është ekzekutuar"
-
-#: ../mate-system-tools.schemas.in.h:7
-msgid ""
-"This key stores the bootloader that boot-admin will configure if there are "
-"more than one installed, if it's not set or isn't valid, then boot-admin "
-"will ask the user"
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
 msgstr ""
-"Kjo vlerë regjistron bootloader-in që boot-admin do të konfigurojë nëse janë "
-"instaluar më shumë se një, nëse nuk është përcaktuar apo nuk është i "
-"vlefshëm, atëhere boot-admin do të pyesë përdoruesin"
 
-#: ../mate-system-tools.schemas.in.h:8
-msgid "Whether the tools will use remote administration or not"
-msgstr "Nëse instrumentët do të përdorin administrimin në distancë apo jo"
-
-#: ../mate-system-tools.schemas.in.h:9
-msgid "Whether the users-admin tool should show all users and groups or not"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
 msgstr ""
-"Nëse instrumenti i administrimit duhet të shfaqë apo jo listën e plotë të të "
-"gjithë përdoruesve dhe grupeve"
 
-#: ../mate-system-tools.schemas.in.h:10
-msgid "Whether the warning dialog should be shown or not"
-msgstr "Nëse duhet shfaqur apo jo mesazhi i paralajmërimit"
-
-#: ../interfaces/boot.glade.in.h:1
-msgid "Security"
-msgstr "Siguria"
-
-#: ../interfaces/boot.glade.in.h:2
-msgid ""
-"Several bootloaders have been found</"
-"span>\n"
-"\n"
-"please select which do you want to configure"
+#: ../interfaces/network.ui.h:5
+msgid "Tones"
 msgstr ""
-"U gjet më shumë se një bootloader</"
-"span>\n"
-"\n"
-"zgjidh kë dëshiron të konfigurosh"
 
-#: ../interfaces/boot.glade.in.h:5 ../interfaces/users.glade.in.h:3
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr ""
+
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr ""
+
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr ""
+
+#: ../interfaces/network.ui.h:9
+msgid "Location:"
+msgstr "Vendodhja:"
+
+#: ../interfaces/network.ui.h:10
+msgid "Save current network configuration as a location"
+msgstr ""
+
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr "Elemino pozicionin aktual"
+
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "Lidhjet"
+
+#: ../interfaces/network.ui.h:13
+msgid "_Host name:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "Emri i d_omain:"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "Rregullimet e host"
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Të përgjithshme"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "Serverët DNS"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Kërko Domains"
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "Host-et"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "Pronësitë e interfaqes"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "A_ktivo këtë lidhje"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr ""
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "Emri i rrjetit (_ESSID):"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "Adresa _IP:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "Maska e _nënrrjetit:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "Adresa e _gateway:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "IP _Lokale:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "IP _Remote:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "Numri _telefonik:"
+
+#: ../interfaces/network.ui.h:37
+msgid "_Dial prefix:"
+msgstr "Prefiksi i _thirrjes:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "Të dhënat e siguruesit të shërbimit internet"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "_Përdoruesi:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "Fj_alëkalimi"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Të dhënat e llogarisë"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "Porta e _Modemit:"
+
+#: ../interfaces/network.ui.h:44
+msgid "_Dial type:"
+msgstr "Lloji i _Dial:"
+
+#. TRANSLATORS: Volume as in loudness
+#: ../interfaces/network.ui.h:46
+msgid "_Volume:"
+msgstr "_Volumi:"
+
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "_Autozbulo"
+
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modemi"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "_Cakto modemin si route e prezgjedhur për në internet"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Përdor emrat e serverëve të dhënësit të shërbimit internet"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "_Riprovo nëse lidhja shkëputet apo nuk realizohet"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Mundësitë"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr ""
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "Adresa IP:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Aliases:"
+
+#: ../interfaces/services.ui.h:1
+msgid "Select the services that you wish to activate:"
+msgstr "Zgjidh shërbimet që dëshiron të aktivosh:"
+
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Rregullimet e hollësishme:"
+
+#: ../interfaces/shares.ui.h:1
+msgid "_Path:"
+msgstr "_Pozicioni:"
+
+#: ../interfaces/shares.ui.h:2
+msgid "Share through:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "Komenti:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "Emri:"
+
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr "Vetëm në _lexim"
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Shto host-et e lejuar"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Hosts e lejuar:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Emri i Host:"
+
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "Rrjeti:"
+
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Maska e rrjetit:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "Vetëm lexim"
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
+#: ../src/shares/shares-tool.c:237
+msgid "Shared Folders"
+msgstr "Kartelat e përbashkëta"
+
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:20
+msgid "This computer is a _WINS server"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:21
+msgid "WINS _server:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "Përdorues"
+
+#: ../interfaces/shares.ui.h:25
+msgid "Enter password for user"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:26
+msgid "Enter password for user:"
+msgstr ""
+
+#: ../interfaces/time.ui.h:1
+msgid "Time zone"
+msgstr "Zona e orës"
+
+#: ../interfaces/time.ui.h:2
+msgid "Time Zone"
+msgstr ""
+
+#: ../interfaces/time.ui.h:3
+msgid "Time zone:"
+msgstr "Zona orare:"
+
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr "Zgjedhja"
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "Server të Kohës"
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "Serveri NTP"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "Shto server NTP"
+
+#: ../interfaces/time.ui.h:8
+msgid "Unconfigured"
+msgstr ""
+
+#: ../interfaces/time.ui.h:9
+msgid "_Configuration:"
+msgstr ""
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr ""
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr ""
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "_Ora:"
+
+#: ../interfaces/time.ui.h:13
+msgid "_Date:"
+msgstr "_Data:"
+
+#: ../interfaces/time.ui.h:14
+msgid "Synchronize now"
+msgstr ""
+
+#: ../interfaces/users.ui.h:1
+msgid "_Manage Groups"
+msgstr ""
+
+#: ../interfaces/users.ui.h:2
+msgid "Account _type:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr ""
+
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "_Fjalëkalimi:"
+
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr ""
+
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:8
+msgid "Group properties"
+msgstr "Pronësitë e grupit"
+
+#: ../interfaces/users.ui.h:9
 msgid "Basic Settings"
 msgstr "Rregullimet Bazë"
 
-#: ../interfaces/boot.glade.in.h:6
-msgid "Image Settings"
-msgstr "Rregullimet e figurës"
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "_Emri i grupit:"
 
-#: ../interfaces/boot.glade.in.h:7
-msgid "Other Settings"
-msgstr "Rregullime të tjera"
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "_ID e grupit:"
 
-#: ../interfaces/boot.glade.in.h:8
-msgid "Starting the Computer"
-msgstr "Nisja e kompjuterit"
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Anëtarë të grupit"
 
-#: ../interfaces/boot.glade.in.h:9
-msgid "Ask at boot"
-msgstr "Pyet në nisje"
-
-#: ../interfaces/boot.glade.in.h:10 ../src/boot/main.c:71
-msgid "Boot Manager Settings"
-msgstr "Rregullimet e organizuesit të boot"
-
-#: ../interfaces/boot.glade.in.h:11
-msgid ""
-"Choose a kernel image to boot, and a partition to mount as the root "
-"partition. Optionally, you may also enter parameters passed to the kernel at "
-"boot time."
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
 msgstr ""
-"Zgjidh imazhin e kernel që duhet nisur, dhe një particion për t'a montuar si "
-"particionin rrënjë. Me dëshirë, mund edhe të shtoni parametra për t'ia "
-"kaluar kernel gjatë fazës së nisjes."
 
-#: ../interfaces/boot.glade.in.h:12
-msgid "Click \"Forward\" to continue"
-msgstr "Kliko \"Vazhdo\" për të vazhduar"
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "_Emri i profilit:"
 
-#: ../interfaces/boot.glade.in.h:13
-msgid "Confirmation"
-msgstr "Konfermimi"
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Komente"
 
-#. set window title
-#: ../interfaces/boot.glade.in.h:14 ../src/boot/boot-druid.c:442
-#: ../src/boot/boot-druid.c:454
-msgid "Creating a new boot image"
-msgstr "Krijimi i një imazhi të ri për boot"
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Të prezgjedhur nga Sistemi"
 
-#: ../interfaces/boot.glade.in.h:15
-msgid "Don't ask me again"
-msgstr "Mos më pyet më"
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "Direktory _home:"
 
-#: ../interfaces/boot.glade.in.h:16
-msgid "Enable IDE SCSI emulation"
-msgstr "Aktivo emulimin SCSI për IDE"
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "_Shell i prezgjedhur:"
 
-#: ../interfaces/boot.glade.in.h:17
-msgid ""
-"Enter a name for the boot image, and specify what kind of operating system "
-"it is."
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "_Grupi i prezgjedhur:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Përcaktimi i fjalëkalimeve"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Numri i ditëve për të cilat mund të përdoret një fjalëkalim:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Numri minimum i lejuar i ditëve para ndryshimit të fjalëkalimit:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Ditë nga paralajmërimi dhe skadenca e fjalëkalimit:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Cakto në menyrë të prezgjedhur një fjalëkalim të rastësishëm"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "UID/GID Automatike"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "UID maksimum:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
 msgstr ""
-"Shkruaj një emër për imazhin e boot, dhe specifiko se çfarë lloj sistemi "
-"operativ është ai."
 
-#: ../interfaces/boot.glade.in.h:18
-msgid "Finished"
-msgstr "Përfundoi"
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "UID minimum:"
 
-#: ../interfaces/boot.glade.in.h:19
-msgid "Manual"
-msgstr "Manual"
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "GID minimum:"
 
-#: ../interfaces/boot.glade.in.h:20
-msgid "Number of colors:"
-msgstr "Numri i ngjyrave:"
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Të drejtat"
 
-#: ../interfaces/boot.glade.in.h:21
-msgid "Other parameters:"
-msgstr "Parametra të tjerë:"
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Profili i përdoruesit"
 
-
-#: ../interfaces/boot.glade.in.h:23
-msgid "Protect with password"
-msgstr "Mbroje me fjalëkalim"
-
-#: ../interfaces/boot.glade.in.h:24
-msgid "Resolution:"
-msgstr "Thellësia e ngjyrave:"
-
-#: ../interfaces/boot.glade.in.h:25
-msgid "Seconds to wait before loading default kernel or OS"
-msgstr "Sekondat e pritjes para se të ngarkohet kernel apo OS i prezgjedhur"
-
-#: ../interfaces/boot.glade.in.h:26
-msgid "Select a kernel image"
-msgstr "Zgjidh imazhin e një kernel"
-
-#: ../interfaces/boot.glade.in.h:27
-msgid "Select an initrd image"
-msgstr "Zgjidh imazhin e një initrd"
-
-#: ../interfaces/boot.glade.in.h:28
-msgid "Specify the partition on which the operating system is installed."
-msgstr "Specifiko particionin ku është instaluar sistemi operativ. "
-
-#: ../interfaces/boot.glade.in.h:29
-msgid ""
-"The new boot image has been added. Please click \"Apply\" to save your "
-"changes."
-msgstr "Imazhi i ri i boot u shtua. Kliko \"Zbato\" për të ruajtur ndryshimet."
-
-#: ../interfaces/boot.glade.in.h:30
-msgid ""
-"This assistant is designed to help you quickly and easily add a new boot "
-"image to your system."
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
 msgstr ""
-"Ky asistent është projektuar për t'ju ndihmuar të shtoni me shpejtësi dhe "
-"lehtësi një imazh të ri boot në sistemin tuaj."
 
-#: ../interfaces/boot.glade.in.h:31
-msgid "Video modes (only frame buffer)"
-msgstr "Modalitete video (vetëm frame buffer)"
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr ""
 
-#: ../interfaces/boot.glade.in.h:32
-msgid "_Add..."
-msgstr "_Shto..."
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr ""
 
-#: ../interfaces/boot.glade.in.h:33
-msgid "_Device:"
-msgstr "_Dispozitivi:"
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr ""
 
-#: ../interfaces/boot.glade.in.h:34
-msgid "_Edit"
-msgstr "_Ndrysho"
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr ""
 
-#: ../interfaces/boot.glade.in.h:35 ../src/boot/boot-settings.c:44
-msgid "_Initrd image path:"
-msgstr "Vendodhja e imazhit _initrd:"
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr ""
 
-#: ../interfaces/boot.glade.in.h:36
-msgid "_Kernel image path:"
-msgstr "Vendodhja e imazhit të _kernel:"
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr ""
 
-#: ../interfaces/boot.glade.in.h:37
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "Kon_fermimi:"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "U përcaktua fjalëkalimi i: "
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "_Gjenero"
+
+#: ../interfaces/users.ui.h:43
+msgid "Set password b_y hand"
+msgstr "Vendos v_etë fjalëkalimin"
+
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "Gjenero fjalëkalim të _rastësishëm"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr ""
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr ""
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr ""
+
+#: ../interfaces/users.ui.h:52
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr ""
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr ""
+
+#: ../interfaces/users.ui.h:54
 msgid "_Name:"
 msgstr "_Emri:"
 
-#: ../interfaces/boot.glade.in.h:38
-msgid "_Operating system:"
-msgstr "Sistemi _operativ:"
-
-#: ../interfaces/boot.glade.in.h:39
-msgid "_Parameters:"
-msgstr "_Parametra:"
-
-#: ../interfaces/boot.glade.in.h:40
-msgid "_Root file system device:"
-msgstr "Dispozitivi i file sistemit _rrënjë:"
-
-#: ../interfaces/common.glade.in.h:1
-msgid "<span weight=\"bold\" size=\"larger\">Please enter your root password"
-msgstr "<span weight=\"bold\" size=\"larger\">Shkruaj fjalëkalimin e root"
-
-#: ../interfaces/common.glade.in.h:2
-msgid ""
-"<span weight=\"bold\" size=\"larger\">The platform you are running is not "
-"supported by this tool"
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">Piataforma që jeni duke përdorur nuk "
-"suportohet nga ky instrument"
 
-#: ../interfaces/common.glade.in.h:3
-msgid "Enter Password"
-msgstr "Shkruaj fjalëkalimin"
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
+msgid ""
+"Username must consist of:\n"
+"  ➣ lower case letters from the English alphabet\n"
+"  ➣ digits\n"
+"  ➣ any of the characters \".\", \"-\" and \"_\""
+msgstr ""
 
-#: ../interfaces/common.glade.in.h:4
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr ""
+
+#: ../interfaces/users.ui.h:63
+msgid "Username must start with a letter!"
+msgstr ""
+
+#: ../interfaces/users.ui.h:64
+msgid "_Encrypt home folder to protect sensitive data"
+msgstr ""
+
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr ""
+
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "Vendodhja e z_yrës:"
+
+#: ../interfaces/users.ui.h:69
+msgid "_Work phone:"
+msgstr "Telefoni në _punë:"
+
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "Telefoni në _shtëpi:"
+
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr ""
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr ""
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Rregullimet e hollësishme"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "_Shell:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "Grupi _qendror:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr ""
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Rregullime shtesë"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Numri mi_nimum i ditëve para ndryshimit të fjalëkalimit:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "Numri ma_ksimum i ditëve të përdorimit të një fjalëkalimi:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "_Ditë midis parajmërimit dhe skadimit të fjalëkalimit:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Të detajuara"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr ""
+
+#: ../src/common/gst-platform-dialog.c:179
+msgid "The platform you are running is not supported by this tool"
+msgstr ""
+
+#. label
+#: ../src/common/gst-platform-dialog.c:185
 msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
+msgstr "Nëse jeni i sigurt që funksionon si njëra prej pitaformave të rreshtuara në vazhdim, zgjidhni atë dhe vazhdoni. Ki parasysh, megjithatë, që kjo mund të dëmtojë konfigurimin e sistemit."
+
+#: ../src/common/gst-platform-dialog.c:212
+msgid "Unsupported platform"
 msgstr ""
-"Nëse jeni i sigurt që funksionon si njëra prej pitaformave të rreshtuara në "
-"vazhdim, zgjidhni atë dhe vazhdoni. Ki parasysh, megjithatë, që kjo mund të "
-"dëmtojë konfigurimin e sistemit."
 
-#: ../interfaces/common.glade.in.h:5
-msgid "Remote administration"
-msgstr "Administrim në distancë"
-
-#: ../interfaces/common.glade.in.h:6
-msgid "Run _Without Password"
-msgstr "Zbato _Pa fjalëkalim"
-
-#: ../interfaces/common.glade.in.h:7
-msgid "Unsupported Platform"
-msgstr "Piataformë e pasuportuar"
-
-#: ../interfaces/common.glade.in.h:8
-msgid "Use this window to select the computer you wish to configure"
-msgstr "Përdor këtë dritare për të zgjedhur kompjuterin që dëshironi të konfiguroni"
-
-#: ../interfaces/common.glade.in.h:9
-msgid ""
-"You need administrator privileges to use this tool. Enter a password to "
-"modify your system configuration."
-msgstr ""
-"Për të përdorur këtë instrument, ju nevoiten të drejtat e administratorit. "
-"Shkruaj fjalëkalimin për të ndryshuar konfigurimin e sistemit tuaj."
-
-#: ../interfaces/common.glade.in.h:10
-msgid "_Password:"
-msgstr "_Fjalëkalimi:"
-
-#: ../interfaces/network.glade.in.h:1
-msgid "Account data"
-msgstr "Të dhënat e llogarisë"
-
-#: ../interfaces/network.glade.in.h:2
-msgid "Connection settings"
-msgstr "Rregullimet e lidhjes"
-
-
-#: ../interfaces/network.glade.in.h:4
-msgid "DNS Servers"
-msgstr "Serverët DNS"
-
-#: ../interfaces/network.glade.in.h:5
-msgid "Host Settings"
-msgstr "Rregullimet e host"
-
-#: ../interfaces/network.glade.in.h:6
-msgid "Internet service provider data"
-msgstr "Të dhënat e siguruesit të shërbimit internet"
-
-#: ../interfaces/network.glade.in.h:7
-msgid "Modem settings"
-msgstr "Rregullimet e modemit"
-
-#: ../interfaces/network.glade.in.h:8
-msgid "Search Domains"
-msgstr "Kërko Domains"
-
-#: ../interfaces/network.glade.in.h:9
-msgid "Wireless settings"
-msgstr "Rregullimet wireless"
-
-#: ../interfaces/network.glade.in.h:10
-msgid "Aliases:"
-msgstr "Aliases:"
-
-#: ../interfaces/network.glade.in.h:11
-msgid "C_onfiguration:"
-msgstr "K_onfigurimi:"
-
-#: ../interfaces/network.glade.in.h:12
-msgid "Connections"
-msgstr "Lidhjet"
-
-#: ../interfaces/network.glade.in.h:13
-msgid "DNS"
-msgstr "DNS"
-
-#: ../interfaces/network.glade.in.h:14
-msgid "D_omain name:"
-msgstr "Emri i d_omain:"
-
-#: ../interfaces/network.glade.in.h:15
-msgid "Default _gateway device:"
-msgstr "Dispozitivi i prezgjedhur _gateway:"
-
-#: ../interfaces/network.glade.in.h:16
-msgid "Device:"
-msgstr "Dispozitivi:"
-
-#: ../interfaces/network.glade.in.h:17
-msgid "E_nable this connection"
-msgstr "A_ktivo këtë lidhje"
-
-#: ../interfaces/network.glade.in.h:18 ../interfaces/users.glade.in.h:21
-msgid "General"
-msgstr "Të përgjithshme"
-
-#: ../interfaces/network.glade.in.h:19
-msgid "Host alias settings"
-msgstr "Rregullimet e alias të host"
-
-#: ../interfaces/network.glade.in.h:20
-msgid "Hosts"
-msgstr "Host-et"
-
-#: ../interfaces/network.glade.in.h:21 ../interfaces/shares.glade.in.h:15
-msgid "IP address:"
-msgstr "Adresa IP:"
-
-#: ../interfaces/network.glade.in.h:22
-msgid "Interface name:"
-msgstr "Emri i interfaqes:"
-
-#: ../interfaces/network.glade.in.h:23
-msgid "Interface properties"
-msgstr "Pronësitë e interfaqes"
-
-#: ../interfaces/network.glade.in.h:24
-msgid "Key _type:"
-msgstr "_Lloji i kyçit:"
-
-#: ../interfaces/network.glade.in.h:25
-msgid "Location name:"
-msgstr "Emri i pozicionit:"
-
-#: ../interfaces/network.glade.in.h:26
-msgid "Location:"
-msgstr "Vendodhja:"
-
-#: ../interfaces/network.glade.in.h:27
-msgid "Modem"
-msgstr "Modemi"
-
-#: ../interfaces/network.glade.in.h:28
-msgid "Network name (_ESSID):"
-msgstr "Emri i rrjetit (_ESSID):"
-
-#: ../interfaces/network.glade.in.h:29
-msgid ""
-"Off\n"
-"Low\n"
-"Medium\n"
-"Loud"
-msgstr ""
-"Mbyllur\n"
-"Ulët\n"
-"Mesatar\n"
-"Shpejtë"
-
-#: ../interfaces/network.glade.in.h:33
-msgid "Options"
-msgstr "Mundësitë"
-
-#: ../interfaces/network.glade.in.h:34
-msgid "P_assword"
-msgstr "Fj_alëkalimi"
-
-#: ../interfaces/network.glade.in.h:35
-msgid ""
-"Plain (ASCII)\n"
-"Hexadecimal"
-msgstr ""
-"I thjeshtë (ASCII)\n"
-"Hexadecimal"
-
-#: ../interfaces/network.glade.in.h:37
-msgid "Select location name"
-msgstr "Zgjidh emrin e pozicionit"
-
-#: ../interfaces/network.glade.in.h:38
-msgid ""
-"Static IP address\n"
-"DHCP"
-msgstr ""
-"Adresa IP statike\n"
-"DHCP"
-
-#: ../interfaces/network.glade.in.h:40
-msgid ""
-"Tones\n"
-"Pulses"
-msgstr ""
-"Tone\n"
-"Pulsime"
-
-#: ../interfaces/network.glade.in.h:42
-msgid "Use the Internet service provider nameservers"
-msgstr "Përdor emrat e serverëve të dhënësit të shërbimit internet"
-
-#: ../interfaces/network.glade.in.h:43
-msgid "WEP _key:"
-msgstr "_Kyçi WEP:"
-
-#: ../interfaces/network.glade.in.h:44 ../src/network/ifaces-list.c:34
-msgid "_Activate"
-msgstr "_Aktivo"
-
-#: ../interfaces/network.glade.in.h:45
-msgid "_Autodetect"
-msgstr "_Autozbulo"
-
-#: ../interfaces/network.glade.in.h:46 ../src/network/ifaces-list.c:35
-msgid "_Deactivate"
-msgstr "_Ç'aktivo"
-
-#: ../interfaces/network.glade.in.h:47
-msgid "_Dial prefix:"
-msgstr "Prefiksi i _thirrjes:"
-
-#: ../interfaces/network.glade.in.h:48
-msgid "_Dial type:"
-msgstr "Lloji i _Dial:"
-
-#: ../interfaces/network.glade.in.h:49
-msgid "_Gateway address:"
-msgstr "Adresa e _gateway:"
-
-#: ../interfaces/network.glade.in.h:50
-msgid "_Hostname:"
-msgstr "Emri i _Host:"
-
-#: ../interfaces/network.glade.in.h:51
-msgid "_IP address:"
-msgstr "Adresa _IP:"
-
-#: ../interfaces/network.glade.in.h:52
-msgid "_Local IP:"
-msgstr "IP _Lokale:"
-
-#: ../interfaces/network.glade.in.h:53
-msgid "_Modem port:"
-msgstr "Porta e _Modemit:"
-
-#: ../interfaces/network.glade.in.h:54
-msgid "_Phone number:"
-msgstr "Numri _telefonik:"
-
-#: ../interfaces/network.glade.in.h:55
-msgid "_Remote IP:"
-msgstr "IP _Remote:"
-
-#: ../interfaces/network.glade.in.h:56
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "_Riprovo nëse lidhja shkëputet apo nuk realizohet"
-
-#: ../interfaces/network.glade.in.h:57
-msgid "_Set modem as default route to internet"
-msgstr "_Cakto modemin si route e prezgjedhur për në internet"
-
-#: ../interfaces/network.glade.in.h:58
-msgid "_Subnet mask:"
-msgstr "Maska e _nënrrjetit:"
-
-#: ../interfaces/network.glade.in.h:59 ../interfaces/users.glade.in.h:61
-msgid "_Username:"
-msgstr "_Përdoruesi:"
-
-#: ../interfaces/network.glade.in.h:60
-msgid "_Volume:"
-msgstr "_Volumi:"
-
-#: ../interfaces/services.glade.in.h:1
-msgid "Advanced settings:"
-msgstr "Rregullimet e hollësishme:"
-
-#: ../interfaces/services.glade.in.h:2
-msgid "Select the services that you wish to activate:"
-msgstr "Zgjidh shërbimet që dëshiron të aktivosh:"
-
-#: ../interfaces/shares.glade.in.h:1
-msgid "Allowed hosts"
-msgstr "Host-et e lejuar"
-
-#: ../interfaces/shares.glade.in.h:2
-msgid "Hosts settings"
-msgstr "Rregullimet e Hosts"
-
-#: ../interfaces/shares.glade.in.h:3
-msgid "Share properties"
-msgstr "Pronësitë bashkëndarjes"
-
-#: ../interfaces/shares.glade.in.h:4
-msgid "Shared folder"
-msgstr "Kartela e bashkëndarë"
-
-#: ../interfaces/shares.glade.in.h:5
-msgid "WINS server"
-msgstr "Serveri WINS"
-
-#: ../interfaces/shares.glade.in.h:6
-msgid "Windows sharing Settings"
-msgstr "Rregullimet e ndarjeve Windows"
-
-#: ../interfaces/shares.glade.in.h:7
-msgid "Add allowed hosts"
-msgstr "Shto host-et e lejuar"
-
-#: ../interfaces/shares.glade.in.h:8
-msgid "Allow _browsing folder"
-msgstr "Lejo _shfletimin e kartelës"
-
-#: ../interfaces/shares.glade.in.h:9
-msgid "Allowed hosts:"
-msgstr "Hosts e lejuar:"
-
-#: ../interfaces/shares.glade.in.h:10
-msgid "Comment:"
-msgstr "Komenti:"
-
-#: ../interfaces/shares.glade.in.h:11
-msgid "Do not use WINS server"
-msgstr "Mos përdor server WINS"
-
-#: ../interfaces/shares.glade.in.h:12
-msgid "Domain / _Workgroup"
-msgstr "Domain / _Grupi punës"
-
-#: ../interfaces/shares.glade.in.h:13
-msgid "General Windows sharing settings"
-msgstr "Rregullimet e  përgjithshme të ndarjeve Windows"
-
-#: ../interfaces/shares.glade.in.h:14
-msgid "Host name:"
-msgstr "Emri i Host:"
-
-#: ../interfaces/shares.glade.in.h:16
-msgid "Name:"
-msgstr "Emri:"
-
-#: ../interfaces/shares.glade.in.h:17
-msgid "Netmask:"
-msgstr "Maska e rrjetit:"
-
-#: ../interfaces/shares.glade.in.h:18
-msgid "Network:"
-msgstr "Rrjeti:"
-
-#: ../interfaces/shares.glade.in.h:19 ../src/shares/nfs-acl-table.c:57
-msgid "Read only"
-msgstr "Vetëm lexim"
-
-#: ../interfaces/shares.glade.in.h:20
-msgid "Share folder"
-msgstr "Kartelë e përbashkët"
-
-#: ../interfaces/shares.glade.in.h:21
-msgid "Share with:"
-msgstr "Bashkandaje me:"
-
-#: ../interfaces/shares.glade.in.h:22
-msgid "This computer is a WINS server"
-msgstr "Ky kompjutër është një server WINS"
-
-#: ../interfaces/shares.glade.in.h:23
-msgid "Use WINS Server"
-msgstr "Përdor server WINS"
-
-#: ../interfaces/shares.glade.in.h:24
-msgid "Windows sharing settings"
-msgstr "Rregullimet e ndarjeve Windows"
-
-#: ../interfaces/shares.glade.in.h:25
-msgid "_Add host"
-msgstr "_Shto host"
-
-#: ../interfaces/shares.glade.in.h:26
-msgid "_Host description:"
-msgstr "Përshkrimi i _Host:"
-
-#: ../interfaces/shares.glade.in.h:27
-msgid "_Path:"
-msgstr "_Pozicioni:"
-
-#: ../interfaces/shares.glade.in.h:28
-msgid "_Read only"
-msgstr "Vetëm në _lexim"
-
-#: ../interfaces/time.glade.in.h:1
-msgid "(unconfigured)"
-msgstr "(e pakonfiguruar)"
-
-#: ../interfaces/time.glade.in.h:2
-msgid "Selection"
-msgstr "Zgjedhja"
-
-#: ../interfaces/time.glade.in.h:3
-msgid "Time zone"
-msgstr "Zona e orës"
-
-#: ../interfaces/time.glade.in.h:4
-msgid "Add NTP Server"
-msgstr "Shto server NTP"
-
-#: ../interfaces/time.glade.in.h:5
-msgid "NTP server"
-msgstr "Serveri NTP"
-
-#: ../interfaces/time.glade.in.h:6
-msgid "S_ynchronize clock with Internet servers:"
-msgstr "S_inkronizo orën me serverët Internet:"
-
-#: ../interfaces/time.glade.in.h:7
-msgid "Se_lect Servers..."
-msgstr "Z_gjidh serverët..."
-
-#: ../interfaces/time.glade.in.h:8
-msgid "Time servers"
-msgstr "Server të Kohës"
-
-#: ../interfaces/time.glade.in.h:10
-msgid "Time zone:"
-msgstr "Zona orare:"
-
-#: ../interfaces/time.glade.in.h:11
-msgid "_Date:"
-msgstr "_Data:"
-
-#: ../interfaces/time.glade.in.h:12
-msgid "_Select Time Zone..."
-msgstr "_Zgjidh Zonën e orës..."
-
-#: ../interfaces/time.glade.in.h:13
-msgid "_Time:"
-msgstr "_Ora:"
-
-#: ../interfaces/users.glade.in.h:1
-msgid "Advanced Settings"
-msgstr "Rregullimet e hollësishme"
-
-#: ../interfaces/users.glade.in.h:2
-msgid "Automatic UID/GID"
-msgstr "UID/GID Automatike"
-
-
-#: ../interfaces/users.glade.in.h:5
-msgid "Group Members"
-msgstr "Anëtarë të grupit"
-
-#: ../interfaces/users.glade.in.h:6
-msgid "Optional Settings"
-msgstr "Rregullime shtesë"
-
-#: ../interfaces/users.glade.in.h:7
-msgid "Password Settings"
-msgstr "Përcaktimi i fjalëkalimeve"
-
-
-
-#: ../interfaces/users.glade.in.h:10
-msgid "System Defaults"
-msgstr "Të prezgjedhur nga Sistemi"
-
-#: ../interfaces/users.glade.in.h:11
-msgid "User Profile"
-msgstr "Profili i Përdoruesit"
-
-#: ../interfaces/users.glade.in.h:12
-msgid "Account"
-msgstr "Llogaria"
-
-#: ../interfaces/users.glade.in.h:13
-msgid "Advanced"
-msgstr "Të detajuara"
-
-#: ../interfaces/users.glade.in.h:14
-msgid "Allow user to:"
-msgstr "Lejo përdoruesin të:"
-
-#: ../interfaces/users.glade.in.h:15
-msgid "Assign a random password by default"
-msgstr "Cakto në menyrë të prezgjedhur një fjalëkalim të rastësishëm"
-
-#: ../interfaces/users.glade.in.h:16
-msgid "Check password _quality"
-msgstr "Kontrollo _kualitetin e fjalëkalimit"
-
-#: ../interfaces/users.glade.in.h:17
-msgid "Con_firmation:"
-msgstr "Kon_fermimi:"
-
-#: ../interfaces/users.glade.in.h:18
-msgid "Days between warning and password expiration:"
-msgstr "Ditë nga paralajmërimi dhe skadenca e fjalëkalimit:"
-
-#: ../interfaces/users.glade.in.h:19
-msgid "Default _group:"
-msgstr "_Grupi i prezgjedhur:"
-
-#: ../interfaces/users.glade.in.h:20
-msgid "Default _shell:"
-msgstr "_Shell i prezgjedhur:"
-
-#: ../interfaces/users.glade.in.h:22
-msgid "Generate _random password"
-msgstr "Gjenero fjalëkalim të _rastësishëm"
-
-#: ../interfaces/users.glade.in.h:23
-msgid "Group _ID:"
-msgstr "_ID e grupit:"
-
-#: ../interfaces/users.glade.in.h:24
-msgid "Group _members:"
-msgstr "_Anëtarët e grupit:"
-
-#: ../interfaces/users.glade.in.h:25
-msgid "Group _name:"
-msgstr "_Emri i grupit:"
-
-#: ../interfaces/users.glade.in.h:26
-msgid "Group properties"
-msgstr "Pronësitë e grupit"
-
-#: ../interfaces/users.glade.in.h:27
-msgid "Groups"
-msgstr "Grupet"
-
-#: ../interfaces/users.glade.in.h:28
-msgid "Ma_ximum days a password may be used:"
-msgstr "Numri ma_ksimum i ditëve të përdorimit të një fjalëkalimi:"
-
-#: ../interfaces/users.glade.in.h:29
-msgid "Maximum UID:"
-msgstr "UID maksimum:"
-
-#: ../interfaces/users.glade.in.h:30
-msgid "Mi_nimum days between password changes:"
-msgstr "Numri mi_nimum i ditëve para ndryshimit të fjalëkalimit:"
-
-#: ../interfaces/users.glade.in.h:31
-msgid "Minimum GID:"
-msgstr "GID minimum:"
-
-#: ../interfaces/users.glade.in.h:32
-msgid "Minimum UID:"
-msgstr "UID minimum:"
-
-#: ../interfaces/users.glade.in.h:33
-msgid "Minimum days allowed between password changes:"
-msgstr "Numri minimum i lejuar i ditëve para ndryshimit të fjalëkalimit:"
-
-#: ../interfaces/users.glade.in.h:34
-msgid "Number of days that a password may be used:"
-msgstr "Numri i ditëve për të cilat mund të përdoret një fjalëkalim:"
-
-#: ../interfaces/users.glade.in.h:35
-msgid "O_ffice location:"
-msgstr "Vendodhja e z_yrës:"
-
-#: ../interfaces/users.glade.in.h:36
-msgid "Password set to: "
-msgstr "U përcaktua fjalëkalimi i: "
-
-#: ../interfaces/users.glade.in.h:37
-msgid "Privileges"
-msgstr "Të drejtat"
-
-#: ../interfaces/users.glade.in.h:38
-msgid "Profile _name:"
-msgstr "_Emri i profilit:"
-
-#: ../interfaces/users.glade.in.h:39
-msgid "Set password b_y hand"
-msgstr "Vendos v_etë fjalëkalimin"
-
-#: ../interfaces/users.glade.in.h:40
-msgid "Show a_ll users and groups"
-msgstr "Shfaq të gji_thë përdoruesit dhe grupet"
-
-#: ../interfaces/users.glade.in.h:41
-msgid "User _ID:"
-msgstr "_ID e përdoruesit:"
-
-#: ../interfaces/users.glade.in.h:42
-msgid "User _password:"
-msgstr "_Fjalëkalimi i përdoruesit:"
-
-#: ../interfaces/users.glade.in.h:43
-msgid "User privileges"
-msgstr "Të drejtat e përdoruesit"
-
-#: ../interfaces/users.glade.in.h:44
-msgid "User profiles"
-msgstr "Profili i përdoruesit"
-
-#: ../interfaces/users.glade.in.h:45
-msgid "Users"
-msgstr "Përdorues"
-
-#: ../interfaces/users.glade.in.h:46
-msgid "_Add Group..."
-msgstr "_Shto grup..."
-
-#: ../interfaces/users.glade.in.h:47
-msgid "_Add Profile..."
-msgstr "_Shto profil..."
-
-#: ../interfaces/users.glade.in.h:48
-msgid "_Add User..."
-msgstr "_Shto përdorues..."
-
-#: ../interfaces/users.glade.in.h:49
-msgid "_All users:"
-msgstr "_Të gjithë përdoruesit:"
-
-#: ../interfaces/users.glade.in.h:50
-msgid "_Comments"
-msgstr "_Komente"
-
-#: ../interfaces/users.glade.in.h:51
-msgid "_Days between warning and password expiration:"
-msgstr "_Ditë midis parajmërimit dhe skadimit të fjalëkalimit:"
-
-#: ../interfaces/users.glade.in.h:52 ../src/boot/table.c:54
-#: ../src/network/address-list.c:72 ../src/network/hosts.c:39
-#: ../src/shares/table.c:42 ../src/users/table.c:50
-msgid "_Delete"
-msgstr "_Elemino"
-
-#: ../interfaces/users.glade.in.h:53
-msgid "_Edit User Profiles..."
-msgstr "_Ndryshimi i profileve të përdoruesit..."
-
-#: ../interfaces/users.glade.in.h:54
-msgid "_Generate"
-msgstr "_Gjenero"
-
-#: ../interfaces/users.glade.in.h:55
-msgid "_Home directory:"
-msgstr "Direktory _home:"
-
-#: ../interfaces/users.glade.in.h:56
-msgid "_Home phone:"
-msgstr "Telefoni në _shtëpi:"
-
-#: ../interfaces/users.glade.in.h:57
-msgid "_Main group:"
-msgstr "Grupi _qendror:"
-
-#: ../interfaces/users.glade.in.h:58
-msgid "_Profile:"
-msgstr "_Profili:"
-
-#: ../interfaces/users.glade.in.h:59
-msgid "_Real name:"
-msgstr "Emri i _vërtetë:"
-
-#: ../interfaces/users.glade.in.h:60
-msgid "_Shell:"
-msgstr "_Shell:"
-
-#: ../interfaces/users.glade.in.h:62
-msgid "_Work phone:"
-msgstr "Telefoni në _punë:"
-
-#: ../src/boot/boot-append-gui.c:140
-msgid "32,768"
-msgstr "32,768"
-
-#: ../src/boot/boot-append-gui.c:141
-msgid "65,536"
-msgstr "65,536"
-
-#: ../src/boot/boot-append-gui.c:142
-msgid "16,777,216"
-msgstr "16,777,216"
-
-#: ../src/boot/boot-append-gui.c:253
-msgid "Invalid VGA value"
-msgstr "Vlerë VGA e pavlefshme"
-
-#: ../src/boot/boot-append-gui.c:255
-#, c-format
-msgid "\"%s\" is not a valid VGA value."
-msgstr "\"%s\" nuk është një vlerë VGA e vlefshme."
-
-#: ../src/boot/boot-druid.c:113
-msgid "Error creating boot image"
-msgstr "Gabim gjatë krijimit të imazhit boot"
-
-#: ../src/boot/boot-druid.c:443
-#, c-format
-msgid "Creating a new boot image (%d of %d)"
-msgstr "Krijimi i një imazhi të ri nisje (%d në %d)"
-
-#: ../src/boot/boot-druid.c:444
-msgid "Finished creating a new boot image"
-msgstr "Krijimi i imazhit të ri të nisjes përfundoi"
-
-#: ../src/boot/boot-image.c:43
-msgid "Unknown"
-msgstr "Nuk njihet"
-
-#: ../src/boot/boot-image.c:44
-msgid "Windows NT"
-msgstr "Windows NT"
-
-#: ../src/boot/boot-image.c:45
-msgid "Windows 9x"
-msgstr "Windows 9x"
-
-#: ../src/boot/boot-image.c:46
-msgid "Dos"
-msgstr "Dos"
-
-#: ../src/boot/boot-image.c:47
-msgid "Linux"
-msgstr "Linux"
-
-#: ../src/boot/boot-image.c:48
-msgid "Linux swap"
-msgstr "Linux swap"
-
-#: ../src/boot/boot-image.c:49
-msgid "GNU/Hurd"
-msgstr "GNU/Hurd"
-
-#: ../src/boot/boot-image.c:279
-#, c-format
-msgid "\"%s\" is an invalid path"
-msgstr "\"%s\" nuk është pozicion i vlefshëm"
-
-#: ../src/boot/boot-image.c:295
-#, c-format
-msgid "\"%s\" already exists, please set another name."
-msgstr "\"%s\" ekziston, cakto një emër tjetër."
-
-#: ../src/boot/boot-image.c:301
-#, c-format
-msgid "Invalid image name: \"%s\"."
-msgstr "Emër i pavlefshëm imazhi: \"%s\"."
-
-#: ../src/boot/boot-image.c:314
-#, c-format
-msgid "Invalid image: \"%s\"."
-msgstr "Imazh i pavlefshëm: \"%s\"."
-
-#: ../src/boot/boot-image.c:332
-#, c-format
-msgid "Invalid root device: \"%s\"."
-msgstr "Dispozitiv i pavlefshëm root: \"%s\"."
-
-#: ../src/boot/boot-settings.c:45
-msgid "_Module path:"
-msgstr "Path i _modulit:"
-
-#: ../src/boot/boot-settings.c:407
-msgid "Password confirmation is not correct."
-msgstr "Fjalëkalimi konfermues nuk është korrekt."
-
-#: ../src/boot/boot-settings.c:432
-msgid "Error modifying boot image"
-msgstr "Gabim gjatë ndryshimit të imazhit të boot"
-
-#: ../src/boot/boot.desktop.in.in.h:1
-msgid "Boot"
-msgstr "Nisja"
-
-#: ../src/boot/boot.desktop.in.in.h:2
-msgid "Configure the system boot process"
-msgstr "Konfigurimi i proçesit të nisjes së sistemit"
-
-#: ../src/boot/callbacks.c:81
-msgid "Boot Image Editor"
-msgstr "Editori i Imazhit të Boot"
-
-#: ../src/boot/callbacks.c:179
-msgid "Boot Append Editor"
-msgstr "Editori i shtimeve të boot"
-
-#: ../src/boot/callbacks.c:412
-msgid "Error deleting boot image"
-msgstr "Gabim gjatë eleminimit të imazhit të boot"
-
-#: ../src/boot/callbacks.c:414
-msgid "Without at least one boot image your computer will not start."
-msgstr "Pa patur të paktën një imazh boot, kompjuteri juaj nuk do të niset."
-
-#: ../src/boot/callbacks.c:433
-#, c-format
-msgid "Are you sure you want to delete \"%s\"?"
-msgstr "Je i sigurt që dëshiron të eleminosh \"%s\"?"
-
-#: ../src/boot/callbacks.c:435
-msgid "This may leave this operating system unbootable."
-msgstr "Kjo mund të bëjë që ky sistem operativ të mos niset."
-
-#: ../src/boot/callbacks.c:464
-msgid "The configuration will show empty"
-msgstr "Konfigurimi do të shfaqë bosh"
-
-#: ../src/boot/callbacks.c:466
-#, c-format
-msgid "The file \"%s\" is missing or could not be read."
-msgstr "File \"%s\" mungon ose nuk mund të ngarkohet."
-
-#: ../src/boot/table.c:43
-msgid "Name"
-msgstr "Emri"
-
-#: ../src/boot/table.c:44
-msgid "Default"
-msgstr "E prezgjedhur"
-
-#: ../src/boot/table.c:45
-msgid "Type"
-msgstr "Lloji"
-
-#: ../src/boot/table.c:46
-msgid "Kernel Image"
-msgstr "Imazhi i kernel"
-
-#: ../src/boot/table.c:47
-msgid "Device"
-msgstr "Dispozitivi"
-
-#: ../src/boot/table.c:52 ../src/network/address-list.c:71
-#: ../src/network/hosts.c:37 ../src/shares/table.c:40 ../src/users/table.c:48
-msgid "_Add"
-msgstr "_Shto"
-
-#: ../src/boot/table.c:53 ../src/network/hosts.c:38
-#: ../src/network/ifaces-list.c:33 ../src/shares/table.c:41
-#: ../src/users/table.c:49
-msgid "_Properties"
-msgstr "_Pronësitë"
-
-#. the proccess was running ssh
-#: ../src/common/gst-auth.c:89
-msgid "The tool could not connect to the computer"
-msgstr "Instrumenti nuk arriti të lidhet me kompjuterin"
-
-#: ../src/common/gst-auth.c:90
-msgid ""
-"Check that you have access to this network and that the computer is actually "
-"working and running the SSH daemon"
-msgstr ""
-"Kontrollo që keni hyrje në këtë rrjet dhe që kompjuteri është në punë dhe ka "
-"SSH daemon në funksionim"
-
-#. the proccess was running su
-#: ../src/common/gst-auth.c:94
-msgid "The entered password is invalid"
-msgstr "Fjalëkalimi i dhënë nuk është i saktë"
-
-#: ../src/common/gst-auth.c:95
-msgid ""
-"Check that you typed it correctly and that you haven't activated the \"caps "
-"lock\" key"
-msgstr ""
-"Kontrollo që e ke shkruar si duhet dhe që nuk keni aktivuar pulsantin \"caps "
-"lock\""
-
-#: ../src/common/gst-auth.c:104
-#, c-format
-msgid "Could not run \"%s\""
-msgstr "E pamundur nisja e \"%s\""
-
-#: ../src/common/gst-auth.c:105
-msgid "Check that you have permissions to run this command"
-msgstr "Sigurohu që ke të drejtë të ekzekutosh këtë komandë"
-
-#: ../src/common/gst-auth.c:107
-msgid "An unexpected error has occurred"
-msgstr "U ndesh një gabim i papritur"
-
-#: ../src/common/gst-auth.c:133
-msgid "Could not execute the backend"
-msgstr "I pamundur ekzekutimi i sfondit"
-
-#: ../src/common/gst-auth.c:134
-msgid "There was an error creating the child process, the tool will close now."
-msgstr "Gabim gjatë krijimit të proçesit sekondar, instrumenti do të mbyllet tani."
-
-#: ../src/common/gst-dialog.c:60
-#, c-format
-msgid "Could not find widget: %s"
-msgstr "Programi nuk u gjet: %s"
-
-#: ../src/common/gst-dialog.c:383
-msgid "There are changes which have not been applied"
-msgstr "Ka ndryshime akoma të paaplikuara"
-
-#: ../src/common/gst-dialog.c:385
-msgid "Apply them now?"
-msgstr "Aplikon tani?"
-
-#: ../src/common/gst-dialog.c:492
-#, c-format
-msgid "Error connection signal `%s' in widget `%s'"
-msgstr "Sinjal i gabuar lidhje `%s' tek instrumenti `%s'"
-
-#: ../src/common/gst-tool.c:1026
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr "I pamundur ngarkimi i konfigurimit"
 
-#: ../src/common/gst-tool.c:1028
-msgid "There was an error running the backend script"
-msgstr "Gabim gjatë zbatimit të backend script"
-
-#: ../src/common/gst-tool.c:1509
-#, c-format
-msgid "Welcome to the %s prerelease of the MATE System Tools"
-msgstr "Mirësevini tek prerelease %s e Instrumentëve të Sistemit të MATE"
-
-#: ../src/common/gst-tool.c:1511
-msgid ""
-"This is still a work in progress, and so it may have serious bugs. Due to "
-"the nature of these tools, bugs may render your computer <span weight=\"bold"
-"\">practically useless, costing time, effort and sanity points. You "
-"have been warned. Thank you for trying out this prerelease of the MATE "
-"System Tools!"
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:190
+msgid "The configuration could not be saved"
 msgstr ""
-"Ky është një version akoma në zhvillim, prandaj mund të ketë difekte "
-"serioze. Për shkak të natyrës së këtyre instrumentëve, difektet mund t'a "
-"kthejnë kompjuterin tuaj në praktikish të "
-"papërdorshëm, duke ju humbur kohë, lot dhe shëndet. Sapo jeni "
-"paralajmëruar. Ju faleminderit që po provoni këtë prerelease të "
-"Instrumentëve të sistemit të MATE!"
 
-#: ../src/common/gst-tool.c:1532
-msgid "Warning"
-msgstr "Kujdes"
+#: ../src/common/gst-tool.c:194
+msgid "You are not allowed to access the system configuration."
+msgstr ""
 
-#: ../src/common/gst-tool.c:1552
-msgid "Don't show me this again"
-msgstr "Mos e shfaq më"
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
+msgid "You are not allowed to modify the system configuration."
+msgstr ""
 
-#: ../src/common/gst-tool.c:1609
-msgid "MATE System Tools"
-msgstr "Instrumentet e Sistemit për MATE"
+#: ../src/common/gst-tool.c:199
+msgid "Invalid data was found."
+msgstr ""
 
-#: ../src/common/gst-tool.c:1755
+#. OOBS_RESULT_ERROR
+#: ../src/common/gst-tool.c:201
+msgid "An unknown error occurred."
+msgstr ""
+
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "E pamundur shfaqja e ndihmës"
 
-#: ../src/network/address-list.c:555
+#: ../src/common/gst-tool.c:616
+msgid "The system configuration has potentially changed."
+msgstr ""
+
+#: ../src/common/gst-tool.c:618
+msgid "Update content? This will lose any modification in course."
+msgstr ""
+
+#: ../src/common/gst-tool.c:687
+#, c-format
+msgid ""
+"An error occurred while checking for authorizations: %s\n"
+"You may report this as a bug."
+msgstr ""
+
+#: ../src/network/address-list.c:76 ../src/network/hosts.c:31
+#: ../src/shares/table.c:38 ../src/users/table.c:40
+msgid "_Add"
+msgstr "_Shto"
+
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
+msgid "_Delete"
+msgstr "_Elemino"
+
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "Shkruaj adresën"
 
-#: ../src/network/callbacks.c:46
-#, c-format
-msgid "Could not enable the interface %s"
-msgstr "I pamundur aktivimi i interfaqes %s"
-
-#: ../src/network/callbacks.c:50
-msgid ""
-"Check that the settings are correct for this network and that the computer "
-"is correctly connected to it."
+#: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
+msgid "Changing interface configuration"
 msgstr ""
-"Kontrollo që rregullimet të jenë korrekte për këtë rrjet dhe që kompjuteri "
-"është lidhur si duhet me të."
 
-#: ../src/network/callbacks.c:237
+#: ../src/network/callbacks.c:299
 msgid "Could not autodetect modem device"
 msgstr "I pamundur autozbulimi i dispozitivit të modem"
 
-#: ../src/network/callbacks.c:240
+#: ../src/network/callbacks.c:302
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
-msgstr ""
-"Kontrollo që dispozitivi është i lirë dhe që është lidhur korrektësisht me "
-"kompjuterin."
+msgstr "Kontrollo që dispozitivi është i lirë dhe që është lidhur korrektësisht me kompjuterin."
 
-#: ../src/network/callbacks.c:451
+#: ../src/network/callbacks.c:523
 msgid "The host name has changed"
 msgstr "Emri i host është ndryshuar"
 
-#: ../src/network/callbacks.c:454
+#: ../src/network/callbacks.c:526
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr ""
-"Kjo do t'ju parandalojë në nisjen e programeve të rinj, në këtë menyrë do "
-"t'ju duhet të identifikoheni përsëri. Vazhdon sidoqoftë?"
+msgstr "Kjo do t'ju parandalojë në nisjen e programeve të rinj, në këtë menyrë do t'ju duhet të identifikoheni përsëri. Vazhdon sidoqoftë?"
 
-#: ../src/network/callbacks.c:460
+#: ../src/network/callbacks.c:532
 msgid "Change _Host name"
 msgstr "Ndrysho emrin e _Host"
 
-#: ../src/network/hosts.c:92
+#: ../src/network/connection.c:40
+msgid "Automatic configuration (DHCP)"
+msgstr ""
+
+#: ../src/network/connection.c:41
+msgid "Local Zeroconf network (IPv4 LL)"
+msgstr ""
+
+#: ../src/network/connection.c:42
+msgid "Static IP address"
+msgstr ""
+
+#: ../src/network/connection.c:46
+msgid "WEP key (ascii)"
+msgstr ""
+
+#: ../src/network/connection.c:47
+msgid "WEP key (hexadecimal)"
+msgstr ""
+
+#: ../src/network/connection.c:48
+msgid "WPA Personal"
+msgstr ""
+
+#: ../src/network/connection.c:49
+msgid "WPA2 Personal"
+msgstr ""
+
+#: ../src/network/connection.c:53
+msgid "GPRS/UMTS"
+msgstr ""
+
+#: ../src/network/connection.c:54
+msgid "ISDN modem"
+msgstr ""
+
+#: ../src/network/connection.c:55
+msgid "Serial modem"
+msgstr ""
+
+#: ../src/network/connection.c:56
+msgid "PPPoE"
+msgstr ""
+
+#: ../src/network/connection.c:769
+#, c-format
+msgid "%s Properties"
+msgstr ""
+
+#: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
+#: ../src/shares/table.c:39 ../src/users/table.c:41
+msgid "_Properties"
+msgstr "_Pronësitë"
+
+#: ../src/network/hosts.c:89
 msgid "IP Address"
 msgstr "Adresa IP"
 
-#: ../src/network/hosts.c:100
+#: ../src/network/hosts.c:97
 msgid "Aliases"
 msgstr "Pseudonime"
 
-#: ../src/network/location.c:145
-msgid "Create location"
-msgstr "Krijo pozicion"
-
-#: ../src/network/location.c:153
-msgid "Delete current location"
-msgstr "Elemino pozicionin aktual"
-
-#: ../src/network/location.c:367
-msgid "Do you want to remove this location?"
-msgstr "Je i sigurt që dëshiron të heqësh këtë pozicion?"
-
-#: ../src/network/location.c:440
-msgid "Changing profile"
-msgstr "Ndryshimi i profilit"
-
-#: ../src/network/main.c:110
-msgid "The interface does not exist"
-msgstr "Interfaqja nuk ekziston"
-
-#: ../src/network/main.c:112
-msgid ""
-"Check that it is correctly typed and that it is correctly supported by your "
-"system."
+#: ../src/network/ifaces-list.c:280
+msgid "This network interface is not configured"
 msgstr ""
-"Kontrollo që është shkruar si duhet dhe që suportohet korrektësisht nga "
-"sistemi yt."
 
-#: ../src/network/main.c:157
-msgid "Configure a network interface"
-msgstr "Konfigurimi i interfaqes së rrjetit"
+#: ../src/network/ifaces-list.c:282
+msgid "Roaming mode enabled"
+msgstr ""
 
-#: ../src/network/main.c:157
-msgid "INTERFACE"
-msgstr "INTERFAQJA"
+#: ../src/network/ifaces-list.c:289
+#, c-format
+msgid "<b>Essid:</b> %s "
+msgstr ""
 
-#: ../src/network/main.c:158
-msgid "Configure the first network interface with a specific type"
-msgstr "Konfiguro interfaqen e parë të rrjetit me një tip të caktuar"
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
+msgstr ""
 
-#: ../src/network/main.c:158
-msgid "TYPE"
-msgstr "TIPI"
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr ""
 
-#: ../src/network/main.c:165
-msgid "Network settings"
-msgstr "Rregullimet e rrjetit"
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr ""
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "Konfigurimi i dispozitivëve dhe lidhjeve të rrjetit"
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr ""
 
-#: ../src/network/network.desktop.in.in.h:2
-msgid "Networking"
-msgstr "Në rrjet"
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr ""
 
-#: ../src/network/network-iface-ethernet.c:302
-msgid "Ethernet connection"
-msgstr "Lidhje ethernet"
-
-#: ../src/network/network-iface-irlan.c:122
-msgid "Infrared connection"
-msgstr "Lidhje infrarozë"
-
-#: ../src/network/network-iface-isdn.c:330
-msgid "ISDN connection"
-msgstr "Lidhje ISDN"
-
-#: ../src/network/network-iface-modem.c:253
-msgid "Modem connection"
-msgstr "Lidhje me modem"
-
-#: ../src/network/network-iface-plip.c:211
-msgid "Parallel port connection"
-msgstr "Lidhje me anë të portës paralele"
-
-#: ../src/network/network-iface-wireless.c:245
+#: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
 msgstr "Lidhje wireless"
 
-#: ../src/network/network-iface.c:410
+#: ../src/network/ifaces-list.c:358
+msgid "Infrared connection"
+msgstr "Lidhje infrarozë"
+
+#: ../src/network/ifaces-list.c:360
+msgid "Wired connection"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:362
+msgid "Parallel port connection"
+msgstr "Lidhje me anë të portës paralele"
+
+#: ../src/network/ifaces-list.c:364
+msgid "Point to point connection"
+msgstr ""
+
+#: ../src/network/locations-combo.c:221
+msgid "Changing network location"
+msgstr ""
+
+#: ../src/network/locations-combo.c:265
+msgid "There is already a location with the same name"
+msgstr ""
+
+#: ../src/network/locations-combo.c:267
+msgid "Overwrite it?"
+msgstr ""
+
+#: ../src/network/locations-combo.c:355
+msgid "Save location"
+msgstr ""
+
+#: ../src/network/locations-combo.c:370
+msgid "_Location name:"
+msgstr ""
+
+#: ../src/network/locations-combo.c:422
 #, c-format
-msgid "Activating interface \"%s\""
-msgstr "Aktivimi i interfaqes \"%s\""
+msgid "Do you want to delete location \"%s\"?"
+msgstr ""
 
-#: ../src/network/network-iface.c:522
+#: ../src/network/main.c:135
+msgid "The interface does not exist"
+msgstr "Interfaqja nuk ekziston"
+
+#: ../src/network/main.c:137
+msgid ""
+"Check that it is correctly typed and that it is correctly supported by your "
+"system."
+msgstr "Kontrollo që është shkruar si duhet dhe që suportohet korrektësisht nga sistemi yt."
+
+#: ../src/network/main.c:183
+msgid "Configure a network interface"
+msgstr "Konfigurimi i interfaqes së rrjetit"
+
+#: ../src/network/main.c:183
+msgid "INTERFACE"
+msgstr "INTERFAQJA"
+
+#: ../src/network/main.c:184
+msgid "Configure the first network interface with a specific type"
+msgstr "Konfiguro interfaqen e parë të rrjetit me një tip të caktuar"
+
+#: ../src/network/main.c:184
+msgid "TYPE"
+msgstr "TIPI"
+
+#: ../src/network/mate-network.desktop.in.in.h:1
+msgid "Network"
+msgstr ""
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Konfigurimi i dispozitivëve dhe lidhjeve të rrjetit"
+
+#: ../src/network/network-tool.c:280
+msgid "Network Settings"
+msgstr ""
+
+#: ../src/services/callbacks.c:65
 #, c-format
-msgid "The interface %s is not configured"
-msgstr "Interfaqja %s nuk është e konfiguruar"
+msgid "Settings for service \"%s\""
+msgstr ""
 
-#: ../src/network/network-iface.c:524
+#: ../src/services/callbacks.c:122
 #, c-format
-msgid "The interface %s is not active"
-msgstr "Interfaqja %s nuk është aktive"
+msgid "Are you sure you want to deactivate %s?"
+msgstr ""
 
-#: ../src/network/network-iface.c:526
-#, c-format
-msgid "The interface %s is active"
-msgstr "Interfaqja %s është aktive"
-
-#: ../src/services/callbacks.c:64
-#, c-format
-msgid "Settings for \"%s\""
-msgstr "Rregullimet për \"%s\""
-
-#. FIXME: put service name !!!
-#: ../src/services/callbacks.c:153
-msgid "Are you sure you want to deactivate this service?"
-msgstr "Je i sigurt që dëshiron të ç'aktivosh këtë dispozitiv?"
-
-#: ../src/services/callbacks.c:156
+#: ../src/services/callbacks.c:126
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
-"data loss"
+"data loss."
 msgstr ""
-"Kjo mund të ndikojë në menyra të ndryshme sjelljen e sistemit tuaj, duke "
-"patur ndoshta si rezultat humbjen e të dhënave"
-
-#: ../src/services/main.c:55
-msgid "Services settings"
-msgstr "Rregullimet e shërbimeve"
-
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "Konfigurimi i shërbimeve që duhen filluar kur niset sistemi"
-
-#: ../src/services/services.desktop.in.in.h:2
-msgid "Services"
-msgstr "Shërbimet"
 
 #: ../src/services/service.c:32
-msgid "Antivirus"
-msgstr "Antivirus"
-
-#: ../src/services/service.c:32
-msgid "Analyzes your incoming mail for virus"
-msgstr "Analizon mesazhet email në hyrje për virus"
-
-#: ../src/services/service.c:33
-msgid "Volumes mounter"
-msgstr "Montuesi i volumeve"
-
-#: ../src/services/service.c:33
-msgid "Mounts your volumes automatically"
-msgstr "Monton automatikisht volumet tuaj"
-
-#: ../src/services/service.c:34
-msgid "Actions scheduler"
-msgstr "Programuesi i aktiviteteve"
-
-#: ../src/services/service.c:34
-msgid "Executes scheduled actions"
-msgstr "Ekzekuton aktivitetet e programuar"
-
-#: ../src/services/service.c:35
-msgid "Database server"
-msgstr "Server databaze"
-
-#: ../src/services/service.c:35
-msgid "Data storage system"
-msgstr "Sistemi i magazinimi i të dhënave"
-
-#: ../src/services/service.c:36
-msgid "Graphical login manager"
-msgstr "Organizues grafik identifikimi"
-
-#: ../src/services/service.c:36
-msgid "Allows users to login graphically"
-msgstr "Lejo identifikimin grafik të përdoruesve"
-
-#: ../src/services/service.c:37
-msgid "Folder sharing service"
-msgstr "Shërbimi i bashkndarjeve të kartelave"
-
-#: ../src/services/service.c:37
-msgid "Shares folders over your network"
-msgstr "Bashkëndan kartelat në rrjetin tuaj"
-
-#: ../src/services/service.c:38
-msgid "File sharing service"
-msgstr "Shërbimi i bashkndarjes së file"
-
-#: ../src/services/service.c:38 ../src/services/service.c:39
-msgid "Shares files over the Internet"
-msgstr "Bashkëndan files në internet"
-
-#: ../src/services/service.c:39
-msgid "FTP service"
-msgstr "Shërbimi FTP"
-
-#: ../src/services/service.c:40
-msgid "Mail fetcher"
-msgstr "Marrësi i postës"
-
-#: ../src/services/service.c:40
-msgid "Downloads your mail from remote accounts"
-msgstr "Shkarkon mesazhet tuaj email nga llogaritë remote"
-
-#: ../src/services/service.c:41
-msgid "Mail agent"
-msgstr "Agjenti i postës"
-
-#: ../src/services/service.c:41
-msgid "Delivers your outgoing mail"
-msgstr "Shpërndan postën tuaj në dalje"
-
-#: ../src/services/service.c:42
-msgid "Clock synchronization service"
-msgstr "Shërbimi i sinkronizimit të orës"
-
-#: ../src/services/service.c:42
-msgid "Synchronizes your computer clock with Internet time servers"
-msgstr "Sinkronizon orën e kompjuterit tuaj me serverët internet të orës"
-
-#: ../src/services/service.c:43
-msgid "Printer service"
-msgstr "Shërbimi i printimit"
-
-#: ../src/services/service.c:43
-msgid "Allows applications to use printers"
-msgstr "U jep mundësinë programeve të përdorin printuesit"
-
-#: ../src/services/service.c:44
-msgid "Remote shell server"
-msgstr "Server shell remot"
-
-#: ../src/services/service.c:44
-msgid "Secure shell server"
-msgstr "Server shell I sigurt"
-
-#: ../src/services/service.c:45
-msgid "Computer activity logger"
-msgstr "Regjistruesi i aktivitetit të kompjuterit"
-
-#: ../src/services/service.c:45
-msgid "Keeps a log of your computer activity"
-msgstr "Mban regjistrimet e aktivitetit të kompjuterit tuaj"
-
-#: ../src/services/service.c:46
 msgid "Web server"
 msgstr "Server web"
 
-#: ../src/services/service.c:46
+#: ../src/services/service.c:32
 msgid "Shares your web pages over the Internet"
 msgstr "Shpërndan faqet tuaja web nëpërmjet internet"
 
-#: ../src/shares/callbacks.c:187
+#. GST_ROLE_WEB_SERVER
+#: ../src/services/service.c:33
+msgid "Actions scheduler"
+msgstr "Programuesi i aktiviteteve"
+
+#: ../src/services/service.c:33
+msgid "Executes scheduled actions"
+msgstr "Ekzekuton aktivitetet e programuar"
+
+#. GST_ROLE_COMMAND_SCHEDULER
+#: ../src/services/service.c:34
+msgid "Printer service"
+msgstr "Shërbimi i printimit"
+
+#: ../src/services/service.c:34
+msgid "Allows applications to use printers"
+msgstr "U jep mundësinë programeve të përdorin printuesit"
+
+#. GST_ROLE_PRINTER_SERVICE
+#: ../src/services/service.c:35
+msgid "Mail agent"
+msgstr "Agjenti i postës"
+
+#: ../src/services/service.c:35
+msgid "Delivers your outgoing mail"
+msgstr "Shpërndan postën tuaj në dalje"
+
+#. GST_ROLE_MTA
+#: ../src/services/service.c:36
+msgid "MTA authentication service"
+msgstr ""
+
+#. GST_ROLE_MTA_AUTH
+#: ../src/services/service.c:37
+msgid "Mail fetcher"
+msgstr "Marrësi i postës"
+
+#: ../src/services/service.c:37
+msgid "Downloads your mail from remote accounts"
+msgstr "Shkarkon mesazhet tuaj email nga llogaritë remote"
+
+#. GST_ROLE_MAIL_FETCHER
+#: ../src/services/service.c:38
+msgid "Graphical login manager"
+msgstr "Organizues grafik identifikimi"
+
+#: ../src/services/service.c:38
+msgid "Allows users to login graphically"
+msgstr "Lejo identifikimin grafik të përdoruesve"
+
+#. GST_ROLE_DISPLAY_MANAGER
+#: ../src/services/service.c:39
+msgid "Database server"
+msgstr "Server databaze"
+
+#: ../src/services/service.c:39
+msgid "Data storage system"
+msgstr "Sistemi i magazinimi i të dhënave"
+
+#. GST_ROLE_DATABASE_SERVER
+#. GST_ROLE_FILE_SERVER_SMB
+#. GST_ROLE_FILE_SERVER_FTP
+#: ../src/services/service.c:40 ../src/services/service.c:41
+#: ../src/services/service.c:43
+msgid "Folder sharing service"
+msgstr "Shërbimi i bashkndarjeve të kartelave"
+
+#: ../src/services/service.c:40 ../src/services/service.c:41
+msgid "Shares folders over your network"
+msgstr "Bashkëndan kartelat në rrjetin tuaj"
+
+#. GST_ROLE_FILE_SERVER_NFS
+#: ../src/services/service.c:42
+msgid "FTP service"
+msgstr "Shërbimi FTP"
+
+#: ../src/services/service.c:42 ../src/services/service.c:43
+msgid "Shares folders over the Internet"
+msgstr ""
+
+#. GST_ROLE_FILE_SERVER_TFTP
+#: ../src/services/service.c:44
+msgid "Clock synchronization service"
+msgstr "Shërbimi i sinkronizimit të orës"
+
+#: ../src/services/service.c:44
+msgid "Synchronizes your computer clock with Internet time servers"
+msgstr "Sinkronizon orën e kompjuterit tuaj me serverët internet të orës"
+
+#. GST_ROLE_NTP_SERVER
+#: ../src/services/service.c:46
+msgid "Antivirus"
+msgstr "Antivirus"
+
+#: ../src/services/service.c:46
+msgid "Analyzes your incoming mail for virus"
+msgstr "Analizon mesazhet email në hyrje për virus"
+
+#. GST_ROLE_ANTIVIRUS
+#: ../src/services/service.c:47
+msgid "Firewall"
+msgstr ""
+
+#: ../src/services/service.c:47
+msgid "Blocks undesired network access to your computer"
+msgstr ""
+
+#. GST_ROLE_FIREWALL_MANAGEMENT
+#: ../src/services/service.c:49
+msgid "Dictionary server"
+msgstr ""
+
+#. GST_ROLE_DICTIONARY_SERVER
+#: ../src/services/service.c:50
+msgid "Speech synthesis support"
+msgstr ""
+
+#. GST_ROLE_SPEECH_SYNTHESIS
+#: ../src/services/service.c:51
+msgid "Computer activity logger"
+msgstr "Regjistruesi i aktivitetit të kompjuterit"
+
+#: ../src/services/service.c:51
+msgid "Keeps a log of your computer activity"
+msgstr "Mban regjistrimet e aktivitetit të kompjuterit tuaj"
+
+#. GST_ROLE_SYSTEM_LOGGER
+#: ../src/services/service.c:52
+msgid "Remote backup server"
+msgstr ""
+
+#. GST_ROLE_REMOTE_BACKUP
+#: ../src/services/service.c:53
+msgid "Spam filter"
+msgstr ""
+
+#. GST_ROLE_SPAM_FILTER
+#: ../src/services/service.c:54
+msgid "Remote shell server"
+msgstr "Server shell remot"
+
+#: ../src/services/service.c:54
+msgid "Secure shell server"
+msgstr "Server shell I sigurt"
+
+#. GST_ROLE_SECURE_SHELL_SERVER
+#: ../src/services/service.c:55
+msgid "Application server"
+msgstr ""
+
+#. GST_ROLE_APPLICATION_SERVER
+#: ../src/services/service.c:56
+msgid "Automated crash reports support"
+msgstr ""
+
+#. GST_ROLE_AUTOMATED_CRASH_REPORTS_MANAGEMENT
+#: ../src/services/service.c:57
+msgid "System communication bus"
+msgstr ""
+
+#. GST_ROLE_DBUS,
+#: ../src/services/service.c:58
+msgid "System configuration manager"
+msgstr ""
+
+#. GST_ROLE_SYSTEM_CONFIGURATION_MANAGEMENT
+#: ../src/services/service.c:59
+msgid "School management platform"
+msgstr ""
+
+#. GST_ROLE_SCHOOL_MANAGEMENT_PLATFORM
+#: ../src/services/service.c:60
+msgid "Network security auditor"
+msgstr ""
+
+#. GST_ROLE_SECURITY_AUDITING
+#: ../src/services/service.c:61
+msgid "Web calendar server"
+msgstr ""
+
+#. GST_ROLE_WEB_CALENDAR_SERVER
+#: ../src/services/service.c:62
+msgid "OEM configuration manager"
+msgstr ""
+
+#. GST_ROLE_OEM_CONFIGURATION_MANAGEMENT
+#: ../src/services/service.c:63
+msgid "Terminal multiplexor"
+msgstr ""
+
+#. GST_ROLE_TERMINAL_MULTIPLEXOR
+#: ../src/services/service.c:64
+msgid "Disk quota activation"
+msgstr ""
+
+#. GST_ROLE_QUOTA_MANAGEMENT
+#: ../src/services/service.c:65
+msgid "Package index monitor"
+msgstr ""
+
+#. GST_ROLE_PACKAGE_INDEX_MONITORING
+#: ../src/services/service.c:66
+msgid "Network service"
+msgstr ""
+
+#. GST_ROLE_NETWORK
+#: ../src/services/service.c:67
+msgid "Dynamic DNS services updater"
+msgstr ""
+
+#. GST_ROLE_DYNAMIC_DNS_SERVICE
+#: ../src/services/service.c:68
+msgid "DHCP server"
+msgstr ""
+
+#. GST_ROLE_DHCP_SERVER
+#: ../src/services/service.c:69
+msgid "Domain name server"
+msgstr ""
+
+#. GST_ROLE_DNS
+#: ../src/services/service.c:70
+msgid "Proxy cache service"
+msgstr ""
+
+#. GST_ROLE_PROXY_CACHE
+#: ../src/services/service.c:71
+msgid "LDAP server"
+msgstr ""
+
+#. GST_ROLE_LDAP_SERVER
+#: ../src/services/service.c:72
+msgid "Mailing lists manager"
+msgstr ""
+
+#. GST_ROLE_MAILING_LISTS_MANAGER
+#: ../src/services/service.c:73
+msgid "Multicast DNS service discovery"
+msgstr ""
+
+#. GST_ROLE_RENDEZVOUS
+#: ../src/services/service.c:74
+msgid "Account information resolver"
+msgstr ""
+
+#. GST_ROLE_NSS
+#: ../src/services/service.c:75
+msgid "Virtual Private Network server"
+msgstr ""
+
+#. GST_ROLE_VPN_SERVER
+#: ../src/services/service.c:76
+msgid "Router advertisement server"
+msgstr ""
+
+#. GST_ROLE_ROUTER_ADVERTISEMENT_SERVER
+#: ../src/services/service.c:77
+msgid "IPSec key exchange server"
+msgstr ""
+
+#. GST_ROLE_IPSEC_KEY_EXCHANGE_SERVER
+#: ../src/services/service.c:78
+msgid "Disk server"
+msgstr ""
+
+#. GST_ROLE_DISK_SERVER
+#: ../src/services/service.c:79
+msgid "Disk client"
+msgstr ""
+
+#. GST_ROLE_DISK_CLIENT
+#: ../src/services/service.c:80
+msgid "Route server"
+msgstr ""
+
+#. GST_ROLE_ROUTE_SERVER
+#: ../src/services/service.c:81
+msgid "RPC mapper"
+msgstr ""
+
+#. GST_ROLE_RPC_MAPPER
+#: ../src/services/service.c:82
+msgid "SNMP server"
+msgstr ""
+
+#. GST_ROLE_SNMP_SERVER
+#: ../src/services/service.c:83
+msgid "Terminal server client"
+msgstr ""
+
+#. GST_ROLE_LTSP_CLIENT
+#: ../src/services/service.c:84
+msgid "Audio settings management"
+msgstr ""
+
+#. GST_ROLE_AUDIO_MANAGEMENT
+#: ../src/services/service.c:85
+msgid "Volumes mounter"
+msgstr "Montuesi i volumeve"
+
+#: ../src/services/service.c:85
+msgid "Mounts your volumes automatically"
+msgstr "Monton automatikisht volumet tuaj"
+
+#. GST_ROLE_AUTOMOUNTER
+#: ../src/services/service.c:86
+msgid "Infrared port management"
+msgstr ""
+
+#. GST_ROLE_INFRARED_MANAGEMENT
+#: ../src/services/service.c:87
+msgid "Braille display management"
+msgstr ""
+
+#. GST_ROLE_BRAILLE_DISPLAY_MANAGEMENT
+#: ../src/services/service.c:88
+msgid "Bluetooth device management"
+msgstr ""
+
+#. GST_ROLE_BLUETOOTH_MANAGEMENT
+#: ../src/services/service.c:89
+msgid "Hard disk tuning"
+msgstr ""
+
+#. GST_ROLE_HDD_MANAGEMENT
+#: ../src/services/service.c:90
+msgid "Hotkeys management"
+msgstr ""
+
+#. GST_ROLE_HOTKEYS_MANAGEMENT
+#: ../src/services/service.c:91
+msgid "Power management"
+msgstr ""
+
+#. GST_ROLE_POWER_MANAGEMENT
+#: ../src/services/service.c:92
+msgid "Logical volume management"
+msgstr ""
+
+#. GST_ROLE_LVM_MANAGEMENT
+#: ../src/services/service.c:93
+msgid "Cluster management tool"
+msgstr ""
+
+#. GST_ROLE_CLUSTER_MANAGEMENT
+#: ../src/services/service.c:94
+msgid "Fax settings management"
+msgstr ""
+
+#. GST_ROLE_FAX_MANAGEMENT
+#: ../src/services/service.c:95
+msgid "RAID disks management"
+msgstr ""
+
+#. GST_ROLE_RAID_MANAGEMENT
+#: ../src/services/service.c:96
+msgid "Graphic tablets management"
+msgstr ""
+
+#. GST_ROLE_GRAPHIC_TABLETS_MANAGEMENT
+#: ../src/services/service.c:97
+msgid "CPU Frequency manager"
+msgstr ""
+
+#. GST_ROLE_CPUFREQ_MANAGEMENT
+#: ../src/services/service.c:98
+msgid "Eagle USB ADSL modems manager"
+msgstr ""
+
+#. GST_ROLE_EAGLE_USB_MODEMS_MANAGEMENT
+#: ../src/services/service.c:99
+msgid "Serial port settings management"
+msgstr ""
+
+#. GST_ROLE_SERIAL_PORTS_MANAGEMENT
+#: ../src/services/service.c:100
+msgid "ISDN modems manager"
+msgstr ""
+
+#. GST_ROLE_ISDN_MANAGEMENT
+#: ../src/services/service.c:101
+msgid "Telstra Bigpond Cable Network client"
+msgstr ""
+
+#. GST_ROLE_TELSTRA_BIGPOND_NETWORK_CLIENT
+#: ../src/services/service.c:102
+msgid "Hardware monitor"
+msgstr ""
+
+#. GST_ROLE_HARDWARE_MONITORING
+#: ../src/services/service.c:103
+msgid "System monitor"
+msgstr ""
+
+#. GST_ROLE_SYSTEM_MONITORING
+#: ../src/services/service.c:104
+msgid "Virtual Machine management"
+msgstr ""
+
+#: ../src/services/mate-services.desktop.in.in.h:1
+msgid "Services"
+msgstr "Shërbimet"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Konfigurimi i shërbimeve që duhen filluar kur niset sistemi"
+
+#: ../src/services/service-settings-table.c:73
+#: ../src/services/service-settings-table.c:97
+#: ../src/services/service-settings-table.c:109
+msgid "Start"
+msgstr ""
+
+#: ../src/services/service-settings-table.c:79
+#: ../src/services/service-settings-table.c:99
+#: ../src/services/service-settings-table.c:111
+msgid "Stop"
+msgstr ""
+
+#: ../src/services/service-settings-table.c:85
+#: ../src/services/service-settings-table.c:102
+msgid "Ignore"
+msgstr ""
+
+#: ../src/services/service-settings-table.c:175
+msgid "Runlevel"
+msgstr ""
+
+#: ../src/services/service-settings-table.c:192
+msgid "Status"
+msgstr ""
+
+#: ../src/services/service-settings-table.c:211
+msgid "Priority"
+msgstr ""
+
+#: ../src/services/services-tool.c:106
+msgid "Services Settings"
+msgstr ""
+
+#: ../src/shares/callbacks.c:196
 msgid "Are you sure you want to delete this share?"
 msgstr "Je i sigurt që dëshiron këtë bashkëndarje?"
 
-#: ../src/shares/callbacks.c:189
+#: ../src/shares/callbacks.c:198
 msgid "Other computers in your network will stop viewing this."
 msgstr "Kompjuterët e tjerë në rrjet nuk do t'a shohin më këtë."
 
-#: ../src/shares/main.c:90
+#: ../src/shares/main.c:103
 msgid "Add a shared path, modifies it if it already exists"
 msgstr "Shto një pozicion të përbashkët, ndryshoje nëse ekziston"
 
-#: ../src/shares/main.c:90
+#: ../src/shares/main.c:103
 msgid "PATH"
 msgstr "POZICIONI"
 
-#: ../src/shares/main.c:97
-msgid "Shared folders settings"
-msgstr "Rregullimet e kartelave të përbashkëta"
+#: ../src/shares/caja/caja-shares.c:151
+msgid "_Share Folder..."
+msgstr ""
 
-#: ../src/shares/caja/caja-shares.c:129
-msgid "_Share folder"
-msgstr "Kartelë e _përbashkët"
-
-#: ../src/shares/caja/caja-shares.c:130
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr "Bashkënda këtë kartelë me kompjuter të tjerë"
 
-#: ../src/shares/nfs-acl-table.c:51
+#: ../src/shares/nfs-acl-table.c:50
 msgid "Allowed host/network"
 msgstr "Host/rrjeti i lejuar"
 
-#: ../src/shares/share-nfs-add-hosts.c:114
-#, c-format
-msgid "Hosts in the %s network"
-msgstr "Host-et tek rrjeti %s"
-
-#: ../src/shares/share-nfs-add-hosts.c:146
+#: ../src/shares/share-nfs-add-hosts.c:117
 msgid "Specify hostname"
 msgstr "Specifiko emrin e host"
 
-#: ../src/shares/share-nfs-add-hosts.c:153
+#: ../src/shares/share-nfs-add-hosts.c:124
 msgid "Specify IP address"
 msgstr "Specifiko adresën IP"
 
-#: ../src/shares/share-nfs-add-hosts.c:160
+#: ../src/shares/share-nfs-add-hosts.c:131
 msgid "Specify network"
 msgstr "Specifiko rrjetin"
 
-#: ../src/shares/share-settings.c:123
-msgid "Do not share"
-msgstr "Mos bashkëndaj"
-
-#: ../src/shares/share-settings.c:131
-msgid "SMB"
-msgstr "SMB"
-
-#: ../src/shares/share-settings.c:139
-msgid "NFS"
-msgstr "NFS"
-
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Përcakto çfarë kartela janë në dispozicion për fqinjët tek rrjeti juaj"
 
-#: ../src/shares/shares.desktop.in.in.h:2
-msgid "Shared Folders"
-msgstr "Kartelat e përbashkëta"
+#: ../src/shares/share-settings.c:61
+msgid "File System"
+msgstr ""
 
-#: ../src/shares/transfer.c:44
+#: ../src/shares/share-settings.c:144
+msgid "Do not share"
+msgstr "Mos bashkëndaj"
+
+#: ../src/shares/share-settings.c:152
+msgid "Windows networks (SMB)"
+msgstr ""
+
+#: ../src/shares/share-settings.c:160
+msgid "Unix networks (NFS)"
+msgstr ""
+
+#: ../src/shares/share-settings.c:462
+#, c-format
+msgid "Settings for folder '%s'"
+msgstr ""
+
+#: ../src/shares/share-settings.c:469
+msgid "Share Folder"
+msgstr ""
+
+#: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
 msgstr "Shërbimet e ndarjes nuk janë instaluar"
 
-#: ../src/shares/transfer.c:46
+#: ../src/shares/shares-tool.c:154
 msgid ""
 "You need to install at least either Samba or NFS in order to share your "
-"folders. The tool will close now."
+"folders."
 msgstr ""
-"Duhet të instaloni të paktën Samba ose NFS për të bashkëndarë kartelat "
-"tuaja. Instrumenti do të mbyllet tani."
 
-#: ../src/time/main.c:464
-msgid "NTP support is not installed"
-msgstr "Suporti NTP nuk është instaluar"
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
+msgstr ""
 
-#: ../src/time/main.c:466
+#: ../src/time/e-map/e-map.c:622
 msgid ""
-"Please install and activate NTP support in the system to enable "
-"synchronization of your local time server with Internet time servers."
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
 msgstr ""
-"Instalo dhe aktivo suportin NTP në sistem për të aktivuar "
-"sinkronizimin e serverit tuaj lokal të orës me serverët internet të orës."
 
-#: ../src/time/main.c:762
-msgid "Time and Date Settings"
-msgstr "Rregullimet e Orës dhe Datës"
-
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Ndryshon orën e sistemit, datën, dhe zonën e orës"
-
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Ora dhe Data"
 
-#: ../src/users/callbacks.c:571
-msgid "Error saving profile"
-msgstr "Gabim gjatë ruajtjes së profilit"
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Ndryshon orën e sistemit, datën, dhe zonën e orës"
 
-#: ../src/users/callbacks.c:613
-msgid "Create New profile"
-msgstr "Krijo një profil të ri"
+#: ../src/time/time-tool.c:398
+msgid "NTP support is not installed"
+msgstr "Suporti NTP nuk është instaluar"
 
-#: ../src/users/callbacks.c:649
-#, c-format
-msgid "Settings for profile %s"
-msgstr "Rregullimet për profilin %s"
+#: ../src/time/time-tool.c:400
+msgid ""
+"Please install and activate NTP support in the system to enable "
+"synchronization of your local time server with internet time servers."
+msgstr ""
 
-#: ../src/users/group-settings.c:91
-msgid "Create New Group"
-msgstr "Krijo një Grup të Ri"
+#: ../src/time/time-tool.c:429
+msgid "Enabling NTP"
+msgstr ""
 
-#. Check if gid is available
-#: ../src/users/group-settings.c:164 ../src/users/group-settings.c:172
-msgid "Invalid group ID"
-msgstr "ID e pavlefshme grupi"
+#: ../src/time/time-tool.c:429
+msgid "Disabling NTP"
+msgstr ""
 
-#: ../src/users/group-settings.c:165
-msgid "Group ID must be a positive number"
-msgstr "ID e grupit duhet të jetë një numër pozitiv"
+#: ../src/time/time-tool.c:441
+msgid "Synchronizing system clock"
+msgstr ""
 
-#. if group is root
-#: ../src/users/group-settings.c:168
-msgid "Group ID of the \"root\" user should not be modified"
-msgstr "ID e grupit të përdoruesit \"root\" nuk duhet ndryshuar"
+#: ../src/time/time-tool.c:521
+msgid "Keep synchronized with Internet servers"
+msgstr ""
 
-#: ../src/users/group-settings.c:169 ../src/users/group-settings.c:218
-#: ../src/users/group-settings.c:288
-msgid "This would leave the system unusable"
-msgstr "Sistemi do të bëhet i papërdorshëm"
+#: ../src/time/time-tool.c:522
+msgid "Manual"
+msgstr "Manual"
 
-#: ../src/users/group-settings.c:173
-#, c-format
-msgid "Group ID %s already exists"
-msgstr "Grupi me ID %s ekziston"
+#: ../src/time/time-tool.c:665
+msgid "Time and Date Settings"
+msgstr "Rregullimet e Orës dhe Datës"
 
-#. If empty.
-#: ../src/users/group-settings.c:198
-msgid "Group name is empty"
-msgstr "Emri i grupit është bosh"
+#: ../src/users/group-settings.c:55
+msgid "Administrator group can not be deleted"
+msgstr ""
 
-#: ../src/users/group-settings.c:199
-msgid "A group name must be specified"
-msgstr "Duhet specifikuar emri i grupit"
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
+msgid "This would leave the system unusable."
+msgstr "Sistemi do të bëhet i papërdorshëm."
 
-#. If too long.
-#: ../src/users/group-settings.c:202
-msgid "The group name is too long"
-msgstr "Emri i grupit është tepër i gjatë"
-
-#: ../src/users/group-settings.c:203
-#, c-format
-msgid "To be valid, the group name should have less than %d character"
-msgid_plural "To be valid, the group name should have less than %d characters"
-msgstr[0] "Emri i grupit duhet të ketë më pak se %d gërmë për të qenë i vlefshëm"
-msgstr[1] "Emri i grupit duhet të ketë më pak se %d gërma për të qenë i vlefshëm"
-
-#. if invalid.
-#: ../src/users/group-settings.c:209
-msgid "Group name has invalid characters"
-msgstr "Emri i grupit ka simbole të pavlefshëm"
-
-#: ../src/users/group-settings.c:210
-msgid "Please set a valid group name, using only lower case letters"
-msgstr "Cakto një emër të vlefshëm grupi, duke përdorur vetëm shkronja të vogla"
-
-#. if !exist.
-#: ../src/users/group-settings.c:213
-#, c-format
-msgid "Group \"%s\" already exists"
-msgstr "Grupi \"%s\" ekziston"
-
-#: ../src/users/group-settings.c:214
-msgid "Please select a different group name"
-msgstr "ZXgjidh një emër tjetër grupi"
-
-#. if it's the root group
-#: ../src/users/group-settings.c:217
-msgid "Group name of the \"root\" user should not be modified"
-msgstr "Emri i grupit për përdoruesin \"root\" nuk duhet ndryshuar"
-
-#: ../src/users/group-settings.c:287
-msgid "The group \"root\" should not be deleted"
-msgstr "Grupi \"root\" nuk duhet eleminuar"
-
-#: ../src/users/group-settings.c:302
+#: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
 msgstr "Je i sigurt që dëshiron të eleminosh grupin \"%s\"?"
 
-#: ../src/users/group-settings.c:304
+#: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
 msgstr "Kjo mund të lërë files me grup me ID të pavlefshme në file sistemin."
 
-#: ../src/users/group-settings.c:364
+#: ../src/users/group-settings.c:144
+msgid "New group"
+msgstr ""
+
+#: ../src/users/group-settings.c:151
 #, c-format
-msgid "Settings for Group %s"
-msgstr "Rregullimet për grupin %s"
+msgid "Group '%s' Properties"
+msgstr ""
+
+#: ../src/users/group-settings.c:217
+msgid "Group name is empty"
+msgstr "Emri i grupit është bosh"
+
+#: ../src/users/group-settings.c:218
+msgid "A group name must be specified."
+msgstr ""
+
+#: ../src/users/group-settings.c:220
+msgid "Group name of the administrator group user should not be modified"
+msgstr ""
+
+#: ../src/users/group-settings.c:223
+msgid "Group name has invalid characters"
+msgstr "Emri i grupit ka simbole të pavlefshëm"
+
+#: ../src/users/group-settings.c:224
+msgid ""
+"Please set a valid group name consisting of a lower case letter followed by "
+"lower case letters and numbers."
+msgstr ""
+
+#: ../src/users/group-settings.c:229
+#, c-format
+msgid "Group \"%s\" already exists"
+msgstr "Grupi \"%s\" ekziston"
+
+#: ../src/users/group-settings.c:230
+msgid "Please choose a different group name."
+msgstr ""
+
+#: ../src/users/group-settings.c:257
+msgid "Group ID of the Administrator account should not be modified"
+msgstr ""
+
+#. check that GID is free
+#: ../src/users/group-settings.c:261
+#, c-format
+msgid "Group ID %d is already used by group \"%s\""
+msgstr ""
+
+#: ../src/users/group-settings.c:264
+msgid "Please choose a different numeric identifier for the new group."
+msgstr ""
+
+#: ../src/users/group-settings.c:266
+#, c-format
+msgid "Please choose a different numeric identifier for group \"%s\"."
+msgstr ""
 
 #: ../src/users/groups-table.c:44
-msgid "Group"
-msgstr "Grupi"
+msgid "Group name"
+msgstr ""
 
-#: ../src/users/groups-table.c:45
-msgid "GID"
-msgstr "GID"
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
+msgstr ""
 
-#: ../src/users/main.c:123
-msgid "User name contains"
-msgstr "Emri i përdoruesit përmban"
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
+msgstr ""
 
-#: ../src/users/main.c:124
-msgid "User ID is"
-msgstr "ID e përdouesit është"
+#: ../src/users/privileges-table.c:53
+msgid "Monitor system logs"
+msgstr ""
 
-#: ../src/users/main.c:125
-msgid "Group name contains"
-msgstr "Emri i grupit përmban"
+#: ../src/users/privileges-table.c:54
+msgid "Administer the system"
+msgstr ""
 
-#: ../src/users/main.c:126
-msgid "User GID is"
-msgstr "GID e përdoruesit është"
+#: ../src/users/privileges-table.c:55
+msgid "Use audio devices"
+msgstr ""
 
-#: ../src/users/main.c:245 ../src/users/users.desktop.in.in.h:2
+#: ../src/users/privileges-table.c:56
+msgid "Use CD-ROM drives"
+msgstr ""
+
+#: ../src/users/privileges-table.c:57
+msgid "Burn CDs / DVDs"
+msgstr ""
+
+#: ../src/users/privileges-table.c:58
+msgid "Use modems"
+msgstr ""
+
+#: ../src/users/privileges-table.c:59
+msgid "Connect to Internet using a modem"
+msgstr ""
+
+#: ../src/users/privileges-table.c:60
+msgid "Send and receive faxes"
+msgstr ""
+
+#: ../src/users/privileges-table.c:61
+msgid "Use floppy drives"
+msgstr ""
+
+#: ../src/users/privileges-table.c:62
+msgid "Mount user-space filesystems (FUSE)"
+msgstr ""
+
+#: ../src/users/privileges-table.c:63
+msgid "Configure printers"
+msgstr ""
+
+#: ../src/users/privileges-table.c:64
+msgid "Connect to wireless and ethernet networks"
+msgstr ""
+
+#: ../src/users/privileges-table.c:65
+msgid "Access external storage devices automatically"
+msgstr ""
+
+#: ../src/users/privileges-table.c:66
+msgid "Suspend and hibernate the computer"
+msgstr ""
+
+#: ../src/users/privileges-table.c:67
+msgid "Access /proc filesystem"
+msgstr ""
+
+#: ../src/users/privileges-table.c:68
+msgid "Use scanners"
+msgstr ""
+
+#: ../src/users/privileges-table.c:69
+msgid "Use tape drives"
+msgstr ""
+
+#: ../src/users/privileges-table.c:70
+msgid "Use USB devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:71
+msgid "Use VirtualBox virtualization solution"
+msgstr ""
+
+#: ../src/users/privileges-table.c:72
+msgid "Use video devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:73
+msgid "Be able to get administrator privileges"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr ""
+
+#: ../src/users/run-passwd.c:421
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/users/run-passwd.c:498
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/users/run-passwd.c:504
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/users/run-passwd.c:510
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/users/run-passwd.c:513
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/users/run-passwd.c:517
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/users/run-passwd.c:524
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/users/run-passwd.c:528
+#, c-format
+msgid "Unknown error"
+msgstr ""
+
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Përdoruesit dhe grupet"
 
-#: ../src/users/passwd.c:168
-msgid "Passwords do not match"
-msgstr "Fjalëkalimet nuk përputhen"
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Shto apo hiq përdorues dhe grupe"
 
-#: ../src/users/passwd.c:173
-#, c-format
+#: ../src/users/user-password.c:97
+msgid "Password is too short"
+msgstr ""
+
+#: ../src/users/user-password.c:98
 msgid ""
-"Bad password: %s.\n"
-"Please try with a new password"
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
 msgstr ""
-"Fjalëkalim i pavlefshëm: %s.\n"
-"Provo me një fjalëkalim të ri"
 
-#: ../src/users/profile-settings.c:125
-msgid "The profile must have a name"
-msgstr "Profili duhet të ketë një emër"
-
-#: ../src/users/profile-settings.c:130
-msgid "The profile must have a default home"
-msgstr "Profili duhet të ketë një shtëpi të paracaktuar"
-
-#: ../src/users/profile-settings.c:135 ../src/users/profile-settings.c:140
-msgid "The profile must have a default shell"
-msgstr "Profili duhet të ketë një shell të paracaktuar"
-
-#: ../src/users/profile-settings.c:208
-msgid "The default profile should not be deleted"
-msgstr "Profili i prezgjedhur nuk duhet fshirë"
-
-#: ../src/users/profile-settings.c:209
-msgid "This profile is used for setting default data for new users"
+#: ../src/users/user-password.c:101
+msgid "Password confirmation is not correct"
 msgstr ""
-"Ky profil përdoret për përcaktimin e të dhënave të prezgjedhura për "
-"përdoruesit e ri"
 
-#: ../src/users/profile-settings.c:218
-#, c-format
-msgid "Delete profile \"%s\"?"
-msgstr "Eleminoj profilin \"%s\"?"
+#: ../src/users/user-password.c:102
+msgid "Check that you have provided the same password in both text fields."
+msgstr "Kontrollo që ke shkruar të njëjtin fjalëkalim në të dy fushat e tekstit."
 
-#: ../src/users/profile-settings.c:220
-msgid "You will not be able to recover this profile after pressing \"apply\"."
-msgstr "Ky profil nuk do të mund të rekuperohet më mbasi të kesh shtypur \"apliko\"."
+#: ../src/users/user-password.c:445
+msgid "Please choose another password."
+msgstr ""
 
-#. Column name,          Adv_state_show,	Basic_state_show
-#: ../src/users/profiles-table.c:39
-msgid "Profile"
-msgstr "Profili"
+#: ../src/users/user-password.c:456
+msgid "Please type again your current password."
+msgstr ""
 
-#: ../src/users/profiles-table.c:40
-msgid "Comment"
-msgstr "Komenti"
-
-#: ../src/users/search-bar/search-bar.c:228
-msgid "C_lear"
-msgstr "P_astro"
-
-#: ../src/users/search-bar/search-bar.c:329
-msgid "Choice"
-msgstr "Zgjedhja"
-
-#: ../src/users/search-bar/search-bar.c:339
-msgid "Text"
-msgstr "Teksti"
-
-#: ../src/users/user-settings.c:73
-msgid "The \"root\" user should not be deleted"
-msgstr "Përdoruesi \"root\" nuk duhet eleminuar"
-
-#: ../src/users/user-settings.c:74 ../src/users/user-settings.c:311
-#: ../src/users/user-settings.c:406 ../src/users/user-settings.c:442
-msgid "This would leave the system unusable."
-msgstr "Sistemi do të bëhet i papërdorshëm."
-
-#: ../src/users/user-settings.c:83
-#, c-format
-msgid "Are you sure you want to delete user \"%s\"?"
-msgstr "Je i sigurt që dëshiron të fshish përdoruesin \"%s\"?"
+#: ../src/users/user-password.c:463
+msgid "Password could not be changed"
+msgstr ""
 
 #: ../src/users/user-settings.c:85
-msgid ""
-"This will disable this user's access to the system without deleting the "
-"user's home directory."
+msgid "Administrator account cannot be deleted"
 msgstr ""
-"Kjo do të ç'aktivojë hyrjen e këtij përdoruesi në sistem, pa eleminuar "
-"\"directory home\" e tij."
 
-#: ../src/users/user-settings.c:189
-msgid "User Account Editor"
-msgstr "Editori i llogarisë së përdoruesit"
-
-#: ../src/users/user-settings.c:285
-msgid "The user name is empty"
-msgstr "Emri i përdoruesit është bosh"
-
-#: ../src/users/user-settings.c:286
-msgid "A user name must be specified."
-msgstr "Duhet specifikuar një emër përdoruesi."
-
-#. = sizeof (ut.ut_name)
-#: ../src/users/user-settings.c:292 ../src/users/user-settings.c:300
-msgid "The user name is too long"
-msgstr "Emri i përdoruesit është shumë i gjatë"
-
-#: ../src/users/user-settings.c:293 ../src/users/user-settings.c:301
+#: ../src/users/user-settings.c:96
 #, c-format
-msgid "To be valid, the user name should have less than %d character"
-msgid_plural "To be valid, the user name should have less than %d characters"
-msgstr[0] "Emri i përdoruesit duhet të ketë më pak se %d gërmë për të qenë i vlefshëm"
-msgstr[1] "Emri i përdoruesit duhet të ketë më pak se %d gërma për të qenë i vlefshëm"
-
-#: ../src/users/user-settings.c:310
-msgid "User name for the \"root\" user should not be modified"
-msgstr "Emri i përdoruesit për përdoruesin \"root\" nuk duhet ndryshuar"
-
-#: ../src/users/user-settings.c:316
-msgid "User name has invalid characters"
-msgstr "Emri i përdoruesit ka simbole të pavlefshëm"
-
-#: ../src/users/user-settings.c:317
-msgid ""
-"Please set a valid user name consisting of a lower case letter followed by "
-"lower case letters and numbers."
+msgid "%s is currently using this computer"
 msgstr ""
-"Përcakto një emër të vlefshëm përdoruesi, formuar nga një gërmë e vogël e "
-"ndjekur nga gërma të vogla e numra."
 
-#: ../src/users/user-settings.c:323
+#: ../src/users/user-settings.c:99
+msgid "Please ensure the user has logged out before deleting this account."
+msgstr ""
+
+#: ../src/users/user-settings.c:109
+msgid "Can't delete the only administrator account"
+msgstr ""
+
+#: ../src/users/user-settings.c:111
 #, c-format
-msgid "User name \"%s\" already exists"
-msgstr "Emri i përdoruesit \"%s\" ekziston"
+msgid ""
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
+msgstr ""
 
-#: ../src/users/user-settings.c:324
-msgid "Please select a different user name."
-msgstr "Zgjidh një emër tjetër përdoruesi."
+#: ../src/users/user-settings.c:121
+#, c-format
+msgid "Remove home folder for %s?"
+msgstr ""
 
-#: ../src/users/user-settings.c:349
+#: ../src/users/user-settings.c:124
+#, c-format
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr ""
+
+#: ../src/users/user-settings.c:132
+msgid "Keep Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:133
+msgid "Don't Remove Account"
+msgstr ""
+
+#: ../src/users/user-settings.c:134
+msgid "Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:330
+msgid "Superuser"
+msgstr ""
+
+#: ../src/users/user-settings.c:335
+msgid "Custom"
+msgstr ""
+
+#. TRANSLATORS: This applies to a password.
+#: ../src/users/user-settings.c:344
+msgid "None"
+msgstr ""
+
+#: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
 msgstr "Simbol i pavlefshëm \"%c\" në koment"
 
-#: ../src/users/user-settings.c:350
+#: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
 msgstr "Kontrollo që ky simbol të jetë i papërdorur."
 
-#: ../src/users/user-settings.c:398
-msgid "Home directory should not be empty"
-msgstr "Directory \"home\" nuk duhet të jetë bosh"
-
-#: ../src/users/user-settings.c:399
-msgid "Make sure you provide a home directory."
-msgstr "Sigurohu që ke dhënë një directory home."
-
-#: ../src/users/user-settings.c:401
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "Path i paplotë në directory home"
 
-#: ../src/users/user-settings.c:402
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
-"i.e.: /home/john."
+"<span size=\"smaller\">i.e.: /home/john</span>."
 msgstr ""
-"Shkruaj pozicionin e plotë për directory home\n"
-"p.sh.: /home/lenti."
 
-#: ../src/users/user-settings.c:405
-msgid "Home directory of the \"root\" user should not be modified"
-msgstr "Directory home e përdoruesit \"root\" nuk duhet ndryshuar"
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
+msgstr ""
 
-#: ../src/users/user-settings.c:438
-msgid "Invalid user ID"
-msgstr "ID përdoruesi e pavlefshme"
-
-#: ../src/users/user-settings.c:439
-msgid "User ID must be a positive number."
-msgstr "ID e përdoruesit duhet të jetë një numër pozitiv."
-
-#: ../src/users/user-settings.c:441
-msgid "User ID of the \"root\" user should not be modified"
-msgstr "ID e përdoruesit për përdoruesin \"root\" nuk duhet ndryshuar"
-
-#: ../src/users/user-settings.c:459
+#: ../src/users/user-settings.c:449
 #, c-format
-msgid "User ID %s already exists"
-msgstr "ID %s e përdoruesit ekziston"
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr ""
 
 #: ../src/users/user-settings.c:461
-msgid ""
-"Several users may share a single user ID, but it's not common and may lead "
-"to security problems."
+msgid "_Replace With Old Files"
 msgstr ""
-"Përdorues të ndryshëm mund të përdorin të njëjtin ID, por nuk është e "
-"zakonshme dhe mund të sjellë probleme sigurie."
 
-#: ../src/users/user-settings.c:479
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr ""
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr ""
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr ""
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr ""
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr ""
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:604
+msgid "ID for the root user should not be modified"
+msgstr ""
+
+#. check that UID is free
+#: ../src/users/user-settings.c:608
+#, c-format
+msgid "User ID %d is already used by user %s"
+msgstr ""
+
+#: ../src/users/user-settings.c:610
+#, c-format
+msgid "Please choose a different numeric identifier for %s."
+msgstr ""
+
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr "Shteg i paplotë në shell"
 
-#: ../src/users/user-settings.c:480
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
-"i.e.: /bin/sh."
+"<span size=\"smaller\">i.e.: /bin/bash</span>."
 msgstr ""
-"Shkruaj vendodhjen e plotë për shell\n"
-"p.sh.: /bin/sh."
 
-#: ../src/users/user-settings.c:502
-msgid "Password should not be empty"
-msgstr "Fjalëkalimi nuk duhet të jetë bosh"
+#: ../src/users/user-settings.c:663
+msgid "Can't revoke administration rights"
+msgstr ""
 
-#: ../src/users/user-settings.c:503
-msgid "A password must be provided."
-msgstr "Duhet dhënë një fjalëkalim."
-
-#: ../src/users/user-settings.c:505
-msgid "Password confirmation isn't correct"
-msgstr "Fjalëkalimi konfermues nuk është i saktë"
-
-#: ../src/users/user-settings.c:506
-msgid "Check that you have provided the same password in both text fields."
-msgstr "Kontrollo që ke shkruar të njëjtin fjalëkalim në të dy fushat e tekstit."
-
-#: ../src/users/user-settings.c:780
+#: ../src/users/user-settings.c:666
 #, c-format
-msgid "Settings for User %s"
-msgstr "Rregullimet për përdoruesin %s"
+msgid ""
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
+msgstr ""
 
-#: ../src/users/users-table.c:61
-msgid "User"
-msgstr "Përdoruesi"
+#: ../src/users/user-settings.c:683
+msgid "You are about to revoke your own administration rights"
+msgstr ""
 
-#: ../src/users/users-table.c:62
-msgid "Home"
-msgstr "Shtëpia"
+#: ../src/users/user-settings.c:686
+#, c-format
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
+msgstr ""
 
-#: ../src/users/users-table.c:63
-msgid "User details"
-msgstr "Detajet e përdoruesit"
+#: ../src/users/user-settings.c:691
+msgid "Give up administration rights"
+msgstr ""
 
-#: ../src/users/users-table.c:64
-msgid "UID"
-msgstr "UID"
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr ""
 
-#: ../src/users/users-table.c:65
-msgid "Shell"
-msgstr "Shell"
-
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Shto apo hiq përdorues dhe grupe"
-
+#: ../src/users/users-tool.c:288
+msgid "Users Settings"
+msgstr ""

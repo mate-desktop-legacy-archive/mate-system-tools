@@ -1,714 +1,751 @@
-# Asturian translation for mate-system-tools
-# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
-# This file is distributed under the same license as the mate-system-tools package.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Astur <malditoastur@gmail.com>, 2008.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-system-tools&component=general\n"
-"POT-Creation-Date: 2009-12-14 20:35+0000\n"
-"PO-Revision-Date: 2010-01-07 13:48+0100\n"
-"Last-Translator: astur <malditoastur@gmail.com>\n"
-"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:53+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Asturian (http://www.transifex.com/projects/p/MATE/language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-23 00:58+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: asturian\n"
-
-#: ../mate-system-tools.schemas.in.h:1
-msgid "Whether the users-admin tool should show system users in the users list"
-msgstr "Conseña si la ferramienta d'alministración d'usuarios tien d'amosar los usuarios del sistema na llista d'usuarios"
-
-#: ../mate-system-tools.schemas.in.h:2
-msgid "Whether the users-admin tool should show the root user in the users list"
-msgstr "Conseña si la ferramienta d'alministración d'usuarios tien d'amosar l'usuariu root na llista d'usuarios"
+"Language: ast\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../interfaces/network.ui.h:1
-msgid "Account data"
-msgstr "Datos de la cuenta"
-
-#: ../interfaces/network.ui.h:2
-msgid "Connection Settings"
-msgstr "Axustes de la conexón"
-
-#: ../interfaces/network.ui.h:3
-msgid "DNS Servers"
-msgstr "Sirvidores DNS"
-
-#: ../interfaces/network.ui.h:4
-msgid "Host Settings"
-msgstr "Configuración del host"
-
-#: ../interfaces/network.ui.h:5
-msgid "Internet service provider data"
-msgstr "Datos del fornidor de servicios d'Internet"
-
-#: ../interfaces/network.ui.h:6
-msgid "Modem Settings"
-msgstr "Axustes del módem"
-
-#: ../interfaces/network.ui.h:7
-msgid "Search Domains"
-msgstr "Dominios de gueta"
-
-#: ../interfaces/network.ui.h:8
-msgid "Wireless Settings"
-msgstr "Axustes inalámbricos"
-
-#: ../interfaces/network.ui.h:9
-msgid "Access point name:"
-msgstr "Nome del puntu d'accesu:"
-
-#: ../interfaces/network.ui.h:10
-msgid "Aliases:"
-msgstr "Alies:"
-
-#: ../interfaces/network.ui.h:11
-msgid "Con_figuration:"
-msgstr "Con_figuración:"
-
-#: ../interfaces/network.ui.h:12
-msgid "Connection type:"
-msgstr "Tipu de conexón:"
-
-#: ../interfaces/network.ui.h:13
-msgid "Connections"
-msgstr "Conexones"
-
-#: ../interfaces/network.ui.h:14
-msgid "DNS"
-msgstr "DNS"
-
-#: ../interfaces/network.ui.h:15
-msgid "D_omain name:"
-msgstr "Nome de do_miniu:"
-
-#: ../interfaces/network.ui.h:16
-msgid "Delete current location"
-msgstr "Desaniciar la llocalización actual"
-
-#: ../interfaces/network.ui.h:17
-msgid "E_nable roaming mode"
-msgstr "Ac_tivar el mou itinerante"
-
-#: ../interfaces/network.ui.h:18
-msgid "E_nable this connection"
-msgstr "_Activar esta conexón"
-
-#: ../interfaces/network.ui.h:19
-msgid "Ethernet interface:"
-msgstr "Interface ethernet:"
-
-#: ../interfaces/network.ui.h:20
-#: ../interfaces/users.ui.h:31
-msgid "General"
-msgstr "Xeneral"
-
-#: ../interfaces/network.ui.h:21
-msgid "Hexadecimal"
-msgstr "Hexadecimal"
-
-#: ../interfaces/network.ui.h:22
-msgid "Host Alias Properties"
-msgstr "Propiedaes d'alies d'equipos remotos"
-
-#: ../interfaces/network.ui.h:23
-msgid "Hosts"
-msgstr "Hosts"
-
-#: ../interfaces/network.ui.h:24
-#: ../interfaces/shares.ui.h:14
-msgid "IP address:"
-msgstr "Direición IP:"
-
-#: ../interfaces/network.ui.h:25
-msgid "Interface properties"
-msgstr "Propiedaes de la interface"
-
-#: ../interfaces/network.ui.h:26
-msgid "Location:"
-msgstr "Llocalización:"
-
-#: ../interfaces/network.ui.h:27
-msgid "Loud"
-msgstr "Ruidosu"
-
-#: ../interfaces/network.ui.h:28
-msgid "Low"
-msgstr "Baxu"
-
-#: ../interfaces/network.ui.h:29
-msgid "Medium"
-msgstr "Mediu"
-
-#: ../interfaces/network.ui.h:30
-msgid "Modem"
-msgstr "Módem:"
-
-#: ../interfaces/network.ui.h:31
-msgid "Network _password:"
-msgstr "Con_traseña de rede:"
-
-#: ../interfaces/network.ui.h:32
-msgid "Network name (_ESSID):"
-msgstr "Nome de la rede (_ESSID):"
-
-#: ../interfaces/network.ui.h:33
 msgid "Off"
 msgstr "Apagáu"
 
-#: ../interfaces/network.ui.h:34
-msgid "Options"
-msgstr "Opciones"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
+msgstr "Baxu"
 
-#: ../interfaces/network.ui.h:35
-msgid "P_assword"
-msgstr "_Contraseña"
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
+msgstr "Mediu"
 
-#: ../interfaces/network.ui.h:36
-msgid "Password _type:"
-msgstr "Tipu de _contraseña:"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr "Ruidosu"
 
-#: ../interfaces/network.ui.h:37
-msgid "Plain (ASCII)"
-msgstr "Planu (ASCII)"
-
-#: ../interfaces/network.ui.h:38
-msgid "Pulses"
-msgstr "Pulsos"
-
-#: ../interfaces/network.ui.h:39
-msgid "Save current network configuration as a location"
-msgstr "Guarda la configuración actual de rede como una llocalización"
-
-#: ../interfaces/network.ui.h:40
+#: ../interfaces/network.ui.h:5
 msgid "Tones"
 msgstr "Tonos"
 
-#: ../interfaces/network.ui.h:41
-msgid "Use the Internet service provider nameservers"
-msgstr "Usar los sirvidores de nomes del fornidor de servicios d'internet"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr "Pulsos"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "_Autodeteutar"
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr "Planu (ASCII)"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr "Hexadecimal"
+
+#: ../interfaces/network.ui.h:9
+msgid "Location:"
+msgstr "Llocalización:"
+
+#: ../interfaces/network.ui.h:10
+msgid "Save current network configuration as a location"
+msgstr "Guarda la configuración actual de rede como una llocalización"
+
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr "Desaniciar la llocalización actual"
+
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "Conexones"
+
+#: ../interfaces/network.ui.h:13
+msgid "_Host name:"
+msgstr "_Nome del Host:"
+
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "Nome de do_miniu:"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "Configuración del host"
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Xeneral"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "Sirvidores DNS"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Dominios de gueta"
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "Hosts"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "Propiedaes de la interface"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "_Activar esta conexón"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr "Ac_tivar el mou itinerante"
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr "Tipu de conexón:"
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "Nome de la rede (_ESSID):"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "Con_traseña de rede:"
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr "Tipu de _contraseña:"
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr "Axustes inalámbricos"
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "Con_figuración:"
+
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_Direición IP:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "Mázcara de _sub-rede:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "_Direición de la puerta d'enllaz:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "Axustes de la conexón"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "IP _llocal:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "IP _remota:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "Númberu de _teléfonu:"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "Prefixu de _marcáu:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "Nome del puntu d'accesu:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "Datos del fornidor de servicios d'Internet"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "_Usuariu:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "_Contraseña"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Datos de la cuenta"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "_Puertu del módem:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "Tipu de _marcáu:"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "_Direición de la puerta d'enllaz:"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "_Nome del Host:"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "_Direición IP:"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "IP _llocal:"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "_Puertu del módem:"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "Númberu de _teléfonu:"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "IP _remota:"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "_Reintentar si se corta la conexón o falla al aniciar"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "_Afitar el módem como ruta predeterminada a Internet"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "Mázcara de _sub-rede:"
-
-#: ../interfaces/network.ui.h:55
-msgid "_Username:"
-msgstr "_Usuariu:"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Volume:"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "Configuraciones avanzaes:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "_Autodeteutar"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "Interface ethernet:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "Axustes del módem"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Módem:"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "_Afitar el módem como ruta predeterminada a Internet"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Usar los sirvidores de nomes del fornidor de servicios d'internet"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "_Reintentar si se corta la conexón o falla al aniciar"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Opciones"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "Propiedaes d'alies d'equipos remotos"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "Direición IP:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Alies:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Seleicione los servicios que-y prestaría activar:"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Configuraciones avanzaes:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Allowed Hosts"
-msgstr "Equipos permitíos"
-
-#: ../interfaces/shares.ui.h:2
-msgid "Hosts Settings"
-msgstr "Configuración d'equipos"
-
-#: ../interfaces/shares.ui.h:3
-msgid "Share Properties"
-msgstr "Propiedaes de compartición"
-
-#: ../interfaces/shares.ui.h:4
-msgid "Shared Folder"
-msgstr "Carpeta compartía"
-
-#: ../interfaces/shares.ui.h:5
-msgid "Windows sharing"
-msgstr "Compartición con Windows"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user:"
-msgstr "Introduza la contraseña pal usuariu:"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Add allowed hosts"
-msgstr "Amestar equipos permitíos"
-
-#: ../interfaces/shares.ui.h:8
-msgid "Allowed hosts:"
-msgstr "Equipos permitíos:"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Comment:"
-msgstr "Comentariu:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Domain / _Workgroup:"
-msgstr "Dominiu / _Grupu de trabayu:"
-
-#: ../interfaces/shares.ui.h:11
-msgid "Enter password for user"
-msgstr "Introduz la contraseña d'usuariu"
-
-#: ../interfaces/shares.ui.h:12
-msgid "General Properties"
-msgstr "Propiedaes Xenerales"
-
-#: ../interfaces/shares.ui.h:13
-msgid "Host name:"
-msgstr "Nome del Host:"
-
-#: ../interfaces/shares.ui.h:15
-msgid "Name:"
-msgstr "Nome:"
-
-#: ../interfaces/shares.ui.h:16
-msgid "Netmask:"
-msgstr "Mázcara de rede:"
-
-#: ../interfaces/shares.ui.h:17
-msgid "Network:"
-msgstr "Rede:"
-
-#: ../interfaces/shares.ui.h:18
-#: ../src/shares/nfs-acl-table.c:56
-msgid "Read only"
-msgstr "Namái llectura"
-
-#: ../interfaces/shares.ui.h:19
-msgid "Share"
-msgstr "Compartir"
-
-#: ../interfaces/shares.ui.h:20
-msgid "Share through:"
-msgstr "Compartir a traviés de:"
-
-#: ../interfaces/shares.ui.h:21
-#: ../src/shares/shares.desktop.in.in.h:2
-#: ../src/shares/shares-tool.c:239
-msgid "Shared Folders"
-msgstr "Compartir Carpetes"
-
-#: ../interfaces/shares.ui.h:22
-msgid "This computer is a _WINS server"
-msgstr "Esti ordenador ye un sirvidor _WINS"
-
-#: ../interfaces/shares.ui.h:23
-msgid "Users"
-msgstr "Usuarios"
-
-#: ../interfaces/shares.ui.h:24
-msgid "WINS _server:"
-msgstr "_Sirvidor WINS:"
-
-#: ../interfaces/shares.ui.h:25
 msgid "_Path:"
 msgstr "_Camín:"
 
-#: ../interfaces/shares.ui.h:26
+#: ../interfaces/shares.ui.h:2
+msgid "Share through:"
+msgstr "Compartir a traviés de:"
+
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr "Carpeta compartía"
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "Comentariu:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "Nome:"
+
+#: ../interfaces/shares.ui.h:6
 msgid "_Read only"
 msgstr "Namái _Llectura"
 
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "Propiedaes de compartición"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "Equipos permitíos"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "Compartir"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Amestar equipos permitíos"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Equipos permitíos:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Nome del Host:"
+
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "Rede:"
+
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Mázcara de rede:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "Namái llectura"
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr "Configuración d'equipos"
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
+#: ../src/shares/shares-tool.c:237
+msgid "Shared Folders"
+msgstr "Compartir Carpetes"
+
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "Dominiu / _Grupu de trabayu:"
+
+#: ../interfaces/shares.ui.h:20
+msgid "This computer is a _WINS server"
+msgstr "Esti ordenador ye un sirvidor _WINS"
+
+#: ../interfaces/shares.ui.h:21
+msgid "WINS _server:"
+msgstr "_Sirvidor WINS:"
+
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr "Compartición con Windows"
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Propiedaes Xenerales"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "Usuarios"
+
+#: ../interfaces/shares.ui.h:25
+msgid "Enter password for user"
+msgstr "Introduz la contraseña d'usuariu"
+
+#: ../interfaces/shares.ui.h:26
+msgid "Enter password for user:"
+msgstr "Introduza la contraseña pal usuariu:"
+
 #: ../interfaces/time.ui.h:1
-msgid "Selection"
-msgstr "Seleición"
+msgid "Time zone"
+msgstr "Estaya horaria"
 
 #: ../interfaces/time.ui.h:2
 msgid "Time Zone"
 msgstr "Estaya horaria"
 
 #: ../interfaces/time.ui.h:3
-msgid "Add NTP Server"
-msgstr "Amestar sirvidor NTP"
-
-#: ../interfaces/time.ui.h:4
-msgid "NTP server"
-msgstr "Sirvidor NTP"
-
-#: ../interfaces/time.ui.h:5
-msgid "Se_lect Servers"
-msgstr "Se_leicionar Sirvidores"
-
-#: ../interfaces/time.ui.h:6
-msgid "Synchronize now"
-msgstr "Sincronizar agora"
-
-#: ../interfaces/time.ui.h:7
-msgid "Time servers"
-msgstr "Hora de servidores"
-
-#: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "Hora de servidores:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "Estaya horaria"
-
-#: ../interfaces/time.ui.h:10
 msgid "Time zone:"
 msgstr "Estaya horaria:"
 
-#: ../interfaces/time.ui.h:11
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr "Seleición"
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "Hora de servidores"
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "Sirvidor NTP"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "Amestar sirvidor NTP"
+
+#: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
 msgstr "Desconfigurao"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_Configuración:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "Hora de servidores:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "Se_leicionar Sirvidores"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "_Hora:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "_Data:"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "_Hora:"
+msgid "Synchronize now"
+msgstr "Sincronizar agora"
 
 #: ../interfaces/users.ui.h:1
-msgid "Advanced Settings"
-msgstr "Configuración avanzada"
+msgid "_Manage Groups"
+msgstr "_Xestionar grupos"
 
 #: ../interfaces/users.ui.h:2
-msgid "Automatic UID/GID"
-msgstr "UID/GID Automáticu"
-
-#: ../interfaces/users.ui.h:3
-msgid "Basic Settings"
-msgstr "Configuración Básica"
-
-#: ../interfaces/users.ui.h:4
-msgid "Group Members"
-msgstr "Miembros del Grupu"
-
-#: ../interfaces/users.ui.h:5
-msgid "Optional Settings"
-msgstr "Configuración Opcional"
-
-#: ../interfaces/users.ui.h:6
-msgid "Password Settings"
-msgstr "Configuración Contraseñes"
-
-
-#: ../interfaces/users.ui.h:8
-msgid "System Defaults"
-msgstr "Configuración por Defeutu nel Sistema"
-
-#: ../interfaces/users.ui.h:9
 msgid "Account _type:"
 msgstr "_Triba de cuenta:"
 
-#: ../interfaces/users.ui.h:10
-msgid "Advanced"
-msgstr "Avanzáu"
-
-#: ../interfaces/users.ui.h:11
-msgid "A user with this name already exists. Please choose a different short name for the new user."
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
 msgstr ""
 
-#: ../interfaces/users.ui.h:12
-msgid "Assign a random password by default"
-msgstr "Asignar una contraseña al debalu por defeutu"
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "_Contraseña:"
 
-#: ../interfaces/users.ui.h:13
-msgid "Change Advanced User Settings"
-msgstr "Camudar los axustes avanzaos del usuariu"
-
-#: ../interfaces/users.ui.h:14
-msgid "Change User Account Type"
-msgstr "Camudar la triba de cuenta d'usuariu"
-
-#: ../interfaces/users.ui.h:15
-msgid "Change User Name and Login"
-msgstr ""
-
-#: ../interfaces/users.ui.h:16
-msgid "Change User Password"
-msgstr "Camudar Contraseña d'Usuariu..."
-
-#: ../interfaces/users.ui.h:17
-msgid "Changing advanced settings for:"
-msgstr "Camudar Configuraciones avanzaes pa:"
-
-#: ../interfaces/users.ui.h:18
-msgid "Changing user account type for:"
-msgstr ""
-
-#: ../interfaces/users.ui.h:19
-msgid "Changing user name for:"
-msgstr "Camudar el n_ome d'usuariu pa:"
-
-#: ../interfaces/users.ui.h:20
-msgid "Changing user password for:"
-msgstr "Camudando la contraseña d'usuariu pa:"
-
-#: ../interfaces/users.ui.h:21
-msgid "Check password _quality"
-msgstr "Chequear _calidá contraseña"
-
-#: ../interfaces/users.ui.h:22
-msgid "Con_firmation:"
-msgstr "Con_firmación:"
-
-
-#: ../interfaces/users.ui.h:24
-msgid "Create New User"
-msgstr "Crear Nuevu Usuariu"
-
-#: ../interfaces/users.ui.h:25
-msgid "Create a new user"
-msgstr "Crear un nuevu usuariu"
-
-#: ../interfaces/users.ui.h:26
-msgid "Days between warning and password expiration:"
-msgstr "Númberu de díes ente alvertencia y espiración de contraseña:"
-
-#: ../interfaces/users.ui.h:27
-msgid "Default _group:"
-msgstr "_Grupu por defeutu:"
-
-#: ../interfaces/users.ui.h:28
-msgid "Default _shell:"
-msgstr "_Shell por defeutu:"
-
-#: ../interfaces/users.ui.h:29
-msgid "Don't ask for password on _login"
-msgstr "Nun entrugar más vegaes la contraseña al _aniciar sesión"
-
-#: ../interfaces/users.ui.h:30
-msgid "Full _Name:"
-msgstr "Nome _Completu:"
-
-#: ../interfaces/users.ui.h:32
-msgid "Generate _random password"
-msgstr "Xenerar contraseña _al debalu"
-
-#: ../interfaces/users.ui.h:33
-msgid "Group _ID:"
-msgstr "_ID Grupu:"
-
-#: ../interfaces/users.ui.h:34
-msgid "Group _name:"
-msgstr "_Nome Grupu:"
-
-#: ../interfaces/users.ui.h:35
-msgid "Group properties"
-msgstr "Propiedaes grupu"
-
-#: ../interfaces/users.ui.h:36
-msgid "Groups settings"
-msgstr "Configuración Grupos"
-
-#: ../interfaces/users.ui.h:37
-msgid "Ma_ximum days a password may be used:"
-msgstr "Díes má_simos nos qu'una contraseña puede ser usada:"
-
-#: ../interfaces/users.ui.h:38
-#: ../src/time/time-tool.c:522
-msgid "Manual"
-msgstr "Manual"
-
-#: ../interfaces/users.ui.h:39
-msgid "Maximum GID:"
-msgstr "GID Másimu:"
-
-#: ../interfaces/users.ui.h:40
-msgid "Maximum UID:"
-msgstr "UID Másimu:"
-
-#: ../interfaces/users.ui.h:41
-msgid "Mi_nimum days between password changes:"
-msgstr "Númberu mí_nimu de díes ente cambéu de contraseñes:"
-
-#: ../interfaces/users.ui.h:42
-msgid "Minimum GID:"
-msgstr "GID Mínimu:"
-
-#: ../interfaces/users.ui.h:43
-msgid "Minimum UID:"
-msgstr "UID Mínimu:"
-
-#: ../interfaces/users.ui.h:44
-msgid "Minimum days allowed between password changes:"
-msgstr "Mínimu númberu de díes permitíos ente cambeos de contraseñes:"
-
-#: ../interfaces/users.ui.h:45
-msgid "Number of days that a password may be used:"
-msgstr "Númberu de díes qu'una contraseña puede usase:"
-
-#: ../interfaces/users.ui.h:46
-msgid "O_ffice location:"
-msgstr "Llocalización na o_ficina:"
-
-#: ../interfaces/users.ui.h:47
-msgid "Password set to: "
-msgstr "Afitar contraseña a: "
-
-#: ../interfaces/users.ui.h:48
-msgid "Privileges"
-msgstr "Privilexos"
-
-#: ../interfaces/users.ui.h:49
-msgid "Profile _name:"
-msgstr "_Nome del perfil:"
-
-#: ../interfaces/users.ui.h:50
-msgid "Set password b_y hand"
-msgstr "Afitar contraseña _a man"
-
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
-#: ../interfaces/users.ui.h:52
-msgid ""
-"Short name must consist of:\n"
-"  &#x27A3; lower case letters from the English alphabet\n"
-"  &#x27A3; digits\n"
-"  &#x27A3; any of the characters \".\", \"-\" and \"_\""
-msgstr ""
-
-#: ../interfaces/users.ui.h:56
-msgid "Short name must start with a letter!"
-msgstr ""
-
-#: ../interfaces/users.ui.h:57
-msgid "This account is using special settings that have been defined manually. Use the <i>Advanced Settings</i> dialog to tune them."
-msgstr ""
-
-#: ../interfaces/users.ui.h:58
-msgid "User ID:"
-msgstr "ID Usuariu:"
-
-#: ../interfaces/users.ui.h:59
-msgid "User Privileges"
-msgstr "Privilexos del Usuariu"
-
-#: ../interfaces/users.ui.h:60
-msgid "User _password:"
-msgstr "_Contraseña del usuariu:"
-
-#: ../interfaces/users.ui.h:61
-msgid "User profiles"
-msgstr "Perfiles del usuariu"
-
-#: ../interfaces/users.ui.h:62
-msgid "You can't change user ID while the user is logged in."
-msgstr "Nun puedes camudar el ID del usuariu mientres l'usuariu ta coneutáu."
-
-#: ../interfaces/users.ui.h:63
-msgid "_Add Profile"
-msgstr "_Amestar Perfil"
-
-#: ../interfaces/users.ui.h:64
+#: ../interfaces/users.ui.h:5
 msgid "_Advanced Settings"
 msgstr "C_onfiguraciones avanzaes:"
 
-#: ../interfaces/users.ui.h:65
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr ""
+
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:8
+msgid "Group properties"
+msgstr "Propiedaes grupu"
+
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "Configuración Básica"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "_Nome Grupu:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "_ID Grupu:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Miembros del Grupu"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "_Nome del perfil:"
+
+#: ../interfaces/users.ui.h:15
 msgid "_Comments"
 msgstr "_Comentarios"
 
-#: ../interfaces/users.ui.h:66
-msgid "_Custom"
-msgstr "_Personalizar"
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Configuración por Defeutu nel Sistema"
 
-#: ../interfaces/users.ui.h:67
-msgid "_Days between warning and password expiration:"
-msgstr "_Díes ente alvertencia y espiración contraseña:"
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "Direutoriu _Aniciu"
 
-#: ../interfaces/users.ui.h:68
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "_Shell por defeutu:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "_Grupu por defeutu:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Configuración Contraseñes"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Númberu de díes qu'una contraseña puede usase:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Mínimu númberu de díes permitíos ente cambeos de contraseñes:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Númberu de díes ente alvertencia y espiración de contraseña:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Asignar una contraseña al debalu por defeutu"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "UID/GID Automáticu"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "UID Másimu:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "GID Másimu:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "UID Mínimu:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "GID Mínimu:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Privilexos"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Perfiles del usuariu"
+
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr "_Amestar Perfil"
+
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr "Configuración Grupos"
+
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr ""
+
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr "Nome _Completu:"
+
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr "Camudar el n_ome d'usuariu pa:"
+
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr "Camudar Contraseña d'Usuariu..."
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "Con_firmación:"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "Afitar contraseña a: "
+
+#: ../interfaces/users.ui.h:42
 msgid "_Generate"
 msgstr "_Xenerar"
 
+#: ../interfaces/users.ui.h:43
+msgid "Set password b_y hand"
+msgstr "Afitar contraseña _a man"
+
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "Xenerar contraseña _al debalu"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "Camudando la contraseña d'usuariu pa:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "Nun entrugar más vegaes la contraseña al _aniciar sesión"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "Camudar la triba de cuenta d'usuariu"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "_Personalizar"
+
+#: ../interfaces/users.ui.h:52
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr ""
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "Crear Nuevu Usuariu"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "N_ome:"
+
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
+msgstr "Crear un nuevu usuariu"
+
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
+msgid ""
+"Username must consist of:\n"
+"  ➣ lower case letters from the English alphabet\n"
+"  ➣ digits\n"
+"  ➣ any of the characters \".\", \"-\" and \"_\""
+msgstr ""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr ""
+
+#: ../interfaces/users.ui.h:63
+msgid "Username must start with a letter!"
+msgstr ""
+
+#: ../interfaces/users.ui.h:64
+msgid "_Encrypt home folder to protect sensitive data"
+msgstr ""
+
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr ""
+
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "Camudar los axustes avanzaos del usuariu"
+
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "Camudar Configuraciones avanzaes pa:"
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "Llocalización na o_ficina:"
+
 #: ../interfaces/users.ui.h:69
-msgid "_Home directory:"
-msgstr "Direutoriu _Aniciu"
+msgid "_Work phone:"
+msgstr "Teléfonu _Trabayu:"
 
 #: ../interfaces/users.ui.h:70
 msgid "_Home phone:"
 msgstr "Teléfonu _del domiciliu:"
 
 #: ../interfaces/users.ui.h:71
-msgid "_Main group:"
-msgstr "Grupu principal:"
+msgid "Contact Information"
+msgstr ""
 
 #: ../interfaces/users.ui.h:72
-msgid "_Manage Groups"
-msgstr "_Xestionar grupos"
+msgid "User Privileges"
+msgstr "Privilexos del Usuariu"
 
 #: ../interfaces/users.ui.h:73
-msgid "_Name:"
-msgstr "N_ome:"
+msgid "Advanced Settings"
+msgstr "Configuración avanzada"
 
 #: ../interfaces/users.ui.h:74
-msgid "_Password:"
-msgstr "_Contraseña:"
-
-#: ../interfaces/users.ui.h:75
 msgid "_Shell:"
 msgstr "_Shell:"
 
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "Grupu principal:"
+
 #: ../interfaces/users.ui.h:76
-msgid "_Short Name:"
-msgstr "_Nome curtiu:"
+msgid "User ID:"
+msgstr "ID Usuariu:"
 
 #: ../interfaces/users.ui.h:77
-msgid "_Work phone:"
-msgstr "Teléfonu _Trabayu:"
+msgid "You can't change user ID while the user is logged in."
+msgstr "Nun puedes camudar el ID del usuariu mientres l'usuariu ta coneutáu."
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Configuración Opcional"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Númberu mí_nimu de díes ente cambéu de contraseñes:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "Díes má_simos nos qu'una contraseña puede ser usada:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "_Díes ente alvertencia y espiración contraseña:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Avanzáu"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr ""
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -716,72 +753,77 @@ msgstr "La plataforma que tas executando nun ta soportada por esta ferramienta"
 
 #. label
 #: ../src/common/gst-platform-dialog.c:185
-msgid "If you know for sure that it works like one of the platforms listed below, you can select that and continue. Note, however, that this might damage the system configuration or downright cripple your computer."
+msgid ""
+"If you know for sure that it works like one of the platforms listed below, "
+"you can select that and continue. Note, however, that this might damage the "
+"system configuration or downright cripple your computer."
 msgstr "Si tas seguru que trabaya nuna de les plataformes llistaes abaxo, puedes seleicionala y continuar. Nota, en too casu, ello podría ser un riesgu pa la to configuración del sistema y dexar cayíu'l to ordenador."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
 msgstr "Plataforma nun soportada"
 
-#: ../src/common/gst-tool.c:190
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr "Nun pue cargase la configuración"
 
 #. OPERATION_COMMIT
-#: ../src/common/gst-tool.c:192
+#: ../src/common/gst-tool.c:190
 msgid "The configuration could not be saved"
 msgstr "La configuración nun pue guardase"
 
-#: ../src/common/gst-tool.c:196
+#: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
 msgstr "Nun tienes permitíu l'accesu a la configuración del sistema."
 
 #. OPERATION_COMMIT
-#: ../src/common/gst-tool.c:198
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
 msgstr "Nun tienes permitío camudar la configuración del sistema."
 
-#: ../src/common/gst-tool.c:201
+#: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
 msgstr "Alcontráronse datos inválidos."
 
 #. OOBS_RESULT_ERROR
-#: ../src/common/gst-tool.c:203
+#: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
 msgstr "Hebo un fallu desconocíu"
 
-#: ../src/common/gst-tool.c:428
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "Nun pue amosase l'aida"
 
-#: ../src/common/gst-tool.c:612
+#: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
 msgstr "La configuración del sistema camudó."
 
-#: ../src/common/gst-tool.c:614
+#: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
 msgstr "¿Anovar conteníu? Perderás cualisquier cambéu en cursu."
 
-#: ../src/network/address-list.c:76
-#: ../src/network/hosts.c:31
-#: ../src/shares/table.c:38
-#: ../src/users/table.c:40
+#: ../src/common/gst-tool.c:687
+#, c-format
+msgid ""
+"An error occurred while checking for authorizations: %s\n"
+"You may report this as a bug."
+msgstr ""
+
+#: ../src/network/address-list.c:76 ../src/network/hosts.c:31
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "_Amestar"
 
-#: ../src/network/address-list.c:77
-#: ../src/network/hosts.c:33
-#: ../src/shares/table.c:40
-#: ../src/users/table.c:42
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
 msgid "_Delete"
 msgstr "_Desaniciar"
 
-#: ../src/network/address-list.c:486
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "Tipu de direición"
 
-#: ../src/network/callbacks.c:237
-#: ../src/network/callbacks.c:487
+#: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
 msgstr "Camudar configuración del interface"
 
@@ -790,7 +832,9 @@ msgid "Could not autodetect modem device"
 msgstr "Nun pudo autodeteutase preséu módem"
 
 #: ../src/network/callbacks.c:302
-msgid "Check that the device is not busy and that is correctly attached to the computer."
+msgid ""
+"Check that the device is not busy and that is correctly attached to the "
+"computer."
 msgstr "Comprueba que'l preséu nun ta ocupáu y ta correutamente coneutáu al ordenador."
 
 #: ../src/network/callbacks.c:523
@@ -798,7 +842,9 @@ msgid "The host name has changed"
 msgstr "El nome del Host camudó"
 
 #: ../src/network/callbacks.c:526
-msgid "This will prevent you from launching new applications, and so you will have to log in again. Continue anyway?"
+msgid ""
+"This will prevent you from launching new applications, and so you will have "
+"to log in again. Continue anyway?"
 msgstr "Esto prevendrá que llances nueves aplicaciones, y tendrás qu'identificate otra vegada. ¿Siguir igualmente?"
 
 #: ../src/network/callbacks.c:532
@@ -854,10 +900,8 @@ msgstr "PPPoE"
 msgid "%s Properties"
 msgstr "Propiedaes de %s"
 
-#: ../src/network/hosts.c:32
-#: ../src/network/ifaces-list.c:33
-#: ../src/shares/table.c:39
-#: ../src/users/table.c:41
+#: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "_Propiedaes"
 
@@ -879,61 +923,48 @@ msgstr "Activar mou Roaming"
 
 #: ../src/network/ifaces-list.c:289
 #, c-format
-msgid "Essid: %s "
-msgstr "Essid: %s "
+msgid "<b>Essid:</b> %s "
+msgstr ""
 
-#: ../src/network/ifaces-list.c:295
-#, c-format
-msgid "Address: %s Subnet mask: %s"
-msgstr "Direición: %s Mázcara de subrede: %s"
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:299
-#, c-format
-msgid "Address: %s"
-msgstr "Direición: %s"
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:303
-#, c-format
-msgid "Address: %s Remote address: %s"
-msgstr "Direición: %s Direición remota: %s"
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:315
-#, c-format
-msgid "Type: %s Phone number: %s"
-msgstr "Triba: %s Númberu teléfonu: %s"
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:318
-#, c-format
-msgid "Type: %s Access point name: %s"
-msgstr "Triba: %s Nome puntu accesu: %s"
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:325
-#, c-format
-msgid "Type: %s Ethernet interface: %s"
-msgstr "Triba: %s Interface Ethernet: %s"
-
-#: ../src/network/ifaces-list.c:329
-#, c-format
-msgid "Type: %s"
-msgstr "Triba: %s"
-
-#: ../src/network/ifaces-list.c:346
+#: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
 msgstr "Conexón inalámbrica"
 
-#: ../src/network/ifaces-list.c:348
+#: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
 msgstr "Conexón Infrabermeya"
 
-#: ../src/network/ifaces-list.c:350
+#: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
 msgstr "Conexón cableada"
 
-#: ../src/network/ifaces-list.c:352
+#: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
 msgstr "Conexón puertu pararelu"
 
-#: ../src/network/ifaces-list.c:354
+#: ../src/network/ifaces-list.c:364
 msgid "Point to point connection"
 msgstr "Conexón puntu a puntu"
 
@@ -967,7 +998,9 @@ msgid "The interface does not exist"
 msgstr "La interfaz nun esiste"
 
 #: ../src/network/main.c:137
-msgid "Check that it is correctly typed and that it is correctly supported by your system."
+msgid ""
+"Check that it is correctly typed and that it is correctly supported by your "
+"system."
 msgstr "Comprueba que ta escrito correutamente y que ta correutamente soportao pol to sistema."
 
 #: ../src/network/main.c:183
@@ -986,30 +1019,32 @@ msgstr "Configurar la primera interface de rede con un tipu específicu"
 msgid "TYPE"
 msgstr "TRIBA"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "Configure los preseos de rede y les conexones"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "Rede"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Configure los preseos de rede y les conexones"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
 msgstr "Configuración de la rede"
 
-#: ../src/services/callbacks.c:59
+#: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
 msgstr "Configuración del serviciu \"%s\""
 
-#: ../src/services/callbacks.c:119
+#: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
 msgstr "¿De xuru que quies desactivar %s?"
 
-#: ../src/services/callbacks.c:123
-msgid "This may affect your system behavior in several ways, possibly leading to data loss."
+#: ../src/services/callbacks.c:126
+msgid ""
+"This may affect your system behavior in several ways, possibly leading to "
+"data loss."
 msgstr "Esto podría afectar al to sistema en dellos sitios, con posibilidá de perda de datos."
 
 #: ../src/services/service.c:32
@@ -1082,14 +1117,12 @@ msgstr "Sistema d'atroxu de datos"
 #. GST_ROLE_DATABASE_SERVER
 #. GST_ROLE_FILE_SERVER_SMB
 #. GST_ROLE_FILE_SERVER_FTP
-#: ../src/services/service.c:40
-#: ../src/services/service.c:41
+#: ../src/services/service.c:40 ../src/services/service.c:41
 #: ../src/services/service.c:43
 msgid "Folder sharing service"
 msgstr "Serviciu de compartición de carpetes"
 
-#: ../src/services/service.c:40
-#: ../src/services/service.c:41
+#: ../src/services/service.c:40 ../src/services/service.c:41
 msgid "Shares folders over your network"
 msgstr "Compartir direutorios na to rede"
 
@@ -1098,8 +1131,7 @@ msgstr "Compartir direutorios na to rede"
 msgid "FTP service"
 msgstr "Serviciu FTP"
 
-#: ../src/services/service.c:42
-#: ../src/services/service.c:43
+#: ../src/services/service.c:42 ../src/services/service.c:43
 msgid "Shares folders over the Internet"
 msgstr "Compartir direutorios n'Internet"
 
@@ -1422,13 +1454,13 @@ msgstr "Monitor del sistema"
 msgid "Virtual Machine management"
 msgstr "Xestor de Máquina Virtual"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "Configurar qué servicios tienen d'executase cuando s'anicia el sistema"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Servicios"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Configurar qué servicios tienen d'executase cuando s'anicia el sistema"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1479,11 +1511,11 @@ msgstr "Al amestar una ruta compartida, modifícase si yá esiste"
 msgid "PATH"
 msgstr "CAMÍN"
 
-#: ../src/shares/caja/caja-shares.c:152
+#: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
 msgstr "_Carpetes Compartíes..."
 
-#: ../src/shares/caja/caja-shares.c:153
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr "Compartir esta carpeta con otros ordenadores"
 
@@ -1503,7 +1535,7 @@ msgstr "Especificar direición IP"
 msgid "Specify network"
 msgstr "Especificar la rede"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Configurar qué carpetes tan disponibles na to rede cercana"
 
@@ -1532,28 +1564,42 @@ msgstr "Configuraciones de la carpeta '%s'"
 msgid "Share Folder"
 msgstr "Compartir Direutoriu"
 
-#: ../src/shares/shares-tool.c:155
+#: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
 msgstr "Compartir servicios non instalaos"
 
-#: ../src/shares/shares-tool.c:157
-msgid "You need to install at least either Samba or NFS in order to share your folders."
+#: ../src/shares/shares-tool.c:154
+msgid ""
+"You need to install at least either Samba or NFS in order to share your "
+"folders."
 msgstr "Necesites instalar a lo menos Samba o NFS pa compartir les carpetes."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Camudar hora, data y estaya horaria"
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
+msgstr ""
 
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/e-map/e-map.c:622
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
+msgstr ""
+
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Hora y data"
 
-#: ../src/time/time-tool.c:397
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Camudar hora, data y estaya horaria"
+
+#: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "El soporte NTP nun ta instaláu"
 
-#: ../src/time/time-tool.c:399
-msgid "Please install and activate NTP support in the system to enable synchronization of your local time server with internet time servers."
+#: ../src/time/time-tool.c:400
+msgid ""
+"Please install and activate NTP support in the system to enable "
+"synchronization of your local time server with internet time servers."
 msgstr "Instala y activa sofitu NTP nel sistema pa activar la sincronización del to sirvidor d'hora llocal con sirvidores d'hora n'Internet, por favor."
 
 #: ../src/time/time-tool.c:429
@@ -1572,7 +1618,11 @@ msgstr "Sincronizando reló del sistema"
 msgid "Keep synchronized with Internet servers"
 msgstr "Caltener sincronizáu con servidores d'Internet"
 
-#: ../src/time/time-tool.c:668
+#: ../src/time/time-tool.c:522
+msgid "Manual"
+msgstr "Manual"
+
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "Axustes de hora y data"
 
@@ -1580,11 +1630,9 @@ msgstr "Axustes de hora y data"
 msgid "Administrator group can not be deleted"
 msgstr "El grupu del alministrador nun pue desaniciase"
 
-#: ../src/users/group-settings.c:58
-#: ../src/users/group-settings.c:220
-#: ../src/users/group-settings.c:257
-#: ../src/users/user-settings.c:74
-#: ../src/users/user-settings.c:499
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "Esto pue dexar el sistema frayáu."
 
@@ -1597,59 +1645,61 @@ msgstr "¿De xuru que quies desaniciar el grupu \"%s\"?"
 msgid "This may leave files with invalid group ID in the filesystem."
 msgstr "Esto pue dexar ficheros con ID de grupu non válidu nel sistema de ficheros."
 
-#: ../src/users/group-settings.c:143
+#: ../src/users/group-settings.c:144
 msgid "New group"
 msgstr "Nuevu grupu"
 
-#: ../src/users/group-settings.c:150
+#: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
 msgstr "Propiedaes del Grupu '%s'"
 
-#: ../src/users/group-settings.c:216
+#: ../src/users/group-settings.c:217
 msgid "Group name is empty"
 msgstr "El nome del grupu ta ermu"
 
-#: ../src/users/group-settings.c:217
+#: ../src/users/group-settings.c:218
 msgid "A group name must be specified."
 msgstr "Tien d'especificase un nome de grupu"
 
-#: ../src/users/group-settings.c:219
+#: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
 msgstr "El nome de grupu del alministrador nun tendría de modificase"
 
-#: ../src/users/group-settings.c:222
+#: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
 msgstr "El nome del grupu tien caráuteres non válidos"
 
-#: ../src/users/group-settings.c:223
-msgid "Please set a valid group name consisting of a lower case letter followed by lower case letters and numbers."
+#: ../src/users/group-settings.c:224
+msgid ""
+"Please set a valid group name consisting of a lower case letter followed by "
+"lower case letters and numbers."
 msgstr "Afita un nome d'usuariu válidu, consistente nuna lletra minúscula siguida de lletres minúscules y/o númberos."
 
-#: ../src/users/group-settings.c:228
+#: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
 msgstr "El grupu \"%s\" yá esiste"
 
-#: ../src/users/group-settings.c:229
+#: ../src/users/group-settings.c:230
 msgid "Please choose a different group name."
 msgstr "Por favor, escueyi un nome de grupu distintu."
 
-#: ../src/users/group-settings.c:256
+#: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
 msgstr "El ID del Grupu de la cuenta d'Alministrador nun debiera camudase"
 
 #. check that GID is free
-#: ../src/users/group-settings.c:260
+#: ../src/users/group-settings.c:261
 #, c-format
 msgid "Group ID %d is already used by group \"%s\""
 msgstr "El ID del Grupu %d yá ta usándose pol grupu \"%s\""
 
-#: ../src/users/group-settings.c:263
+#: ../src/users/group-settings.c:264
 msgid "Please choose a different numeric identifier for the new group."
 msgstr "Por favor, escueyi un identificador distintu pal nuevu grupu."
 
-#: ../src/users/group-settings.c:265
+#: ../src/users/group-settings.c:266
 #, c-format
 msgid "Please choose a different numeric identifier for group \"%s\"."
 msgstr "Por favor, escueyi un identificador numbéricu distintu pal grupu \"%s\"."
@@ -1657,6 +1707,15 @@ msgstr "Por favor, escueyi un identificador numbéricu distintu pal grupu \"%s\"
 #: ../src/users/groups-table.c:44
 msgid "Group name"
 msgstr "Nome del grupu"
+
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
+msgstr ""
+
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
+msgstr ""
 
 #: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
@@ -1742,224 +1801,316 @@ msgstr "Usar preseos de vídeu"
 msgid "Be able to get administrator privileges"
 msgstr "Poder algamar privilexos d'alministrador"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Amestar o desaniciar usuarios y grupos"
+#: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr ""
 
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr ""
+
+#: ../src/users/run-passwd.c:421
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/users/run-passwd.c:498
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/users/run-passwd.c:504
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/users/run-passwd.c:510
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/users/run-passwd.c:513
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/users/run-passwd.c:517
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/users/run-passwd.c:524
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/users/run-passwd.c:528
+#, c-format
+msgid "Unknown error"
+msgstr ""
+
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Usuarios y grupos"
 
-#: ../src/users/user-settings.c:71
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Amestar o desaniciar usuarios y grupos"
+
+#: ../src/users/user-password.c:97
+msgid "Password is too short"
+msgstr "La contraseña ye enforma curtia"
+
+#: ../src/users/user-password.c:98
+msgid ""
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
+msgstr ""
+
+#: ../src/users/user-password.c:101
+msgid "Password confirmation is not correct"
+msgstr "La confirmación de la contraseña nun ye correuta"
+
+#: ../src/users/user-password.c:102
+msgid "Check that you have provided the same password in both text fields."
+msgstr "Comprueba que diste la mesma contraseña en dambos campos de testu."
+
+#: ../src/users/user-password.c:445
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/users/user-password.c:456
+msgid "Please type again your current password."
+msgstr ""
+
+#: ../src/users/user-password.c:463
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
 msgstr "La cuenta d'Alministrador nun pue desaniciase"
 
-#: ../src/users/user-settings.c:82
+#: ../src/users/user-settings.c:96
 #, c-format
 msgid "%s is currently using this computer"
 msgstr "%s ta usando esti equipu anguaño"
 
-#: ../src/users/user-settings.c:85
+#: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
 msgstr "Asegúrate de que l'usuariu zarró la sesión enantes de desaniciar esta cuenta."
 
-#: ../src/users/user-settings.c:95
+#: ../src/users/user-settings.c:109
 msgid "Can't delete the only administrator account"
 msgstr "Nun puede desaniciase la única cuenta d'alministrador"
 
-#: ../src/users/user-settings.c:97
+#: ../src/users/user-settings.c:111
 #, c-format
-msgid "%s is the only administrator on this computer. Deleting this account would lock you out of administrating the system."
+msgid ""
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
 msgstr "%s ye l'únicu alministrador nesti equipu. Desaniciar esta cuenta, dexaráte ensin privilexos d'alministración nel sistema."
 
-#: ../src/users/user-settings.c:107
+#: ../src/users/user-settings.c:121
 #, c-format
-msgid "Are you sure you want to delete account \"%s\"?"
-msgstr "¿De xuru que quies desaniciar la cuenta \"%s\"?"
+msgid "Remove home folder for %s?"
+msgstr ""
 
-#: ../src/users/user-settings.c:110
-msgid "This will disable this user's access to the system without deleting the user's home directory."
-msgstr "Esto desactivará l'accesu d'esti usuariu al sistema, pero'l so direutoriu personal nun se desaniciará."
+#: ../src/users/user-settings.c:124
+#, c-format
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr ""
 
-#: ../src/users/user-settings.c:388
+#: ../src/users/user-settings.c:132
+msgid "Keep Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:133
+msgid "Don't Remove Account"
+msgstr ""
+
+#: ../src/users/user-settings.c:134
+msgid "Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:330
 msgid "Superuser"
 msgstr "Superusuariu"
 
-#: ../src/users/user-settings.c:393
+#: ../src/users/user-settings.c:335
 msgid "Custom"
 msgstr "Personalizar"
 
-#: ../src/users/user-settings.c:416
+#. TRANSLATORS: This applies to a password.
+#: ../src/users/user-settings.c:344
+msgid "None"
+msgstr ""
+
+#: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
 msgstr "Caráuter non válidu \"%c\" en comentariu"
 
-#: ../src/users/user-settings.c:417
+#: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
 msgstr "Comprueba qu'esti caráuter nun ta usáu."
 
-#: ../src/users/user-settings.c:440
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "Camín incompletu en direutoriu d'aniciu"
 
-#: ../src/users/user-settings.c:441
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
-"i.e.: /home/john."
+"<span size=\"smaller\">i.e.: /home/john</span>."
 msgstr ""
-"Introduz el camín completu pal directoriu d'usuariu\n"
-"exemplu.: /home/john."
 
-#: ../src/users/user-settings.c:456
-msgid "Home directory already exists"
-msgstr "El directoriu d'aniciu yá esiste"
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
+msgstr ""
 
-#: ../src/users/user-settings.c:457
+#: ../src/users/user-settings.c:449
 #, c-format
-msgid "The directory <tt>%s</tt> already exists. User may not have the permissions required to read or write in that directory. Do you want to use it anyway?"
-msgstr "El direutoriu <tt>%s</tt> yá esiste. Puede que l'usuariu nun tenga los permisos necesarios pa lleer o escribir nesi direutoriu. ¿Quies usalu de toes formes?"
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr ""
 
-#: ../src/users/user-settings.c:463
-msgid "Use this directory"
-msgstr "Usar esti direutoriu"
+#: ../src/users/user-settings.c:461
+msgid "_Replace With Old Files"
+msgstr ""
 
-#: ../src/users/user-settings.c:498
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr ""
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr ""
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr ""
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr ""
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr ""
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:604
 msgid "ID for the root user should not be modified"
 msgstr "El ID pal usuariu root nun debiera de modificase"
 
 #. check that UID is free
-#: ../src/users/user-settings.c:502
+#: ../src/users/user-settings.c:608
 #, c-format
 msgid "User ID %d is already used by user %s"
 msgstr "El ID d'usuariu %d yá ta usándose pol usuariu %s"
 
-#: ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:610
 #, c-format
 msgid "Please choose a different numeric identifier for %s."
 msgstr "Por favor, escueyi un identificador numbéricu distintu pa %s."
 
-#: ../src/users/user-settings.c:522
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr "Camín incompletu nel shell"
 
-#: ../src/users/user-settings.c:523
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
-"i.e.: /bin/bash."
+"<span size=\"smaller\">i.e.: /bin/bash</span>."
 msgstr ""
-"Introduz un camín completu pal shell\n"
-"ex: /bin/bash."
 
-#: ../src/users/user-settings.c:559
-msgid "Password is too short"
-msgstr "La contraseña ye enforma curtia"
-
-#: ../src/users/user-settings.c:560
-msgid "User passwords must be longer than 6 characters and preferably formed by numbers, letters and special characters."
-msgstr "Les contraseñes d'usuariu tienen de ser más llargues de 6 carauteres y preferiblemente formaes por númberos, lletres y carauteres especiales."
-
-#: ../src/users/user-settings.c:563
-msgid "Password confirmation is not correct"
-msgstr "La confirmación de la contraseña nun ye correuta"
-
-#: ../src/users/user-settings.c:564
-msgid "Check that you have provided the same password in both text fields."
-msgstr "Comprueba que diste la mesma contraseña en dambos campos de testu."
-
-#: ../src/users/user-settings.c:614
+#: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
 msgstr "Nun pueden revocase los privilexos d'alministración"
 
-#: ../src/users/user-settings.c:617
+#: ../src/users/user-settings.c:666
 #, c-format
-msgid "%s is the only administrator on this computer. Revoking administration rights for this account would lock you out of administrating the system."
+msgid ""
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
 msgstr "%s ye l'únicu alministrador nesti equipu. Desaniciar esta cuenta dexaráte ensin privilexos d'alministración nel sistema."
 
-#: ../src/users/user-settings.c:634
+#: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
 msgstr "Tas a piques de revocar los tos propios privilexos d'alministración"
 
-#: ../src/users/user-settings.c:637
+#: ../src/users/user-settings.c:686
 #, c-format
-msgid "%s will no longer be able to perform administrative tasks. This account won't be allowed to get administration rights back on its own."
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
 msgstr "%s nun podrás facer xeres alministratives. Nun se permitirá qu'esta cuenta obtenga privilexos d'alministración por si mesma."
 
-#: ../src/users/user-settings.c:642
+#: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
 msgstr "Renunciar a los privilexos d'alministración"
 
-#: ../src/users/users-tool.c:271
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr ""
+
+#: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "Configuración d'Usuarios"
-
-msgid ""
-"You need administrator privileges to use this tool. Enter a password to modify\n"
-"your system configuration."
-msgstr ""
-"Pa usar esta ferramienta, necesita privilexos d'alministrador. Introduza una contraseña pa modificar\n"
-"la configuración del so sistema."
-
-msgid "_Unlock"
-msgstr "Desbloq_uiar"
-
-#, fuzzy
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Please enter your root password</"
-#~ "span>"
-#~ msgstr "Contraseña"
-#~ msgid "Apply location as the current configuration"
-#~ msgstr "Aplicar la llocalización como la configuración actual"
-#~ msgid "Install services"
-#~ msgstr "Instalar servicios"
-#~ msgid ""
-#~ "Allow this user to open a local session without entering his password. "
-#~ "The password will still be required to perform administrative tasks."
-#~ msgstr ""
-#~ "Permitir a esti usuariu aniciar una sesión llocal ensin introducir la so "
-#~ "contraseña. Entá se requerirá la contraseña pa facer xeres "
-#~ "alministratives."
-#~ msgid "User must log out before you can change his ID."
-#~ msgstr ""
-#~ "L'usuariu tien de zarrar la sesión enantes que puedas camudar el so ID"
-#~ msgid "_Add Group"
-#~ msgstr "_Amestar Grupu"
-#~ msgid "_Add User"
-#~ msgstr "_Amestar Usuariu"
-#~ msgid "_Profile:"
-#~ msgstr "_Perfil:"
-#~ msgid "_Real name:"
-#~ msgstr "Nome _real:"
-#~ msgid "Install Unix networks support (_NFS)"
-#~ msgstr "Instalar soporte pa redes Unix (_NFS)"
-#~ msgid "Install Windows networks support (_SMB)"
-#~ msgstr "Instalar soporte pa redes Windows (_SMB)"
-#~ msgid "Install NTP support"
-#~ msgstr "Instalar soporte NTP"
-#~ msgid "Share files with the local network"
-#~ msgstr "Compartir ficheros cola rede llocal"
-#~ msgid "Use VirtualBox"
-#~ msgstr "Usar VirtualBox"
-#~ msgid "Account '%s' Properties"
-#~ msgstr "Propiedaes de la Cuenta '%s'"
-#~ msgid "User name is empty"
-#~ msgstr "El nome d'usuariu ta ermu"
-#~ msgid "A user name must be specified."
-#~ msgstr "Tien d'afitase un nome d'usuariu."
-#~ msgid "User name has invalid characters"
-#~ msgstr "El nome d'usuariu tien carauteres non válidos"
-#~ msgid ""
-#~ "Please set a valid user name consisting of a lower case letter followed "
-#~ "by lower case letters and numbers."
-#~ msgstr ""
-#~ "Afita un nome d'usuariu válidu, consistente nuna lletra minúscula siguida "
-#~ "de lletres minúscules y/o númberos."
-#~ msgid "Please enter a different home directory path."
-#~ msgstr "Introduz un camín diferente pal direutoriu d'aniciu, por favor."
-#~ msgid "Administrator account's user ID should not be modified"
-#~ msgstr ""
-#~ "El ID de la cuenta d'usuariu del alministrador nun tendría de camudase"
-#~ msgid "Name"
-#~ msgstr "Nome"
-#~ msgid "Login name"
-#~ msgstr "Nome d'entrada"
-

@@ -1,768 +1,756 @@
-# Hungarian translation of mate-system-tools.
-# Copyright (C) 2000, 2001, 2003, 2004, 2005, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-system-tools package.
-#
-# Robert Vanyi <robi at mora.u-szeged dot hu>, 2000, 2001.
-# Emese Kovacs <emese at mate dot hu>, 2000, 2001.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Andras Timar <timar at mate dot hu>, 2001, 2003.
-# Laszlo Dvornik <dvornik at mate dot hu>, 2004.
+# Emese Kovacs <emese at mate dot hu>, 2000, 2001.
 # Gabor Kelemen <kelemeng at mate dot hu>, 2004, 2005, 2007, 2008, 2009, 2010.
+# Laszlo Dvornik <dvornik at mate dot hu>, 2004.
 # Máthé Zoltán <mathzoltan at gmail dot com>, 2008.
+# Robert Vanyi <robi at mora.u-szeged dot hu>, 2000, 2001.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-29 20:23+0200\n"
-"PO-Revision-Date: 2010-08-29 20:23+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng at mate dot hu>\n"
-"Language-Team: Hungarian <mate at fsf dot hu>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:53+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../interfaces/network.ui.h:1 ../src/network/ifaces-list.c:326
-msgid "Access point name:"
-msgstr "Hozzáférési pont neve:"
+#: ../interfaces/network.ui.h:1
+msgid "Off"
+msgstr "Ki"
 
 #: ../interfaces/network.ui.h:2
-msgid "Account data"
-msgstr "Hozzáférés adatai"
+msgid "Low"
+msgstr "Alacsony"
 
 #: ../interfaces/network.ui.h:3
-msgid "Aliases:"
-msgstr "Álnevek:"
+msgid "Medium"
+msgstr "Közepes"
 
 #: ../interfaces/network.ui.h:4
-msgid "Con_figuration:"
-msgstr "_Beállítások:"
+msgid "Loud"
+msgstr "Hangos"
 
 #: ../interfaces/network.ui.h:5
-msgid "Connection Settings"
-msgstr "Kapcsolat beállításai"
+msgid "Tones"
+msgstr "Hangok"
 
 #: ../interfaces/network.ui.h:6
-msgid "Connection type:"
-msgstr "Kapcsolattípus:"
+msgid "Pulses"
+msgstr "Impulzusok"
 
 #: ../interfaces/network.ui.h:7
-msgid "Connections"
-msgstr "Kapcsolatok"
+msgid "Plain (ASCII)"
+msgstr "Egyszerű (ASCII)"
 
 #: ../interfaces/network.ui.h:8
-msgid "DNS"
-msgstr "DNS"
+msgid "Hexadecimal"
+msgstr "Hexadecimális"
 
 #: ../interfaces/network.ui.h:9
-msgid "DNS Servers"
-msgstr "DNS kiszolgálók"
+msgid "Location:"
+msgstr "Hely:"
 
 #: ../interfaces/network.ui.h:10
-msgid "D_omain name:"
-msgstr "Tart_ománynév:"
+msgid "Save current network configuration as a location"
+msgstr "Az aktuális hálózati konfiguráció elmentése helyként"
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
 msgstr "Jelenlegi hely törlése"
 
 #: ../interfaces/network.ui.h:12
-msgid "E_nable roaming mode"
-msgstr "_Barangoló mód engedélyezése"
+msgid "Connections"
+msgstr "Kapcsolatok"
 
 #: ../interfaces/network.ui.h:13
-msgid "E_nable this connection"
-msgstr "Ezen kapcsolat _engedélyezése"
+msgid "_Host name:"
+msgstr "_Gépnév:"
 
-#: ../interfaces/network.ui.h:14 ../src/network/ifaces-list.c:335
-msgid "Ethernet interface:"
-msgstr "Ethernet csatoló:"
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "Tart_ománynév:"
 
-#: ../interfaces/network.ui.h:15 ../interfaces/users.ui.h:27
-msgid "General"
-msgstr "Általános"
-
-#: ../interfaces/network.ui.h:16
-msgid "Hexadecimal"
-msgstr "Hexadecimális"
-
-#: ../interfaces/network.ui.h:17
-msgid "Host Alias Properties"
-msgstr "Kiszolgáló álnévbeállításai"
-
-#: ../interfaces/network.ui.h:18
+#: ../interfaces/network.ui.h:15
 msgid "Host Settings"
 msgstr "Kiszolgálóbeállítások"
 
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Általános"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "DNS kiszolgálók"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Keresési tartományok"
+
 #: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
 msgid "Hosts"
 msgstr "Gépek"
-
-#: ../interfaces/network.ui.h:20 ../interfaces/shares.ui.h:11
-msgid "IP address:"
-msgstr "IP-cím:"
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
 msgstr "Felület tulajdonságai"
 
 #: ../interfaces/network.ui.h:22
-msgid "Internet service provider data"
-msgstr "Internetszolgáltató adatai"
+msgid "E_nable this connection"
+msgstr "Ezen kapcsolat _engedélyezése"
 
 #: ../interfaces/network.ui.h:23
-msgid "Location:"
-msgstr "Hely:"
+msgid "E_nable roaming mode"
+msgstr "_Barangoló mód engedélyezése"
 
 #: ../interfaces/network.ui.h:24
-msgid "Loud"
-msgstr "Hangos"
+msgid "Connection type:"
+msgstr "Kapcsolattípus:"
 
 #: ../interfaces/network.ui.h:25
-msgid "Low"
-msgstr "Alacsony"
-
-#: ../interfaces/network.ui.h:26
-msgid "Medium"
-msgstr "Közepes"
-
-#: ../interfaces/network.ui.h:27
-msgid "Modem"
-msgstr "Modem"
-
-#: ../interfaces/network.ui.h:28
-msgid "Modem Settings"
-msgstr "Modem beállításai"
-
-#: ../interfaces/network.ui.h:29
-msgid "Network _password:"
-msgstr "Hálózati _jelszó:"
-
-#: ../interfaces/network.ui.h:30
 msgid "Network name (_ESSID):"
 msgstr "Hálózatnév (_ESSID):"
 
-#: ../interfaces/network.ui.h:31
-msgid "Off"
-msgstr "Ki"
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "Hálózati _jelszó:"
 
-#: ../interfaces/network.ui.h:32
-msgid "Options"
-msgstr "Beállítások"
-
-#: ../interfaces/network.ui.h:33
-msgid "P_assword"
-msgstr "_Jelszó"
-
-#: ../interfaces/network.ui.h:34
+#: ../interfaces/network.ui.h:27
 msgid "Password _type:"
 msgstr "Jelszó _típusa:"
 
-#: ../interfaces/network.ui.h:35
-msgid "Plain (ASCII)"
-msgstr "Egyszerű (ASCII)"
-
-#: ../interfaces/network.ui.h:36
-msgid "Pulses"
-msgstr "Impulzusok"
-
-#: ../interfaces/network.ui.h:37
-msgid "Save current network configuration as a location"
-msgstr "Az aktuális hálózati konfiguráció elmentése helyként"
-
-#: ../interfaces/network.ui.h:38
-msgid "Search Domains"
-msgstr "Keresési tartományok"
-
-#: ../interfaces/network.ui.h:39
-msgid "Tones"
-msgstr "Hangok"
-
-#: ../interfaces/network.ui.h:40
-msgid "Use the Internet service provider nameservers"
-msgstr "Az internetszolgáltató névkiszolgálóinak használata"
-
-#: ../interfaces/network.ui.h:41
+#: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
 msgstr "Vezeték nélküli hálózat beállításai"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "_Automatikus felismerés"
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "_Beállítások:"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_IP-cím:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "_Hálózati maszk:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "Á_tjáró címe:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "Kapcsolat beállításai"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "_Helyi IP:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "_Távoli IP:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "Te_lefonszám:"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "Tá_rcsázási előtag:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "Hozzáférési pont neve:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "Internetszolgáltató adatai"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "_Felhasználónév:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "_Jelszó"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Hozzáférés adatai"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "_Modem port:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "Tá_rcsázás típusa:"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "Á_tjáró címe:"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "_Gépnév:"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "_IP-cím:"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "_Helyi IP:"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "_Modem port:"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "Te_lefonszám:"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "_Távoli IP:"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "Ú_jrapróbálkozás, ha a kapcsolat megszakad vagy nem sikerül elindítani"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "Legyen a _modem az alapértelmezett útvonal az internet felé"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "_Hálózati maszk:"
-
-#: ../interfaces/network.ui.h:55 ../interfaces/users.ui.h:82
-msgid "_Username:"
-msgstr "_Felhasználónév:"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Hangerő:"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "Speciális beállítások:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "_Automatikus felismerés"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "Ethernet csatoló:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "Modem beállításai"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modem"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "Legyen a _modem az alapértelmezett útvonal az internet felé"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Az internetszolgáltató névkiszolgálóinak használata"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "Ú_jrapróbálkozás, ha a kapcsolat megszakad vagy nem sikerül elindítani"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Beállítások"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "Kiszolgáló álnévbeállításai"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP-cím:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Álnevek:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Válassza ki az aktiválni kívánt szolgáltatásokat:"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Speciális beállítások:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Add allowed hosts"
-msgstr "Engedélyezett kiszolgálók hozzáadása"
+msgid "_Path:"
+msgstr "Ú_tvonal:"
 
 #: ../interfaces/shares.ui.h:2
-msgid "Allowed Hosts"
-msgstr "Engedélyezett kiszolgálók"
+msgid "Share through:"
+msgstr "Megosztás ezzel:"
 
 #: ../interfaces/shares.ui.h:3
-msgid "Allowed hosts:"
-msgstr "Engedélyezett kiszolgálók:"
+msgid "Shared Folder"
+msgstr "Megosztott mappa"
 
 #: ../interfaces/shares.ui.h:4
 msgid "Comment:"
 msgstr "Megjegyzés:"
 
 #: ../interfaces/shares.ui.h:5
-msgid "Domain / _Workgroup:"
-msgstr "Tartomány / _Munkacsoport:"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user"
-msgstr "Adja meg a felhasználó jelszavát"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Enter password for user:"
-msgstr "Adja meg a felhasználó jelszavát:"
-
-#: ../interfaces/shares.ui.h:8
-msgid "General Properties"
-msgstr "Általános tulajdonságok"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Host name:"
-msgstr "Gépnév:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Hosts Settings"
-msgstr "Kiszolgálóbeállítások"
-
-#: ../interfaces/shares.ui.h:12
 msgid "Name:"
 msgstr "Név:"
 
-#: ../interfaces/shares.ui.h:13
-msgid "Netmask:"
-msgstr "Hálózati maszk:"
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr "_Csak olvasható"
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "Megosztás tulajdonságai"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "Engedélyezett kiszolgálók"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "Megosztás"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Engedélyezett kiszolgálók hozzáadása"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Engedélyezett kiszolgálók:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Gépnév:"
 
 #: ../interfaces/shares.ui.h:14
 msgid "Network:"
 msgstr "Hálózat:"
 
-#: ../interfaces/shares.ui.h:15 ../src/shares/nfs-acl-table.c:56
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Hálózati maszk:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
 msgid "Read only"
 msgstr "Csak olvasható"
 
-#: ../interfaces/shares.ui.h:16
-msgid "Share"
-msgstr "Megosztás"
-
 #: ../interfaces/shares.ui.h:17
-msgid "Share Properties"
-msgstr "Megosztás tulajdonságai"
+msgid "Hosts Settings"
+msgstr "Kiszolgálóbeállítások"
 
-#: ../interfaces/shares.ui.h:18
-msgid "Share through:"
-msgstr "Megosztás ezzel:"
-
-#: ../interfaces/shares.ui.h:19
-msgid "Shared Folder"
-msgstr "Megosztott mappa"
-
-#: ../interfaces/shares.ui.h:20 ../src/shares/shares.desktop.in.in.h:2
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
 msgstr "Megosztott mappák"
 
-#: ../interfaces/shares.ui.h:21
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "Tartomány / _Munkacsoport:"
+
+#: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
 msgstr "Ez a számítógép egy _WINS kiszolgáló"
 
-#: ../interfaces/shares.ui.h:22
-msgid "Users"
-msgstr "Felhasználók"
-
-#: ../interfaces/shares.ui.h:23
+#: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
 msgstr "WINS _kiszolgáló:"
 
-#: ../interfaces/shares.ui.h:24
+#: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
 msgstr "Windows megosztás"
 
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Általános tulajdonságok"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "Felhasználók"
+
 #: ../interfaces/shares.ui.h:25
-msgid "_Path:"
-msgstr "Ú_tvonal:"
+msgid "Enter password for user"
+msgstr "Adja meg a felhasználó jelszavát"
 
 #: ../interfaces/shares.ui.h:26
-msgid "_Read only"
-msgstr "_Csak olvasható"
+msgid "Enter password for user:"
+msgstr "Adja meg a felhasználó jelszavát:"
 
 #: ../interfaces/time.ui.h:1
-msgid "Add NTP Server"
-msgstr "NTP kiszolgáló hozzáadása"
+msgid "Time zone"
+msgstr "Időzóna"
 
 #: ../interfaces/time.ui.h:2
-msgid "NTP server"
-msgstr "NTP kiszolgáló"
+msgid "Time Zone"
+msgstr "Időzóna"
 
 #: ../interfaces/time.ui.h:3
-msgid "Se_lect Servers"
-msgstr "Kiszolgálók kivá_lasztása"
+msgid "Time zone:"
+msgstr "Időzóna:"
 
 #: ../interfaces/time.ui.h:4
 msgid "Selection"
 msgstr "Kijelölés"
 
 #: ../interfaces/time.ui.h:5
-msgid "Synchronize now"
-msgstr "Szinkronizálás most"
-
-#: ../interfaces/time.ui.h:6
-msgid "Time Zone"
-msgstr "Időzóna"
-
-#: ../interfaces/time.ui.h:7
 msgid "Time servers"
 msgstr "Időkiszolgálók"
 
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP kiszolgáló"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "NTP kiszolgáló hozzáadása"
+
 #: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "Időkiszolgálók:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "Időzóna"
-
-#: ../interfaces/time.ui.h:10
-msgid "Time zone:"
-msgstr "Időzóna:"
-
-#: ../interfaces/time.ui.h:11
 msgid "Unconfigured"
 msgstr "Nincs beállítva"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_Beállítások:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "Időkiszolgálók:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "Kiszolgálók kivá_lasztása"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "_Idő:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "_Dátum:"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "_Idő:"
+msgid "Synchronize now"
+msgstr "Szinkronizálás most"
 
 #: ../interfaces/users.ui.h:1
-msgid ""
-"A user with this name already exists. Please choose a different name for the "
-"new user."
-msgstr ""
-"A megadott felhasználónév már létezik. Adjon más nevet az új felhasználónak."
+msgid "_Manage Groups"
+msgstr "_Csoportok kezelése"
 
 #: ../interfaces/users.ui.h:2
 msgid "Account _type:"
 msgstr "Fiók _típusa:"
 
 #: ../interfaces/users.ui.h:3
-msgid "Advanced"
-msgstr "Speciális"
+msgid "_Change..."
+msgstr "Mó_dosítás…"
 
 #: ../interfaces/users.ui.h:4
-msgid "Advanced Settings"
-msgstr "Speciális beállítások"
+msgid "_Password:"
+msgstr "_Jelszó:"
 
 #: ../interfaces/users.ui.h:5
-msgid "Assign a random password by default"
-msgstr "Véletlenszerűen létrehozott jelszó hozzárendelése alapértelmezésben"
+msgid "_Advanced Settings"
+msgstr "S_peciális beállítások"
 
 #: ../interfaces/users.ui.h:6
-msgid "Automatic UID/GID"
-msgstr "Automatikus UID/GID"
+msgid "This account is disabled."
+msgstr "Ez a fiók le van tiltva."
 
 #: ../interfaces/users.ui.h:7
-msgid "Basic Settings"
-msgstr "Alapbeállítások"
+msgid "_Enable Account"
+msgstr "Fiók _engedélyezése"
 
 #: ../interfaces/users.ui.h:8
-msgid "Change Advanced User Settings"
-msgstr "Speciális felhasználói beállítások módosítása"
-
-#: ../interfaces/users.ui.h:9
-msgid "Change User Account Type"
-msgstr "A fiók típusának megváltoztatása"
-
-#: ../interfaces/users.ui.h:10
-msgid "Change User Name"
-msgstr "Felhasználónév módosítása"
-
-#: ../interfaces/users.ui.h:11
-msgid "Change User Password"
-msgstr "Jelszó megváltoztatása"
-
-#: ../interfaces/users.ui.h:12
-msgid "Changing advanced settings for:"
-msgstr "Speciális beállítások megváltoztatása:"
-
-#: ../interfaces/users.ui.h:13
-msgid "Changing user account type for:"
-msgstr "Felhasználói fiók típusának megváltoztatása:"
-
-#: ../interfaces/users.ui.h:14
-msgid "Changing user name for:"
-msgstr "Felhasználónév megváltoztatása:"
-
-#: ../interfaces/users.ui.h:15
-msgid "Changing user password for:"
-msgstr "Felhasználói jelszó megváltoztatása:"
-
-#: ../interfaces/users.ui.h:16
-msgid "Con_firmation:"
-msgstr "Me_gerősítés:"
-
-#: ../interfaces/users.ui.h:17
-msgid "Contact Information"
-msgstr "Kapcsolatinformációk"
-
-#: ../interfaces/users.ui.h:18
-msgid "Create New User"
-msgstr "Új felhasználó létrehozása"
-
-#: ../interfaces/users.ui.h:19
-msgid "Create a new user"
-msgstr "Új felhasználó létrehozása"
-
-#: ../interfaces/users.ui.h:20
-msgid "Days between warning and password expiration:"
-msgstr "Figyelmeztetés és jelszólejárat közötti napok száma:"
-
-#: ../interfaces/users.ui.h:21
-msgid "Default _group:"
-msgstr "Alapértelmezett _csoport:"
-
-#: ../interfaces/users.ui.h:22
-msgid "Default _shell:"
-msgstr "Alapértelmezett paranc_sértelmező:"
-
-#: ../interfaces/users.ui.h:23
-msgid "Disable _account"
-msgstr "Fiók _letiltása"
-
-#: ../interfaces/users.ui.h:24
-msgid "Don't ask for password on _login"
-msgstr "_Ne kérjen jelszót bejelentkezéskor"
-
-#: ../interfaces/users.ui.h:25
-msgid ""
-"Encrypt all your files with your login password to strongly protect them "
-"from people with physical access to your computer, at the expense of a "
-"slightly reduced performance."
-msgstr ""
-"A fájlok bejelentkezési jelszó segítségével való titkosítása minimális "
-"teljesítménycsökkenés árán erősen védi azokat a számítógépéhez fizikai "
-"hozzáféréssel rendelkező személyektől."
-
-#: ../interfaces/users.ui.h:26
-msgid "Full _Name:"
-msgstr "Teljes _név:"
-
-#: ../interfaces/users.ui.h:28
-msgid "Generate _random password"
-msgstr "_Véletlen jelszó generálása"
-
-#: ../interfaces/users.ui.h:29
-msgid "Group Members"
-msgstr "Csoporttagok"
-
-#: ../interfaces/users.ui.h:30
-msgid "Group _ID:"
-msgstr "_Csoportazonosító:"
-
-#: ../interfaces/users.ui.h:31
-msgid "Group _name:"
-msgstr "Csoport _neve:"
-
-#: ../interfaces/users.ui.h:32
 msgid "Group properties"
 msgstr "Csoport tulajdonságai"
 
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "Alapbeállítások"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "Csoport _neve:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "_Csoportazonosító:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Csoporttagok"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr "Profilbeállítások"
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "Profil_név:"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Megjegyzések"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "A rendszer alapértelmezései"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "_Saját könyvtár:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "Alapértelmezett paranc_sértelmező:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "Alapértelmezett _csoport:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Jelszóbeállítások"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Ennyi napig használható egy jelszó:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "A jelszóváltoztatások között megengedett legkevesebb nap:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Figyelmeztetés és jelszólejárat közötti napok száma:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Véletlenszerűen létrehozott jelszó hozzárendelése alapértelmezésben"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "Automatikus UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "Legnagyobb UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "Legnagyobb GID:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "Legkisebb UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "Legkisebb GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Jogosultságok"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Felhasználói profilok"
+
 #: ../interfaces/users.ui.h:33
-msgid "Groups available on the system:"
-msgstr "A rendszeren elérhető csoportok:"
+msgid "_Add Profile"
+msgstr "_Profil hozzáadása"
 
 #: ../interfaces/users.ui.h:34
 msgid "Groups settings"
 msgstr "Csoportbeállítások"
 
 #: ../interfaces/users.ui.h:35
-msgid "Ma_ximum days a password may be used:"
-msgstr "_Ennyi napig használható egy jelszó:"
+msgid "Groups available on the system:"
+msgstr "A rendszeren elérhető csoportok:"
 
 #: ../interfaces/users.ui.h:36
-msgid "Maximum GID:"
-msgstr "Legnagyobb GID:"
+msgid "Change User Name"
+msgstr "Felhasználónév módosítása"
 
 #: ../interfaces/users.ui.h:37
-msgid "Maximum UID:"
-msgstr "Legnagyobb UID:"
+msgid "Full _Name:"
+msgstr "Teljes _név:"
 
 #: ../interfaces/users.ui.h:38
-msgid "Mi_nimum days between password changes:"
-msgstr "A _jelszóváltoztatások között megengedett legkevesebb nap:"
+msgid "Changing user name for:"
+msgstr "Felhasználónév megváltoztatása:"
 
 #: ../interfaces/users.ui.h:39
-msgid "Minimum GID:"
-msgstr "Legkisebb GID:"
+msgid "Change User Password"
+msgstr "Jelszó megváltoztatása"
 
 #: ../interfaces/users.ui.h:40
-msgid "Minimum UID:"
-msgstr "Legkisebb UID:"
+msgid "Con_firmation:"
+msgstr "Me_gerősítés:"
 
 #: ../interfaces/users.ui.h:41
-msgid "Minimum days allowed between password changes:"
-msgstr "A jelszóváltoztatások között megengedett legkevesebb nap:"
-
-#: ../interfaces/users.ui.h:42
-msgid "New _password:"
-msgstr "Ú_j jelszó:"
-
-#: ../interfaces/users.ui.h:43
-msgid "Number of days that a password may be used:"
-msgstr "Ennyi napig használható egy jelszó:"
-
-#: ../interfaces/users.ui.h:44
-msgid "O_ffice location:"
-msgstr "_Iroda helye:"
-
-#: ../interfaces/users.ui.h:45
-msgid "Optional Settings"
-msgstr "Opcionális beállítások"
-
-#: ../interfaces/users.ui.h:46
-msgid "Password Settings"
-msgstr "Jelszóbeállítások"
-
-#: ../interfaces/users.ui.h:47
 msgid "Password set to: "
 msgstr "A beállított jelszó: "
 
-#: ../interfaces/users.ui.h:48
-msgid "Privileges"
-msgstr "Jogosultságok"
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "_Létrehozás"
 
-#: ../interfaces/users.ui.h:49
-msgid "Profile Settings"
-msgstr "Profilbeállítások"
-
-#: ../interfaces/users.ui.h:50
-msgid "Profile _name:"
-msgstr "Profil_név:"
-
-#: ../interfaces/users.ui.h:51
+#: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
 msgstr "Jelszó beállítása _kézzel"
 
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "Ú_j jelszó:"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "_Véletlen jelszó generálása"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "Felhasználói jelszó megváltoztatása:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "_Ne kérjen jelszót bejelentkezéskor"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "Jelenlegi _jelszó:"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "A fiók típusának megváltoztatása"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "Felhasználói fiók típusának megváltoztatása:"
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "_Egyéni"
+
 #: ../interfaces/users.ui.h:52
-msgid "System Defaults"
-msgstr "A rendszer alapértelmezései"
-
-#: ../interfaces/users.ui.h:53
-msgid "This account is disabled."
-msgstr "Ez a fiók le van tiltva."
-
-#: ../interfaces/users.ui.h:54
 msgid ""
 "This account is using special settings that have been defined manually. Use "
 "the <i>Advanced Settings</i> dialog to tune them."
-msgstr ""
-"Ez a fiók saját kezűleg megadott speciális beállításokat használ. Ezek "
-"módosításához használja a <i>Speciális beállítások</i> párbeszédablakot."
+msgstr "Ez a fiók saját kezűleg megadott speciális beállításokat használ. Ezek módosításához használja a <i>Speciális beállítások</i> párbeszédablakot."
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "Új felhasználó létrehozása"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "_Név:"
 
 #: ../interfaces/users.ui.h:55
-msgid "User ID:"
-msgstr "Felhasználóazonosító:"
+msgid "Create a new user"
+msgstr "Új felhasználó létrehozása"
 
-#: ../interfaces/users.ui.h:56
-msgid "User Privileges"
-msgstr "Felhasználói jogosultságok"
-
-#: ../interfaces/users.ui.h:57
-msgid "User profiles"
-msgstr "Felhasználói profilok"
-
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
-#: ../interfaces/users.ui.h:59
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
 msgid ""
 "Username must consist of:\n"
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
-"A felhasználónév a következőket tartalmazhatja:\n"
-"  ➣ az angol ábécé kisbetűit\n"
-"  ➣ számokat\n"
-"  ➣ a „.”, „-” és „_” karaktereket"
+msgstr "A felhasználónév a következőket tartalmazhatja:\n  ➣ az angol ábécé kisbetűit\n  ➣ számokat\n  ➣ a „.”, „-” és „_” karaktereket"
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr "A megadott felhasználónév már létezik. Adjon más nevet az új felhasználónak."
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
 msgstr "A felhasználónévnek betűvel kell kezdődnie!"
 
 #: ../interfaces/users.ui.h:64
-msgid "You can't change user ID while the user is logged in."
-msgstr ""
-"A felhasználói azonosító nem módosítható, ha a felhasználó be van "
-"jelentkezve."
-
-#: ../interfaces/users.ui.h:65
-msgid "_Add Profile"
-msgstr "_Profil hozzáadása"
-
-#: ../interfaces/users.ui.h:66
-msgid "_Advanced Settings"
-msgstr "S_peciális beállítások"
-
-#: ../interfaces/users.ui.h:67
-msgid "_Change..."
-msgstr "Mó_dosítás…"
-
-#: ../interfaces/users.ui.h:68
-msgid "_Comments"
-msgstr "_Megjegyzések"
-
-#: ../interfaces/users.ui.h:69
-msgid "_Current password:"
-msgstr "Jelenlegi _jelszó:"
-
-#: ../interfaces/users.ui.h:70
-msgid "_Custom"
-msgstr "_Egyéni"
-
-#: ../interfaces/users.ui.h:71
-msgid "_Days between warning and password expiration:"
-msgstr "_Napok száma a figyelmeztetés és a jelszó elévülése között:"
-
-#: ../interfaces/users.ui.h:72
-msgid "_Enable Account"
-msgstr "Fiók _engedélyezése"
-
-#: ../interfaces/users.ui.h:73
 msgid "_Encrypt home folder to protect sensitive data"
 msgstr "A saját mappa _titkosítása az adatok védelme érdekében"
 
-#: ../interfaces/users.ui.h:74
-msgid "_Generate"
-msgstr "_Létrehozás"
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "A fájlok bejelentkezési jelszó segítségével való titkosítása minimális teljesítménycsökkenés árán erősen védi azokat a számítógépéhez fizikai hozzáféréssel rendelkező személyektől."
 
-#: ../interfaces/users.ui.h:75
-msgid "_Home directory:"
-msgstr "_Saját könyvtár:"
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "Speciális felhasználói beállítások módosítása"
 
-#: ../interfaces/users.ui.h:76
-msgid "_Home phone:"
-msgstr "_Otthoni telefon:"
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "Speciális beállítások megváltoztatása:"
 
-#: ../interfaces/users.ui.h:77
-msgid "_Main group:"
-msgstr "Fő _csoport:"
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "_Iroda helye:"
 
-#: ../interfaces/users.ui.h:78
-msgid "_Manage Groups"
-msgstr "_Csoportok kezelése"
-
-#: ../interfaces/users.ui.h:79
-msgid "_Name:"
-msgstr "_Név:"
-
-#: ../interfaces/users.ui.h:80
-msgid "_Password:"
-msgstr "_Jelszó:"
-
-#: ../interfaces/users.ui.h:81
-msgid "_Shell:"
-msgstr "_Parancsértelmező:"
-
-#: ../interfaces/users.ui.h:83
+#: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
 msgstr "_Munkahelyi telefon:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:1
-msgid "Show root user"
-msgstr "A root felhasználó megjelenítése"
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "_Otthoni telefon:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:2
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr "Kapcsolatinformációk"
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "Felhasználói jogosultságok"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Speciális beállítások"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "_Parancsértelmező:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "Fő _csoport:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "Felhasználóazonosító:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "A felhasználói azonosító nem módosítható, ha a felhasználó be van jelentkezve."
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "Fiók _letiltása"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Opcionális beállítások"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "A _jelszóváltoztatások között megengedett legkevesebb nap:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "_Ennyi napig használható egy jelszó:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "_Napok száma a figyelmeztetés és a jelszó elévülése között:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Speciális"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
 msgstr "Rendszerfelhasználók megjelenítése"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:3
+#: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
 "Whether the users-admin tool should show system users in the users list."
-msgstr ""
-"A users-admin megjelenítse-e a rendszerfelhasználókat a felhasználólistában."
+msgstr "A users-admin megjelenítse-e a rendszerfelhasználókat a felhasználólistában."
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr "A root felhasználó megjelenítése"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
 "Whether the users-admin tool should show the root user in the users list."
-msgstr ""
-"A users-admin megjelenítse-e a root felhasználót a felhasználólistában."
+msgstr "A users-admin megjelenítse-e a root felhasználót a felhasználólistában."
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -774,10 +762,7 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr ""
-"Ha biztosan tudja, hogy ez úgy működik, mint az alább listázott platformok, "
-"kiválaszthatja és folytathatja. Ne feledje azonban, hogy ez károsíthatja a "
-"rendszere beállításait vagy egyenesen meg is béníthatja számítógépét."
+msgstr "Ha biztosan tudja, hogy ez úgy működik, mint az alább listázott platformok, kiválaszthatja és folytathatja. Ne feledje azonban, hogy ez károsíthatja a rendszere beállításait vagy egyenesen meg is béníthatja számítógépét."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
@@ -820,17 +805,14 @@ msgstr "A rendszerbeállítások megváltozhattak."
 
 #: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
-msgstr ""
-"Biztosan frissíti a tartalmat? Ezzel elvész minden mentetlen módosítás."
+msgstr "Biztosan frissíti a tartalmat? Ezzel elvész minden mentetlen módosítás."
 
 #: ../src/common/gst-tool.c:687
 #, c-format
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr ""
-"Hiba történt a jogosultságok ellenőrzésekor: %s\n"
-"Jelentse ezt hibajelentésben."
+msgstr "Hiba történt a jogosultságok ellenőrzésekor: %s\nJelentse ezt hibajelentésben."
 
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
@@ -858,9 +840,7 @@ msgstr "Nem lehet automatikusan felismerni a modemeszközt"
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
-msgstr ""
-"Ellenőrizze, hogy az eszköz nem foglalt és megfelelően van csatlakoztatva a "
-"számítógéphez."
+msgstr "Ellenőrizze, hogy az eszköz nem foglalt és megfelelően van csatlakoztatva a számítógéphez."
 
 #: ../src/network/callbacks.c:523
 msgid "The host name has changed"
@@ -870,9 +850,7 @@ msgstr "A gépnév megváltozott"
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr ""
-"Ez megakadályozza új alkalmazások elindítását, ezért újra be kell "
-"jelentkeznie. Mindenképp folytatja?"
+msgstr "Ez megakadályozza új alkalmazások elindítását, ezért újra be kell jelentkeznie. Mindenképp folytatja?"
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
@@ -1028,8 +1006,7 @@ msgstr "A felület nem létezik"
 msgid ""
 "Check that it is correctly typed and that it is correctly supported by your "
 "system."
-msgstr ""
-"Ellenőrizze, hogy helyesen írta be és ezt megfelelően támogatja a rendszere."
+msgstr "Ellenőrizze, hogy helyesen írta be és ezt megfelelően támogatja a rendszere."
 
 #: ../src/network/main.c:183
 msgid "Configure a network interface"
@@ -1047,13 +1024,13 @@ msgstr "Az első hálózati felület beállítása egy adott típussal"
 msgid "TYPE"
 msgstr "TÍPUS"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "Hálózati eszközök és kapcsolatok beállítása"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "Hálózat"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Hálózati eszközök és kapcsolatok beállítása"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
@@ -1073,9 +1050,7 @@ msgstr "Biztosan le kívánja állítani ezt: %s ?"
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
-msgstr ""
-"Ez többféle hatással lehet a rendszer működésére, esetleg adatvesztést is "
-"okozhat."
+msgstr "Ez többféle hatással lehet a rendszer működésére, esetleg adatvesztést is okozhat."
 
 #: ../src/services/service.c:32
 msgid "Web server"
@@ -1484,13 +1459,13 @@ msgstr "Rendszerfigyelő"
 msgid "Virtual Machine management"
 msgstr "Virtuális gépek kezelése"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "A rendszer indításakor futtatandó szolgáltatások beállítása"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Szolgáltatások"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "A rendszer indításakor futtatandó szolgáltatások beállítása"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1565,7 +1540,7 @@ msgstr "Adja meg az IP-címet"
 msgid "Specify network"
 msgstr "Adja meg a hálózatot"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "A helyi hálózat számára elérhető mappák beállítása"
 
@@ -1612,17 +1587,15 @@ msgstr "Világtérkép"
 msgid ""
 "Mouse-based interactive map widget for selecting timezone. Keyboard users "
 "should instead select the timezone from the drop-down combination box below."
-msgstr ""
-"Egéralapú interaktív térképelem időzóna kiválasztásához. Billentyűzetet "
-"használók az alsó legördülődobozt használhatják helyette."
+msgstr "Egéralapú interaktív térképelem időzóna kiválasztásához. Billentyűzetet használók az alsó legördülődobozt használhatják helyette."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Rendszeridő, dátum és időzóna megváltoztatása"
-
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Idő és dátum"
+
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Rendszeridő, dátum és időzóna megváltoztatása"
 
 #: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
@@ -1632,9 +1605,7 @@ msgstr "Az NTP támogatás nincs telepítve"
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr ""
-"Telepítse és aktiválja az NTP támogatást a rendszerén a helyi időkiszolgáló "
-"internetes időkiszolgálókkal való szinkronizálásához."
+msgstr "Telepítse és aktiválja az NTP támogatást a rendszerén a helyi időkiszolgáló internetes időkiszolgálókkal való szinkronizálásához."
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
@@ -1708,9 +1679,7 @@ msgstr "A csoportnév érvénytelen karaktereket tartalmaz"
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr ""
-"Állítson be egy kisbetűvel kezdődő és kisbetűkkel és számokkal folytatódó "
-"érvényes csoportnevet."
+msgstr "Állítson be egy kisbetűvel kezdődő és kisbetűkkel és számokkal folytatódó érvényes csoportnevet."
 
 #: ../src/users/group-settings.c:229
 #, c-format
@@ -1838,28 +1807,24 @@ msgid "Be able to get administrator privileges"
 msgstr "Adminisztrátori jogosultságok megszerzésének lehetősége"
 
 #: ../src/users/user-profiles.conf.in.h:1
-msgid "Administrator"
-msgstr "Rendszergazda"
+msgid "Desktop user"
+msgstr "Asztali felhasználó"
 
 #: ../src/users/user-profiles.conf.in.h:2
 msgid ""
-"Can change anything on the system, including installing and upgrading "
-"software."
-msgstr ""
-"Bármit megváltoztathat a rendszeren, például szoftvereket telepíthet vagy "
-"frissíthet."
-
-#: ../src/users/user-profiles.conf.in.h:3
-msgid ""
 "Can perform common tasks. Can't install software or change settings "
 "affecting all users."
-msgstr ""
-"Általános feladatokat hajthat végre. Nem telepíthet szoftvereket, és nem "
-"módosíthat az összes felhasználóra kiható beállításokat."
+msgstr "Általános feladatokat hajthat végre. Nem telepíthet szoftvereket, és nem módosíthat az összes felhasználóra kiható beállításokat."
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr "Rendszergazda"
 
 #: ../src/users/user-profiles.conf.in.h:4
-msgid "Desktop user"
-msgstr "Asztali felhasználó"
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr "Bármit megváltoztathat a rendszeren, például szoftvereket telepíthet vagy frissíthet."
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
@@ -1905,13 +1870,13 @@ msgstr "A jelszava megváltozott az első hitelesítés óta."
 msgid "Unknown error"
 msgstr "Ismeretlen hiba"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Felhasználók és csoportok hozzáadása vagy eltávolítása"
-
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Felhasználók és csoportok"
+
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Felhasználók és csoportok hozzáadása vagy eltávolítása"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
@@ -1921,9 +1886,7 @@ msgstr "A jelszó túl rövid"
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr ""
-"A felhasználói jelszavaknak 5 karakternél hosszabbnak kell lenniük, és "
-"lehetőleg számokból, betűkből és speciális karakterekből kell állniuk."
+msgstr "A felhasználói jelszavaknak 5 karakternél hosszabbnak kell lenniük, és lehetőleg számokból, betűkből és speciális karakterekből kell állniuk."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1933,15 +1896,15 @@ msgstr "A jelszó megerősítése hibás"
 msgid "Check that you have provided the same password in both text fields."
 msgstr "Ellenőrizze, hogy ugyanazt a jelszót adta-e meg mindkét szövegmezőben."
 
-#: ../src/users/user-password.c:426
+#: ../src/users/user-password.c:445
 msgid "Please choose another password."
 msgstr "Válasszon másik jelszót."
 
-#: ../src/users/user-password.c:437
+#: ../src/users/user-password.c:456
 msgid "Please type again your current password."
 msgstr "Írja be újra a jelenlegi jelszavát."
 
-#: ../src/users/user-password.c:444
+#: ../src/users/user-password.c:463
 msgid "Password could not be changed"
 msgstr "A jelszót nem sikerült megváltoztatni"
 
@@ -1956,8 +1919,7 @@ msgstr "%s felhasználó jelenleg használja a számítógépet"
 
 #: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
-msgstr ""
-"A fiók törlése előtt győződjön meg róla, hogy a felhasználó kijelentkezett."
+msgstr "A fiók törlése előtt győződjön meg róla, hogy a felhasználó kijelentkezett."
 
 #: ../src/users/user-settings.c:109
 msgid "Can't delete the only administrator account"
@@ -1968,9 +1930,7 @@ msgstr "Nem lehet törölni az egyetlen rendszergazdai fiókot"
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr ""
-"%s az egyetlen rendszergazda ezen a számítógépen. Ha törli ezt a fiókot, "
-"lehetetlenné válik a rendszer adminisztrációja."
+msgstr "%s az egyetlen rendszergazda ezen a számítógépen. Ha törli ezt a fiókot, lehetetlenné válik a rendszer adminisztrációja."
 
 #: ../src/users/user-settings.c:121
 #, c-format
@@ -1980,14 +1940,10 @@ msgstr "Eltávolítja a(z) %s felhasználó saját mappáját?"
 #: ../src/users/user-settings.c:124
 #, c-format
 msgid ""
-"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't "
-"need them anymore. You may want to back them up before deleting the account, "
-"or keep them so that an administrator can save them later."
-msgstr ""
-"A(z) %s felhasználó tulajdonában levő fájlok a(z) <tt>%s</tt> helyről "
-"teljesen el lesznek távolítva, ha már nincs szüksége rájuk. A fiók törlése "
-"előtt hasznos lehet biztonsági másolatot készíteni, vagy megtarthatja a "
-"fájlokat, hogy később egy rendszergazda készítsen mentést."
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr "A(z) %s felhasználó tulajdonában levő fájlok a(z) <tt>%s</tt> helyről teljesen el lesznek távolítva, ha már nincs szüksége rájuk. A fiók törlése előtt hasznos lehet biztonsági másolatot készíteni, vagy megtarthatja a fájlokat, hogy később egy rendszergazda készítsen mentést."
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
@@ -2031,9 +1987,7 @@ msgstr "Nem teljes útvonal a saját könyvtárban"
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
-"Adja meg a saját könyvtár teljes útvonalát\n"
-"<span size=\"smaller\">például: /home/kalman</span>."
+msgstr "Adja meg a saját könyvtár teljes útvonalát\n<span size=\"smaller\">például: /home/kalman</span>."
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
@@ -2042,19 +1996,10 @@ msgstr "Az új saját könyvtár már létezik, ezt használja?"
 #: ../src/users/user-settings.c:449
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or copy the contents of <tt>%"
-"s</tt> to the new home, overwriting it?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
-"In doubt, use the new directory to avoid losing data, and copy files from "
-"the old directory later."
-msgstr ""
-"%s saját könyvtára <tt>%s</tt> lett, amely már létezik. Szeretné ezen "
-"könyvtár fájljait használni, vagy átmásolja <tt>%s</tt> tartalmát az új "
-"saját könyvtárba, felülírva azt?\n"
-"\n"
-"Ha bizonytalan, akkor használja az új könyvtárat az adatvesztés elkerülése "
-"érdekében, és a régi könyvtár fájljait később másolja át."
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr "%s saját könyvtára <tt>%s</tt> lett, amely már létezik. Szeretné ezen könyvtár fájljait használni, vagy átmásolja <tt>%s</tt> tartalmát az új saját könyvtárba, felülírva azt?\n\nHa bizonytalan, akkor használja az új könyvtárat az adatvesztés elkerülése érdekében, és a régi könyvtár fájljait később másolja át."
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
@@ -2082,18 +2027,10 @@ msgstr "_Régi saját könyvtár törlése"
 #: ../src/users/user-settings.c:493
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or delete all its contents and "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr ""
-"%s saját könyvtára <tt>%s</tt> lett, amely már létezik. Szeretné ezen "
-"könyvtár fájljait használni, vagy törli a tartalmát, és teljesen üres saját "
-"könyvtárat használ?\n"
-"\n"
-"Ha bizonytalan, akkor tartsa meg a fájlokat, és csak később távolítsa el "
-"azokat."
+msgstr "%s saját könyvtára <tt>%s</tt> lett, amely már létezik. Szeretné ezen könyvtár fájljait használni, vagy törli a tartalmát, és teljesen üres saját könyvtárat használ?\n\nHa bizonytalan, akkor tartsa meg a fájlokat, és csak később távolítsa el azokat."
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
@@ -2110,19 +2047,10 @@ msgstr "Új helyre másolja a régi saját könyvtárat?"
 #: ../src/users/user-settings.c:528
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. "
-"Do you want to copy the contents of the old home directory (<tt>%s</tt>), or "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
-"If you choose to copy the files to the new location, it's safe to delete the "
-"old directory."
-msgstr ""
-"%s saját könyvtára <tt>%s</tt> lett, amely nem létezik. Szeretné a régi "
-"saját könyvtár (<tt>%s</tt>) tartalmát átmásolni, vagy teljesen üres saját "
-"könyvtárat használni?\n"
-"\n"
-"Ha a fájlok új helyre másolását választja, akkor biztonságosan törölheti a "
-"régi könyvtárat."
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr "%s saját könyvtára <tt>%s</tt> lett, amely nem létezik. Szeretné a régi saját könyvtár (<tt>%s</tt>) tartalmát átmásolni, vagy teljesen üres saját könyvtárat használni?\n\nHa a fájlok új helyre másolását választja, akkor biztonságosan törölheti a régi könyvtárat."
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
@@ -2156,9 +2084,7 @@ msgstr "Érvénytelen útvonal a parancsértelmezőben"
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
-"Adja meg a parancsértelmező teljes elérési útját\n"
-"<span size=\"smaller\">például: /bin/bash</span>."
+msgstr "Adja meg a parancsértelmező teljes elérési útját\n<span size=\"smaller\">például: /bin/bash</span>."
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
@@ -2169,9 +2095,7 @@ msgstr "A rendszergazdai jogokat nem lehet visszavonni"
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr ""
-"%s az egyetlen rendszergazda ezen a számítógépen. Ha visszavonja a fiók "
-"rendszergazdai jogait, lehetetlenné válik a rendszer adminisztrációja."
+msgstr "%s az egyetlen rendszergazda ezen a számítógépen. Ha visszavonja a fiók rendszergazdai jogait, lehetetlenné válik a rendszer adminisztrációja."
 
 #: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
@@ -2182,15 +2106,13 @@ msgstr "Saját rendszergazdai jogainak visszavonására készül"
 msgid ""
 "%s will no longer be able to perform administrative tasks. This account "
 "won't be allowed to get administration rights back on its own."
-msgstr ""
-"%s felhasználó nem hajthat végre rendszergazdai feladatokat. A fiók ezután "
-"önállóan nem kaphatja vissza a rendszergazdai jogait."
+msgstr "%s felhasználó nem hajthat végre rendszergazdai feladatokat. A fiók ezután önállóan nem kaphatja vissza a rendszergazdai jogait."
 
 #: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
 msgstr "Rendszergazdai jogok feladása"
 
-#: ../src/users/user-settings.c:1459
+#: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
 msgstr "Felhasználói beállítások módosításainak alkalmazása…"
 

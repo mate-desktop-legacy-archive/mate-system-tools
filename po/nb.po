@@ -1,750 +1,746 @@
-# Norwegian (bokmål) translation of mate-system-tools.
-# Copyright (C) 2001-2004, 2005 Free Software Foundation, Inc.
-# Kjartan Maraas <kmaraas@gnome.org>, 2001-2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Terance Edward Sola <terance@lyse.net>, 2005.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools 2.31.x\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-11 11:43+0200\n"
-"PO-Revision-Date: 2010-09-11 11:52+0200\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
-"Language-Team: Norwegian Bokmal <i18n-nb@lister.ping.uio.no>\n"
-"Language: nb\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:52+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../interfaces/network.ui.h:1 ../src/network/ifaces-list.c:326
-msgid "Access point name:"
-msgstr "Navn på aksesspunkt:"
+#: ../interfaces/network.ui.h:1
+msgid "Off"
+msgstr "Av"
 
 #: ../interfaces/network.ui.h:2
-msgid "Account data"
-msgstr "Data for konto"
+msgid "Low"
+msgstr "Lav"
 
 #: ../interfaces/network.ui.h:3
-msgid "Aliases:"
-msgstr "Alias:"
+msgid "Medium"
+msgstr "Middels"
 
 #: ../interfaces/network.ui.h:4
-msgid "Con_figuration:"
-msgstr "Kon_figurasjon:"
+msgid "Loud"
+msgstr "Høy"
 
 #: ../interfaces/network.ui.h:5
-msgid "Connection Settings"
-msgstr "Innstillinger for tilkobling"
+msgid "Tones"
+msgstr "Toner"
 
 #: ../interfaces/network.ui.h:6
-msgid "Connection type:"
-msgstr "Tilkoblingstype:"
+msgid "Pulses"
+msgstr "Pulser"
 
 #: ../interfaces/network.ui.h:7
-msgid "Connections"
-msgstr "Tilkoblinger"
+msgid "Plain (ASCII)"
+msgstr "Vanlig (ASCII)"
 
 #: ../interfaces/network.ui.h:8
-msgid "DNS"
-msgstr "DNS"
+msgid "Hexadecimal"
+msgstr "Heksadesimal"
 
 #: ../interfaces/network.ui.h:9
-msgid "DNS Servers"
-msgstr "DNS-tjenere"
+msgid "Location:"
+msgstr "Lokasjon:"
 
 #: ../interfaces/network.ui.h:10
-msgid "D_omain name:"
-msgstr "D_omenenavn:"
+msgid "Save current network configuration as a location"
+msgstr "Lagre aktiv nettverkskonfigurasjon som en lokasjon"
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
 msgstr "Slett aktiv lokasjon"
 
 #: ../interfaces/network.ui.h:12
-msgid "E_nable roaming mode"
-msgstr "Aktiver flyttbar _modus"
+msgid "Connections"
+msgstr "Tilkoblinger"
 
 #: ../interfaces/network.ui.h:13
-msgid "E_nable this connection"
-msgstr "Aktiver de_nne tilkoblingen"
+msgid "_Host name:"
+msgstr "_Vertsnavn:"
 
-#: ../interfaces/network.ui.h:14 ../src/network/ifaces-list.c:335
-msgid "Ethernet interface:"
-msgstr "Ethernet-grensesnitt:"
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "D_omenenavn:"
 
-#: ../interfaces/network.ui.h:15 ../interfaces/users.ui.h:27
-msgid "General"
-msgstr "Generelt"
-
-#: ../interfaces/network.ui.h:16
-msgid "Hexadecimal"
-msgstr "Heksadesimal"
-
-#: ../interfaces/network.ui.h:17
-msgid "Host Alias Properties"
-msgstr "Egenskaper for vertsalias"
-
-#: ../interfaces/network.ui.h:18
+#: ../interfaces/network.ui.h:15
 msgid "Host Settings"
 msgstr "Innstillinger for vert"
 
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Generelt"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "DNS-tjenere"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Søkedomener"
+
 #: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
 msgid "Hosts"
 msgstr "Verter"
-
-#: ../interfaces/network.ui.h:20 ../interfaces/shares.ui.h:11
-msgid "IP address:"
-msgstr "IP-adresse:"
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
 msgstr "Egenskaper for grensesnitt"
 
 #: ../interfaces/network.ui.h:22
-msgid "Internet service provider data"
-msgstr "Data for tjenesteleverandlør for Internett"
+msgid "E_nable this connection"
+msgstr "Aktiver de_nne tilkoblingen"
 
 #: ../interfaces/network.ui.h:23
-msgid "Location:"
-msgstr "Lokasjon:"
+msgid "E_nable roaming mode"
+msgstr "Aktiver flyttbar _modus"
 
 #: ../interfaces/network.ui.h:24
-msgid "Loud"
-msgstr "Høy"
+msgid "Connection type:"
+msgstr "Tilkoblingstype:"
 
 #: ../interfaces/network.ui.h:25
-msgid "Low"
-msgstr "Lav"
-
-#: ../interfaces/network.ui.h:26
-msgid "Medium"
-msgstr "Middels"
-
-#: ../interfaces/network.ui.h:27
-msgid "Modem"
-msgstr "Modem"
-
-#: ../interfaces/network.ui.h:28
-msgid "Modem Settings"
-msgstr "Innstillinger for modem"
-
-#: ../interfaces/network.ui.h:29
-msgid "Network _password:"
-msgstr "Nettverks_passord:"
-
-#: ../interfaces/network.ui.h:30
 msgid "Network name (_ESSID):"
 msgstr "Nettverksnavn (_ESSID):"
 
-#: ../interfaces/network.ui.h:31
-msgid "Off"
-msgstr "Av"
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "Nettverks_passord:"
 
-#: ../interfaces/network.ui.h:32
-msgid "Options"
-msgstr "Alternativer"
-
-#: ../interfaces/network.ui.h:33
-msgid "P_assword"
-msgstr "P_assord"
-
-#: ../interfaces/network.ui.h:34
+#: ../interfaces/network.ui.h:27
 msgid "Password _type:"
 msgstr "_Type passord:"
 
-#: ../interfaces/network.ui.h:35
-msgid "Plain (ASCII)"
-msgstr "Vanlig (ASCII)"
-
-#: ../interfaces/network.ui.h:36
-msgid "Pulses"
-msgstr "Pulser"
-
-#: ../interfaces/network.ui.h:37
-msgid "Save current network configuration as a location"
-msgstr "Lagre aktiv nettverkskonfigurasjon som en lokasjon"
-
-#: ../interfaces/network.ui.h:38
-msgid "Search Domains"
-msgstr "Søkedomener"
-
-#: ../interfaces/network.ui.h:39
-msgid "Tones"
-msgstr "Toner"
-
-#: ../interfaces/network.ui.h:40
-msgid "Use the Internet service provider nameservers"
-msgstr "Bruk navnetjenere hos tjenesteleverandør"
-
-#: ../interfaces/network.ui.h:41
+#: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
 msgstr " Innstillinger for trådløs tilkobling"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "Finn _automatisk"
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "Kon_figurasjon:"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_IP-adresse:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "_Subnettmaske:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "_Gateway-adresse:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "Innstillinger for tilkobling"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "_Lokal IP:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "Este_rn IP:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "_Telefonnummer:"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "_Ringeprefiks:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "Navn på aksesspunkt:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "Data for tjenesteleverandlør for Internett"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "Br_ukernavn:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "P_assord"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Data for konto"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "_Modemport:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "Type opp_ringing:"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "_Gateway-adresse:"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "_Vertsnavn:"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "_IP-adresse:"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "_Lokal IP:"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "_Modemport:"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "_Telefonnummer:"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "Este_rn IP:"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "P_røv igjen hvis tilkoblingen blir borte eller ikke starter"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "_Sett modem som forvalgt rute til internett"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "_Subnettmaske:"
-
-#: ../interfaces/network.ui.h:55 ../interfaces/users.ui.h:82
-msgid "_Username:"
-msgstr "Br_ukernavn:"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Volum:"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "Avanserte instillinger:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "Finn _automatisk"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "Ethernet-grensesnitt:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "Innstillinger for modem"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modem"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "_Sett modem som forvalgt rute til internett"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Bruk navnetjenere hos tjenesteleverandør"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "P_røv igjen hvis tilkoblingen blir borte eller ikke starter"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Alternativer"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "Egenskaper for vertsalias"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP-adresse:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Alias:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Velg tjenestene du ønsker å aktivere:"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Avanserte instillinger:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Add allowed hosts"
-msgstr "Legg til tillatte verter"
+msgid "_Path:"
+msgstr "_Sti:"
 
 #: ../interfaces/shares.ui.h:2
-msgid "Allowed Hosts"
-msgstr "Tillatte verter"
+msgid "Share through:"
+msgstr "Del gjennom:"
 
 #: ../interfaces/shares.ui.h:3
-msgid "Allowed hosts:"
-msgstr "Tillatte verter:"
+msgid "Shared Folder"
+msgstr "Delt mappe"
 
 #: ../interfaces/shares.ui.h:4
 msgid "Comment:"
 msgstr "Kommentar:"
 
 #: ../interfaces/shares.ui.h:5
-msgid "Domain / _Workgroup:"
-msgstr "Domene / Ar_beidsgruppe:"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user"
-msgstr "Oppgi passord for bruker"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Enter password for user:"
-msgstr "Oppgi passord for bruker:"
-
-#: ../interfaces/shares.ui.h:8
-msgid "General Properties"
-msgstr "Generelle egenskaper"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Host name:"
-msgstr "Vertsnavn:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Hosts Settings"
-msgstr "Instillinger for vert"
-
-#: ../interfaces/shares.ui.h:12
 msgid "Name:"
 msgstr "Navn:"
 
-#: ../interfaces/shares.ui.h:13
-msgid "Netmask:"
-msgstr "Nettmaske:"
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr "Sk_rivebeskyttet"
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "Egenskaper for delt ressurs"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "Tillatte verter"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "Del"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Legg til tillatte verter"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Tillatte verter:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Vertsnavn:"
 
 #: ../interfaces/shares.ui.h:14
 msgid "Network:"
 msgstr "Nettverk:"
 
-#: ../interfaces/shares.ui.h:15 ../src/shares/nfs-acl-table.c:56
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Nettmaske:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
 msgid "Read only"
 msgstr "Skrivebeskyttet"
 
-#: ../interfaces/shares.ui.h:16
-msgid "Share"
-msgstr "Del"
-
 #: ../interfaces/shares.ui.h:17
-msgid "Share Properties"
-msgstr "Egenskaper for delt ressurs"
+msgid "Hosts Settings"
+msgstr "Instillinger for vert"
 
-#: ../interfaces/shares.ui.h:18
-msgid "Share through:"
-msgstr "Del gjennom:"
-
-#: ../interfaces/shares.ui.h:19
-msgid "Shared Folder"
-msgstr "Delt mappe"
-
-#: ../interfaces/shares.ui.h:20 ../src/shares/shares.desktop.in.in.h:2
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
 msgstr "Delte mapper"
 
-#: ../interfaces/shares.ui.h:21
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "Domene / Ar_beidsgruppe:"
+
+#: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
 msgstr "Denne datamaskinen er en _WINS-tjener"
 
-#: ../interfaces/shares.ui.h:22
-msgid "Users"
-msgstr "Brukere"
-
-#: ../interfaces/shares.ui.h:23
+#: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
 msgstr "WINS-_tjener:"
 
-#: ../interfaces/shares.ui.h:24
+#: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
 msgstr "Delt Windows-ressurs"
 
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Generelle egenskaper"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "Brukere"
+
 #: ../interfaces/shares.ui.h:25
-msgid "_Path:"
-msgstr "_Sti:"
+msgid "Enter password for user"
+msgstr "Oppgi passord for bruker"
 
 #: ../interfaces/shares.ui.h:26
-msgid "_Read only"
-msgstr "Sk_rivebeskyttet"
+msgid "Enter password for user:"
+msgstr "Oppgi passord for bruker:"
 
 #: ../interfaces/time.ui.h:1
-msgid "Add NTP Server"
-msgstr "Legg til NTP-tjener"
+msgid "Time zone"
+msgstr "Tidssone"
 
 #: ../interfaces/time.ui.h:2
-msgid "NTP server"
-msgstr "NTP-tjener"
+msgid "Time Zone"
+msgstr "Tidssone"
 
 #: ../interfaces/time.ui.h:3
-msgid "Se_lect Servers"
-msgstr "Ve_lg tjenere"
+msgid "Time zone:"
+msgstr "Tidssone:"
 
 #: ../interfaces/time.ui.h:4
 msgid "Selection"
 msgstr "Utvalg"
 
 #: ../interfaces/time.ui.h:5
-msgid "Synchronize now"
-msgstr "Synkroniserer nå"
-
-#: ../interfaces/time.ui.h:6
-msgid "Time Zone"
-msgstr "Tidssone"
-
-#: ../interfaces/time.ui.h:7
 msgid "Time servers"
 msgstr "Tidtjenere"
 
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP-tjener"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "Legg til NTP-tjener"
+
 #: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "Tidtjenere:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "Tidssone"
-
-#: ../interfaces/time.ui.h:10
-msgid "Time zone:"
-msgstr "Tidssone:"
-
-#: ../interfaces/time.ui.h:11
 msgid "Unconfigured"
 msgstr "Ikke konfigurert"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_Konfigurasjon:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "Tidtjenere:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "Ve_lg tjenere"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "_Klokkeslett:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "_Dato:"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "_Klokkeslett:"
+msgid "Synchronize now"
+msgstr "Synkroniserer nå"
 
 #: ../interfaces/users.ui.h:1
-msgid ""
-"A user with this name already exists. Please choose a different name for the "
-"new user."
-msgstr ""
-"En bruker med dette navnet finnes allerede. Vennligst velg et annet navn for "
-"den nye brukeren."
+msgid "_Manage Groups"
+msgstr "_Håndter grupper"
 
 #: ../interfaces/users.ui.h:2
 msgid "Account _type:"
 msgstr "Konto_type:"
 
 #: ../interfaces/users.ui.h:3
-msgid "Advanced"
-msgstr "Avansert"
+msgid "_Change..."
+msgstr "_Endre..."
 
 #: ../interfaces/users.ui.h:4
-msgid "Advanced Settings"
-msgstr "Avanserte innstillinger"
+msgid "_Password:"
+msgstr "_Passord:"
 
 #: ../interfaces/users.ui.h:5
-msgid "Assign a random password by default"
-msgstr "Tildel et tilfeldig passord som forvalg"
+msgid "_Advanced Settings"
+msgstr "_Avanserte instillinger"
 
 #: ../interfaces/users.ui.h:6
-msgid "Automatic UID/GID"
-msgstr "Automatisk UID/GID"
+msgid "This account is disabled."
+msgstr "Denne kontoen er deaktivert."
 
 #: ../interfaces/users.ui.h:7
-msgid "Basic Settings"
-msgstr "Grunnleggende innstillinger"
+msgid "_Enable Account"
+msgstr "_Aktiver konto"
 
 #: ../interfaces/users.ui.h:8
-msgid "Change Advanced User Settings"
-msgstr "Endre avanserte instillinger"
-
-#: ../interfaces/users.ui.h:9
-msgid "Change User Account Type"
-msgstr "Bytt brukerkontotype"
-
-#: ../interfaces/users.ui.h:10
-msgid "Change User Name"
-msgstr "Bytt brukernavn"
-
-#: ../interfaces/users.ui.h:11
-msgid "Change User Password"
-msgstr "Bytt passord for bruker"
-
-#: ../interfaces/users.ui.h:12
-msgid "Changing advanced settings for:"
-msgstr "Endrer avanserte instillinger for:"
-
-#: ../interfaces/users.ui.h:13
-msgid "Changing user account type for:"
-msgstr "Endrer brukerkontotype for:"
-
-#: ../interfaces/users.ui.h:14
-msgid "Changing user name for:"
-msgstr "Endrer brukernavn for:"
-
-#: ../interfaces/users.ui.h:15
-msgid "Changing user password for:"
-msgstr "Endrer brukerpassord for:"
-
-#: ../interfaces/users.ui.h:16
-msgid "Con_firmation:"
-msgstr "Bekre_ftelse:"
-
-#: ../interfaces/users.ui.h:17
-msgid "Contact Information"
-msgstr "Kontaktinformasjon"
-
-#: ../interfaces/users.ui.h:18
-msgid "Create New User"
-msgstr "Lag ny bruker"
-
-#: ../interfaces/users.ui.h:19
-msgid "Create a new user"
-msgstr "Lag en ny bruker"
-
-#: ../interfaces/users.ui.h:20
-msgid "Days between warning and password expiration:"
-msgstr "Dager mellom varsling og utløp av passord:"
-
-#: ../interfaces/users.ui.h:21
-msgid "Default _group:"
-msgstr "Forvalgt _gruppe:"
-
-#: ../interfaces/users.ui.h:22
-msgid "Default _shell:"
-msgstr "Forvalgt _skall:"
-
-#: ../interfaces/users.ui.h:23
-msgid "Disable _account"
-msgstr "Deaktiver _konto"
-
-#: ../interfaces/users.ui.h:24
-msgid "Don't ask for password on _login"
-msgstr "Ikke spør etter passord ved på_logging"
-
-#: ../interfaces/users.ui.h:25
-msgid ""
-"Encrypt all your files with your login password to strongly protect them "
-"from people with physical access to your computer, at the expense of a "
-"slightly reduced performance."
-msgstr "Krypter alle dine filer med påloggingspassordet for å beskytte dem fra andre som har fysisk tilgang til din datamaskin. Påvirker ytelsen noe."
-
-#: ../interfaces/users.ui.h:26
-msgid "Full _Name:"
-msgstr "Fullt _navn:"
-
-#: ../interfaces/users.ui.h:28
-msgid "Generate _random password"
-msgstr "Generer tilfeldig passo_rd"
-
-#: ../interfaces/users.ui.h:29
-msgid "Group Members"
-msgstr "Gruppemedlemmer"
-
-#: ../interfaces/users.ui.h:30
-msgid "Group _ID:"
-msgstr "Gruppe-_ID:"
-
-#: ../interfaces/users.ui.h:31
-msgid "Group _name:"
-msgstr "Gruppe_navn:"
-
-#: ../interfaces/users.ui.h:32
 msgid "Group properties"
 msgstr "Egenskaper for gruppe"
 
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "Grunnleggende innstillinger"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "Gruppe_navn:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "Gruppe-_ID:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Gruppemedlemmer"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr "Innstillinger for profil"
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "_Navn på profil:"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Kommentarer"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Forvalg for systemet"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "_Hjemmemappe:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "Forvalgt _skall:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "Forvalgt _gruppe:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Innstillinger for passord"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Antall dager et passord kan brukes:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Minste antall dager tillatt mellom passordbytte:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Dager mellom varsling og utløp av passord:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Tildel et tilfeldig passord som forvalg"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "Automatisk UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "Største UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "Største GID:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "Minste UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "Minste GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Rettigheter"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Brukerprofiler"
+
 #: ../interfaces/users.ui.h:33
-msgid "Groups available on the system:"
-msgstr "Grupper som er tilgjengelig på systemet:"
+msgid "_Add Profile"
+msgstr "_Legg til profil"
 
 #: ../interfaces/users.ui.h:34
 msgid "Groups settings"
 msgstr "Instillinger for gruppe"
 
 #: ../interfaces/users.ui.h:35
-msgid "Ma_ximum days a password may be used:"
-msgstr "Ma_ksimalt antall dager et passord kan brukes:"
+msgid "Groups available on the system:"
+msgstr "Grupper som er tilgjengelig på systemet:"
 
 #: ../interfaces/users.ui.h:36
-msgid "Maximum GID:"
-msgstr "Største GID:"
+msgid "Change User Name"
+msgstr "Bytt brukernavn"
 
 #: ../interfaces/users.ui.h:37
-msgid "Maximum UID:"
-msgstr "Største UID:"
+msgid "Full _Name:"
+msgstr "Fullt _navn:"
 
 #: ../interfaces/users.ui.h:38
-msgid "Mi_nimum days between password changes:"
-msgstr "Mi_nste antall dager mellom passordbytte:"
+msgid "Changing user name for:"
+msgstr "Endrer brukernavn for:"
 
 #: ../interfaces/users.ui.h:39
-msgid "Minimum GID:"
-msgstr "Minste GID:"
+msgid "Change User Password"
+msgstr "Bytt passord for bruker"
 
 #: ../interfaces/users.ui.h:40
-msgid "Minimum UID:"
-msgstr "Minste UID:"
+msgid "Con_firmation:"
+msgstr "Bekre_ftelse:"
 
 #: ../interfaces/users.ui.h:41
-msgid "Minimum days allowed between password changes:"
-msgstr "Minste antall dager tillatt mellom passordbytte:"
-
-#: ../interfaces/users.ui.h:42
-msgid "New _password:"
-msgstr "Nytt _passord:"
-
-#: ../interfaces/users.ui.h:43
-msgid "Number of days that a password may be used:"
-msgstr "Antall dager et passord kan brukes:"
-
-#: ../interfaces/users.ui.h:44
-msgid "O_ffice location:"
-msgstr "Kon_torlokasjon<:"
-
-#: ../interfaces/users.ui.h:45
-msgid "Optional Settings"
-msgstr "Valgfrie innstillinger"
-
-#: ../interfaces/users.ui.h:46
-msgid "Password Settings"
-msgstr "Innstillinger for passord"
-
-#: ../interfaces/users.ui.h:47
 msgid "Password set to: "
 msgstr "Passord satt til: "
 
-#: ../interfaces/users.ui.h:48
-msgid "Privileges"
-msgstr "Rettigheter"
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "_Generer"
 
-#: ../interfaces/users.ui.h:49
-msgid "Profile Settings"
-msgstr "Innstillinger for profil"
-
-#: ../interfaces/users.ui.h:50
-msgid "Profile _name:"
-msgstr "_Navn på profil:"
-
-#: ../interfaces/users.ui.h:51
+#: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
 msgstr "Sett passord _manuelt"
 
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "Nytt _passord:"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "Generer tilfeldig passo_rd"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "Endrer brukerpassord for:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "Ikke spør etter passord ved på_logging"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "_Aktivt passord:"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "Bytt brukerkontotype"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "Endrer brukerkontotype for:"
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "_Egendefinert"
+
 #: ../interfaces/users.ui.h:52
-msgid "System Defaults"
-msgstr "Forvalg for systemet"
-
-#: ../interfaces/users.ui.h:53
-msgid "This account is disabled."
-msgstr "Denne kontoen er deaktivert."
-
-#: ../interfaces/users.ui.h:54
 msgid ""
 "This account is using special settings that have been defined manually. Use "
 "the <i>Advanced Settings</i> dialog to tune them."
 msgstr "Denne kontoen bruker spesielle innstillinger som er definert manuelt. Bruk <i>Avanserte innstillinger</i> for å endre dem."
 
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "Lag ny bruker"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "_Navn:"
+
 #: ../interfaces/users.ui.h:55
-msgid "User ID:"
-msgstr "Bruker-ID:"
+msgid "Create a new user"
+msgstr "Lag en ny bruker"
 
-#: ../interfaces/users.ui.h:56
-msgid "User Privileges"
-msgstr "Brukerrettigheter"
-
-#: ../interfaces/users.ui.h:57
-msgid "User profiles"
-msgstr "Brukerprofiler"
-
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
-#: ../interfaces/users.ui.h:59
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
 msgid ""
 "Username must consist of:\n"
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
-"Brukernavn på bestå av:\n"
-"  - små bokstaver fra det engelske alfabetet\n"
-"  - tall\n"
-"  - ethvert av tegnene «.», «-» og «_»"
+msgstr "Brukernavn på bestå av:\n  - små bokstaver fra det engelske alfabetet\n  - tall\n  - ethvert av tegnene «.», «-» og «_»"
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr "En bruker med dette navnet finnes allerede. Vennligst velg et annet navn for den nye brukeren."
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
 msgstr "Brukernavn må starte med en bokstav!"
 
 #: ../interfaces/users.ui.h:64
-msgid "You can't change user ID while the user is logged in."
-msgstr "Du kan ikke endre bruker-ID mens brukeren er logget inn."
-
-#: ../interfaces/users.ui.h:65
-msgid "_Add Profile"
-msgstr "_Legg til profil"
-
-#: ../interfaces/users.ui.h:66
-msgid "_Advanced Settings"
-msgstr "_Avanserte instillinger"
-
-#: ../interfaces/users.ui.h:67
-msgid "_Change..."
-msgstr "_Endre..."
-
-#: ../interfaces/users.ui.h:68
-msgid "_Comments"
-msgstr "_Kommentarer"
-
-#: ../interfaces/users.ui.h:69
-msgid "_Current password:"
-msgstr "_Aktivt passord:"
-
-#: ../interfaces/users.ui.h:70
-msgid "_Custom"
-msgstr "_Egendefinert"
-
-#: ../interfaces/users.ui.h:71
-msgid "_Days between warning and password expiration:"
-msgstr "_Dager mellom advarsel og utløp av passord:"
-
-#: ../interfaces/users.ui.h:72
-msgid "_Enable Account"
-msgstr "_Aktiver konto"
-
-#: ../interfaces/users.ui.h:73
 msgid "_Encrypt home folder to protect sensitive data"
 msgstr "Krypt_er hjemmemappen for å beskytte sensitive data"
 
-#: ../interfaces/users.ui.h:74
-msgid "_Generate"
-msgstr "_Generer"
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "Krypter alle dine filer med påloggingspassordet for å beskytte dem fra andre som har fysisk tilgang til din datamaskin. Påvirker ytelsen noe."
 
-#: ../interfaces/users.ui.h:75
-msgid "_Home directory:"
-msgstr "_Hjemmemappe:"
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "Endre avanserte instillinger"
 
-#: ../interfaces/users.ui.h:76
-msgid "_Home phone:"
-msgstr "_Hjemmetelefon:"
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "Endrer avanserte instillinger for:"
 
-#: ../interfaces/users.ui.h:77
-msgid "_Main group:"
-msgstr "_Hovedgruppe:"
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "Kon_torlokasjon<:"
 
-#: ../interfaces/users.ui.h:78
-msgid "_Manage Groups"
-msgstr "_Håndter grupper"
-
-#: ../interfaces/users.ui.h:79
-msgid "_Name:"
-msgstr "_Navn:"
-
-#: ../interfaces/users.ui.h:80
-msgid "_Password:"
-msgstr "_Passord:"
-
-#: ../interfaces/users.ui.h:81
-msgid "_Shell:"
-msgstr "_Skall:"
-
-#: ../interfaces/users.ui.h:83
+#: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
 msgstr "_Telefon arbeid:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:1
-msgid "Show root user"
-msgstr "Vis root-bruker"
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "_Hjemmetelefon:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:2
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr "Kontaktinformasjon"
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "Brukerrettigheter"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Avanserte innstillinger"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "_Skall:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "_Hovedgruppe:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "Bruker-ID:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "Du kan ikke endre bruker-ID mens brukeren er logget inn."
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "Deaktiver _konto"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Valgfrie innstillinger"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Mi_nste antall dager mellom passordbytte:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "Ma_ksimalt antall dager et passord kan brukes:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "_Dager mellom advarsel og utløp av passord:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Avansert"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
 msgstr "Vis systembrukere"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:3
+#: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
 "Whether the users-admin tool should show system users in the users list."
 msgstr "Hvorvidt verktøyet users-admin skal vises systembrukere i brukerlisten."
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr "Vis root-bruker"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
@@ -761,9 +757,7 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr ""
-"Hvis du er sikker på at det virker som en av platformene listet nedenfor, "
-"velg en og fortsett. Dette kan imidlertid gjøre skade på systemet ditt."
+msgstr "Hvis du er sikker på at det virker som en av platformene listet nedenfor, velg en og fortsett. Dette kan imidlertid gjøre skade på systemet ditt."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
@@ -841,8 +835,7 @@ msgstr "Kunne ikke gjenkjenne modemenhet automatisk"
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
-msgstr ""
-"Sjekk at enheten ikke er opptatt og at den er koblet riktig til datamaskinen."
+msgstr "Sjekk at enheten ikke er opptatt og at den er koblet riktig til datamaskinen."
 
 #: ../src/network/callbacks.c:523
 msgid "The host name has changed"
@@ -852,9 +845,7 @@ msgstr "Vertsnavnet er endret"
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr ""
-"Dette vil hindre deg i å starte nye programmer, og derfor vil du måtte logge "
-"inn på nytt. Fortsett likevel?"
+msgstr "Dette vil hindre deg i å starte nye programmer, og derfor vil du måtte logge inn på nytt. Fortsett likevel?"
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
@@ -1028,13 +1019,13 @@ msgstr "Konfigurer det første nettverksgrensesnittet med en spesifikk type"
 msgid "TYPE"
 msgstr "TYPE"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "Konfigurer nettverksenheter og tilkoblinger"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "Nettverk"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Konfigurer nettverksenheter og tilkoblinger"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
@@ -1054,8 +1045,7 @@ msgstr "Er du sikker på at du vil deaktivere %s?"
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
-msgstr ""
-"Dette kan påvirke systemet på mange måter, og muligens føre til tap av data."
+msgstr "Dette kan påvirke systemet på mange måter, og muligens føre til tap av data."
 
 #: ../src/services/service.c:32
 msgid "Web server"
@@ -1464,13 +1454,13 @@ msgstr "Systemovervåking"
 msgid "Virtual Machine management"
 msgstr "Håndtering av virtuelle maskiner"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "Konfigurer hvilke tjenester som skal kjøres når systemet starter"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Tjenester"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Konfigurer hvilke tjenester som skal kjøres når systemet starter"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1545,7 +1535,7 @@ msgstr "Oppgi IP-adresse"
 msgid "Specify network"
 msgstr "Oppgi nettverk"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Konfigurer mapper som skal gjøres tilgjengelig for ditt nettverk"
 
@@ -1594,13 +1584,13 @@ msgid ""
 "should instead select the timezone from the drop-down combination box below."
 msgstr ""
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Endre systemets tid, dato og tidssone"
-
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Tid og dato"
+
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Endre systemets tid, dato og tidssone"
 
 #: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
@@ -1610,9 +1600,7 @@ msgstr "NTP-støtte er ikke installert"
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr ""
-"Installer og aktiver NTP-støtte i systemet for å synkronisere din lokale "
-"tidtjener med en tidtjener på internett."
+msgstr "Installer og aktiver NTP-støtte i systemet for å synkronisere din lokale tidtjener med en tidtjener på internett."
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
@@ -1686,9 +1674,7 @@ msgstr "Gruppenavnet har ugyldige tegn"
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr ""
-"Sett et gyldig brukernavn som består bare av en liten bokstav fulgt av små "
-"bokstaver og tall."
+msgstr "Sett et gyldig brukernavn som består bare av en liten bokstav fulgt av små bokstaver og tall."
 
 #: ../src/users/group-settings.c:229
 #, c-format
@@ -1816,24 +1802,24 @@ msgid "Be able to get administrator privileges"
 msgstr "Få administratorrettigheter"
 
 #: ../src/users/user-profiles.conf.in.h:1
-msgid "Administrator"
-msgstr "Administrator"
+msgid "Desktop user"
+msgstr "Skrivebordsbruker"
 
 #: ../src/users/user-profiles.conf.in.h:2
-msgid ""
-"Can change anything on the system, including installing and upgrading "
-"software."
-msgstr "Kan endre alt på systemet inkludert installering og oppgradering av programvare."
-
-#: ../src/users/user-profiles.conf.in.h:3
 msgid ""
 "Can perform common tasks. Can't install software or change settings "
 "affecting all users."
 msgstr "Kan utføre vanlige oppgaver. Kan ikke installere programvare eller endre innstillinger som påvirker alle brukere."
 
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr "Administrator"
+
 #: ../src/users/user-profiles.conf.in.h:4
-msgid "Desktop user"
-msgstr "Skrivebordsbruker"
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr "Kan endre alt på systemet inkludert installering og oppgradering av programvare."
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
@@ -1879,13 +1865,13 @@ msgstr "Passordet ditt er endret siden du autentiserte deg sist!"
 msgid "Unknown error"
 msgstr "Ukjent feil"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Legg til eller fjern brukere og grupper"
-
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Brukere og grupper"
+
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Legg til eller fjern brukere og grupper"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
@@ -1895,9 +1881,7 @@ msgstr "Passordet er for kort"
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr ""
-"Brukerpassord må være lengre enn 5 tegn og helst utformet av tall, bokstaver "
-"og spesielle tegn."
+msgstr "Brukerpassord må være lengre enn 5 tegn og helst utformet av tall, bokstaver og spesielle tegn."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1907,15 +1891,15 @@ msgstr "Bekreftelse av passord er ikke korrekt"
 msgid "Check that you have provided the same password in both text fields."
 msgstr "Sjekk at du har oppgitt samme passord i begge tekstfeltene."
 
-#: ../src/users/user-password.c:426
+#: ../src/users/user-password.c:445
 msgid "Please choose another password."
 msgstr "Vennligst velg et annet passord."
 
-#: ../src/users/user-password.c:437
+#: ../src/users/user-password.c:456
 msgid "Please type again your current password."
 msgstr "Vennligst skriv inn passordet på nytt."
 
-#: ../src/users/user-password.c:444
+#: ../src/users/user-password.c:463
 msgid "Password could not be changed"
 msgstr "Passordet kunne ikke byttes"
 
@@ -1941,9 +1925,7 @@ msgstr "Kan ikke slette den eneste administratorkontoen"
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr ""
-"%s er den eneste administratoren på denne datamaskinen. Hvis du sletter "
-"denne kontoen vil det hindre deg i å administrere systemet."
+msgstr "%s er den eneste administratoren på denne datamaskinen. Hvis du sletter denne kontoen vil det hindre deg i å administrere systemet."
 
 #: ../src/users/user-settings.c:121
 #, c-format
@@ -1953,9 +1935,9 @@ msgstr "Fjern hjemmemappe for %s?"
 #: ../src/users/user-settings.c:124
 #, c-format
 msgid ""
-"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't "
-"need them anymore. You may want to back them up before deleting the account, "
-"or keep them so that an administrator can save them later."
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
 msgstr ""
 
 #: ../src/users/user-settings.c:132
@@ -2000,9 +1982,7 @@ msgstr "Ugyldig sti i hjemmemappen"
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
-"Vennligst oppgi full sti til hjemmemappen\n"
-"<span size=\"smaller\">f.eks: /home/john</span>."
+msgstr "Vennligst oppgi full sti til hjemmemappen\n<span size=\"smaller\">f.eks: /home/john</span>."
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
@@ -2011,12 +1991,9 @@ msgstr "Ny hjemmekatalog eksisterer allerede, bruk den?"
 #: ../src/users/user-settings.c:449
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or copy the contents of <tt>"
-"%s</tt> to the new home, overwriting it?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
-"In doubt, use the new directory to avoid losing data, and copy files from "
-"the old directory later."
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
 msgstr ""
 
 #: ../src/users/user-settings.c:461
@@ -2045,9 +2022,7 @@ msgstr "_Slett gammel hjemmemappe"
 #: ../src/users/user-settings.c:493
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or delete all its contents and "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
 msgstr ""
@@ -2067,12 +2042,9 @@ msgstr "Kopier gammel hjemmekatalog til ny lokasjon?"
 #: ../src/users/user-settings.c:528
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. "
-"Do you want to copy the contents of the old home directory (<tt>%s</tt>), or "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
-"If you choose to copy the files to the new location, it's safe to delete the "
-"old directory."
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
 msgstr ""
 
 #: ../src/users/user-settings.c:539
@@ -2107,9 +2079,7 @@ msgstr "Ufullferdig sti i skallet"
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
-"Vennligst oppgi full sti for skallet\n"
-"<span size=\"smaller\">f.eks: /bin/bash</span>."
+msgstr "Vennligst oppgi full sti for skallet\n<span size=\"smaller\">f.eks: /bin/bash</span>."
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
@@ -2137,7 +2107,7 @@ msgstr ""
 msgid "Give up administration rights"
 msgstr "Gi opp administrasjonsrettigheter"
 
-#: ../src/users/user-settings.c:1459
+#: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
 msgstr "Aktiverer endringer i innstillinger for bruker..."
 

@@ -1,756 +1,749 @@
-# Chinese (Taiwan) translation for mate-system-tools.
-# Copyright (C) 2001-07 Free Software Foundation, Inc.
-# Abel Cheung <abel@oaka.org>, 2001-2003.
-# Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2004.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2006.
-# Woodman Tuen <wmtuen@gmail.com>, 2006-07.
+# Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2004.
 # Ching-Hung Lin <billlin@wshlab2.ee.kuas.edu.tw>, 2006.
-# Kevin_Wei_2 <kevin_wei3@yahoo.com.tw>, 2010
-#
-#
+# Kevin_Wei_2 <kevin_wei3@yahoo.com.tw>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools 2.31.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-23 19:54+0800\n"
-"PO-Revision-Date: 2010-08-22 19:44+0800\n"
-"Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
-"Language-Team: Chinese (Taiwan) <zh-l10n@lists.linux.org.tw>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:50+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-#: ../interfaces/network.ui.h:1 ../src/network/ifaces-list.c:326
-msgid "Access point name:"
-msgstr "無線網路存取點名稱："
+#: ../interfaces/network.ui.h:1
+msgid "Off"
+msgstr "關閉"
 
 #: ../interfaces/network.ui.h:2
-msgid "Account data"
-msgstr "帳號資料"
+msgid "Low"
+msgstr "低"
 
 #: ../interfaces/network.ui.h:3
-msgid "Aliases:"
-msgstr "別名："
+msgid "Medium"
+msgstr "中"
 
 #: ../interfaces/network.ui.h:4
-msgid "Con_figuration:"
-msgstr "設定(_F):"
+msgid "Loud"
+msgstr "高"
 
 #: ../interfaces/network.ui.h:5
-msgid "Connection Settings"
-msgstr "連線設定值"
+msgid "Tones"
+msgstr "音調"
 
 #: ../interfaces/network.ui.h:6
-msgid "Connection type:"
-msgstr "連線類型："
+msgid "Pulses"
+msgstr "脈衝"
 
 #: ../interfaces/network.ui.h:7
-msgid "Connections"
-msgstr "連線"
+msgid "Plain (ASCII)"
+msgstr "純文字 (ASCII)"
 
 #: ../interfaces/network.ui.h:8
-msgid "DNS"
-msgstr "DNS"
+msgid "Hexadecimal"
+msgstr "16 進制數字"
 
 #: ../interfaces/network.ui.h:9
-msgid "DNS Servers"
-msgstr "DNS 伺服器"
+msgid "Location:"
+msgstr "位置："
 
 #: ../interfaces/network.ui.h:10
-msgid "D_omain name:"
-msgstr "網域名稱(_O):"
+msgid "Save current network configuration as a location"
+msgstr "將現在的網路組態儲存成一個位置"
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
 msgstr "刪除目前的位置"
 
 #: ../interfaces/network.ui.h:12
-msgid "E_nable roaming mode"
-msgstr "啟用漫遊模式(_N)"
+msgid "Connections"
+msgstr "連線"
 
 #: ../interfaces/network.ui.h:13
-msgid "E_nable this connection"
-msgstr "啟用這個連線(_N)"
+msgid "_Host name:"
+msgstr "主機名稱(_H):"
 
-#: ../interfaces/network.ui.h:14 ../src/network/ifaces-list.c:335
-msgid "Ethernet interface:"
-msgstr "乙太網路介面："
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "網域名稱(_O):"
 
-#: ../interfaces/network.ui.h:15 ../interfaces/users.ui.h:27
-msgid "General"
-msgstr "一般"
-
-#: ../interfaces/network.ui.h:16
-msgid "Hexadecimal"
-msgstr "16 進制數字"
-
-#: ../interfaces/network.ui.h:17
-msgid "Host Alias Properties"
-msgstr "主機別名屬性"
-
-#: ../interfaces/network.ui.h:18
+#: ../interfaces/network.ui.h:15
 msgid "Host Settings"
 msgstr "主機設定"
 
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "一般"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "DNS 伺服器"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "搜尋網域"
+
 #: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
 msgid "Hosts"
 msgstr "主機"
-
-#: ../interfaces/network.ui.h:20 ../interfaces/shares.ui.h:11
-msgid "IP address:"
-msgstr "IP 地址："
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
 msgstr "介面屬性"
 
 #: ../interfaces/network.ui.h:22
-msgid "Internet service provider data"
-msgstr "網路服務供應商資料"
+msgid "E_nable this connection"
+msgstr "啟用這個連線(_N)"
 
 #: ../interfaces/network.ui.h:23
-msgid "Location:"
-msgstr "位置："
+msgid "E_nable roaming mode"
+msgstr "啟用漫遊模式(_N)"
 
 #: ../interfaces/network.ui.h:24
-msgid "Loud"
-msgstr "高"
+msgid "Connection type:"
+msgstr "連線類型："
 
 #: ../interfaces/network.ui.h:25
-msgid "Low"
-msgstr "低"
-
-#: ../interfaces/network.ui.h:26
-msgid "Medium"
-msgstr "中"
-
-#: ../interfaces/network.ui.h:27
-msgid "Modem"
-msgstr "數據機"
-
-#: ../interfaces/network.ui.h:28
-msgid "Modem Settings"
-msgstr "數據機設定值"
-
-#: ../interfaces/network.ui.h:29
-msgid "Network _password:"
-msgstr "網路密碼(_P):"
-
-#: ../interfaces/network.ui.h:30
 msgid "Network name (_ESSID):"
 msgstr "網路名稱(_ESSID):"
 
-#: ../interfaces/network.ui.h:31
-msgid "Off"
-msgstr "關閉"
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "網路密碼(_P):"
 
-#: ../interfaces/network.ui.h:32
-msgid "Options"
-msgstr "選項"
-
-#: ../interfaces/network.ui.h:33
-msgid "P_assword"
-msgstr "密碼(_A)"
-
-#: ../interfaces/network.ui.h:34
+#: ../interfaces/network.ui.h:27
 msgid "Password _type:"
 msgstr "密碼類型(_T):"
 
-#: ../interfaces/network.ui.h:35
-msgid "Plain (ASCII)"
-msgstr "純文字 (ASCII)"
-
-#: ../interfaces/network.ui.h:36
-msgid "Pulses"
-msgstr "脈衝"
-
-#: ../interfaces/network.ui.h:37
-msgid "Save current network configuration as a location"
-msgstr "將現在的網路組態儲存成一個位置"
-
-#: ../interfaces/network.ui.h:38
-msgid "Search Domains"
-msgstr "搜尋網域"
-
-#: ../interfaces/network.ui.h:39
-msgid "Tones"
-msgstr "音調"
-
-#: ../interfaces/network.ui.h:40
-msgid "Use the Internet service provider nameservers"
-msgstr "使用網路服務供應商名稱伺服器"
-
-#: ../interfaces/network.ui.h:41
+#: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
 msgstr "無線網路設定值"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "自動偵測(_A)"
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "設定(_F):"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_IP 地址："
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "子網路遮罩(_S):"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "通訊閘地址(_G):"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "連線設定值"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "本機 IP(_L):"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "遠端 IP(_R):"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "電話號碼(_P):"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "撥號前置數字(_D):"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "無線網路存取點名稱："
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "網路服務供應商資料"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "使用者名稱(_U):"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "密碼(_A)"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "帳號資料"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "數據機通訊埠(_M):"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "撥號方式(_D):"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "通訊閘地址(_G):"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "主機名稱(_H):"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "_IP 地址："
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "本機 IP(_L):"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "數據機通訊埠(_M):"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "電話號碼(_P):"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "遠端 IP(_R):"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "如果連線中斷或無法啟用時重新連線(_R)"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "設定數據機為預設路由(_S)"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "子網路遮罩(_S):"
-
-#: ../interfaces/network.ui.h:55 ../interfaces/users.ui.h:82
-msgid "_Username:"
-msgstr "使用者名稱(_U):"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "音量(_V):"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "進階設定值："
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "自動偵測(_A)"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "乙太網路介面："
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "數據機設定值"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "數據機"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "設定數據機為預設路由(_S)"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "使用網路服務供應商名稱伺服器"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "如果連線中斷或無法啟用時重新連線(_R)"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "選項"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "主機別名屬性"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP 地址："
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "別名："
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "選擇您想要使用的服務："
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "進階設定值："
+
 #: ../interfaces/shares.ui.h:1
-msgid "Add allowed hosts"
-msgstr "加入允許的主機"
+msgid "_Path:"
+msgstr "路徑(_P):"
 
 #: ../interfaces/shares.ui.h:2
-msgid "Allowed Hosts"
-msgstr "允許的主機"
+msgid "Share through:"
+msgstr "共享為："
 
 #: ../interfaces/shares.ui.h:3
-msgid "Allowed hosts:"
-msgstr "允許的主機："
+msgid "Shared Folder"
+msgstr "共享資料夾"
 
 #: ../interfaces/shares.ui.h:4
 msgid "Comment:"
 msgstr "註解:"
 
 #: ../interfaces/shares.ui.h:5
-msgid "Domain / _Workgroup:"
-msgstr "網域/工作群組(_W)"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user"
-msgstr "輸入使用者的密碼"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Enter password for user:"
-msgstr "輸入使用者的密碼:"
-
-#: ../interfaces/shares.ui.h:8
-msgid "General Properties"
-msgstr "一般屬性"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Host name:"
-msgstr "主機名稱："
-
-#: ../interfaces/shares.ui.h:10
-msgid "Hosts Settings"
-msgstr "主機設定"
-
-#: ../interfaces/shares.ui.h:12
 msgid "Name:"
 msgstr "名稱："
 
-#: ../interfaces/shares.ui.h:13
-msgid "Netmask:"
-msgstr "子網路遮罩:"
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr "唯讀(_R)"
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "共享屬性"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "允許的主機"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "分享"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "加入允許的主機"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "允許的主機："
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "主機名稱："
 
 #: ../interfaces/shares.ui.h:14
 msgid "Network:"
 msgstr "網路:"
 
-#: ../interfaces/shares.ui.h:15 ../src/shares/nfs-acl-table.c:56
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "子網路遮罩:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
 msgid "Read only"
 msgstr "唯讀"
 
-#: ../interfaces/shares.ui.h:16
-msgid "Share"
-msgstr "分享"
-
 #: ../interfaces/shares.ui.h:17
-msgid "Share Properties"
-msgstr "共享屬性"
+msgid "Hosts Settings"
+msgstr "主機設定"
 
-#: ../interfaces/shares.ui.h:18
-msgid "Share through:"
-msgstr "共享為："
-
-#: ../interfaces/shares.ui.h:19
-msgid "Shared Folder"
-msgstr "共享資料夾"
-
-#: ../interfaces/shares.ui.h:20 ../src/shares/shares.desktop.in.in.h:2
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
 msgstr "共享的資料夾"
 
-#: ../interfaces/shares.ui.h:21
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "網域/工作群組(_W)"
+
+#: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
 msgstr "本電腦是 _WINS 伺服器"
 
-#: ../interfaces/shares.ui.h:22
-msgid "Users"
-msgstr "使用者"
-
-#: ../interfaces/shares.ui.h:23
+#: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
 msgstr "WINS 伺服器(_S)"
 
-#: ../interfaces/shares.ui.h:24
+#: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
 msgstr "Windows 共享"
 
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "一般屬性"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "使用者"
+
 #: ../interfaces/shares.ui.h:25
-msgid "_Path:"
-msgstr "路徑(_P):"
+msgid "Enter password for user"
+msgstr "輸入使用者的密碼"
 
 #: ../interfaces/shares.ui.h:26
-msgid "_Read only"
-msgstr "唯讀(_R)"
+msgid "Enter password for user:"
+msgstr "輸入使用者的密碼:"
 
 #: ../interfaces/time.ui.h:1
-msgid "Add NTP Server"
-msgstr "加入 NTP 伺服器"
+msgid "Time zone"
+msgstr "時區"
 
 #: ../interfaces/time.ui.h:2
-msgid "NTP server"
-msgstr "NTP 伺服器"
+msgid "Time Zone"
+msgstr "時區"
 
 #: ../interfaces/time.ui.h:3
-msgid "Se_lect Servers"
-msgstr "選取伺服器(_L)"
+msgid "Time zone:"
+msgstr "時區:"
 
 #: ../interfaces/time.ui.h:4
 msgid "Selection"
 msgstr "選擇區"
 
 #: ../interfaces/time.ui.h:5
-msgid "Synchronize now"
-msgstr "立刻同步"
-
-#: ../interfaces/time.ui.h:6
-msgid "Time Zone"
-msgstr "時區"
-
-#: ../interfaces/time.ui.h:7
 msgid "Time servers"
 msgstr "時間校對伺服器"
 
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP 伺服器"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "加入 NTP 伺服器"
+
 #: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "時間伺服器："
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "時區"
-
-#: ../interfaces/time.ui.h:10
-msgid "Time zone:"
-msgstr "時區:"
-
-#: ../interfaces/time.ui.h:11
 msgid "Unconfigured"
 msgstr "未設定"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "設定(_C):"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "時間伺服器："
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "選取伺服器(_L)"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "時刻(_T):"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "日期(_D):"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "時刻(_T):"
+msgid "Synchronize now"
+msgstr "立刻同步"
 
 #: ../interfaces/users.ui.h:1
-msgid ""
-"A user with this name already exists. Please choose a different name for the "
-"new user."
-msgstr "已經有同樣名稱的使用者存在。請為新的使用者選擇不同的名稱。"
+msgid "_Manage Groups"
+msgstr "管理群組(_M):"
 
 #: ../interfaces/users.ui.h:2
 msgid "Account _type:"
 msgstr "帳號類型(_T):"
 
 #: ../interfaces/users.ui.h:3
-msgid "Advanced"
-msgstr "進階"
+msgid "_Change..."
+msgstr "改變(_C)..."
 
 #: ../interfaces/users.ui.h:4
-msgid "Advanced Settings"
-msgstr "進階設定"
+msgid "_Password:"
+msgstr "密碼(_P):"
 
 #: ../interfaces/users.ui.h:5
-msgid "Assign a random password by default"
-msgstr "預設分配隨機的密碼"
+msgid "_Advanced Settings"
+msgstr "進階設定(_A)"
 
 #: ../interfaces/users.ui.h:6
-msgid "Automatic UID/GID"
-msgstr "自動安排 UID/GID"
+msgid "This account is disabled."
+msgstr "這個帳號已停用。"
 
 #: ../interfaces/users.ui.h:7
-msgid "Basic Settings"
-msgstr "基本設定"
+msgid "_Enable Account"
+msgstr "啟用帳號(_E)"
 
 #: ../interfaces/users.ui.h:8
-msgid "Change Advanced User Settings"
-msgstr "改變進階的使用者設定值"
-
-#: ../interfaces/users.ui.h:9
-msgid "Change User Account Type"
-msgstr "改變使用者帳號類型"
-
-#: ../interfaces/users.ui.h:10
-msgid "Change User Name"
-msgstr "改變使用者名稱"
-
-#: ../interfaces/users.ui.h:11
-msgid "Change User Password"
-msgstr "改變使用者密碼"
-
-#: ../interfaces/users.ui.h:12
-msgid "Changing advanced settings for:"
-msgstr "正在改變此人的進階設定值："
-
-#: ../interfaces/users.ui.h:13
-msgid "Changing user account type for:"
-msgstr "改變使用者帳號類型："
-
-#: ../interfaces/users.ui.h:14
-msgid "Changing user name for:"
-msgstr "正在改變使用者名稱："
-
-#: ../interfaces/users.ui.h:15
-msgid "Changing user password for:"
-msgstr "正在改變使用者密碼："
-
-#: ../interfaces/users.ui.h:16
-msgid "Con_firmation:"
-msgstr "確認密碼(_F):"
-
-#: ../interfaces/users.ui.h:17
-msgid "Contact Information"
-msgstr "連絡人資訊"
-
-#: ../interfaces/users.ui.h:18
-msgid "Create New User"
-msgstr "建立新的使用者"
-
-#: ../interfaces/users.ui.h:19
-msgid "Create a new user"
-msgstr "建立一個新的使用者"
-
-#: ../interfaces/users.ui.h:20
-msgid "Days between warning and password expiration:"
-msgstr "密碼過期前，於指定日數發出警告："
-
-#: ../interfaces/users.ui.h:21
-msgid "Default _group:"
-msgstr "預設群組(_G):"
-
-#: ../interfaces/users.ui.h:22
-msgid "Default _shell:"
-msgstr "預設 _Shell："
-
-#: ../interfaces/users.ui.h:23
-msgid "Disable _account"
-msgstr "停用帳號(_A)"
-
-#: ../interfaces/users.ui.h:24
-msgid "Don't ask for password on _login"
-msgstr "登入時不詢問密碼(_L)"
-
-#: ../interfaces/users.ui.h:25
-msgid ""
-"Encrypt all your files with your login password to strongly protect them "
-"from people with physical access to your computer, at the expense of a "
-"slightly reduced performance."
-msgstr ""
-"使用您登入的密碼來加密您所有的檔案，以便防止能直接碰觸您的電腦的人取得它們，"
-"不過加密會稍稍減少系統的效能。"
-
-#: ../interfaces/users.ui.h:26
-msgid "Full _Name:"
-msgstr "全名(_N):"
-
-#: ../interfaces/users.ui.h:28
-msgid "Generate _random password"
-msgstr "產生隨機密碼(_R)"
-
-#: ../interfaces/users.ui.h:29
-msgid "Group Members"
-msgstr "群組成員"
-
-#: ../interfaces/users.ui.h:30
-msgid "Group _ID:"
-msgstr "群組 _ID："
-
-#: ../interfaces/users.ui.h:31
-msgid "Group _name:"
-msgstr "群組名稱(_N):"
-
-#: ../interfaces/users.ui.h:32
 msgid "Group properties"
 msgstr "群組屬性"
 
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "基本設定"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "群組名稱(_N):"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "群組 _ID："
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "群組成員"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr "設定組合設定值"
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "設定組合名稱(_N):"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "備註(_C)"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "系統預設值"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "個人目錄(_H):"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "預設 _Shell："
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "預設群組(_G):"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "密碼設定"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "密碼可使用的日數："
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "密碼使用了指定的日數後方可修改："
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "密碼過期前，於指定日數發出警告："
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "預設分配隨機的密碼"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "自動安排 UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "UID 值上限："
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "GID 值上限："
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "UID 值下限："
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "GID 值下限："
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "權限"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "使用者設定檔"
+
 #: ../interfaces/users.ui.h:33
-msgid "Groups available on the system:"
-msgstr "系統中可用的群組："
+msgid "_Add Profile"
+msgstr "新增設定檔(_A)"
 
 #: ../interfaces/users.ui.h:34
 msgid "Groups settings"
 msgstr "群組設定值"
 
 #: ../interfaces/users.ui.h:35
-msgid "Ma_ximum days a password may be used:"
-msgstr "密碼可使用的日數上限(_X):"
+msgid "Groups available on the system:"
+msgstr "系統中可用的群組："
 
 #: ../interfaces/users.ui.h:36
-msgid "Maximum GID:"
-msgstr "GID 值上限："
+msgid "Change User Name"
+msgstr "改變使用者名稱"
 
 #: ../interfaces/users.ui.h:37
-msgid "Maximum UID:"
-msgstr "UID 值上限："
+msgid "Full _Name:"
+msgstr "全名(_N):"
 
 #: ../interfaces/users.ui.h:38
-msgid "Mi_nimum days between password changes:"
-msgstr "密碼使用了指定的日數後方可修改(_N):"
+msgid "Changing user name for:"
+msgstr "正在改變使用者名稱："
 
 #: ../interfaces/users.ui.h:39
-msgid "Minimum GID:"
-msgstr "GID 值下限："
+msgid "Change User Password"
+msgstr "改變使用者密碼"
 
 #: ../interfaces/users.ui.h:40
-msgid "Minimum UID:"
-msgstr "UID 值下限："
+msgid "Con_firmation:"
+msgstr "確認密碼(_F):"
 
 #: ../interfaces/users.ui.h:41
-msgid "Minimum days allowed between password changes:"
-msgstr "密碼使用了指定的日數後方可修改："
-
-#: ../interfaces/users.ui.h:42
-msgid "New _password:"
-msgstr "新的密碼(_P):"
-
-#: ../interfaces/users.ui.h:43
-msgid "Number of days that a password may be used:"
-msgstr "密碼可使用的日數："
-
-#: ../interfaces/users.ui.h:44
-msgid "O_ffice location:"
-msgstr "公司位置(_F):"
-
-#: ../interfaces/users.ui.h:45
-msgid "Optional Settings"
-msgstr "選擇性設定"
-
-#: ../interfaces/users.ui.h:46
-msgid "Password Settings"
-msgstr "密碼設定"
-
-#: ../interfaces/users.ui.h:47
 msgid "Password set to: "
 msgstr "密碼設定為："
 
-#: ../interfaces/users.ui.h:48
-msgid "Privileges"
-msgstr "權限"
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "產生(_G)"
 
-#: ../interfaces/users.ui.h:49
-msgid "Profile Settings"
-msgstr "設定組合設定值"
-
-#: ../interfaces/users.ui.h:50
-msgid "Profile _name:"
-msgstr "設定組合名稱(_N):"
-
-#: ../interfaces/users.ui.h:51
+#: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
 msgstr "自行設定密碼(_Y)"
 
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "新的密碼(_P):"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "產生隨機密碼(_R)"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "正在改變使用者密碼："
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "登入時不詢問密碼(_L)"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "目前的密碼(_C):"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "改變使用者帳號類型"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "改變使用者帳號類型："
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "自訂(_C)"
+
 #: ../interfaces/users.ui.h:52
-msgid "System Defaults"
-msgstr "系統預設值"
-
-#: ../interfaces/users.ui.h:53
-msgid "This account is disabled."
-msgstr "這個帳號已停用。"
-
-#: ../interfaces/users.ui.h:54
 msgid ""
 "This account is using special settings that have been defined manually. Use "
 "the <i>Advanced Settings</i> dialog to tune them."
-msgstr ""
-"這個帳號使用了以手動設定的特殊設定值。請使用 <i>進階設定</i> 對話盒來調整他"
-"們。"
+msgstr "這個帳號使用了以手動設定的特殊設定值。請使用 <i>進階設定</i> 對話盒來調整他們。"
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "建立新的使用者"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "名稱(_N):"
 
 #: ../interfaces/users.ui.h:55
-msgid "User ID:"
-msgstr "使用者ID："
+msgid "Create a new user"
+msgstr "建立一個新的使用者"
 
-#: ../interfaces/users.ui.h:56
-msgid "User Privileges"
-msgstr "使用者權限"
-
-#: ../interfaces/users.ui.h:57
-msgid "User profiles"
-msgstr "使用者設定檔"
-
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
-#: ../interfaces/users.ui.h:59
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
 msgid ""
 "Username must consist of:\n"
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
-"使用者名稱必須由這些字組成：\n"
-"  ➣ 小寫英文字母\n"
-"  ➣ 數字\n"
-"  ➣ 其他字元如 \".\"、 \"-\" 和 \"_\""
+msgstr "使用者名稱必須由這些字組成：\n  ➣ 小寫英文字母\n  ➣ 數字\n  ➣ 其他字元如 \".\"、 \"-\" 和 \"_\""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr "已經有同樣名稱的使用者存在。請為新的使用者選擇不同的名稱。"
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
 msgstr "使用者名稱必須以字母開頭！"
 
 #: ../interfaces/users.ui.h:64
-msgid "You can't change user ID while the user is logged in."
-msgstr "您不能在使用者處於登入狀態時改變使用者 ID。"
-
-#: ../interfaces/users.ui.h:65
-msgid "_Add Profile"
-msgstr "新增設定檔(_A)"
-
-#: ../interfaces/users.ui.h:66
-msgid "_Advanced Settings"
-msgstr "進階設定(_A)"
-
-#: ../interfaces/users.ui.h:67
-msgid "_Change..."
-msgstr "改變(_C)..."
-
-#: ../interfaces/users.ui.h:68
-msgid "_Comments"
-msgstr "備註(_C)"
-
-#: ../interfaces/users.ui.h:69
-msgid "_Current password:"
-msgstr "目前的密碼(_C):"
-
-#: ../interfaces/users.ui.h:70
-msgid "_Custom"
-msgstr "自訂(_C)"
-
-#: ../interfaces/users.ui.h:71
-msgid "_Days between warning and password expiration:"
-msgstr "密碼過期前，於指定日數發出警告(_D):"
-
-#: ../interfaces/users.ui.h:72
-msgid "_Enable Account"
-msgstr "啟用帳號(_E)"
-
-#: ../interfaces/users.ui.h:73
 msgid "_Encrypt home folder to protect sensitive data"
 msgstr "加密家目錄以保護敏感資料(_E)"
 
-#: ../interfaces/users.ui.h:74
-msgid "_Generate"
-msgstr "產生(_G)"
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "使用您登入的密碼來加密您所有的檔案，以便防止能直接碰觸您的電腦的人取得它們，不過加密會稍稍減少系統的效能。"
 
-#: ../interfaces/users.ui.h:75
-msgid "_Home directory:"
-msgstr "個人目錄(_H):"
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "改變進階的使用者設定值"
 
-#: ../interfaces/users.ui.h:76
-msgid "_Home phone:"
-msgstr "住家電話(_H):"
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "正在改變此人的進階設定值："
 
-#: ../interfaces/users.ui.h:77
-msgid "_Main group:"
-msgstr "主要群組(_M):"
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "公司位置(_F):"
 
-#: ../interfaces/users.ui.h:78
-msgid "_Manage Groups"
-msgstr "管理群組(_M):"
-
-#: ../interfaces/users.ui.h:79
-msgid "_Name:"
-msgstr "名稱(_N):"
-
-#: ../interfaces/users.ui.h:80
-msgid "_Password:"
-msgstr "密碼(_P):"
-
-#: ../interfaces/users.ui.h:81
-msgid "_Shell:"
-msgstr "_Shell:"
-
-#: ../interfaces/users.ui.h:83
+#: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
 msgstr "工作電話(_W):"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:1
-msgid "Show root user"
-msgstr "顯示 root 使用者"
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "住家電話(_H):"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:2
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr "連絡人資訊"
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "使用者權限"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "_Shell:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "主要群組(_M):"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "使用者ID："
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "您不能在使用者處於登入狀態時改變使用者 ID。"
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "停用帳號(_A)"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "選擇性設定"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "密碼使用了指定的日數後方可修改(_N):"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "密碼可使用的日數上限(_X):"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "密碼過期前，於指定日數發出警告(_D):"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "進階"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
 msgstr "顯示系統使用者"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:3
+#: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
 "Whether the users-admin tool should show system users in the users list."
 msgstr "「使用者-管理」工具應否顯示在使用者清單中的系統使用者。"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr "顯示 root 使用者"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
@@ -767,9 +760,7 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr ""
-"如果您肯定本系統和以下列出的其中一種作業平台運作方式類似，則可以選取該平台並"
-"繼續。然而請注意，這樣做有可能會破壞系統的設定甚至損害您的電腦。"
+msgstr "如果您肯定本系統和以下列出的其中一種作業平台運作方式類似，則可以選取該平台並繼續。然而請注意，這樣做有可能會破壞系統的設定甚至損害您的電腦。"
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
@@ -819,9 +810,7 @@ msgstr "是否要更新內容？這樣會失去任何在先前過程中的修改
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr ""
-"在檢查驗證時發生錯誤：%s\n"
-"您可以將這個錯誤回報給開發者。"
+msgstr "在檢查驗證時發生錯誤：%s\n您可以將這個錯誤回報給開發者。"
 
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
@@ -1033,13 +1022,13 @@ msgstr "以指定的類型來設定第一個網路介面"
 msgid "TYPE"
 msgstr "類型"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "設定網路裝置與連線"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "網路"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "設定網路裝置與連線"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
@@ -1468,13 +1457,13 @@ msgstr "系統監察器"
 msgid "Virtual Machine management"
 msgstr "虛擬機器管理"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "設定當系統啟動時要執行哪項服務"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "服務"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "設定當系統啟動時要執行哪項服務"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1549,7 +1538,7 @@ msgstr "指定 IP 地址"
 msgid "Specify network"
 msgstr "指定網路"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "設定那一個資料夾共享給您的網路芳鄰"
 
@@ -1596,17 +1585,15 @@ msgstr "世界地圖"
 msgid ""
 "Mouse-based interactive map widget for selecting timezone. Keyboard users "
 "should instead select the timezone from the drop-down combination box below."
-msgstr ""
-"用來選擇時區的滑鼠互動式地圖元件。使用鍵盤的使用者應該使用下方的下拉式組合方"
-"塊來選擇時區。"
+msgstr "用來選擇時區的滑鼠互動式地圖元件。使用鍵盤的使用者應該使用下方的下拉式組合方塊來選擇時區。"
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "改變系統時間、日期及時區"
-
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "時間及日期設定"
+
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "改變系統時間、日期及時區"
 
 #: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
@@ -1616,8 +1603,7 @@ msgstr "沒有安裝 NTP 支援"
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr ""
-"請在系統安裝並啟用 NTP 支援，令您的本地時間伺服器能與網路時間伺服器進行同步。"
+msgstr "請在系統安裝並啟用 NTP 支援，令您的本地時間伺服器能與網路時間伺服器進行同步。"
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
@@ -1691,9 +1677,7 @@ msgstr "群組名稱含有不正確的字元"
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr ""
-"請設定有效的群組名稱，第一個字元只可以是小寫字母，其它的必須是小寫字母或數"
-"字。"
+msgstr "請設定有效的群組名稱，第一個字元只可以是小寫字母，其它的必須是小寫字母或數字。"
 
 #: ../src/users/group-settings.c:229
 #, c-format
@@ -1821,24 +1805,24 @@ msgid "Be able to get administrator privileges"
 msgstr "可以得到管理者權限"
 
 #: ../src/users/user-profiles.conf.in.h:1
-msgid "Administrator"
-msgstr "系統管理者"
+msgid "Desktop user"
+msgstr "桌面使用者"
 
 #: ../src/users/user-profiles.conf.in.h:2
-msgid ""
-"Can change anything on the system, including installing and upgrading "
-"software."
-msgstr "可以改變系統中的任何事，包括安裝和升級軟體。"
-
-#: ../src/users/user-profiles.conf.in.h:3
 msgid ""
 "Can perform common tasks. Can't install software or change settings "
 "affecting all users."
 msgstr "可以進行一般工作。不能安裝軟體或改變會影響所有使用者的設定值。"
 
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr "系統管理者"
+
 #: ../src/users/user-profiles.conf.in.h:4
-msgid "Desktop user"
-msgstr "桌面使用者"
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr "可以改變系統中的任何事，包括安裝和升級軟體。"
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
@@ -1884,13 +1868,13 @@ msgstr "您的密碼在第一次驗證後已經改變過了！"
 msgid "Unknown error"
 msgstr "不明的錯誤"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "加入或移除使用者及群組"
-
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "使用者及群組"
+
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "加入或移除使用者及群組"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
@@ -1910,15 +1894,15 @@ msgstr "密碼確認並不正確"
 msgid "Check that you have provided the same password in both text fields."
 msgstr "請檢查您是否在兩個文字欄位中提供相同的密碼。"
 
-#: ../src/users/user-password.c:426
+#: ../src/users/user-password.c:445
 msgid "Please choose another password."
 msgstr "請選擇其他密碼。"
 
-#: ../src/users/user-password.c:437
+#: ../src/users/user-password.c:456
 msgid "Please type again your current password."
 msgstr "請再次輸入您目前的密碼。"
 
-#: ../src/users/user-password.c:444
+#: ../src/users/user-password.c:463
 msgid "Password could not be changed"
 msgstr "密碼無法變更"
 
@@ -1944,8 +1928,7 @@ msgstr "不能刪除唯一的系統管理者帳號"
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr ""
-"%s 是這台電腦上唯一的系統管理者。刪除這個帳號會導致您無法管理這個系統。"
+msgstr "%s 是這台電腦上唯一的系統管理者。刪除這個帳號會導致您無法管理這個系統。"
 
 #: ../src/users/user-settings.c:121
 #, c-format
@@ -1955,12 +1938,10 @@ msgstr "是否移除 %s 的家目錄？"
 #: ../src/users/user-settings.c:124
 #, c-format
 msgid ""
-"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't "
-"need them anymore. You may want to back them up before deleting the account, "
-"or keep them so that an administrator can save them later."
-msgstr ""
-"如果已無需要，您可以完全移除使用者 %s 在 <tt>%s</tt> 中所擁有的檔案。您可能會"
-"想在刪除這個帳號前先把它們備份，或是保留它們以便系統管理者能在稍後保存它們。"
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr "如果已無需要，您可以完全移除使用者 %s 在 <tt>%s</tt> 中所擁有的檔案。您可能會想在刪除這個帳號前先把它們備份，或是保留它們以便系統管理者能在稍後保存它們。"
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
@@ -2004,9 +1985,7 @@ msgstr "個人目錄含有不完整的路徑"
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
-"請輸入家目錄的完整路徑\n"
-"<span size=\"smaller\">例如：/home/john</span>。"
+msgstr "請輸入家目錄的完整路徑\n<span size=\"smaller\">例如：/home/john</span>。"
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
@@ -2015,17 +1994,10 @@ msgstr "新的家目錄已經存在，是否使用它？"
 #: ../src/users/user-settings.c:449
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or copy the contents of <tt>%"
-"s</tt> to the new home, overwriting it?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
-"In doubt, use the new directory to avoid losing data, and copy files from "
-"the old directory later."
-msgstr ""
-"%s 的家目錄被設定為 <tt>%s</tt>，但是它已經存在。您想要使用這個目錄裡的檔案，"
-"或是把 <tt>%s</tt> 的內容複製到新的家目錄，將它覆蓋？\n"
-"\n"
-"如果不確定，使用新的目錄可以避免資料遺失，並且在稍後才從舊目錄複製檔案。"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr "%s 的家目錄被設定為 <tt>%s</tt>，但是它已經存在。您想要使用這個目錄裡的檔案，或是把 <tt>%s</tt> 的內容複製到新的家目錄，將它覆蓋？\n\n如果不確定，使用新的目錄可以避免資料遺失，並且在稍後才從舊目錄複製檔案。"
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
@@ -2053,16 +2025,10 @@ msgstr "刪除舊的家目錄(_D)"
 #: ../src/users/user-settings.c:493
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or delete all its contents and "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr ""
-"%s 的家目錄被設定為 <tt>%s</tt>，但是它已經存在。您想要使用這個目錄裡的檔案，"
-"或是將它所有的內容刪除以使用完全空白的家目錄？\n"
-"\n"
-"如果不確定，先保留檔案，並且在稍後才依需求刪除它們。"
+msgstr "%s 的家目錄被設定為 <tt>%s</tt>，但是它已經存在。您想要使用這個目錄裡的檔案，或是將它所有的內容刪除以使用完全空白的家目錄？\n\n如果不確定，先保留檔案，並且在稍後才依需求刪除它們。"
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
@@ -2079,17 +2045,10 @@ msgstr "是否將舊的家目錄複製到新位置？"
 #: ../src/users/user-settings.c:528
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. "
-"Do you want to copy the contents of the old home directory (<tt>%s</tt>), or "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
-"If you choose to copy the files to the new location, it's safe to delete the "
-"old directory."
-msgstr ""
-"%s 的家目錄被設定為 <tt>%s</tt>，但是它還不存在。您想要複製舊的家目錄 (<tt>%"
-"s</tt>) 裡的檔案，或是使用完全空白的家目錄？\n"
-"\n"
-"如果您選擇將檔案複製到新的位置，把舊的目錄刪除也無妨。"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr "%s 的家目錄被設定為 <tt>%s</tt>，但是它還不存在。您想要複製舊的家目錄 (<tt>%s</tt>) 裡的檔案，或是使用完全空白的家目錄？\n\n如果您選擇將檔案複製到新的位置，把舊的目錄刪除也無妨。"
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
@@ -2123,9 +2082,7 @@ msgstr "shell 含有不完整的路徑"
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
-"請輸入 shell 的完整路徑\n"
-"<span size=\"smaller\">例如：/bin/bash</span>。"
+msgstr "請輸入 shell 的完整路徑\n<span size=\"smaller\">例如：/bin/bash</span>。"
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
@@ -2136,9 +2093,7 @@ msgstr "不能註銷系統管理者權限"
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr ""
-"%s 是這台電腦上唯一的系統管理者。註銷這個帳號的系統管理者權限會導致您無法管理"
-"這個系統。"
+msgstr "%s 是這台電腦上唯一的系統管理者。註銷這個帳號的系統管理者權限會導致您無法管理這個系統。"
 
 #: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
@@ -2149,124 +2104,16 @@ msgstr "您即將註銷自己的系統管理者權限"
 msgid ""
 "%s will no longer be able to perform administrative tasks. This account "
 "won't be allowed to get administration rights back on its own."
-msgstr ""
-"%s 將不再能進行管理層級的工作。往後這個帳號無法自行取回系統管理者權限。"
+msgstr "%s 將不再能進行管理層級的工作。往後這個帳號無法自行取回系統管理者權限。"
 
 #: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
 msgstr "放棄系統管理者權限"
 
-#: ../src/users/user-settings.c:1459
+#: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
 msgstr "正在套用變更到使用者設定值..."
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "使用者設定值"
-
-#~ msgid ""
-#~ "The directory <tt>%s</tt> already exists. User may not have the "
-#~ "permissions required to read or write in that directory. Do you want to "
-#~ "use it anyway?"
-#~ msgstr ""
-#~ "目錄 <tt>%s</tt> 已存在。使用者可能會沒有讀寫該目錄必須的權限。您仍然要使"
-#~ "用它嗎？"
-
-#~ msgid "_Short Name:"
-#~ msgstr "短式名稱(_S):"
-
-#~ msgid "Address: %s Subnet mask: %s"
-#~ msgstr "位址： %s 子網路遮罩： %s"
-
-#~ msgid "Address: %s Remote address: %s"
-#~ msgstr "位址： %s 遠端位址： %s"
-
-#~ msgid "Type: %s Phone number: %s"
-#~ msgstr "類型： %s 電話號碼： %s"
-
-#~ msgid "Type: %s Access point name: %s"
-#~ msgstr "類型： %s 無線網路存取點： %s"
-
-#~ msgid "Type: %s Ethernet interface: %s"
-#~ msgstr "類型： %s 乙太網路介面： %s"
-
-#~ msgid ""
-#~ "Allow this user to open a local session without entering his password. "
-#~ "The password will still be required to perform administrative tasks."
-#~ msgstr ""
-#~ "允許這個使用者不需輸入密碼就能開啟本地端作業階段。如果要進行系統管理工作時"
-#~ "仍需密碼。"
-
-#~ msgid "Check password _quality"
-#~ msgstr "檢查密碼品質(_Q)"
-
-#~ msgid "User _password:"
-#~ msgstr "使用者密碼(_P):"
-
-#~ msgid "User must log out before you can change his ID."
-#~ msgstr "在您改變使用者的 ID 前他必須先登出。"
-
-#~ msgid "_Add Group"
-#~ msgstr "加入群組(_A)"
-
-#~ msgid "_Add User"
-#~ msgstr "新增使用者(_A)"
-
-#~ msgid "_Profile:"
-#~ msgstr "設定組合(_P):"
-
-#~ msgid "_Real name:"
-#~ msgstr "真實姓名(_R):"
-
-#~ msgid "Are you sure you want to delete account \"%s\"?"
-#~ msgstr "您是否確定要刪除帳號“%s”？"
-
-#~ msgid ""
-#~ "This will disable this user's access to the system without deleting the "
-#~ "user's home directory."
-#~ msgstr "這會停止該使用者存取系統，但他的家目錄不會被刪除。"
-
-#~ msgid "Account '%s' Properties"
-#~ msgstr "帳號‘%s’屬性"
-
-#~ msgid "User name is empty"
-#~ msgstr "使用者名稱是空的"
-
-#~ msgid "A user name must be specified."
-#~ msgstr "必須指定使用者名稱。"
-
-#~ msgid "User name has invalid characters"
-#~ msgstr "使用者名稱含有無效的字"
-
-#~ msgid ""
-#~ "Please set a valid user name consisting of a lower case letter followed "
-#~ "by lower case letters and numbers."
-#~ msgstr ""
-#~ "請設定有效的使用者名稱，第一個字元只可以是小寫字母，其它的必須是小寫字母或"
-#~ "數字。"
-
-#~ msgid "User name \"%s\" already exists"
-#~ msgstr "該使用者名稱“%s”已經存在"
-
-#~ msgid "Please enter a different home directory path."
-#~ msgstr "請選擇不同的家目錄路徑。"
-
-#~ msgid "Administrator account's user ID should not be modified"
-#~ msgstr "不應修改管理員帳號的使用者 ID"
-
-#~ msgid "Name"
-#~ msgstr "名稱"
-
-#~ msgid "Login name"
-#~ msgstr "登入名稱"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Please enter your root password</"
-#~ "span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">請輸入 root 密碼"
-
-#~ msgid ""
-#~ "You need administrator privileges to use this tool. Enter a password to "
-#~ "modify\n"
-#~ "your system configuration."
-#~ msgstr "您需要有系統管理員的權限來使用此工具。輸入密碼以修改您的系統組態。"

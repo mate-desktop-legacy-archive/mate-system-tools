@@ -1,610 +1,751 @@
-# translation of mate-system-tools.HEAD.po to Kurdish
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# 
+# Translators:
 # Erdal Ronahi <erdal.ronahi@gmail.com, pckurd@hotmail.com>, 2005.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-04 23:14+0100\n"
-"PO-Revision-Date: 2007-03-04 23:19+0100\n"
-"Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
-"Language-Team: Kurdish <gnu-ku-wergerandin@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:53+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Kurdish (http://www.transifex.com/projects/p/MATE/language/ku/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10\n"
-"X-Rosetta-Export-Date: 2007-03-04 19:48+0000\n"
+"Language: ku\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../mate-system-tools.schemas.in.h:1
-msgid "Whether the users-admin tool should show all users and groups or not"
-msgstr "Destûra amûra rêveberê bikarhêneran ya wê ka hemû bikarhêner û koman nîşan bide yan na"
-
-#: ../interfaces/common.glade.in.h:1
-msgid "<span weight=\"bold\" size=\"larger\">Please enter your root password"
-msgstr "<span weight=\"bold\" size=\"larger\">Ji kerema xwe şîfreya xwe ya root (kok) binivîse"
-
-#: ../interfaces/common.glade.in.h:2
-msgid "Enter Password"
-msgstr "Şîfreyê Binivîse"
-
-#: ../interfaces/common.glade.in.h:3
-msgid ""
-"You need administrator privileges to use this tool. Enter a password to modify\n"
-"your system configuration."
-msgstr ""
-"Ji bo ku tu karibî vê amûrê bikar bîne divê rayeyên te yên gerînendetiyê hebe. Ji bo guherandina mîhengên pergalê\n"
-"şîfreya xwe binivîse."
-
-#: ../interfaces/common.glade.in.h:5
-msgid "_Password:"
-msgstr "Şî_fre:"
-
-#: ../interfaces/network.glade.in.h:1
-msgid "Account data"
-msgstr "Daneya Hesaban"
-
-#: ../interfaces/network.glade.in.h:2
-msgid "Connection settings"
-msgstr "Mîhengên Girêdanê"
-
-#: ../interfaces/network.glade.in.h:3
-msgid "DNS Servers"
-msgstr "Pêşkêşkerêm DNSê"
-
-#: ../interfaces/network.glade.in.h:4
-msgid "Host Settings"
-msgstr "Mîhengên Makîneyê"
-
-#: ../interfaces/network.glade.in.h:5
-msgid "Internet service provider data"
-msgstr "Daneyên temînkera servîsa înternetê"
-
-#: ../interfaces/network.glade.in.h:6
-msgid "Modem settings"
-msgstr "Mîhengên Modemê"
-
-#: ../interfaces/network.glade.in.h:7
-msgid "Search Domains"
-msgstr "Li navê qadê bigere"
-
-#: ../interfaces/network.glade.in.h:8
-msgid "Wireless settings"
-msgstr "Mîhengên toreya bêqabloı"
-
-#: ../interfaces/network.glade.in.h:9
-msgid "Aliases:"
-msgstr "Bernav (laqab):"
-
-#: ../interfaces/network.glade.in.h:10
-msgid "C_onfiguration:"
-msgstr "_Veavakirin:"
-
-#: ../interfaces/network.glade.in.h:11
-msgid "Connections"
-msgstr "Girêdan"
-
-#: ../interfaces/network.glade.in.h:12
-msgid "DNS"
-msgstr "DNS"
-
-#: ../interfaces/network.glade.in.h:13
-msgid "D_omain name:"
-msgstr "Navê Qadê:"
-
-#: ../interfaces/network.glade.in.h:14
-msgid "Delete current location"
-msgstr "Bicihbûna derbasdar jê bibe"
-
-#: ../interfaces/network.glade.in.h:15
-msgid "E_nable roaming mode"
+#: ../interfaces/network.ui.h:1
+msgid "Off"
 msgstr ""
 
-#: ../interfaces/network.glade.in.h:16
-msgid "E_nable this connection"
-msgstr "_Vê girêdanaê çalak bike"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:17
-#: ../interfaces/users.glade.in.h:19
-msgid "General"
-msgstr "Giştî"
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:18
-msgid "Host alias settings"
-msgstr "Mîhengên bernavên makîneyê"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:19
-msgid "Hosts"
-msgstr "Makîne (host)"
+#: ../interfaces/network.ui.h:5
+msgid "Tones"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:20
-#: ../interfaces/shares.glade.in.h:12
-msgid "IP address:"
-msgstr "Navnîşana IP:"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:21
-msgid "Interface properties"
-msgstr "Taybetmendiyên dirûvê navberê"
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr ""
 
-#: ../interfaces/network.glade.in.h:22
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr ""
+
+#: ../interfaces/network.ui.h:9
 msgid "Location:"
 msgstr "Cih:"
 
-#: ../interfaces/network.glade.in.h:23
-msgid "Modem"
-msgstr "Modem"
-
-#: ../interfaces/network.glade.in.h:24
-msgid "Network _password:"
-msgstr "_Şîfreya toreyê"
-
-#: ../interfaces/network.glade.in.h:25
-msgid "Network name (_ESSID):"
-msgstr "Navê Torê (_ESSID):"
-
-#: ../interfaces/network.glade.in.h:26
-msgid ""
-"Off\n"
-"Low\n"
-"Medium\n"
-"Loud"
-msgstr ""
-"Girtî\n"
-"Lawaz\n"
-"Orte\n"
-"Bilind"
-
-#: ../interfaces/network.glade.in.h:30
-msgid "Options"
-msgstr "Vebijêrk"
-
-#: ../interfaces/network.glade.in.h:31
-msgid "P_assword"
-msgstr "Ş_îfre"
-
-#: ../interfaces/network.glade.in.h:32
-msgid "Password _type:"
-msgstr "_Cureyê şîfreyê:"
-
-#: ../interfaces/network.glade.in.h:33
-msgid ""
-"Plain (ASCII)\n"
-"Hexadecimal"
-msgstr ""
-"Dûz (ASCII)\n"
-"Pergala şanzdemîn"
-
-#: ../interfaces/network.glade.in.h:35
+#: ../interfaces/network.ui.h:10
 msgid "Save current network configuration as a location"
 msgstr "Veavakirina toreyê ya niha wekî cihekî tomar bike"
 
-#: ../interfaces/network.glade.in.h:36
-msgid ""
-"Tones\n"
-"Pulses"
-msgstr ""
-"Bi ton\n"
-"Bi darbe"
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr "Bicihbûna derbasdar jê bibe"
 
-#: ../interfaces/network.glade.in.h:38
-msgid "Use the Internet service provider nameservers"
-msgstr "Navê pêşkêşkerên têmînkerên servîsa înternetê bikar bîne"
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "Girêdan"
 
-#: ../interfaces/network.glade.in.h:39
-msgid "_Autodetect"
-msgstr "Bixweber binase"
-
-#: ../interfaces/network.glade.in.h:40
-msgid "_Dial prefix:"
-msgstr "Pêşgirê_lêgerînê:"
-
-#: ../interfaces/network.glade.in.h:41
-msgid "_Dial type:"
-msgstr "_Cureyê lêgerînê:"
-
-#: ../interfaces/network.glade.in.h:42
-msgid "_Gateway address:"
-msgstr "_Navnîşana derbaseka-torê:"
-
-#: ../interfaces/network.glade.in.h:43
+#: ../interfaces/network.ui.h:13
 msgid "_Host name:"
 msgstr "Navê _makîneyê:"
 
-#: ../interfaces/network.glade.in.h:44
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "Navê Qadê:"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "Mîhengên Makîneyê"
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Giştî"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "Pêşkêşkerêm DNSê"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Li navê qadê bigere"
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "Makîne (host)"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "Taybetmendiyên dirûvê navberê"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "_Vê girêdanaê çalak bike"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr ""
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "Navê Torê (_ESSID):"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "_Şîfreya toreyê"
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr "_Cureyê şîfreyê:"
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:30
 msgid "_IP address:"
 msgstr "_Navnîşana IPê:"
 
-#: ../interfaces/network.glade.in.h:45
-msgid "_Local IP:"
-msgstr "IPa_Herêmî:"
-
-#: ../interfaces/network.glade.in.h:46
-msgid "_Modem port:"
-msgstr "Deriyê_modemê:"
-
-#: ../interfaces/network.glade.in.h:47
-msgid "_Phone number:"
-msgstr "_Nimroya Telefonê:"
-
-#: ../interfaces/network.glade.in.h:48
-msgid "_Remote IP:"
-msgstr "_IPya li dûr e:"
-
-#: ../interfaces/network.glade.in.h:49
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "_Heke girêdan pêk nehat û neyê xebitandin dîsa biceribîne"
-
-#: ../interfaces/network.glade.in.h:50
-msgid "_Set modem as default route to internet"
-msgstr "_Modemê, weke derbasgeha pêşdanasînî li înternetê mîheng bike"
-
-#: ../interfaces/network.glade.in.h:51
+#: ../interfaces/network.ui.h:31
 msgid "_Subnet mask:"
 msgstr "_Rûpoşa torê ya jêr:"
 
-#: ../interfaces/network.glade.in.h:52
-#: ../interfaces/users.glade.in.h:55
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "_Navnîşana derbaseka-torê:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "IPa_Herêmî:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "_IPya li dûr e:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "_Nimroya Telefonê:"
+
+#: ../interfaces/network.ui.h:37
+msgid "_Dial prefix:"
+msgstr "Pêşgirê_lêgerînê:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "Daneyên temînkera servîsa înternetê"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
 msgid "_Username:"
 msgstr "_Navê bikarhêner:"
 
-#: ../interfaces/network.glade.in.h:53
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "Ş_îfre"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Daneya Hesaban"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "Deriyê_modemê:"
+
+#: ../interfaces/network.ui.h:44
+msgid "_Dial type:"
+msgstr "_Cureyê lêgerînê:"
+
+#. TRANSLATORS: Volume as in loudness
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Asta Deng:"
 
-#: ../interfaces/services.glade.in.h:1
-msgid "Advanced settings:"
-msgstr "Mîhengên pêşketî:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "Bixweber binase"
 
-#: ../interfaces/services.glade.in.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modem"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "_Modemê, weke derbasgeha pêşdanasînî li înternetê mîheng bike"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Navê pêşkêşkerên têmînkerên servîsa înternetê bikar bîne"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "_Heke girêdan pêk nehat û neyê xebitandin dîsa biceribîne"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Vebijêrk"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr ""
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "Navnîşana IP:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Bernav (laqab):"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Servîsên ku tu dixwazî çalak bike hilbijêre:"
 
-#: ../interfaces/shares.glade.in.h:1
-msgid "Allowed Hosts"
-msgstr "Makîneyên Bidestûr"
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Mîhengên pêşketî:"
 
-#: ../interfaces/shares.glade.in.h:2
-msgid "Hosts Settings"
-msgstr "Mîhengên Makîneyê"
-
-#: ../interfaces/shares.glade.in.h:3
-msgid "Share Properties"
-msgstr "Taybetmendiyên Parvekirinê"
-
-#: ../interfaces/shares.glade.in.h:4
-msgid "Shared Folder"
-msgstr "Peldankên Têne Parvekirin"
-
-#: ../interfaces/shares.glade.in.h:5
-msgid "Windows sharing"
-msgstr "Parvekirina windowsê"
-
-#: ../interfaces/shares.glade.in.h:6
-msgid "Add allowed hosts"
-msgstr "Makîneye bidestûr lê zêde bike"
-
-#: ../interfaces/shares.glade.in.h:7
-msgid "Allowed hosts:"
-msgstr "Makîneyên bi destûr:"
-
-#: ../interfaces/shares.glade.in.h:8
-msgid "Comment:"
-msgstr "Şîrove:"
-
-#: ../interfaces/shares.glade.in.h:9
-msgid "Domain / _Workgroup:"
-msgstr "Navê qadê / Koma _xebatê:"
-
-#: ../interfaces/shares.glade.in.h:10
-msgid "General Properties"
-msgstr "Taybetmendiyên Giştî"
-
-#: ../interfaces/shares.glade.in.h:11
-msgid "Host name:"
-msgstr "Navê makîneyê:"
-
-#: ../interfaces/shares.glade.in.h:13
-msgid "Name:"
-msgstr "Nav:"
-
-#: ../interfaces/shares.glade.in.h:14
-msgid "Netmask:"
-msgstr "Rûpûşa torê:"
-
-#: ../interfaces/shares.glade.in.h:15
-msgid "Network:"
-msgstr "Tore:"
-
-#: ../interfaces/shares.glade.in.h:16
-#: ../src/shares/nfs-acl-table.c:56
-msgid "Read only"
-msgstr "Tenê tê xwendin"
-
-#: ../interfaces/shares.glade.in.h:17
-msgid "Share through:"
-msgstr "Bi hev re par ve bike:"
-
-#: ../interfaces/shares.glade.in.h:18
-#: ../src/shares/shares.desktop.in.in.h:2
-#: ../src/shares/shares-tool.c:207
-msgid "Shared Folders"
-msgstr "Pêristên ku têne parvekirin"
-
-#: ../interfaces/shares.glade.in.h:19
-msgid "This computer is a _WINS server"
-msgstr "Ev kompîtur pêşkêşkereke _WINSê ye"
-
-#: ../interfaces/shares.glade.in.h:20
-msgid "WINS _server:"
-msgstr "_Pêşkêşkerê WINSê"
-
-#: ../interfaces/shares.glade.in.h:21
+#: ../interfaces/shares.ui.h:1
 msgid "_Path:"
 msgstr "_Rê:"
 
-#: ../interfaces/shares.glade.in.h:22
+#: ../interfaces/shares.ui.h:2
+msgid "Share through:"
+msgstr "Bi hev re par ve bike:"
+
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr "Peldankên Têne Parvekirin"
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "Şîrove:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "Nav:"
+
+#: ../interfaces/shares.ui.h:6
 msgid "_Read only"
 msgstr "_Tenê tê xwendin"
 
-#: ../interfaces/time.glade.in.h:1
-msgid "Selection"
-msgstr "Hilbijartin"
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "Taybetmendiyên Parvekirinê"
 
-#: ../interfaces/time.glade.in.h:3
-msgid "Add NTP Server"
-msgstr "Pêşkêşkera NTP Lê Zêde Bike"
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "Makîneyên Bidestûr"
 
-#: ../interfaces/time.glade.in.h:4
-msgid "NTP server"
-msgstr "Pêşkêşkera NTPyê"
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr ""
 
-#: ../interfaces/time.glade.in.h:5
-msgid "Se_lect Servers"
-msgstr "Pêşkêşker Hil_bijêre"
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Makîneye bidestûr lê zêde bike"
 
-#: ../interfaces/time.glade.in.h:6
-msgid "Time servers"
-msgstr "Pêşkêşkarên demê"
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Makîneyên bi destûr:"
 
-#: ../interfaces/time.glade.in.h:7
-msgid "Time servers:"
-msgstr "Pêşkêşkarên demê:"
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Navê makîneyê:"
 
-#: ../interfaces/time.glade.in.h:8
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "Tore:"
+
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "Rûpûşa torê:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "Tenê tê xwendin"
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr "Mîhengên Makîneyê"
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
+#: ../src/shares/shares-tool.c:237
+msgid "Shared Folders"
+msgstr "Pêristên ku têne parvekirin"
+
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "Navê qadê / Koma _xebatê:"
+
+#: ../interfaces/shares.ui.h:20
+msgid "This computer is a _WINS server"
+msgstr "Ev kompîtur pêşkêşkereke _WINSê ye"
+
+#: ../interfaces/shares.ui.h:21
+msgid "WINS _server:"
+msgstr "_Pêşkêşkerê WINSê"
+
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr "Parvekirina windowsê"
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Taybetmendiyên Giştî"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:25
+msgid "Enter password for user"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:26
+msgid "Enter password for user:"
+msgstr ""
+
+#: ../interfaces/time.ui.h:1
 msgid "Time zone"
 msgstr "Perçeyê saetê"
 
-#: ../interfaces/time.glade.in.h:9
+#: ../interfaces/time.ui.h:2
+msgid "Time Zone"
+msgstr ""
+
+#: ../interfaces/time.ui.h:3
 msgid "Time zone:"
 msgstr "Perçeyê demê:"
 
-#: ../interfaces/time.glade.in.h:10
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr "Hilbijartin"
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "Pêşkêşkarên demê"
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "Pêşkêşkera NTPyê"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "Pêşkêşkera NTP Lê Zêde Bike"
+
+#: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
 msgstr "Nehatiye veavakirin"
 
-#: ../interfaces/time.glade.in.h:11
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_Veavakirin:"
 
-#: ../interfaces/time.glade.in.h:12
-msgid "_Date:"
-msgstr "_Dîrok:"
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "Pêşkêşkarên demê:"
 
-#: ../interfaces/time.glade.in.h:13
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "Pêşkêşker Hil_bijêre"
+
+#: ../interfaces/time.ui.h:12
 msgid "_Time:"
 msgstr "_Dem(Saet):"
 
-#: ../interfaces/users.glade.in.h:1
-msgid "Advanced Settings"
-msgstr "Mîhengên Pêşketî"
+#: ../interfaces/time.ui.h:13
+msgid "_Date:"
+msgstr "_Dîrok:"
 
-#: ../interfaces/users.glade.in.h:2
-msgid "Automatic UID/GID"
-msgstr " UID/GIDa Bixweber"
+#: ../interfaces/time.ui.h:14
+msgid "Synchronize now"
+msgstr ""
 
-#: ../interfaces/users.glade.in.h:3
-msgid "Basic Settings"
-msgstr "Mîhengên Bingeh"
-
-
-#: ../interfaces/users.glade.in.h:5
-msgid "Group Members"
-msgstr "Endamên Komê"
-
-#: ../interfaces/users.glade.in.h:6
-msgid "Optional Settings"
-msgstr "Mîhengên Hilbijartî"
-
-#: ../interfaces/users.glade.in.h:7
-msgid "Password Settings"
-msgstr "Mîhengên Şîfreyê"
-
-
-
-#: ../interfaces/users.glade.in.h:10
-msgid "System Defaults"
-msgstr "Pêşdanasînên Pergalê"
-
-#: ../interfaces/users.glade.in.h:11
-msgid "Account"
-msgstr "Hesab"
-
-#: ../interfaces/users.glade.in.h:12
-msgid "Advanced"
-msgstr "Pêşketî"
-
-#: ../interfaces/users.glade.in.h:13
-msgid "Assign a random password by default"
-msgstr "Weke pêşdanasînî şîfreyeke çawalêhato tayîn bike"
-
-#: ../interfaces/users.glade.in.h:14
-msgid "Check password _quality"
-msgstr "_Qalîteya şîfreyê biceribînî"
-
-#: ../interfaces/users.glade.in.h:15
-msgid "Con_firmation:"
-msgstr "Piştrast bikî:"
-
-#: ../interfaces/users.glade.in.h:16
-msgid "Days between warning and password expiration:"
-msgstr "Rojên ku di navbera hişyarkirina şîfreyan û xelasbûna demê de:"
-
-#: ../interfaces/users.glade.in.h:17
-msgid "Default _group:"
-msgstr "Koma_pêşdanasînî:"
-
-#: ../interfaces/users.glade.in.h:18
-msgid "Default _shell:"
-msgstr "Qalikê_pêşdanasînî:"
-
-#: ../interfaces/users.glade.in.h:20
-msgid "Generate _random password"
-msgstr "Şîfreyên çawalêhato hilberînî"
-
-#: ../interfaces/users.glade.in.h:21
-msgid "Group _ID:"
-msgstr "_IDa komê:"
-
-#: ../interfaces/users.glade.in.h:22
-msgid "Group _name:"
-msgstr "_Navê komê:"
-
-#: ../interfaces/users.glade.in.h:23
-msgid "Group properties"
-msgstr "Taybetmendiyên komê"
-
-#: ../interfaces/users.glade.in.h:24
-msgid "Groups settings"
-msgstr "Mîhengên komê"
-
-#: ../interfaces/users.glade.in.h:25
-msgid "Ma_ximum days a password may be used:"
-msgstr "Şîfre herî zê_de dikare çend rojan were xebitandin:"
-
-#: ../interfaces/users.glade.in.h:26
-msgid "Maximum UID:"
-msgstr "UIDa herî mezin"
-
-#: ../interfaces/users.glade.in.h:27
-msgid "Mi_nimum days between password changes:"
-msgstr "Hejmara rojan yên herî kêm, Di navbera guherandina şîfreyan de:"
-
-#: ../interfaces/users.glade.in.h:28
-msgid "Minimum GID:"
-msgstr "GIDa herî biçûk:"
-
-#: ../interfaces/users.glade.in.h:29
-msgid "Minimum UID:"
-msgstr "UIDa herî biçûk:"
-
-#: ../interfaces/users.glade.in.h:30
-msgid "Minimum days allowed between password changes:"
-msgstr "Hejmara rojan ya herî kêm ji bo destûrdayîna guhertina şîfreyan:"
-
-#: ../interfaces/users.glade.in.h:31
-msgid "Number of days that a password may be used:"
-msgstr "Bo bikaranîna şîfreyekê hejmara rojên pêwist:"
-
-#: ../interfaces/users.glade.in.h:32
-msgid "O_ffice location:"
-msgstr "Cihê O_fîsê:"
-
-#: ../interfaces/users.glade.in.h:33
-msgid "Password set to: "
-msgstr "Şîfreya ku hatiye mîhengkirin: "
-
-#: ../interfaces/users.glade.in.h:34
-msgid "Privileges"
-msgstr "Îmtiyaz"
-
-#: ../interfaces/users.glade.in.h:35
-msgid "Profile _name:"
-msgstr "_Navê profîlê:"
-
-#: ../interfaces/users.glade.in.h:36
-msgid "Set password b_y hand"
-msgstr "Şîfreyê bi destan mîheng bike"
-
-#: ../interfaces/users.glade.in.h:37
-msgid "User ID:"
-msgstr "IDa bikarhêner:"
-
-#: ../interfaces/users.glade.in.h:38
-msgid "User Privileges"
-msgstr "Îmtiyazên Bikarhêner"
-
-#: ../interfaces/users.glade.in.h:39
-msgid "User _password:"
-msgstr "_Şîfreya bikarhêner:"
-
-#: ../interfaces/users.glade.in.h:40
-msgid "User profiles"
-msgstr "Profîlên bikarhênere"
-
-#: ../interfaces/users.glade.in.h:41
-msgid "_Add Group"
-msgstr "Komekê _Lê Zêde Bike"
-
-#: ../interfaces/users.glade.in.h:42
-msgid "_Add Profile"
-msgstr "Profîlekê _Lê Zêde Bike"
-
-#: ../interfaces/users.glade.in.h:43
-msgid "_Add User"
-msgstr "Bikarhênerekî _Lê Zêde Bike"
-
-#: ../interfaces/users.glade.in.h:44
-msgid "_Comments"
-msgstr "_Şîrove"
-
-#: ../interfaces/users.glade.in.h:45
-msgid "_Days between warning and password expiration:"
-msgstr "Rojên di navbera hişyarkirina şîfreyê û xelasbûna demê:"
-
-#: ../interfaces/users.glade.in.h:46
-#: ../src/network/address-list.c:77
-#: ../src/network/hosts.c:33
-#: ../src/shares/table.c:40
-#: ../src/users/table.c:40
-msgid "_Delete"
-msgstr "_Rake"
-
-#: ../interfaces/users.glade.in.h:47
-msgid "_Generate"
-msgstr "_Hilberîne"
-
-#: ../interfaces/users.glade.in.h:48
-msgid "_Home directory:"
-msgstr "Pêrista _Destpêkirinê:"
-
-#: ../interfaces/users.glade.in.h:49
-msgid "_Home phone:"
-msgstr "_Telefona Malê:"
-
-#: ../interfaces/users.glade.in.h:50
-msgid "_Main group:"
-msgstr "_Makekom:"
-
-#: ../interfaces/users.glade.in.h:51
+#: ../interfaces/users.ui.h:1
 msgid "_Manage Groups"
 msgstr "Koman _Bi Rê Ve Bibe"
 
-#: ../interfaces/users.glade.in.h:52
-msgid "_Profile:"
-msgstr "_Profîl:"
+#: ../interfaces/users.ui.h:2
+msgid "Account _type:"
+msgstr ""
 
-#: ../interfaces/users.glade.in.h:53
-msgid "_Real name:"
-msgstr "_Navê rast:"
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr ""
 
-#: ../interfaces/users.glade.in.h:54
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "Şî_fre:"
+
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr ""
+
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:8
+msgid "Group properties"
+msgstr "Taybetmendiyên komê"
+
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "Mîhengên Bingeh"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "_Navê komê:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "_IDa komê:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Endamên Komê"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "_Navê profîlê:"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Şîrove"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Pêşdanasînên Pergalê"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "Pêrista _Destpêkirinê:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "Qalikê_pêşdanasînî:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "Koma_pêşdanasînî:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Mîhengên Şîfreyê"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Bo bikaranîna şîfreyekê hejmara rojên pêwist:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Hejmara rojan ya herî kêm ji bo destûrdayîna guhertina şîfreyan:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Rojên ku di navbera hişyarkirina şîfreyan û xelasbûna demê de:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Weke pêşdanasînî şîfreyeke çawalêhato tayîn bike"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr " UID/GIDa Bixweber"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "UIDa herî mezin"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "UIDa herî biçûk:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "GIDa herî biçûk:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Îmtiyaz"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Profîlên bikarhênere"
+
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr "Profîlekê _Lê Zêde Bike"
+
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr "Mîhengên komê"
+
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr ""
+
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr ""
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "Piştrast bikî:"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "Şîfreya ku hatiye mîhengkirin: "
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "_Hilberîne"
+
+#: ../interfaces/users.ui.h:43
+msgid "Set password b_y hand"
+msgstr "Şîfreyê bi destan mîheng bike"
+
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "Şîfreyên çawalêhato hilberînî"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr ""
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr ""
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr ""
+
+#: ../interfaces/users.ui.h:52
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr ""
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr ""
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
+msgstr ""
+
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
+msgid ""
+"Username must consist of:\n"
+"  ➣ lower case letters from the English alphabet\n"
+"  ➣ digits\n"
+"  ➣ any of the characters \".\", \"-\" and \"_\""
+msgstr ""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr ""
+
+#: ../interfaces/users.ui.h:63
+msgid "Username must start with a letter!"
+msgstr ""
+
+#: ../interfaces/users.ui.h:64
+msgid "_Encrypt home folder to protect sensitive data"
+msgstr ""
+
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr ""
+
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "Cihê O_fîsê:"
+
+#: ../interfaces/users.ui.h:69
+msgid "_Work phone:"
+msgstr "Telefona _Kar"
+
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "_Telefona Malê:"
+
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr ""
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "Îmtiyazên Bikarhêner"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Mîhengên Pêşketî"
+
+#: ../interfaces/users.ui.h:74
 msgid "_Shell:"
 msgstr "_Qalik:"
 
-#: ../interfaces/users.glade.in.h:56
-msgid "_Work phone:"
-msgstr "Telefona _Kar"
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "_Makekom:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "IDa bikarhêner:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr ""
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Mîhengên Hilbijartî"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Hejmara rojan yên herî kêm, Di navbera guherandina şîfreyan de:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "Şîfre herî zê_de dikare çend rojan were xebitandin:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "Rojên di navbera hişyarkirina şîfreyê û xelasbûna demê:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Pêşketî"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr ""
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -612,93 +753,155 @@ msgstr "Platforma ku tu li ser dixebite ji aliyê vê amûrê nayê destekkirin"
 
 #. label
 #: ../src/common/gst-platform-dialog.c:185
-msgid "If you know for sure that it works like one of the platforms listed below, you can select that and continue. Note, however, that this might damage the system configuration or downright cripple your computer."
+msgid ""
+"If you know for sure that it works like one of the platforms listed below, "
+"you can select that and continue. Note, however, that this might damage the "
+"system configuration or downright cripple your computer."
 msgstr "Heke tu bawer î ku dê wek nêvengên li jêr hatiye lîstekirin bixebite, tu dikarî vê hilbijêrî û berdewam bikî. Ligel vê yekê jî, bila guhê te li ser be ku dikare veavakirina pergala te û kompîtura te xera bike."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
 msgstr "Platforma ku nayê destekkirin"
 
-#: ../src/common/gst-tool.c:178
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr "Veavakirin nehate barkirin."
 
-#: ../src/common/gst-tool.c:180
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:190
+msgid "The configuration could not be saved"
+msgstr ""
+
+#: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
 msgstr "Destûra te tuneye ku tu derbasî mîhenga pergalê bibî."
 
-#: ../src/common/gst-tool.c:358
-msgid "MATE System Tools"
-msgstr "Amûrên Pergalê Yên MATE"
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
+msgid "You are not allowed to modify the system configuration."
+msgstr ""
 
-#: ../src/common/gst-tool.c:415
+#: ../src/common/gst-tool.c:199
+msgid "Invalid data was found."
+msgstr ""
+
+#. OOBS_RESULT_ERROR
+#: ../src/common/gst-tool.c:201
+msgid "An unknown error occurred."
+msgstr ""
+
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "Alîkarî nehate nîşandan"
 
-#: ../src/network/address-list.c:76
-#: ../src/network/hosts.c:31
-#: ../src/shares/table.c:38
-#: ../src/users/table.c:38
+#: ../src/common/gst-tool.c:616
+msgid "The system configuration has potentially changed."
+msgstr ""
+
+#: ../src/common/gst-tool.c:618
+msgid "Update content? This will lose any modification in course."
+msgstr ""
+
+#: ../src/common/gst-tool.c:687
+#, c-format
+msgid ""
+"An error occurred while checking for authorizations: %s\n"
+"You may report this as a bug."
+msgstr ""
+
+#: ../src/network/address-list.c:76 ../src/network/hosts.c:31
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "_Têxê"
 
-#: ../src/network/address-list.c:486
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
+msgid "_Delete"
+msgstr "_Rake"
+
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "Navnîşan"
 
-#: ../src/network/callbacks.c:185
-#: ../src/network/callbacks.c:431
+#: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
 msgstr "Veavakirina dîrûvê navîn tê guherandin"
 
-#: ../src/network/callbacks.c:243
+#: ../src/network/callbacks.c:299
 msgid "Could not autodetect modem device"
 msgstr "Modemê cîhaza xwe bixweber nas nekir"
 
-#: ../src/network/callbacks.c:246
-msgid "Check that the device is not busy and that is correctly attached to the computer."
+#: ../src/network/callbacks.c:302
+msgid ""
+"Check that the device is not busy and that is correctly attached to the "
+"computer."
 msgstr "Baweriya xwe pê bînin ku cîhaza te ne mijûl e û bi awayekî rast hatiye girêdan."
 
-#: ../src/network/callbacks.c:467
+#: ../src/network/callbacks.c:523
 msgid "The host name has changed"
 msgstr "Navê makîneyê guherî"
 
-#: ../src/network/callbacks.c:470
-msgid "This will prevent you from launching new applications, and so you will have to log in again. Continue anyway?"
+#: ../src/network/callbacks.c:526
+msgid ""
+"This will prevent you from launching new applications, and so you will have "
+"to log in again. Continue anyway?"
 msgstr "Di vê rewşê de wê sepanên nû neyên destpêkirin û tu yê mecbûr bimîne ku careke din têkevê. Dîsa jî tu dixwazî berdewam bikî?"
 
-#: ../src/network/callbacks.c:476
+#: ../src/network/callbacks.c:532
 msgid "Change _Host name"
 msgstr "Navê_Makîneyê Biguherîne"
 
-#: ../src/network/connection.c:39
+#: ../src/network/connection.c:40
 msgid "Automatic configuration (DHCP)"
 msgstr "Veavakirina Bixweber (DHCP)"
 
-#: ../src/network/connection.c:40
+#: ../src/network/connection.c:41
 msgid "Local Zeroconf network (IPv4 LL)"
 msgstr ""
 
-#: ../src/network/connection.c:41
+#: ../src/network/connection.c:42
 msgid "Static IP address"
 msgstr "Navnîşana IPê ya statîk"
 
-#: ../src/network/connection.c:45
+#: ../src/network/connection.c:46
 msgid "WEP key (ascii)"
 msgstr "Mifteza WEP (ascii)"
 
-#: ../src/network/connection.c:46
+#: ../src/network/connection.c:47
 msgid "WEP key (hexadecimal)"
 msgstr "Mifteya WEP (heksadesimal)"
 
-#: ../src/network/connection.c:47
-msgid "WPA"
-msgstr "WPA"
+#: ../src/network/connection.c:48
+msgid "WPA Personal"
+msgstr ""
 
-#: ../src/network/hosts.c:32
-#: ../src/network/ifaces-list.c:33
-#: ../src/shares/table.c:39
-#: ../src/users/table.c:39
+#: ../src/network/connection.c:49
+msgid "WPA2 Personal"
+msgstr ""
+
+#: ../src/network/connection.c:53
+msgid "GPRS/UMTS"
+msgstr ""
+
+#: ../src/network/connection.c:54
+msgid "ISDN modem"
+msgstr ""
+
+#: ../src/network/connection.c:55
+msgid "Serial modem"
+msgstr ""
+
+#: ../src/network/connection.c:56
+msgid "PPPoE"
+msgstr ""
+
+#: ../src/network/connection.c:769
+#, c-format
+msgid "%s Properties"
+msgstr ""
+
+#: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "_Taybetî"
 
@@ -710,136 +913,138 @@ msgstr "Navnîşana IP'ê"
 msgid "Aliases"
 msgstr "Bernav(lakap)"
 
-#: ../src/network/ifaces-list.c:282
+#: ../src/network/ifaces-list.c:280
 msgid "This network interface is not configured"
 msgstr "Vî dirûvê navberê yê toreyê nehatiye veavakirin"
 
-#: ../src/network/ifaces-list.c:284
+#: ../src/network/ifaces-list.c:282
 msgid "Roaming mode enabled"
 msgstr ""
 
-#: ../src/network/ifaces-list.c:291
+#: ../src/network/ifaces-list.c:289
 #, c-format
-msgid "Essid: %s "
-msgstr "Essid: %s "
+msgid "<b>Essid:</b> %s "
+msgstr ""
 
-#: ../src/network/ifaces-list.c:297
-#, c-format
-msgid "Address: %s Subnet mask: %s"
-msgstr "Navnîşan: %s Rûpoşa toreya jêr: %s"
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:301
-#, c-format
-msgid "Address: %s"
-msgstr "Navnîşan: %s"
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:305
-#, c-format
-msgid "Address: %s Remote address: %s"
-msgstr "Navnîşan: %s Navnîşana dûr: %s"
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:311
-#, c-format
-msgid "Phone number: %s Login: %s"
-msgstr "Nimreya Telefonê: %s Têketin: %s"
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:330
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
 msgstr "Girêdana Bêqablo"
 
-#: ../src/network/ifaces-list.c:332
+#: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
 msgstr "Girêdana enfarûjê"
 
-#: ../src/network/ifaces-list.c:334
+#: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
 msgstr "Girêdana Bi qablo"
 
-#: ../src/network/ifaces-list.c:336
+#: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
 msgstr "Girêdana deriyên paralel"
 
-#: ../src/network/ifaces-list.c:338
-msgid "Modem connection"
-msgstr "Girêdana modemê"
+#: ../src/network/ifaces-list.c:364
+msgid "Point to point connection"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:340
-msgid "ISDN connection"
-msgstr "Girêdana ISDN"
-
-#: ../src/network/locations-combo.c:224
+#: ../src/network/locations-combo.c:221
 msgid "Changing network location"
 msgstr "Cihê toreyê tê guhertin"
 
-#: ../src/network/locations-combo.c:268
+#: ../src/network/locations-combo.c:265
 msgid "There is already a location with the same name"
 msgstr "Berê hêlkirinek bi vî navî heye"
 
-#: ../src/network/locations-combo.c:270
+#: ../src/network/locations-combo.c:267
 msgid "Overwrite it?"
 msgstr "Bila li ser were nivîsîn?"
 
-#: ../src/network/locations-combo.c:358
+#: ../src/network/locations-combo.c:355
 msgid "Save location"
 msgstr "Cih tomar bike"
 
-#: ../src/network/locations-combo.c:373
+#: ../src/network/locations-combo.c:370
 msgid "_Location name:"
 msgstr "Navê _cih:"
 
-#: ../src/network/locations-combo.c:425
+#: ../src/network/locations-combo.c:422
 #, c-format
 msgid "Do you want to delete location \"%s\"?"
 msgstr "Tu dixwazî ku hêlê biguherînî \"%s\"?"
 
-#: ../src/network/main.c:112
+#: ../src/network/main.c:135
 msgid "The interface does not exist"
 msgstr "Dirûvê navberê ne mevcûd e"
 
-#: ../src/network/main.c:114
-msgid "Check that it is correctly typed and that it is correctly supported by your system."
+#: ../src/network/main.c:137
+msgid ""
+"Check that it is correctly typed and that it is correctly supported by your "
+"system."
 msgstr "Kontrol bike bê ka tu rast ketiyê û ji aliyê pergala te ve rast hatiye destekirin."
 
-#: ../src/network/main.c:160
+#: ../src/network/main.c:183
 msgid "Configure a network interface"
 msgstr "Dirûvekî torê veava bike"
 
-#: ../src/network/main.c:160
+#: ../src/network/main.c:183
 msgid "INTERFACE"
 msgstr "YEKEYÊNAVBERÊ"
 
-#: ../src/network/main.c:161
+#: ../src/network/main.c:184
 msgid "Configure the first network interface with a specific type"
 msgstr "Dirûvê navberê yê toreyê ya pêşîn bi cureyekî diyar veava bike"
 
-#: ../src/network/main.c:161
+#: ../src/network/main.c:184
 msgid "TYPE"
 msgstr "CURE"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "Cîhaz û girêdanên torê veava bike"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "Tor"
 
-#: ../src/network/network-tool.c:285
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Cîhaz û girêdanên torê veava bike"
+
+#: ../src/network/network-tool.c:280
 msgid "Network Settings"
 msgstr "Mîhengên Toreyê"
 
-#: ../src/services/callbacks.c:58
+#: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
 msgstr "Ji bo xizmeta \"%s\" mîheng"
 
-#: ../src/services/callbacks.c:110
+#: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
 msgstr "Tu bawerî ku dixwazî xebata %s betal bikî?"
 
-#: ../src/services/callbacks.c:114
-msgid "This may affect your system behavior in several ways, possibly leading to data loss."
+#: ../src/services/callbacks.c:126
+msgid ""
+"This may affect your system behavior in several ways, possibly leading to "
+"data loss."
 msgstr "Ev, dikare bi gelek riyan tevgera pergala te bibandor dike, belkî jî bibe sedema windabûna daneyan."
 
 #: ../src/services/service.c:32
@@ -912,14 +1117,12 @@ msgstr "Pergala veşartina daneyan"
 #. GST_ROLE_DATABASE_SERVER
 #. GST_ROLE_FILE_SERVER_SMB
 #. GST_ROLE_FILE_SERVER_FTP
-#: ../src/services/service.c:40
-#: ../src/services/service.c:41
+#: ../src/services/service.c:40 ../src/services/service.c:41
 #: ../src/services/service.c:43
 msgid "Folder sharing service"
 msgstr "Xizmeta parvekirina peldankan"
 
-#: ../src/services/service.c:40
-#: ../src/services/service.c:41
+#: ../src/services/service.c:40 ../src/services/service.c:41
 msgid "Shares folders over your network"
 msgstr "Li ser tora xwe peldankan hevpar bike"
 
@@ -928,8 +1131,7 @@ msgstr "Li ser tora xwe peldankan hevpar bike"
 msgid "FTP service"
 msgstr "Xizmeta FTPê"
 
-#: ../src/services/service.c:42
-#: ../src/services/service.c:43
+#: ../src/services/service.c:42 ../src/services/service.c:43
 msgid "Shares folders over the Internet"
 msgstr "Hevbeşkirina pelgeyan bi riya internetê"
 
@@ -1247,13 +1449,18 @@ msgstr "Dîmenderê reqalav"
 msgid "System monitor"
 msgstr "Dîmenderê pergalê"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "Deam pergal vebû hilbijêrin bê ka bila kîjan xizmet were xebitandin"
+#. GST_ROLE_SYSTEM_MONITORING
+#: ../src/services/service.c:104
+msgid "Virtual Machine management"
+msgstr ""
 
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Xizmet"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Deam pergal vebû hilbijêrin bê ka bila kîjan xizmet were xebitandin"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1284,9 +1491,9 @@ msgstr "Rewş"
 msgid "Priority"
 msgstr "Pêşikî"
 
-#: ../src/services/services-tool.c:100
-msgid "Services settings"
-msgstr "Mîhengên xizmetê"
+#: ../src/services/services-tool.c:106
+msgid "Services Settings"
+msgstr ""
 
 #: ../src/shares/callbacks.c:196
 msgid "Are you sure you want to delete this share?"
@@ -1296,19 +1503,19 @@ msgstr "Tu bawer î ku vê parvekirinê jê bibe?"
 msgid "Other computers in your network will stop viewing this."
 msgstr "Xuyanîkirina vê ay ji aliyê kompîturên ku torê ye wê were rawestandin."
 
-#: ../src/shares/main.c:92
+#: ../src/shares/main.c:103
 msgid "Add a shared path, modifies it if it already exists"
 msgstr "Riyeke tê parvekirin lê zêde bike, heke rê mevcûd be jî biguherîne"
 
-#: ../src/shares/main.c:92
+#: ../src/shares/main.c:103
 msgid "PATH"
 msgstr "RÊ"
 
-#: ../src/shares/caja/caja-shares.c:124
-msgid "_Share folder"
-msgstr "_Peldankê par ve bike"
+#: ../src/shares/caja/caja-shares.c:151
+msgid "_Share Folder..."
+msgstr ""
 
-#: ../src/shares/caja/caja-shares.c:125
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr "Vê peldankê bi kompîturên din re par ve bike"
 
@@ -1328,7 +1535,7 @@ msgstr "Navnîşana IPê diyar bike"
 msgid "Specify network"
 msgstr "Torê diyar bike"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Ji bo cîranên xwe yên toreyê peldankên guncav veava bike"
 
@@ -1348,883 +1555,562 @@ msgstr "Toreyên windowsê (SMB)"
 msgid "Unix networks (NFS)"
 msgstr "Toreyên unixê (NFS)"
 
-#: ../src/shares/shares-tool.c:125
+#: ../src/shares/share-settings.c:462
+#, c-format
+msgid "Settings for folder '%s'"
+msgstr ""
+
+#: ../src/shares/share-settings.c:469
+msgid "Share Folder"
+msgstr ""
+
+#: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
 msgstr "Xizmeta parvekirinê nehatiye sazkirin"
 
-#: ../src/shares/shares-tool.c:127
-msgid "You need to install at least either Samba or NFS in order to share your folders."
+#: ../src/shares/shares-tool.c:154
+msgid ""
+"You need to install at least either Samba or NFS in order to share your "
+"folders."
 msgstr "Bi kêmayî pêwiste tu an Samba an jî NFS daxînî da tu pelgeyên xwe parvebikî."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Dema pergalê, dîrokê û perçeyê demê biguherîne"
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
+msgstr ""
 
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/e-map/e-map.c:622
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
+msgstr ""
+
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Dem û Dîrok"
 
-#: ../src/time/time-tool.c:377
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Dema pergalê, dîrokê û perçeyê demê biguherîne"
+
+#: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "Desteka NTPyê ne sazkirî ye"
 
-#: ../src/time/time-tool.c:379
-msgid "Please install and activate NTP support in the system to enable synchronization of your local time server with internet time servers."
+#: ../src/time/time-tool.c:400
+msgid ""
+"Please install and activate NTP support in the system to enable "
+"synchronization of your local time server with internet time servers."
 msgstr "Ji bo senkronizayona pêşkerê dema te ya herêmî û pêşkêşkerên demê yên înternetê ji kerema xwe re desteka NTPyê saz bike û çalak bike."
 
-#: ../src/time/time-tool.c:409
+#: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
 msgstr "NTP çalak bike"
 
-#: ../src/time/time-tool.c:409
+#: ../src/time/time-tool.c:429
 msgid "Disabling NTP"
 msgstr "NTP neçalak bike"
 
-#: ../src/time/time-tool.c:421
+#: ../src/time/time-tool.c:441
 msgid "Synchronizing system clock"
 msgstr "Demjimêra wekhevkirina demî ya pergalê"
 
-#: ../src/time/time-tool.c:527
+#: ../src/time/time-tool.c:521
 msgid "Keep synchronized with Internet servers"
 msgstr "Bila dema seatan û ya xizmeta internetê bibe weke hev"
 
-#: ../src/time/time-tool.c:528
+#: ../src/time/time-tool.c:522
 msgid "Manual"
 msgstr "Bi destan"
 
-#: ../src/time/time-tool.c:677
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "Mîhengên Dem û Dîrokê"
 
-#: ../src/users/group-settings.c:52
+#: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
 msgstr "Koma gerînendeyan jê nayê birin"
 
-#: ../src/users/group-settings.c:55
-#: ../src/users/group-settings.c:281
-#: ../src/users/group-settings.c:305
-#: ../src/users/user-settings.c:60
-#: ../src/users/user-settings.c:446
-#: ../src/users/user-settings.c:516
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "Ev kar, pergalê dixe rewşeke nebikêr."
 
-#: ../src/users/group-settings.c:68
+#: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
 msgstr "Tu bawer î ku koma \"%s\" jê bibe?"
 
-#: ../src/users/group-settings.c:71
+#: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
 msgstr "Ev kar dihêle ku li pergala we ya pelan, pelên ku nimreya wan a komê ne derbasdar e bihêle."
 
-#: ../src/users/group-settings.c:170
+#: ../src/users/group-settings.c:144
 msgid "New group"
 msgstr "Komeke nû"
 
-#: ../src/users/group-settings.c:178
+#: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
 msgstr "Taybetmendiyên Koma '%s'"
 
-#: ../src/users/group-settings.c:277
+#: ../src/users/group-settings.c:217
 msgid "Group name is empty"
 msgstr "Navê komê vala ye"
 
-#: ../src/users/group-settings.c:278
+#: ../src/users/group-settings.c:218
 msgid "A group name must be specified."
 msgstr "Divê navê komekê were dayîn."
 
-#: ../src/users/group-settings.c:280
+#: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
 msgstr "Ji bo bikarhênerê koma gerînendeyan divê navê komê neyê guhertin."
 
-#: ../src/users/group-settings.c:283
+#: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
 msgstr "Di navê komê de tîpên nederbasdar heye"
 
-#: ../src/users/group-settings.c:284
-msgid "Please set a valid group name consisting of a lower case letter followed by lower case letters and numbers."
+#: ../src/users/group-settings.c:224
+msgid ""
+"Please set a valid group name consisting of a lower case letter followed by "
+"lower case letters and numbers."
 msgstr "Ji kerema xwe bila navê komê tiştekî wisa be ku bila bi tîpên biçûk dest pê bike û bi tîpên biçûk û reqeman bidome."
 
-#: ../src/users/group-settings.c:288
+#: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
 msgstr "Koma \"%s\" jixwe heye"
 
-#: ../src/users/group-settings.c:289
-#: ../src/users/user-settings.c:454
-msgid "Please select a different user name."
-msgstr "Ji kerema xwe navekî cuda yên bikarhêneran hilbijêre"
+#: ../src/users/group-settings.c:230
+msgid "Please choose a different group name."
+msgstr ""
 
-#: ../src/users/group-settings.c:304
+#: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
 msgstr "Divê IDa koma hesabê gerînendetiyê neyê guhertin"
 
-#: ../src/users/groups-table.c:45
+#. check that GID is free
+#: ../src/users/group-settings.c:261
+#, c-format
+msgid "Group ID %d is already used by group \"%s\""
+msgstr ""
+
+#: ../src/users/group-settings.c:264
+msgid "Please choose a different numeric identifier for the new group."
+msgstr ""
+
+#: ../src/users/group-settings.c:266
+#, c-format
+msgid "Please choose a different numeric identifier for group \"%s\"."
+msgstr ""
+
+#: ../src/users/groups-table.c:44
 msgid "Group name"
 msgstr "Navê komê"
 
-#: ../src/users/privileges-table.c:49
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
+msgstr ""
+
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
+msgstr ""
+
+#: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
 msgstr "Tomarên pergalê bişopîne"
 
-#: ../src/users/privileges-table.c:50
+#: ../src/users/privileges-table.c:54
 msgid "Administer the system"
 msgstr "Pergalê bi rê ve bibe"
 
-#: ../src/users/privileges-table.c:51
+#: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
 msgstr "Cihazê audio bikar bîne"
 
-#: ../src/users/privileges-table.c:52
+#: ../src/users/privileges-table.c:56
 msgid "Use CD-ROM drives"
 msgstr "Ajokarên CD-ROM bikar bîne"
 
-#: ../src/users/privileges-table.c:53
+#: ../src/users/privileges-table.c:57
+msgid "Burn CDs / DVDs"
+msgstr ""
+
+#: ../src/users/privileges-table.c:58
 msgid "Use modems"
 msgstr "Modeman bikar bîne"
 
-#: ../src/users/privileges-table.c:54
+#: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
 msgstr "Modemekê bikar bîne û têkeve înternetê"
 
-#: ../src/users/privileges-table.c:55
+#: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
 msgstr "Faksan bişîne û bistîne"
 
-#: ../src/users/privileges-table.c:56
+#: ../src/users/privileges-table.c:61
 msgid "Use floppy drives"
 msgstr "Ajokarên dîsketan bikar bîne"
 
-#: ../src/users/privileges-table.c:57
+#: ../src/users/privileges-table.c:62
+msgid "Mount user-space filesystems (FUSE)"
+msgstr ""
+
+#: ../src/users/privileges-table.c:63
+msgid "Configure printers"
+msgstr ""
+
+#: ../src/users/privileges-table.c:64
+msgid "Connect to wireless and ethernet networks"
+msgstr ""
+
+#: ../src/users/privileges-table.c:65
 msgid "Access external storage devices automatically"
 msgstr "Gihiştina Cîhazê depokirinê ya bixweber"
 
-#: ../src/users/privileges-table.c:58
+#: ../src/users/privileges-table.c:66
+msgid "Suspend and hibernate the computer"
+msgstr ""
+
+#: ../src/users/privileges-table.c:67
+msgid "Access /proc filesystem"
+msgstr ""
+
+#: ../src/users/privileges-table.c:68
 msgid "Use scanners"
 msgstr "Lêgerokan bikar bîne"
 
-#: ../src/users/privileges-table.c:59
+#: ../src/users/privileges-table.c:69
 msgid "Use tape drives"
 msgstr "Şerîta ajotinê bikar bîne"
 
-#: ../src/users/privileges-table.c:60
+#: ../src/users/privileges-table.c:70
+msgid "Use USB devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:71
+msgid "Use VirtualBox virtualization solution"
+msgstr ""
+
+#: ../src/users/privileges-table.c:72
+msgid "Use video devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
 msgstr "Ji bo bidestxistina rayeyên gerînendetiyê"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Bikarhêner û koman lê zêde bike an jî jê bibe"
+#: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr ""
 
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr ""
+
+#: ../src/users/run-passwd.c:421
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/users/run-passwd.c:498
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/users/run-passwd.c:504
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/users/run-passwd.c:510
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/users/run-passwd.c:513
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/users/run-passwd.c:517
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/users/run-passwd.c:524
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/users/run-passwd.c:528
+#, c-format
+msgid "Unknown error"
+msgstr ""
+
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Bikarhêner û Kom"
 
-#: ../src/users/user-settings.c:57
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Bikarhêner û koman lê zêde bike an jî jê bibe"
+
+#: ../src/users/user-password.c:97
+msgid "Password is too short"
+msgstr "Şîfre gelek kin e"
+
+#: ../src/users/user-password.c:98
+msgid ""
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
+msgstr ""
+
+#: ../src/users/user-password.c:101
+msgid "Password confirmation is not correct"
+msgstr "Erêkirina şîfreyê ne rast e"
+
+#: ../src/users/user-password.c:102
+msgid "Check that you have provided the same password in both text fields."
+msgstr "Bi xwe bawer bî ku te li herdu qadên tekstan heman şîfre bikar aniye."
+
+#: ../src/users/user-password.c:445
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/users/user-password.c:456
+msgid "Please type again your current password."
+msgstr ""
+
+#: ../src/users/user-password.c:463
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
 msgstr "Hesabê gerînendetiyê jê nayê birin"
 
-#: ../src/users/user-settings.c:73
+#: ../src/users/user-settings.c:96
 #, c-format
-msgid "Are you sure you want to delete account \"%s\"?"
-msgstr "Tu dixwazî hesabê \"%s\" jê bibî?"
+msgid "%s is currently using this computer"
+msgstr ""
 
-#: ../src/users/user-settings.c:76
-msgid "This will disable this user's access to the system without deleting the user's home directory."
-msgstr "Ev, beyî ku pêrista destpêkirinê jê bibe gihiştîna pergalê ya bikarhêner digire."
+#: ../src/users/user-settings.c:99
+msgid "Please ensure the user has logged out before deleting this account."
+msgstr ""
 
-#: ../src/users/user-settings.c:289
-msgid "New user account"
-msgstr "Hesabê bikarhênerê nû"
+#: ../src/users/user-settings.c:109
+msgid "Can't delete the only administrator account"
+msgstr ""
 
-#: ../src/users/user-settings.c:304
+#: ../src/users/user-settings.c:111
 #, c-format
-msgid "Account '%s' Properties"
-msgstr "Taybetmendiyên Hesabên '%s'"
+msgid ""
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
+msgstr ""
 
-#: ../src/users/user-settings.c:442
-msgid "User name is empty"
-msgstr "Navê bikarhêner vala ye"
-
-#: ../src/users/user-settings.c:443
-msgid "A user name must be specified."
-msgstr "Divê navekî bikarhêneran diyar bike."
-
-#: ../src/users/user-settings.c:445
-msgid "Administrator account's user name should not be modified"
-msgstr "Divê IDa navê bikarhêner ê hesabê gerînendetiyê neyê guhertin"
-
-#: ../src/users/user-settings.c:448
-msgid "User name has invalid characters"
-msgstr "Di navê bikarhêner de karakterên nederbasdar heye"
-
-#: ../src/users/user-settings.c:449
-msgid "Please set a valid user name consisting of a lower case letter followed by lower case letters and numbers."
-msgstr "Ji kerema xwe bi tîpên hûrdek dest pê bikin, û bila di navê bikarhêner de reqem û tîpên hûrdek hebe."
-
-#: ../src/users/user-settings.c:453
+#: ../src/users/user-settings.c:121
 #, c-format
-msgid "User name \"%s\" already exists"
-msgstr "Bikarhênerê \"%s\"  jixwe heye"
+msgid "Remove home folder for %s?"
+msgstr ""
 
-#: ../src/users/user-settings.c:480
+#: ../src/users/user-settings.c:124
+#, c-format
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr ""
+
+#: ../src/users/user-settings.c:132
+msgid "Keep Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:133
+msgid "Don't Remove Account"
+msgstr ""
+
+#: ../src/users/user-settings.c:134
+msgid "Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:330
+msgid "Superuser"
+msgstr ""
+
+#: ../src/users/user-settings.c:335
+msgid "Custom"
+msgstr ""
+
+#. TRANSLATORS: This applies to a password.
+#: ../src/users/user-settings.c:344
+msgid "None"
+msgstr ""
+
+#: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
 msgstr "Di daxuyaniyê de karaktera nederbasdar ya \"%c\""
 
-#: ../src/users/user-settings.c:481
+#: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
 msgstr "Kontrol bikin ku ev karakter nayê bikaranîn."
 
-#: ../src/users/user-settings.c:498
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "Di pêrista destpêkirinê de riya ku nehatiye temamkirin"
 
-#: ../src/users/user-settings.c:499
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
-"i.e.: /home/john."
+"<span size=\"smaller\">i.e.: /home/john</span>."
 msgstr ""
-"Ji kerema xwe ji bo pêrista destpêkirinê riya tam binivîse\n"
-"mînak.: /home/elixan."
 
-#: ../src/users/user-settings.c:515
-msgid "Administrator account's user ID should not be modified"
-msgstr "Divê IDa bikarhêner a hesabê gerînendetiyê neyê guhertin"
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
+msgstr ""
 
-#: ../src/users/user-settings.c:531
+#: ../src/users/user-settings.c:449
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr ""
+
+#: ../src/users/user-settings.c:461
+msgid "_Replace With Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr ""
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr ""
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr ""
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr ""
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr ""
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:604
+msgid "ID for the root user should not be modified"
+msgstr ""
+
+#. check that UID is free
+#: ../src/users/user-settings.c:608
+#, c-format
+msgid "User ID %d is already used by user %s"
+msgstr ""
+
+#: ../src/users/user-settings.c:610
+#, c-format
+msgid "Please choose a different numeric identifier for %s."
+msgstr ""
+
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr "Riya ku di qalik de nehatiye temamkirin"
 
-#: ../src/users/user-settings.c:532
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
-"i.e.: /bin/bash."
-msgstr ""
-"Ji kerema xwe re ji bo qalik riya rast binivîsîne\n"
-"mînak.: /bin/sh."
-
-#: ../src/users/user-settings.c:560
-msgid "Password is too short"
-msgstr "Şîfre gelek kin e"
-
-#: ../src/users/user-settings.c:561
-msgid "User passwords must be longer than 6 characters and preferably formed by numbers, letters and special characters."
+"<span size=\"smaller\">i.e.: /bin/bash</span>."
 msgstr ""
 
-#: ../src/users/user-settings.c:564
-msgid "Password confirmation is not correct"
-msgstr "Erêkirina şîfreyê ne rast e"
+#: ../src/users/user-settings.c:663
+msgid "Can't revoke administration rights"
+msgstr ""
 
-#: ../src/users/user-settings.c:565
-msgid "Check that you have provided the same password in both text fields."
-msgstr "Bi xwe bawer bî ku te li herdu qadên tekstan heman şîfre bikar aniye."
+#: ../src/users/user-settings.c:666
+#, c-format
+msgid ""
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
+msgstr ""
 
-#: ../src/users/users-table.c:44
-msgid "Name"
-msgstr "Nav"
+#: ../src/users/user-settings.c:683
+msgid "You are about to revoke your own administration rights"
+msgstr ""
 
-#: ../src/users/users-table.c:63
-msgid "Login name"
-msgstr "Navê têketinê"
+#: ../src/users/user-settings.c:686
+#, c-format
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
+msgstr ""
 
-#: ../src/users/users-table.c:70
-msgid "Home directory"
-msgstr "Pelrêça malê"
+#: ../src/users/user-settings.c:691
+msgid "Give up administration rights"
+msgstr ""
 
-#: ../src/users/users-tool.c:191
-msgid "Users settings"
-msgstr "Mîhengên bikarhêner"
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr ""
 
-#~ msgid ""
-#~ "Comma separated list of hosts that the GST will be able to access when "
-#~ "the remote configuration option is enabled"
-#~ msgstr ""
-#~ "Dema ji dûr de veavakirin pêk hat, lîsteya navên makîneyên ku  GST  "
-#~ "( Amûrên Pergalê Yên MATE) dikare xwe bigihîne wan yên ku bi bêhnokan ji "
-#~ "hev hatine veqetandin."
-#~ msgid "Last GST version executed"
-#~ msgstr "Guhertoya dawîn ya GSTê (Amûrên Pergalê Yên MATE) ya tê xebitandin"
-#~ msgid "Preferred bootloader that boot-admin will configure"
-#~ msgstr ""
-#~ "Pêşbarkera ku tê hilbijartin  (bootloader) ya bo rêveberê pêşbarkirinê li "
-#~ "ser wê were veavakirin (boot-admin)"
-#~ msgid "Remote hosts"
-#~ msgstr "Makîneyên Li Dûr"
-#~ msgid ""
-#~ "The GST are able to do remote configuration through SSH, enable this "
-#~ "option to use this feature"
-#~ msgstr ""
-#~ "Amûrên pergalê yên MATE, dikarin ji ser SSHê pergalên ku li dûr in veava "
-#~ "bikin. Ji bo ku tu karibî vê taybetmendiyê bikar bîne vê bijartekê çalak "
-#~ "bike."
-#~ msgid "The last GST version that this computer has run"
-#~ msgstr "Guhertoya dawî ya GST ya vê pergalê daye xebitandin."
-#~ msgid ""
-#~ "This key stores the bootloader that boot-admin will configure if there "
-#~ "are more than one installed, if it's not set or isn't valid, then boot-"
-#~ "admin will ask the user"
-#~ msgstr ""
-#~ "Heke ji yekê zêdetir pêşbarker (bootlader) hatibe sazkirin, ev mifte "
-#~ "biryarê werdigire bê ka kîjan barker wê veavakirina boot-adminê tomar "
-#~ "bike. Heke nehatibe tayînkirin an jî nedernbasdar be wê ji bikarhêner "
-#~ "neyê pirsîn"
-#~ msgid "Whether the tools will use remote administration or not"
-#~ msgstr "Destekirin û desteknekirina amûran ya ji dûr de birêvebirin"
-#~ msgid "Whether the warning dialog should be shown or not"
-#~ msgstr "Nîşandan û nenîşandana paceya hişyariyan"
-#~ msgid "Automatic service discovery"
-#~ msgstr "Xizmeta kifşê ya bixweber"
-#~ msgid "Apply location as the current configuration"
-#~ msgstr "Hêlkirinê wekî mîhenga heyî bixebitîne"
-#~ msgid "Default _gateway device:"
-#~ msgstr "Cîhaza derbasoka_toreyê ya pêşdanasînî:"
-#~ msgid ""
-#~ "Scan for available services and advertise local services on the "
-#~ "network. \n"
-#~ "This is a potential security risk"
-#~ msgstr ""
-#~ "Venihêrtina ji bo xizmetên derbasbar û xizmetên reklama herêmî yên "
-#~ "torê. \n"
-#~ "Ev rîskeke ewlekariyê ya veşartî ye"
-#~ msgid "Synchronize _Now"
-#~ msgstr "Wekheviya demê_niha"
-#~ msgid "Synchronize only once with Internet servers:"
-#~ msgstr "Wekhevkirina demê bi pêşkêşkerên internetê re tenê carekê:"
-#~ msgid "_Select Time Zone..."
-#~ msgstr "_Perçeyê demê hilbijêrî..."
-#~ msgid "Activating network interface"
-#~ msgstr "Dirûvê navîn yê toreyê tê çalakkirin"
-#~ msgid "_Activate"
-#~ msgstr "Çala_k bike"
-#~ msgid "_Deactivate"
-#~ msgstr "_Neçalak bike"
-#~ msgid "Networking"
-#~ msgstr "Tor"
-#~ msgid "Enter your password to enable the automatic service discovery."
-#~ msgstr "Ji bo çalakirina xizmeta kifşê ya bixweber şîfreya xwe binvîse."
-#~ msgid "Enter your password to disable the automatic service discovery."
-#~ msgstr "Ji bo astengkirina xizmeta kifşê ya bixweber şîfreya xwe binvîse."
-#~ msgid "Hosts in the %s network"
-#~ msgstr "Makîneyên ku di toreya %s de ye"
-#~ msgid "Install services"
-#~ msgstr "Xizmetan sazbike"
-#~ msgid "Install Unix networks support (_NFS)"
-#~ msgstr "Qadê xebatên Unix yên li gor (_NFS) saz bike"
-#~ msgid "Install Windows networks support (_SMB)"
-#~ msgstr "Qadê xebatên Windows ên li gor (_SMB) saz bike"
-#~ msgid "Install NTP support"
-#~ msgstr "NTP daxe"
-#~ msgid "Allow use of fuse filesystems like LTSP Thin Client blockdevices"
-#~ msgstr "Helîna Dosyayên pergalê yên mîna LTSP çalak bike"
-#~ msgid "User name of the administrator account should not be modified"
-#~ msgstr "Divê navê bikarhênerê hesabê gerînende neyê guhertin"
-#~ msgid "User ID of the administrator account should not be modified"
-#~ msgstr "Divê IDa bikarhênerê hesabê gerînende neyê guhertin"
-#~ msgid "Password should not be empty"
-#~ msgstr "Çênabê şîfre vala were hiştin"
-#~ msgid "A password must be provided."
-#~ msgstr "Şifre pêwiste"
-#~ msgid "Password confirmation isn't correct"
-#~ msgstr "Rastderxistina şîfreyan ne rast e"
-#~ msgid "Security"
-#~ msgstr "Ewlekarî"
-#~ msgid ""
-#~ "Several bootloaders have been "
-#~ "found\n"
-#~ "\n"
-#~ "please select which do you want to configure"
-#~ msgstr ""
-#~ "Di pergalê de zêde pêşbarker hate "
-#~ "dîtin\n"
-#~ "Ji kerema xwe tu dixwazî kîjanê veava bike wê hilbijêre"
-#~ msgid "Image Settings"
-#~ msgstr "Mîhengên Nîşandana Dosyeyan"
-#~ msgid "Other Settings"
-#~ msgstr "Mîhengên Din"
-#~ msgid "Starting the Computer"
-#~ msgstr "Destpêkirina Kompîturê"
-#~ msgid "Ask at boot"
-#~ msgstr "Dema pêşbarkirinê de sewal bike"
-#~ msgid "Boot Manager Settings"
-#~ msgstr "Mîhengên Rêveberiyê yên Pêşbarkirinê"
-#~ msgid ""
-#~ "Choose a kernel image to boot, and a partition to mount as the root "
-#~ "partition. Optionally, you may also enter parameters passed to the kernel "
-#~ "at boot time."
-#~ msgstr ""
-#~ "Xuyaniya dosyeyan a kakil ya wê di destpêkirinê de were bikaranîn û beşa "
-#~ "ku wê weke makepêrist lê were girêdan hilbijêre. Li gorî kêfa xwe tu "
-#~ "dikarî dema pêşbarkirinê de parametreyan li kakilê zêde bike."
-#~ msgid "Click \"Forward\" to continue"
-#~ msgstr "Ji bo berdewamkirinê \"Pêş\" bitikînin"
-#~ msgid "Confirmation"
-#~ msgstr "Erêkirin"
-#~ msgid "Creating a new boot image"
-#~ msgstr "Xuyanîbûn dosyeyan ya pêşbarkiriinê yeka nû tê çêkirin"
-#~ msgid "Don't ask me again"
-#~ msgstr "Careke din sewal neke"
-#~ msgid "Enable IDE SCSI emulation"
-#~ msgstr "Teqlîda IDE SCSI çalak bike"
-#~ msgid ""
-#~ "Enter a name for the boot image, and specify what kind of operating "
-#~ "system it is."
-#~ msgstr ""
-#~ "Ji bo pêşbarkirina xuyanîbûna dosyayê navekî binivîsîne. Û diyar bike bê "
-#~ "ka pergaleke xebatê ya çawa ye."
-#~ msgid "Finished"
-#~ msgstr "Qediya"
-#~ msgid "Number of colors:"
-#~ msgstr "Hejmara rengan:"
-#~ msgid "Other parameters:"
-#~ msgstr "Parametreyên din:"
-#~ msgid "Password"
-#~ msgstr "Şîfre"
-#~ msgid "Protect with password"
-#~ msgstr "Bi şîfreyê biparêze"
-
-#, fuzzy
-#~ msgid "Resolution:"
-#~ msgstr "Bişaftinî:"
-#~ msgid "Seconds to wait before loading default kernel or OS"
-#~ msgstr ""
-#~ "Berî ku kakila pêşdanasînî an jî pergala xebatê were barkirin (di yekeya "
-#~ "çirkan de) maweyêa rawestandinê"
-#~ msgid "Select a kernel image"
-#~ msgstr "Xuyanîbûna dosyeyan ya kakilî hilbijêrin"
-#~ msgid "Select an initrd image"
-#~ msgstr "Nîşandana dosyeyan ya initrd hilbijêre"
-#~ msgid "Specify the partition on which the operating system is installed."
-#~ msgstr "Beşa dîskê ya pergala xebatê lê hatiye barkirin hilbijêre."
-#~ msgid ""
-#~ "The new boot image has been added. Please click \"Apply\" to save your "
-#~ "changes."
-#~ msgstr ""
-#~ "Pêşbarkirina xuyanîbûna dosyeyê hate barkirin. Ji bo tomarkirina "
-#~ "guherînan pêl bişkoka \"Bisepîne\" bike."
-#~ msgid ""
-#~ "This assistant is designed to help you quickly and easily add a new boot "
-#~ "image to your system."
-#~ msgstr ""
-#~ "Ev alîker, ji bo ku tu karibe xuyanîbûna dosyeyan yên pêşbarkirinî him "
-#~ "lez û him jî hêsan lê zêde bike hatiye sêwirandin."
-#~ msgid "Video modes (only frame buffer)"
-#~ msgstr "Modên dîmenana (tenê çarçove û tampona wê)"
-#~ msgid "_Add..."
-#~ msgstr "_Zêde bike..."
-#~ msgid "_Device:"
-#~ msgstr "_Amûr:"
-#~ msgid "_Edit"
-#~ msgstr "_Biguherîne"
-#~ msgid "_Initrd image path:"
-#~ msgstr "_Riya daxuyaniya dosyeya Initrd:"
-#~ msgid "_Kernel image path:"
-#~ msgstr "Riya xuyanîbûna dosyeyan ya_kakilî:"
-#~ msgid "_Name:"
-#~ msgstr "_Nav:"
-#~ msgid "_Operating system:"
-#~ msgstr "Pergala _xebitandine:"
-#~ msgid "_Parameters:"
-#~ msgstr "_Parametre:"
-#~ msgid "_Root file system device:"
-#~ msgstr "Cîhaza pergala dosyeyên_root(kok)"
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">The platform you are running is not "
-#~ "supported by this tool"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Nêvenga ku tu lê dixebite ji aliyê "
-#~ "vê amûrê nayê destekirin"
-#~ msgid "Remote administration"
-#~ msgstr "Ji dûrve kontrol kirin"
-#~ msgid "Run _Without Password"
-#~ msgstr "Bê _Şîfreyê Bimeşîne"
-#~ msgid "Unsupported Platform"
-#~ msgstr "Nêvenga ku nayê destekirin"
-#~ msgid "Use this window to select the computer you wish to configure"
-#~ msgstr "Kompîtura ku tu dixwazî veava bike vê paceyê bikar bîne."
-#~ msgid "Connection"
-#~ msgstr "Girêdan"
-#~ msgid "Device:"
-#~ msgstr "Amûr:"
-#~ msgid "Key _type:"
-#~ msgstr "_Cureyê mifteyê:"
-#~ msgid "Location name:"
-#~ msgstr "Navê cihê:"
-#~ msgid "Select location name"
-#~ msgstr "Navê bicihbûnê hilbijêrin"
-#~ msgid "WEP _key:"
-#~ msgstr "_Mifteya WEPê."
-#~ msgid "_Hostname:"
-#~ msgstr "_Navê Makîneyê:"
-#~ msgid "Allowed hosts"
-#~ msgstr "Makîneyên destûr ji wan re heye"
-#~ msgid "Hosts settings"
-#~ msgstr "Mîhengên makîneyê"
-#~ msgid "Share properties"
-#~ msgstr "Taybetmendiyên parvekirinêi"
-#~ msgid "Shared folder"
-#~ msgstr "Peldanka ku tê parvekirin"
-#~ msgid "WINS server"
-#~ msgstr "Pêşkêşkerê WINSê"
-#~ msgid "Windows sharing Settings"
-#~ msgstr "Mîhengên Parvekirinê Yên Wîndowsê"
-#~ msgid "Allow _browsing folder"
-#~ msgstr "Destûrê bide çavlêgerandina peldankan"
-#~ msgid "Do not use WINS server"
-#~ msgstr "Pêşkêşkera WINSê bikar nîne"
-#~ msgid "Domain / _Workgroup"
-#~ msgstr "Navê Qadê / Koma_xebatê"
-#~ msgid "General Windows sharing settings"
-#~ msgstr "Mîhengên parvekirina Windowsê yên giştî"
-#~ msgid "Share folder"
-#~ msgstr "Peldankê par ve bike"
-#~ msgid "Share with:"
-#~ msgstr "Bi hev re par ve bike"
-#~ msgid "This computer is a WINS server"
-#~ msgstr "Ev kompîtur pêşkêşkereke WINSê ye"
-#~ msgid "Use WINS Server"
-#~ msgstr "Pêşkêşkerê WINSê bikar bîne"
-#~ msgid "Windows sharing settings"
-#~ msgstr "Mîhengên parvekirinê yên Windowsê"
-#~ msgid "_Add host"
-#~ msgstr "_Makîneyekê lê zêde bike"
-#~ msgid "_Host description:"
-#~ msgstr "_Danasîna makîneyê:"
-#~ msgid "Se_lect Servers..."
-#~ msgstr "Pêşkêşkeran Hil_bijêrî..."
-#~ msgid "User Profile"
-#~ msgstr "Profîla Bikarhêner"
-#~ msgid "Group _members:"
-#~ msgstr "_Endamên Komê:"
-#~ msgid "Groups"
-#~ msgstr "Kom"
-#~ msgid "Show a_ll users and groups"
-#~ msgstr "Hemû bikarhêner û koman nîşan bide"
-#~ msgid "User _ID:"
-#~ msgstr "_IDa bikarhêneran:"
-#~ msgid "User privileges"
-#~ msgstr "Îmtiyazên bikarhêner"
-#~ msgid "Users"
-#~ msgstr "Bikarhêner"
-#~ msgid "_Add Group..."
-#~ msgstr "_Komekê Lê Zêde Bike..."
-#~ msgid "_Add Profile..."
-#~ msgstr "_Profîlekê Lê Zêde Bike..."
-#~ msgid "_Add User..."
-#~ msgstr "Bikarhênerekî Lê Zêde Bike..."
-#~ msgid "_All users:"
-#~ msgstr "_Hemû Bikarhêner:"
-#~ msgid "_Edit User Profiles..."
-#~ msgstr "Profîla Bikarhêneran Sere_rast bike..."
-#~ msgid "32,768"
-#~ msgstr "32,768"
-#~ msgid "65,536"
-#~ msgstr "65,536"
-#~ msgid "16,777,216"
-#~ msgstr "16,777,216"
-#~ msgid "Invalid VGA value"
-#~ msgstr "Nirxê nederbasdar ya VGA"
-#~ msgid "\"%s\" is not a valid VGA value."
-#~ msgstr "\"%s\" ne nirxeke derbasdar ya VGAyê ye."
-#~ msgid "Error creating boot image"
-#~ msgstr "Dema pêşbarker dosye dida xuyanî çewtî çêbû"
-#~ msgid "Creating a new boot image (%d of %d)"
-#~ msgstr "Pêşbarkereke nû xuyanîbûna dosyeyekê diafirîne (%d / %d)"
-#~ msgid "Finished creating a new boot image"
-#~ msgstr "Karê afirandina xuyanîbûna dosyeyê ya pêşbarkerê temam bû"
-#~ msgid "Unknown"
-#~ msgstr "Nenas"
-#~ msgid "Windows NT"
-#~ msgstr "Windows NT"
-#~ msgid "Windows 9x"
-#~ msgstr "Windows 9x"
-#~ msgid "Dos"
-#~ msgstr "Dos"
-#~ msgid "Linux"
-#~ msgstr "Linux"
-#~ msgid "Linux swap"
-#~ msgstr "Linux Pevguherîn"
-#~ msgid "GNU/Hurd"
-#~ msgstr "GNU/Hurd"
-#~ msgid "\"%s\" is an invalid path"
-#~ msgstr "\"%s\"  ne riyeke derbasdar e"
-#~ msgid "\"%s\" already exists, please set another name."
-#~ msgstr "\"%s\"  jixwe heye, ji kerema xwe navekî din lê bikin."
-#~ msgid "Invalid image name: \"%s\"."
-#~ msgstr "Navê xuyanîbûna dosyeyan ya nederbasdar: \"%s\"."
-#~ msgid "Invalid image: \"%s\"."
-#~ msgstr "Xuyanîbûna dosyeyê ya nederbasdar: \"%s\"."
-#~ msgid "Invalid root device: \"%s\"."
-#~ msgstr "Cîhaza kokê ya nederbasdar: \"%s\"."
-#~ msgid "_Module path:"
-#~ msgstr "Riya_modulê:"
-#~ msgid "Error modifying boot image"
-#~ msgstr "Dema xuyanîbûna dosyeyan ya pêşbarkirinî dihate guherîn çewtî çêbû"
-#~ msgid "Boot"
-#~ msgstr "Destpêkirin"
-#~ msgid "Configure the system boot process"
-#~ msgstr "Pêvajoya pêşbarkirinê ya pergalê veava bike"
-#~ msgid "Boot Image Editor"
-#~ msgstr "Sererastkerê Xuyanîbûna Dosyeyê Ya Pêşbarkirinî"
-#~ msgid "Boot Append Editor"
-#~ msgstr "Sererastkerê Lêzêdekirina Pêşbarkirinê"
-#~ msgid "Error deleting boot image"
-#~ msgstr "Dema xuyanîbûna dosyeyan ya pêşbarkirinê jê dihate birin çewtî çêbû"
-#~ msgid "Without at least one boot image your computer will not start."
-#~ msgstr ""
-#~ "Heta ku xuyanîbûna dosyeyan ya pêşbarkirinê tunebe kompîtura te nayê "
-#~ "destpêkirin."
-#~ msgid "Are you sure you want to delete \"%s\"?"
-#~ msgstr "Wê \"%s\" were jêbirin, tu bawer î?"
-#~ msgid "This may leave this operating system unbootable."
-#~ msgstr "Piştî vê encamê dibe ku pergala te ya xebatê careke din venebe."
-#~ msgid "The configuration will show empty"
-#~ msgstr "Wê veavakirin vala xuya bibe"
-#~ msgid "The file \"%s\" is missing or could not be read."
-#~ msgstr "Dosyeya \"%s\"  yan winda ye yan jî nayê xwendin."
-#~ msgid "Default"
-#~ msgstr "Têkçûn"
-#~ msgid "Type"
-#~ msgstr "Cure"
-#~ msgid "Kernel Image"
-#~ msgstr "Xuyanîbûna Dosyeyên Kakil"
-#~ msgid "Device"
-#~ msgstr "Amûr"
-#~ msgid "The tool could not connect to the computer"
-#~ msgstr "Amûr li kompîturê nehate girêdan"
-#~ msgid "The entered password is invalid"
-#~ msgstr "Şîfreya ku te nivîsand ne derdasdar e"
-#~ msgid ""
-#~ "Check that you typed it correctly and that you haven't activated the "
-#~ "\"caps lock\" key"
-#~ msgstr ""
-#~ "Kontrol bike te pêl bişkoka \"Caps-Lock\" nekiriye û te rast nivîsandiye"
-#~ msgid "Could not run \"%s\""
-#~ msgstr "Destpêkirina \"%s\" bi ser neket"
-#~ msgid "Check that you have permissions to run this command"
-#~ msgstr ""
-#~ "Jo bo xebitandina vê fermanê kontrol bike bê ka rayedariya te bi kêr tê "
-#~ "yan na"
-#~ msgid "An unexpected error has occurred"
-#~ msgstr "Çewtiyeke ku tu kes  ne li bendê bû çêbû"
-#~ msgid "Could not execute the backend"
-#~ msgstr "Sepana rûerd (plana paş) nehate xebitandin"
-#~ msgid ""
-#~ "There was an error creating the child process, the tool will close now."
-#~ msgstr ""
-#~ "Dema pêvajoya jêr dihate afirandin çewtî çêbû, wê ev amûr were girtin."
-#~ msgid "Could not find widget: %s"
-#~ msgstr "Perçe nehate dîn: %s"
-#~ msgid "There are changes which have not been applied"
-#~ msgstr "Hîna hin guherînên ku nehatine sepandin heye"
-#~ msgid "Apply them now?"
-#~ msgstr "Bila a niha werine sepandin?"
-#~ msgid "Error connection signal `%s' in widget `%s'"
-#~ msgstr "Nîşana çewtiya girêdanê `%s' di perçe de`%s'"
-#~ msgid "There was an error running the backend script"
-#~ msgstr "Çewtî di xebitandina nivîsa sepana paşîn de hebû."
-#~ msgid "Welcome to the %s prerelease of the MATE System Tools"
-#~ msgstr "Tu bixêr hatî pêşguhertoya %s ya Amûrên Pergalê Yên MATEyê"
-#~ msgid ""
-#~ "This is still a work in progress, and so it may have serious bugs. Due to "
-#~ "the nature of these tools, bugs may render your computer <span weight="
-#~ "\"bold\">practically useless, costing time, effort and sanity "
-#~ "points. You have been warned. Thank you for trying out this prerelease of "
-#~ "the MATE System Tools!"
-#~ msgstr ""
-#~ "Ev, xebateke pêş de diçe ye, ji ber vê jî dibe ku çewtiyên wê yên girîng "
-#~ "hebe. Ji ber hebûna van amûran, çewtî; dikin  ku tu careke din kompîtura "
-#~ "xwe nikaribe bikar bîne û dibe sedema li erdê "
-#~ "teqîna ked û dema we.Tu hate hişyarkirin. Spas ji bo ku te ev "
-#~ "pêşguhertoya Amûrên Pergalê Yên MATEyê ceriband!"
-#~ msgid "Warning"
-#~ msgstr "Hişyarî"
-#~ msgid "Don't show me this again"
-#~ msgstr "Careke din nede xuyanî"
-#~ msgid "Could not enable the interface %s"
-#~ msgstr "Dirûvê navberê yê %s nayê çalakirin"
-#~ msgid ""
-#~ "Check that the settings are correct for this network and that the "
-#~ "computer is correctly connected to it."
-#~ msgstr ""
-#~ "Kontrol bikin bê ka mîhengên we û ev tore li hev dikin yan na û bê ka "
-#~ "kompîtura we rast hatiye girêdan yan na."
-#~ msgid "Create location"
-#~ msgstr "Bicihbûnekê pêk bîne"
-#~ msgid "Do you want to remove this location?"
-#~ msgstr "Tu dixwazî vê bicihbûnê rake?"
-#~ msgid "Changing profile"
-#~ msgstr "Profîl tê guherandin"
-#~ msgid "Network settings"
-#~ msgstr "Mîhengên torê"
-#~ msgid "Ethernet connection"
-#~ msgstr "Girêdana înternetê"
-#~ msgid "Activating interface \"%s\""
-#~ msgstr "Dirûvê navberê yê \"%s\" tê çalakirin"
-#~ msgid "The interface %s is not configured"
-#~ msgstr "Dirûvê navberê yê \"%s\" nehatiye veavakirin"
-#~ msgid "The interface %s is not active"
-#~ msgstr "Dirûvê navberê yê \"%s\" ne çalak e"
-#~ msgid "The interface %s is active"
-#~ msgstr "Dirûvê navberê yê \"%s\" çalak e"
-#~ msgid "Settings for \"%s\""
-#~ msgstr "Ji bo %s mîheng"
-#~ msgid "Are you sure you want to deactivate this service?"
-#~ msgstr "Tu dixwazî bila çalakiya vê servîsê jê were rakirin?"
-#~ msgid ""
-#~ "This may affect your system behavior in several ways, possibly leading to "
-#~ "data loss"
-#~ msgstr ""
-#~ "Ev, dikare tevgera pergala te bandor bike û bibe sedema windabûna daneyan."
-#~ msgid "File sharing service"
-#~ msgstr "Xizmeta parvekirina dosyeyan"
-#~ msgid "Shared folders settings"
-#~ msgstr "Mîhengên peldanka ku tê parvekirin"
-#~ msgid "SMB"
-#~ msgstr "SMB"
-#~ msgid "NFS"
-#~ msgstr "NFS"
-#~ msgid ""
-#~ "You need to install at least either Samba or NFS in order to share your "
-#~ "folders. The tool will close now."
-#~ msgstr ""
-#~ "Ji bo ku tu karibî peldankên xwe par ve bike qet nebe divê tu Samba an jî "
-#~ "NFSê saz bike. Amûr wê a niha were girtin."
-#~ msgid "Error saving profile"
-#~ msgstr "Dema profîl tomar dikir çewtî çêbû"
-#~ msgid "Create New profile"
-#~ msgstr "Profîleke Nû Çêbike"
-#~ msgid "Settings for profile %s"
-#~ msgstr "Ji bo profîla %s mîheng"
-#~ msgid "Create New Group"
-#~ msgstr "Komeka Nû Biafirîne"
-#~ msgid "Invalid group ID"
-#~ msgstr "Nimreya koman ya nederbasdar"
-#~ msgid "Group ID must be a positive number"
-#~ msgstr "Koma ID divê hejmareke pozîtîf be"
-#~ msgid "Group ID of the \"root\" user should not be modified"
-#~ msgstr "Divê IDa komê ya bikarhênerê \"root\" neyê guherandin."
-#~ msgid "This would leave the system unusable"
-#~ msgstr "Ev kar, pergalê dixe navbera xelîl û celîl"
-#~ msgid "Group ID %s already exists"
-#~ msgstr "IDa koman ya %s jixwe ji berê de heye"
-#~ msgid "A group name must be specified"
-#~ msgstr "Divê navê kome were diyarkirin"
-#~ msgid "The group name is too long"
-#~ msgstr "Navê komê pir dirêj e"
-#~ msgid "Please set a valid group name, using only lower case letters"
-#~ msgstr ""
-#~ "Ji kerema xwe re tenê tîpên hûrdek bikar bîne û navê komeke derbasdar "
-#~ "tayîn bike."
-#~ msgid "Please select a different group name"
-#~ msgstr "Ji kerema xwe navên koman yekî cihê hilbijêre"
-#~ msgid "Group name of the \"root\" user should not be modified"
-#~ msgstr "Divê navê koma bikarhênerê \"root\" neyê guherandin"
-#~ msgid "The group \"root\" should not be deleted"
-#~ msgstr "koma \"root(kok)\" divê neyê jêbirin"
-#~ msgid "Settings for Group %s"
-#~ msgstr "Ji bo Koma %s Mîheng"
-#~ msgid "Group"
-#~ msgstr "Kom"
-#~ msgid "GID"
-#~ msgstr "GID"
-#~ msgid "User name contains"
-#~ msgstr "Yên di hundirê navê bikarhêner de derbas dibe"
-#~ msgid "User ID is"
-#~ msgstr "IDa bikarhêner"
-#~ msgid "Group name contains"
-#~ msgstr "Yên ku di hundirê navê komê de derbas dibe"
-#~ msgid "User GID is"
-#~ msgstr "Nimreya komê (GID) ya bikarhêner"
-#~ msgid "Passwords do not match"
-#~ msgstr "Şîfre ne wekhev in"
-#~ msgid ""
-#~ "Bad password: %s.\n"
-#~ "Please try with a new password"
-#~ msgstr ""
-#~ "Şîfreya nederbasdar: %s\n"
-#~ "Ji kerema xwe şîfreyeke din biceribîne"
-#~ msgid "The profile must have a name"
-#~ msgstr "Divê navê profîlê hebe"
-#~ msgid "The profile must have a default home"
-#~ msgstr ""
-#~ "Pêwist e ku pêristeke destpêkirinê ya pêşdanasînî ya profîla te hebe"
-#~ msgid "The profile must have a default shell"
-#~ msgstr "Pêwist e qalikekî pêşdanasînî ya profîla te hebe"
-#~ msgid "The default profile should not be deleted"
-#~ msgstr "Divê profîla pêşdanasînî jê neyê birin"
-#~ msgid "This profile is used for setting default data for new users"
-#~ msgstr ""
-#~ "Ji bo bikarhênerên nû ji bo mîhengkirina daneyên pêşdanasînî were kirin "
-#~ "profîla ku divê were bikaranîn"
-#~ msgid "Delete profile \"%s\"?"
-#~ msgstr "Bila profîla \"%s\" were jêbirin?"
-#~ msgid ""
-#~ "You will not be able to recover this profile after pressing \"apply\"."
-#~ msgstr ""
-#~ "Tu pêl bişkoka \"Bisepîne\" bike êdî tu yê nikaribe vegerî profîla xwe ya "
-#~ "berê."
-
-#, fuzzy
-#~ msgid "Profile"
-#~ msgstr "Profîl"
-#~ msgid "Comment"
-#~ msgstr "Şîrove"
-#~ msgid "C_lear"
-#~ msgstr "_Jê bibe"
-#~ msgid "Choice"
-#~ msgstr "Hilbijartin"
-#~ msgid "Text"
-#~ msgstr "Nivîs"
-#~ msgid "The \"root\" user should not be deleted"
-#~ msgstr "Divê bikarhênerê \"root (kok) jê neyê birin"
-#~ msgid "Are you sure you want to delete user \"%s\"?"
-#~ msgstr "Tu bawer î ku bikarhênerê \"%s\" jê bibe?"
-#~ msgid "User Account Editor"
-#~ msgstr "Sererastkerê Hesabê Bikarhêner"
-#~ msgid "The user name is empty"
-#~ msgstr "Navê bikarhêner vala ye"
-#~ msgid "The user name is too long"
-#~ msgstr "Navê bikarhêner pir dirêj e"
-#~ msgid "User name for the \"root\" user should not be modified"
-#~ msgstr "Divê navê bikarhênerê, bikarhênerê \"root\" neyê guherandin."
-#~ msgid "Home directory should not be empty"
-#~ msgstr "Divê pêrista destpêkirinê ne vala be"
-#~ msgid "Make sure you provide a home directory."
-#~ msgstr "Bi xwe bawer bî ku, te pêristeke destpêkirinê diyar kiriye."
-#~ msgid "Home directory of the \"root\" user should not be modified"
-#~ msgstr "Divê pêrista destpêkê ya bikarhênerê \"root\" neyê guherandin"
-#~ msgid "Invalid user ID"
-#~ msgstr "IDa bikarhêner ya nederbasdar"
-#~ msgid "User ID must be a positive number."
-#~ msgstr "Divê IDa bikarhêner hejmareke pozîtîf be."
-#~ msgid "User ID of the \"root\" user should not be modified"
-#~ msgstr "Divê IDa bikarhêneriyê ya bikarhênerê \"root\" neyê guherandin."
-#~ msgid "User ID %s already exists"
-#~ msgstr "IDa bikarhêner ya %s jixwe ji berê de heye"
-#~ msgid ""
-#~ "Several users may share a single user ID, but it's not common and may "
-#~ "lead to security problems."
-#~ msgstr ""
-#~ "Dibe ku gelek bikarhêner heman IDa bikarhêneriyê bikar bîne, lê ev "
-#~ "nehatiye belavkirin û dibe ku bibe sedema pirsgirêkên ewlekariyê jî."
-#~ msgid ""
-#~ "Please enter full path for shell\n"
-#~ "i.e.: /bin/sh."
-#~ msgstr ""
-#~ "Ji kerema xwe ji qalikan riya rast binivîsîne\n"
-#~ "mînak.: /bin/sh."
-#~ msgid "Settings for User %s"
-#~ msgstr "Ji bo bikarhênerê %s Mîheng"
-#~ msgid "User"
-#~ msgstr "Bikarhêner"
-#~ msgid "Home"
-#~ msgstr "Mal"
-#~ msgid "User details"
-#~ msgstr "Kitekitên bikarhêneran"
-#~ msgid "UID"
-#~ msgstr "UID"
-#~ msgid "Shell"
-#~ msgstr "Qalik"
-
+#: ../src/users/users-tool.c:288
+msgid "Users Settings"
+msgstr ""

@@ -1,754 +1,750 @@
-# Slovenian translation for mate-system-tools.
-# Copyright (C) 2006 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-system-tools package.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Matic Žgur <mr.zgur@gmail.com>, 2006.
-# Matej Urbančič <mateju@svn.mate.org>, 2007 - 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-system-tools&component=general\n"
-"POT-Creation-Date: 2010-08-24 02:35+0000\n"
-"PO-Revision-Date: 2010-08-25 08:43+0100\n"
-"Last-Translator: Matej Urbančič <mateju@svn.mate.org>\n"
-"Language-Team: Slovenian MATE Translation Team <mate-si@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:53+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Slovenian (http://www.transifex.com/projects/p/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
-"X-Poedit-Country: SLOVENIA\n"
-"X-Poedit-Language: Slovenian\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)\n"
 
 #: ../interfaces/network.ui.h:1
-#: ../src/network/ifaces-list.c:326
-msgid "Access point name:"
-msgstr "Ime dostopne točke:"
+msgid "Off"
+msgstr "Izključeno"
 
 #: ../interfaces/network.ui.h:2
-msgid "Account data"
-msgstr "Podatki računa"
+msgid "Low"
+msgstr "Nizko"
 
 #: ../interfaces/network.ui.h:3
-msgid "Aliases:"
-msgstr "Vzdevki:"
+msgid "Medium"
+msgstr "Srednje"
 
 #: ../interfaces/network.ui.h:4
-msgid "Con_figuration:"
-msgstr "_Nastavitve:"
+msgid "Loud"
+msgstr "Glasno"
 
 #: ../interfaces/network.ui.h:5
-msgid "Connection Settings"
-msgstr "Nastavitve povezave"
+msgid "Tones"
+msgstr "Tonsko"
 
 #: ../interfaces/network.ui.h:6
-msgid "Connection type:"
-msgstr "Vrsta povezave:"
+msgid "Pulses"
+msgstr "Pulzno"
 
 #: ../interfaces/network.ui.h:7
-msgid "Connections"
-msgstr "Povezave"
+msgid "Plain (ASCII)"
+msgstr "Besedilno (ASCII)"
 
 #: ../interfaces/network.ui.h:8
-msgid "DNS"
-msgstr "DNS"
+msgid "Hexadecimal"
+msgstr "Šestnajstiško"
 
 #: ../interfaces/network.ui.h:9
-msgid "DNS Servers"
-msgstr "Strežniki DNS"
+msgid "Location:"
+msgstr "Mesto:"
 
 #: ../interfaces/network.ui.h:10
-msgid "D_omain name:"
-msgstr "_Ime domene:"
+msgid "Save current network configuration as a location"
+msgstr "Shrani trenutno nastavitev omrežja kot mesto"
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
 msgstr "Izbriši trenutno mesto"
 
 #: ../interfaces/network.ui.h:12
-msgid "E_nable roaming mode"
-msgstr "_Omogoči prehajajoči način"
+msgid "Connections"
+msgstr "Povezave"
 
 #: ../interfaces/network.ui.h:13
-msgid "E_nable this connection"
-msgstr "_Omogoči povezavo"
+msgid "_Host name:"
+msgstr "_Ime gostitelja:"
 
 #: ../interfaces/network.ui.h:14
-#: ../src/network/ifaces-list.c:335
-msgid "Ethernet interface:"
-msgstr "Vmesnik eternet:"
+msgid "D_omain name:"
+msgstr "_Ime domene:"
 
 #: ../interfaces/network.ui.h:15
-#: ../interfaces/users.ui.h:27
-msgid "General"
-msgstr "Splošno"
-
-#: ../interfaces/network.ui.h:16
-msgid "Hexadecimal"
-msgstr "Šestnajstiško"
-
-#: ../interfaces/network.ui.h:17
-msgid "Host Alias Properties"
-msgstr "Lastnosti imena gostitelja"
-
-#: ../interfaces/network.ui.h:18
 msgid "Host Settings"
 msgstr "Nastavitve gostitelja"
 
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Splošno"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "Strežniki DNS"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "Iskalne domene"
+
 #: ../interfaces/network.ui.h:19
-msgid "Hosts"
-msgstr "Gostitelji"
+msgid "DNS"
+msgstr "DNS"
 
 #: ../interfaces/network.ui.h:20
-#: ../interfaces/shares.ui.h:11
-msgid "IP address:"
-msgstr "IP naslov:"
+msgid "Hosts"
+msgstr "Gostitelji"
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
 msgstr "Lastnosti vmesnika"
 
 #: ../interfaces/network.ui.h:22
-msgid "Internet service provider data"
-msgstr "Podatki ponudnika internetnih storitev"
+msgid "E_nable this connection"
+msgstr "_Omogoči povezavo"
 
 #: ../interfaces/network.ui.h:23
-msgid "Location:"
-msgstr "Mesto:"
+msgid "E_nable roaming mode"
+msgstr "_Omogoči prehajajoči način"
 
 #: ../interfaces/network.ui.h:24
-msgid "Loud"
-msgstr "Glasno"
+msgid "Connection type:"
+msgstr "Vrsta povezave:"
 
 #: ../interfaces/network.ui.h:25
-msgid "Low"
-msgstr "Nizko"
-
-#: ../interfaces/network.ui.h:26
-msgid "Medium"
-msgstr "Srednje"
-
-#: ../interfaces/network.ui.h:27
-msgid "Modem"
-msgstr "Modem"
-
-#: ../interfaces/network.ui.h:28
-msgid "Modem Settings"
-msgstr "Nastavitve modema"
-
-#: ../interfaces/network.ui.h:29
-msgid "Network _password:"
-msgstr "Omrežno _geslo:"
-
-#: ../interfaces/network.ui.h:30
 msgid "Network name (_ESSID):"
 msgstr "Omrežno ime (_ESSID):"
 
-#: ../interfaces/network.ui.h:31
-msgid "Off"
-msgstr "Izključeno"
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "Omrežno _geslo:"
 
-#: ../interfaces/network.ui.h:32
-msgid "Options"
-msgstr "Možnosti"
-
-#: ../interfaces/network.ui.h:33
-msgid "P_assword"
-msgstr "_Geslo"
-
-#: ../interfaces/network.ui.h:34
+#: ../interfaces/network.ui.h:27
 msgid "Password _type:"
 msgstr "_Vrsta gesla:"
 
-#: ../interfaces/network.ui.h:35
-msgid "Plain (ASCII)"
-msgstr "Besedilno (ASCII)"
-
-#: ../interfaces/network.ui.h:36
-msgid "Pulses"
-msgstr "Pulzno"
-
-#: ../interfaces/network.ui.h:37
-msgid "Save current network configuration as a location"
-msgstr "Shrani trenutno nastavitev omrežja kot mesto"
-
-#: ../interfaces/network.ui.h:38
-msgid "Search Domains"
-msgstr "Iskalne domene"
-
-#: ../interfaces/network.ui.h:39
-msgid "Tones"
-msgstr "Tonsko"
-
-#: ../interfaces/network.ui.h:40
-msgid "Use the Internet service provider nameservers"
-msgstr "Uporabi imenski strežnik ponudnika internetnih storitev"
-
-#: ../interfaces/network.ui.h:41
+#: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
 msgstr "Nastavitev brezžične povezave"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "_Samodejna zaznava"
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "_Nastavitve:"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_IP naslov:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "_Maska Podomrežja:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "_Naslov prehoda"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "Nastavitve povezave"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "_Krajevni IP:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "_Oddaljeni IP:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "_Telefonska številka:"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "_Predpona klicanja:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "Ime dostopne točke:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "Podatki ponudnika internetnih storitev"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "__Uporabniško ime:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "_Geslo"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "Podatki računa"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "_Vrata modema:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "Vrsta _klica:"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "_Naslov prehoda"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "_Ime gostitelja:"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "_IP naslov:"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "_Krajevni IP:"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "_Vrata modema:"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "_Telefonska številka:"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "_Oddaljeni IP:"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "_Ponovno poskusi vzpostaviti povezavo po napaki"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "_Določi modem kot privzeto pot do spleta"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "_Maska Podomrežja:"
-
-#: ../interfaces/network.ui.h:55
-#: ../interfaces/users.ui.h:82
-msgid "_Username:"
-msgstr "__Uporabniško ime:"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "_Glasnost:"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "Napredne nastavitve:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "_Samodejna zaznava"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "Vmesnik eternet:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "Nastavitve modema"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "Modem"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "_Določi modem kot privzeto pot do spleta"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "Uporabi imenski strežnik ponudnika internetnih storitev"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "_Ponovno poskusi vzpostaviti povezavo po napaki"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "Možnosti"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "Lastnosti imena gostitelja"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP naslov:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "Vzdevki:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "Izbor storitve, ki jo želite zagnati:"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "Napredne nastavitve:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Add allowed hosts"
-msgstr "Dodaj dovoljene gostitelje"
+msgid "_Path:"
+msgstr "_Pot:"
 
 #: ../interfaces/shares.ui.h:2
-msgid "Allowed Hosts"
-msgstr "Dovoljeni gostitelji"
+msgid "Share through:"
+msgstr "Souporaba preko:"
 
 #: ../interfaces/shares.ui.h:3
-msgid "Allowed hosts:"
-msgstr "Dovoljeni gostitelji:"
+msgid "Shared Folder"
+msgstr "Mape v souporabi"
 
 #: ../interfaces/shares.ui.h:4
 msgid "Comment:"
 msgstr "Opomba: "
 
 #: ../interfaces/shares.ui.h:5
-msgid "Domain / _Workgroup:"
-msgstr "Domena / _Delovna skupina:"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user"
-msgstr "Vnesite geslo za uporabnika"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Enter password for user:"
-msgstr "Vnesite geslo uporabnika:"
-
-#: ../interfaces/shares.ui.h:8
-msgid "General Properties"
-msgstr "Splošne lastnosti"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Host name:"
-msgstr "Ime gostitelja:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Hosts Settings"
-msgstr "Nastavitev gostiteljev"
-
-#: ../interfaces/shares.ui.h:12
 msgid "Name:"
 msgstr "Ime:"
 
-#: ../interfaces/shares.ui.h:13
-msgid "Netmask:"
-msgstr "Omrežna maska:"
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr "Le za _branje"
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "Lastnosti souporabe"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "Dovoljeni gostitelji"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "Souporaba"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "Dodaj dovoljene gostitelje"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "Dovoljeni gostitelji:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "Ime gostitelja:"
 
 #: ../interfaces/shares.ui.h:14
 msgid "Network:"
 msgstr "Omrežje:"
 
 #: ../interfaces/shares.ui.h:15
-#: ../src/shares/nfs-acl-table.c:56
+msgid "Netmask:"
+msgstr "Omrežna maska:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
 msgid "Read only"
 msgstr "Le za branje"
 
-#: ../interfaces/shares.ui.h:16
-msgid "Share"
-msgstr "Souporaba"
-
 #: ../interfaces/shares.ui.h:17
-msgid "Share Properties"
-msgstr "Lastnosti souporabe"
+msgid "Hosts Settings"
+msgstr "Nastavitev gostiteljev"
 
-#: ../interfaces/shares.ui.h:18
-msgid "Share through:"
-msgstr "Souporaba preko:"
-
-#: ../interfaces/shares.ui.h:19
-msgid "Shared Folder"
-msgstr "Mape v souporabi"
-
-#: ../interfaces/shares.ui.h:20
-#: ../src/shares/shares.desktop.in.in.h:2
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
 msgstr "Souporaba map"
 
-#: ../interfaces/shares.ui.h:21
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "Domena / _Delovna skupina:"
+
+#: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
 msgstr "Ta računalnik je _WINS strežnik"
 
-#: ../interfaces/shares.ui.h:22
-msgid "Users"
-msgstr "Uporabniki"
-
-#: ../interfaces/shares.ui.h:23
+#: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
 msgstr "WINS _strežnik:"
 
-#: ../interfaces/shares.ui.h:24
+#: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
 msgstr "Souporaba Windows"
 
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "Splošne lastnosti"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "Uporabniki"
+
 #: ../interfaces/shares.ui.h:25
-msgid "_Path:"
-msgstr "_Pot:"
+msgid "Enter password for user"
+msgstr "Vnesite geslo za uporabnika"
 
 #: ../interfaces/shares.ui.h:26
-msgid "_Read only"
-msgstr "Le za _branje"
+msgid "Enter password for user:"
+msgstr "Vnesite geslo uporabnika:"
 
 #: ../interfaces/time.ui.h:1
-msgid "Add NTP Server"
-msgstr "Dodaj NTP strežnik"
+msgid "Time zone"
+msgstr "Časovni pas"
 
 #: ../interfaces/time.ui.h:2
-msgid "NTP server"
-msgstr "NTP strežnik"
+msgid "Time Zone"
+msgstr "Časovni pas"
 
 #: ../interfaces/time.ui.h:3
-msgid "Se_lect Servers"
-msgstr "_Izbrani strežniki"
+msgid "Time zone:"
+msgstr "Časovni pas:"
 
 #: ../interfaces/time.ui.h:4
 msgid "Selection"
 msgstr "Izbor"
 
 #: ../interfaces/time.ui.h:5
-msgid "Synchronize now"
-msgstr "Uskladi"
-
-#: ../interfaces/time.ui.h:6
-msgid "Time Zone"
-msgstr "Časovni pas"
-
-#: ../interfaces/time.ui.h:7
 msgid "Time servers"
 msgstr "Časovni strežniki"
 
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP strežnik"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "Dodaj NTP strežnik"
+
 #: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "Časovni strežniki:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "Časovni pas"
-
-#: ../interfaces/time.ui.h:10
-msgid "Time zone:"
-msgstr "Časovni pas:"
-
-#: ../interfaces/time.ui.h:11
 msgid "Unconfigured"
 msgstr "Nenastavljeno"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "_Nastavitve:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "Časovni strežniki:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "_Izbrani strežniki"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "_Čas:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "_Datum:"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "_Čas:"
+msgid "Synchronize now"
+msgstr "Uskladi"
 
 #: ../interfaces/users.ui.h:1
-msgid "A user with this name already exists. Please choose a different name for the new user."
-msgstr "Uporabnik s tem imenom že obstaja. Izberite novo ime za novega uporabnika."
+msgid "_Manage Groups"
+msgstr "_Upravljanje skupin"
 
 #: ../interfaces/users.ui.h:2
 msgid "Account _type:"
 msgstr "Vrsta _računa:"
 
 #: ../interfaces/users.ui.h:3
-msgid "Advanced"
-msgstr "Napredno"
+msgid "_Change..."
+msgstr "_Spremeni ..."
 
 #: ../interfaces/users.ui.h:4
-msgid "Advanced Settings"
-msgstr "Napredne nastavitve"
+msgid "_Password:"
+msgstr "_Geslo:"
 
 #: ../interfaces/users.ui.h:5
-msgid "Assign a random password by default"
-msgstr "Privzeto določi naključno geslo"
+msgid "_Advanced Settings"
+msgstr "_Napredne nastavitve"
 
 #: ../interfaces/users.ui.h:6
-msgid "Automatic UID/GID"
-msgstr "Samodejni UID/GID"
+msgid "This account is disabled."
+msgstr "Račun je onemogočen."
 
 #: ../interfaces/users.ui.h:7
-msgid "Basic Settings"
-msgstr "Osnovne nastavitve"
+msgid "_Enable Account"
+msgstr "_Omogoči račun"
 
 #: ../interfaces/users.ui.h:8
-msgid "Change Advanced User Settings"
-msgstr "Spreminjanje naprednih nastavitev uporabnika"
-
-#: ../interfaces/users.ui.h:9
-msgid "Change User Account Type"
-msgstr "Spreminjanje vrste uporabniškega računa"
-
-#: ../interfaces/users.ui.h:10
-msgid "Change User Name"
-msgstr "Spremeni uporabniško ime"
-
-#: ../interfaces/users.ui.h:11
-msgid "Change User Password"
-msgstr "Spreminjanje uporabniškega gesla"
-
-#: ../interfaces/users.ui.h:12
-msgid "Changing advanced settings for:"
-msgstr "Spremeni napredne nastavitve za:"
-
-#: ../interfaces/users.ui.h:13
-msgid "Changing user account type for:"
-msgstr "Spremeni vrsto računa za:"
-
-#: ../interfaces/users.ui.h:14
-msgid "Changing user name for:"
-msgstr "Spremeni uporabniško ime za:"
-
-#: ../interfaces/users.ui.h:15
-msgid "Changing user password for:"
-msgstr "Spremeni uporabniško geslo za:"
-
-#: ../interfaces/users.ui.h:16
-msgid "Con_firmation:"
-msgstr "_Potrditev:"
-
-#: ../interfaces/users.ui.h:17
-msgid "Contact Information"
-msgstr "Podatki o stiku"
-
-#: ../interfaces/users.ui.h:18
-msgid "Create New User"
-msgstr "Ustvari novega uporabnika"
-
-#: ../interfaces/users.ui.h:19
-msgid "Create a new user"
-msgstr "Ustvari novega uporabnika"
-
-#: ../interfaces/users.ui.h:20
-msgid "Days between warning and password expiration:"
-msgstr "Število dni med opozorilom in dokončnim pretekom gesla:"
-
-#: ../interfaces/users.ui.h:21
-msgid "Default _group:"
-msgstr "Privzeta _skupina:"
-
-#: ../interfaces/users.ui.h:22
-msgid "Default _shell:"
-msgstr "Privzeta _lupina:"
-
-#: ../interfaces/users.ui.h:23
-msgid "Disable _account"
-msgstr "_Onemogoči račun"
-
-#: ../interfaces/users.ui.h:24
-msgid "Don't ask for password on _login"
-msgstr "Ne vprašaj za geslo ob _prijavi"
-
-#: ../interfaces/users.ui.h:25
-msgid "Encrypt all your files with your login password to strongly protect them from people with physical access to your computer, at the expense of a slightly reduced performance."
-msgstr "Šifriranje vseh datotek in podatkov za močno zaščito pred uporabniki, ki imajo neposreden dostop do računalnika (na račun malce zmanjšanje zmogljivosti delovanja sistema)."
-
-#: ../interfaces/users.ui.h:26
-msgid "Full _Name:"
-msgstr "Polno _Ime:"
-
-#: ../interfaces/users.ui.h:28
-msgid "Generate _random password"
-msgstr "Ustvari _naključno geslo"
-
-#: ../interfaces/users.ui.h:29
-msgid "Group Members"
-msgstr "Člani skupine"
-
-#: ../interfaces/users.ui.h:30
-msgid "Group _ID:"
-msgstr "_ID skupine:"
-
-#: ../interfaces/users.ui.h:31
-msgid "Group _name:"
-msgstr "Ime _skupine:"
-
-#: ../interfaces/users.ui.h:32
 msgid "Group properties"
 msgstr "Lastnosti skupine"
 
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "Osnovne nastavitve"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "Ime _skupine:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "_ID skupine:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Člani skupine"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr "Nastavitve profila"
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "_Ime profila:"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Opombe"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Privzete sistemske nastavitve"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "_Domači imenik:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "Privzeta _lupina:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "Privzeta _skupina:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Nastavitve gesla"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Število dni, ko je geslo veljavno:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Najmanjše število dovoljenih dni med menjavo gesla:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Število dni med opozorilom in dokončnim pretekom gesla:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Privzeto določi naključno geslo"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "Samodejni UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "Največji UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "Največji GID:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "Najmanjši UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "Najmanjši GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "Dovoljenja"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "Uporabniški profil"
+
 #: ../interfaces/users.ui.h:33
-msgid "Groups available on the system:"
-msgstr "Skupine na voljo v sistemu:"
+msgid "_Add Profile"
+msgstr "_Dodaj profil"
 
 #: ../interfaces/users.ui.h:34
 msgid "Groups settings"
 msgstr "Nastavitev skupin"
 
 #: ../interfaces/users.ui.h:35
-msgid "Ma_ximum days a password may be used:"
-msgstr "Naj_večje število dni uporabe gesla:"
+msgid "Groups available on the system:"
+msgstr "Skupine na voljo v sistemu:"
 
 #: ../interfaces/users.ui.h:36
-msgid "Maximum GID:"
-msgstr "Največji GID:"
+msgid "Change User Name"
+msgstr "Spremeni uporabniško ime"
 
 #: ../interfaces/users.ui.h:37
-msgid "Maximum UID:"
-msgstr "Največji UID:"
+msgid "Full _Name:"
+msgstr "Polno _Ime:"
 
 #: ../interfaces/users.ui.h:38
-msgid "Mi_nimum days between password changes:"
-msgstr "Naj_manjše število dni uporabe gesla:"
+msgid "Changing user name for:"
+msgstr "Spremeni uporabniško ime za:"
 
 #: ../interfaces/users.ui.h:39
-msgid "Minimum GID:"
-msgstr "Najmanjši GID:"
+msgid "Change User Password"
+msgstr "Spreminjanje uporabniškega gesla"
 
 #: ../interfaces/users.ui.h:40
-msgid "Minimum UID:"
-msgstr "Najmanjši UID:"
+msgid "Con_firmation:"
+msgstr "_Potrditev:"
 
 #: ../interfaces/users.ui.h:41
-msgid "Minimum days allowed between password changes:"
-msgstr "Najmanjše število dovoljenih dni med menjavo gesla:"
-
-#: ../interfaces/users.ui.h:42
-msgid "New _password:"
-msgstr "_Novo geslo:"
-
-#: ../interfaces/users.ui.h:43
-msgid "Number of days that a password may be used:"
-msgstr "Število dni, ko je geslo veljavno:"
-
-#: ../interfaces/users.ui.h:44
-msgid "O_ffice location:"
-msgstr "Mesto _pisarne:"
-
-#: ../interfaces/users.ui.h:45
-msgid "Optional Settings"
-msgstr "Dodatne nastavitve"
-
-#: ../interfaces/users.ui.h:46
-msgid "Password Settings"
-msgstr "Nastavitve gesla"
-
-#: ../interfaces/users.ui.h:47
 msgid "Password set to: "
 msgstr "Geslo nastavljeno za:"
 
-#: ../interfaces/users.ui.h:48
-msgid "Privileges"
-msgstr "Dovoljenja"
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "_Ustvari"
 
-#: ../interfaces/users.ui.h:49
-msgid "Profile Settings"
-msgstr "Nastavitve profila"
-
-#: ../interfaces/users.ui.h:50
-msgid "Profile _name:"
-msgstr "_Ime profila:"
-
-#: ../interfaces/users.ui.h:51
+#: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
 msgstr "_Ročno določilo gesla"
 
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "_Novo geslo:"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "Ustvari _naključno geslo"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "Spremeni uporabniško geslo za:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "Ne vprašaj za geslo ob _prijavi"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "_Trenutno geslo:"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "Spreminjanje vrste uporabniškega računa"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "Spremeni vrsto računa za:"
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "_Po meri"
+
 #: ../interfaces/users.ui.h:52
-msgid "System Defaults"
-msgstr "Privzete sistemske nastavitve"
-
-#: ../interfaces/users.ui.h:53
-msgid "This account is disabled."
-msgstr "Račun je onemogočen."
-
-#: ../interfaces/users.ui.h:54
-msgid "This account is using special settings that have been defined manually. Use the <i>Advanced Settings</i> dialog to tune them."
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
 msgstr "Račun uporablja posebne nastavitve, ki so bile določene ročno. Nastavite jih med <i>naprednimi nastavitvami</i>."
 
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "Ustvari novega uporabnika"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "_Ime:"
+
 #: ../interfaces/users.ui.h:55
-msgid "User ID:"
-msgstr "ID uporabnika:"
+msgid "Create a new user"
+msgstr "Ustvari novega uporabnika"
 
-#: ../interfaces/users.ui.h:56
-msgid "User Privileges"
-msgstr "Uporabniška dovoljenja"
-
-#: ../interfaces/users.ui.h:57
-msgid "User profiles"
-msgstr "Uporabniški profil"
-
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
-#: ../interfaces/users.ui.h:59
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
 msgid ""
 "Username must consist of:\n"
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
-"Uporabniško ime je lahko sestavljeno iz:\n"
-" ➣  majhnih črk angleške abecede\n"
-" ➣  številk\n"
-" ➣  posebnih znakov \".\", \"-\" in \"_\""
+msgstr "Uporabniško ime je lahko sestavljeno iz:\n ➣  majhnih črk angleške abecede\n ➣  številk\n ➣  posebnih znakov \".\", \"-\" in \"_\""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr "Uporabnik s tem imenom že obstaja. Izberite novo ime za novega uporabnika."
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
 msgstr "Uporabniško ime se mora začeti s črko!"
 
 #: ../interfaces/users.ui.h:64
-msgid "You can't change user ID while the user is logged in."
-msgstr "Ni mogoče spremeniti uporabniškega ID, dokler je uporabnik prijavljen."
-
-#: ../interfaces/users.ui.h:65
-msgid "_Add Profile"
-msgstr "_Dodaj profil"
-
-#: ../interfaces/users.ui.h:66
-msgid "_Advanced Settings"
-msgstr "_Napredne nastavitve"
-
-#: ../interfaces/users.ui.h:67
-msgid "_Change..."
-msgstr "_Spremeni ..."
-
-#: ../interfaces/users.ui.h:68
-msgid "_Comments"
-msgstr "_Opombe"
-
-#: ../interfaces/users.ui.h:69
-msgid "_Current password:"
-msgstr "_Trenutno geslo:"
-
-#: ../interfaces/users.ui.h:70
-msgid "_Custom"
-msgstr "_Po meri"
-
-#: ../interfaces/users.ui.h:71
-msgid "_Days between warning and password expiration:"
-msgstr "Število _dni med opozorilom in dokončnim pretekom gesla:"
-
-#: ../interfaces/users.ui.h:72
-msgid "_Enable Account"
-msgstr "_Omogoči račun"
-
-#: ../interfaces/users.ui.h:73
 msgid "_Encrypt home folder to protect sensitive data"
 msgstr "_Šifriraj domačo mapo za zaščito občutljivih podatkov"
 
-#: ../interfaces/users.ui.h:74
-msgid "_Generate"
-msgstr "_Ustvari"
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "Šifriranje vseh datotek in podatkov za močno zaščito pred uporabniki, ki imajo neposreden dostop do računalnika (na račun malce zmanjšanje zmogljivosti delovanja sistema)."
 
-#: ../interfaces/users.ui.h:75
-msgid "_Home directory:"
-msgstr "_Domači imenik:"
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "Spreminjanje naprednih nastavitev uporabnika"
 
-#: ../interfaces/users.ui.h:76
-msgid "_Home phone:"
-msgstr "_Domači telefon:"
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "Spremeni napredne nastavitve za:"
 
-#: ../interfaces/users.ui.h:77
-msgid "_Main group:"
-msgstr "_Glavna skupina:"
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "Mesto _pisarne:"
 
-#: ../interfaces/users.ui.h:78
-msgid "_Manage Groups"
-msgstr "_Upravljanje skupin"
-
-#: ../interfaces/users.ui.h:79
-msgid "_Name:"
-msgstr "_Ime:"
-
-#: ../interfaces/users.ui.h:80
-msgid "_Password:"
-msgstr "_Geslo:"
-
-#: ../interfaces/users.ui.h:81
-msgid "_Shell:"
-msgstr "_Lupina:"
-
-#: ../interfaces/users.ui.h:83
+#: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
 msgstr "_Službeni telefon"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:1
-msgid "Show root user"
-msgstr "Pokaži korenskega uporabnika"
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "_Domači telefon:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:2
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr "Podatki o stiku"
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "Uporabniška dovoljenja"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Napredne nastavitve"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "_Lupina:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "_Glavna skupina:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "ID uporabnika:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "Ni mogoče spremeniti uporabniškega ID, dokler je uporabnik prijavljen."
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "_Onemogoči račun"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "Dodatne nastavitve"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Naj_manjše število dni uporabe gesla:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "Naj_večje število dni uporabe gesla:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "Število _dni med opozorilom in dokončnim pretekom gesla:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Napredno"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
 msgstr "Pokaži sistemske uporabnike"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:3
-msgid "Whether the users-admin tool should show system users in the users list."
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
 msgstr "Ali naj orodje user-admin pokaže sistemske uporabnike na seznamu uporabnikov."
 
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr "Pokaži korenskega uporabnika"
+
 #: ../org.mate.system-tools.gschema.xml.in.h:4
-msgid "Whether the users-admin tool should show the root user in the users list."
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
 msgstr "Ali naj orodje user-admin pokaže skrbniški račun na seznamu uporabnikov."
 
 #: ../src/common/gst-platform-dialog.c:179
@@ -757,7 +753,10 @@ msgstr "Orodje ne podpira sistema, ki ga uporabljate"
 
 #. label
 #: ../src/common/gst-platform-dialog.c:185
-msgid "If you know for sure that it works like one of the platforms listed below, you can select that and continue. Note, however, that this might damage the system configuration or downright cripple your computer."
+msgid ""
+"If you know for sure that it works like one of the platforms listed below, "
+"you can select that and continue. Note, however, that this might damage the "
+"system configuration or downright cripple your computer."
 msgstr "Če ste prepričani, da deluje kot kakšna izmed spodaj naštetih platform, lahko le-to izberete in nadaljujete. Lahko pa to poškoduje nastavitev sistema ali ohromi računalnik"
 
 #: ../src/common/gst-platform-dialog.c:212
@@ -778,8 +777,7 @@ msgid "You are not allowed to access the system configuration."
 msgstr "Ni ustreznega dovoljenja za dostop do sistemskih nastavitev."
 
 #. OPERATION_COMMIT
-#: ../src/common/gst-tool.c:196
-#: ../src/common/gst-tool.c:685
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
 msgstr "Ni ustreznega dovoljenja za spreminjanje sistemskih nastavitev."
 
@@ -809,21 +807,15 @@ msgstr "Ali naj se posodobi vsebina? Med posodobitvijo bodo izgubljene vse nakna
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr ""
-"Prišlo je od napake med preverjanjem overitve: %s\n"
-"Napako je mogoče prijaviti kot hrošč."
+msgstr "Prišlo je od napake med preverjanjem overitve: %s\nNapako je mogoče prijaviti kot hrošč."
 
-#: ../src/network/address-list.c:76
-#: ../src/network/hosts.c:31
-#: ../src/shares/table.c:38
-#: ../src/users/table.c:40
+#: ../src/network/address-list.c:76 ../src/network/hosts.c:31
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "_Dodaj"
 
-#: ../src/network/address-list.c:77
-#: ../src/network/hosts.c:33
-#: ../src/shares/table.c:40
-#: ../src/users/table.c:42
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
 msgid "_Delete"
 msgstr "_Izbriši"
 
@@ -831,8 +823,7 @@ msgstr "_Izbriši"
 msgid "Type address"
 msgstr "Vpišite naslov"
 
-#: ../src/network/callbacks.c:237
-#: ../src/network/callbacks.c:487
+#: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
 msgstr "Spreminjanje nastavitev vmesnika"
 
@@ -841,7 +832,9 @@ msgid "Could not autodetect modem device"
 msgstr "Ni mogoče samodejno zaznati modema"
 
 #: ../src/network/callbacks.c:302
-msgid "Check that the device is not busy and that is correctly attached to the computer."
+msgid ""
+"Check that the device is not busy and that is correctly attached to the "
+"computer."
 msgstr "Preverite, da naprava ni zaposlena in da je pravilno povezana z računalnikom."
 
 #: ../src/network/callbacks.c:523
@@ -849,7 +842,9 @@ msgid "The host name has changed"
 msgstr "Ime gostitelja se je spremenilo"
 
 #: ../src/network/callbacks.c:526
-msgid "This will prevent you from launching new applications, and so you will have to log in again. Continue anyway?"
+msgid ""
+"This will prevent you from launching new applications, and so you will have "
+"to log in again. Continue anyway?"
 msgstr "To vam bo preprečilo zagon novih programov in tako se boste morali znova prijaviti. Ali želite vseeno nadaljevati?"
 
 #: ../src/network/callbacks.c:532
@@ -905,10 +900,8 @@ msgstr "PPPoE"
 msgid "%s Properties"
 msgstr "Lastnosti %s"
 
-#: ../src/network/hosts.c:32
-#: ../src/network/ifaces-list.c:33
-#: ../src/shares/table.c:39
-#: ../src/users/table.c:41
+#: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "_Lastnosti"
 
@@ -933,8 +926,7 @@ msgstr "Prihajajoči način omogočen"
 msgid "<b>Essid:</b> %s "
 msgstr "<b>Essid:</b> %s "
 
-#: ../src/network/ifaces-list.c:296
-#: ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
 #: ../src/network/ifaces-list.c:306
 msgid "Address:"
 msgstr "Naslov:"
@@ -947,10 +939,8 @@ msgstr "Maska podomrežja:"
 msgid "Remote address:"
 msgstr "Oddaljeni naslov:"
 
-#: ../src/network/ifaces-list.c:320
-#: ../src/network/ifaces-list.c:325
-#: ../src/network/ifaces-list.c:334
-#: ../src/network/ifaces-list.c:339
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
 msgid "Type:"
 msgstr "Vrsta:"
 
@@ -1008,7 +998,9 @@ msgid "The interface does not exist"
 msgstr "Vmesnik ne obstaja"
 
 #: ../src/network/main.c:137
-msgid "Check that it is correctly typed and that it is correctly supported by your system."
+msgid ""
+"Check that it is correctly typed and that it is correctly supported by your "
+"system."
 msgstr "Preverite, ali ste pravilno vpisali in ali je v vašem sistemu pravilno podprt."
 
 #: ../src/network/main.c:183
@@ -1027,13 +1019,13 @@ msgstr "Nastavi prvi mrežni vmesnik določene vrste"
 msgid "TYPE"
 msgstr "VRSTA"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "Nastavite mrežne naprave in povezave"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "Omrežje"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "Nastavite mrežne naprave in povezave"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
@@ -1050,7 +1042,9 @@ msgid "Are you sure you want to deactivate %s?"
 msgstr "Ali ste prepričani, da želite onemogočiti %s?"
 
 #: ../src/services/callbacks.c:126
-msgid "This may affect your system behavior in several ways, possibly leading to data loss."
+msgid ""
+"This may affect your system behavior in several ways, possibly leading to "
+"data loss."
 msgstr "To lahko na različne načine vpliva na vedenje vašega sistema, po možnosti vodi do izgube podatkov"
 
 #: ../src/services/service.c:32
@@ -1123,14 +1117,12 @@ msgstr "Sistem za shranjevanje podatkov"
 #. GST_ROLE_DATABASE_SERVER
 #. GST_ROLE_FILE_SERVER_SMB
 #. GST_ROLE_FILE_SERVER_FTP
-#: ../src/services/service.c:40
-#: ../src/services/service.c:41
+#: ../src/services/service.c:40 ../src/services/service.c:41
 #: ../src/services/service.c:43
 msgid "Folder sharing service"
 msgstr "Storitev deljenja map"
 
-#: ../src/services/service.c:40
-#: ../src/services/service.c:41
+#: ../src/services/service.c:40 ../src/services/service.c:41
 msgid "Shares folders over your network"
 msgstr "Souporaba map preko omrežja"
 
@@ -1139,8 +1131,7 @@ msgstr "Souporaba map preko omrežja"
 msgid "FTP service"
 msgstr "Storitev FTP"
 
-#: ../src/services/service.c:42
-#: ../src/services/service.c:43
+#: ../src/services/service.c:42 ../src/services/service.c:43
 msgid "Shares folders over the Internet"
 msgstr "Souporaba map preko spleta"
 
@@ -1463,13 +1454,13 @@ msgstr "Nadzornik sistema"
 msgid "Virtual Machine management"
 msgstr "Upravljanje Virtual Machine"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "Nastavite, katere storitve naj se zaženejo, ko se zažene sistem"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Storitve"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "Nastavite, katere storitve naj se zaženejo, ko se zažene sistem"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1544,7 +1535,7 @@ msgstr "Navedite naslov IP"
 msgid "Specify network"
 msgstr "Navedite omrežje"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "Nastavite, katere mape so na voljo za vašo mrežno soseščino"
 
@@ -1578,7 +1569,9 @@ msgid "Sharing services are not installed"
 msgstr "Storitve deljenja niso nameščene"
 
 #: ../src/shares/shares-tool.c:154
-msgid "You need to install at least either Samba or NFS in order to share your folders."
+msgid ""
+"You need to install at least either Samba or NFS in order to share your "
+"folders."
 msgstr "Namestiti morate vsaj Sambo ali NFS za souporabo mape."
 
 #: ../src/time/e-map/e-map.c:620
@@ -1586,23 +1579,27 @@ msgid "World Map"
 msgstr "Zemljevid sveta"
 
 #: ../src/time/e-map/e-map.c:622
-msgid "Mouse-based interactive map widget for selecting timezone. Keyboard users should instead select the timezone from the drop-down combination box below."
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
 msgstr "Gradnik za izbor časovnega pasu z miško na zemljevidu. Uporabniki tipkovnice lahko časovni pas izberejo iz spodnjega spustnega polja."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "Spremenite sistemski čas, datum in časovni pas"
-
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "Čas in datum"
+
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "Spremenite sistemski čas, datum in časovni pas"
 
 #: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "Podpora za NTP ni nameščena"
 
 #: ../src/time/time-tool.c:400
-msgid "Please install and activate NTP support in the system to enable synchronization of your local time server with internet time servers."
+msgid ""
+"Please install and activate NTP support in the system to enable "
+"synchronization of your local time server with internet time servers."
 msgstr "Namestite in vključite podporo za NTP da bi vključili usklajevanje vašega krajevnega časovnega strežnika s spletnimi časovnimi strežniki."
 
 #: ../src/time/time-tool.c:429
@@ -1633,10 +1630,8 @@ msgstr "Nastavitve časa in datuma"
 msgid "Administrator group can not be deleted"
 msgstr "Skrbniške skupine ni mogoče izbrisati"
 
-#: ../src/users/group-settings.c:58
-#: ../src/users/group-settings.c:221
-#: ../src/users/group-settings.c:258
-#: ../src/users/user-settings.c:88
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
 #: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "To bi naredilo sistem neuporaben."
@@ -1676,7 +1671,9 @@ msgid "Group name has invalid characters"
 msgstr "Ime skupine vsebuje neveljavne znake"
 
 #: ../src/users/group-settings.c:224
-msgid "Please set a valid group name consisting of a lower case letter followed by lower case letters and numbers."
+msgid ""
+"Please set a valid group name consisting of a lower case letter followed by "
+"lower case letters and numbers."
 msgstr "Nastavite veljavno ime skupine, ki vsebuje malo črko, ki ji sledijo male črke in številke."
 
 #: ../src/users/group-settings.c:229
@@ -1712,13 +1709,11 @@ msgid "Group name"
 msgstr "Ime skupine"
 
 #. TRANSLATORS:  This applies to a password. Keep the string short.
-#: ../src/users/main.c:74
-#: ../src/users/user-settings.c:347
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
 msgid "Not asked on login"
 msgstr "Ne vprašaj ob prijavi"
 
-#: ../src/users/main.c:74
-#: ../src/users/user-settings.c:349
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
 msgid "Asked on login"
 msgstr "Vprašanje ob prijavi"
 
@@ -1807,20 +1802,24 @@ msgid "Be able to get administrator privileges"
 msgstr "Dostop do skrbniških dovoljenj"
 
 #: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr "Uporabnik namizja"
+
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr "Mogoče je opravljati splošne naloge, ni pa mogoče spreminjati nastavitev, ki vplivajo na vse uporabnike."
+
+#: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
 msgstr "Skrbnik"
 
-#: ../src/users/user-profiles.conf.in.h:2
-msgid "Can change anything on the system, including installing and upgrading software."
-msgstr "Spremeniti je mogoče vse nastavitve, vključno z nameščanjem in posodabljanjem sistema."
-
-#: ../src/users/user-profiles.conf.in.h:3
-msgid "Can perform common tasks. Can't install software or change settings affecting all users."
-msgstr "Mogoče je opravljati splošne naloge, ni pa mogoče spreminjati nastavitev, ki vplivajo na vse uporabnike."
-
 #: ../src/users/user-profiles.conf.in.h:4
-msgid "Desktop user"
-msgstr "Uporabnik namizja"
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr "Spremeniti je mogoče vse nastavitve, vključno z nameščanjem in posodabljanjem sistema."
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
@@ -1866,20 +1865,22 @@ msgstr "Geslo se je spremenilo od začetne overitve!"
 msgid "Unknown error"
 msgstr "Neznana napaka"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "Dodajte ali odstranite uporabnike in skupine"
-
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "Uporabniki in skupine"
+
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "Dodajte ali odstranite uporabnike in skupine"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
 msgstr "Geslo je prekratko"
 
 #: ../src/users/user-password.c:98
-msgid "User passwords must be longer than 5 characters and preferably formed by numbers, letters and special characters."
+msgid ""
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
 msgstr "Uporabniško geslo mora biti daljše od 5 znakov in sestavljeno iz črk, številk in drugih znakov."
 
 #: ../src/users/user-password.c:101
@@ -1890,15 +1891,15 @@ msgstr "Potrditev gesla ni pravilna"
 msgid "Check that you have provided the same password in both text fields."
 msgstr "Preverite, ali ste vpisali isto geslo v obe polji."
 
-#: ../src/users/user-password.c:426
+#: ../src/users/user-password.c:445
 msgid "Please choose another password."
 msgstr "Izberite drugačno ime."
 
-#: ../src/users/user-password.c:437
+#: ../src/users/user-password.c:456
 msgid "Please type again your current password."
 msgstr "Znova vnesite trenutno geslo."
 
-#: ../src/users/user-password.c:444
+#: ../src/users/user-password.c:463
 msgid "Password could not be changed"
 msgstr "Gesla ni mogoče spremeniti."
 
@@ -1921,7 +1922,9 @@ msgstr "Ni mogoče izbrisati edinega skrbniškega računa"
 
 #: ../src/users/user-settings.c:111
 #, c-format
-msgid "%s is the only administrator on this computer. Deleting this account would lock you out of administrating the system."
+msgid ""
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
 msgstr "%s je edini skrbnik tega sistema. Z izbrisom tega računa, onemogočite nadaljnje izvajanje skrbniških opravil celotnega sistema."
 
 #: ../src/users/user-settings.c:121
@@ -1931,7 +1934,10 @@ msgstr "Ali naj se odstrani domača mapa %s?"
 
 #: ../src/users/user-settings.c:124
 #, c-format
-msgid "Files owned by user %s in <tt>%s</tt> can be completely removed if you don't need them anymore. You may want to back them up before deleting the account, or keep them so that an administrator can save them later."
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
 msgstr "Datoteke, katerih lastnik je uporabnik %s v <tt>%s</tt> je mogoče trajno odstraniti. Priporočljivo je narediti varnostne kopije teh datotek, preden se račun dokončno izbriše."
 
 #: ../src/users/user-settings.c:132
@@ -1976,12 +1982,9 @@ msgstr "Nepopolna pot v domači imenik"
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
-"Vnesite celo pot za domačo mapo\n"
-"<span size=\"smaller\">npr.: /home/janez</span>."
+msgstr "Vnesite celo pot za domačo mapo\n<span size=\"smaller\">npr.: /home/janez</span>."
 
-#: ../src/users/user-settings.c:447
-#: ../src/users/user-settings.c:491
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
 msgstr "Nova domača mapa že obstaja. Ali jo želite uporabiti?"
 
@@ -1991,17 +1994,13 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
 "In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
-msgstr ""
-"Domača mapa %s je nastavljena na <tt>%s</tt>, ki pa že obstaja. Ali želite uporabiti datoteke iz te mape ali pa morda kopirati vsebino <tt>%s</tt> v novo domačo mapo in prepisati obstoječe datoteke?\n"
-"\n"
-"V kolikor ste v dvomih, uporabite novo mapo in se izognite izgubi podatkov. Datoteke je mogoče kopirati tudi kasneje."
+msgstr "Domača mapa %s je nastavljena na <tt>%s</tt>, ki pa že obstaja. Ali želite uporabiti datoteke iz te mape ali pa morda kopirati vsebino <tt>%s</tt> v novo domačo mapo in prepisati obstoječe datoteke?\n\nV kolikor ste v dvomih, uporabite novo mapo in se izognite izgubi podatkov. Datoteke je mogoče kopirati tudi kasneje."
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
 msgstr "_Zamenjaj s starimi datotekami"
 
-#: ../src/users/user-settings.c:462
-#: ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
 #: ../src/users/user-settings.c:540
 msgid "_Cancel Change"
 msgstr "_Prekliči spremembo"
@@ -2012,13 +2011,11 @@ msgstr "_Prekliči spremembo"
 msgid "_Use New Files"
 msgstr "_Uporabi nove datoteke"
 
-#: ../src/users/user-settings.c:470
-#: ../src/users/user-settings.c:510
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
 msgid "Make user the _owner of the new home directory"
 msgstr "Določi uporabnika kot _lastnika domače mape"
 
-#: ../src/users/user-settings.c:473
-#: ../src/users/user-settings.c:547
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
 msgid "_Delete old home directory"
 msgstr "_Izbriši staro domačo mapo"
 
@@ -2028,10 +2025,7 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr ""
-"Domača mapa %s je nastavljena na <tt>%s</tt>, ki pa že obstaja. Ali želite uporabiti datoteke iz te mape ali pa morda izbrisati vsebino mape in uporabiti povsem prazno domačo mapo?\n"
-"\n"
-"V kolikor ste v dvomih, ohranite datoteke in jih izbrišite kasneje."
+msgstr "Domača mapa %s je nastavljena na <tt>%s</tt>, ki pa že obstaja. Ali želite uporabiti datoteke iz te mape ali pa morda izbrisati vsebino mape in uporabiti povsem prazno domačo mapo?\n\nV kolikor ste v dvomih, ohranite datoteke in jih izbrišite kasneje."
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
@@ -2051,10 +2045,7 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
 "If you choose to copy the files to the new location, it's safe to delete the old directory."
-msgstr ""
-"Domača mapa %s je nastavljena na <tt>%s</tt>, ki pa ne obstaja. Ali želite kopirati vsebino stare domače mape (<tt>%s</tt>), ali pa uporabiti povsem prazno domačo mapo?\n"
-"\n"
-"V kolikor želite kopirati vsebino, lahko staro mapo varno izbrišete."
+msgstr "Domača mapa %s je nastavljena na <tt>%s</tt>, ki pa ne obstaja. Ali želite kopirati vsebino stare domače mape (<tt>%s</tt>), ali pa uporabiti povsem prazno domačo mapo?\n\nV kolikor želite kopirati vsebino, lahko staro mapo varno izbrišete."
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
@@ -2088,9 +2079,7 @@ msgstr "Nepopolna pot v ukazni lupini"
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
-"Vpišite polno pot za ukazno lupino\n"
-"<span size=\"smaller\">npr.: /bin/sh</span>."
+msgstr "Vpišite polno pot za ukazno lupino\n<span size=\"smaller\">npr.: /bin/sh</span>."
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
@@ -2098,7 +2087,9 @@ msgstr "Ni mogoče povrniti skrbniških dovoljenj"
 
 #: ../src/users/user-settings.c:666
 #, c-format
-msgid "%s is the only administrator on this computer. Revoking administration rights for this account would lock you out of administrating the system."
+msgid ""
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
 msgstr "%s je edini skrbnik tega sistema. S preklicom skrbniških dovoljenj za ta račun, onemogočite nadaljnje izvajanje skrbniških opravil celotnega sistema."
 
 #: ../src/users/user-settings.c:683
@@ -2107,192 +2098,19 @@ msgstr "Preklicali boste lastne skrbniške pravice."
 
 #: ../src/users/user-settings.c:686
 #, c-format
-msgid "%s will no longer be able to perform administrative tasks. This account won't be allowed to get administration rights back on its own."
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
 msgstr "%s nima več dovoljenja za izvajanje skrbniških nalog. S tem računom ni več mogoče lastnoročno pridobiti skrbniških pravic."
 
 #: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
 msgstr "Prepusti skrbniška dovoljenja"
 
-#: ../src/users/user-settings.c:1459
+#: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
 msgstr "Uveljavljanje sprememb nastavitev uporabnika ..."
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "Nastavitev uporabnika"
-
-#~ msgid ""
-#~ "The directory <tt>%s</tt> already exists. User may not have the "
-#~ "permissions required to read or write in that directory. Do you want to "
-#~ "use it anyway?"
-#~ msgstr ""
-#~ "Mapa <tt>%s</tt> že obstaja. Uporabnik morda nima dovoljenj za branje in "
-#~ "pisanje v to mapo. Ali jo vseeno želite uporabiti?"
-
-#~ msgid "<b>Allowed Hosts</b>"
-#~ msgstr "<b>Dovoljeni gostitelji</b>"
-
-#~ msgid "<b>Shared Folder</b>"
-#~ msgstr "<b>Mape v souporabi</b>"
-
-#~ msgid ""
-#~ "<span size=\"larger\" weight=\"bold\">Enter password for user:</span>"
-#~ msgstr ""
-#~ "<span size=\"larger\" weight=\"bold\">Vnesite geslo uporabnika:</span>"
-
-#~ msgid "<b>Selection</b>"
-#~ msgstr "<b>Izbor</b>"
-
-#~ msgid "<b>Time Zone</b>"
-#~ msgstr "<b>Časovni pas</b>"
-
-#~ msgid "<span weight=\"bold\">Advanced Settings</span>"
-#~ msgstr "<span weight=\"bold\">Napredne nastavitve</span>"
-
-#~ msgid "<span weight=\"bold\">Automatic UID/GID</span>"
-#~ msgstr "<span weight=\"bold\">Samodejni UID/GID</span>"
-
-#~ msgid "<span weight=\"bold\">Basic Settings</span>"
-#~ msgstr "<span weight=\"bold\">Osnovne nastavitve</span>"
-
-#~ msgid "<span weight=\"bold\">Group Members</span>"
-#~ msgstr "<span weight=\"bold\">Člani skupine</span>"
-
-#~ msgid "<span weight=\"bold\">Optional Settings</span>"
-#~ msgstr "<span weight=\"bold\">Izbirne nastavitve</span>"
-
-#~ msgid "<span weight=\"bold\">Password Settings</span>"
-#~ msgstr "<span weight=\"bold\">Nastavitve gesla</span>"
-
-#~ msgid "<span weight=\"bold\">Profile Settings</span>"
-#~ msgstr "<span weight=\"bold\">Nastavitve profila</span>"
-
-#~ msgid "<span weight=\"bold\">System Defaults</span>"
-#~ msgstr "<span weight=\"bold\">Privzete sistemske nastavitve</span>"
-
-#~ msgid "_Short Name:"
-#~ msgstr "_Kratko ime:"
-
-#~ msgid "<b>Address:</b> %s <b>Subnet mask:</b> %s"
-#~ msgstr "<b>Naslov:</b> %s <b>Podomrežna maska:</b> %s"
-
-#~ msgid "<b>Address:</b> %s"
-#~ msgstr "<b>Naslov:</b> %s"
-
-#~ msgid "<b>Address:</b> %s <b>Remote address:</b> %s"
-#~ msgstr "<b>Naslov:</b> %s <b>Oddaljeni naslov:</b> %s"
-
-#~ msgid "<b>Type:</b> %s <b>Phone number:</b> %s"
-#~ msgstr "<b>Vrsta:</b> %s <b>Telefonska številka:</b> %s"
-
-#~ msgid "<b>Type:</b> %s <b>Access point name:</b> %s"
-#~ msgstr "<b>Vrsta:</b> %s <b>Ime odstopne točke:</b> %s"
-
-#~ msgid "<b>Type:</b> %s <b>Ethernet interface:</b> %s"
-#~ msgstr "<b>Vrsta:</b> %s <b>Vmesnik eterneta:</b> %s"
-
-#~ msgid "<b>Type:</b> %s"
-#~ msgstr "<b>Vrstas:</b> %s"
-
-#~ msgid "Check password _quality"
-#~ msgstr "Preveri _kakovost gesla"
-
-#~ msgid "User _password:"
-#~ msgstr "Uporabnikovo _geslo:"
-
-#~ msgid "User must log out before you can change his ID."
-#~ msgstr "Uporabnik se mora odjaviti, preden je mogoče spremeniti njegov ID."
-
-#~ msgid "Are you sure you want to delete account \"%s\"?"
-#~ msgstr "Ali ste prepričani, da želite izbrisati račun \"%s\"?"
-
-#~ msgid ""
-#~ "This will disable this user's access to the system without deleting the "
-#~ "user's home directory."
-#~ msgstr ""
-#~ "To bo onemogočilo dostop uporabnika do sistema, brez da bi izbrisali "
-#~ "uporabnikov domači imenik."
-
-#~ msgid "Administrator account's user ID should not be modified"
-#~ msgstr "Skrbniški ID ne sme biti spremenjen"
-
-#~ msgid "Please enter a different home directory path."
-#~ msgstr "Izberite drugo pot domače mape."
-
-#~ msgid "<span weight=\"bold\">Password</span>"
-#~ msgstr "<span weight=\"bold\">Geslo</span>"
-
-#~ msgid ""
-#~ "Allow this user to open a local session without entering his password. "
-#~ "The password will still be required to perform administrative tasks."
-#~ msgstr ""
-#~ "Dovoli uporabniku odpiranje krajevne seje brez vnosa gesla. Geslo bo še "
-#~ "vedno zahtevano za izvajanje skrbniških nalog."
-
-#~ msgid "_Add Group"
-#~ msgstr "_Dodaj skupino"
-
-#~ msgid "_Add User"
-#~ msgstr "_Dodaj uporabnika"
-
-#~ msgid "_Profile:"
-#~ msgstr "_Profil:"
-
-#~ msgid "_Real name:"
-#~ msgstr "_Pravo ime:"
-
-#~ msgid "Account '%s' Properties"
-#~ msgstr "Lastnosti računa '%s'"
-
-#~ msgid "User name is empty"
-#~ msgstr "Uporabniško ime je prazno"
-
-#~ msgid "A user name must be specified."
-#~ msgstr "Podano mora biti uporabniško ime."
-
-#~ msgid "User name has invalid characters"
-#~ msgstr "Uporabniško ime vsebuje neveljavne znake"
-
-#~ msgid ""
-#~ "Please set a valid user name consisting of a lower case letter followed "
-#~ "by lower case letters and numbers."
-#~ msgstr ""
-#~ "Nastavite veljavno uporabniško ime, ki vsebuje malo črko, ki ji sledijo "
-#~ "male črke in številke."
-
-#~ msgid "User name \"%s\" already exists"
-#~ msgstr "Uporabniško ime \"%s\" že obstaja"
-
-#~ msgid "Name"
-#~ msgstr "Ime"
-
-#~ msgid "Login name"
-#~ msgstr "Uporabniško ime"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Please enter your root password</"
-#~ "span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Vnesite skrbniško geslo</span>"
-
-#~ msgid ""
-#~ "You need administrator privileges to use this tool. Enter a password to "
-#~ "modify\n"
-#~ "your system configuration."
-#~ msgstr ""
-#~ "Za uporabo tega orodja morate imeti skrbniško dovoljenje. Vnesite geslo "
-#~ "za\n"
-#~ "spreminjanje nastavitev sistema."
-
-#~ msgid "<span weight=\"bold\">Contact Information</span>"
-#~ msgstr "<span weight=\"bold\">Podrobnosti stika</span>"
-
-#~ msgid "_Unlock"
-#~ msgstr "_Odkleni"
-
-#~ msgid "This action is not allowed"
-#~ msgstr "Dejanje ni dovoljeno"
-
-#~ msgid "Could not authenticate"
-#~ msgstr "Ni mogoče overiti"

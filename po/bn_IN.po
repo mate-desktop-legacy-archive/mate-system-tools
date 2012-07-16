@@ -1,676 +1,752 @@
-# translation of bn_IN.po to Bengali INDIA
-# Bengali India translation of mate-system-tools
-# This file is distributed under the same license as the mate-system-tools package.
-# Copyright (C) 2004 Free Software Foundation.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Runa Bhattacharjee <runa@bengalinux.org>, 2004.
 # Runa Bhattacharjee <runab@redhat.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: bn_IN\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-system-tools&component=general\n"
-"POT-Creation-Date: 2009-08-20 16:07+0000\n"
-"PO-Revision-Date: 2009-08-28 10:39+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
-"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:52+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
-"\n"
-
-#: ../mate-system-tools.schemas.in.h:1
-msgid "Whether the users-admin tool should show all users and groups or not"
-msgstr "users-admin নামক সরঞ্জামের দ্বারা সমস্ত ব্যবহারকারী ও দলের তথ্য প্রদর্শিত হবে কি না"
-
-#: ../interfaces/common.ui.h:1
-msgid "<span weight=\"bold\" size=\"larger\">Please enter your root password"
-msgstr "<span weight=\"bold\" size=\"larger\">অনুগ্রহ করে root পাসওয়ার্ড লিখুন"
-
-#: ../interfaces/common.ui.h:2
-msgid "Enter Password"
-msgstr "পাসওয়ার্ড লিখুন"
-
-#: ../interfaces/common.ui.h:3
-msgid ""
-"You need administrator privileges to use this tool. Enter a password to "
-"modify\n"
-"your system configuration."
-msgstr ""
-"এই সরঞ্জাম ব্যবহারের জন্য প্রশাসনিক অধিকার থাকা আবশ্যক। সিস্টেম কনফিগারেশন "
-"পরিবর্তনের \n"
-"জন্য পাসওয়ার্ড লিখুন।"
-
-#: ../interfaces/common.ui.h:5
-msgid "_Password:"
-msgstr "পাসওয়ার্ড: (_P)"
+"Language: bn_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../interfaces/network.ui.h:1
-msgid "Account data"
-msgstr "অ্যাকাউন্ট সংক্রান্ত তথ্য"
-
-#: ../interfaces/network.ui.h:2
-msgid "Connection Settings"
-msgstr "সংযোগ সংক্রান্ত বৈশিষ্ট্য"
-
-#: ../interfaces/network.ui.h:3
-msgid "DNS Servers"
-msgstr "DNS সার্ভার"
-
-#: ../interfaces/network.ui.h:4
-msgid "Host Settings"
-msgstr "হোস্ট সংক্রান্ত বৈশিষ্ট্য"
-
-#: ../interfaces/network.ui.h:5
-msgid "Internet service provider data"
-msgstr "ইন্টারনেট পরিসেবা উপলব্ধকারী সংক্রান্ত তথ্য"
-
-#: ../interfaces/network.ui.h:6
-msgid "Modem Settings"
-msgstr "মোডেম সংক্রান্ত বৈশিষ্ট্য"
-
-#: ../interfaces/network.ui.h:7
-msgid "Search Domains"
-msgstr "অনুসন্ধানের ডোমেইন"
-
-#: ../interfaces/network.ui.h:8
-msgid "Wireless Settings"
-msgstr "বেতার সংক্রান্ত বৈশিষ্ট্যাবলী"
-
-#: ../interfaces/network.ui.h:9
-msgid "Access point name:"
-msgstr "অ্যাকসেস পয়েন্টের নাম:"
-
-#: ../interfaces/network.ui.h:10
-msgid "Aliases:"
-msgstr "উপনাম:"
-
-#: ../interfaces/network.ui.h:11
-msgid "Con_figuration:"
-msgstr "কনফিগারেশন: (_f)"
-
-#: ../interfaces/network.ui.h:12
-msgid "Connection type:"
-msgstr "সংযোগের ধরন:"
-
-#: ../interfaces/network.ui.h:13
-msgid "Connections"
-msgstr "সংযোগ"
-
-#: ../interfaces/network.ui.h:14
-msgid "DNS"
-msgstr "DNS"
-
-#: ../interfaces/network.ui.h:15
-msgid "D_omain name:"
-msgstr "ডোমেইনের নাম: (_o)"
-
-#: ../interfaces/network.ui.h:16
-msgid "Delete current location"
-msgstr "বর্তমান অবস্থান মুছে ফেলুন"
-
-#: ../interfaces/network.ui.h:17
-msgid "E_nable roaming mode"
-msgstr "রোমিং মোড সক্রিয় করা হবে (_n)"
-
-#: ../interfaces/network.ui.h:18
-msgid "E_nable this connection"
-msgstr "চিহ্নিত সংযোগ সক্রিয় করা হবে (_n)"
-
-#: ../interfaces/network.ui.h:19
-msgid "Ethernet interface:"
-msgstr "ইথারনেট ইন্টারফেস:"
-
-#: ../interfaces/network.ui.h:20 ../interfaces/users.ui.h:21
-msgid "General"
-msgstr "সাধারণ"
-
-#: ../interfaces/network.ui.h:21
-#| msgid "WEP key (hexadecimal)"
-msgid "Hexadecimal"
-msgstr "হেক্সা-ডেসিমেল"
-
-#: ../interfaces/network.ui.h:22
-msgid "Host Alias Properties"
-msgstr "হোস্টের উপনাম সংক্রান্ত বৈশিষ্ট্য"
-
-#: ../interfaces/network.ui.h:23
-msgid "Hosts"
-msgstr "হোস্ট"
-
-#: ../interfaces/network.ui.h:24 ../interfaces/shares.ui.h:14
-msgid "IP address:"
-msgstr "IP ঠিকানা:"
-
-#: ../interfaces/network.ui.h:25
-msgid "Interface properties"
-msgstr "ইন্টারফেস সংক্রান্ত বৈশিষ্ট্য"
-
-#: ../interfaces/network.ui.h:26
-msgid "Location:"
-msgstr "অবস্থান:"
-
-#: ../interfaces/network.ui.h:27
-msgid "Loud"
-msgstr "জোরালো"
-
-#: ../interfaces/network.ui.h:28
-msgid "Low"
-msgstr "কম"
-
-#: ../interfaces/network.ui.h:29
-msgid "Medium"
-msgstr "মাঝারি"
-
-#: ../interfaces/network.ui.h:30
-msgid "Modem"
-msgstr "মোডেম"
-
-#: ../interfaces/network.ui.h:31
-msgid "Network _password:"
-msgstr "নেটওয়ার্ক পাসওয়ার্ড:(_p)"
-
-#: ../interfaces/network.ui.h:32
-msgid "Network name (_ESSID):"
-msgstr "নেটওয়ার্কের নাম (ESSID):(_E)"
-
-#: ../interfaces/network.ui.h:33
 msgid "Off"
 msgstr "বন্ধ"
 
-#: ../interfaces/network.ui.h:34
-msgid "Options"
-msgstr "বিকল্প"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
+msgstr "কম"
 
-#: ../interfaces/network.ui.h:35
-msgid "P_assword"
-msgstr "পাসওয়ার্ড (_a)"
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
+msgstr "মাঝারি"
 
-#: ../interfaces/network.ui.h:36
-msgid "Password _type:"
-msgstr "পাসওয়ার্ডের ধরন:(_t)"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr "জোরালো"
 
-#: ../interfaces/network.ui.h:37
-msgid "Plain (ASCII)"
-msgstr "প্লেইন (ASCII)"
-
-#: ../interfaces/network.ui.h:38
-#| msgid "Aliases"
-msgid "Pulses"
-msgstr "পাল্স"
-
-#: ../interfaces/network.ui.h:39
-msgid "Save current network configuration as a location"
-msgstr "বর্তমান নেটওয়ার্ক কনফিগারেশন একটি অবস্থানরূপে সংরক্ষণ করুন"
-
-#: ../interfaces/network.ui.h:40
+#: ../interfaces/network.ui.h:5
 msgid "Tones"
 msgstr "টোন"
 
-#: ../interfaces/network.ui.h:41
-msgid "Use the Internet service provider nameservers"
-msgstr "ইন্টারনেট পরিসেবা উপলব্ধকারীদের নেমসার্ভার ব্যবহার করা হবে"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr "পাল্স"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "স্বয়ংক্রিয় সনাক্তকরণ ব্যবস্থা (_A)"
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
+msgstr "প্লেইন (ASCII)"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
+msgstr "হেক্সা-ডেসিমেল"
+
+#: ../interfaces/network.ui.h:9
+msgid "Location:"
+msgstr "অবস্থান:"
+
+#: ../interfaces/network.ui.h:10
+msgid "Save current network configuration as a location"
+msgstr "বর্তমান নেটওয়ার্ক কনফিগারেশন একটি অবস্থানরূপে সংরক্ষণ করুন"
+
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr "বর্তমান অবস্থান মুছে ফেলুন"
+
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "সংযোগ"
+
+#: ../interfaces/network.ui.h:13
+msgid "_Host name:"
+msgstr "হোস্ট-নেম:(_H)"
+
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "ডোমেইনের নাম: (_o)"
+
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "হোস্ট সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "সাধারণ"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "DNS সার্ভার"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "অনুসন্ধানের ডোমেইন"
+
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "হোস্ট"
+
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr "ইন্টারফেস সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr "চিহ্নিত সংযোগ সক্রিয় করা হবে (_n)"
+
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr "রোমিং মোড সক্রিয় করা হবে (_n)"
+
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr "সংযোগের ধরন:"
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr "নেটওয়ার্কের নাম (ESSID):(_E)"
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "নেটওয়ার্ক পাসওয়ার্ড:(_p)"
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr "পাসওয়ার্ডের ধরন:(_t)"
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr "বেতার সংক্রান্ত বৈশিষ্ট্যাবলী"
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "কনফিগারেশন: (_f)"
+
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "IP ঠিকানা: (_I)"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "সাবনেট মাস্ক: (_S)"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "গেটওয়ের ঠিকানা: (_G)"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "সংযোগ সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "স্থানীয় IP: (_L)"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "দূরবর্তী IP: (_R)"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "ফোন নম্বর: (_P)"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "ডায়াল করার পূর্বে উল্লিখিত সংখ্যা: (_D)"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "অ্যাকসেস পয়েন্টের নাম:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "ইন্টারনেট পরিসেবা উপলব্ধকারী সংক্রান্ত তথ্য"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "ব্যবহারকারী নাম: (_U)"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "পাসওয়ার্ড (_a)"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "অ্যাকাউন্ট সংক্রান্ত তথ্য"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "মোডেমের পোর্ট:(_M)"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "ডায়াল করার প্রকৃতি: (_D)"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "গেটওয়ের ঠিকানা: (_G)"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "হোস্ট-নেম:(_H)"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "IP ঠিকানা: (_I)"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "স্থানীয় IP: (_L)"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "মোডেমের পোর্ট:(_M)"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "ফোন নম্বর: (_P)"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "দূরবর্তী IP: (_R)"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "সংযোগ বিচ্ছিন্ন হলে অথবা স্থাপিত না হলে পুনরা চেষ্টা করা হবে (_R)"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "ইন্টারনেটের সাথে সংযোগ স্থাপনের ডিফল্ট পদ্ধতি হিসাবে মোডেম ব্যবহৃত হবে (_S)"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "সাবনেট মাস্ক: (_S)"
-
-#: ../interfaces/network.ui.h:55 ../interfaces/users.ui.h:59
-msgid "_Username:"
-msgstr "ব্যবহারকারী নাম: (_U)"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "আওয়াজ:(_V)"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "উন্নত বৈশিষ্ট্য:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "স্বয়ংক্রিয় সনাক্তকরণ ব্যবস্থা (_A)"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "ইথারনেট ইন্টারফেস:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "মোডেম সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "মোডেম"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "ইন্টারনেটের সাথে সংযোগ স্থাপনের ডিফল্ট পদ্ধতি হিসাবে মোডেম ব্যবহৃত হবে (_S)"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "ইন্টারনেট পরিসেবা উপলব্ধকারীদের নেমসার্ভার ব্যবহার করা হবে"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "সংযোগ বিচ্ছিন্ন হলে অথবা স্থাপিত না হলে পুনরা চেষ্টা করা হবে (_R)"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "বিকল্প"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "হোস্টের উপনাম সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "IP ঠিকানা:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "উপনাম:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "সক্রিয় করার উদ্দেশ্যে প্রয়োজনীয় পরিসেবা নির্বাচন করুন:"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "উন্নত বৈশিষ্ট্য:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Allowed Hosts"
-msgstr "অনুমতি প্রাপ্ত হোস্ট"
-
-#: ../interfaces/shares.ui.h:2
-msgid "Hosts Settings"
-msgstr "হোস্ট সংক্রান্ত বৈশিষ্ট্য"
-
-#: ../interfaces/shares.ui.h:3
-msgid "Share Properties"
-msgstr "শেয়ার সংক্রান্ত বৈশিষ্ট্য"
-
-#: ../interfaces/shares.ui.h:4
-msgid "Shared Folder"
-msgstr "শেয়ার করা ফোল্ডার"
-
-#: ../interfaces/shares.ui.h:5
-msgid "Windows sharing"
-msgstr "Windows শেয়ার"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user:"
-msgstr "ব্যবহারকারীর পাসওয়ার্ড লিখুন:"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Add allowed hosts"
-msgstr "অনুমোদিত হোস্ট যোগ করুন"
-
-#: ../interfaces/shares.ui.h:8
-msgid "Allowed hosts:"
-msgstr "অনুমোদিত হোস্ট:"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Comment:"
-msgstr "বক্তব্য:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Domain / _Workgroup:"
-msgstr "ডোমেইন / ওয়ার্কগ্রুপ (_W)"
-
-#: ../interfaces/shares.ui.h:11
-msgid "Enter password for user"
-msgstr "ব্যবহারকারী পাসওয়ার্ড লিখুন"
-
-#: ../interfaces/shares.ui.h:12
-msgid "General Properties"
-msgstr "সাধারণ বৈশিষ্ট্য"
-
-#: ../interfaces/shares.ui.h:13
-msgid "Host name:"
-msgstr "হোস্ট-নেম:"
-
-#: ../interfaces/shares.ui.h:15
-msgid "Name:"
-msgstr "নাম:"
-
-#: ../interfaces/shares.ui.h:16
-msgid "Netmask:"
-msgstr "নেটমাস্ক:"
-
-#: ../interfaces/shares.ui.h:17
-msgid "Network:"
-msgstr "নেটওয়ার্ক:"
-
-#: ../interfaces/shares.ui.h:18 ../src/shares/nfs-acl-table.c:56
-msgid "Read only"
-msgstr "শুধুমাত্র পাঠযোগ্য"
-
-#: ../interfaces/shares.ui.h:19
-#| msgid "Start"
-msgid "Share"
-msgstr "যৌথ ব্যবহার"
-
-#: ../interfaces/shares.ui.h:20
-msgid "Share through:"
-msgstr "চিহ্নিত বস্তু দ্বারা শেয়ার করা হবে:"
-
-#: ../interfaces/shares.ui.h:21 ../src/shares/shares.desktop.in.in.h:2
-#: ../src/shares/shares-tool.c:239
-msgid "Shared Folders"
-msgstr "শেয়ার করা ফোল্ডার"
-
-#: ../interfaces/shares.ui.h:22
-msgid "This computer is a _WINS server"
-msgstr "বর্তমান কম্পিউটার একটি WINS সার্ভার (_W)"
-
-#: ../interfaces/shares.ui.h:23
-msgid "Users"
-msgstr "ব্যবহারকারী"
-
-#: ../interfaces/shares.ui.h:24
-msgid "WINS _server:"
-msgstr "WINS সার্ভার ব্যবহার করা হবে:(_s)"
-
-#: ../interfaces/shares.ui.h:25
 msgid "_Path:"
 msgstr "পাথ:(_P)"
 
-#: ../interfaces/shares.ui.h:26
+#: ../interfaces/shares.ui.h:2
+msgid "Share through:"
+msgstr "চিহ্নিত বস্তু দ্বারা শেয়ার করা হবে:"
+
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr "শেয়ার করা ফোল্ডার"
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr "বক্তব্য:"
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr "নাম:"
+
+#: ../interfaces/shares.ui.h:6
 msgid "_Read only"
 msgstr "শুধুমাত্র পাঠযোগ্য (_R)"
 
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "শেয়ার সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "অনুমতি প্রাপ্ত হোস্ট"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "যৌথ ব্যবহার"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "অনুমোদিত হোস্ট যোগ করুন"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "অনুমোদিত হোস্ট:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "হোস্ট-নেম:"
+
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr "নেটওয়ার্ক:"
+
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "নেটমাস্ক:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr "শুধুমাত্র পাঠযোগ্য"
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr "হোস্ট সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
+#: ../src/shares/shares-tool.c:237
+msgid "Shared Folders"
+msgstr "শেয়ার করা ফোল্ডার"
+
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "ডোমেইন / ওয়ার্কগ্রুপ (_W)"
+
+#: ../interfaces/shares.ui.h:20
+msgid "This computer is a _WINS server"
+msgstr "বর্তমান কম্পিউটার একটি WINS সার্ভার (_W)"
+
+#: ../interfaces/shares.ui.h:21
+msgid "WINS _server:"
+msgstr "WINS সার্ভার ব্যবহার করা হবে:(_s)"
+
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr "Windows শেয়ার"
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "সাধারণ বৈশিষ্ট্য"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "ব্যবহারকারী"
+
+#: ../interfaces/shares.ui.h:25
+msgid "Enter password for user"
+msgstr "ব্যবহারকারী পাসওয়ার্ড লিখুন"
+
+#: ../interfaces/shares.ui.h:26
+msgid "Enter password for user:"
+msgstr "ব্যবহারকারীর পাসওয়ার্ড লিখুন:"
+
 #: ../interfaces/time.ui.h:1
-msgid "Selection"
-msgstr "নির্বাচন"
+msgid "Time zone"
+msgstr "সময়ের অঞ্চল"
 
 #: ../interfaces/time.ui.h:2
 msgid "Time Zone"
 msgstr "সময়ের অঞ্চল"
 
 #: ../interfaces/time.ui.h:3
-msgid "Add NTP Server"
-msgstr "NTP সার্ভার যোগ করুন"
-
-#: ../interfaces/time.ui.h:4
-msgid "NTP server"
-msgstr "NTP সার্ভার"
-
-#: ../interfaces/time.ui.h:5
-msgid "Se_lect Servers"
-msgstr "সার্ভার নির্বাচন করুন(_l)"
-
-#: ../interfaces/time.ui.h:6
-msgid "Synchronize now"
-msgstr "এখন সুসংগত করা হবে"
-
-#: ../interfaces/time.ui.h:7
-msgid "Time servers"
-msgstr "সময়ের সার্ভার"
-
-#: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "সময়ের সার্ভার:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "সময়ের অঞ্চল"
-
-#: ../interfaces/time.ui.h:10
 msgid "Time zone:"
 msgstr "সময়ের অঞ্চল:"
 
-#: ../interfaces/time.ui.h:11
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr "নির্বাচন"
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr "সময়ের সার্ভার"
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "NTP সার্ভার"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "NTP সার্ভার যোগ করুন"
+
+#: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
 msgstr "কনফিগার করা হয়নি"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "কনফিগারেশন: (_C)"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "সময়ের সার্ভার:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "সার্ভার নির্বাচন করুন(_l)"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "সময়:(_T)"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "তারিখ:(_D)"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "সময়:(_T)"
+msgid "Synchronize now"
+msgstr "এখন সুসংগত করা হবে"
 
 #: ../interfaces/users.ui.h:1
-msgid "Advanced Settings"
-msgstr "উন্নত বৈশিষ্ট্য"
-
-#: ../interfaces/users.ui.h:2
-msgid "Automatic UID/GID"
-msgstr "স্বয়ংক্রিয় UID/GID"
-
-#: ../interfaces/users.ui.h:3
-msgid "Basic Settings"
-msgstr "মৌলিক বৈশিষ্ট্যাবলী"
-
-#: ../interfaces/users.ui.h:4
-msgid "Group Members"
-msgstr "দলের সদস্যবৃন্দ"
-
-#: ../interfaces/users.ui.h:5
-msgid "Optional Settings"
-msgstr "ঐচ্ছিক বৈশিষ্ট্য"
-
-#: ../interfaces/users.ui.h:6
-msgid "Password Settings"
-msgstr "পাসওয়ার্ড সংক্রান্ত বৈশিষ্ট্য"
-
-
-
-#: ../interfaces/users.ui.h:9
-msgid "System Defaults"
-msgstr "সিস্টেমের ডিফল্ট মান"
-
-#: ../interfaces/users.ui.h:10
-msgid "Account"
-msgstr "অ্যাকাউন্ট"
-
-#: ../interfaces/users.ui.h:11
-msgid "Advanced"
-msgstr "উন্নত"
-
-#: ../interfaces/users.ui.h:12
-msgid ""
-"Allow this user to open a local session without entering his password. The "
-"password will still be required to perform administrative tasks."
-msgstr "এই ব্যবহারকারীর জন্য পাসওয়ার্ড প্রয়োগ না করে স্থানীয় সেশান আরম্ভের অনুমতি প্রদান করা হবে। তথাপি, প্রশাসনিক কর্ম সঞ্চালনার জন্য পাসওয়ার্ড উল্লেখ করা প্রয়োজন হবে।"
-
-#: ../interfaces/users.ui.h:13
-msgid "Assign a random password by default"
-msgstr "ডিফল্ট রূপে যথেচ্ছ পাসওয়ার্ড স্থাপিত হবে"
-
-#: ../interfaces/users.ui.h:14
-msgid "Check password _quality"
-msgstr "পাসওয়ার্ডের দৃঢ়তা পরীক্ষা করা হবে (_q)"
-
-#: ../interfaces/users.ui.h:15
-msgid "Con_firmation:"
-msgstr "নিশ্চায়ন:(_f)"
-
-#: ../interfaces/users.ui.h:16
-
-#: ../interfaces/users.ui.h:17
-msgid "Days between warning and password expiration:"
-msgstr ""
-"পাসওয়ার্ডের মেয়াদ উত্তীর্ণ হওয়ার সতর্কবার্তা এবং অকার্য়করী হওয়ার সঠিক তারিখের "
-"মধ্যবর্তী দিনের সংখ্যা :"
-
-#: ../interfaces/users.ui.h:18
-msgid "Default _group:"
-msgstr "ডিফল্ট দল: (_g)"
-
-#: ../interfaces/users.ui.h:19
-msgid "Default _shell:"
-msgstr "ডিফল্ট শেল: (_s)"
-
-#: ../interfaces/users.ui.h:20
-msgid "Don't ask for password on _login"
-msgstr "লগ-ইনের সময় পাসওয়ার্ড লেখঅর অনুরোধ করা হবে না (_l)"
-
-#: ../interfaces/users.ui.h:22
-msgid "Generate _random password"
-msgstr "যথেচ্ছ পাসওয়ার্ড নির্মাণ করা হবে (_r)"
-
-#: ../interfaces/users.ui.h:23
-msgid "Group _ID:"
-msgstr "দলের ID:(_I)"
-
-#: ../interfaces/users.ui.h:24
-msgid "Group _name:"
-msgstr "দলের নাম:(_n)"
-
-#: ../interfaces/users.ui.h:25
-msgid "Group properties"
-msgstr "দলের বৈশিষ্ট্য"
-
-#: ../interfaces/users.ui.h:26
-msgid "Groups settings"
-msgstr "দল সংক্রান্ত বৈশিষ্ট্য"
-
-#: ../interfaces/users.ui.h:27
-msgid "Ma_ximum days a password may be used:"
-msgstr "সর্বাধিক যে সংখ্যক দিন একটি পাসওয়ার্ড ব্যবহার করা সম্ভব:(_x)"
-
-#: ../interfaces/users.ui.h:28
-#| msgid "Maximum UID:"
-msgid "Maximum GID:"
-msgstr "সর্বাধিক GID:"
-
-#: ../interfaces/users.ui.h:29
-msgid "Maximum UID:"
-msgstr "সর্বাধিক UID:"
-
-#: ../interfaces/users.ui.h:30
-msgid "Mi_nimum days between password changes:"
-msgstr "পাসওয়ার্ড পরিবর্তনের মধ্যবর্তী সর্বনিম্ন দিনের সংখ্যা: (_i)"
-
-#: ../interfaces/users.ui.h:31
-msgid "Minimum GID:"
-msgstr "সর্বনিম্ন GID:"
-
-#: ../interfaces/users.ui.h:32
-msgid "Minimum UID:"
-msgstr "সর্বনিম্ন UID:"
-
-#: ../interfaces/users.ui.h:33
-msgid "Minimum days allowed between password changes:"
-msgstr "পাসওয়ার্ড পরিবর্তনের পূর্বে অপেক্ষার সর্বনিম্ন দিনের সংখ্যা:"
-
-#: ../interfaces/users.ui.h:34
-msgid "Number of days that a password may be used:"
-msgstr "একটি পাসওয়ার্ড যে সংখ্যক দিন ব্যবহার করা সম্ভব:"
-
-#: ../interfaces/users.ui.h:35
-msgid "O_ffice location:"
-msgstr "অফিসের অবস্থান:(_f)"
-
-#: ../interfaces/users.ui.h:36
-msgid "Password set to: "
-msgstr "নির্ধারিত পাসওয়ার্ড: "
-
-#: ../interfaces/users.ui.h:37
-msgid "Privileges"
-msgstr "অধিকার"
-
-#: ../interfaces/users.ui.h:38
-msgid "Profile _name:"
-msgstr "প্রোফাইলের নাম:(_n)"
-
-#: ../interfaces/users.ui.h:39
-msgid "Set password b_y hand"
-msgstr "পাসওয়ার্ড স্বয়ং নির্ধারণ করুন (_y)"
-
-#: ../interfaces/users.ui.h:40
-msgid "User ID:"
-msgstr "ব্যবহারকারীর ID:"
-
-#: ../interfaces/users.ui.h:41
-msgid "User Privileges"
-msgstr "ব্যবহারকারীর অধিকার"
-
-#: ../interfaces/users.ui.h:42
-msgid "User _password:"
-msgstr "ব্যবহারকারীর পাসওয়ার্ড:(_p)"
-
-#: ../interfaces/users.ui.h:43
-msgid "User must log out before you can change his ID."
-msgstr "নিজের ID পরিবর্তনের পূর্বে ব্যবহারকারীর লগ-আউট করা আবশ্যক।"
-
-#: ../interfaces/users.ui.h:44
-msgid "User profiles"
-msgstr "ব্যবহারকারীর প্রোফাইল"
-
-#: ../interfaces/users.ui.h:45
-msgid "_Add Group"
-msgstr "দল যোগ করুন (_A)"
-
-#: ../interfaces/users.ui.h:46
-msgid "_Add Profile"
-msgstr "প্রোফাইল যোগ করুন (_A)"
-
-#: ../interfaces/users.ui.h:47
-msgid "_Add User"
-msgstr "ব্যবহারকারী যোগ করুন (_A)"
-
-#: ../interfaces/users.ui.h:48
-msgid "_Comments"
-msgstr "বক্তব্য (_C)"
-
-#: ../interfaces/users.ui.h:49
-msgid "_Days between warning and password expiration:"
-msgstr ""
-"পাসওয়ার্ডের মেয়াদ পূর্তীর সতর্কবার্তা এবং তা পূর্তীর সঠিক তারিখের মধ্যবর্তী দিনের "
-"সংখ্যা: (_D)"
-
-#: ../interfaces/users.ui.h:50 ../src/network/address-list.c:77
-#: ../src/network/hosts.c:33 ../src/shares/table.c:40 ../src/users/table.c:40
-msgid "_Delete"
-msgstr "মুছে ফেলুন (_D)"
-
-#: ../interfaces/users.ui.h:51
-msgid "_Generate"
-msgstr "উত্‌পন্ন করুন (_G)"
-
-#: ../interfaces/users.ui.h:52
-msgid "_Home directory:"
-msgstr "ব্যক্তিগত ডিরেক্টরি:(_H)"
-
-#: ../interfaces/users.ui.h:53
-msgid "_Home phone:"
-msgstr "বাড়ির ফোন:(_H)"
-
-#: ../interfaces/users.ui.h:54
-msgid "_Main group:"
-msgstr "প্রধান দল:(_M)"
-
-#: ../interfaces/users.ui.h:55
 msgid "_Manage Groups"
 msgstr "দল পরিচালনা (_M)"
 
-#: ../interfaces/users.ui.h:56
-msgid "_Profile:"
-msgstr "প্রোফাইল:(_P)"
+#: ../interfaces/users.ui.h:2
+msgid "Account _type:"
+msgstr ""
 
-#: ../interfaces/users.ui.h:57
-msgid "_Real name:"
-msgstr "সঠিক নাম:(_R)"
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr ""
 
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "পাসওয়ার্ড: (_P)"
+
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr ""
+
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:8
+msgid "Group properties"
+msgstr "দলের বৈশিষ্ট্য"
+
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "মৌলিক বৈশিষ্ট্যাবলী"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "দলের নাম:(_n)"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "দলের ID:(_I)"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "দলের সদস্যবৃন্দ"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "প্রোফাইলের নাম:(_n)"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "বক্তব্য (_C)"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "সিস্টেমের ডিফল্ট মান"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "ব্যক্তিগত ডিরেক্টরি:(_H)"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "ডিফল্ট শেল: (_s)"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "ডিফল্ট দল: (_g)"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "পাসওয়ার্ড সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "একটি পাসওয়ার্ড যে সংখ্যক দিন ব্যবহার করা সম্ভব:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "পাসওয়ার্ড পরিবর্তনের পূর্বে অপেক্ষার সর্বনিম্ন দিনের সংখ্যা:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "পাসওয়ার্ডের মেয়াদ উত্তীর্ণ হওয়ার সতর্কবার্তা এবং অকার্য়করী হওয়ার সঠিক তারিখের মধ্যবর্তী দিনের সংখ্যা :"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "ডিফল্ট রূপে যথেচ্ছ পাসওয়ার্ড স্থাপিত হবে"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "স্বয়ংক্রিয় UID/GID"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "সর্বাধিক UID:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "সর্বাধিক GID:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "সর্বনিম্ন UID:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "সর্বনিম্ন GID:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "অধিকার"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "ব্যবহারকারীর প্রোফাইল"
+
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr "প্রোফাইল যোগ করুন (_A)"
+
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr "দল সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr ""
+
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr ""
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "নিশ্চায়ন:(_f)"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "নির্ধারিত পাসওয়ার্ড: "
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "উত্‌পন্ন করুন (_G)"
+
+#: ../interfaces/users.ui.h:43
+msgid "Set password b_y hand"
+msgstr "পাসওয়ার্ড স্বয়ং নির্ধারণ করুন (_y)"
+
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "যথেচ্ছ পাসওয়ার্ড নির্মাণ করা হবে (_r)"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "লগ-ইনের সময় পাসওয়ার্ড লেখঅর অনুরোধ করা হবে না (_l)"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr ""
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr ""
+
+#: ../interfaces/users.ui.h:52
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr ""
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr ""
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
+msgstr ""
+
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
 #: ../interfaces/users.ui.h:58
+msgid ""
+"Username must consist of:\n"
+"  ➣ lower case letters from the English alphabet\n"
+"  ➣ digits\n"
+"  ➣ any of the characters \".\", \"-\" and \"_\""
+msgstr ""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr ""
+
+#: ../interfaces/users.ui.h:63
+msgid "Username must start with a letter!"
+msgstr ""
+
+#: ../interfaces/users.ui.h:64
+msgid "_Encrypt home folder to protect sensitive data"
+msgstr ""
+
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr ""
+
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "অফিসের অবস্থান:(_f)"
+
+#: ../interfaces/users.ui.h:69
+msgid "_Work phone:"
+msgstr "কর্মস্থলের ফোন:(_W)"
+
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "বাড়ির ফোন:(_H)"
+
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr ""
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "ব্যবহারকারীর অধিকার"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "উন্নত বৈশিষ্ট্য"
+
+#: ../interfaces/users.ui.h:74
 msgid "_Shell:"
 msgstr "শেল:(_S)"
 
-#: ../interfaces/users.ui.h:60
-msgid "_Work phone:"
-msgstr "কর্মস্থলের ফোন:(_W)"
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "প্রধান দল:(_M)"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "ব্যবহারকারীর ID:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr ""
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "ঐচ্ছিক বৈশিষ্ট্য"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "পাসওয়ার্ড পরিবর্তনের মধ্যবর্তী সর্বনিম্ন দিনের সংখ্যা: (_i)"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "সর্বাধিক যে সংখ্যক দিন একটি পাসওয়ার্ড ব্যবহার করা সম্ভব:(_x)"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "পাসওয়ার্ডের মেয়াদ পূর্তীর সতর্কবার্তা এবং তা পূর্তীর সঠিক তারিখের মধ্যবর্তী দিনের সংখ্যা: (_D)"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "উন্নত"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr ""
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -682,59 +758,69 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr ""
-"নীচে উল্লিখিত কোনো একটি প্ল্যাটফর্মে রূপে এটি চালতে সক্ষম জানলে সেটি নির্বাচন করে "
-"এগিয়ে চলুন। উল্লেখ্য, এর ফলের সিস্টেমের কনফিগারেশন ক্ষতিগ্রস্থ হতে পারে অথবা "
-"কম্পিউটারের কর্মহানী হওয়া সম্ভব।"
+msgstr "নীচে উল্লিখিত কোনো একটি প্ল্যাটফর্মে রূপে এটি চালতে সক্ষম জানলে সেটি নির্বাচন করে এগিয়ে চলুন। উল্লেখ্য, এর ফলের সিস্টেমের কনফিগারেশন ক্ষতিগ্রস্থ হতে পারে অথবা কম্পিউটারের কর্মহানী হওয়া সম্ভব।"
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
 msgstr "অসমর্থিত প্ল্যাটফর্ম"
 
-#: ../src/common/gst-tool.c:179 ../src/common/gst-tool.c:213
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr "কনফিগারেশন লোড করা যায়নি"
 
-#: ../src/common/gst-tool.c:180
-msgid "You are not allowed to access the system configuration."
-msgstr "আপনি সিস্টেম কনফিগারেশন পড়তে অনুমতিপ্রাপ্ত নন।"
-
-#: ../src/common/gst-tool.c:182 ../src/common/gst-tool.c:215
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:190
 msgid "The configuration could not be saved"
 msgstr "কনফিগারেশন সংরক্ষণ করা যায়নি"
 
-#: ../src/common/gst-tool.c:183
+#: ../src/common/gst-tool.c:194
+msgid "You are not allowed to access the system configuration."
+msgstr "আপনি সিস্টেম কনফিগারেশন পড়তে অনুমতিপ্রাপ্ত নন।"
+
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
 msgstr "আপনি সিস্টেম কনফিগারেশন পরিবর্তন করতে অনুমিতপ্রাপ্ত নন।"
 
-#: ../src/common/gst-tool.c:218
+#: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
 msgstr "অবৈধ তথ্য পাওয়া গিয়েছে।"
 
 #. OOBS_RESULT_ERROR
-#: ../src/common/gst-tool.c:220
-#| msgid "An unexpected error has occurred."
+#: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
 msgstr "অজানা ত্রুটি উৎেন্ন হয়েছে।"
 
-#: ../src/common/gst-tool.c:442
+#: ../src/common/gst-tool.c:422
 msgid "Could not display help"
 msgstr "সহায়িকা প্রদর্শন করা যায়নি"
 
-#: ../src/common/gst-tool.c:626
+#: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
 msgstr "সিস্টেম কনফিগারেশন সম্ভবত পরিবর্তিত হয়েছে।"
 
-#: ../src/common/gst-tool.c:628
+#: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
 msgstr "বিষয় আপডেট করা হবে কি? এর ফলে, পরিবর্তনগুলি মুছে যাবে।"
 
+#: ../src/common/gst-tool.c:687
+#, c-format
+msgid ""
+"An error occurred while checking for authorizations: %s\n"
+"You may report this as a bug."
+msgstr ""
+
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
-#: ../src/shares/table.c:38 ../src/users/table.c:38
+#: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
 msgstr "যোগ করুন (_A)"
 
-#: ../src/network/address-list.c:486
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
+msgid "_Delete"
+msgstr "মুছে ফেলুন (_D)"
+
+#: ../src/network/address-list.c:485
 msgid "Type address"
 msgstr "ঠিকানা লিখুন"
 
@@ -750,9 +836,7 @@ msgstr "মোডেম ডিভাইস স্বয়ংক্রিয়রূ�
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
-msgstr ""
-"অনুগ্রহ করে পরীক্ষা করুন ডিভাইসটি বর্তমানে ব্যস্ত আছে কি না এবং তা কম্পিউটারের সাথে "
-"সঠিকভাবে সংযুক্ত আছে কি না।"
+msgstr "অনুগ্রহ করে পরীক্ষা করুন ডিভাইসটি বর্তমানে ব্যস্ত আছে কি না এবং তা কম্পিউটারের সাথে সঠিকভাবে সংযুক্ত আছে কি না।"
 
 #: ../src/network/callbacks.c:523
 msgid "The host name has changed"
@@ -762,9 +846,7 @@ msgstr "হোস্ট-নেম পরিবর্তিত হয়েছে"
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr ""
-"এর দরুন নতুন অ্যাপ্লিকেশন আরম্ভ করতে প্রতিরোধ করা হবে এবং আপনাকে পুনরায় লগ-ইন করতে "
-"হবে। এগিয়ে যাবেন কি?"
+msgstr "এর দরুন নতুন অ্যাপ্লিকেশন আরম্ভ করতে প্রতিরোধ করা হবে এবং আপনাকে পুনরায় লগ-ইন করতে হবে। এগিয়ে যাবেন কি?"
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
@@ -820,7 +902,7 @@ msgid "%s Properties"
 msgstr "%s বৈশিষ্ট্যাবলী"
 
 #: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
-#: ../src/shares/table.c:39 ../src/users/table.c:39
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "বৈশিষ্ট্যাবলী (_P)"
 
@@ -842,61 +924,48 @@ msgstr "রোমিং মোড সক্রিয় করা হয়েছে"
 
 #: ../src/network/ifaces-list.c:289
 #, c-format
-msgid "Essid: %s "
-msgstr "Essid: %s "
+msgid "<b>Essid:</b> %s "
+msgstr ""
 
-#: ../src/network/ifaces-list.c:295
-#, c-format
-msgid "Address: %s Subnet mask: %s"
-msgstr "ঠিকানা: %s সাবনেট মাস্ক: %s"
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:299
-#, c-format
-msgid "Address: %s"
-msgstr "ঠিকানা: %s"
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:303
-#, c-format
-msgid "Address: %s Remote address: %s"
-msgstr "ঠিকানা: %s দূরবর্তী: %s"
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:315
-#, c-format
-msgid "Type: %s Phone number: %s"
-msgstr "ধরন: %s দূরভাষ: %s"
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:318
-#, c-format
-msgid "Type: %s Access point name: %s"
-msgstr "ধরন: %s অ্যাকসেস পয়েন্টের নাম: %s"
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr ""
 
-#: ../src/network/ifaces-list.c:325
-#, c-format
-msgid "Type: %s Ethernet interface: %s"
-msgstr "ধরন: %s ইথারনেট ইন্টারফেস: %s"
-
-#: ../src/network/ifaces-list.c:329
-#, c-format
-msgid "Type: %s"
-msgstr "ধরন: %s"
-
-#: ../src/network/ifaces-list.c:346
+#: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
 msgstr "বেতার সংযোগ"
 
-#: ../src/network/ifaces-list.c:348
+#: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
 msgstr "ইনফ্রারেড সংযোগ"
 
-#: ../src/network/ifaces-list.c:350
+#: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
 msgstr "বেতার সংযোগ"
 
-#: ../src/network/ifaces-list.c:352
+#: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
 msgstr "প্যারালেল পোর্ট সংযোগ ব্যবস্থা"
 
-#: ../src/network/ifaces-list.c:354
+#: ../src/network/ifaces-list.c:364
 msgid "Point to point connection"
 msgstr "পয়েন্ট-থেকে-পয়েন্ট সংযোগ ব্যবস্থা"
 
@@ -933,9 +1002,7 @@ msgstr "ইন্টারফেসটি বর্তমানে উপস্�
 msgid ""
 "Check that it is correctly typed and that it is correctly supported by your "
 "system."
-msgstr ""
-"অনুগ্রহ করে পরীক্ষা করুন এটি সঠিকরূপে টাইপ করা হয়েছে কিনা এবং আপনার সিস্টেমের "
-"দ্বারা সমর্থিত কিনা।"
+msgstr "অনুগ্রহ করে পরীক্ষা করুন এটি সঠিকরূপে টাইপ করা হয়েছে কিনা এবং আপনার সিস্টেমের দ্বারা সমর্থিত কিনা।"
 
 #: ../src/network/main.c:183
 msgid "Configure a network interface"
@@ -953,35 +1020,33 @@ msgstr "সুনির্দিষ্ট ধরন সহ প্রথম ন�
 msgid "TYPE"
 msgstr "TYPE"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "নেটওয়ার্ক ডিভাইস এবং সংযোগ কনফিগার করুন"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "নেটওয়ার্ক"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "নেটওয়ার্ক ডিভাইস এবং সংযোগ কনফিগার করুন"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
 msgstr "নেটওয়ার্ক সংক্রান্ত বৈশিষ্ট্য"
 
-#: ../src/services/callbacks.c:59
+#: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
 msgstr "%s পরিসেবা সংক্রান্ত বৈশিষ্ট্য"
 
-#: ../src/services/callbacks.c:119
+#: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
 msgstr "আপনি কি নিশ্চিতরূপে \"%s\" নিষ্ক্রিয় করতে ইচ্ছুক?"
 
-#: ../src/services/callbacks.c:123
+#: ../src/services/callbacks.c:126
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
-msgstr ""
-"এর ফলে আপনার সিস্টেমের আচরণ প্রভাবিত হওয়ার সম্ভাবনা রয়েছে যার দরুণ সংরক্ষিত তথ্যের "
-"হানি হতে পারে।"
+msgstr "এর ফলে আপনার সিস্টেমের আচরণ প্রভাবিত হওয়ার সম্ভাবনা রয়েছে যার দরুণ সংরক্ষিত তথ্যের হানি হতে পারে।"
 
 #: ../src/services/service.c:32
 msgid "Web server"
@@ -1387,17 +1452,16 @@ msgstr "সিস্টেম নিরীক্ষণ ব্যবস্থা"
 
 #. GST_ROLE_SYSTEM_MONITORING
 #: ../src/services/service.c:104
-#| msgid "Logical volume management"
 msgid "Virtual Machine management"
 msgstr "ভার্চুয়াল মেশিন পরিচালনা"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "সিস্টেম আরম্ভ কালে চালনার উদ্দেশ্যে পরিসেবাগুলি কনফিগার করুন"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "পরিসেবা"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "সিস্টেম আরম্ভ কালে চালনার উদ্দেশ্যে পরিসেবাগুলি কনফিগার করুন"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1428,7 +1492,7 @@ msgstr "অবস্থা"
 msgid "Priority"
 msgstr "গুরুত্ব"
 
-#: ../src/services/services-tool.c:99
+#: ../src/services/services-tool.c:106
 msgid "Services Settings"
 msgstr "পরিসেবা সংক্রান্ত বৈশিষ্ট্য"
 
@@ -1448,11 +1512,11 @@ msgstr "শেয়ার করা পাথ যোগ করে, পাথ উ�
 msgid "PATH"
 msgstr "PATH"
 
-#: ../src/shares/caja/caja-shares.c:152
+#: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
 msgstr "শেয়ার করা ফোল্ডার... (_S)"
 
-#: ../src/shares/caja/caja-shares.c:153
+#: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
 msgstr "চিহ্নিত ফোল্ডারটি অন্যান্য কম্পিউটারের সাথে শেয়ার করা হবে"
 
@@ -1472,7 +1536,7 @@ msgstr "IP ঠিকানা উল্লেখ করুন"
 msgid "Specify network"
 msgstr "নেটওয়ার্ক উল্লেখ করুন"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "নেটওয়ার্ক পরিবেশে উপলব্ধ ফোল্ডার চিহ্নিত করুন"
 
@@ -1494,349 +1558,560 @@ msgstr "Unix নেটওয়ার্ক (NFS)"
 
 #: ../src/shares/share-settings.c:462
 #, c-format
-#| msgid "Settings for service \"%s\""
 msgid "Settings for folder '%s'"
 msgstr "'%s' ফোল্ডার সংক্রান্ত বৈশিষ্ট্য"
 
 #: ../src/shares/share-settings.c:469
-#| msgid "Shared Folders"
 msgid "Share Folder"
 msgstr "শেয়ার করা ফোল্ডার"
 
-#: ../src/shares/shares-tool.c:155
+#: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
 msgstr "যৌথ ব্যবহারের পরিসেবা সমর্থন বর্তমানে ইনস্টল করা হয়নি"
 
-#: ../src/shares/shares-tool.c:157
+#: ../src/shares/shares-tool.c:154
 msgid ""
 "You need to install at least either Samba or NFS in order to share your "
 "folders."
+msgstr "অন্য ব্যবহারকারীদের সাথে নিজের ফোল্ডার ব্যবহার করতে ইচ্ছুক হলে অন্তত Samba অথবা NFS ইনস্টল করা আবশ্যক।"
+
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
 msgstr ""
-"অন্য ব্যবহারকারীদের সাথে নিজের ফোল্ডার ব্যবহার করতে ইচ্ছুক হলে অন্তত Samba অথবা NFS "
-"ইনস্টল করা আবশ্যক।"
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "সিস্টেমের সময়, তারিখ এবং সময়ের-অঞ্চল পরিবর্তন করুন"
+#: ../src/time/e-map/e-map.c:622
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
+msgstr ""
 
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "সময় এবং তারিখ"
 
-#: ../src/time/time-tool.c:390
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "সিস্টেমের সময়, তারিখ এবং সময়ের-অঞ্চল পরিবর্তন করুন"
+
+#: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
 msgstr "NTP সমর্থন বর্তমানে ইনস্টল করা হয়নি"
 
-#: ../src/time/time-tool.c:392
+#: ../src/time/time-tool.c:400
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr ""
-"আপনার স্থানীয় টাইম সার্ভারের সাথে ইন্টারনেট টাইম সার্ভার সুসংগত করতে, অনুগ্রহ করে "
-"NTP সমর্থন সক্রিয় করুন।"
+msgstr "আপনার স্থানীয় টাইম সার্ভারের সাথে ইন্টারনেট টাইম সার্ভার সুসংগত করতে, অনুগ্রহ করে NTP সমর্থন সক্রিয় করুন।"
 
-#: ../src/time/time-tool.c:422
+#: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
 msgstr "NTP সক্রিয় করা হচ্ছে"
 
-#: ../src/time/time-tool.c:422
+#: ../src/time/time-tool.c:429
 msgid "Disabling NTP"
 msgstr "NTP নিষ্ক্রিয় করা হচ্ছে"
 
-#: ../src/time/time-tool.c:434
+#: ../src/time/time-tool.c:441
 msgid "Synchronizing system clock"
 msgstr "সিস্টেমের ঘড়ি সুসংগত করা হচ্ছে"
 
-#: ../src/time/time-tool.c:514
+#: ../src/time/time-tool.c:521
 msgid "Keep synchronized with Internet servers"
 msgstr "ইন্টারনেট সার্ভারের সাথে সুসংগত করা হবে"
 
-#: ../src/time/time-tool.c:515
+#: ../src/time/time-tool.c:522
 msgid "Manual"
 msgstr "ব্যবহারকারী দ্বারা"
 
-#: ../src/time/time-tool.c:661
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "সময় এবং তারিখ সংক্রান্ত বৈশিষ্ট্য"
 
-#: ../src/users/group-settings.c:52
+#: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
 msgstr "অ্যাডমিনিস্ট্রেটর দল মুছে ফেলা যাবে না"
 
-#: ../src/users/group-settings.c:55 ../src/users/group-settings.c:279
-#: ../src/users/group-settings.c:303 ../src/users/user-settings.c:61
-#: ../src/users/user-settings.c:636
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
 msgstr "এর দরুন সিস্টেমটি ব্যবহারের-অযোগ্য হয়ে যেতে পারে।"
 
-#: ../src/users/group-settings.c:68
+#: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
 msgstr "আপনি কি নিশ্চিতরূপে \"%s\" দলটি মুছে ফেলতে ইচ্ছুক?"
 
-#: ../src/users/group-settings.c:71
+#: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
 msgstr "এর দরুন অবৈধ দলের ID সমেত কিছু ফাইল ফাইল-সিস্টেমে উপস্থিত থাকার সম্ভবনা রয়েছে।"
 
-#: ../src/users/group-settings.c:167
+#: ../src/users/group-settings.c:144
 msgid "New group"
 msgstr "নতুন দল নির্মাণ করুন"
 
-#: ../src/users/group-settings.c:175
+#: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
 msgstr "'%s' দলের বৈশিষ্ট্য"
 
-#: ../src/users/group-settings.c:275
+#: ../src/users/group-settings.c:217
 msgid "Group name is empty"
 msgstr "দলের নাম উল্লেখ করা হয়নি"
 
-#: ../src/users/group-settings.c:276
+#: ../src/users/group-settings.c:218
 msgid "A group name must be specified."
 msgstr "দলের নাম উল্লেখ করা আবশ্যক"
 
-#: ../src/users/group-settings.c:278
+#: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
 msgstr "অ্যাডমিনিস্ট্রেটর দলের ব্যবহারকারীর দলের নাম পরিবর্তন করা উচিত নয়"
 
-#: ../src/users/group-settings.c:281
+#: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
 msgstr "দলের নামে অবৈধ অক্ষর লেখা হয়েছে"
 
-#: ../src/users/group-settings.c:282
+#: ../src/users/group-settings.c:224
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
 msgstr "অনুগ্রহ করে ছোট হাতের অক্ষর এবং সংখ্যা যুক্ত একটি বৈধ দলের নাম নির্ধারণ করুন।"
 
-#: ../src/users/group-settings.c:286 ../src/users/user-settings.c:569
+#: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
 msgstr "\"%s\" দলটি বর্তমানে উপস্থিত আছে"
 
-#: ../src/users/group-settings.c:287
-#| msgid "Please select a different user name."
+#: ../src/users/group-settings.c:230
 msgid "Please choose a different group name."
 msgstr "অনুগ্রহ করে দলের পৃথক নাম নির্বাচন করুন।"
 
-#: ../src/users/group-settings.c:302
+#: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
 msgstr "অ্যাডমিনিস্ট্রেটর অ্যাকাউন্টের দলের ID পরিবর্তন করা উচিত নয়"
 
-#: ../src/users/groups-table.c:45
+#. check that GID is free
+#: ../src/users/group-settings.c:261
+#, c-format
+msgid "Group ID %d is already used by group \"%s\""
+msgstr ""
+
+#: ../src/users/group-settings.c:264
+msgid "Please choose a different numeric identifier for the new group."
+msgstr ""
+
+#: ../src/users/group-settings.c:266
+#, c-format
+msgid "Please choose a different numeric identifier for group \"%s\"."
+msgstr ""
+
+#: ../src/users/groups-table.c:44
 msgid "Group name"
 msgstr "দলের নাম"
 
-#: ../src/users/privileges-table.c:49
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
+msgstr ""
+
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
+msgstr ""
+
+#: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
 msgstr "সিস্টেম লগ পর্যবেক্ষণ করুন"
 
-#: ../src/users/privileges-table.c:50
+#: ../src/users/privileges-table.c:54
 msgid "Administer the system"
 msgstr "সিস্টেমের প্রশাসনিক নিয়ন্ত্রণ"
 
-#: ../src/users/privileges-table.c:51
+#: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
 msgstr "অডিও ডিভাইস ব্যবহার করুন"
 
-#: ../src/users/privileges-table.c:52
+#: ../src/users/privileges-table.c:56
 msgid "Use CD-ROM drives"
 msgstr "CD-ROM ড্রাইভ ব্যবহার করুন"
 
-#: ../src/users/privileges-table.c:53
+#: ../src/users/privileges-table.c:57
 msgid "Burn CDs / DVDs"
 msgstr "CD / DVD বার্ন করুন"
 
-#: ../src/users/privileges-table.c:54
+#: ../src/users/privileges-table.c:58
 msgid "Use modems"
 msgstr "মোডেম ব্যবহার করুন"
 
-#: ../src/users/privileges-table.c:55
+#: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
 msgstr "মোডেম সহযোগে ইন্টারনেটের সাথে সংযোগ"
 
-#: ../src/users/privileges-table.c:56
+#: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
 msgstr "ফ্যাক্স গ্রহণ ও প্রেরণ করুন"
 
-#: ../src/users/privileges-table.c:57
+#: ../src/users/privileges-table.c:61
 msgid "Use floppy drives"
 msgstr "ফ্লপি ড্রাইভ ব্যবহার করুন"
 
-#: ../src/users/privileges-table.c:58
+#: ../src/users/privileges-table.c:62
+msgid "Mount user-space filesystems (FUSE)"
+msgstr ""
+
+#: ../src/users/privileges-table.c:63
+msgid "Configure printers"
+msgstr ""
+
+#: ../src/users/privileges-table.c:64
+msgid "Connect to wireless and ethernet networks"
+msgstr ""
+
+#: ../src/users/privileges-table.c:65
 msgid "Access external storage devices automatically"
 msgstr "স্বয়ংক্রিয়রূপে বহিস্থিত স্টোরেজ ডিভাইস ব্যবহার করুন"
 
-#: ../src/users/privileges-table.c:59
+#: ../src/users/privileges-table.c:66
+msgid "Suspend and hibernate the computer"
+msgstr ""
+
+#: ../src/users/privileges-table.c:67
 msgid "Access /proc filesystem"
 msgstr "/proc ফাইল-সিস্টেম ব্যবহার করুন"
 
-#: ../src/users/privileges-table.c:60
+#: ../src/users/privileges-table.c:68
 msgid "Use scanners"
 msgstr "স্ক্যানার ব্যবহার করুন"
 
-#: ../src/users/privileges-table.c:61
+#: ../src/users/privileges-table.c:69
 msgid "Use tape drives"
 msgstr "টেপ-ড্রাইভ ব্যবহার করুন"
 
-#: ../src/users/privileges-table.c:62
-#| msgid "Use audio devices"
+#: ../src/users/privileges-table.c:70
 msgid "Use USB devices"
 msgstr "USB ডিভাইস ব্যবহার করুন"
 
-#: ../src/users/privileges-table.c:63
-#| msgid "Use audio devices"
+#: ../src/users/privileges-table.c:71
+msgid "Use VirtualBox virtualization solution"
+msgstr ""
+
+#: ../src/users/privileges-table.c:72
 msgid "Use video devices"
 msgstr "ভিডিও ডিভাইস ব্যবহার করুন"
 
-#: ../src/users/privileges-table.c:64
+#: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
 msgstr "প্রশাসনিক অধিকার প্রাপ্ত করুন"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "ব্যবহারকারী এবং দল যোগ করুন অথবা মুছে ফেলুন"
+#: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr ""
 
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr ""
+
+#: ../src/users/run-passwd.c:421
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/users/run-passwd.c:498
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/users/run-passwd.c:504
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/users/run-passwd.c:510
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/users/run-passwd.c:513
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/users/run-passwd.c:517
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/users/run-passwd.c:524
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/users/run-passwd.c:528
+#, c-format
+msgid "Unknown error"
+msgstr ""
+
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "ব্যবহারকারী এবং দল"
 
-#: ../src/users/user-settings.c:58
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "ব্যবহারকারী এবং দল যোগ করুন অথবা মুছে ফেলুন"
+
+#: ../src/users/user-password.c:97
+msgid "Password is too short"
+msgstr "পাসওয়ার্ড অত্যাধিক ছোট"
+
+#: ../src/users/user-password.c:98
+msgid ""
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
+msgstr ""
+
+#: ../src/users/user-password.c:101
+msgid "Password confirmation is not correct"
+msgstr "পাসওয়ার্ড নিশ্চায়নে ভুল"
+
+#: ../src/users/user-password.c:102
+msgid "Check that you have provided the same password in both text fields."
+msgstr "দুটি ক্ষেত্রে একই পাসওয়ার্ড লেখা হয়েছে কিনা তা অনুগ্রহ করে পরীক্ষা করুন।"
+
+#: ../src/users/user-password.c:445
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/users/user-password.c:456
+msgid "Please type again your current password."
+msgstr ""
+
+#: ../src/users/user-password.c:463
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
 msgstr "অ্যাডমিনিস্ট্রেটর অ্যাকাউন্ট মুছে ফেলা যাবে না"
 
-#: ../src/users/user-settings.c:72
+#: ../src/users/user-settings.c:96
 #, c-format
-msgid "Are you sure you want to delete account \"%s\"?"
-msgstr "আপনি কি নিশ্চিতরূপে \"%s\" অ্যাকাউন্ট মুছে ফেলতে ইচ্ছুক?"
-
-#: ../src/users/user-settings.c:75
-msgid ""
-"This will disable this user's access to the system without deleting the "
-"user's home directory."
+msgid "%s is currently using this computer"
 msgstr ""
-"ব্যবহারকারী ব্যক্তিগত ডিরেক্টরি না মুছে ব্যবহারকারীর দ্বারা সিস্টেম ব্যবহার করা সম্ভব "
-"হবে না।"
 
-#: ../src/users/user-settings.c:85
-msgid "This user is currently using this computer"
-msgstr "এই ব্যবহারকারী দ্বারা বর্তমানে এই কম্পিউটার ব্যবহার করা হচ্ছে"
+#: ../src/users/user-settings.c:99
+msgid "Please ensure the user has logged out before deleting this account."
+msgstr ""
 
-#: ../src/users/user-settings.c:385
-msgid "New user account"
-msgstr "নতুন ব্যবহারকারীর অ্যাকাউন্ট"
+#: ../src/users/user-settings.c:109
+msgid "Can't delete the only administrator account"
+msgstr ""
 
-#: ../src/users/user-settings.c:403
+#: ../src/users/user-settings.c:111
 #, c-format
-msgid "Account '%s' Properties"
-msgstr "'%s' অ্যাকাউন্টের বৈশিষ্ট্য"
-
-#: ../src/users/user-settings.c:558
-msgid "User name is empty"
-msgstr "ব্যবহারকারীর নাম উল্লেখ করা হয়নি"
-
-#: ../src/users/user-settings.c:559
-msgid "A user name must be specified."
-msgstr "ব্যবহারকারীর নাম উল্লেখ করা আবশ্যক।"
-
-#: ../src/users/user-settings.c:561
-msgid "User name has invalid characters"
-msgstr "ব্যবহারকারীর নামের মাঝে অবৈধ অক্ষর লেখা হয়েছে"
-
-#: ../src/users/user-settings.c:562
 msgid ""
-"Please set a valid user name consisting of a lower case letter followed by "
-"lower case letters and numbers."
-msgstr "অনুগ্রহ করে ছোট হাতের অক্ষর এবং সংখ্যা যুক্ত একটি বৈধ ব্যবহারকারীর নাম নির্ধারণ করুন।"
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
+msgstr ""
 
-#: ../src/users/user-settings.c:566
+#: ../src/users/user-settings.c:121
 #, c-format
-msgid "User name \"%s\" already exists"
-msgstr "\"%s\" নামক ব্যবহারকারী বর্তমানে উপস্থিত রয়েছে"
+msgid "Remove home folder for %s?"
+msgstr ""
 
-#: ../src/users/user-settings.c:567 ../src/users/user-settings.c:570
-#| msgid "Please select a different user name."
-msgid "Please choose a different user name."
-msgstr "অনুগ্রহ করে পৃথক ব্যবহারকারীর নাম নির্বাচন করুন।"
+#: ../src/users/user-settings.c:124
+#, c-format
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr ""
 
-#: ../src/users/user-settings.c:595
+#: ../src/users/user-settings.c:132
+msgid "Keep Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:133
+msgid "Don't Remove Account"
+msgstr ""
+
+#: ../src/users/user-settings.c:134
+msgid "Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:330
+msgid "Superuser"
+msgstr ""
+
+#: ../src/users/user-settings.c:335
+msgid "Custom"
+msgstr ""
+
+#. TRANSLATORS: This applies to a password.
+#: ../src/users/user-settings.c:344
+msgid "None"
+msgstr ""
+
+#: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
 msgstr "বক্তব্যের মাঝে অবৈধ অক্ষর \"%c\" লেখা হয়েছে"
 
-#: ../src/users/user-settings.c:596
+#: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
 msgstr "অনুগ্রহ করে এই অক্ষরটি ব্যবহার না করা সম্বন্ধে সতর্কতা অবলম্বন করুন।"
 
-#: ../src/users/user-settings.c:614
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
 msgstr "ব্যক্তিগত ডিরেক্টরির পাথ সম্পূর্ণরূপে লেখা হয়নি"
 
-#: ../src/users/user-settings.c:615
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
-"i.e.: /home/john."
+"<span size=\"smaller\">i.e.: /home/john</span>."
 msgstr ""
-"অনুগ্রহ করে ব্যক্তিগত ডিরেক্টরির সম্পূর্ণ পাথ লিখুন\n"
-"উদাহরণস্বরূপ: /home/john"
 
-#: ../src/users/user-settings.c:618
-msgid "Home directory already exists"
-msgstr "ব্যক্তিগত ডিরেক্টরি বর্তমানে উপস্থিত রয়েছে"
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
+msgstr ""
 
-#: ../src/users/user-settings.c:619
-msgid "Please enter a different home directory path."
-msgstr "অনুগ্রহ করে পৃথক ব্যক্তিগত ডিরেক্টরির পাথ নির্বাচন করুন।"
+#: ../src/users/user-settings.c:449
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr ""
 
-#: ../src/users/user-settings.c:635
-msgid "Administrator account's user ID should not be modified"
-msgstr "অ্যাডমিনিস্ট্রেটর অ্যাকাউন্টের ব্যবহারকারীর ID পরিবর্তন করা উচিত নয়"
+#: ../src/users/user-settings.c:461
+msgid "_Replace With Old Files"
+msgstr ""
 
-#: ../src/users/user-settings.c:650
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr ""
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr ""
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr ""
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr ""
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr ""
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:604
+msgid "ID for the root user should not be modified"
+msgstr ""
+
+#. check that UID is free
+#: ../src/users/user-settings.c:608
+#, c-format
+msgid "User ID %d is already used by user %s"
+msgstr ""
+
+#: ../src/users/user-settings.c:610
+#, c-format
+msgid "Please choose a different numeric identifier for %s."
+msgstr ""
+
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr "শেলের পাথ সম্পূর্ণরূপে লেখা হয়নি"
 
-#: ../src/users/user-settings.c:651
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
-"i.e.: /bin/bash."
+"<span size=\"smaller\">i.e.: /bin/bash</span>."
 msgstr ""
-"অনুগ্রহ করে শেলের জন্য সম্পূর্ণ পাথ লিখুন\n"
-"উদাহরণস্বরূপ: /bin/bash"
 
-#: ../src/users/user-settings.c:684
-msgid "Password is too short"
-msgstr "পাসওয়ার্ড অত্যাধিক ছোট"
+#: ../src/users/user-settings.c:663
+msgid "Can't revoke administration rights"
+msgstr ""
 
-#: ../src/users/user-settings.c:685
+#: ../src/users/user-settings.c:666
+#, c-format
 msgid ""
-"User passwords must be longer than 6 characters and preferably formed by "
-"numbers, letters and special characters."
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
 msgstr ""
-"ব্যবহারকারীদের পাসওয়ার্ড অন্তত ৬ অক্ষর বিশিষ্ট হওয়া আবশ্যক ও অক্ষর, সংখ্যা ও বিশেষ "
-"চিহ্ন প্রয়োগ করে এটি গঠন করা বাঞ্ছনীয়।"
 
-#: ../src/users/user-settings.c:688
-msgid "Password confirmation is not correct"
-msgstr "পাসওয়ার্ড নিশ্চায়নে ভুল"
+#: ../src/users/user-settings.c:683
+msgid "You are about to revoke your own administration rights"
+msgstr ""
 
-#: ../src/users/user-settings.c:689
-msgid "Check that you have provided the same password in both text fields."
-msgstr "দুটি ক্ষেত্রে একই পাসওয়ার্ড লেখা হয়েছে কিনা তা অনুগ্রহ করে পরীক্ষা করুন।"
+#: ../src/users/user-settings.c:686
+#, c-format
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
+msgstr ""
 
-#: ../src/users/users-table.c:44
-msgid "Name"
-msgstr "নাম"
+#: ../src/users/user-settings.c:691
+msgid "Give up administration rights"
+msgstr ""
 
-#: ../src/users/users-table.c:67
-msgid "Login name"
-msgstr "লগ-ইন নাম"
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr ""
 
-#: ../src/users/users-table.c:77
-msgid "Home directory"
-msgstr "ব্যক্তিগত ডিরেক্টরি"
-
-#: ../src/users/users-tool.c:216
+#: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "ব্যবহারকারীর বৈশিষ্ট্য"
-

@@ -1,2421 +1,2116 @@
-# translation of mate-system-tools.HEAD.az.po to Azerbaijani
-# translation of mate-system-tools.HEAD.po to Azerbaijani
-# mate-system-tools.HEAD.az.po faylının Azərbaycan Dilinə tərcüməsi
-# mate-system-tools.HEAD.az.po faylının Azərbaycan dilinə tərcüməsi
-# Copyright (C) 2001,2003, 2004 Free Software Foundation, Inc.
-# Vasif Ismailoglu MD <Azerb_linux@hotmail.com>,2001.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Mətin Əmirov <metin@karegen.com>, 2003, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools.HEAD.az\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-06-13 03:58+0200\n"
-"PO-Revision-Date: 2004-06-16 20:05+0300\n"
-"Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
-"Language-Team: Azerbaijani <translation-team-az@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:52+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.3\n"
+"Language: az\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-#: mate-system-tools.schemas.in.h:1
-msgid ""
-"Comma separated list of hosts that the GST will be able to access when the "
-"remote configuration option is enabled"
-msgstr ""
-"Uzaq quraşdırmanın fəal edildiyi zaman GST-nin yetişə biləcəyi qovşaqların "
-"vergüllə ayrılmış siyahısı"
-
-#: mate-system-tools.schemas.in.h:2
-msgid "Dialog complexity for the boot-admin tool"
-msgstr "Açılış-idarəsi vasitəsi üçün dialoq qarışıqlığı"
-
-#: mate-system-tools.schemas.in.h:3
-msgid "Dialog complexity for the network-admin tool"
-msgstr "Şəbəkə-idarəsi vasitəsi üçün dialoq qarışıqlığı"
-
-#: mate-system-tools.schemas.in.h:4
-msgid "Dialog complexity for the services-admin tool"
-msgstr "Xidmətlər-idarəsi vasitəsi üçün dialoq qarışıqlığı"
-
-#: mate-system-tools.schemas.in.h:5
-msgid "Dialog complexity for the time-admin tool"
-msgstr "Vaxt-idarəsi vasitəsi üçün dialoq qarışıqlığı"
-
-#: mate-system-tools.schemas.in.h:6
-msgid "Dialog complexity for the users-admin tool"
-msgstr "İstifadəçi-idarəsi vasitəsi üçün dialoq qarışıqlığı"
-
-#: mate-system-tools.schemas.in.h:7
-msgid "Last GST version executed"
-msgstr "İcra edilən son GST buraxılışı"
-
-#: mate-system-tools.schemas.in.h:8
-msgid "Preferred bootloader that boot-admin will configure"
+#: ../interfaces/network.ui.h:1
+msgid "Off"
 msgstr ""
 
-#: mate-system-tools.schemas.in.h:9
-msgid "Remote hosts"
-msgstr "Uzaq qovşaqlar"
+#: ../interfaces/network.ui.h:2
+msgid "Low"
+msgstr "Alçaq"
 
-#: mate-system-tools.schemas.in.h:10
-msgid ""
-"The MATE System Tools have two data display modes: basic mode and advanced "
-"mode, the basic mode is intended to show less options than the advanced mode"
-msgstr ""
-"MATE Sistem Vasitələri iki mə'lumat nümayişi moduna malikdir: bəsit və "
-"mütəxəssis modu. Bəsit modda mütəxəssis modundan daha az seçim mövcuddur."
+#: ../interfaces/network.ui.h:3
+msgid "Medium"
+msgstr "Orta"
 
-#: mate-system-tools.schemas.in.h:11
-msgid ""
-"The GST are able to do remote configuration through SSH, enable this option "
-"to use this feature"
-msgstr ""
-"GST SSH vasitəsiylə uzaqdan quraşdırma edə bilər, bu xassəni istifadə etmək "
-"üçün bu seçimi fəallaşdırın"
+#: ../interfaces/network.ui.h:4
+msgid "Loud"
+msgstr "Uca"
 
-#: mate-system-tools.schemas.in.h:12
-msgid "The last GST version that this computer has run"
-msgstr "Bu kompüterin işlətdiyi ən son GST buraxılışı"
+#: ../interfaces/network.ui.h:5
+msgid "Tones"
+msgstr "Tonlar"
 
-#: mate-system-tools.schemas.in.h:13
-msgid ""
-"This key stores the bootloader that boot-admin will configure if there are "
-"more than one installed, if it's not set or isn't valid, then boot-admin "
-"will ask the user"
+#: ../interfaces/network.ui.h:6
+msgid "Pulses"
+msgstr "Pulslar"
+
+#: ../interfaces/network.ui.h:7
+msgid "Plain (ASCII)"
 msgstr ""
 
-#: mate-system-tools.schemas.in.h:14
-msgid "Whether the tools will use remote administration or not"
-msgstr "Vasitələrin uzaqdan idarə işlədib işlətməməsi"
-
-#: mate-system-tools.schemas.in.h:15
-msgid "Whether the users-admin tool should show all users and groups or not"
+#: ../interfaces/network.ui.h:8
+msgid "Hexadecimal"
 msgstr ""
-"İstifadəçi-idarəsi vasitəsinin bütün qrup və istifadəçiləri göstərib "
-"göstərməməsi"
 
-#: mate-system-tools.schemas.in.h:16
-msgid "Whether the warning dialog should be shown or not"
-msgstr "Xəbərdarlıq dialoqunun göstərilib göstərilməməsi"
+#: ../interfaces/network.ui.h:9
+msgid "Location:"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:1 interfaces/common.glade.in.h:1
-#: interfaces/network.glade.in.h:1 interfaces/time.glade.in.h:2
-#: interfaces/users.glade.in.h:1
-msgid "*"
-msgstr "*"
+#: ../interfaces/network.ui.h:10
+msgid "Save current network configuration as a location"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:2
-msgid "/dev/hda"
-msgstr "/dev/hda"
+#: ../interfaces/network.ui.h:11
+msgid "Delete current location"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:3
-msgid "/dev/hdb"
-msgstr "/dev/hdb"
+#: ../interfaces/network.ui.h:12
+msgid "Connections"
+msgstr "Bağlantılar"
 
-#: interfaces/boot.glade.in.h:4
-msgid "/dev/hdc"
-msgstr "/dev/hdc"
+#: ../interfaces/network.ui.h:13
+msgid "_Host name:"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:5
-msgid "/dev/hdd"
-msgstr "/dev/hdd"
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:6
-msgid "1024x768"
-msgstr "1024x768"
+#: ../interfaces/network.ui.h:15
+msgid "Host Settings"
+msgstr "Qovşaq Qurğuları"
 
-#: interfaces/boot.glade.in.h:7
-msgid "1280x1024"
-msgstr "1280x1024"
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "Ümumi"
 
-#: interfaces/boot.glade.in.h:8
-msgid "16,777,216"
-msgstr "16,777,216"
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "DNS Vericiləri"
 
-#: interfaces/boot.glade.in.h:9
-msgid "256"
-msgstr "256"
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:10
-msgid "32,768"
-msgstr "32,768"
+#: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
 
-#: interfaces/boot.glade.in.h:11
-msgid "640x480"
-msgstr "640x480"
+#: ../interfaces/network.ui.h:20
+msgid "Hosts"
+msgstr "Qovşaqlar"
 
-#: interfaces/boot.glade.in.h:12
-msgid "65,536"
-msgstr "65,536"
+#: ../interfaces/network.ui.h:21
+msgid "Interface properties"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:13
-msgid "800x600"
-msgstr "800x600"
+#: ../interfaces/network.ui.h:22
+msgid "E_nable this connection"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:14
-msgid "Security"
-msgstr "Təhlükəsizlik"
+#: ../interfaces/network.ui.h:23
+msgid "E_nable roaming mode"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:15 interfaces/users.glade.in.h:4
+#: ../interfaces/network.ui.h:24
+msgid "Connection type:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:25
+msgid "Network name (_ESSID):"
+msgstr ""
+
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:27
+msgid "Password _type:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:28
+msgid "Wireless Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_IP Ünvanı:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "Al_t şəbəkə maskası:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "_Şəbəkə keçişi ünvanı:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "_Yerli IP:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "_Uzaq IP:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "_Telefon nömrəsi:"
+
+#: ../interfaces/network.ui.h:37
+msgid "_Dial prefix:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr ""
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "_İstifadəçi Adı:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr ""
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr ""
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "_Modem qapısı:"
+
+#: ../interfaces/network.ui.h:44
+msgid "_Dial type:"
+msgstr "_Zəng növü:"
+
+#. TRANSLATORS: Volume as in loudness
+#: ../interfaces/network.ui.h:46
+msgid "_Volume:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "_Avtomatik tap"
+
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr ""
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr ""
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr ""
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr ""
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "Bağlantı kəsilməsi ya da başlaya bilmədiyi hallarda _yenidən sına"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr ""
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr ""
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr ""
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr ""
+
+#: ../interfaces/services.ui.h:1
+msgid "Select the services that you wish to activate:"
+msgstr ""
+
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:1
+msgid "_Path:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:2
+msgid "Share through:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:3
+msgid "Shared Folder"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:4
+msgid "Comment:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:5
+msgid "Name:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:14
+msgid "Network:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
+msgid "Read only"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:17
+msgid "Hosts Settings"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
+#: ../src/shares/shares-tool.c:237
+msgid "Shared Folders"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "domen / _İş Qrupu:"
+
+#: ../interfaces/shares.ui.h:20
+msgid "This computer is a _WINS server"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:21
+msgid "WINS _server:"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:22
+msgid "Windows sharing"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "İstifadəçilər"
+
+#: ../interfaces/shares.ui.h:25
+msgid "Enter password for user"
+msgstr ""
+
+#: ../interfaces/shares.ui.h:26
+msgid "Enter password for user:"
+msgstr ""
+
+#: ../interfaces/time.ui.h:1
+msgid "Time zone"
+msgstr ""
+
+#: ../interfaces/time.ui.h:2
+msgid "Time Zone"
+msgstr ""
+
+#: ../interfaces/time.ui.h:3
+msgid "Time zone:"
+msgstr "Vaxt zolağı:"
+
+#: ../interfaces/time.ui.h:4
+msgid "Selection"
+msgstr ""
+
+#: ../interfaces/time.ui.h:5
+msgid "Time servers"
+msgstr ""
+
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr ""
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr ""
+
+#: ../interfaces/time.ui.h:8
+msgid "Unconfigured"
+msgstr ""
+
+#: ../interfaces/time.ui.h:9
+msgid "_Configuration:"
+msgstr "_Quraşdırma:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr ""
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr ""
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "_Vaxt:"
+
+#: ../interfaces/time.ui.h:13
+msgid "_Date:"
+msgstr "_Tarix:"
+
+#: ../interfaces/time.ui.h:14
+msgid "Synchronize now"
+msgstr ""
+
+#: ../interfaces/users.ui.h:1
+msgid "_Manage Groups"
+msgstr ""
+
+#: ../interfaces/users.ui.h:2
+msgid "Account _type:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:3
+msgid "_Change..."
+msgstr ""
+
+#: ../interfaces/users.ui.h:4
+msgid "_Password:"
+msgstr "_Şifrə:"
+
+#: ../interfaces/users.ui.h:5
+msgid "_Advanced Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:6
+msgid "This account is disabled."
+msgstr ""
+
+#: ../interfaces/users.ui.h:7
+msgid "_Enable Account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:8
+msgid "Group properties"
+msgstr ""
+
+#: ../interfaces/users.ui.h:9
 msgid "Basic Settings"
 msgstr "Əsas Qurğular"
 
-#: interfaces/boot.glade.in.h:16
-msgid "Image Settings"
-msgstr "Rəsm Qurğuları"
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "Qrup a_dı:"
 
-#: interfaces/boot.glade.in.h:17
-msgid "Other Settings"
-msgstr "Digər Qurğular"
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "Qrup _ID'si:"
 
-#: interfaces/boot.glade.in.h:18
-msgid "Starting the Computer"
-msgstr "Kompüter Başladılır"
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "Qrup Üzvləri"
 
-#: interfaces/boot.glade.in.h:19
-msgid "Ask at boot"
-msgstr "Açılışda soruş"
-
-#: interfaces/boot.glade.in.h:20 src/boot/main.c:73
-msgid "Boot Manager Settings"
-msgstr "Açılış İdarəçisi Qurğuları"
-
-#: interfaces/boot.glade.in.h:21
-msgid ""
-"Choose a kernel image to boot, and a partition to mount as the root "
-"partition. Optionally, you may also enter append parameters which are passed "
-"to the kernel at boot time."
-msgstr ""
-"Açılış üçün çəyirdək əksini seçin və kök bölməsini də bildirin."
-"Arzuya bağlı olaraq əlavə çəyirdək parametrləri də bildirə bilərsiniz."
-
-#: interfaces/boot.glade.in.h:22
-msgid "Click \"Forward\" to continue"
-msgstr "Davam etmək üçün \"İrəli\" düyməsinə basın"
-
-#: interfaces/boot.glade.in.h:23
-msgid "Confirmation"
-msgstr "Təsdiqləmə"
-
-#. set window title
-#: interfaces/boot.glade.in.h:24 src/boot/boot-druid.c:433
-#: src/boot/boot-druid.c:445
-msgid "Creating a new boot image"
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
 msgstr ""
 
-#: interfaces/boot.glade.in.h:25
-msgid "Don't ask me again"
-msgstr "Bunu bir də soruşma"
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "Profil _adı:"
 
-#: interfaces/boot.glade.in.h:26
-msgid "Enable IDE SCSI emulation"
-msgstr "IDE SCSI emulyasiyasını fəallaşdır"
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_Şərhlər"
 
-#: interfaces/boot.glade.in.h:27
-msgid ""
-"Enter a name for the boot image, and specify what kind of operating system "
-"it is."
-msgstr "Açılış əksi adını daxil edin və nə cür əməliyyat sistemi olduğunu bildirin."
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "Sistem Ön Qurğuları"
 
-#: interfaces/boot.glade.in.h:28 interfaces/network.glade.in.h:42
-msgid "Finished"
-msgstr "Qurtarıb"
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "_Ev qovluğu:"
 
-#: interfaces/boot.glade.in.h:29 interfaces/network.glade.in.h:52
-#: src/network/connection.c:1867
-msgid "Manual"
-msgstr "Əl Kitabçası"
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "Ön qurğulu _qabıq:"
 
-#: interfaces/boot.glade.in.h:30
-msgid "Modify the settings for an operating system or kernel."
-msgstr "Əməliyyat sistemi ya da çəkirdək qurğularını dəyişdir."
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "Ön qurğulu _qrup:"
 
-#: interfaces/boot.glade.in.h:31
-msgid "Number of colors:"
-msgstr "Rəng miqdarı:"
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "Şifrə Qurğuları"
 
-#: interfaces/boot.glade.in.h:32
-msgid "Other parameters:"
-msgstr "Diqər parametrlər:"
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "Şifrənin istifadə ediləcəyi gün miqdarı:"
 
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "Şifrə dəyişikliklərinə icazə veriləcək ən az gün miqdarı:"
 
-#: interfaces/boot.glade.in.h:34
-msgid "Protect with password"
-msgstr "Şifrə ilə qoru"
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "Xəbərdarlıq və şifrə dəyişikliyi arasındakı müddət:"
 
-#: interfaces/boot.glade.in.h:35
-msgid "Resolution:"
-msgstr "Həlledilirlik:"
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "Ön qurğulu olaraq təsadüfi şifrə ver"
 
-#: interfaces/boot.glade.in.h:36
-msgid "Seconds to wait before loading default kernel or OS"
-msgstr "Saniyə olaraq ön qurğulu çəyirdək və ya ƏS yüklənməsindən əvvəlki müddət"
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "Avtomatik UID/GID"
 
-#: interfaces/boot.glade.in.h:37
-msgid ""
-"Several bootloaders have been found in the system, please select which do "
-"you want to configure"
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "Ən çox UID miqdarı:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
 msgstr ""
 
-#: interfaces/boot.glade.in.h:38
-msgid "Specify the partition on which the operating system is installed."
-msgstr "Əməliyyat sisteminin qurulu olduğu bölməni bildir."
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "Ən az UID miqdarı:"
 
-#: interfaces/boot.glade.in.h:39
-msgid ""
-"The new boot image has been added. Please click \"Apply\" to save your "
-"changes."
-msgstr "Yeni açılış əksi əlavə edildi. Dəyişiklikləri qeyd etmək üçün \"Tədbiq Et\" düyməsinə basın."
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "Ən az GID miqdarı:"
 
-#: interfaces/boot.glade.in.h:40
-#, fuzzy
-msgid ""
-"This assistant is designed to help you quickly and easily add a new boot "
-"image to your system."
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
 msgstr ""
-"Bu vasitə sisteminizə yeni açılış əksi əlavə etmək\n"
-"üçün sizə yardım etmək üçün yaradılıb.\n"
-"\n"
-"Başlamaq üçün \"Sonrakı\" düyməsini tıqlayın."
 
-#: interfaces/boot.glade.in.h:41
-msgid "Use this dialog to modify kernel parameters."
-msgstr "Bu dialoqu çəyirdək parametrlərini təkmilləşdirmədə işlədin."
-
-#: interfaces/boot.glade.in.h:42
-msgid "Use this tool to specify which operating systems users can choose at startup."
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
 msgstr ""
-"Bu vasitəni açılışda istifadəçilərin hansı əməliyyat sistemlərini seçə "
-"biləcəklərini müəyyən etmək çün işlədin."
 
-#: interfaces/boot.glade.in.h:43
-msgid "Video modes (only frame buffer)"
-msgstr "Video modlar (yalnız frame buffer)"
+#: ../interfaces/users.ui.h:33
+msgid "_Add Profile"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:44
-msgid "_Add..."
-msgstr "Ə_lavə Et..."
+#: ../interfaces/users.ui.h:34
+msgid "Groups settings"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:45
-msgid "_Device:"
-msgstr "A_vadanlıq:"
+#: ../interfaces/users.ui.h:35
+msgid "Groups available on the system:"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:46
-msgid "_Edit"
-msgstr "_Düzəlt"
+#: ../interfaces/users.ui.h:36
+msgid "Change User Name"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:47 src/boot/boot-settings.c:43
-msgid "_Initrd image path:"
-msgstr "_Initrd əks cığırı:"
+#: ../interfaces/users.ui.h:37
+msgid "Full _Name:"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:48
-msgid "_Kernel image path:"
-msgstr "_Çəyirdək əks cığırı:"
+#: ../interfaces/users.ui.h:38
+msgid "Changing user name for:"
+msgstr ""
 
-#: interfaces/boot.glade.in.h:49
+#: ../interfaces/users.ui.h:39
+msgid "Change User Password"
+msgstr ""
+
+#: ../interfaces/users.ui.h:40
+msgid "Con_firmation:"
+msgstr "_Təstiq:"
+
+#: ../interfaces/users.ui.h:41
+msgid "Password set to: "
+msgstr "Şifrə olaraq bu seçildi:"
+
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr ""
+
+#: ../interfaces/users.ui.h:43
+msgid "Set password b_y hand"
+msgstr "Şifrəni ə_llə gir"
+
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "_Təsadüfi şifrə yarat  "
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr ""
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr ""
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr ""
+
+#: ../interfaces/users.ui.h:52
+msgid ""
+"This account is using special settings that have been defined manually. Use "
+"the <i>Advanced Settings</i> dialog to tune them."
+msgstr ""
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr ""
+
+#: ../interfaces/users.ui.h:54
 msgid "_Name:"
 msgstr "_Ad:"
 
-#: interfaces/boot.glade.in.h:50
-msgid "_Operating system:"
-msgstr "Ə_məliyyat sistemi:"
-
-#: interfaces/boot.glade.in.h:51
-msgid "_Parameters:"
-msgstr "_Parametrlər:"
-
-#: interfaces/boot.glade.in.h:52
-msgid "_Root file system device:"
-msgstr "_Kök fayl sistemi avadanlığı:"
-
-#: interfaces/common.glade.in.h:2
-msgid ""
-"<span weight=\"bold\" size=\"larger\">The platform you are running is not "
-"supported by this tool"
+#: ../interfaces/users.ui.h:55
+msgid "Create a new user"
 msgstr ""
 
-#: interfaces/common.glade.in.h:3
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
 msgid ""
-"<span weight=\"bold\" size=\"larger\">To run this tool, you need "
-"administrator privileges"
+"Username must consist of:\n"
+"  ➣ lower case letters from the English alphabet\n"
+"  ➣ digits\n"
+"  ➣ any of the characters \".\", \"-\" and \"_\""
 msgstr ""
 
-#: interfaces/common.glade.in.h:4
-msgid "Complexity"
-msgstr "Mürəkkəblik"
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr ""
 
-#: interfaces/common.glade.in.h:5
-#, fuzzy
-msgid "Enter Password"
-msgstr "_Təsadüfi Şifrə Yarat  "
+#: ../interfaces/users.ui.h:63
+msgid "Username must start with a letter!"
+msgstr ""
 
-#: interfaces/common.glade.in.h:6
-#, fuzzy
+#: ../interfaces/users.ui.h:64
+msgid "_Encrypt home folder to protect sensitive data"
+msgstr ""
+
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr ""
+
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr ""
+
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "_İş yeri:"
+
+#: ../interfaces/users.ui.h:69
+msgid "_Work phone:"
+msgstr "_İş telefonu:"
+
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "_Ev telefonu:"
+
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr ""
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr ""
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "Ətraflı Qurğular"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "_Qabıq:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "_Ana _qrup:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr ""
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr ""
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr ""
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "İstəyə Bağlı Qurğular"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "Şifrənin dəyişiklikləri arasındakı ən a_z müddət:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "Şifrənin ma_ksimal istifadə müddəti:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "Xəbərdarlıq və şifrə dəyişikliyi arasındakı _müddət:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "Ətraflı"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
+msgid "Show system users"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:2
+msgid ""
+"Whether the users-admin tool should show system users in the users list."
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr ""
+
+#: ../org.mate.system-tools.gschema.xml.in.h:4
+msgid ""
+"Whether the users-admin tool should show the root user in the users list."
+msgstr ""
+
+#: ../src/common/gst-platform-dialog.c:179
+msgid "The platform you are running is not supported by this tool"
+msgstr ""
+
+#. label
+#: ../src/common/gst-platform-dialog.c:185
 msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
 msgstr ""
-"İşlədiyiniz platforma bu vasitə tərəfindən "
-"dəstəklənmir.\n"
-"\n"
-"Aşağıda sıralanan platformalardan biri kimi işlədiyindən əminsinizsə, seçib "
-"davam edə bilərsiniz.\n"
-"\n"
-"Yadda saxlayın ki, bununla sistem qurğularınızı və kompüterinizi xəsarətə "
-"sala bilərsiniz."
 
-#: interfaces/common.glade.in.h:7
-msgid "Remote administration"
-msgstr "Uzaqdan idarə"
-
-#: interfaces/common.glade.in.h:8
-msgid "Run _Without Password"
-msgstr "Şifrəsiz _İşə Sal"
-
-#: interfaces/common.glade.in.h:9
-msgid "Scanning system configuration..."
-msgstr "Sistem qurğuları oxunur..."
-
-#: interfaces/common.glade.in.h:10
-#, fuzzy
-msgid ""
-"To acquire such privileges, enter your root password below. If you don't "
-"specify a password, you will be  unable to modify your system configuration."
-msgstr ""
-"Bu vasitəni işə salmaq üçün ali istifadəçi "
-"səlahiyyətləriniz olmalıdır.\n"
-"\n"
-"Bu səlahiyyəti almaq üçün ali istifadəçi şifrəsini aşağıya daxil edin.\n"
-"Şifrə girməsəniz, sistem qurğularınızı dəyişdirə bilməyəcəksiniz."
-
-#: interfaces/common.glade.in.h:11
-msgid "Unsupported Platform"
-msgstr "Dəstəklənməyən Platforma"
-
-#: interfaces/common.glade.in.h:12
-#, fuzzy
-msgid "Use this window to select the computer you wish to configure"
-msgstr ""
-"Quraşdırmaq istədiyiniz kompüteri seçmək\n"
-"üçün bu pəncərəni işlədin"
-
-#: interfaces/common.glade.in.h:13 interfaces/network.glade.in.h:109
-msgid "_Password:"
-msgstr "_Şifrə:"
-
-#: interfaces/network.glade.in.h:2
-msgid "/dev/modem"
-msgstr "/dev/modem"
-
-#: interfaces/network.glade.in.h:3
-msgid "/dev/ttyS0"
-msgstr "/dev/ttyS0"
-
-#: interfaces/network.glade.in.h:4
-msgid "/dev/ttyS1"
-msgstr "/dev/ttyS1"
-
-#: interfaces/network.glade.in.h:5
-msgid "/dev/ttyS2"
-msgstr "/dev/ttyS2"
-
-#: interfaces/network.glade.in.h:6
-msgid "/dev/ttyS3"
-msgstr "/dev/ttyS3"
-
-
-#: interfaces/network.glade.in.h:8
-msgid "Access Settings"
-msgstr "Yetişmə Qurğuları"
-
-#: interfaces/network.glade.in.h:9
-msgid "Account Data"
-msgstr "Hesab Mə'lumatı"
-
-#: interfaces/network.glade.in.h:10
-#, fuzzy
-msgid "Connection settings"
-msgstr "Bağlantı"
-
-
-#: interfaces/network.glade.in.h:12
-msgid "DNS Servers"
-msgstr "DNS Vericiləri"
-
-#: interfaces/network.glade.in.h:13
-msgid "Host Settings"
-msgstr "Qovşaq Qurğuları"
-
-#: interfaces/network.glade.in.h:14
-msgid "Internet Service Provider Data"
-msgstr "İnternet Xidmət Provayderi Mə'lumatı"
-
-#: interfaces/network.glade.in.h:15
-msgid "PPP Settings"
-msgstr "PPP Qurğuları"
-
-#: interfaces/network.glade.in.h:16
-#, fuzzy
-msgid "Search Domains"
-msgstr "Xidmət Qurğuları"
-
-#: interfaces/network.glade.in.h:17
-msgid "Windows Networking"
-msgstr "Windows Şəbəkəsi"
-
-#: interfaces/network.glade.in.h:18
-#, fuzzy
-msgid "Wireless settings:"
-msgstr "Yetişmə Qurğuları"
-
-#: interfaces/network.glade.in.h:19
-msgid "A_liases:"
-msgstr "_Ləqəblər:"
-
-#: interfaces/network.glade.in.h:20 interfaces/users.glade.in.h:13
-msgid "Account"
-msgstr "Hesab"
-
-#: interfaces/network.glade.in.h:21
-#, fuzzy
-msgid "Activate"
-msgstr "Fəal"
-
-#: interfaces/network.glade.in.h:22
-#, fuzzy
-msgid "Activate connection"
-msgstr "``%s'' bağlantısı fəallaşdırılır."
-
-#: interfaces/network.glade.in.h:23
-msgid "Activate when the computer _starts"
-msgstr "Kompüter _başladığında fəallaşdır"
-
-#: interfaces/network.glade.in.h:24
-#, fuzzy
-msgid "Address configuration"
-msgstr "Ünvan quraşdırılması (2 addımdan birincisi)"
-
-#: interfaces/network.glade.in.h:25 interfaces/users.glade.in.h:14
-msgid "Advanced"
-msgstr "Ətraflı"
-
-#: interfaces/network.glade.in.h:26
-msgid "Advanced PPP connection tuning."
-msgstr "Ətraflı PPP bağlantı yaxşılaşdırılması."
-
-#: interfaces/network.glade.in.h:27
-msgid "Aliases of other computers."
-msgstr "Digər kompüterlərin ləqəbləri"
-
-#: interfaces/network.glade.in.h:28
-msgid "Allow activation control for all _users"
-msgstr "Bütün i_stifadəçilərə fəallaşdırma idarəsi imkanı ver"
-
-#: interfaces/network.glade.in.h:29
-msgid "Auto"
-msgstr "Avtomatik"
-
-#: interfaces/network.glade.in.h:30 src/network/connection.c:1869
-msgid "Automatic (BOOTP)"
+#: ../src/common/gst-platform-dialog.c:212
+msgid "Unsupported platform"
 msgstr ""
 
-#: interfaces/network.glade.in.h:31 src/network/connection.c:1868
-msgid "Automatic (DHCP)"
-msgstr ""
-
-#: interfaces/network.glade.in.h:32
-msgid "Co_nfiguration:"
-msgstr "_Quraşdırma:"
-
-#: interfaces/network.glade.in.h:33
-msgid "Connection type"
-msgstr "Bağlantı növü"
-
-#: interfaces/network.glade.in.h:34
-msgid "Connections"
-msgstr "Bağlantılar"
-
-#. set window titles
-#: interfaces/network.glade.in.h:35 src/network/network-druid.c:63
-#, fuzzy
-msgid "Creating a new network connection"
-msgstr "Yeni şəbəkə bağlantısı yarat"
-
-#: interfaces/network.glade.in.h:36
-#, fuzzy
-msgid "Current network profile:"
-msgstr "Yeni profil yarat"
-
-#: interfaces/network.glade.in.h:37
-msgid "DNS"
-msgstr "DNS"
-
-#: interfaces/network.glade.in.h:38
-#, fuzzy
-msgid "D_omain name:"
-msgstr "_Domen adı:"
-
-#: interfaces/network.glade.in.h:39
-msgid "Default gateway device:"
-msgstr "Ön qurğulu şəbəkə keçiş avadanlığı:"
-
-#: interfaces/network.glade.in.h:40
-msgid "Device:"
-msgstr "Avadanlıq:"
-
-#: interfaces/network.glade.in.h:41
-msgid "Domain / _Workgroup:"
-msgstr "domen / _İş Qrupu:"
-
-#: interfaces/network.glade.in.h:43
-msgid "General"
-msgstr "Ümumi"
-
-#: interfaces/network.glade.in.h:44
-msgid "Hosts"
-msgstr "Qovşaqlar"
-
-#: interfaces/network.glade.in.h:45
-#, fuzzy
-msgid "How the names of other computers are found."
-msgstr ""
-"Başqa kompüterlərin adları\n"
-"necə tapılır."
-
-#: interfaces/network.glade.in.h:46
-msgid "How this computer is identified."
-msgstr "Bu kompüter necə bildirilib."
-
-#: interfaces/network.glade.in.h:47
-msgid "How to access other computers."
-msgstr "Digər kompüterlərə necə yetişiləcəyi."
-
-#: interfaces/network.glade.in.h:48
-msgid "How to dial up to the Internet."
-msgstr "İnternetə bağlantı şəkli."
-
-#: interfaces/network.glade.in.h:49
-#, fuzzy
-msgid "ISP phone number"
-msgstr "1. ISP telefon nömrəsi"
-
-#: interfaces/network.glade.in.h:50
-#, fuzzy
-msgid "Interface properties"
-msgstr "Xidmət _Xassələri"
-
-#: interfaces/network.glade.in.h:51
-msgid ""
-"List of domains that the system will try to append to a hostname if there "
-"isn't already one specified"
-msgstr ""
-
-#: interfaces/network.glade.in.h:53
-#, fuzzy
-msgid "Modem _volume:"
-msgstr "_Modem səsi:"
-
-#: interfaces/network.glade.in.h:54
-#, fuzzy
-msgid "Network name:"
-msgstr "Yeni ad:"
-
-#: interfaces/network.glade.in.h:55
-#, fuzzy
-msgid "Network profiles"
-msgstr "Şə_bəkə Profilləri"
-
-#: interfaces/network.glade.in.h:56
-#, fuzzy
-msgid "Network profiles can be used to store different network configurations."
-msgstr ""
-"Şəbəkə profillər fərqli şəbəkə\n"
-"qurğularını saxlamaq üçün işlədilə bilər."
-
-#: interfaces/network.glade.in.h:57
-msgid "Networking Settings"
-msgstr "Şəbəkə Qurğuları"
-
-#: interfaces/network.glade.in.h:58
-#, fuzzy
-msgid "New network profile"
-msgstr "Şə_bəkə Profilləri"
-
-#: interfaces/network.glade.in.h:59
-msgid ""
-"Next, please enter the user name and password which were assigned to you by "
-"your ISP."
-msgstr "Sonra ISP'nizə bildirdiyiniz istifadəçi adı və şifrəni daxil edin."
-
-#: interfaces/network.glade.in.h:60
-#, fuzzy
-msgid ""
-"Now, please enter the address that this network device will have, and the "
-"remote address to which it will be connected."
-msgstr ""
-"İndi, xahiş edirik bu şəbəkə avadanlığının alacağı ünvanı və onun\n"
-"bağlanacağı uzaq ünvanı daxil edin."
-
-#: interfaces/network.glade.in.h:61
-#, fuzzy
-msgid "Now, please enter the address that this network device will have."
-msgstr ""
-"İndi, xahiş edirik bu şəbəkə avadanlığının \n"
-"alacağı ünvanı daxil edin."
-
-#: interfaces/network.glade.in.h:62
-msgid ""
-"Now, please specify if this connection should be enabled, this means that "
-"the configuration will be applied when the assistant finishes."
-msgstr ""
-
-#: interfaces/network.glade.in.h:63
-msgid "Number to _access an external line:"
-msgstr "Xarici xətdə yetişmək üçün yığılan _nömrə:"
-
-#: interfaces/network.glade.in.h:64
-msgid "Number to get to an _external line:"
-msgstr "_Xarici xətdə düşmək üçün yığılan nömrə:"
-
-#: interfaces/network.glade.in.h:65
-msgid "PPPD _options:"
-msgstr "PPPD _seçimləri:"
-
-#: interfaces/network.glade.in.h:66
-msgid "Pa_ssword (confirm):"
-msgstr "Ş_ifrə (təsdiqləmə):"
-
-#: interfaces/network.glade.in.h:67
-msgid "Phone _number:"
-msgstr "Telefon _nömrəsi:"
-
-#: interfaces/network.glade.in.h:68
-#, fuzzy
-msgid ""
-"Please enter the phone number you use to connect to the internet. This "
-"number is provided by your ISP."
-msgstr ""
-"Xahiş edirik, internetə bağlanacağınız telefon nömrəsini bildirin. Bu "
-"nömrənisizə ISP'niz verər. "
-
-#: interfaces/network.glade.in.h:69
-msgid ""
-"Please select the wireless device that you want to configure and set the "
-"network name for this interface"
-msgstr ""
-
-#: interfaces/network.glade.in.h:70
-#, fuzzy
-msgid "Please, give this network profile a name and a description."
-msgstr ""
-"Xahiş edirik, şəbəkə profilinə ad və\n"
-"izahat verin."
-
-#: interfaces/network.glade.in.h:71
-msgid "Please, select which type of connection you would like to add."
-msgstr "Xahiş edirik, əlavə etmək istədiyiniz bağlantı növünü seçin."
-
-#: interfaces/network.glade.in.h:72 interfaces/users.glade.in.h:38
-msgid "Profile _name:"
-msgstr "Profil _adı:"
-
-#: interfaces/network.glade.in.h:73
-msgid "Pulses"
-msgstr "Pulslar"
-
-#: interfaces/network.glade.in.h:74
-msgid "Se_condary:"
-msgstr "_İkincil:"
-
-#: interfaces/network.glade.in.h:75
-msgid "Set _DNS servers manually"
-msgstr "_DNS vericiləri əllə qur"
-
-#: interfaces/network.glade.in.h:76
-msgid "Set modem as default _route to internet"
-msgstr "Modemi internetə ön qurğulu _yol olaraq müəyyən et"
-
-#: interfaces/network.glade.in.h:77
-msgid ""
-"This assistant will help you configure a new \n"
-"network connection."
-msgstr ""
-
-#: interfaces/network.glade.in.h:79
-msgid "This is the list of IP addresses that the system will use as name servers"
-msgstr ""
-
-#: interfaces/network.glade.in.h:80
-msgid ""
-"To continue configuring your network connection, click \"Next\". To quit, "
-"click \"Cancel\"."
-msgstr ""
-"Şəbəkə bağlantınızı quraşdırmaq üçün \"Sonrakı\" düyməsinə tıqlayın. Çıxmaq "
-"üçün \"Ləğv Et\"ə basın."
-
-#: interfaces/network.glade.in.h:81
-msgid "Tones"
-msgstr "Tonlar"
-
-#: interfaces/network.glade.in.h:82
-msgid "Use \"Auto\" if unsure."
-msgstr "Əmin deyilsinizs., \"Avtomatik\" seçin."
-
-#: interfaces/network.glade.in.h:83
-msgid "Use this dialog for setting the configuration for this interface"
-msgstr ""
-
-#: interfaces/network.glade.in.h:84
-#, fuzzy
-msgid "Username and password"
-msgstr "2. İstifadəçi adı və şifrə"
-
-#: interfaces/network.glade.in.h:85
-msgid "WI_NS server:"
-msgstr "WI_NS verici:"
-
-#: interfaces/network.glade.in.h:86
-#, fuzzy
-msgid "Wireless device:"
-msgstr "_Kök fayl sistemi avadanlığı:"
-
-#: interfaces/network.glade.in.h:87
-#, fuzzy
-msgid "Wireless settings"
-msgstr "Naqilsiz şəbəkə qurğuları."
-
-#: interfaces/network.glade.in.h:88
-#, fuzzy
-msgid ""
-"You are about to create a new network connection. Please click \"Apply\" to "
-"save your changes."
-msgstr ""
-"Yeni şəbəkə bağlantısı yaratmaq üzrəsiniz.\n"
-"\n"
-"Dəyişikliklərinizi qeyd etmək üçün \"Tədbiq Et\" düyməsinə basın."
-
-#: interfaces/network.glade.in.h:89
-#, fuzzy
-msgid "_Apply and activate connection"
-msgstr "``%s'' bağlantısı fəallaşdırılır."
-
-#: interfaces/network.glade.in.h:90
-msgid "_Autodetect"
-msgstr "_Avtomatik tap"
-
-#: interfaces/network.glade.in.h:91
-msgid "_Configuration:"
-msgstr "_Quraşdırma:"
-
-#: interfaces/network.glade.in.h:92
-#, fuzzy
-msgid "_Deactivate"
-msgstr "Fəalliyyətdən salınır"
-
-#: interfaces/network.glade.in.h:93 interfaces/users.glade.in.h:55
-#: src/network/connection.c:64 src/network/dns.c:39 src/network/hosts.c:42
-#: src/users/table.c:48
-msgid "_Delete"
-msgstr "_Sil"
-
-#: interfaces/network.glade.in.h:94
-msgid "_Description:"
-msgstr "_İzahat:"
-
-#: interfaces/network.glade.in.h:95
-msgid "_Dial type:"
-msgstr "_Zəng növü:"
-
-#: interfaces/network.glade.in.h:96
-msgid "_Enable Windows networking"
-msgstr "Windows şəbəkəsini _fəallaşdır"
-
-#: interfaces/network.glade.in.h:97
-msgid "_Ethernet"
-msgstr "_Eternet"
-
-#: interfaces/network.glade.in.h:98
-msgid "_Gateway address:"
-msgstr "_Şəbəkə keçişi ünvanı:"
-
-#: interfaces/network.glade.in.h:99
-msgid "_Hostname:"
-msgstr "_Qovşaq adı:"
-
-#: interfaces/network.glade.in.h:100
-msgid "_IP address:"
-msgstr "_IP Ünvanı:"
-
-#: interfaces/network.glade.in.h:101
-msgid "_IR LAN"
-msgstr "_IR LAN"
-
-#: interfaces/network.glade.in.h:102
-msgid "_Local IP address:"
-msgstr "_Yerli IP ünvanı:"
-
-#: interfaces/network.glade.in.h:103
-msgid "_Local IP:"
-msgstr "_Yerli IP:"
-
-#: interfaces/network.glade.in.h:104
-msgid "_Modem (PPP)"
-msgstr "_Modem (PPP)"
-
-#: interfaces/network.glade.in.h:105
-msgid "_Modem port:"
-msgstr "_Modem qapısı:"
-
-#: interfaces/network.glade.in.h:106
-msgid "_Network Profiles"
-msgstr "Şə_bəkə Profilləri"
-
-#: interfaces/network.glade.in.h:107
-#, fuzzy
-msgid "_Network name:"
-msgstr "Yeni ad:"
-
-#: interfaces/network.glade.in.h:108
-msgid "_Parallel Line"
-msgstr "_Paralel Xətt"
-
-#: interfaces/network.glade.in.h:110
-msgid "_Phone number:"
-msgstr "_Telefon nömrəsi:"
-
-#: interfaces/network.glade.in.h:111
-msgid "_Primary:"
-msgstr "_Birincil:"
-
-#: interfaces/network.glade.in.h:112
-msgid "_Remote IP address:"
-msgstr "_Uzaq IP ünvanı:"
-
-#: interfaces/network.glade.in.h:113
-msgid "_Remote IP:"
-msgstr "_Uzaq IP:"
-
-#: interfaces/network.glade.in.h:114
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "Bağlantı kəsilməsi ya da başlaya bilmədiyi hallarda _yenidən sına"
-
-#: interfaces/network.glade.in.h:115
-msgid "_Save Current"
-msgstr "Hazırkını _Qeyd Et"
-
-#: interfaces/network.glade.in.h:116
-msgid "_Start PPP as soon as modem connects"
-msgstr "Modem bağlandıqdan sonra PPPni mümkün olan ən qısa zamanda _başlat"
-
-#: interfaces/network.glade.in.h:117
-msgid "_Subnet mask:"
-msgstr "Al_t şəbəkə maskası:"
-
-#: interfaces/network.glade.in.h:118
-msgid "_Update DNS when this connection becomes active"
-msgstr "Bu bağlantı fəallaşdığında DNSi _yenilə"
-
-#: interfaces/network.glade.in.h:119
-msgid "_Use remote IP as default gateway"
-msgstr "Uzaq IP-ni ön qurğulu keçiş olaraq _işlət"
-
-#: interfaces/network.glade.in.h:120 interfaces/users.glade.in.h:65
-msgid "_Username:"
-msgstr "_İstifadəçi Adı:"
-
-#: interfaces/network.glade.in.h:121
-msgid "_Wireless"
-msgstr ""
-
-#: interfaces/services.glade.in.h:1
-msgid "General Information"
-msgstr "Ümumi Mə'lumat"
-
-#: interfaces/services.glade.in.h:2
-msgid "Service Settings"
-msgstr "Xidmət Qurğuları"
-
-#: interfaces/services.glade.in.h:3
-msgid "Description:"
-msgstr "İzahat:"
-
-#: interfaces/services.glade.in.h:4
-msgid "Service _Properties"
-msgstr "Xidmət _Xassələri"
-
-#: interfaces/services.glade.in.h:5
-msgid "Service:"
-msgstr "Xidmət:"
-
-#: interfaces/services.glade.in.h:6
-#, fuzzy
-msgid "Status:"
-msgstr "Vəziyyət"
-
-#: interfaces/services.glade.in.h:7
-msgid "Use this tool to specify which services to run"
-msgstr "Bu vasitəni işə salmaq istədiyiniz xidmətləri seçmək üçün istifadə edin"
-
-#: interfaces/services.glade.in.h:8
-msgid "_Order list by startup sequence"
-msgstr ""
-
-#: interfaces/services.glade.in.h:9
-#, fuzzy
-msgid "_Start"
-msgstr "Vəziyyət"
-
-#: interfaces/services.glade.in.h:10
-msgid "_Startup sequence:"
-msgstr ""
-
-#: interfaces/time.glade.in.h:1
-msgid "(unconfigured)"
-msgstr "(quraşdırılmaımş)"
-
-#: interfaces/time.glade.in.h:3
-msgid ":"
-msgstr ":"
-
-#: interfaces/time.glade.in.h:4
-msgid "Time Configuration"
-msgstr "Vaxt Qurğuları"
-
-#: interfaces/time.glade.in.h:5
-msgid ""
-"Please select the current date and time. You can also specify a time zone "
-"and a time server."
-msgstr ""
-"Xahiş edirik indiki tarixi və saatı seçin. Zaman dilimini və zaman "
-"vericisini seçə bilərsiniz."
-
-#: interfaces/time.glade.in.h:6
-msgid "S_ynchronize clock with Internet servers:"
-msgstr "Saatı İnternet vericiləri ilə _sinxronlaşdır:"
-
-#: interfaces/time.glade.in.h:7
-msgid "Se_lect Servers..."
-msgstr "Vericiləri _Seç..."
-
-#: interfaces/time.glade.in.h:8
-msgid "Select the servers you wish to use for time synchronization."
-msgstr "Sinxronizasiya üçün işlətmək istədiyiniz vericisiləri bildirin."
-
-#: interfaces/time.glade.in.h:9
-msgid "Time zone:"
-msgstr "Vaxt zolağı:"
-
-#: interfaces/time.glade.in.h:10
-msgid "To select a time zone, click on one of the dots on the map"
-msgstr "Xəritədəki nöqtələrdən birinə tıqlayaraq vaxt solağını seçin"
-
-#: interfaces/time.glade.in.h:11
-msgid "_Date:"
-msgstr "_Tarix:"
-
-#: interfaces/time.glade.in.h:12
-msgid "_Select Time Zone..."
-msgstr "Vaxt _Zolağını Seç... "
-
-#: interfaces/time.glade.in.h:13
-msgid "_Time:"
-msgstr "_Vaxt:"
-
-#: interfaces/users.glade.in.h:2
-msgid "Advanced Settings"
-msgstr "Ətraflı Qurğular"
-
-#: interfaces/users.glade.in.h:3
-msgid "Automatic UID/GID"
-msgstr "Avtomatik UID/GID"
-
-
-#: interfaces/users.glade.in.h:6
-msgid "Group Members"
-msgstr "Qrup Üzvləri"
-
-#: interfaces/users.glade.in.h:7
-msgid "Optional Settings"
-msgstr "İstəyə Bağlı Qurğular"
-
-#: interfaces/users.glade.in.h:8
-msgid "Password Settings"
-msgstr "Şifrə Qurğuları"
-
-
-
-#: interfaces/users.glade.in.h:11
-msgid "System Defaults"
-msgstr "Sistem Ön Qurğuları"
-
-#: interfaces/users.glade.in.h:12
-msgid "User Profile"
-msgstr "İstifadəçi Profili"
-
-#: interfaces/users.glade.in.h:15
-msgid "Assign a random password by default"
-msgstr "Ön qurğulu olaraq təsadüfi şifrə ver"
-
-#: interfaces/users.glade.in.h:16
-msgid "Check password _quality"
-msgstr "Şifrə key_fiyyətini yoxla"
-
-#: interfaces/users.glade.in.h:17
-msgid "Con_firmation:"
-msgstr "_Təstiq:"
-
-#: interfaces/users.glade.in.h:18
-msgid "Days between warning and password expiration:"
-msgstr "Xəbərdarlıq və şifrə dəyişikliyi arasındakı müddət:"
-
-#: interfaces/users.glade.in.h:19
-msgid "Default _group:"
-msgstr "Ön qurğulu _qrup:"
-
-#: interfaces/users.glade.in.h:20
-msgid "Default _shell:"
-msgstr "Ön qurğulu _qabıq:"
-
-#: interfaces/users.glade.in.h:21
-msgid "Generate _random password"
-msgstr "_Təsadüfi şifrə yarat  "
-
-#: interfaces/users.glade.in.h:22
-msgid "Group Properties"
-msgstr "Qrup Xassələri"
-
-#: interfaces/users.glade.in.h:23
-msgid "Group _ID:"
-msgstr "Qrup _ID'si:"
-
-#: interfaces/users.glade.in.h:24
-msgid "Group _members:"
-msgstr "Qrup ü_zvləri:"
-
-#: interfaces/users.glade.in.h:25
-msgid "Group _name:"
-msgstr "Qrup a_dı:"
-
-#: interfaces/users.glade.in.h:26
-msgid "Groups"
-msgstr "Qruplar"
-
-#: interfaces/users.glade.in.h:27
-msgid "Ma_ximum days a password may be used:"
-msgstr "Şifrənin ma_ksimal istifadə müddəti:"
-
-#: interfaces/users.glade.in.h:28
-msgid "Maximum UID:"
-msgstr "Ən çox UID miqdarı:"
-
-#: interfaces/users.glade.in.h:29
-msgid "Mi_nimum days between password changes:"
-msgstr "Şifrənin dəyişiklikləri arasındakı ən a_z müddət:"
-
-#: interfaces/users.glade.in.h:30
-msgid "Minimum GID:"
-msgstr "Ən az GID miqdarı:"
-
-#: interfaces/users.glade.in.h:31
-msgid "Minimum UID:"
-msgstr "Ən az UID miqdarı:"
-
-#: interfaces/users.glade.in.h:32
-msgid "Minimum days allowed between password changes:"
-msgstr "Şifrə dəyişikliklərinə icazə veriləcək ən az gün miqdarı:"
-
-#: interfaces/users.glade.in.h:33
-msgid "Number of days that a password may be used:"
-msgstr "Şifrənin istifadə ediləcəyi gün miqdarı:"
-
-#: interfaces/users.glade.in.h:34
-msgid "O_ffice location:"
-msgstr "_İş yeri:"
-
-#: interfaces/users.glade.in.h:35
-msgid ""
-"On this page, you can define the system defaults which will be assigned to "
-"new users."
-msgstr ""
-"Bu səhifədə yeni istifadəçilərə veriləcək sistem ön qurğularını seçə "
-"bilərsiniz."
-
-#: interfaces/users.glade.in.h:36
-msgid "Other Groups"
-msgstr "Başqa Qruplar"
-
-#: interfaces/users.glade.in.h:37
-msgid "Password set to: "
-msgstr "Şifrə olaraq bu seçildi:"
-
-#: interfaces/users.glade.in.h:39
-msgid "Set password b_y hand"
-msgstr "Şifrəni ə_llə gir"
-
-#: interfaces/users.glade.in.h:40
-msgid "Show a_ll users and groups"
-msgstr "Bütün istifadəçi və qrupları _göstər"
-
-#: interfaces/users.glade.in.h:41
-msgid ""
-"This is the list of the groups available on the system. Create new groups or "
-"edit existing groups with this dialog."
-msgstr ""
-"Gördüyünüz, sistemdə mövcud olan qrupların siyahısıdır. Bu dialoq ilə yeni "
-"qruplar əlavə edə bilər ya da mövcud qrupların qurğularını dəyişdirə "
-"bilərsiniz."
-
-#: interfaces/users.glade.in.h:42
-msgid ""
-"This is the list of the users available on the system. Create new users or "
-"edit existing user settings with this dialog."
-msgstr ""
-"Gördüyünüz, sistemdə mövcud olan istifadəçilərin siyahısıdır. Bu dialoq ilə "
-"yeni istifadəçi əlavə edə bilər ya da mövcud istifadəçinin qurğularını "
-"dəyişdirə bilərsiniz."
-
-#: interfaces/users.glade.in.h:43
-#, fuzzy
-msgid "User Profiles"
-msgstr "İstifadəçi Profillərini _Dəyişdir..."
-
-#: interfaces/users.glade.in.h:44
-msgid "User _ID:"
-msgstr "İstifadəçi _ID:"
-
-#: interfaces/users.glade.in.h:45
-msgid "User _password:"
-msgstr "İstifadəçi ş_ifrəsi:"
-
-#: interfaces/users.glade.in.h:46
-#, fuzzy
-msgid ""
-"User profiles can be used as templates to facilitate the creation of new "
-"users."
-msgstr ""
-"İstifadəçi profilləri, yeni istifadəçi yaradılırkən şablon olaraq istifadə "
-"edilə bilərlər."
-
-#: interfaces/users.glade.in.h:47
-msgid "Users"
-msgstr "İstifadəçilər"
-
-#: interfaces/users.glade.in.h:48
-msgid "_Add Group..."
-msgstr "Qrup Ə_lavə Et..."
-
-#: interfaces/users.glade.in.h:49
-msgid "_Add Profile..."
-msgstr "Profil Ə_lavə Et..."
-
-#: interfaces/users.glade.in.h:50
-msgid "_Add User..."
-msgstr "İstifadəçi Ə_lavə Et..."
-
-#: interfaces/users.glade.in.h:51
-msgid "_All users:"
-msgstr "_Bütün istifadəçilər:"
-
-#: interfaces/users.glade.in.h:52
-msgid "_Available groups:"
-msgstr "_Mövcud qruplar:"
-
-#: interfaces/users.glade.in.h:53
-msgid "_Comments"
-msgstr "_Şərhlər"
-
-#: interfaces/users.glade.in.h:54
-msgid "_Days between warning and password expiration:"
-msgstr "Xəbərdarlıq və şifrə dəyişikliyi arasındakı _müddət:"
-
-#: interfaces/users.glade.in.h:56
-msgid "_Edit User Profiles..."
-msgstr "İstifadəçi Profillərini _Dəyişdir..."
-
-#: interfaces/users.glade.in.h:57
-msgid "_Generate Password"
-msgstr "_Təsadüfi Şifrə Yarat  "
-
-#: interfaces/users.glade.in.h:58
-msgid "_Home directory:"
-msgstr "_Ev qovluğu:"
-
-#: interfaces/users.glade.in.h:59
-msgid "_Home phone:"
-msgstr "_Ev telefonu:"
-
-#: interfaces/users.glade.in.h:60
-msgid "_Main group:"
-msgstr "_Ana _qrup:"
-
-#: interfaces/users.glade.in.h:61
-msgid "_Profile:"
-msgstr "_Profil:"
-
-#: interfaces/users.glade.in.h:62
-msgid "_Real name:"
-msgstr "_Həqiqi ad:"
-
-#: interfaces/users.glade.in.h:63
-msgid "_Shell:"
-msgstr "_Qabıq:"
-
-#: interfaces/users.glade.in.h:64
-msgid "_User's groups:"
-msgstr "_İstifadəçinin qrupları:"
-
-#: interfaces/users.glade.in.h:66
-msgid "_Work phone:"
-msgstr "_İş telefonu:"
-
-#: interfaces/users.glade.in.h:67
-msgid "profiles_table"
-msgstr "profil_cədvəli"
-
-#: src/boot/boot-append-gui.c:226
-msgid "Invalid VGA value"
-msgstr ""
-
-#: src/boot/boot-append-gui.c:231
-#, fuzzy, c-format
-msgid "\"%s\" is not a valid VGA value"
-msgstr "vga=%s hökmlü vga qiyməti deyil"
-
-#: src/boot/boot-druid.c:105
-msgid "Error creating boot image"
-msgstr ""
-
-#: src/boot/boot-druid.c:434
-#, c-format
-msgid "Creating a new boot image (%d of %d)"
-msgstr ""
-
-#: src/boot/boot-druid.c:435
-msgid "Finished creating a new boot image"
-msgstr ""
-
-#: src/boot/boot-image.c:40 src/network/profile.c:490
-msgid "Unknown"
-msgstr "Namə'lum"
-
-#: src/boot/boot-image.c:41
-msgid "Windows NT"
-msgstr "Windows NT"
-
-#: src/boot/boot-image.c:42
-msgid "Windows 9x"
-msgstr "Windows 9x"
-
-#: src/boot/boot-image.c:43
-msgid "Dos"
-msgstr "Dos"
-
-#: src/boot/boot-image.c:44
-msgid "Linux"
-msgstr "Linuks"
-
-#: src/boot/boot-image.c:45
-msgid "Linux swap"
-msgstr "Linuks dəyiş-toqquş"
-
-#: src/boot/boot-image.c:46
-msgid "GNU/Hurd"
-msgstr ""
-
-#: src/boot/boot-image.c:276
-#, c-format
-msgid "\"%s\" is an invalid path"
-msgstr ""
-
-#: src/boot/boot-image.c:292
-#, fuzzy, c-format
-msgid "\"%s\" already exists, please set another name"
-msgstr "'%s' əksi onsuz da mövcuddur, xahiş edirik başqa ad seçin."
-
-#: src/boot/boot-image.c:298
-#, fuzzy, c-format
-msgid "Invalid image name: \"%s\""
-msgstr "Hökmsüz əks adı: '%s'"
-
-#: src/boot/boot-image.c:311
-#, fuzzy, c-format
-msgid "Invalid image: \"%s\""
-msgstr "Hökmsüz əks: '%s'"
-
-#: src/boot/boot-image.c:329
-#, fuzzy, c-format
-msgid "Invalid root device: \"%s\""
-msgstr "Hökmsüz kök avadanlığı: '%s'"
-
-#: src/boot/boot-settings.c:44
-#, fuzzy
-msgid "_Module path:"
-msgstr "_Modem qapısı:"
-
-#: src/boot/boot-settings.c:353
-#, fuzzy
-msgid "Password confirmation is not correct"
-msgstr "Şifrənin təstiqi düzgün deyil."
-
-#: src/boot/boot-settings.c:377
-msgid "Error modifying boot image"
-msgstr ""
-
-#: src/boot/boot.desktop.in.in.h:1
-msgid "Boot"
-msgstr "Açılış"
-
-#: src/boot/boot.desktop.in.in.h:2
-msgid "Configure the system boot process"
-msgstr ""
-
-#: src/boot/callbacks.c:76
-msgid "Boot Image Editor"
-msgstr "Açılış Əksi Editoru"
-
-#: src/boot/callbacks.c:170
-msgid "Boot Append Editor"
-msgstr "Boot Append Editoru"
-
-#: src/boot/callbacks.c:393
-msgid "Error deleting boot image"
-msgstr ""
-
-#: src/boot/callbacks.c:394
-#, fuzzy
-msgid "Without at least one boot image your computer will not start"
-msgstr ""
-"Æn az bir açılış əksi olmadan,\n"
-"sisteminiz başlamayacaqdır.\n"
-
-#: src/boot/callbacks.c:415
-msgid "This may leave this operating system unbootable"
-msgstr ""
-
-#: src/boot/callbacks.c:420
-#, fuzzy, c-format
-msgid "Are you sure you want to delete \"%s\"?"
-msgstr "Həqiqətən %s'i silmək istəyirsiniz?"
-
-#: src/boot/callbacks.c:461
-#, fuzzy
-msgid "The configuration will show empty"
-msgstr "Quraşdırmanı buradan bərpa et"
-
-#: src/boot/callbacks.c:466
-#, fuzzy, c-format
-msgid "The file \"%s\" is missing or could not be read"
-msgstr ""
-"``%s'' faylı ya yoxdur ya da oxuna bilmir:\n"
-"Quraşdırma boş göstəriləcəkdir."
-
-#: src/boot/table.c:41
-msgid "Name"
-msgstr "Ad"
-
-#: src/boot/table.c:42
-msgid "Default"
-msgstr "Ön qurğulu"
-
-#: src/boot/table.c:43 src/network/connection.c:487
-msgid "Type"
-msgstr "Növ"
-
-#: src/boot/table.c:44
-msgid "Kernel Image"
-msgstr "Kernel Əksi"
-
-#: src/boot/table.c:45 src/network/connection.c:503
-msgid "Device"
-msgstr "Avadanlıq"
-
-#: src/boot/table.c:50
-msgid "/_Add ..."
-msgstr "/Ə_lavə Et ..."
-
-#: src/boot/table.c:52
-msgid "/_Properties"
-msgstr "/_Xassələr"
-
-#: src/boot/table.c:53
-msgid "/_Delete"
-msgstr "/_Sil"
-
-#. the proccess was running ssh
-#: src/common/gst-auth.c:89
-#, fuzzy
-msgid "The tool could not connect to the computer"
-msgstr "Kompüterə bağlana bilmədi."
-
-#: src/common/gst-auth.c:90
-msgid ""
-"Check that you have access to this network and that the computer is actually "
-"working and running SSHD"
-msgstr ""
-
-#. the proccess was running su
-#: src/common/gst-auth.c:94
-#, fuzzy
-msgid "The entered password is invalid"
-msgstr "Girdiyiniz şifrə səhvdir."
-
-#: src/common/gst-auth.c:95
-msgid ""
-"Check that you typed it correctly and that you haven't activated the \"caps "
-"lock\" key"
-msgstr ""
-
-#: src/common/gst-auth.c:104
-#, fuzzy, c-format
-msgid "Could not run \"%s\""
-msgstr "Pəncərə tapıla bilmədi: %s"
-
-#: src/common/gst-auth.c:105
-msgid "Check that you have permissions to run this command"
-msgstr ""
-
-#: src/common/gst-auth.c:107
-#, fuzzy
-msgid "An unexpected error has ocurred"
-msgstr "Gözlənilməyən xəta baş verdi."
-
-#: src/common/gst-dialog.c:62
-#, c-format
-msgid "Could not find widget: %s"
-msgstr "Pəncərə tapıla bilmədi: %s"
-
-#: src/common/gst-dialog.c:94
-msgid " More _Options"
-msgstr " Ə_traflı"
-
-#: src/common/gst-dialog.c:95
-#, fuzzy
-msgid " Fewer _Options"
-msgstr " _Bəsit"
-
-#: src/common/gst-dialog.c:507
-#, fuzzy
-msgid "There are changes which have not been applied"
-msgstr ""
-"Bə'zi dəyişikiikləri hələ həyata keçirmədiiz.\n"
-"İndi həyata keçirilsin?"
-
-#: src/common/gst-dialog.c:508
-msgid "Apply them now?"
-msgstr ""
-
-#: src/common/gst-dialog.c:626
-#, c-format
-msgid "Error connection signal `%s' in widget `%s'"
-msgstr "'%s' bağlantı xətası siqnalı.( Yer: Parçacıq(widget): '%s' )"
-
-#: src/common/gst-tool.c:1003
+#: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
 msgstr ""
 
-#: src/common/gst-tool.c:1004
-#, fuzzy
-msgid "There was an error running the backend script"
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:190
+msgid "The configuration could not be saved"
 msgstr ""
-"Arxa planda çalışan script'de xəta oldu,\n"
-"və qurğular yüklənə bilmədi."
 
-#: src/common/gst-tool.c:1486
-#, fuzzy, c-format
-msgid "Welcome to the %s prerelease of the MATE System Tools"
-msgstr "Zaman Vericiləri - MATE Sistem Vasitələri"
+#: ../src/common/gst-tool.c:194
+msgid "You are not allowed to access the system configuration."
+msgstr ""
 
-#: src/common/gst-tool.c:1488
-#, fuzzy
+#. OPERATION_COMMIT
+#: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
+msgid "You are not allowed to modify the system configuration."
+msgstr ""
+
+#: ../src/common/gst-tool.c:199
+msgid "Invalid data was found."
+msgstr ""
+
+#. OOBS_RESULT_ERROR
+#: ../src/common/gst-tool.c:201
+msgid "An unknown error occurred."
+msgstr ""
+
+#: ../src/common/gst-tool.c:422
+msgid "Could not display help"
+msgstr ""
+
+#: ../src/common/gst-tool.c:616
+msgid "The system configuration has potentially changed."
+msgstr ""
+
+#: ../src/common/gst-tool.c:618
+msgid "Update content? This will lose any modification in course."
+msgstr ""
+
+#: ../src/common/gst-tool.c:687
+#, c-format
 msgid ""
-"This is still a work in progress, and so it may have serious bugs. Due to "
-"the nature of these tools, bugs may render your computer <span weight=\"bold"
-"\">practically useless, costing time, effort and sanity points. You "
-"have been warned. Thank you for trying out this prerelease of the MATE "
-"System Tools!"
+"An error occurred while checking for authorizations: %s\n"
+"You may report this as a bug."
 msgstr ""
-"MATE Sistem Vasitələrini %s nömrəli ön buraxılışına xoş gəldiniz.\n"
-"\n"
-"Bu hazırda inkişaf altında olan bir proqramdır, ona görə də ciddi xətalar\n"
-"daxil edə bilər. Bu vasitələri sisteminizi PRAKTİK OLARAQ FAYDASIZ,\n"
-"hala gətirə bilər bu da sizin vaxt və əlavə cəhdinizi ala bilər.\n"
-"\n"
-"Bizdən deməsi. MATE Sistem Vasitələrinin Ön Buraxılışını\n"
-"işlətdiyiniz üçün sizə minnətdarıq!\n"
-"\n"
-"--\n"
-"MATE Sistem Vasitələri Komandası"
 
-#: src/common/gst-tool.c:1509
-msgid "Warning"
-msgstr "Xəbərdarlıq"
+#: ../src/network/address-list.c:76 ../src/network/hosts.c:31
+#: ../src/shares/table.c:38 ../src/users/table.c:40
+msgid "_Add"
+msgstr "Əla_və Et"
 
-#: src/common/gst-tool.c:1529
-msgid "Don't show me this again"
-msgstr "Bunu mənə bir də göstərmə"
+#: ../src/network/address-list.c:77 ../src/network/hosts.c:33
+#: ../src/shares/table.c:40 ../src/users/table.c:42
+msgid "_Delete"
+msgstr "_Sil"
 
-#: src/common/gst-tool.c:1604
-msgid "MATE System Tools"
-msgstr "MATE Sistem Vasitələri"
+#: ../src/network/address-list.c:485
+msgid "Type address"
+msgstr ""
 
-#: src/network/callbacks.c:397
+#: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
+msgid "Changing interface configuration"
+msgstr ""
+
+#: ../src/network/callbacks.c:299
+msgid "Could not autodetect modem device"
+msgstr ""
+
+#: ../src/network/callbacks.c:302
 msgid ""
-"This will disable any network connection with this interface as soon as you "
-"press \"apply\""
+"Check that the device is not busy and that is correctly attached to the "
+"computer."
 msgstr ""
 
-#: src/network/callbacks.c:402
-#, fuzzy, c-format
-msgid "Are you sure you want to delete connection \"%s\"?"
-msgstr "%s istifadəçisini silmək istəyirsiniz?"
-
-#: src/network/callbacks.c:492
-#, fuzzy
-msgid "SMB Support is not running"
-msgstr "SMB dəstəyi əksikdir."
-
-#: src/network/callbacks.c:493
-#, fuzzy
-msgid ""
-"You don't have SMB support installed. Please install SMB support in the "
-"system to enable file sharing in Windows networks"
-msgstr ""
-"Qurulu SMB dəstə'yiniz yoxdur. Xahiş edilir ki,\n"
-"sistemə SMB qurasınız."
-
-#: src/network/callbacks.c:557
+#: ../src/network/callbacks.c:523
 msgid "The host name has changed"
 msgstr ""
 
-#: src/network/callbacks.c:558
-#, fuzzy
+#: ../src/network/callbacks.c:526
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
 msgstr ""
-"Qovşaq adı dəyişdirildi. Buna görə də\n"
-"yenidən qirənə qədər\n"
-"yeni proqram tə'minatları başlada bilməyəcəksiniz.\n"
-"\n"
-"Davam edim?"
 
-#: src/network/callbacks.c:562
-#, fuzzy
+#: ../src/network/callbacks.c:532
 msgid "Change _Host name"
-msgstr "_Qovşaq adı:"
-
-#: src/network/callbacks.c:605 src/network/callbacks.c:632
-msgid "Wvdial command not found"
 msgstr ""
 
-#: src/network/callbacks.c:606
-#, fuzzy
-msgid ""
-"wvdial could not be found on your system. You need to install wvdial, or the "
-"PPP (modem) connections will not activate"
-msgstr ""
-"wvdial sisteminizdə tapılmadı.\n"
-"Wvdial qurmalısınız, yoxsa PPP (modem)\n"
-"bağlantısı qurula bilməyəcək."
-
-#: src/network/callbacks.c:633
-#, fuzzy
-msgid ""
-"wvdial could not be found on your system. You need to install wvdial, or the "
-"PPP (modem) connections will not activate. Continue anyway?"
-msgstr ""
-"wvdial sisteminizdə tapılmadı.\n"
-"Wvdial qurmalısınız, yoxsa PPP (modem)\n"
-"bağlantısı qurula bilməyəcək.\n"
-"\n"
-"Davam edim?"
-
-#: src/network/callbacks.c:637 src/network/callbacks.c:664
-#, fuzzy
-msgid "_Continue"
-msgstr "_Quraşdır"
-
-#: src/network/callbacks.c:660
-#, fuzzy
-msgid "The default gateway device is not activated"
-msgstr "Ön qurğulu şəbəkə keçiş avadanlığı:"
-
-#: src/network/callbacks.c:661
-#, fuzzy
-msgid "This will prevent you from connecting to the Internet. Continue anyway?"
-msgstr ""
-"Ön qurğulu keçiş avadanlığı fəal deyil. Buna görə də\n"
-"internetə bağlana bilməyəcəksiniz.\n"
-"\n"
-"Davam edilsin?"
-
-#: src/network/callbacks.c:709
-msgid "The default gateway device is missing gateway information"
+#: ../src/network/connection.c:40
+msgid "Automatic configuration (DHCP)"
 msgstr ""
 
-#: src/network/callbacks.c:710
-#, fuzzy
-msgid ""
-"Please provide this information to proceed, or choose another default "
-"gateway device"
-msgstr ""
-"Ön qurğulu keçiş avadanlığı əksik keçiş mə'lumatına\n"
-"malikdir. Xahiş edirik, davam etmək üçün bu mə'lumatı verin.\n"
-"Ya da başqa keçiş avadanlığı bildirin.\n"
-
-#: src/network/callbacks.c:755
-msgid "The program redhat-config-network-cmd could not be found"
+#: ../src/network/connection.c:41
+msgid "Local Zeroconf network (IPv4 LL)"
 msgstr ""
 
-#: src/network/callbacks.c:756
-#, fuzzy
-msgid ""
-"This could render missing connections under the connections tab. Please "
-"install the redhat-config-network rpm package to avoid this"
-msgstr ""
-"redhat-config-network-cmd proqramı tapıla\n"
-"billmir. Bağlantılar səkməsi altındakı\n"
-"əksik bağlantıları render edə bilər. Xahiş edirik,\n"
-"bundan qurtulmaq üçün redhat-config-network rpm paketini qurun"
-
-#: src/network/callbacks.c:787
-#, fuzzy, c-format
-msgid "Do you want to enable interface \"%s\"?"
-msgstr "%s ara üzünü fəallaşdırmaq istəyirsiniz?"
-
-#: src/network/callbacks.c:788
-msgid "This will enable network access through this interface"
+#: ../src/network/connection.c:42
+msgid "Static IP address"
 msgstr ""
 
-#: src/network/callbacks.c:789
-msgid "_Enable"
-msgstr "_Fəallaşdır"
-
-#: src/network/callbacks.c:791
-#, fuzzy, c-format
-msgid "Do you want to disable interface \"%s\"?"
-msgstr "%s ara üzünü qeyri-fəallaşdırmaq istəyirsiniz?"
-
-#: src/network/callbacks.c:792
-msgid "This will disable network access through this interface"
+#: ../src/network/connection.c:46
+msgid "WEP key (ascii)"
 msgstr ""
 
-#: src/network/callbacks.c:793
-#, fuzzy
-msgid "_Disable"
-msgstr "Bağla"
-
-#: src/network/callbacks.c:900
-#, fuzzy
-msgid "Could not autodetect modem device"
-msgstr "Modem avadanlığı avtomatik tapılır"
-
-#: src/network/callbacks.c:901
-#, fuzzy
-msgid ""
-"Check that the device is not busy and that is correctly attached to the "
-"computer"
+#: ../src/network/connection.c:47
+msgid "WEP key (hexadecimal)"
 msgstr ""
-"Modem avadanlığı avtomatik olaraq aşkar edilə bilmədi. Onun düzgün "
-"taxıldığını və məşğul olmadığını yoxlayın"
 
-#: src/network/callbacks.c:956
-msgid "Silent"
-msgstr "Səssiz"
+#: ../src/network/connection.c:48
+msgid "WPA Personal"
+msgstr ""
 
-#: src/network/callbacks.c:958
-msgid "Low"
-msgstr "Alçaq"
+#: ../src/network/connection.c:49
+msgid "WPA2 Personal"
+msgstr ""
 
-#: src/network/callbacks.c:960
-msgid "Medium"
-msgstr "Orta"
+#: ../src/network/connection.c:53
+msgid "GPRS/UMTS"
+msgstr ""
 
-#: src/network/callbacks.c:962
-msgid "Loud"
-msgstr "Uca"
+#: ../src/network/connection.c:54
+msgid "ISDN modem"
+msgstr ""
 
-#: src/network/connection.c:46
-msgid "Other type"
-msgstr "Başqa növ"
+#: ../src/network/connection.c:55
+msgid "Serial modem"
+msgstr ""
 
-#: src/network/connection.c:47 src/network/connection.c:48
-#: src/network/connection.c:49 src/network/connection.c:50
-msgid "Ethernet LAN card"
-msgstr "Ethernet LAN kart"
+#: ../src/network/connection.c:56
+msgid "PPPoE"
+msgstr ""
 
-#: src/network/connection.c:51
-#, fuzzy
-msgid "Wireless LAN card"
-msgstr "WaveLAN naqilsiz LAN"
+#: ../src/network/connection.c:769
+#, c-format
+msgid "%s Properties"
+msgstr ""
 
-#: src/network/connection.c:52 src/network/connection.c:53
-msgid "Modem or transfer cable"
-msgstr "Modem ya da transfer kabeli"
-
-#: src/network/connection.c:54
-msgid "Parallel line"
-msgstr "Paralel xətt"
-
-#: src/network/connection.c:55
-msgid "Infrared LAN"
-msgstr "Infraqırmızı LAN"
-
-#: src/network/connection.c:56
-msgid "Loopback interface"
-msgstr "Loopback ara üzü"
-
-#: src/network/connection.c:57
-msgid "Unknown interface type"
-msgstr "Namə'lum ara üz növü"
-
-#: src/network/connection.c:62 src/users/table.c:46
-msgid "_Add"
-msgstr "Əla_və Et"
-
-#: src/network/connection.c:63 src/users/table.c:47
+#: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
+#: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
 msgstr "_Xassələr"
 
-#: src/network/connection.c:474 src/services/table.c:86
-msgid "Active"
-msgstr "Fəal"
-
-#: src/network/connection.c:1718 src/network/connection.c:1728
-#, fuzzy
-msgid "Error in IP address"
-msgstr "IP ünvanı"
-
-#: src/network/connection.c:1719
-#, fuzzy
-msgid ""
-"The IP address or netmask for the interface was left empty. Please enter "
-"valid IP addresses in those fields to continue"
-msgstr ""
-"Ara üzün IP ünvanı ya da şəbəkə maskası\n"
-"boş buraxıldı.Xahiş edirik ki,davam etmək üçün\n"
-"bu üzvlərin hökmlü IP ünvanlarını daxil edin."
-
-#: src/network/connection.c:1729
-#, fuzzy
-msgid ""
-"The IP address or remote address for the interface was left empty. Please "
-"enter valid IP addresses in those fields to continue"
-msgstr ""
-"Ara üzün IP ünvanı ya da şəbəkə maskası\n"
-"boş buraxıldı.Xahiş edirik ki,davam etmək üçün\n"
-"bu üzvün hökmlü IP ünvanını daxil edin."
-
-#: src/network/connection.c:1737
-msgid "Error in domain name servers"
-msgstr ""
-
-#: src/network/connection.c:1738
-#, fuzzy
-msgid ""
-"You chose to set the domain name servers for this connection manually, but "
-"left the IP address for the primary name server empty. Please enter the IP "
-"for the primary domain name server or uncheck the manual DNS option"
-msgstr ""
-"Bu bağlantı üçün DNS vericiləri\n"
-"əllə quraşdırmaq istədiniz. Amma birincil DNS\n"
-"sahəsini boş duraxdınız. Xahiş edirik,\n"
-"ya birinci DNS IP'sini daxil edin ya da əllə quraşdırmaqdan\n"
-"imtina edin."
-
-#: src/network/connection.c:1745
-#, fuzzy
-msgid "Invalid modem device"
-msgstr "Hökmsüz kök avadanlığı: '%s'"
-
-#: src/network/connection.c:1746
-#, fuzzy
-msgid ""
-"The modem device that the connection will use was left empty. Please enter a "
-"device or press \"autodetect\" to continue"
-msgstr ""
-"Ara üzün IP ünvanı ya da şəbəkə maskası\n"
-"boş buraxıldı.Xahiş edirik ki,davam etmək üçün\n"
-"bu üzvlərin hökmlü IP ünvanlarını daxil edin."
-
-#: src/network/connection.c:1751
-#, fuzzy
-msgid "Invalid phone number"
-msgstr "1. ISP telefon nömrəsi"
-
-#: src/network/connection.c:1752
-#, fuzzy
-msgid ""
-"The phone number that the connection will use was left empty. Please enter a "
-"valid phone number to continue"
-msgstr ""
-"Ara üzün IP ünvanı ya da şəbəkə maskası\n"
-"boş buraxıldı.Xahiş edirik ki,davam etmək üçün\n"
-"bu üzvlərin hökmlü IP ünvanlarını daxil edin."
-
-#: src/network/connection.c:2120
-#, c-format
-msgid "The interface \"%s\" doesn't exist"
-msgstr ""
-
-#: src/network/connection.c:2124
-#, fuzzy
-msgid "Invalid interface"
-msgstr "Loopback ara üzü"
-
-#: src/network/connection.c:2125
-msgid "The loopback interface cannot be configured"
-msgstr ""
-
-#: src/network/dns.c:148 src/network/hosts.c:158
+#: ../src/network/hosts.c:89
 msgid "IP Address"
 msgstr "IP Ünvanı"
 
-#: src/network/hosts.c:166
+#: ../src/network/hosts.c:97
 msgid "Aliases"
 msgstr "Ləqəblər"
 
-#: src/network/main.c:188
-#, fuzzy
-msgid "Run the connection assistant."
-msgstr "Bağlantı sehirbazını icra et."
+#: ../src/network/ifaces-list.c:280
+msgid "This network interface is not configured"
+msgstr ""
 
-#: src/network/main.c:189
-#, fuzzy
-msgid "Run the PPP connection assistant."
-msgstr "PPP bağlantısı sehirbazını icra et."
+#: ../src/network/ifaces-list.c:282
+msgid "Roaming mode enabled"
+msgstr ""
 
-#: src/network/main.c:190
-#, fuzzy
-msgid "Run the ethernet connection assistant."
-msgstr "Eternet bağlantısı sehirbazını icra et."
+#: ../src/network/ifaces-list.c:289
+#, c-format
+msgid "<b>Essid:</b> %s "
+msgstr ""
 
-#: src/network/main.c:191
-#, fuzzy
-msgid "Run the wlan connection assistant."
-msgstr "wlan bağlantısı sehirbazını icra et."
+#: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
+#: ../src/network/ifaces-list.c:306
+msgid "Address:"
+msgstr ""
 
-#: src/network/main.c:192
-#, fuzzy
-msgid "Run the parallel port connection assistant."
-msgstr "Paralel qapı bağlantısı sehirbazını icra et."
+#: ../src/network/ifaces-list.c:298
+msgid "Subnet mask:"
+msgstr ""
 
-#: src/network/main.c:193
-#, fuzzy
-msgid "Run the irlan connection assistant."
-msgstr "irlan bağlantısı sehirbazını icra et."
+#: ../src/network/ifaces-list.c:308
+msgid "Remote address:"
+msgstr ""
 
-#: src/network/main.c:194
-#, fuzzy
+#: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
+#: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
+msgid "Type:"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:321
+msgid "Phone number:"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:356
+msgid "Wireless connection"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:358
+msgid "Infrared connection"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:360
+msgid "Wired connection"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:362
+msgid "Parallel port connection"
+msgstr ""
+
+#: ../src/network/ifaces-list.c:364
+msgid "Point to point connection"
+msgstr ""
+
+#: ../src/network/locations-combo.c:221
+msgid "Changing network location"
+msgstr ""
+
+#: ../src/network/locations-combo.c:265
+msgid "There is already a location with the same name"
+msgstr ""
+
+#: ../src/network/locations-combo.c:267
+msgid "Overwrite it?"
+msgstr ""
+
+#: ../src/network/locations-combo.c:355
+msgid "Save location"
+msgstr ""
+
+#: ../src/network/locations-combo.c:370
+msgid "_Location name:"
+msgstr ""
+
+#: ../src/network/locations-combo.c:422
+#, c-format
+msgid "Do you want to delete location \"%s\"?"
+msgstr ""
+
+#: ../src/network/main.c:135
+msgid "The interface does not exist"
+msgstr ""
+
+#: ../src/network/main.c:137
+msgid ""
+"Check that it is correctly typed and that it is correctly supported by your "
+"system."
+msgstr ""
+
+#: ../src/network/main.c:183
 msgid "Configure a network interface"
-msgstr "Yeni yerli şəbəkə ara üzü yarat."
+msgstr ""
 
-#: src/network/main.c:194
-#, fuzzy
-msgid "interface"
-msgstr "Loopback ara üzü"
+#: ../src/network/main.c:183
+msgid "INTERFACE"
+msgstr ""
 
-#: src/network/main.c:201
+#: ../src/network/main.c:184
+msgid "Configure the first network interface with a specific type"
+msgstr ""
+
+#: ../src/network/main.c:184
+msgid "TYPE"
+msgstr ""
+
+#: ../src/network/mate-network.desktop.in.in.h:1
+msgid "Network"
+msgstr ""
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr ""
+
+#: ../src/network/network-tool.c:280
 msgid "Network Settings"
 msgstr "Şəbəkə Qurğuları"
 
-#: src/network/network-druid.c:64
-#, fuzzy, c-format
-msgid "Creating a new network connection (%d of %d)"
-msgstr "Yeni şəbəkə bağlantısı yarat"
-
-#: src/network/network-druid.c:65
-#, fuzzy
-msgid "Finished creating a new network connection"
-msgstr "Yeni şəbəkə bağlantısı yarat"
-
-#: src/network/network.desktop.in.in.h:1
-#, fuzzy
-msgid "Configure network devices and connections"
-msgstr "Yeni şəbəkə bağlantısı"
-
-#: src/network/network.desktop.in.in.h:2
-msgid "Networking"
-msgstr "Şəbəkə"
-
-#: src/network/profile.c:51 src/users/profile-settings.c:215
-msgid "You will not be able to recover this profile after pressing \"apply\""
+#: ../src/services/callbacks.c:65
+#, c-format
+msgid "Settings for service \"%s\""
 msgstr ""
 
-#: src/network/profile.c:55
-#, fuzzy, c-format
-msgid "Are you sure you want to delete profile \"%s\"?"
-msgstr "Həqiqətən də %s profilini silmək istəyirsiniz?"
-
-#: src/network/profiles-table.c:53
-msgid "Profile name"
-msgstr "Profil adı"
-
-
-#: src/services/callbacks.c:46
-msgid "No description available."
-msgstr "İzahat mövcud deyil"
-
-#: src/services/callbacks.c:245
-msgid "Running"
+#: ../src/services/callbacks.c:122
+#, c-format
+msgid "Are you sure you want to deactivate %s?"
 msgstr ""
 
-#: src/services/callbacks.c:249
-msgid "Stopped"
+#: ../src/services/callbacks.c:126
+msgid ""
+"This may affect your system behavior in several ways, possibly leading to "
+"data loss."
 msgstr ""
 
-#: src/services/callbacks.c:254
-#, fuzzy
-msgid "Could not get info"
-msgstr "Pəncərə tapıla bilmədi: %s"
-
-#: src/services/callbacks.c:320
-#, fuzzy, c-format
-msgid "Settings for service %s"
-msgstr "%s istifadəçisi üçün qurğular"
-
-#: src/services/main.c:62
-msgid "Services Settings"
-msgstr "Xidmətlərin Qurğuları"
-
-#: src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
+#: ../src/services/service.c:32
+msgid "Web server"
 msgstr ""
 
-#: src/services/services.desktop.in.in.h:2
+#: ../src/services/service.c:32
+msgid "Shares your web pages over the Internet"
+msgstr ""
+
+#. GST_ROLE_WEB_SERVER
+#: ../src/services/service.c:33
+msgid "Actions scheduler"
+msgstr ""
+
+#: ../src/services/service.c:33
+msgid "Executes scheduled actions"
+msgstr ""
+
+#. GST_ROLE_COMMAND_SCHEDULER
+#: ../src/services/service.c:34
+msgid "Printer service"
+msgstr ""
+
+#: ../src/services/service.c:34
+msgid "Allows applications to use printers"
+msgstr ""
+
+#. GST_ROLE_PRINTER_SERVICE
+#: ../src/services/service.c:35
+msgid "Mail agent"
+msgstr ""
+
+#: ../src/services/service.c:35
+msgid "Delivers your outgoing mail"
+msgstr ""
+
+#. GST_ROLE_MTA
+#: ../src/services/service.c:36
+msgid "MTA authentication service"
+msgstr ""
+
+#. GST_ROLE_MTA_AUTH
+#: ../src/services/service.c:37
+msgid "Mail fetcher"
+msgstr ""
+
+#: ../src/services/service.c:37
+msgid "Downloads your mail from remote accounts"
+msgstr ""
+
+#. GST_ROLE_MAIL_FETCHER
+#: ../src/services/service.c:38
+msgid "Graphical login manager"
+msgstr ""
+
+#: ../src/services/service.c:38
+msgid "Allows users to login graphically"
+msgstr ""
+
+#. GST_ROLE_DISPLAY_MANAGER
+#: ../src/services/service.c:39
+msgid "Database server"
+msgstr ""
+
+#: ../src/services/service.c:39
+msgid "Data storage system"
+msgstr ""
+
+#. GST_ROLE_DATABASE_SERVER
+#. GST_ROLE_FILE_SERVER_SMB
+#. GST_ROLE_FILE_SERVER_FTP
+#: ../src/services/service.c:40 ../src/services/service.c:41
+#: ../src/services/service.c:43
+msgid "Folder sharing service"
+msgstr ""
+
+#: ../src/services/service.c:40 ../src/services/service.c:41
+msgid "Shares folders over your network"
+msgstr ""
+
+#. GST_ROLE_FILE_SERVER_NFS
+#: ../src/services/service.c:42
+msgid "FTP service"
+msgstr ""
+
+#: ../src/services/service.c:42 ../src/services/service.c:43
+msgid "Shares folders over the Internet"
+msgstr ""
+
+#. GST_ROLE_FILE_SERVER_TFTP
+#: ../src/services/service.c:44
+msgid "Clock synchronization service"
+msgstr ""
+
+#: ../src/services/service.c:44
+msgid "Synchronizes your computer clock with Internet time servers"
+msgstr ""
+
+#. GST_ROLE_NTP_SERVER
+#: ../src/services/service.c:46
+msgid "Antivirus"
+msgstr ""
+
+#: ../src/services/service.c:46
+msgid "Analyzes your incoming mail for virus"
+msgstr ""
+
+#. GST_ROLE_ANTIVIRUS
+#: ../src/services/service.c:47
+msgid "Firewall"
+msgstr ""
+
+#: ../src/services/service.c:47
+msgid "Blocks undesired network access to your computer"
+msgstr ""
+
+#. GST_ROLE_FIREWALL_MANAGEMENT
+#: ../src/services/service.c:49
+msgid "Dictionary server"
+msgstr ""
+
+#. GST_ROLE_DICTIONARY_SERVER
+#: ../src/services/service.c:50
+msgid "Speech synthesis support"
+msgstr ""
+
+#. GST_ROLE_SPEECH_SYNTHESIS
+#: ../src/services/service.c:51
+msgid "Computer activity logger"
+msgstr ""
+
+#: ../src/services/service.c:51
+msgid "Keeps a log of your computer activity"
+msgstr ""
+
+#. GST_ROLE_SYSTEM_LOGGER
+#: ../src/services/service.c:52
+msgid "Remote backup server"
+msgstr ""
+
+#. GST_ROLE_REMOTE_BACKUP
+#: ../src/services/service.c:53
+msgid "Spam filter"
+msgstr ""
+
+#. GST_ROLE_SPAM_FILTER
+#: ../src/services/service.c:54
+msgid "Remote shell server"
+msgstr ""
+
+#: ../src/services/service.c:54
+msgid "Secure shell server"
+msgstr ""
+
+#. GST_ROLE_SECURE_SHELL_SERVER
+#: ../src/services/service.c:55
+msgid "Application server"
+msgstr ""
+
+#. GST_ROLE_APPLICATION_SERVER
+#: ../src/services/service.c:56
+msgid "Automated crash reports support"
+msgstr ""
+
+#. GST_ROLE_AUTOMATED_CRASH_REPORTS_MANAGEMENT
+#: ../src/services/service.c:57
+msgid "System communication bus"
+msgstr ""
+
+#. GST_ROLE_DBUS,
+#: ../src/services/service.c:58
+msgid "System configuration manager"
+msgstr ""
+
+#. GST_ROLE_SYSTEM_CONFIGURATION_MANAGEMENT
+#: ../src/services/service.c:59
+msgid "School management platform"
+msgstr ""
+
+#. GST_ROLE_SCHOOL_MANAGEMENT_PLATFORM
+#: ../src/services/service.c:60
+msgid "Network security auditor"
+msgstr ""
+
+#. GST_ROLE_SECURITY_AUDITING
+#: ../src/services/service.c:61
+msgid "Web calendar server"
+msgstr ""
+
+#. GST_ROLE_WEB_CALENDAR_SERVER
+#: ../src/services/service.c:62
+msgid "OEM configuration manager"
+msgstr ""
+
+#. GST_ROLE_OEM_CONFIGURATION_MANAGEMENT
+#: ../src/services/service.c:63
+msgid "Terminal multiplexor"
+msgstr ""
+
+#. GST_ROLE_TERMINAL_MULTIPLEXOR
+#: ../src/services/service.c:64
+msgid "Disk quota activation"
+msgstr ""
+
+#. GST_ROLE_QUOTA_MANAGEMENT
+#: ../src/services/service.c:65
+msgid "Package index monitor"
+msgstr ""
+
+#. GST_ROLE_PACKAGE_INDEX_MONITORING
+#: ../src/services/service.c:66
+msgid "Network service"
+msgstr ""
+
+#. GST_ROLE_NETWORK
+#: ../src/services/service.c:67
+msgid "Dynamic DNS services updater"
+msgstr ""
+
+#. GST_ROLE_DYNAMIC_DNS_SERVICE
+#: ../src/services/service.c:68
+msgid "DHCP server"
+msgstr ""
+
+#. GST_ROLE_DHCP_SERVER
+#: ../src/services/service.c:69
+msgid "Domain name server"
+msgstr ""
+
+#. GST_ROLE_DNS
+#: ../src/services/service.c:70
+msgid "Proxy cache service"
+msgstr ""
+
+#. GST_ROLE_PROXY_CACHE
+#: ../src/services/service.c:71
+msgid "LDAP server"
+msgstr ""
+
+#. GST_ROLE_LDAP_SERVER
+#: ../src/services/service.c:72
+msgid "Mailing lists manager"
+msgstr ""
+
+#. GST_ROLE_MAILING_LISTS_MANAGER
+#: ../src/services/service.c:73
+msgid "Multicast DNS service discovery"
+msgstr ""
+
+#. GST_ROLE_RENDEZVOUS
+#: ../src/services/service.c:74
+msgid "Account information resolver"
+msgstr ""
+
+#. GST_ROLE_NSS
+#: ../src/services/service.c:75
+msgid "Virtual Private Network server"
+msgstr ""
+
+#. GST_ROLE_VPN_SERVER
+#: ../src/services/service.c:76
+msgid "Router advertisement server"
+msgstr ""
+
+#. GST_ROLE_ROUTER_ADVERTISEMENT_SERVER
+#: ../src/services/service.c:77
+msgid "IPSec key exchange server"
+msgstr ""
+
+#. GST_ROLE_IPSEC_KEY_EXCHANGE_SERVER
+#: ../src/services/service.c:78
+msgid "Disk server"
+msgstr ""
+
+#. GST_ROLE_DISK_SERVER
+#: ../src/services/service.c:79
+msgid "Disk client"
+msgstr ""
+
+#. GST_ROLE_DISK_CLIENT
+#: ../src/services/service.c:80
+msgid "Route server"
+msgstr ""
+
+#. GST_ROLE_ROUTE_SERVER
+#: ../src/services/service.c:81
+msgid "RPC mapper"
+msgstr ""
+
+#. GST_ROLE_RPC_MAPPER
+#: ../src/services/service.c:82
+msgid "SNMP server"
+msgstr ""
+
+#. GST_ROLE_SNMP_SERVER
+#: ../src/services/service.c:83
+msgid "Terminal server client"
+msgstr ""
+
+#. GST_ROLE_LTSP_CLIENT
+#: ../src/services/service.c:84
+msgid "Audio settings management"
+msgstr ""
+
+#. GST_ROLE_AUDIO_MANAGEMENT
+#: ../src/services/service.c:85
+msgid "Volumes mounter"
+msgstr ""
+
+#: ../src/services/service.c:85
+msgid "Mounts your volumes automatically"
+msgstr ""
+
+#. GST_ROLE_AUTOMOUNTER
+#: ../src/services/service.c:86
+msgid "Infrared port management"
+msgstr ""
+
+#. GST_ROLE_INFRARED_MANAGEMENT
+#: ../src/services/service.c:87
+msgid "Braille display management"
+msgstr ""
+
+#. GST_ROLE_BRAILLE_DISPLAY_MANAGEMENT
+#: ../src/services/service.c:88
+msgid "Bluetooth device management"
+msgstr ""
+
+#. GST_ROLE_BLUETOOTH_MANAGEMENT
+#: ../src/services/service.c:89
+msgid "Hard disk tuning"
+msgstr ""
+
+#. GST_ROLE_HDD_MANAGEMENT
+#: ../src/services/service.c:90
+msgid "Hotkeys management"
+msgstr ""
+
+#. GST_ROLE_HOTKEYS_MANAGEMENT
+#: ../src/services/service.c:91
+msgid "Power management"
+msgstr ""
+
+#. GST_ROLE_POWER_MANAGEMENT
+#: ../src/services/service.c:92
+msgid "Logical volume management"
+msgstr ""
+
+#. GST_ROLE_LVM_MANAGEMENT
+#: ../src/services/service.c:93
+msgid "Cluster management tool"
+msgstr ""
+
+#. GST_ROLE_CLUSTER_MANAGEMENT
+#: ../src/services/service.c:94
+msgid "Fax settings management"
+msgstr ""
+
+#. GST_ROLE_FAX_MANAGEMENT
+#: ../src/services/service.c:95
+msgid "RAID disks management"
+msgstr ""
+
+#. GST_ROLE_RAID_MANAGEMENT
+#: ../src/services/service.c:96
+msgid "Graphic tablets management"
+msgstr ""
+
+#. GST_ROLE_GRAPHIC_TABLETS_MANAGEMENT
+#: ../src/services/service.c:97
+msgid "CPU Frequency manager"
+msgstr ""
+
+#. GST_ROLE_CPUFREQ_MANAGEMENT
+#: ../src/services/service.c:98
+msgid "Eagle USB ADSL modems manager"
+msgstr ""
+
+#. GST_ROLE_EAGLE_USB_MODEMS_MANAGEMENT
+#: ../src/services/service.c:99
+msgid "Serial port settings management"
+msgstr ""
+
+#. GST_ROLE_SERIAL_PORTS_MANAGEMENT
+#: ../src/services/service.c:100
+msgid "ISDN modems manager"
+msgstr ""
+
+#. GST_ROLE_ISDN_MANAGEMENT
+#: ../src/services/service.c:101
+msgid "Telstra Bigpond Cable Network client"
+msgstr ""
+
+#. GST_ROLE_TELSTRA_BIGPOND_NETWORK_CLIENT
+#: ../src/services/service.c:102
+msgid "Hardware monitor"
+msgstr ""
+
+#. GST_ROLE_HARDWARE_MONITORING
+#: ../src/services/service.c:103
+msgid "System monitor"
+msgstr ""
+
+#. GST_ROLE_SYSTEM_MONITORING
+#: ../src/services/service.c:104
+msgid "Virtual Machine management"
+msgstr ""
+
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "Xidmətlər"
 
-#: src/services/table.c:95
-msgid "Service"
-msgstr "Xidmət"
-
-#: src/time/main.c:310
-#, fuzzy
-msgid "Time Zone"
-msgstr "Vaxt dilimi"
-
-#: src/time/main.c:420
-#, fuzzy
-msgid "Time Servers"
-msgstr "Vaxt vericisi"
-
-#: src/time/main.c:501
-#, fuzzy
-msgid "NTP support is not running"
-msgstr "SMB dəstəyi əksikdir."
-
-#: src/time/main.c:502
-msgid ""
-"Please run NTP support in the system to enable synchronization of your local "
-"time server with internet time servers"
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
 msgstr ""
 
-#: src/time/main.c:815
+#: ../src/services/service-settings-table.c:73
+#: ../src/services/service-settings-table.c:97
+#: ../src/services/service-settings-table.c:109
+msgid "Start"
+msgstr ""
+
+#: ../src/services/service-settings-table.c:79
+#: ../src/services/service-settings-table.c:99
+#: ../src/services/service-settings-table.c:111
+msgid "Stop"
+msgstr ""
+
+#: ../src/services/service-settings-table.c:85
+#: ../src/services/service-settings-table.c:102
+msgid "Ignore"
+msgstr ""
+
+#: ../src/services/service-settings-table.c:175
+msgid "Runlevel"
+msgstr ""
+
+#: ../src/services/service-settings-table.c:192
+msgid "Status"
+msgstr ""
+
+#: ../src/services/service-settings-table.c:211
+msgid "Priority"
+msgstr ""
+
+#: ../src/services/services-tool.c:106
+msgid "Services Settings"
+msgstr "Xidmətlərin Qurğuları"
+
+#: ../src/shares/callbacks.c:196
+msgid "Are you sure you want to delete this share?"
+msgstr ""
+
+#: ../src/shares/callbacks.c:198
+msgid "Other computers in your network will stop viewing this."
+msgstr ""
+
+#: ../src/shares/main.c:103
+msgid "Add a shared path, modifies it if it already exists"
+msgstr ""
+
+#: ../src/shares/main.c:103
+msgid "PATH"
+msgstr ""
+
+#: ../src/shares/caja/caja-shares.c:151
+msgid "_Share Folder..."
+msgstr ""
+
+#: ../src/shares/caja/caja-shares.c:152
+msgid "Share this folder with other computers"
+msgstr ""
+
+#: ../src/shares/nfs-acl-table.c:50
+msgid "Allowed host/network"
+msgstr ""
+
+#: ../src/shares/share-nfs-add-hosts.c:117
+msgid "Specify hostname"
+msgstr ""
+
+#: ../src/shares/share-nfs-add-hosts.c:124
+msgid "Specify IP address"
+msgstr ""
+
+#: ../src/shares/share-nfs-add-hosts.c:131
+msgid "Specify network"
+msgstr ""
+
+#: ../src/shares/mate-shares.desktop.in.in.h:2
+msgid "Configure which folders are available for your network neighborhood"
+msgstr ""
+
+#: ../src/shares/share-settings.c:61
+msgid "File System"
+msgstr ""
+
+#: ../src/shares/share-settings.c:144
+msgid "Do not share"
+msgstr ""
+
+#: ../src/shares/share-settings.c:152
+msgid "Windows networks (SMB)"
+msgstr ""
+
+#: ../src/shares/share-settings.c:160
+msgid "Unix networks (NFS)"
+msgstr ""
+
+#: ../src/shares/share-settings.c:462
+#, c-format
+msgid "Settings for folder '%s'"
+msgstr ""
+
+#: ../src/shares/share-settings.c:469
+msgid "Share Folder"
+msgstr ""
+
+#: ../src/shares/shares-tool.c:152
+msgid "Sharing services are not installed"
+msgstr ""
+
+#: ../src/shares/shares-tool.c:154
+msgid ""
+"You need to install at least either Samba or NFS in order to share your "
+"folders."
+msgstr ""
+
+#: ../src/time/e-map/e-map.c:620
+msgid "World Map"
+msgstr ""
+
+#: ../src/time/e-map/e-map.c:622
+msgid ""
+"Mouse-based interactive map widget for selecting timezone. Keyboard users "
+"should instead select the timezone from the drop-down combination box below."
+msgstr ""
+
+#: ../src/time/mate-time.desktop.in.in.h:1
+msgid "Time and Date"
+msgstr ""
+
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr ""
+
+#: ../src/time/time-tool.c:398
+msgid "NTP support is not installed"
+msgstr ""
+
+#: ../src/time/time-tool.c:400
+msgid ""
+"Please install and activate NTP support in the system to enable "
+"synchronization of your local time server with internet time servers."
+msgstr ""
+
+#: ../src/time/time-tool.c:429
+msgid "Enabling NTP"
+msgstr ""
+
+#: ../src/time/time-tool.c:429
+msgid "Disabling NTP"
+msgstr ""
+
+#: ../src/time/time-tool.c:441
+msgid "Synchronizing system clock"
+msgstr ""
+
+#: ../src/time/time-tool.c:521
+msgid "Keep synchronized with Internet servers"
+msgstr ""
+
+#: ../src/time/time-tool.c:522
+msgid "Manual"
+msgstr "Əl Kitabçası"
+
+#: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
 msgstr "Zaman və Gün Qurğuları"
 
-#: src/time/time.desktop.in.in.h:1
-#, fuzzy
-msgid "Change system time, date, and timezone"
-msgstr "Vaxt, tarix və zaman zolağı."
-
-#: src/time/time.desktop.in.in.h:2
-#, fuzzy
-msgid "Time and Date"
-msgstr "Zaman və Gün Qurğuları"
-
-#: src/users/callbacks.c:589
-#, fuzzy
-msgid "Error saving profile"
-msgstr "Profili düzəlt:"
-
-#: src/users/callbacks.c:624
-msgid "Create New profile"
-msgstr "Yeni profil yarat"
-
-#: src/users/callbacks.c:658
-#, c-format
-msgid "Settings for profile %s"
-msgstr "%s profili üçün qurğular"
-
-#: src/users/group-settings.c:90
-msgid "Create New Group"
-msgstr "Yeni Qrup Yarat."
-
-#. Check if gid is available
-#: src/users/group-settings.c:163 src/users/group-settings.c:171
-#, fuzzy
-msgid "Invalid group ID"
-msgstr "Hökmsüz cığır: %s"
-
-#: src/users/group-settings.c:164
-#, fuzzy
-msgid "Group ID must be a positive number"
-msgstr "İstifadəçi kimliyi müsbət rəqəm olmalıdır."
-
-#. if group is root
-#: src/users/group-settings.c:167
-#, fuzzy
-msgid "Group ID of the \"root\" user should not be modified"
-msgstr "root istifadəçi adı təkmilləşdirilməməlidir."
-
-#: src/users/group-settings.c:168 src/users/group-settings.c:214
-#: src/users/group-settings.c:284 src/users/user-settings.c:105
-#: src/users/user-settings.c:355 src/users/user-settings.c:450
-#: src/users/user-settings.c:486
-msgid "This would leave the system unusable"
+#: ../src/users/group-settings.c:55
+msgid "Administrator group can not be deleted"
 msgstr ""
 
-#: src/users/group-settings.c:172
-#, fuzzy, c-format
-msgid "Group ID %s already exists"
-msgstr "Qrup onsuz da mövcuddur."
+#: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
+#: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
+#: ../src/users/user-settings.c:605
+msgid "This would leave the system unusable."
+msgstr ""
 
-#. If empty.
-#: src/users/group-settings.c:197
-#, fuzzy
+#: ../src/users/group-settings.c:71
+#, c-format
+msgid "Are you sure you want to delete group \"%s\"?"
+msgstr ""
+
+#: ../src/users/group-settings.c:74
+msgid "This may leave files with invalid group ID in the filesystem."
+msgstr ""
+
+#: ../src/users/group-settings.c:144
+msgid "New group"
+msgstr ""
+
+#: ../src/users/group-settings.c:151
+#, c-format
+msgid "Group '%s' Properties"
+msgstr ""
+
+#: ../src/users/group-settings.c:217
 msgid "Group name is empty"
-msgstr "Qrup adı boşdur."
-
-#: src/users/group-settings.c:198
-msgid "A group name must be specified"
 msgstr ""
 
-#. If too long.
-#: src/users/group-settings.c:201
-#, fuzzy
-msgid "The group name is too long"
-msgstr "Qrup adı çox uzundur."
-
-#: src/users/group-settings.c:202
-#, c-format
-msgid "The group name should have less than %i characters for being valid"
+#: ../src/users/group-settings.c:218
+msgid "A group name must be specified."
 msgstr ""
 
-#. if invalid.
-#: src/users/group-settings.c:205
+#: ../src/users/group-settings.c:220
+msgid "Group name of the administrator group user should not be modified"
+msgstr ""
+
+#: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
 msgstr ""
 
-#: src/users/group-settings.c:206
-#, fuzzy
-msgid "Please set a valid group name, using only lower case letters"
-msgstr "Xahiş edirik kiçik hərflərlə yazılı hökmlü bir qrup adı bildirin."
-
-#. if !exist.
-#: src/users/group-settings.c:209
-#, fuzzy, c-format
-msgid "Group \"%s\" already exists"
-msgstr "Qrup onsuz da mövcuddur."
-
-#: src/users/group-settings.c:210
-#, fuzzy
-msgid "Please select a different group name"
-msgstr ""
-"\"%s\" İstifadəçisi onsuz da vardır.\n"
-"\n"
-"Xahiş edirik, başqa İstifadəçi Adı seçin"
-
-#. if it's the root group
-#: src/users/group-settings.c:213
-#, fuzzy
-msgid "Group name of the \"root\" user should not be modified"
-msgstr "root istifadəçi adı təkmilləşdirilməməlidir."
-
-#: src/users/group-settings.c:283
-#, fuzzy
-msgid "The group \"root\" should not be deleted"
-msgstr "root istifadəçisi silinməməlidir."
-
-#: src/users/group-settings.c:298
-msgid "This may leave files with invalid group ID in the filesystem"
+#: ../src/users/group-settings.c:224
+msgid ""
+"Please set a valid group name consisting of a lower case letter followed by "
+"lower case letters and numbers."
 msgstr ""
 
-#: src/users/group-settings.c:303
-#, fuzzy, c-format
-msgid "Are you sure you want to delete group \"%s\"?"
-msgstr "Həqiqətən də %s qrupunu silmək istəyirsiniz?"
-
-#: src/users/group-settings.c:358
+#: ../src/users/group-settings.c:229
 #, c-format
-msgid "Settings for Group %s"
-msgstr "%s Qrupu üçün Qurğular"
+msgid "Group \"%s\" already exists"
+msgstr ""
 
-#: src/users/groups-table.c:44 src/users/users-table.c:51
-msgid "Group"
-msgstr "Qrup"
+#: ../src/users/group-settings.c:230
+msgid "Please choose a different group name."
+msgstr ""
 
-#: src/users/groups-table.c:45
-msgid "GID"
-msgstr "GID"
+#: ../src/users/group-settings.c:257
+msgid "Group ID of the Administrator account should not be modified"
+msgstr ""
 
-#: src/users/main.c:121
-msgid "User name contains"
-msgstr "Daxil edən istifadəçi adı"
+#. check that GID is free
+#: ../src/users/group-settings.c:261
+#, c-format
+msgid "Group ID %d is already used by group \"%s\""
+msgstr ""
 
-#: src/users/main.c:122
-msgid "User ID is"
-msgstr "İstifadəçi adı (ID):"
+#: ../src/users/group-settings.c:264
+msgid "Please choose a different numeric identifier for the new group."
+msgstr ""
 
-#: src/users/main.c:123
-msgid "Group name contains"
-msgstr "Daxil edən qrup adı"
+#: ../src/users/group-settings.c:266
+#, c-format
+msgid "Please choose a different numeric identifier for group \"%s\"."
+msgstr ""
 
-#: src/users/main.c:124
-msgid "User GID is"
-msgstr "İstifadəçi GİD:"
+#: ../src/users/groups-table.c:44
+msgid "Group name"
+msgstr ""
 
-#: src/users/main.c:315 src/users/users.desktop.in.in.h:2
+#. TRANSLATORS:  This applies to a password. Keep the string short.
+#: ../src/users/main.c:74 ../src/users/user-settings.c:347
+msgid "Not asked on login"
+msgstr ""
+
+#: ../src/users/main.c:74 ../src/users/user-settings.c:349
+msgid "Asked on login"
+msgstr ""
+
+#: ../src/users/privileges-table.c:53
+msgid "Monitor system logs"
+msgstr ""
+
+#: ../src/users/privileges-table.c:54
+msgid "Administer the system"
+msgstr ""
+
+#: ../src/users/privileges-table.c:55
+msgid "Use audio devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:56
+msgid "Use CD-ROM drives"
+msgstr ""
+
+#: ../src/users/privileges-table.c:57
+msgid "Burn CDs / DVDs"
+msgstr ""
+
+#: ../src/users/privileges-table.c:58
+msgid "Use modems"
+msgstr ""
+
+#: ../src/users/privileges-table.c:59
+msgid "Connect to Internet using a modem"
+msgstr ""
+
+#: ../src/users/privileges-table.c:60
+msgid "Send and receive faxes"
+msgstr ""
+
+#: ../src/users/privileges-table.c:61
+msgid "Use floppy drives"
+msgstr ""
+
+#: ../src/users/privileges-table.c:62
+msgid "Mount user-space filesystems (FUSE)"
+msgstr ""
+
+#: ../src/users/privileges-table.c:63
+msgid "Configure printers"
+msgstr ""
+
+#: ../src/users/privileges-table.c:64
+msgid "Connect to wireless and ethernet networks"
+msgstr ""
+
+#: ../src/users/privileges-table.c:65
+msgid "Access external storage devices automatically"
+msgstr ""
+
+#: ../src/users/privileges-table.c:66
+msgid "Suspend and hibernate the computer"
+msgstr ""
+
+#: ../src/users/privileges-table.c:67
+msgid "Access /proc filesystem"
+msgstr ""
+
+#: ../src/users/privileges-table.c:68
+msgid "Use scanners"
+msgstr ""
+
+#: ../src/users/privileges-table.c:69
+msgid "Use tape drives"
+msgstr ""
+
+#: ../src/users/privileges-table.c:70
+msgid "Use USB devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:71
+msgid "Use VirtualBox virtualization solution"
+msgstr ""
+
+#: ../src/users/privileges-table.c:72
+msgid "Use video devices"
+msgstr ""
+
+#: ../src/users/privileges-table.c:73
+msgid "Be able to get administrator privileges"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:3
+msgid "Administrator"
+msgstr ""
+
+#: ../src/users/user-profiles.conf.in.h:4
+msgid ""
+"Can change anything on the system, including installing and upgrading "
+"software."
+msgstr ""
+
+#: ../src/users/run-passwd.c:421
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/users/run-passwd.c:498
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/users/run-passwd.c:504
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/users/run-passwd.c:510
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/users/run-passwd.c:513
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/users/run-passwd.c:517
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/users/run-passwd.c:520
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/users/run-passwd.c:524
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/users/run-passwd.c:528
+#, c-format
+msgid "Unknown error"
+msgstr ""
+
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "İstifadəçilər və Qruplar"
 
-#: src/users/passwd.c:266
-#, fuzzy
-msgid "Passwords do not match"
-msgstr "Şifrələr uyğun gəlmir."
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr ""
 
-#: src/users/passwd.c:271
-#, fuzzy, c-format
+#: ../src/users/user-password.c:97
+msgid "Password is too short"
+msgstr ""
+
+#: ../src/users/user-password.c:98
 msgid ""
-"Bad password: %s.\n"
-"Please try with a new password"
-msgstr ""
-"Pis şifrə: %s.\n"
-"Xahiş edirik yeni bir şifrə ilə sınayın."
-
-#: src/users/profile-settings.c:122
-msgid "The profile must have a name"
-msgstr "Profilin adı olmalıdır"
-
-#: src/users/profile-settings.c:127
-msgid "The profile must have a default home"
-msgstr "Profilin ön qurğulu ev cərgəsi olmalıdır"
-
-#: src/users/profile-settings.c:132 src/users/profile-settings.c:137
-msgid "The profile must have a default shell"
-msgstr "Profilin ön qurğulu qabığı olmalıdır"
-
-#: src/users/profile-settings.c:204
-#, fuzzy
-msgid "The default profile should not be deleted"
-msgstr "Ön qurğulu profil silinməməlidir."
-
-#: src/users/profile-settings.c:205
-msgid "This profile is used for setting default data for new users"
+"User passwords must be longer than 5 characters and preferably formed by "
+"numbers, letters and special characters."
 msgstr ""
 
-#: src/users/profile-settings.c:214
-#, fuzzy, c-format
-msgid "Delete profile \"%s\"?"
-msgstr "%s profili üçün qurğular"
+#: ../src/users/user-password.c:101
+msgid "Password confirmation is not correct"
+msgstr ""
 
-#. Column name,          Adv_state_show,	Basic_state_show
-#: src/users/profiles-table.c:38
-msgid "Profile"
-msgstr "Profil"
+#: ../src/users/user-password.c:102
+msgid "Check that you have provided the same password in both text fields."
+msgstr ""
 
-#: src/users/profiles-table.c:39
-msgid "Comment"
-msgstr "Şərh"
+#: ../src/users/user-password.c:445
+msgid "Please choose another password."
+msgstr ""
 
-#: src/users/search-bar/search-bar.c:225
-msgid "C_lear"
-msgstr "_Təmizlə"
+#: ../src/users/user-password.c:456
+msgid "Please type again your current password."
+msgstr ""
 
-#: src/users/search-bar/search-bar.c:326
-msgid "Choice"
-msgstr "Seçim"
+#: ../src/users/user-password.c:463
+msgid "Password could not be changed"
+msgstr ""
 
-#: src/users/search-bar/search-bar.c:336
-msgid "Text"
-msgstr "Mətn"
+#: ../src/users/user-settings.c:85
+msgid "Administrator account cannot be deleted"
+msgstr ""
 
-#: src/users/user-settings.c:104
-#, fuzzy
-msgid "The \"root\" user should not be deleted"
-msgstr "root istifadəçisi silinməməlidir."
-
-#: src/users/user-settings.c:120
-#, fuzzy, c-format
-msgid "Are you sure you want to delete user \"%s\"?"
-msgstr "%s istifadəçisini silmək istəyirsiniz?"
-
-#: src/users/user-settings.c:219
-msgid "User Account Editor"
-msgstr "İstifadəçi Hesabı Editoru"
-
-#: src/users/user-settings.c:335
-#, fuzzy
-msgid "The user name is empty"
-msgstr "İstifadəçi adı boşdur."
-
-#: src/users/user-settings.c:336
-#, fuzzy
-msgid "A user name must be specified"
-msgstr "root istifadəçi adı təkmilləşdirilməməlidir."
-
-#. = sizeof (ut.ut_name)
-#: src/users/user-settings.c:342 src/users/user-settings.c:347
-#, fuzzy
-msgid "The user name is too long"
-msgstr "İstifadəçi adı çox uzundur."
-
-#: src/users/user-settings.c:343 src/users/user-settings.c:348
+#: ../src/users/user-settings.c:96
 #, c-format
-msgid "The user name should have less than %i characters for being valid"
+msgid "%s is currently using this computer"
 msgstr ""
 
-#: src/users/user-settings.c:354
-#, fuzzy
-msgid "User name for the \"root\" user should not be modified"
-msgstr "root istifadəçi adı təkmilləşdirilməməlidir."
-
-#: src/users/user-settings.c:360
-msgid "User name has invalid characters"
+#: ../src/users/user-settings.c:99
+msgid "Please ensure the user has logged out before deleting this account."
 msgstr ""
 
-#: src/users/user-settings.c:361
-#, fuzzy
+#: ../src/users/user-settings.c:109
+msgid "Can't delete the only administrator account"
+msgstr ""
+
+#: ../src/users/user-settings.c:111
+#, c-format
 msgid ""
-"Please set a valid user name consisting of a lower case letter followed by "
-"lower case letters and numbers"
-msgstr "Xahiş edirik kiçik hərflərlə yazılı, hökmlü bir istifadəçi adı bildirin."
-
-#: src/users/user-settings.c:367
-#, fuzzy, c-format
-msgid "User name \"%s\" already exists"
-msgstr "Bu istifadəçi id onsuz da mövcuddur."
-
-#: src/users/user-settings.c:368
-#, fuzzy
-msgid "Please select a different user name"
+"%s is the only administrator on this computer. Deleting this account would "
+"lock you out of administrating the system."
 msgstr ""
-"\"%s\" İstifadəçisi onsuz da vardır.\n"
-"\n"
-"Xahiş edirik, başqa İstifadəçi Adı seçin"
 
-#: src/users/user-settings.c:393
-#, fuzzy, c-format
+#: ../src/users/user-settings.c:121
+#, c-format
+msgid "Remove home folder for %s?"
+msgstr ""
+
+#: ../src/users/user-settings.c:124
+#, c-format
+msgid ""
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr ""
+
+#: ../src/users/user-settings.c:132
+msgid "Keep Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:133
+msgid "Don't Remove Account"
+msgstr ""
+
+#: ../src/users/user-settings.c:134
+msgid "Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:330
+msgid "Superuser"
+msgstr ""
+
+#: ../src/users/user-settings.c:335
+msgid "Custom"
+msgstr ""
+
+#. TRANSLATORS: This applies to a password.
+#: ../src/users/user-settings.c:344
+msgid "None"
+msgstr ""
+
+#: ../src/users/user-settings.c:393
+#, c-format
 msgid "Invalid character \"%c\" in comment"
-msgstr "Şərhdə xətalı '%c' xarakteri. "
-
-#: src/users/user-settings.c:394
-msgid "Check that this character is not used"
 msgstr ""
 
-#: src/users/user-settings.c:442
-#, fuzzy
-msgid "Home directory should not be empty"
-msgstr "Ev(home) qovluğu boş olmamalı.!"
+#: ../src/users/user-settings.c:394
+msgid "Check that this character is not used."
+msgstr ""
 
-#: src/users/user-settings.c:443
-#, fuzzy
-msgid "Make sure you provide a home directory"
-msgstr "Ev cərgəsi üçün tam cığırı bildirin."
-
-#: src/users/user-settings.c:445
-#, fuzzy
+#: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
-msgstr "Ev cərgəsi üçün tam cığırı bildirin."
+msgstr ""
 
-#: src/users/user-settings.c:446
-#, fuzzy
+#: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
-"i.e.: /home/john"
-msgstr "Ev cərgəsi üçün tam cığırı bildirin."
-
-#: src/users/user-settings.c:449
-#, fuzzy
-msgid "Home directory of the \"root\" user should not be modified"
-msgstr "root istifadəçi adı təkmilləşdirilməməlidir."
-
-#: src/users/user-settings.c:482
-msgid "Invalid user ID"
+"<span size=\"smaller\">i.e.: /home/john</span>."
 msgstr ""
 
-#: src/users/user-settings.c:483
-#, fuzzy
-msgid "User ID must be a positive number"
-msgstr "İstifadəçi kimliyi müsbət rəqəm olmalıdır."
+#: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
+msgid "New home directory already exists, use it?"
+msgstr ""
 
-#: src/users/user-settings.c:485
-#, fuzzy
-msgid "User ID of the \"root\" user should not be modified"
-msgstr "root istifadəçi adı təkmilləşdirilməməlidir."
-
-#: src/users/user-settings.c:502
+#: ../src/users/user-settings.c:449
+#, c-format
 msgid ""
-"Several users may share a single user ID, but it's not common and may lead "
-"to security problems"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
+"\n"
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
 msgstr ""
 
-#: src/users/user-settings.c:507
-#, fuzzy, c-format
-msgid "User ID %s already exists"
-msgstr "Bu istifadəçi id onsuz da mövcuddur."
+#: ../src/users/user-settings.c:461
+msgid "_Replace With Old Files"
+msgstr ""
 
-#: src/users/user-settings.c:524
+#: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
+#: ../src/users/user-settings.c:540
+msgid "_Cancel Change"
+msgstr ""
+
+#. TRANSLATORS: This means "use the files from the new location",
+#. * as opposed to those from the old location.
+#: ../src/users/user-settings.c:465
+msgid "_Use New Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
+msgid "Make user the _owner of the new home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
+msgid "_Delete old home directory"
+msgstr ""
+
+#: ../src/users/user-settings.c:493
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
+"\n"
+"In doubt, keep the files, and remove them later if needed."
+msgstr ""
+
+#: ../src/users/user-settings.c:503
+msgid "_Delete Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:505
+msgid "_Use Existing Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:526
+msgid "Copy old home directory to new location?"
+msgstr ""
+
+#: ../src/users/user-settings.c:528
+#, c-format
+msgid ""
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
+"\n"
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr ""
+
+#: ../src/users/user-settings.c:539
+msgid "_Use Empty Directory"
+msgstr ""
+
+#. TRANSLATORS: This means "copy files from the old home directory".
+#: ../src/users/user-settings.c:542
+msgid "Co_py Old Files"
+msgstr ""
+
+#: ../src/users/user-settings.c:604
+msgid "ID for the root user should not be modified"
+msgstr ""
+
+#. check that UID is free
+#: ../src/users/user-settings.c:608
+#, c-format
+msgid "User ID %d is already used by user %s"
+msgstr ""
+
+#: ../src/users/user-settings.c:610
+#, c-format
+msgid "Please choose a different numeric identifier for %s."
+msgstr ""
+
+#: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
 msgstr ""
 
-#: src/users/user-settings.c:525
+#: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
-"i.e.: /bin/sh"
+"<span size=\"smaller\">i.e.: /bin/bash</span>."
 msgstr ""
 
-#: src/users/user-settings.c:547
-#, fuzzy
-msgid "Password should not be empty"
-msgstr "Şifrə boş olmamalıdır."
-
-#: src/users/user-settings.c:548
-#, fuzzy
-msgid "A password must be provided"
-msgstr "Şifrə boş olmamalıdır."
-
-#: src/users/user-settings.c:550
-#, fuzzy
-msgid "Password confirmation isn't correct"
-msgstr "Şifrənin təstiqi düzgün deyil."
-
-#: src/users/user-settings.c:551
-msgid "Check that you have provided the same password in both text fields"
+#: ../src/users/user-settings.c:663
+msgid "Can't revoke administration rights"
 msgstr ""
 
-#: src/users/user-settings.c:827
+#: ../src/users/user-settings.c:666
 #, c-format
-msgid "Settings for User %s"
-msgstr "%s istifadəçisi üçün qurğular"
+msgid ""
+"%s is the only administrator on this computer. Revoking administration "
+"rights for this account would lock you out of administrating the system."
+msgstr ""
 
-#. Column name,          Adv_state_show,	Basic_state_show
-#: src/users/users-table.c:46
-msgid "User"
-msgstr "İstifadəçi"
+#: ../src/users/user-settings.c:683
+msgid "You are about to revoke your own administration rights"
+msgstr ""
 
-#: src/users/users-table.c:47
-msgid "Home"
-msgstr "Ev"
+#: ../src/users/user-settings.c:686
+#, c-format
+msgid ""
+"%s will no longer be able to perform administrative tasks. This account "
+"won't be allowed to get administration rights back on its own."
+msgstr ""
 
-#: src/users/users-table.c:48
-#, fuzzy
-msgid "User details"
-msgstr "Daxil edən istifadəçi adı"
+#: ../src/users/user-settings.c:691
+msgid "Give up administration rights"
+msgstr ""
 
-#: src/users/users-table.c:49
-msgid "UID"
-msgstr "UID"
+#: ../src/users/user-settings.c:1469
+msgid "Applying changes to user settings..."
+msgstr ""
 
-#: src/users/users-table.c:50
-msgid "Shell"
-msgstr "Qabıq"
-
-#: src/users/users.desktop.in.in.h:1
-#, fuzzy
-msgid "Add or remove users and groups"
-msgstr "Bütün istifadəçi və qrupları _göstər"
-
+#: ../src/users/users-tool.c:288
+msgid "Users Settings"
+msgstr ""

@@ -1,766 +1,756 @@
-# translation of mate-system-tools.HEAD.ar.po to Arabic
-# translation of mate-system-tools.HEAD.ar.po to
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# 
+# Translators:
 # Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-# Ayman Hourieh <aymanh@gmail.com>, 2004.
-# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2009, 2010.
 # Ahmad Farghal <ahmad.farghal@gmail.com>, 2007.
 # Anas Husseini <linux.anas@gmail.com>, 2008.
+# Ayman Hourieh <aymanh@gmail.com>, 2004.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2009, 2010.
 # Osama Khalid <osamak.wfm@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-tools.HEAD.ar\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-23 14:53+0300\n"
-"PO-Revision-Date: 2010-09-23 14:52+0300\n"
-"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
-"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 09:46+0100\n"
+"PO-Revision-Date: 2012-03-15 08:52+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Virtaal 0.6.1\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
 
-#: ../interfaces/network.ui.h:1 ../src/network/ifaces-list.c:326
-msgid "Access point name:"
-msgstr "اسم نقطة الوصول:"
+#: ../interfaces/network.ui.h:1
+msgid "Off"
+msgstr "معطل"
 
 #: ../interfaces/network.ui.h:2
-msgid "Account data"
-msgstr "بيانات الحساب"
+msgid "Low"
+msgstr "منخفض"
 
 #: ../interfaces/network.ui.h:3
-msgid "Aliases:"
-msgstr "أسماء بديلة:"
+msgid "Medium"
+msgstr "متوسط"
 
 #: ../interfaces/network.ui.h:4
-msgid "Con_figuration:"
-msgstr "الإ_عداد:"
+msgid "Loud"
+msgstr "عالِ"
 
 #: ../interfaces/network.ui.h:5
-msgid "Connection Settings"
-msgstr "إعدادات الاتصال"
+msgid "Tones"
+msgstr "نغمات"
 
 #: ../interfaces/network.ui.h:6
-msgid "Connection type:"
-msgstr "نوع الاتصال:"
+msgid "Pulses"
+msgstr "نبضات"
 
 #: ../interfaces/network.ui.h:7
-msgid "Connections"
-msgstr "الاتصالات"
+msgid "Plain (ASCII)"
+msgstr "صِرف (أسكي)"
 
 #: ../interfaces/network.ui.h:8
-msgid "DNS"
-msgstr "DNS"
+msgid "Hexadecimal"
+msgstr "ست عشري"
 
 #: ../interfaces/network.ui.h:9
-msgid "DNS Servers"
-msgstr "خواديم DNS"
+msgid "Location:"
+msgstr "الموقع:"
 
 #: ../interfaces/network.ui.h:10
-msgid "D_omain name:"
-msgstr "اسم النطا_ق:"
+msgid "Save current network configuration as a location"
+msgstr "احفظ إعدادات الشبكة الحالية كموقع"
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
 msgstr "احذف الموقع الحالي"
 
 #: ../interfaces/network.ui.h:12
-msgid "E_nable roaming mode"
-msgstr "_فعِّل وضع التجوّل"
+msgid "Connections"
+msgstr "الاتصالات"
 
 #: ../interfaces/network.ui.h:13
-msgid "E_nable this connection"
-msgstr "فعّل هذا الات_صال"
+msgid "_Host name:"
+msgstr "اسم الم_ضيف:"
 
-#: ../interfaces/network.ui.h:14 ../src/network/ifaces-list.c:335
-msgid "Ethernet interface:"
-msgstr "واجهة الإثرنت:"
+#: ../interfaces/network.ui.h:14
+msgid "D_omain name:"
+msgstr "اسم النطا_ق:"
 
-#: ../interfaces/network.ui.h:15 ../interfaces/users.ui.h:27
-msgid "General"
-msgstr "عام"
-
-#: ../interfaces/network.ui.h:16
-msgid "Hexadecimal"
-msgstr "ست عشري"
-
-#: ../interfaces/network.ui.h:17
-msgid "Host Alias Properties"
-msgstr "خصائص أسماء المضيفين البديلة"
-
-#: ../interfaces/network.ui.h:18
+#: ../interfaces/network.ui.h:15
 msgid "Host Settings"
 msgstr "إعدادات المستضيف"
 
+#: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
+msgid "General"
+msgstr "عام"
+
+#: ../interfaces/network.ui.h:17
+msgid "DNS Servers"
+msgstr "خواديم DNS"
+
+#: ../interfaces/network.ui.h:18
+msgid "Search Domains"
+msgstr "نطاقات البحث"
+
 #: ../interfaces/network.ui.h:19
+msgid "DNS"
+msgstr "DNS"
+
+#: ../interfaces/network.ui.h:20
 msgid "Hosts"
 msgstr "المضيفون"
-
-#: ../interfaces/network.ui.h:20 ../interfaces/shares.ui.h:11
-msgid "IP address:"
-msgstr "عنوان IP:"
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
 msgstr "خصائص الواجهة"
 
 #: ../interfaces/network.ui.h:22
-msgid "Internet service provider data"
-msgstr "بيانات موفر خدمة الإنترنت"
+msgid "E_nable this connection"
+msgstr "فعّل هذا الات_صال"
 
 #: ../interfaces/network.ui.h:23
-msgid "Location:"
-msgstr "الموقع:"
+msgid "E_nable roaming mode"
+msgstr "_فعِّل وضع التجوّل"
 
 #: ../interfaces/network.ui.h:24
-msgid "Loud"
-msgstr "عالِ"
+msgid "Connection type:"
+msgstr "نوع الاتصال:"
 
 #: ../interfaces/network.ui.h:25
-msgid "Low"
-msgstr "منخفض"
-
-#: ../interfaces/network.ui.h:26
-msgid "Medium"
-msgstr "متوسط"
-
-#: ../interfaces/network.ui.h:27
-msgid "Modem"
-msgstr "مودم"
-
-#: ../interfaces/network.ui.h:28
-msgid "Modem Settings"
-msgstr "إعدادات المودم"
-
-#: ../interfaces/network.ui.h:29
-msgid "Network _password:"
-msgstr "_كلمة سر الشبكة:"
-
-#: ../interfaces/network.ui.h:30
 msgid "Network name (_ESSID):"
 msgstr "اسم الشبكة (_ESSID):"
 
-#: ../interfaces/network.ui.h:31
-msgid "Off"
-msgstr "معطل"
+#: ../interfaces/network.ui.h:26
+msgid "Network _password:"
+msgstr "_كلمة سر الشبكة:"
 
-#: ../interfaces/network.ui.h:32
-msgid "Options"
-msgstr "خيارات"
-
-#: ../interfaces/network.ui.h:33
-msgid "P_assword"
-msgstr "كلمة ال_سّر"
-
-#: ../interfaces/network.ui.h:34
+#: ../interfaces/network.ui.h:27
 msgid "Password _type:"
 msgstr "_نوع كلمة السر:"
 
-#: ../interfaces/network.ui.h:35
-msgid "Plain (ASCII)"
-msgstr "صِرف (أسكي)"
-
-#: ../interfaces/network.ui.h:36
-msgid "Pulses"
-msgstr "نبضات"
-
-#: ../interfaces/network.ui.h:37
-msgid "Save current network configuration as a location"
-msgstr "احفظ إعدادات الشبكة الحالية كموقع"
-
-#: ../interfaces/network.ui.h:38
-msgid "Search Domains"
-msgstr "نطاقات البحث"
-
-#: ../interfaces/network.ui.h:39
-msgid "Tones"
-msgstr "نغمات"
-
-#: ../interfaces/network.ui.h:40
-msgid "Use the Internet service provider nameservers"
-msgstr "استخدم خادومات أسماء موفر خدمة الانترنت"
-
-#: ../interfaces/network.ui.h:41
+#: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
 msgstr "إعدادات اللاسلكي"
 
-#: ../interfaces/network.ui.h:42
-msgid "_Autodetect"
-msgstr "ا_كتشاف تلقائي"
+#: ../interfaces/network.ui.h:29
+msgid "Con_figuration:"
+msgstr "الإ_عداد:"
 
-#: ../interfaces/network.ui.h:43
+#: ../interfaces/network.ui.h:30
+msgid "_IP address:"
+msgstr "_عنوان IP:"
+
+#: ../interfaces/network.ui.h:31
+msgid "_Subnet mask:"
+msgstr "_قناع الشّبكة الفرعيّة:"
+
+#: ../interfaces/network.ui.h:32
+msgid "_Gateway address:"
+msgstr "عنوان ال_بوّابة:"
+
+#: ../interfaces/network.ui.h:33
+msgid "Connection Settings"
+msgstr "إعدادات الاتصال"
+
+#: ../interfaces/network.ui.h:34
+msgid "_Local IP:"
+msgstr "IP الم_حلّي:"
+
+#: ../interfaces/network.ui.h:35
+msgid "_Remote IP:"
+msgstr "IP _بعيد:"
+
+#: ../interfaces/network.ui.h:36
+msgid "_Phone number:"
+msgstr "_رقم الهاتف:"
+
+#: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
 msgstr "بادئة ال_طلب:"
+
+#: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
+msgid "Access point name:"
+msgstr "اسم نقطة الوصول:"
+
+#: ../interfaces/network.ui.h:39
+msgid "Internet service provider data"
+msgstr "بيانات موفر خدمة الإنترنت"
+
+#: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
+msgid "_Username:"
+msgstr "ا_سم المستخدم:"
+
+#: ../interfaces/network.ui.h:41
+msgid "P_assword"
+msgstr "كلمة ال_سّر"
+
+#: ../interfaces/network.ui.h:42
+msgid "Account data"
+msgstr "بيانات الحساب"
+
+#: ../interfaces/network.ui.h:43
+msgid "_Modem port:"
+msgstr "_منفذ المودم:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
 msgstr "نوع ال_طّلب:"
 
-#: ../interfaces/network.ui.h:45
-msgid "_Gateway address:"
-msgstr "عنوان ال_بوّابة:"
-
-#: ../interfaces/network.ui.h:46
-msgid "_Host name:"
-msgstr "اسم الم_ضيف:"
-
-#: ../interfaces/network.ui.h:47
-msgid "_IP address:"
-msgstr "_عنوان IP:"
-
-#: ../interfaces/network.ui.h:48
-msgid "_Local IP:"
-msgstr "IP الم_حلّي:"
-
-#: ../interfaces/network.ui.h:49
-msgid "_Modem port:"
-msgstr "_منفذ المودم:"
-
-#: ../interfaces/network.ui.h:50
-msgid "_Phone number:"
-msgstr "_رقم الهاتف:"
-
-#: ../interfaces/network.ui.h:51
-msgid "_Remote IP:"
-msgstr "IP _بعيد:"
-
-#: ../interfaces/network.ui.h:52
-msgid "_Retry if the connection breaks or fails to start"
-msgstr "أ_عِد المحاولة في حال انقطع الاتّصال أو فشل في البدء"
-
-#: ../interfaces/network.ui.h:53
-msgid "_Set modem as default route to internet"
-msgstr "_عيِّن المودم على أنّه المسلك الرّئيسي للانترنت"
-
-#: ../interfaces/network.ui.h:54
-msgid "_Subnet mask:"
-msgstr "_قناع الشّبكة الفرعيّة:"
-
-#: ../interfaces/network.ui.h:55 ../interfaces/users.ui.h:82
-msgid "_Username:"
-msgstr "ا_سم المستخدم:"
-
 #. TRANSLATORS: Volume as in loudness
-#: ../interfaces/network.ui.h:57
+#: ../interfaces/network.ui.h:46
 msgid "_Volume:"
 msgstr "ال_حجم:"
 
-#: ../interfaces/services.ui.h:1
-msgid "Advanced settings:"
-msgstr "إعدادات متقدمة:"
+#: ../interfaces/network.ui.h:47
+msgid "_Autodetect"
+msgstr "ا_كتشاف تلقائي"
 
-#: ../interfaces/services.ui.h:2
+#: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
+msgid "Ethernet interface:"
+msgstr "واجهة الإثرنت:"
+
+#: ../interfaces/network.ui.h:49
+msgid "Modem Settings"
+msgstr "إعدادات المودم"
+
+#: ../interfaces/network.ui.h:50
+msgid "Modem"
+msgstr "مودم"
+
+#: ../interfaces/network.ui.h:51
+msgid "_Set modem as default route to internet"
+msgstr "_عيِّن المودم على أنّه المسلك الرّئيسي للانترنت"
+
+#: ../interfaces/network.ui.h:52
+msgid "Use the Internet service provider nameservers"
+msgstr "استخدم خادومات أسماء موفر خدمة الانترنت"
+
+#: ../interfaces/network.ui.h:53
+msgid "_Retry if the connection breaks or fails to start"
+msgstr "أ_عِد المحاولة في حال انقطع الاتّصال أو فشل في البدء"
+
+#: ../interfaces/network.ui.h:54
+msgid "Options"
+msgstr "خيارات"
+
+#: ../interfaces/network.ui.h:55
+msgid "Host Alias Properties"
+msgstr "خصائص أسماء المضيفين البديلة"
+
+#: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
+msgid "IP address:"
+msgstr "عنوان IP:"
+
+#: ../interfaces/network.ui.h:57
+msgid "Aliases:"
+msgstr "أسماء بديلة:"
+
+#: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
 msgstr "اختر الخدمات التي ترغب بتنشيطها"
 
+#: ../interfaces/services.ui.h:2
+msgid "Advanced settings:"
+msgstr "إعدادات متقدمة:"
+
 #: ../interfaces/shares.ui.h:1
-msgid "Add allowed hosts"
-msgstr "اضف المستضيفين المسموح لهم"
+msgid "_Path:"
+msgstr "الم_سار:"
 
 #: ../interfaces/shares.ui.h:2
-msgid "Allowed Hosts"
-msgstr "المستضيفين المسموح لهم"
+msgid "Share through:"
+msgstr "شارك عبر:"
 
 #: ../interfaces/shares.ui.h:3
-msgid "Allowed hosts:"
-msgstr "المستضيفين المسموح لهم:"
+msgid "Shared Folder"
+msgstr "المجلد المُشارك"
 
 #: ../interfaces/shares.ui.h:4
 msgid "Comment:"
 msgstr "تعليق:"
 
 #: ../interfaces/shares.ui.h:5
-msgid "Domain / _Workgroup:"
-msgstr "النطاق / مجموعة ال_عمل"
-
-#: ../interfaces/shares.ui.h:6
-msgid "Enter password for user"
-msgstr "ادخل كلمة سر المستخدم"
-
-#: ../interfaces/shares.ui.h:7
-msgid "Enter password for user:"
-msgstr "أدخل كلمة سر المستخدم:"
-
-#: ../interfaces/shares.ui.h:8
-msgid "General Properties"
-msgstr "الخصائص العامة"
-
-#: ../interfaces/shares.ui.h:9
-msgid "Host name:"
-msgstr "اسم المستضيف:"
-
-#: ../interfaces/shares.ui.h:10
-msgid "Hosts Settings"
-msgstr "إعدادات المستضيف"
-
-#: ../interfaces/shares.ui.h:12
 msgid "Name:"
 msgstr "الاسم:"
 
-#: ../interfaces/shares.ui.h:13
-msgid "Netmask:"
-msgstr "قناع الشّبكة:"
+#: ../interfaces/shares.ui.h:6
+msgid "_Read only"
+msgstr "لل_قراءة فقط"
+
+#: ../interfaces/shares.ui.h:7
+msgid "Share Properties"
+msgstr "خصائص المشاركة"
+
+#: ../interfaces/shares.ui.h:8
+msgid "Allowed Hosts"
+msgstr "المستضيفين المسموح لهم"
+
+#: ../interfaces/shares.ui.h:9
+msgid "Share"
+msgstr "شارك"
+
+#: ../interfaces/shares.ui.h:10
+msgid "Add allowed hosts"
+msgstr "اضف المستضيفين المسموح لهم"
+
+#: ../interfaces/shares.ui.h:11
+msgid "Allowed hosts:"
+msgstr "المستضيفين المسموح لهم:"
+
+#: ../interfaces/shares.ui.h:12
+msgid "Host name:"
+msgstr "اسم المستضيف:"
 
 #: ../interfaces/shares.ui.h:14
 msgid "Network:"
 msgstr "الشبكة:"
 
-#: ../interfaces/shares.ui.h:15 ../src/shares/nfs-acl-table.c:56
+#: ../interfaces/shares.ui.h:15
+msgid "Netmask:"
+msgstr "قناع الشّبكة:"
+
+#: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
 msgid "Read only"
 msgstr "للقراءة فقط"
 
-#: ../interfaces/shares.ui.h:16
-msgid "Share"
-msgstr "شارك"
-
 #: ../interfaces/shares.ui.h:17
-msgid "Share Properties"
-msgstr "خصائص المشاركة"
+msgid "Hosts Settings"
+msgstr "إعدادات المستضيف"
 
-#: ../interfaces/shares.ui.h:18
-msgid "Share through:"
-msgstr "شارك عبر:"
-
-#: ../interfaces/shares.ui.h:19
-msgid "Shared Folder"
-msgstr "المجلد المُشارك"
-
-#: ../interfaces/shares.ui.h:20 ../src/shares/shares.desktop.in.in.h:2
+#: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
 msgstr "المجلدات المشتركة"
 
-#: ../interfaces/shares.ui.h:21
+#: ../interfaces/shares.ui.h:19
+msgid "Domain / _Workgroup:"
+msgstr "النطاق / مجموعة ال_عمل"
+
+#: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
 msgstr "هذا الحاسوب _خادوم WINS"
 
-#: ../interfaces/shares.ui.h:22
-msgid "Users"
-msgstr "المستخدمون"
-
-#: ../interfaces/shares.ui.h:23
+#: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
 msgstr "خا_دم WINS:"
 
-#: ../interfaces/shares.ui.h:24
+#: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
 msgstr "تشارك ويندوز"
 
+#: ../interfaces/shares.ui.h:23
+msgid "General Properties"
+msgstr "الخصائص العامة"
+
+#: ../interfaces/shares.ui.h:24
+msgid "Users"
+msgstr "المستخدمون"
+
 #: ../interfaces/shares.ui.h:25
-msgid "_Path:"
-msgstr "الم_سار:"
+msgid "Enter password for user"
+msgstr "ادخل كلمة سر المستخدم"
 
 #: ../interfaces/shares.ui.h:26
-msgid "_Read only"
-msgstr "لل_قراءة فقط"
+msgid "Enter password for user:"
+msgstr "أدخل كلمة سر المستخدم:"
 
 #: ../interfaces/time.ui.h:1
-msgid "Add NTP Server"
-msgstr "اضف خادوم NTP"
+msgid "Time zone"
+msgstr "المنطقة الزمنيّة"
 
 #: ../interfaces/time.ui.h:2
-msgid "NTP server"
-msgstr "خادوم NTP"
+msgid "Time Zone"
+msgstr "المنطقة الزّمنيّة"
 
 #: ../interfaces/time.ui.h:3
-msgid "Se_lect Servers"
-msgstr "ا_ختر الخواديم"
+msgid "Time zone:"
+msgstr "المنطقة الزمنيّة:"
 
 #: ../interfaces/time.ui.h:4
 msgid "Selection"
 msgstr "الانتقاء"
 
 #: ../interfaces/time.ui.h:5
-msgid "Synchronize now"
-msgstr "زامن الآن"
-
-#: ../interfaces/time.ui.h:6
-msgid "Time Zone"
-msgstr "المنطقة الزّمنيّة"
-
-#: ../interfaces/time.ui.h:7
 msgid "Time servers"
 msgstr "خواديم التّوقيت"
 
+#: ../interfaces/time.ui.h:6
+msgid "NTP server"
+msgstr "خادوم NTP"
+
+#: ../interfaces/time.ui.h:7
+msgid "Add NTP Server"
+msgstr "اضف خادوم NTP"
+
 #: ../interfaces/time.ui.h:8
-msgid "Time servers:"
-msgstr "خواديم التّوقيت:"
-
-#: ../interfaces/time.ui.h:9
-msgid "Time zone"
-msgstr "المنطقة الزمنيّة"
-
-#: ../interfaces/time.ui.h:10
-msgid "Time zone:"
-msgstr "المنطقة الزمنيّة:"
-
-#: ../interfaces/time.ui.h:11
 msgid "Unconfigured"
 msgstr "غير مُعدّ"
 
-#: ../interfaces/time.ui.h:12
+#: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
 msgstr "الإ_عداد:"
+
+#: ../interfaces/time.ui.h:10
+msgid "Time servers:"
+msgstr "خواديم التّوقيت:"
+
+#: ../interfaces/time.ui.h:11
+msgid "Se_lect Servers"
+msgstr "ا_ختر الخواديم"
+
+#: ../interfaces/time.ui.h:12
+msgid "_Time:"
+msgstr "ال_وقت:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
 msgstr "ال_تّاريخ:"
 
 #: ../interfaces/time.ui.h:14
-msgid "_Time:"
-msgstr "ال_وقت:"
+msgid "Synchronize now"
+msgstr "زامن الآن"
 
 #: ../interfaces/users.ui.h:1
-msgid ""
-"A user with this name already exists. Please choose a different name for the "
-"new user."
-msgstr "يوجد بالفعل مستخدم بهذا الاسم. من فضلك اختر اسما آخر للمستخدم الجديد."
+msgid "_Manage Groups"
+msgstr "إ_دارة المجموعات"
 
 #: ../interfaces/users.ui.h:2
 msgid "Account _type:"
 msgstr "_نوع الحساب:"
 
 #: ../interfaces/users.ui.h:3
-msgid "Advanced"
-msgstr "متقدّم"
+msgid "_Change..."
+msgstr "غيّر..."
 
 #: ../interfaces/users.ui.h:4
-msgid "Advanced Settings"
-msgstr "إعدادات متقدّمة"
+msgid "_Password:"
+msgstr "_كلمة السر:"
 
 #: ../interfaces/users.ui.h:5
-msgid "Assign a random password by default"
-msgstr "ضَع كلمة سرٍّ عشوائيّة افتراضيًّا"
+msgid "_Advanced Settings"
+msgstr "الإ_عدادات المتقدمة"
 
 #: ../interfaces/users.ui.h:6
-msgid "Automatic UID/GID"
-msgstr "UID/GID تلقائيتين"
+msgid "This account is disabled."
+msgstr "هذا الحساب معطّل."
 
 #: ../interfaces/users.ui.h:7
-msgid "Basic Settings"
-msgstr "الإعدادات الأساسيّة"
+msgid "_Enable Account"
+msgstr "_فعّل الحساب"
 
 #: ../interfaces/users.ui.h:8
-msgid "Change Advanced User Settings"
-msgstr "غيّر إعدادات المستخدم المتقدمة"
-
-#: ../interfaces/users.ui.h:9
-msgid "Change User Account Type"
-msgstr "غيّر نوع حساب المستخدم"
-
-#: ../interfaces/users.ui.h:10
-msgid "Change User Name"
-msgstr "غيّر اسم المستخدم"
-
-#: ../interfaces/users.ui.h:11
-msgid "Change User Password"
-msgstr "غيّر كلمة سر المستخدم"
-
-#: ../interfaces/users.ui.h:12
-msgid "Changing advanced settings for:"
-msgstr "غير الإعدادات المتقدمة ل‍:"
-
-#: ../interfaces/users.ui.h:13
-msgid "Changing user account type for:"
-msgstr "غيّر نوع الحساب ل‍:"
-
-#: ../interfaces/users.ui.h:14
-msgid "Changing user name for:"
-msgstr "غيّر ا_سم المستخدم:"
-
-#: ../interfaces/users.ui.h:15
-msgid "Changing user password for:"
-msgstr "غيّر كلمة سر المستخدم:"
-
-#: ../interfaces/users.ui.h:16
-msgid "Con_firmation:"
-msgstr "التّأ_كيد:"
-
-#: ../interfaces/users.ui.h:17
-msgid "Contact Information"
-msgstr "معلومات الاتصال"
-
-#: ../interfaces/users.ui.h:18
-msgid "Create New User"
-msgstr "أنشئ مستخدما جديدا"
-
-#: ../interfaces/users.ui.h:19
-msgid "Create a new user"
-msgstr "أنشئ مستخدما جديدا"
-
-#: ../interfaces/users.ui.h:20
-msgid "Days between warning and password expiration:"
-msgstr "الأيّام بين التّحذير و بطلان كلمة السّر:"
-
-#: ../interfaces/users.ui.h:21
-msgid "Default _group:"
-msgstr "ال_مجموعة الافتراضيّة:"
-
-#: ../interfaces/users.ui.h:22
-msgid "Default _shell:"
-msgstr "ال_صدفة الافتراضية:"
-
-#: ../interfaces/users.ui.h:23
-msgid "Disable _account"
-msgstr "_عطّل الحساب"
-
-#: ../interfaces/users.ui.h:24
-msgid "Don't ask for password on _login"
-msgstr "لا تطلب كلمة السر عند الو_لوج"
-
-#: ../interfaces/users.ui.h:25
-msgid ""
-"Encrypt all your files with your login password to strongly protect them "
-"from people with physical access to your computer, at the expense of a "
-"slightly reduced performance."
-msgstr ""
-"عمّ كل ملفاتك بكلمة سر الولوج لحماية أقوى ممن يستطيع الوصول ماديا إلى حاسوبك، "
-"على حساب قليل من التدهور في الأداء."
-
-#: ../interfaces/users.ui.h:26
-msgid "Full _Name:"
-msgstr "الاسم ال_كامل:"
-
-#: ../interfaces/users.ui.h:28
-msgid "Generate _random password"
-msgstr "ولِّد كلمة سر _عشوائيّة"
-
-#: ../interfaces/users.ui.h:29
-msgid "Group Members"
-msgstr "أعضاء المجموعة"
-
-#: ../interfaces/users.ui.h:30
-msgid "Group _ID:"
-msgstr "_معرّف المجموعة:"
-
-#: ../interfaces/users.ui.h:31
-msgid "Group _name:"
-msgstr "ا_سم المجموعة:"
-
-#: ../interfaces/users.ui.h:32
 msgid "Group properties"
 msgstr "خصائص المجموعة"
 
+#: ../interfaces/users.ui.h:9
+msgid "Basic Settings"
+msgstr "الإعدادات الأساسيّة"
+
+#: ../interfaces/users.ui.h:10
+msgid "Group _name:"
+msgstr "ا_سم المجموعة:"
+
+#: ../interfaces/users.ui.h:11
+msgid "Group _ID:"
+msgstr "_معرّف المجموعة:"
+
+#: ../interfaces/users.ui.h:12
+msgid "Group Members"
+msgstr "أعضاء المجموعة"
+
+#: ../interfaces/users.ui.h:13
+msgid "Profile Settings"
+msgstr "إعدادات اللاحة:"
+
+#: ../interfaces/users.ui.h:14
+msgid "Profile _name:"
+msgstr "ا_سم الهيئة:"
+
+#: ../interfaces/users.ui.h:15
+msgid "_Comments"
+msgstr "_تعليقات:"
+
+#: ../interfaces/users.ui.h:16
+msgid "System Defaults"
+msgstr "افتراضيات النّظام"
+
+#: ../interfaces/users.ui.h:17
+msgid "_Home directory:"
+msgstr "المجلّد المنز_ل:"
+
+#: ../interfaces/users.ui.h:18
+msgid "Default _shell:"
+msgstr "ال_صدفة الافتراضية:"
+
+#: ../interfaces/users.ui.h:19
+msgid "Default _group:"
+msgstr "ال_مجموعة الافتراضيّة:"
+
+#: ../interfaces/users.ui.h:20
+msgid "Password Settings"
+msgstr "إعدادات كلمة السّر"
+
+#: ../interfaces/users.ui.h:21
+msgid "Number of days that a password may be used:"
+msgstr "عدد الأيّام التي يمكن فيها استخدام كلمة السّر:"
+
+#: ../interfaces/users.ui.h:22
+msgid "Minimum days allowed between password changes:"
+msgstr "أدنى عدد مسموح به من الأيّام بين تغييرات كلمة السّر:"
+
+#: ../interfaces/users.ui.h:23
+msgid "Days between warning and password expiration:"
+msgstr "الأيّام بين التّحذير و بطلان كلمة السّر:"
+
+#: ../interfaces/users.ui.h:24
+msgid "Assign a random password by default"
+msgstr "ضَع كلمة سرٍّ عشوائيّة افتراضيًّا"
+
+#: ../interfaces/users.ui.h:25
+msgid "Automatic UID/GID"
+msgstr "UID/GID تلقائيتين"
+
+#: ../interfaces/users.ui.h:26
+msgid "Maximum UID:"
+msgstr "أقصى معرّف مستخدم:"
+
+#: ../interfaces/users.ui.h:27
+msgid "Maximum GID:"
+msgstr "أقصى معرّف مجموعة:"
+
+#: ../interfaces/users.ui.h:28
+msgid "Minimum UID:"
+msgstr "أدنى معرّف مستخدم:"
+
+#: ../interfaces/users.ui.h:29
+msgid "Minimum GID:"
+msgstr "أدنى معرّف مجموعة:"
+
+#: ../interfaces/users.ui.h:31
+msgid "Privileges"
+msgstr "صلاحيات"
+
+#: ../interfaces/users.ui.h:32
+msgid "User profiles"
+msgstr "هيئات المستخدم"
+
 #: ../interfaces/users.ui.h:33
-msgid "Groups available on the system:"
-msgstr "المجموعات الموجودة على النظام:"
+msgid "_Add Profile"
+msgstr "أ_ضف هيئة..."
 
 #: ../interfaces/users.ui.h:34
 msgid "Groups settings"
 msgstr "اعدادات المجموعات"
 
 #: ../interfaces/users.ui.h:35
-msgid "Ma_ximum days a password may be used:"
-msgstr "أ_قصى عدد من الأيّام التي يمكن استخدام كلمة السّر فيها:"
+msgid "Groups available on the system:"
+msgstr "المجموعات الموجودة على النظام:"
 
 #: ../interfaces/users.ui.h:36
-msgid "Maximum GID:"
-msgstr "أقصى معرّف مجموعة:"
+msgid "Change User Name"
+msgstr "غيّر اسم المستخدم"
 
 #: ../interfaces/users.ui.h:37
-msgid "Maximum UID:"
-msgstr "أقصى معرّف مستخدم:"
+msgid "Full _Name:"
+msgstr "الاسم ال_كامل:"
 
 #: ../interfaces/users.ui.h:38
-msgid "Mi_nimum days between password changes:"
-msgstr "أ_دنى عدد من الأيّام بين تغييرات كلمة السّر:"
+msgid "Changing user name for:"
+msgstr "غيّر ا_سم المستخدم:"
 
 #: ../interfaces/users.ui.h:39
-msgid "Minimum GID:"
-msgstr "أدنى معرّف مجموعة:"
+msgid "Change User Password"
+msgstr "غيّر كلمة سر المستخدم"
 
 #: ../interfaces/users.ui.h:40
-msgid "Minimum UID:"
-msgstr "أدنى معرّف مستخدم:"
+msgid "Con_firmation:"
+msgstr "التّأ_كيد:"
 
 #: ../interfaces/users.ui.h:41
-msgid "Minimum days allowed between password changes:"
-msgstr "أدنى عدد مسموح به من الأيّام بين تغييرات كلمة السّر:"
-
-#: ../interfaces/users.ui.h:42
-msgid "New _password:"
-msgstr "كلمة _سر جديدة:"
-
-#: ../interfaces/users.ui.h:43
-msgid "Number of days that a password may be used:"
-msgstr "عدد الأيّام التي يمكن فيها استخدام كلمة السّر:"
-
-#: ../interfaces/users.ui.h:44
-msgid "O_ffice location:"
-msgstr "عنوان ال_مكتب:"
-
-#: ../interfaces/users.ui.h:45
-msgid "Optional Settings"
-msgstr "إعدادت اختياريّة"
-
-#: ../interfaces/users.ui.h:46
-msgid "Password Settings"
-msgstr "إعدادات كلمة السّر"
-
-#: ../interfaces/users.ui.h:47
 msgid "Password set to: "
 msgstr "كلمة السّر مضبوطة لـى:"
 
-#: ../interfaces/users.ui.h:48
-msgid "Privileges"
-msgstr "صلاحيات"
+#: ../interfaces/users.ui.h:42
+msgid "_Generate"
+msgstr "ولِّد"
 
-#: ../interfaces/users.ui.h:49
-msgid "Profile Settings"
-msgstr "إعدادات اللاحة:"
-
-#: ../interfaces/users.ui.h:50
-msgid "Profile _name:"
-msgstr "ا_سم الهيئة:"
-
-#: ../interfaces/users.ui.h:51
+#: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
 msgstr "ضع كلمة السّر _يدويًّا"
 
+#: ../interfaces/users.ui.h:44
+msgid "New _password:"
+msgstr "كلمة _سر جديدة:"
+
+#: ../interfaces/users.ui.h:45
+msgid "Generate _random password"
+msgstr "ولِّد كلمة سر _عشوائيّة"
+
+#: ../interfaces/users.ui.h:46
+msgid "Changing user password for:"
+msgstr "غيّر كلمة سر المستخدم:"
+
+#: ../interfaces/users.ui.h:47
+msgid "Don't ask for password on _login"
+msgstr "لا تطلب كلمة السر عند الو_لوج"
+
+#: ../interfaces/users.ui.h:48
+msgid "_Current password:"
+msgstr "كلمة السر ال_حالية:"
+
+#: ../interfaces/users.ui.h:49
+msgid "Change User Account Type"
+msgstr "غيّر نوع حساب المستخدم"
+
+#: ../interfaces/users.ui.h:50
+msgid "Changing user account type for:"
+msgstr "غيّر نوع الحساب ل‍:"
+
+#: ../interfaces/users.ui.h:51
+msgid "_Custom"
+msgstr "_مُخصَّص"
+
 #: ../interfaces/users.ui.h:52
-msgid "System Defaults"
-msgstr "افتراضيات النّظام"
-
-#: ../interfaces/users.ui.h:53
-msgid "This account is disabled."
-msgstr "هذا الحساب معطّل."
-
-#: ../interfaces/users.ui.h:54
 msgid ""
 "This account is using special settings that have been defined manually. Use "
 "the <i>Advanced Settings</i> dialog to tune them."
-msgstr ""
-"يستخدم هذا الحساب إعدادات خاصة ضُبطت يدويا. استخدم حوار <i>الإعدادات "
-"المتقدمة</i> لضبطها."
+msgstr "يستخدم هذا الحساب إعدادات خاصة ضُبطت يدويا. استخدم حوار <i>الإعدادات المتقدمة</i> لضبطها."
+
+#: ../interfaces/users.ui.h:53
+msgid "Create New User"
+msgstr "أنشئ مستخدما جديدا"
+
+#: ../interfaces/users.ui.h:54
+msgid "_Name:"
+msgstr "الا_سم:"
 
 #: ../interfaces/users.ui.h:55
-msgid "User ID:"
-msgstr "معرّف المستخدم:"
+msgid "Create a new user"
+msgstr "أنشئ مستخدما جديدا"
 
-#: ../interfaces/users.ui.h:56
-msgid "User Privileges"
-msgstr "صلاحيات المستخدم"
-
-#: ../interfaces/users.ui.h:57
-msgid "User profiles"
-msgstr "هيئات المستخدم"
-
-#. No item should exceed a length of 40 characters, to avoid wrapping on two lines. Better simplifying than making it hard to read!
-#: ../interfaces/users.ui.h:59
+#. No item should exceed a length of 40 characters, to avoid wrapping on two
+#. lines. Better simplifying than making it hard to read!
+#: ../interfaces/users.ui.h:58
 msgid ""
 "Username must consist of:\n"
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
-"يجب أن تتكون أسماء المستخدمين من:\n"
-"  ◂ حروف إنجليزية صغيرة\n"
-"  ◂ أرقام\n"
-"  ◂ أي من الحروف \".\"، \"-\" و \"_\""
+msgstr "يجب أن تتكون أسماء المستخدمين من:\n  ◂ حروف إنجليزية صغيرة\n  ◂ أرقام\n  ◂ أي من الحروف \".\"، \"-\" و \"_\""
+
+#: ../interfaces/users.ui.h:62
+msgid ""
+"A user with this name already exists. Please choose a different name for the"
+" new user."
+msgstr "يوجد بالفعل مستخدم بهذا الاسم. من فضلك اختر اسما آخر للمستخدم الجديد."
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
 msgstr "يجب أن يبدأ اسم المستخدم بحرف"
 
 #: ../interfaces/users.ui.h:64
-msgid "You can't change user ID while the user is logged in."
-msgstr "لا يمكن تغيير معرف المستخدم بينما هو والج إلى النظام."
-
-#: ../interfaces/users.ui.h:65
-msgid "_Add Profile"
-msgstr "أ_ضف هيئة..."
-
-#: ../interfaces/users.ui.h:66
-msgid "_Advanced Settings"
-msgstr "الإ_عدادات المتقدمة"
-
-#: ../interfaces/users.ui.h:67
-msgid "_Change..."
-msgstr "غيّر..."
-
-#: ../interfaces/users.ui.h:68
-msgid "_Comments"
-msgstr "_تعليقات:"
-
-#: ../interfaces/users.ui.h:69
-msgid "_Current password:"
-msgstr "كلمة السر ال_حالية:"
-
-#: ../interfaces/users.ui.h:70
-msgid "_Custom"
-msgstr "_مُخصَّص"
-
-#: ../interfaces/users.ui.h:71
-msgid "_Days between warning and password expiration:"
-msgstr "الأ_يّام بين التّحذير و بطلان كلمة السّر:"
-
-#: ../interfaces/users.ui.h:72
-msgid "_Enable Account"
-msgstr "_فعّل الحساب"
-
-#: ../interfaces/users.ui.h:73
 msgid "_Encrypt home folder to protect sensitive data"
 msgstr "_عمّ مجلد المنزل لحماية البيانات الحساسة"
 
-#: ../interfaces/users.ui.h:74
-msgid "_Generate"
-msgstr "ولِّد"
+#: ../interfaces/users.ui.h:65
+msgid ""
+"Encrypt all your files with your login password to strongly protect them "
+"from people with physical access to your computer, at the expense of a "
+"slightly reduced performance."
+msgstr "عمّ كل ملفاتك بكلمة سر الولوج لحماية أقوى ممن يستطيع الوصول ماديا إلى حاسوبك، على حساب قليل من التدهور في الأداء."
 
-#: ../interfaces/users.ui.h:75
-msgid "_Home directory:"
-msgstr "المجلّد المنز_ل:"
+#: ../interfaces/users.ui.h:66
+msgid "Change Advanced User Settings"
+msgstr "غيّر إعدادات المستخدم المتقدمة"
 
-#: ../interfaces/users.ui.h:76
-msgid "_Home phone:"
-msgstr "هاتف المنز_ل:"
+#: ../interfaces/users.ui.h:67
+msgid "Changing advanced settings for:"
+msgstr "غير الإعدادات المتقدمة ل‍:"
 
-#: ../interfaces/users.ui.h:77
-msgid "_Main group:"
-msgstr "المجموعة ال_رّئيسيّة:"
+#: ../interfaces/users.ui.h:68
+msgid "O_ffice location:"
+msgstr "عنوان ال_مكتب:"
 
-#: ../interfaces/users.ui.h:78
-msgid "_Manage Groups"
-msgstr "إ_دارة المجموعات"
-
-#: ../interfaces/users.ui.h:79
-msgid "_Name:"
-msgstr "الا_سم:"
-
-#: ../interfaces/users.ui.h:80
-msgid "_Password:"
-msgstr "_كلمة السر:"
-
-#: ../interfaces/users.ui.h:81
-msgid "_Shell:"
-msgstr "ال_صدَفة:"
-
-#: ../interfaces/users.ui.h:83
+#: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
 msgstr "هاتف ال_عمل:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:1
-msgid "Show root user"
-msgstr "أظهر المستخدم الجذر"
+#: ../interfaces/users.ui.h:70
+msgid "_Home phone:"
+msgstr "هاتف المنز_ل:"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:2
+#: ../interfaces/users.ui.h:71
+msgid "Contact Information"
+msgstr "معلومات الاتصال"
+
+#: ../interfaces/users.ui.h:72
+msgid "User Privileges"
+msgstr "صلاحيات المستخدم"
+
+#: ../interfaces/users.ui.h:73
+msgid "Advanced Settings"
+msgstr "إعدادات متقدّمة"
+
+#: ../interfaces/users.ui.h:74
+msgid "_Shell:"
+msgstr "ال_صدَفة:"
+
+#: ../interfaces/users.ui.h:75
+msgid "_Main group:"
+msgstr "المجموعة ال_رّئيسيّة:"
+
+#: ../interfaces/users.ui.h:76
+msgid "User ID:"
+msgstr "معرّف المستخدم:"
+
+#: ../interfaces/users.ui.h:77
+msgid "You can't change user ID while the user is logged in."
+msgstr "لا يمكن تغيير معرف المستخدم بينما هو والج إلى النظام."
+
+#: ../interfaces/users.ui.h:78
+msgid "Disable _account"
+msgstr "_عطّل الحساب"
+
+#: ../interfaces/users.ui.h:79
+msgid "Optional Settings"
+msgstr "إعدادت اختياريّة"
+
+#: ../interfaces/users.ui.h:80
+msgid "Mi_nimum days between password changes:"
+msgstr "أ_دنى عدد من الأيّام بين تغييرات كلمة السّر:"
+
+#: ../interfaces/users.ui.h:81
+msgid "Ma_ximum days a password may be used:"
+msgstr "أ_قصى عدد من الأيّام التي يمكن استخدام كلمة السّر فيها:"
+
+#: ../interfaces/users.ui.h:82
+msgid "_Days between warning and password expiration:"
+msgstr "الأ_يّام بين التّحذير و بطلان كلمة السّر:"
+
+#: ../interfaces/users.ui.h:83
+msgid "Advanced"
+msgstr "متقدّم"
+
+#: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
 msgstr "أظهر مستخدمي النظام"
 
-#: ../org.mate.system-tools.gschema.xml.in.h:3
+#: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
 "Whether the users-admin tool should show system users in the users list."
-msgstr ""
-"فيما إذا يفترض أن تُظهر أداة users-admin مستخدمي النظام في قائمة المستخدمين."
+msgstr "فيما إذا يفترض أن تُظهر أداة users-admin مستخدمي النظام في قائمة المستخدمين."
+
+#: ../org.mate.system-tools.gschema.xml.in.h:3
+msgid "Show root user"
+msgstr "أظهر المستخدم الجذر"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
 "Whether the users-admin tool should show the root user in the users list."
-msgstr ""
-"فيما إذا يفترض أن تظهر أداة users-admin المستخدم الجذر في قائمة المستخدمين."
+msgstr "فيما إذا يفترض أن تظهر أداة users-admin المستخدم الجذر في قائمة المستخدمين."
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -772,9 +762,7 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr ""
-"إذا كنت متأكّدًا أنّها تعمل كأحد المنصّات المسردة أدناه فيمكنك اختيار ذلك و "
-"المتابعة. و لكن تنبّه أن هذا قد يلحق ضررًا بإعداد النّظام أو حتّى يشلّ حاسوبك."
+msgstr "إذا كنت متأكّدًا أنّها تعمل كأحد المنصّات المسردة أدناه فيمكنك اختيار ذلك و المتابعة. و لكن تنبّه أن هذا قد يلحق ضررًا بإعداد النّظام أو حتّى يشلّ حاسوبك."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
@@ -824,9 +812,7 @@ msgstr "هل تريد تحديث المحتوى؟ سيجعلك هذا تفقد �
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr ""
-"حدث خطأ أثناء مراجعة التخويلات: %s\n"
-"هذه علة قد تريد الإبلاغ عنها."
+msgstr "حدث خطأ أثناء مراجعة التخويلات: %s\nهذه علة قد تريد الإبلاغ عنها."
 
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
@@ -864,9 +850,7 @@ msgstr "تَغَيّر اسم المستضيف"
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr ""
-"سيمنعك هذا من إطلاق تطبيقاتٍ جديدة، فلذا ستضطر لتسجيل الدّخول مجدّدًا. هل تريد "
-"المتابعة على أي حال؟"
+msgstr "سيمنعك هذا من إطلاق تطبيقاتٍ جديدة، فلذا ستضطر لتسجيل الدّخول مجدّدًا. هل تريد المتابعة على أي حال؟"
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
@@ -1040,13 +1024,13 @@ msgstr "إعداد واجهة الشبكة الأولى بنوع مخصص"
 msgid "TYPE"
 msgstr "النوع"
 
-#: ../src/network/network.desktop.in.in.h:1
-msgid "Configure network devices and connections"
-msgstr "إعداد أجهزة الشّبكة و اتّصالاتها"
-
-#: ../src/network/network.desktop.in.in.h:2
+#: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
 msgstr "شبكة"
+
+#: ../src/network/mate-network.desktop.in.in.h:2
+msgid "Configure network devices and connections"
+msgstr "إعداد أجهزة الشّبكة و اتّصالاتها"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
@@ -1066,9 +1050,7 @@ msgstr "أمتأكّدٌ أنّك تريد تعطيل %s؟"
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
-msgstr ""
-"يمكن ان يؤثر هذا علي سلوك النظام بطرق عديدة و يمكن ان يؤدي الى فقد في "
-"البيانات."
+msgstr "يمكن ان يؤثر هذا علي سلوك النظام بطرق عديدة و يمكن ان يؤدي الى فقد في البيانات."
 
 #: ../src/services/service.c:32
 msgid "Web server"
@@ -1477,13 +1459,13 @@ msgstr "مراقب النظام"
 msgid "Virtual Machine management"
 msgstr "إدارة الآلة الافتراضية"
 
-#: ../src/services/services.desktop.in.in.h:1
-msgid "Configure which services will be run when the system starts"
-msgstr "إعداد أي الخدمات ستشغّل عند بدء النّظام"
-
-#: ../src/services/services.desktop.in.in.h:2
+#: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
 msgstr "الخدمات"
+
+#: ../src/services/mate-services.desktop.in.in.h:2
+msgid "Configure which services will be run when the system starts"
+msgstr "إعداد أي الخدمات ستشغّل عند بدء النّظام"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1558,7 +1540,7 @@ msgstr "حدد عنوان IP"
 msgid "Specify network"
 msgstr "حدد الشبكة"
 
-#: ../src/shares/shares.desktop.in.in.h:1
+#: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
 msgstr "أَضبط أي من المجلدات متوفر لجيرانك علي الشبكة"
 
@@ -1605,17 +1587,15 @@ msgstr "خريطة العالم"
 msgid ""
 "Mouse-based interactive map widget for selecting timezone. Keyboard users "
 "should instead select the timezone from the drop-down combination box below."
-msgstr ""
-"خريطة تفاعلية تعتمد على الفأرة لتحديد المنطقة الزمنية. مستخدمو لوحة المفاتيح "
-"عليهم انتقاء المنطقة الزمنية من المربع المنسدل أدناه."
+msgstr "خريطة تفاعلية تعتمد على الفأرة لتحديد المنطقة الزمنية. مستخدمو لوحة المفاتيح عليهم انتقاء المنطقة الزمنية من المربع المنسدل أدناه."
 
-#: ../src/time/time.desktop.in.in.h:1
-msgid "Change system time, date, and timezone"
-msgstr "غيّر وقت النّظام و التّاريخ و المنطقة الزّمنيّة"
-
-#: ../src/time/time.desktop.in.in.h:2
+#: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
 msgstr "الوقت و التّاريخ"
+
+#: ../src/time/mate-time.desktop.in.in.h:2
+msgid "Change system time, date, and timezone"
+msgstr "غيّر وقت النّظام و التّاريخ و المنطقة الزّمنيّة"
 
 #: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
@@ -1625,9 +1605,7 @@ msgstr "دعم NTP ليس مثبتا"
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr ""
-"رّجاء ثبّت وفعّل دعم NTP في نظامك لتمكِّن مزامنة خادوم التوقيت المحلّي مع خواديم "
-"توقيت الإنترنت."
+msgstr "رّجاء ثبّت وفعّل دعم NTP في نظامك لتمكِّن مزامنة خادوم التوقيت المحلّي مع خواديم توقيت الإنترنت."
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
@@ -1829,26 +1807,24 @@ msgid "Be able to get administrator privileges"
 msgstr "إمكانية الحصول على صلاحيات المدير"
 
 #: ../src/users/user-profiles.conf.in.h:1
+msgid "Desktop user"
+msgstr "مستخدم مكتبي"
+
+#: ../src/users/user-profiles.conf.in.h:2
+msgid ""
+"Can perform common tasks. Can't install software or change settings "
+"affecting all users."
+msgstr "يستطيع أداء المهام الشائعة. لا يستطيع تثبيت برمجيات أو تغيير الإعدادات التي تؤثر على كل المستخدمين."
+
+#: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
 msgstr "إداري"
 
-#: ../src/users/user-profiles.conf.in.h:2
+#: ../src/users/user-profiles.conf.in.h:4
 msgid ""
 "Can change anything on the system, including installing and upgrading "
 "software."
 msgstr "يستطيع تغيير أي شيء في النظام بما فيه تثبيت وترقية البرمجيات."
-
-#: ../src/users/user-profiles.conf.in.h:3
-msgid ""
-"Can perform common tasks. Can't install software or change settings "
-"affecting all users."
-msgstr ""
-"يستطيع أداء المهام الشائعة. لا يستطيع تثبيت برمجيات أو تغيير الإعدادات التي "
-"تؤثر على كل المستخدمين."
-
-#: ../src/users/user-profiles.conf.in.h:4
-msgid "Desktop user"
-msgstr "مستخدم مكتبي"
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
@@ -1894,13 +1870,13 @@ msgstr "تغيِّرت كلمة السر بعد الاستيثاق!"
 msgid "Unknown error"
 msgstr "خطأ مجهول"
 
-#: ../src/users/users.desktop.in.in.h:1
-msgid "Add or remove users and groups"
-msgstr "أضف أو أزل مستخدمين و مجموعات"
-
-#: ../src/users/users.desktop.in.in.h:2
+#: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
 msgstr "المستخدمين والمجموعات"
+
+#: ../src/users/mate-users.desktop.in.in.h:2
+msgid "Add or remove users and groups"
+msgstr "أضف أو أزل مستخدمين و مجموعات"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
@@ -1910,9 +1886,7 @@ msgstr "كلمة السّر قصيرة جدًا"
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr ""
-"يجب أن تكون كلمات سر المستخدمين أطول من 5 محارف ويفضل أن تتكون من أرقام "
-"وحروف ومحارف خاصة."
+msgstr "يجب أن تكون كلمات سر المستخدمين أطول من 5 محارف ويفضل أن تتكون من أرقام وحروف ومحارف خاصة."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1956,9 +1930,7 @@ msgstr "لا يمكن حذف الحساب الإداري الوحيد"
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr ""
-"‏%s هو المدير الوحيد لهذا الحاسوب. حذف هذا الحساب سيؤدي إلى منعك من إدارة "
-"النظام."
+msgstr "‏%s هو المدير الوحيد لهذا الحاسوب. حذف هذا الحساب سيؤدي إلى منعك من إدارة النظام."
 
 #: ../src/users/user-settings.c:121
 #, c-format
@@ -1968,13 +1940,10 @@ msgstr "أأزيل مجلد %s المنزلي؟"
 #: ../src/users/user-settings.c:124
 #, c-format
 msgid ""
-"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't "
-"need them anymore. You may want to back them up before deleting the account, "
-"or keep them so that an administrator can save them later."
-msgstr ""
-"يمكن حذف الملفات التي تخص المستخدم %s في <tt>%s<tt> نهائيا إذا لم تعد بحاجة "
-"إليها. ربما ترغب في الاحتفاظ بنسخة احتياطية قبل حذف الحساب، أو الإبقاء عليها "
-"حتى يستطيع مدير النظام حفظها لاحقا."
+"Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
+" need them anymore. You may want to back them up before deleting the "
+"account, or keep them so that an administrator can save them later."
+msgstr "يمكن حذف الملفات التي تخص المستخدم %s في <tt>%s<tt> نهائيا إذا لم تعد بحاجة إليها. ربما ترغب في الاحتفاظ بنسخة احتياطية قبل حذف الحساب، أو الإبقاء عليها حتى يستطيع مدير النظام حفظها لاحقا."
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
@@ -2018,9 +1987,7 @@ msgstr "مسار غير كامل لمجلّد المنزل"
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
-"رجاءً أدخل المسار الكامل لمجلّد المنزل\n"
-"<span size=\"smaller\">مثلًا: ‪/home/john‬</span>."
+msgstr "رجاءً أدخل المسار الكامل لمجلّد المنزل\n<span size=\"smaller\">مثلًا: ‪/home/john‬</span>."
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
@@ -2029,19 +1996,10 @@ msgstr "المجلد المنزلي الجديد موجود مسبقًا، أأ�
 #: ../src/users/user-settings.c:449
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or copy the contents of <tt>%"
-"s</tt> to the new home, overwriting it?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
-"In doubt, use the new directory to avoid losing data, and copy files from "
-"the old directory later."
-msgstr ""
-"لقد حدد المجلد <tt>‪‬%s‬</tt> ليكون المنزلي للمستخدم %s، لكنه موجود مسبقا. "
-"أتريد استخدام الملفات من هذا المجلد أم نقل محتويات <tt>‪%s‬</tt> إلى المنزل "
-"الجديد مستبدلا إياه؟\n"
-"\n"
-"في حال الشك استخدم مجلدا جديدا لتلافي فقد البيانات، لاحقا يمكنك نسخ الملفات "
-"من المجلد القديم."
+"In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
+msgstr "لقد حدد المجلد <tt>‪‬%s‬</tt> ليكون المنزلي للمستخدم %s، لكنه موجود مسبقا. أتريد استخدام الملفات من هذا المجلد أم نقل محتويات <tt>‪%s‬</tt> إلى المنزل الجديد مستبدلا إياه؟\n\nفي حال الشك استخدم مجلدا جديدا لتلافي فقد البيانات، لاحقا يمكنك نسخ الملفات من المجلد القديم."
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
@@ -2069,17 +2027,10 @@ msgstr "ا_حذف مجلد المنزل القديم"
 #: ../src/users/user-settings.c:493
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which already exists. "
-"Do you want to use files from this directory, or delete all its contents and "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr ""
-"لقد حدد المجلد <tt>‪‬%s‬</tt> ليكون المنزلي للمستخدم %s، لكنه موجود مسبقا. "
-"أتريد استخدام الملفات من هذا المجلد أم حذف كل محتوياته واستخدام مجلد منزلي "
-"خال تماما؟\n"
-"\n"
-"في حال الشك، أبق على الملفات واحذفهم يدويا إن دعت الحاجة."
+msgstr "لقد حدد المجلد <tt>‪‬%s‬</tt> ليكون المنزلي للمستخدم %s، لكنه موجود مسبقا. أتريد استخدام الملفات من هذا المجلد أم حذف كل محتوياته واستخدام مجلد منزلي خال تماما؟\n\nفي حال الشك، أبق على الملفات واحذفهم يدويا إن دعت الحاجة."
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
@@ -2096,18 +2047,10 @@ msgstr "أأنسخ المجلد المنزلي القديم إلى المكان 
 #: ../src/users/user-settings.c:528
 #, c-format
 msgid ""
-"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. "
-"Do you want to copy the contents of the old home directory (<tt>%s</tt>), or "
-"use a completely empty home directory?\n"
+"The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
-"If you choose to copy the files to the new location, it's safe to delete the "
-"old directory."
-msgstr ""
-"لقد حدد المجلد <tt>‪‬%s‬</tt> ليكون المنزلي للمستخدم %s، لكنه موجود مسبقا. "
-"أتريد نقل محتويات المنزل القديم (<tt>‪%s‬</tt>) أم استخدام مجلد منزلي خال "
-"تماما؟\n"
-"\n"
-"إذا اخترت نسخ الملفات إلى المكان الجيد فمن الآمن حذف المجلد القديم."
+"If you choose to copy the files to the new location, it's safe to delete the old directory."
+msgstr "لقد حدد المجلد <tt>‪‬%s‬</tt> ليكون المنزلي للمستخدم %s، لكنه موجود مسبقا. أتريد نقل محتويات المنزل القديم (<tt>‪%s‬</tt>) أم استخدام مجلد منزلي خال تماما؟\n\nإذا اخترت نسخ الملفات إلى المكان الجيد فمن الآمن حذف المجلد القديم."
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
@@ -2141,9 +2084,7 @@ msgstr "مسار غير كامل في الصدفة"
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
-"رّجاء إدخال مسار كامل للصدفة\n"
-"<span size=\"smaller\">مثلًا: ‪/bin/bash‬</span>."
+msgstr "رّجاء إدخال مسار كامل للصدفة\n<span size=\"smaller\">مثلًا: ‪/bin/bash‬</span>."
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
@@ -2154,9 +2095,7 @@ msgstr "لا يمكن إبطال الصلاحيات الإدارية"
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr ""
-"‏%s هو المدير الوحيد لهذا الحاسوب. إبطال الصلاحيات الإدارية سيؤدي إلى منعك من "
-"إدارة النظام."
+msgstr "‏%s هو المدير الوحيد لهذا الحاسوب. إبطال الصلاحيات الإدارية سيؤدي إلى منعك من إدارة النظام."
 
 #: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
@@ -2167,9 +2106,7 @@ msgstr "أنت على وشك إبطال صلاحياتك الإدارية"
 msgid ""
 "%s will no longer be able to perform administrative tasks. This account "
 "won't be allowed to get administration rights back on its own."
-msgstr ""
-"لن يعود بإمكان %s أداء المهاد الإدارية. لن يسمح لهذا الحساب باستعادة "
-"الصلاحية الإدارية بنفسه."
+msgstr "لن يعود بإمكان %s أداء المهاد الإدارية. لن يسمح لهذا الحساب باستعادة الصلاحية الإدارية بنفسه."
 
 #: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
@@ -2182,146 +2119,3 @@ msgstr "طبق التغييرات على إعدادات المستخدم..."
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
 msgstr "إعدادات المستخدمين"
-
-#~ msgid ""
-#~ "The directory <tt>%s</tt> already exists. User may not have the "
-#~ "permissions required to read or write in that directory. Do you want to "
-#~ "use it anyway?"
-#~ msgstr ""
-#~ "الديل <tt>%s</tt> موجود مسبقا. قد لا يكون للمستخدم الصلاحيات اللازمة "
-#~ "لقراءة وكتابة هذا الدليل. أما زلت ترغب في استخدامه؟"
-
-#~ msgid "_Short Name:"
-#~ msgstr "الاسم ال_قصير:"
-
-#~ msgid "Address: %s Subnet mask: %s"
-#~ msgstr "العنوان: %s قناع الشبكة الفرعية: %s"
-
-#~ msgid "Address: %s Remote address: %s"
-#~ msgstr "العنوان: %s العنوان البعيد: %s"
-
-#~ msgid "Type: %s Phone number: %s"
-#~ msgstr "النوع: %s رقم الهاتف: %s"
-
-#~ msgid "Type: %s Access point name: %s"
-#~ msgstr "النوع: %s اسم نقطة الوصول: %s"
-
-#~ msgid "Type: %s Ethernet interface: %s"
-#~ msgstr "النوع: %s واجهة الإثرنت: %s"
-
-#~ msgid "Check password _quality"
-#~ msgstr "افحص _جودة كلمة السّر"
-
-#~ msgid "User _password:"
-#~ msgstr "_كلمة سر المستخدم:"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Please enter your root password</"
-#~ "span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">رجاء أدخل كلمة سر الجذر"
-
-#~ msgid ""
-#~ "You need administrator privileges to use this tool. Enter a password to "
-#~ "modify\n"
-#~ "your system configuration."
-#~ msgstr ""
-#~ "تحتاج صلاحيات المدير لتستخدم هذه الأداة. ادخل كلمة سر لتعدّل\n"
-#~ "اعدادات نظامك."
-
-#~ msgid ""
-#~ "Allow this user to open a local session without entering his password. "
-#~ "The password will still be required to perform administrative tasks."
-#~ msgstr ""
-#~ "اسمح لهذا المستخدم بفتح جلسة محلية دون إدخال كلمة السر. ستظل كلمة السر "
-#~ "مطلوبة لأداء المهام الإدارية."
-
-#~ msgid "User must log out before you can change his ID."
-#~ msgstr "يجب أن يخرج المستخدم قبل أن تتمكن من تغيير معرّفه."
-
-#~ msgid "_Add Group"
-#~ msgstr "_اضف مجموعة"
-
-#~ msgid "_Add User"
-#~ msgstr "_اضف مستخدم"
-
-#~ msgid "_Profile:"
-#~ msgstr "ال_هيئة:"
-
-#~ msgid "_Real name:"
-#~ msgstr "الا_سم الحقيقي:"
-
-#~ msgid "Are you sure you want to delete account \"%s\"?"
-#~ msgstr "أمتأكّدٌ أنّك تريد حذف الحساب \"%s\"؟"
-
-#~ msgid ""
-#~ "This will disable this user's access to the system without deleting the "
-#~ "user's home directory."
-#~ msgstr "سيعطّل هذا وصول المستخدم للنظام بدون حذف مجلده المنزل."
-
-#~ msgid "Account '%s' Properties"
-#~ msgstr "خصائص الحساب '%s'"
-
-#~ msgid "User name is empty"
-#~ msgstr "اسم المستخدم خال"
-
-#~ msgid "A user name must be specified."
-#~ msgstr "يجب أن يحدد اسم المستخدم."
-
-#~ msgid "User name has invalid characters"
-#~ msgstr "يحتوي اسم المستخدم محارفً غير صالحة"
-
-#~ msgid ""
-#~ "Please set a valid user name consisting of a lower case letter followed "
-#~ "by lower case letters and numbers."
-#~ msgstr ""
-#~ "رجاءً ضع اسم مستخدمٍ سليم يتكوّنٍ من حرفٍ صغير متبوعًا بحروفٍ صغيرة و أرقام."
-
-#~ msgid "Please enter a different home directory path."
-#~ msgstr "رجاءً أدخل مسار مجلد منزلي آخر."
-
-#~ msgid "Administrator account's user ID should not be modified"
-#~ msgstr "يجب ألا يتم تعديل هوية حساب المدير"
-
-#~ msgid "Name"
-#~ msgstr "الاسم"
-
-#~ msgid "Login name"
-#~ msgstr "اسم الولوج:"
-
-#~ msgid "_Unlock"
-#~ msgstr "ا_فتح القفل"
-
-#~ msgid "This action is not allowed"
-#~ msgstr "هذا الإجراء غير مسموح"
-
-#~ msgid "Could not authenticate"
-#~ msgstr "تعذرت المصادقة"
-
-#~ msgid "Phone number: %s Login: %s"
-#~ msgstr "رقم الهاتف: %s اسم الولوج: %s"
-
-#~ msgid "Administrator account's user name should not be modified"
-#~ msgstr "يجب ألا يتم تعديل اسم مستخدم حساب المدير"
-
-#~ msgid "Modem connection"
-#~ msgstr "اتصال مودم"
-
-#~ msgid "ISDN connection"
-#~ msgstr "اتصال ISDN"
-
-#~ msgid ""
-#~ "Off\n"
-#~ "Low\n"
-#~ "Medium\n"
-#~ "Loud"
-#~ msgstr ""
-#~ "متوقف\n"
-#~ "منخفظ\n"
-#~ "متوسط\n"
-#~ "عالي"
-
-#~ msgid "MATE System Tools"
-#~ msgstr "أدوات نظام جنوم"
-
-#~ msgid "WPA"
-#~ msgstr "WPA"
