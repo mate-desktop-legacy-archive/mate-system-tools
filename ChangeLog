@@ -1,3 +1,122 @@
+commit b8b1834c25316d275cf513f85e5c9f95320dc88f
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Mon Jul 16 17:11:06 2012 -0400
+
+    Synced translations for mate-system-tools
+
+ po/af.po          | 1217 ++++++-------
+ po/am.po          | 4882 +++++++++++++++--------------------------------------
+ po/ar.po          | 1074 +++++-------
+ po/as.po          | 1550 ++++++++++-------
+ po/ast.po         | 1413 +++++++++-------
+ po/az.po          | 3395 +++++++++++++++++--------------------
+ po/be.po          | 1296 +++++++-------
+ po/bg.po          |  977 +++++------
+ po/bn.po          | 1387 +++++++--------
+ po/bn_IN.po       | 1483 +++++++++-------
+ po/br.po          | 1395 +++++++++------
+ po/ca.po          | 2908 +++++++------------------------
+ po/ca@valencia.po | 2908 +++++++------------------------
+ po/cs.po          |  970 +++++------
+ po/cy.po          | 3065 +++++++++++++++++----------------
+ po/da.po          | 1674 +++++-------------
+ po/de.po          | 1549 +++++------------
+ po/dz.po          | 2091 +++++++++++------------
+ po/el.po          | 1094 +++++-------
+ po/en_CA.po       | 3063 +++++++++++++++++----------------
+ po/en_GB.po       | 1758 +++++--------------
+ po/eo.po          | 1090 ++++++------
+ po/es.po          | 1140 +++++--------
+ po/es_CL.po       | 2115 +++++++++++++++++++++++
+ po/et.po          | 1398 +++++++++------
+ po/eu.po          | 1224 +++++++-------
+ po/fa.po          | 3059 +++++++++++++++++----------------
+ po/fi.po          | 1323 +++++++--------
+ po/fr.po          | 1018 +++++------
+ po/ga.po          | 1360 +++++++++------
+ po/gl.po          | 1009 +++++------
+ po/gu.po          | 1487 +++++++++-------
+ po/he.po          | 1071 +++++-------
+ po/hi.po          | 1479 ++++++++++------
+ po/hr.po          | 1454 ++++++++++------
+ po/hu.po          |  970 +++++------
+ po/ia.po          | 2115 +++++++++++++++++++++++
+ po/id.po          | 3570 +++++++++++++++++----------------------
+ po/id_ID.po       | 2115 +++++++++++++++++++++++
+ po/is.po          | 1415 ++++++++++------
+ po/it.po          |  987 +++++------
+ po/ja.po          | 1049 +++++-------
+ po/ka.po          | 3046 +++++++++++++++++----------------
+ po/kn.po          | 1455 ++++++++++------
+ po/ko.po          | 1212 ++++++-------
+ po/ku.po          | 2356 ++++++++++++--------------
+ po/lt.po          | 1099 +++++-------
+ po/lv.po          | 1354 +++++++--------
+ po/mai.po         | 1339 +++++++++------
+ po/mg.po          | 2342 ++++++++++++++++---------
+ po/mk.po          | 1495 +++++++++-------
+ po/ml.po          | 1593 ++++++++++-------
+ po/mn.po          | 2554 +++++++++++++++-------------
+ po/mr.po          | 1425 ++++++++++------
+ po/ms.po          | 1885 +++++++--------------
+ po/nb.po          |  888 +++++-----
+ po/nds.po         | 1122 +++++++-----
+ po/ne.po          | 3053 +++++++++++++++++----------------
+ po/nl.po          | 4761 ++++++++++++---------------------------------------
+ po/nn.po          | 4478 +++++++++++-------------------------------------
+ po/oc.po          | 1363 +++++++++------
+ po/or.po          | 1488 ++++++++++------
+ po/pa.po          | 1083 +++++-------
+ po/pl.po          |  982 +++++------
+ po/ps.po          | 1390 +++++++++------
+ po/pt.po          | 2722 +++++++----------------------
+ po/pt_BR.po       | 2099 +++++------------------
+ po/ro.po          | 1336 ++++++++-------
+ po/ru.po          |  975 ++++++-----
+ po/rw.po          | 3567 +++++++++++++++++++-------------------
+ po/si.po          | 1655 +++++++++++-------
+ po/sk.po          | 1504 ++++++++++-------
+ po/sl.po          | 1158 ++++++-------
+ po/sq.po          | 3056 +++++++++++++++++----------------
+ po/sr.po          | 1160 +++++--------
+ po/sr@latin.po    | 1160 +++++--------
+ po/sv.po          | 1558 ++++++-----------
+ po/ta.po          |  963 +++++------
+ po/te.po          | 1419 ++++++++++------
+ po/th.po          | 2930 ++++++++++++++------------------
+ po/tr.po          | 1553 +++++++++--------
+ po/ug.po          |  979 +++++------
+ po/uk.po          | 1235 +++++++-------
+ po/vi.po          | 1656 +++++++++++-------
+ po/wa.po          | 3177 +++++++++++++++++-----------------
+ po/xh.po          | 3113 +++++++++++++++++-----------------
+ po/zh_CN.po       | 1046 +++++-------
+ po/zh_HK.po       |  985 +++++------
+ po/zh_TW.po       | 1023 +++++------
+ 89 files changed, 76719 insertions(+), 82670 deletions(-)
+
+commit 6ebe0663e898703a69d810c929e1deee4742cbeb
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Sun Jul 15 20:57:06 2012 -0400
+
+    Created po/gnome-copyrights.txt
+
+ po/gnome-copyrights.txt | 1137 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1137 insertions(+)
+
+commit ca2fe4848f13cfcec6f1fac20edf1f6da514d8a4
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Mon May 7 12:51:30 2012 -0400
+
+    Fixed shares issue and preparing for 1.2.3 release.
+
+ ChangeLog                           |  723 +++++++++++++++++++++++++++++++++++
+ configure.in                        |    2 +-
+ src/shares/caja/caja-shares.c       |    4 +-
+ src/shares/caja/gst-shares-module.c |    2 +-
+ src/shares/main.c                   |    4 +-
+ 5 files changed, 729 insertions(+), 6 deletions(-)
+
 commit 35fa75392c8c52b35c08e4e4283b8aea8f757656
 Author: Steve Zesch <stevezesch2@gmail.com>
 Date:   Sat Apr 7 00:39:08 2012 -0400
@@ -9,7 +128,7 @@ Date:   Sat Apr 7 00:39:08 2012 -0400
  src/shares/mate-shares.desktop.in.in     |    1 +
  src/time/mate-time.desktop.in.in         |    1 +
  src/users/mate-users.desktop.in.in       |    1 +
- 5 files changed, 5 insertions(+), 0 deletions(-)
+ 5 files changed, 5 insertions(+)
 
 commit 96d4f4cb12e3dbf11b56ce7671b657a0bb523cba
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -29,7 +148,7 @@ Date:   Sun Mar 25 19:05:02 2012 -0400
     Preparing for 1.2.1 release
 
  configure.in |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit 5c79ea42cf94a74ccce8be58011ffd88b9ef4b54
 Merge: ea9b931 f4c96c2
@@ -50,7 +169,7 @@ Date:   Wed Oct 13 10:03:32 2010 +0000
     it shows a warning.
 
  src/users/user-settings.c |    3 ++-
- 1 files changed, 2 insertions(+), 1 deletions(-)
+ 1 file changed, 2 insertions(+), 1 deletion(-)
 
 commit 9433cfc409dd1ce5d17dae77e48ee595b4566f2c
 Author: Milan Bouchet-Valat <nalimilan@club.fr>
@@ -65,7 +184,7 @@ Date:   Sat Oct 2 08:50:18 2010 +0000
     https://bugzilla.gnome.org/show_bug.cgi?id=631143
 
  interfaces/time.ui |   27 +++------------------------
- 1 files changed, 3 insertions(+), 24 deletions(-)
+ 1 file changed, 3 insertions(+), 24 deletions(-)
 
 commit ea9b9314048ffc069d814a4a09fec3c812eabebd
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -87,7 +206,7 @@ Date:   Tue Jan 10 14:40:15 2012 -0500
     Changed mate.gr.jp to gnome.gr.jp as requested in issue #86
 
  po/ja.po |    6 +++---
- 1 files changed, 3 insertions(+), 3 deletions(-)
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
 commit 4787d2d1d9fca61b301fd1a07c4f0639bedcb38e
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -126,7 +245,7 @@ Date:   Thu Nov 24 18:45:51 2011 -0300
     fixing ubuntu bug with atk
 
  src/time/Makefile.am |    4 ++--
- 1 files changed, 2 insertions(+), 2 deletions(-)
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
 commit 95cbb69707dcecacf222ac8714cbb313befe6844
 Author: Perberos <perberos@gmail.com>
@@ -198,19 +317,19 @@ Date:   Wed Nov 23 17:31:41 2011 -0300
 
     fixing desktop files conflicts with gnome
 
- DirsMakefile                             |   10 ++--
- configure.in                             |   29 +++++----
+ DirsMakefile                             |   10 +--
+ configure.in                             |   29 ++++-----
  m4/lt~obsolete.m4                        |   98 ------------------------------
- src/network/mate-network.desktop.in.in   |   14 ++++
- src/network/network.desktop.in.in        |   14 ----
- src/services/mate-services.desktop.in.in |   14 ++++
- src/services/services.desktop.in.in      |   14 ----
+ src/network/mate-network.desktop.in.in   |   14 +++++
+ src/network/network.desktop.in.in        |   14 -----
+ src/services/mate-services.desktop.in.in |   14 +++++
+ src/services/services.desktop.in.in      |   14 -----
  src/shares/mate-shares.desktop.in.in     |   15 +++++
  src/shares/shares.desktop.in.in          |   15 -----
- src/time/mate-time.desktop.in.in         |   14 ++++
- src/time/time.desktop.in.in              |   14 ----
- src/users/mate-users.desktop.in.in       |   14 ++++
- src/users/users.desktop.in.in            |   14 ----
+ src/time/mate-time.desktop.in.in         |   14 +++++
+ src/time/time.desktop.in.in              |   14 -----
+ src/users/mate-users.desktop.in.in       |   14 +++++
+ src/users/users.desktop.in.in            |   14 -----
  13 files changed, 91 insertions(+), 188 deletions(-)
 
 commit 622ddb7e76f513dd50e65662dd9ccd9aa0629d5e
@@ -225,7 +344,7 @@ Date:   Wed Nov 23 17:24:47 2011 -0300
  m4/ltsugar.m4        |  123 -
  m4/ltversion.m4      |   23 -
  m4/mate-doc-utils.m4 |   56 -
- 6 files changed, 0 insertions(+), 8784 deletions(-)
+ 6 files changed, 8784 deletions(-)
 
 commit 592d760d086a9dc2a7993915848cc2a7682f4bbd
 Author: Perberos <perberos@gmail.com>
@@ -515,7 +634,7 @@ Date:   Wed Nov 23 16:53:36 2011 -0300
  po/be@latin.po                              | 1758 ++++++
  po/bg.po                                    | 2211 ++++++++
  po/bn.po                                    | 2253 ++++++++
- po/bn_IN.po                                 | 1842 ++++++
+ po/bn_IN.po                                 | 1842 +++++++
  po/br.po                                    | 1827 ++++++
  po/ca.po                                    | 3774 +++++++++++++
  po/ca@valencia.po                           | 3774 +++++++++++++
@@ -638,7 +757,7 @@ Date:   Wed Nov 23 16:53:36 2011 -0300
  src/services/callbacks.c                    |  233 +
  src/services/callbacks.h                    |   47 +
  src/services/main.c                         |   57 +
- src/services/service-settings-table.c       |  307 +
+ src/services/service-settings-table.c       |  307 ++
  src/services/service-settings-table.h       |   25 +
  src/services/service.c                      |  115 +
  src/services/service.h                      |   41 +
@@ -720,4 +839,4 @@ Date:   Wed Nov 23 16:53:36 2011 -0300
  src/users/users-tool.c                      |  292 +
  src/users/users-tool.h                      |   73 +
  src/users/users.desktop.in.in               |   14 +
- 459 files changed, 289730 insertions(+), 0 deletions(-)
+ 459 files changed, 289730 insertions(+)
