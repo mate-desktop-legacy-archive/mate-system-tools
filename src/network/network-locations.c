@@ -93,15 +93,13 @@ gst_network_locations_class_init (GstNetworkLocationsClass *class)
 			    sizeof (GstNetworkLocationsPrivate));
 }
 
-#define MATE_DOT_MATE ".mate2/"
-
 static gchar*
 create_dot_dir ()
 {
   gchar *dir;
 
-  dir = g_build_filename (g_get_home_dir (),
-			  MATE_DOT_MATE,
+  dir = g_build_filename (g_get_user_config_dir (),
+			  "mate",
 			  "network-admin-locations",
 			  NULL);
 
