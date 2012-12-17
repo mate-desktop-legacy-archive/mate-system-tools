@@ -11,6 +11,6 @@ X-MATE-Bugzilla-Bugzilla=MATE
 X-MATE-Bugzilla-Product=mate-system-tools
 X-MATE-Bugzilla-Component=shares-admin
 X-MATE-Bugzilla-Version=@VERSION@
-OnlyShowIn=MATE;
+OnlyShowIn=MATE;XFCE;
 StartupNotify=true
 
