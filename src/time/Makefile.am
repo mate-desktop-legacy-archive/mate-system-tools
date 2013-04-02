@@ -15,7 +15,7 @@ INCLUDES += $(GST_TOOL_CFLAGS) $(DBUS_CFLAGS)
 CLEANFILES = $(GST_TOOL_CLEANFILES)
 EXTRA_DIST = $(GST_TOOL_EXTRA_DIST)
 
-mate_time_admin_LDADD = ./e-map/libemap.a $(GST_TOOL_LIBS) $(DBUS_LIBS)
+mate_time_admin_LDADD = ./e-map/libemap.a $(GST_TOOL_LIBS) $(DBUS_LIBS) -lm
 mate_time_admin_DEPENDENCIES = ./e-map/libemap.a $(GST_TOOL_DEPENDENCIES)
 mate_time_admin_SOURCES = \
 	time-tool.c \
