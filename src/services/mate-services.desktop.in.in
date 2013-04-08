@@ -1,15 +1,16 @@
 [Desktop Entry]
 Version=1.0
-_Name=Services
+_Name=MATE Services
+_GenericName=Services
 _Comment=Configure which services will be run when the system starts
 Exec=mate-services-admin
 Icon=network-server
 Terminal=false
 Type=Application
-Categories=MATE;GTK;System;Settings;
+Categories=GTK;System;Settings;
 X-MATE-Bugzilla-Bugzilla=MATE
 X-MATE-Bugzilla-Product=mate-system-tools
 X-MATE-Bugzilla-Component=runlevel-admin
 X-MATE-Bugzilla-Version=@VERSION@
-OnlyShowIn=MATE;XFCE;
+OnlyShowIn=MATE;
 StartupNotify=true
