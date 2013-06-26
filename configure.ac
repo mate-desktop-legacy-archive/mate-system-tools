@@ -2,7 +2,7 @@ AC_PREREQ(2.60)
 AC_INIT(mate-system-tools, 1.6.0, http://wwww.mate-desktop.org/)
 AC_CONFIG_SRCDIR(src/common/gst-tool.c)
 AC_CONFIG_MACRO_DIR([m4])
-AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
+AM_INIT_AUTOMAKE
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 
 IT_PROG_INTLTOOL([0.35.0])

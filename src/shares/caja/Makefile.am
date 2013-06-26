@@ -1,4 +1,4 @@
-INCLUDES = $(GST_TOOL_CFLAGS) \
+AM_CPPFLAGS = $(GST_TOOL_CFLAGS) \
 	$(CAJA_CFLAGS) \
 	-DDATADIR=\"$(datadir)\" \
 	-DMATELOCALEDIR=\""$(datadir)/locale"\" \

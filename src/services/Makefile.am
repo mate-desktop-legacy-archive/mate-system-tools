@@ -11,7 +11,7 @@ toolname = mate-services
 bin_PROGRAMS = mate-services-admin
 
 ## SUBDIRS =
-INCLUDES += $(GST_TOOL_CFLAGS)
+AM_CPPFLAGS += $(GST_TOOL_CFLAGS)
 CLEANFILES = $(GST_TOOL_CLEANFILES)
 EXTRA_DIST = $(GST_TOOL_EXTRA_DIST)
 
