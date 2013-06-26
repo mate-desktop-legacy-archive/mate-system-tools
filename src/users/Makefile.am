@@ -11,7 +11,7 @@ toolname = mate-users
 bin_PROGRAMS = mate-users-admin
 
 SUBDIRS = 
-INCLUDES += $(GST_TOOL_CFLAGS)
+AM_CPPFLAGS += $(GST_TOOL_CFLAGS)
 
 mate_users_admin_LDADD = $(GST_TOOL_LIBS) 
 mate_users_admin_DEPENDENCIES = $(GST_TOOL_DEPENDENCIES) 

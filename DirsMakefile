@@ -6,7 +6,7 @@ pixmapsdir = $(pkgdatadir)/pixmaps
 interfacesdir = $(pkgdatadir)/ui
 confdir = $(sysconfdir)/mate-system-tools
 
-INCLUDES = -DPIXMAPS_DIR=\""$(pixmapsdir)"\" \
+AM_CPPFLAGS = -DPIXMAPS_DIR=\""$(pixmapsdir)"\" \
 	-DINTERFACES_DIR=\""$(interfacesdir)"\" \
 	-DFRONTEND_DIR=\""$(frontenddir)"\" \
 	-DDESKTOP_DATA_DIR=\""$(desktopdatadir)"\" \
