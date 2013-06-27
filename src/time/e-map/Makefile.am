@@ -1,6 +1,6 @@
 include ../../../DirsMakefile
 
-INCLUDES += \
+AM_CPPFLAGS += \
 	$(GST_TOOL_CFLAGS)
 
 LDADD = -lm $(GST_TOOL_LIBS)
