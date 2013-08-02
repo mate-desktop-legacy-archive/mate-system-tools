@@ -1,12 +1,10 @@
-include $(top_srcdir)/mate-doc-utils.make
-dist-hook: doc-dist-hook
+@YELP_HELP_RULES@
 
-DOC_MODULE = mate-network-admin
-DOC_ENTITIES = legal.xml
-DOC_INCLUDES =
-DOC_FIGURES = figures/network-tool.png
+HELP_ID = mate-network-admin
+HELP_FILES = index.docbook legal.xml
+HELP_MEDIA = figures/network-tool.png
 
-DOC_LINGUAS = ca cs de el en_GB es fr oc sv it zh_CN
+HELP_LINGUAS = ca cs de el en_GB es fr oc sv it zh_CN
 
 
 -include $(top_srcdir)/git.mk

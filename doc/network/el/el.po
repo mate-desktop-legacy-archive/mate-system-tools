@@ -31,8 +31,8 @@ msgid "Carlos Garnacho Parro"
 msgstr "Carlos Garnacho Parro"
 
 #: C/network-admin.xml:2(para)
-msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
-msgstr "Χορηγείται άδεια αντιγραφής, διανομής και/ή τροποποίησης του παρόντος εγγράφου υπό τους όρους της έκδοσης 1.1 της Ελεύθερης Άδειας Τεκμηρίωσης GNU (GFDL), ή οποιασδήποτε μεταγενέστερης έκδοσής της από το Ίδρυμα Ελεύθερου Λογισμικού (FSF), χωρίς αμετάβλητα τμήματα, κείμενα εξώφυλλου και κείμενα οπισθόφυλλου. Αντίγραφο της άδειας GFDL είναι διαθέσιμο στον ακόλουθο <ulink type=\"help\" url=\"ghelp:fdl\">σύνδεσμο</ulink>, ή στο αρχείο COPYING-DOCS που διανέμεται μαζί με το παρόν εγχειρίδιο."
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgstr "Χορηγείται άδεια αντιγραφής, διανομής και/ή τροποποίησης του παρόντος εγγράφου υπό τους όρους της έκδοσης 1.1 της Ελεύθερης Άδειας Τεκμηρίωσης GNU (GFDL), ή οποιασδήποτε μεταγενέστερης έκδοσής της από το Ίδρυμα Ελεύθερου Λογισμικού (FSF), χωρίς αμετάβλητα τμήματα, κείμενα εξώφυλλου και κείμενα οπισθόφυλλου. Αντίγραφο της άδειας GFDL είναι διαθέσιμο στον ακόλουθο <ulink type=\"help\" url=\"help:fdl\">σύνδεσμο</ulink>, ή στο αρχείο COPYING-DOCS που διανέμεται μαζί με το παρόν εγχειρίδιο."
 
 #: C/network-admin.xml:12(para)
 msgid "This manual is part of a collection of MATE manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
@@ -94,8 +94,8 @@ msgid "Feedback"
 msgstr "Ανάδραση"
 
 #: C/network-admin.xml:86(para)
-msgid "To report a bug or make a suggestion regarding the Network Administration Tool or this manual, follow the directions in the <ulink url=\"ghelp:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
-msgstr "Για να αναφέρετε ένα πρόβλημα ή να κάνετε μια πρόταση σχετικά το Εργαλείο Διαχείρισης Δικτύου ή αυτό το εγχειρίδιο, ακολουθήστε τις οδηγίες στο <ulink url=\"ghelp:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>. "
+msgid "To report a bug or make a suggestion regarding the Network Administration Tool or this manual, follow the directions in the <ulink url=\"help:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
+msgstr "Για να αναφέρετε ένα πρόβλημα ή να κάνετε μια πρόταση σχετικά το Εργαλείο Διαχείρισης Δικτύου ή αυτό το εγχειρίδιο, ακολουθήστε τις οδηγίες στο <ulink url=\"help:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>. "
 
 #: C/network-admin.xml:89(para)
 msgid "The Network Administration Tool allows you to specify the way your system connects to other computers and to internet."

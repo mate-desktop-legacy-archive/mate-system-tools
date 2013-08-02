@@ -45,8 +45,8 @@ msgid "Carlos Garnacho Parro"
 msgstr "Carlos Garnacho Parro"
 
 #: C/services-admin.xml:2(para)
-msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
-msgstr "Udziela się zezwolenia do kopiowania rozpowszechniania i/lub modyfikację tego dokumentu zgodnie z zasadami Licencji GNU Wolnej Dokumentacji w wersji 1.1 lub dowolnej późniejszej opublikowanej przez Fundację Wolnego Oprogramowania (Free Software Foundation); wraz z zawartymi Sekcjami Niezmiennymi, wraz z Tekstem na Przedniej Okładce i z Tekstem na Tylnej Okładce. Kopia licencji dostępna jest pod adresem <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> oraz w pliku COPYING-DOCS dystrybuowanym z niniejszym podręcznikiem."
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgstr "Udziela się zezwolenia do kopiowania rozpowszechniania i/lub modyfikację tego dokumentu zgodnie z zasadami Licencji GNU Wolnej Dokumentacji w wersji 1.1 lub dowolnej późniejszej opublikowanej przez Fundację Wolnego Oprogramowania (Free Software Foundation); wraz z zawartymi Sekcjami Niezmiennymi, wraz z Tekstem na Przedniej Okładce i z Tekstem na Tylnej Okładce. Kopia licencji dostępna jest pod adresem <ulink type=\"help\" url=\"help:fdl\">link</ulink> oraz w pliku COPYING-DOCS dystrybuowanym z niniejszym podręcznikiem."
 
 #: C/services-admin.xml:12(para)
 msgid "This manual is part of a collection of MATE manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
@@ -108,8 +108,8 @@ msgid "Feedback"
 msgstr "Opinie"
 
 #: C/services-admin.xml:86(para)
-msgid "To report a bug or make a suggestion regarding the Services Administration Tool or this manual, follow the directions in the <ulink url=\"ghelp:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
-msgstr "Aby zgłosić błąd lub komentarz dotyczący narzędzia Ustawienia usług lub niniejszego podręcznika, należy postępować zgodnie z instrukcjami na stronie <ulink type=\"help\" url=\"ghelp:mate-feedback\">MATE Feedback</ulink>."
+msgid "To report a bug or make a suggestion regarding the Services Administration Tool or this manual, follow the directions in the <ulink url=\"help:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
+msgstr "Aby zgłosić błąd lub komentarz dotyczący narzędzia Ustawienia usług lub niniejszego podręcznika, należy postępować zgodnie z instrukcjami na stronie <ulink type=\"help\" url=\"help:mate-feedback\">MATE Feedback</ulink>."
 
 #: C/services-admin.xml:89(para)
 msgid "The Services Administration Tool allows you to specify which services will be started during the system boot process."

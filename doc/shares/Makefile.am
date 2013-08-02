@@ -1,10 +1,8 @@
-include $(top_srcdir)/mate-doc-utils.make
-dist-hook: doc-dist-hook
+@YELP_HELP_RULES@
 
-DOC_MODULE = mate-shares-admin
-DOC_ENTITIES = legal.xml
-DOC_INCLUDES = 
-DOC_FIGURES = figures/shares-tool.png
-DOC_LINGUAS = ca cs de el en_GB fr gl oc pt_BR sv es it zh_CN
+HELP_ID = mate-shares-admin
+HELP_FILES = index.docbook legal.xml
+HELP_MEDIA = figures/shares-tool.png
+HELP_LINGUAS = ca cs de el en_GB fr gl oc pt_BR sv es it zh_CN
 
 -include $(top_srcdir)/git.mk

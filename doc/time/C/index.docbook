@@ -83,7 +83,7 @@
 
     <legalnotice> 
 	 <title>Feedback</title> 
-	 <para> To report a bug or make a suggestion regarding the &tool; or this manual, follow the directions in the <ulink url="ghelp:mate-feedback" type="help">MATE Feedback Page</ulink>. </para>
+	 <para> To report a bug or make a suggestion regarding the &tool; or this manual, follow the directions in the <ulink url="help:mate-feedback" type="help">MATE Feedback Page</ulink>. </para>
     </legalnotice>
     <abstract role="description">
       <para>The &tool; allows you to set the time, date and timezone of your system, as well as setting any time server to synchronize your local time server.</para>
