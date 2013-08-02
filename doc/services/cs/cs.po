@@ -38,8 +38,8 @@ msgid "Carlos Garnacho Parro"
 msgstr "Carlos Garnacho Parro"
 
 #: C/services-admin.xml:2(para)
-msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
-msgstr "Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU Free Documentation License, verze 1.1 nebo jakékoli další verze vydané nadací Free Software Foundation; bez neměnných oddílů, bez textů předních desek a bez textů zadních desek. Kopie této licence je zahrnuta v oddílu jménem <ulink type=\"help\" url=\"ghelp:fdl\">GNU Free Documentation License</ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou."
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgstr "Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU Free Documentation License, verze 1.1 nebo jakékoli další verze vydané nadací Free Software Foundation; bez neměnných oddílů, bez textů předních desek a bez textů zadních desek. Kopie této licence je zahrnuta v oddílu jménem <ulink type=\"help\" url=\"help:fdl\">GNU Free Documentation License</ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou."
 
 #: C/services-admin.xml:12(para)
 msgid "This manual is part of a collection of MATE manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
@@ -101,8 +101,8 @@ msgid "Feedback"
 msgstr "Ohlasy"
 
 #: C/services-admin.xml:86(para)
-msgid "To report a bug or make a suggestion regarding the Services Administration Tool or this manual, follow the directions in the <ulink url=\"ghelp:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
-msgstr "Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k Nástroji pro správu služeb nebo této příručce, postupujte dle instrukcí na stránce <ulink url=\"ghelp:mate-feedback\" type=\"help\">Stránka s ohlasy na MATE</ulink>."
+msgid "To report a bug or make a suggestion regarding the Services Administration Tool or this manual, follow the directions in the <ulink url=\"help:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
+msgstr "Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k Nástroji pro správu služeb nebo této příručce, postupujte dle instrukcí na stránce <ulink url=\"help:mate-feedback\" type=\"help\">Stránka s ohlasy na MATE</ulink>."
 
 #: C/services-admin.xml:89(para)
 msgid "The Services Administration Tool allows you to specify which services will be started during the system boot process."

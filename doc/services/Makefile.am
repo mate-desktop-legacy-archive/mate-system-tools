@@ -1,13 +1,11 @@
-include $(top_srcdir)/mate-doc-utils.make
-dist-hook: doc-dist-hook
+@YELP_HELP_RULES@
 
-DOC_MODULE = mate-services-admin
-DOC_ENTITIES = legal.xml
-DOC_INCLUDES = 
-DOC_FIGURES = \
+HELP_ID = mate-services-admin
+HELP_FILES = index.docbook legal.xml
+HELP_MEDIA = \
 	figures/services-tool.png
 
-DOC_LINGUAS = ca cs de el en_GB es fr gl oc pl pt_BR sv it zh_CN
+HELP_LINGUAS = ca cs de el en_GB es fr gl oc pl pt_BR sv it zh_CN
 
 # this isn't still ported to mate-doc-utils
 SUBDIRS = nl 
