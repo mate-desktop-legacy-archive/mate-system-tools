@@ -13,7 +13,12 @@ PKG_NAME="mate-system-tools"
 }
 
 which mate-autogen || {
-    echo "You need to install mate-common from the MATE CVS"
+    echo "You need to install mate-common"
+    exit 1
+}
+
+which yelp-build || {
+    echo "You need to install yelp-tools"
     exit 1
 }
 

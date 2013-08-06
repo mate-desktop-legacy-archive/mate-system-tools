@@ -66,7 +66,7 @@ msgid ""
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
 "later version published by the Free Software Foundation with no Invariant "
 "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
 
@@ -164,12 +164,12 @@ msgstr "Comentarios"
 #: C/time-admin.xml:86(para)
 msgid ""
 "To report a bug or make a suggestion regarding the Time Administration Tool "
-"or this manual, follow the directions in the <ulink url=\"ghelp:mate-"
+"or this manual, follow the directions in the <ulink url=\"help:mate-"
 "feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
 "Para informar dun erro ou facer algunha suxestión respecto da ferramenta de "
 "administración da hora ou este manual, siga as indicacións na <ulink url="
-"\"ghelp:mate-feedback\" type=\"help\">páxina de comentarios de MATE</"
+"\"help:mate-feedback\" type=\"help\">páxina de comentarios de MATE</"
 "ulink>."
 
 #: C/time-admin.xml:89(para)

@@ -10,7 +10,6 @@ EXTRA_DIST = \
 	intltool-update.in \
 	omf.make \
 	xmldocs.make \
-	mate-doc-utils.make \
 	mate-system-tools.pc.in \
 	org.mate.system-tools.gschema.xml.in
 
@@ -28,7 +27,6 @@ DISTCLEANFILES = \
 	backends/intltool-extract \
 	backends/intltool-merge \
 	backends/intltool-update \
-	mate-doc-utils.make \
 	mate-system-tools.pc \
 	org.mate.system-tools.gschema.xml
 

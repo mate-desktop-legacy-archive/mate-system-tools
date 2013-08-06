@@ -402,9 +402,9 @@ gst_tool_show_help (GstTool *tool, gchar *section)
 	}
 
 	if (section) {
-		command = g_strconcat ("mate-help ghelp://", uri, "?", section, NULL);
+		command = g_strconcat ("mate-help help://", uri, "?", section, NULL);
 	} else {
-		command = g_strconcat ("mate-help ghelp://", uri, NULL);
+		command = g_strconcat ("mate-help help://", uri, NULL);
 	}
 
 	screen = gtk_window_get_screen (GTK_WINDOW (tool->main_dialog));
