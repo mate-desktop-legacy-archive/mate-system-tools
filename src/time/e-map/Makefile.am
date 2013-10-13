@@ -20,13 +20,13 @@ e-map-marshal.c: e-map-marshal.list e-map-marshal.h
 
 $(e_map_la_OBJECTS): e-map-marshal.h
 
-noinst_LIBRARIES = libemap.a
+noinst_LTLIBRARIES = libemap.la
 
-#libemap_a_CFLAGS =
+#libemap_la_CFLAGS =
 
 BUILT_SOURCES= e-map-marshal.c e-map-marshal.h
 
-libemap_a_SOURCES = \
+libemap_la_SOURCES = \
 	e-map.c e-map.h \
 	$(BUILT_SOURCES)
 

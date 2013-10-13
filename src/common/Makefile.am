@@ -1,6 +1,6 @@
 include $(top_srcdir)/DirsMakefile
 
-noinst_LIBRARIES = libsetuptool.a
+noinst_LTLIBRARIES = libsetuptool.la
 
 AM_CPPFLAGS += \
 	$(GST_CFLAGS) \
@@ -10,7 +10,7 @@ AM_CPPFLAGS += \
 	-DPREFIX=\""$(prefix)"\" \
 	-DMATELOCALEDIR=\""$(datadir)/locale"\"
 
-libsetuptool_a_SOURCES = \
+libsetuptool_la_SOURCES = \
 	gst-dialog.c \
 	gst-dialog.h \
 	gst-tool.c \
