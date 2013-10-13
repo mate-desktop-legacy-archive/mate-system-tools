@@ -79,6 +79,7 @@ dnl =====================================================
 
 PKG_CHECK_MODULES(GST_DEPENDS,[
 			   gtk+-2.0 >= $GTK_REQUIRED
+               atk
 			   gmodule-export-2.0
 			   gio-2.0 >= $GLIB_REQUIRED
 			   pango
