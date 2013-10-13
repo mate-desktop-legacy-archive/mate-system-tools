@@ -237,12 +237,12 @@ GST_DEPRECATED_FLAGS=""
 GST_LIBS="$GST_DEPENDS_LIBS $POLKIT_GTK_MATE_LIBS"
 GST_CFLAGS="$GST_DEPENDS_CFLAGS $POLKIT_GTK_MATE_CFLAGS $GST_DEPRECATED_FLAGS"
 
-GST_TOOL_LIBS="\$(top_builddir)/src/common/libsetuptool.a $GST_LIBS"
+GST_TOOL_LIBS="\$(top_builddir)/src/common/libsetuptool.la $GST_LIBS"
 GST_TOOL_CFLAGS="-I\$(top_srcdir)/src/common $GST_CFLAGS"
 
 GST_TOOL_CLEANFILES="\$(desktop) \$(desktop).in"
 GST_TOOL_EXTRA_DIST="\$(toolpixmaps) \$(desktop).in.in"
-GST_TOOL_DEPENDENCIES="\$(top_builddir)/src/common/libsetuptool.a"
+GST_TOOL_DEPENDENCIES="\$(top_builddir)/src/common/libsetuptool.la"
 
 AC_SUBST(GST_LIBS)
 AC_SUBST(GST_CFLAGS)
