@@ -32,6 +32,12 @@ About the MATE System Tools
   available on your system, and you can still edit those files by hand or
   with other configuration tools without conflicts or data loss.
 
+Distribution specific changes
+-----------------------------
+
+The package maintainer will need to modify the groups that desktop users
+and administrators are added to. Please patch `src/users/user-profiles.conf.in`
+so that the groups lists are compatible with your target distribution.
 
 ----------
 
