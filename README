@@ -32,6 +32,11 @@ About the MATE System Tools
   available on your system, and you can still edit those files by hand or
   with other configuration tools without conflicts or data loss.
 
+- For Distributors:
+
+  Distributions may want to modify src/users/user-profiles.conf.in and add
+  groups that are specific to that distribution. For example add the sudo
+  group for Administrators on Ubuntu based distributions.
 
 ----------
 
