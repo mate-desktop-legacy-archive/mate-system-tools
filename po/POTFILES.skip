@@ -6,11 +6,11 @@ interfaces/services.glade
 interfaces/shares.glade
 interfaces/time.glade
 interfaces/users.glade
-src/network/network.desktop.in
-src/services/services.desktop.in
-src/shares/shares.desktop.in
-src/time/time.desktop.in
-src/users/users.desktop.in
+src/network/mate-network.desktop.in
+src/services/mate-services.desktop.in
+src/shares/mate-shares.desktop.in
+src/time/mate-time.desktop.in
+src/users/mate-users.desktop.in
 interfaces/disks.glade.in
 src/disks/callbacks.c
 src/disks/disks-cdrom-disc.c
