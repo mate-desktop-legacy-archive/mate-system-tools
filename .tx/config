@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+ 
+[MATE.mate-system-tools]
+file_filter = po/<lang>.po
+source_file = po/mate-system-tools.pot
+source_lang = en
