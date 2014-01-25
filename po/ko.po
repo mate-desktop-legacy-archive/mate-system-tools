@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Changwoo Ryu <cwryu@debian.org>, 2006, 2007, 2008, 2009, 2010.
+# kentarch <bkrhlim@aol.com>, 2013
+# Changwoo Ryu <cwryu@debian.org>, 2006, 2007, 2008, 2009, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:50+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-08-19 23:24+0000\n"
+"Last-Translator: kentarch <bkrhlim@aol.com>\n"
+"Language-Team: Korean (http://www.transifex.com/projects/p/MATE/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ko\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
@@ -418,7 +419,7 @@ msgstr "계정 종류(_T):"
 
 #: ../interfaces/users.ui.h:3
 msgid "_Change..."
-msgstr ""
+msgstr "바꾸기(_C)..."
 
 #: ../interfaces/users.ui.h:4
 msgid "_Password:"
@@ -458,7 +459,7 @@ msgstr "그룹 구성원"
 
 #: ../interfaces/users.ui.h:13
 msgid "Profile Settings"
-msgstr ""
+msgstr "프로필 설정"
 
 #: ../interfaces/users.ui.h:14
 msgid "Profile _name:"
@@ -542,11 +543,11 @@ msgstr "그룹 설정"
 
 #: ../interfaces/users.ui.h:35
 msgid "Groups available on the system:"
-msgstr ""
+msgstr "시스템에서 사용 가능한 그룹들 "
 
 #: ../interfaces/users.ui.h:36
 msgid "Change User Name"
-msgstr ""
+msgstr "사용자 이름 "
 
 #: ../interfaces/users.ui.h:37
 msgid "Full _Name:"
@@ -634,17 +635,17 @@ msgid ""
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
+msgstr "사용자 이름은 다음을 사용해 만들어야 합니다.\n  ➣ 알파벳 소문자\n  ➣ 숫자\n  ➣ \".\", \"-\", \"_\" 문자"
 
 #: ../interfaces/users.ui.h:62
 msgid ""
 "A user with this name already exists. Please choose a different name for the"
 " new user."
-msgstr ""
+msgstr "이 이름이 이미 존재합니다. 다른 이름을 고르세요."
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
-msgstr ""
+msgstr "사용자 이름은 영문자로 시작해야 합니다!"
 
 #: ../interfaces/users.ui.h:64
 msgid "_Encrypt home folder to protect sensitive data"
@@ -679,7 +680,7 @@ msgstr "집 전화(_H):"
 
 #: ../interfaces/users.ui.h:71
 msgid "Contact Information"
-msgstr ""
+msgstr "연락 방법"
 
 #: ../interfaces/users.ui.h:72
 msgid "User Privileges"
@@ -731,21 +732,21 @@ msgstr "고급"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
-msgstr ""
+msgstr "시스템 사용자 보기"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
 "Whether the users-admin tool should show system users in the users list."
-msgstr ""
+msgstr "사용자-관리 도구의 사용자 목록에서 시스템 사용자 보기 여부"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:3
 msgid "Show root user"
-msgstr ""
+msgstr "루트 사용자 보기"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
 "Whether the users-admin tool should show the root user in the users list."
-msgstr ""
+msgstr "사용자-관리 도구의 사용자 목록에서 루트 사용자 보기 여부 "
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -924,29 +925,29 @@ msgstr "로밍 모드 사용"
 #: ../src/network/ifaces-list.c:289
 #, c-format
 msgid "<b>Essid:</b> %s "
-msgstr ""
+msgstr "<b>Essid:</b> %s "
 
 #: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
 #: ../src/network/ifaces-list.c:306
 msgid "Address:"
-msgstr ""
+msgstr "주소:"
 
 #: ../src/network/ifaces-list.c:298
 msgid "Subnet mask:"
-msgstr ""
+msgstr "서브넷 마스크:"
 
 #: ../src/network/ifaces-list.c:308
 msgid "Remote address:"
-msgstr ""
+msgstr "원격 주소:"
 
 #: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
 #: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
 msgid "Type:"
-msgstr ""
+msgstr "방식:"
 
 #: ../src/network/ifaces-list.c:321
 msgid "Phone number:"
-msgstr ""
+msgstr "전화 번호:"
 
 #: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
@@ -1576,7 +1577,7 @@ msgstr "폴더를 공유하려면 Samba나 NFS를 설치해야 합니다."
 
 #: ../src/time/e-map/e-map.c:620
 msgid "World Map"
-msgstr ""
+msgstr "세계 "
 
 #: ../src/time/e-map/e-map.c:622
 msgid ""

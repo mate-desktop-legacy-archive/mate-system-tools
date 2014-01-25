@@ -3,31 +3,32 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Antón Méixome <meixome@certima.net>, 2010.
-# Antón Méixome <meixome@mancomun.org>, 2009.
-# Fran Dieguez <frandieguez@ubuntu.com>, 2010.
-# Fran Diéguez <frandieguez@ubuntu.com>, 2010.
-# Ignacio Casal Quinteiro <icq@svn.mate.org>, 2007, 2008.
-# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
-# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
-# Xoán Pedracova Varela <xpedra@gts.tsc.uvigo.es>, 2000.
+# Antón Méixome <meixome@certima.net>, 2010
+# Antón Méixome <meixome@mancomun.org>, 2009
+# Fran Diéguez <frandieguez@ubuntu.com>, 2010
+# Fran Diéguez <frandieguez@ubuntu.com>, 2010
+# Ignacio Casal Quinteiro <icq@svn.mate.org>, 2007-2008
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005-2006
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009
+# mbouzada <mbouzada@gmail.com>, 2013
+# Xoán Pedracova Varela <xpedra@gts.tsc.uvigo.es>, 2000
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:49+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-04-04 06:38+0000\n"
+"Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/projects/p/MATE/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: gl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
-msgstr "Off"
+msgstr "Desconectado"
 
 #: ../interfaces/network.ui.h:2
 msgid "Low"
@@ -51,7 +52,7 @@ msgstr "Pulsacións"
 
 #: ../interfaces/network.ui.h:7
 msgid "Plain (ASCII)"
-msgstr "Plano (ADCII)"
+msgstr "Simple (ASCII)"
 
 #: ../interfaces/network.ui.h:8
 msgid "Hexadecimal"
@@ -75,7 +76,7 @@ msgstr "Conexións"
 
 #: ../interfaces/network.ui.h:13
 msgid "_Host name:"
-msgstr "Nome do _host:"
+msgstr "Nome da _máquina/servidor:"
 
 #: ../interfaces/network.ui.h:14
 msgid "D_omain name:"
@@ -83,7 +84,7 @@ msgstr "Nome do d_ominio:"
 
 #: ../interfaces/network.ui.h:15
 msgid "Host Settings"
-msgstr "Configuracións de host"
+msgstr "Configuracións da máquina/servidor"
 
 #: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
 msgid "General"
@@ -103,7 +104,7 @@ msgstr "DNS"
 
 #: ../interfaces/network.ui.h:20
 msgid "Hosts"
-msgstr "Servidores"
+msgstr "Máquinas/servidores"
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
@@ -199,7 +200,7 @@ msgstr "Porto do _módem:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
-msgstr "Tipo de _marcación:"
+msgstr "Tipo de ma_rcación:"
 
 #. TRANSLATORS: Volume as in loudness
 #: ../interfaces/network.ui.h:46
@@ -216,7 +217,7 @@ msgstr "Interface ethernet:"
 
 #: ../interfaces/network.ui.h:49
 msgid "Modem Settings"
-msgstr "Configuracións de módem"
+msgstr "Axustes do módem"
 
 #: ../interfaces/network.ui.h:50
 msgid "Modem"
@@ -224,7 +225,7 @@ msgstr "Módem"
 
 #: ../interfaces/network.ui.h:51
 msgid "_Set modem as default route to internet"
-msgstr "E_stabelecer o módem como camiño predefinido para Internet"
+msgstr "E_stabelecer o módem como encamiñador predeterminado para Internet"
 
 #: ../interfaces/network.ui.h:52
 msgid "Use the Internet service provider nameservers"
@@ -240,7 +241,7 @@ msgstr "Opcións"
 
 #: ../interfaces/network.ui.h:55
 msgid "Host Alias Properties"
-msgstr "Propiedades do alias de servidor"
+msgstr "Propiedades do alias da máquina/servidor"
 
 #: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
 msgid "IP address:"
@@ -260,7 +261,7 @@ msgstr "Configuración avanzada:"
 
 #: ../interfaces/shares.ui.h:1
 msgid "_Path:"
-msgstr "_Camiño:"
+msgstr "_Ruta:"
 
 #: ../interfaces/shares.ui.h:2
 msgid "Share through:"
@@ -288,7 +289,7 @@ msgstr "Propiedades de compartición"
 
 #: ../interfaces/shares.ui.h:8
 msgid "Allowed Hosts"
-msgstr "Hosts permitidos"
+msgstr "Máquinas/servidores permitidos"
 
 #: ../interfaces/shares.ui.h:9
 msgid "Share"
@@ -296,15 +297,15 @@ msgstr "Compartir"
 
 #: ../interfaces/shares.ui.h:10
 msgid "Add allowed hosts"
-msgstr "Engadir os hosts permitidos"
+msgstr "Engadir as máquinas/servidores permitidos"
 
 #: ../interfaces/shares.ui.h:11
 msgid "Allowed hosts:"
-msgstr "Hosts permitidos:"
+msgstr "Máquinas/servidores permitidos:"
 
 #: ../interfaces/shares.ui.h:12
 msgid "Host name:"
-msgstr "Nome do host:"
+msgstr "Nome da máquina/servidor:"
 
 #: ../interfaces/shares.ui.h:14
 msgid "Network:"
@@ -320,7 +321,7 @@ msgstr "Só de lectura"
 
 #: ../interfaces/shares.ui.h:17
 msgid "Hosts Settings"
-msgstr "Configuracións dos hosts"
+msgstr "Configuracións das máquinas/servidores"
 
 #: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
@@ -341,7 +342,7 @@ msgstr "_Servidor WINS:"
 
 #: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
-msgstr "Compartir xanelas"
+msgstr "Compartida en Windows"
 
 #: ../interfaces/shares.ui.h:23
 msgid "General Properties"
@@ -477,7 +478,7 @@ msgstr "_Comentarios"
 
 #: ../interfaces/users.ui.h:16
 msgid "System Defaults"
-msgstr "Configuracións predefinidas do sistema"
+msgstr "Configuracións predeterminadas do sistema"
 
 #: ../interfaces/users.ui.h:17
 msgid "_Home directory:"
@@ -485,19 +486,19 @@ msgstr "Cartafol _persoal:"
 
 #: ../interfaces/users.ui.h:18
 msgid "Default _shell:"
-msgstr "_Intérprete de ordes predefinido:"
+msgstr "_Intérprete de ordes predeterminado:"
 
 #: ../interfaces/users.ui.h:19
 msgid "Default _group:"
-msgstr "_Grupo predefinido:"
+msgstr "_Grupo predeterminado:"
 
 #: ../interfaces/users.ui.h:20
 msgid "Password Settings"
-msgstr "Configuracións de contrasinais"
+msgstr "Configuración de contrasinais"
 
 #: ../interfaces/users.ui.h:21
 msgid "Number of days that a password may be used:"
-msgstr "Número de días que se pode usar un contrasinal:"
+msgstr "Número de días nos que se pode usar un contrasinal:"
 
 #: ../interfaces/users.ui.h:22
 msgid "Minimum days allowed between password changes:"
@@ -505,11 +506,11 @@ msgstr "Número mínimo de días permitidos entre os cambios de contrasinal:"
 
 #: ../interfaces/users.ui.h:23
 msgid "Days between warning and password expiration:"
-msgstr "Número de días entre o aviso e a expiración do contrasinal:"
+msgstr "Número de días entre o aviso e a caducidade do contrasinal:"
 
 #: ../interfaces/users.ui.h:24
 msgid "Assign a random password by default"
-msgstr "Asignar un contrasinal aleatorio predefinido"
+msgstr "Asignar un contrasinal ao chou como predeterminado"
 
 #: ../interfaces/users.ui.h:25
 msgid "Automatic UID/GID"
@@ -641,7 +642,7 @@ msgid ""
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr "O nome de usuario debe estar formado por:\n  ➣ letras en minúsculas do alfabeto inglés\n  ➣ díxitos\n  ➣ calquera dos caractéres \".\", \"-\" e \"_\""
+msgstr "O nome de usuario debe estar formado por:\n  ➣ letras en minúsculas do alfabeto inglés\n  ➣ díxitos\n  ➣ calquera dos caractéres «.», «-» e «_»"
 
 #: ../interfaces/users.ui.h:62
 msgid ""
@@ -686,7 +687,7 @@ msgstr "Teléfono _persoal:"
 
 #: ../interfaces/users.ui.h:71
 msgid "Contact Information"
-msgstr "Información do contacto"
+msgstr "Información de contacto"
 
 #: ../interfaces/users.ui.h:72
 msgid "User Privileges"
@@ -710,7 +711,7 @@ msgstr "ID do usuario:"
 
 #: ../interfaces/users.ui.h:77
 msgid "You can't change user ID while the user is logged in."
-msgstr "Non ten permiso para cambiar o ID do usuario mentres o usuario ten a sesión iniciada."
+msgstr "Non é posíbel cambiar o ID do usuario mentres o usuario ten a sesión iniciada."
 
 #: ../interfaces/users.ui.h:78
 msgid "Disable _account"
@@ -726,7 +727,7 @@ msgstr "Número mí_nimo de días entre cambios de contrasinal:"
 
 #: ../interfaces/users.ui.h:81
 msgid "Ma_ximum days a password may be used:"
-msgstr "Número má_ximo de días que se pode usar un contrasinal:"
+msgstr "Número má_ximo de días nos que se pode usar un contrasinal:"
 
 #: ../interfaces/users.ui.h:82
 msgid "_Days between warning and password expiration:"
@@ -738,21 +739,21 @@ msgstr "Avanzado"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
-msgstr "Mostrar os usuarios do sistema"
+msgstr "Amosar os usuarios do sistema"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
 "Whether the users-admin tool should show system users in the users list."
-msgstr "Indica se a ferramenta de administración de usuarios debe mostrar os usuarios de sistema na lista de usuarios."
+msgstr "Indica se a ferramenta de administración de usuarios debe amosar os usuarios de sistema na lista de usuarios."
 
 #: ../org.mate.system-tools.gschema.xml.in.h:3
 msgid "Show root user"
-msgstr "Mostrar o superusuario"
+msgstr "Amosar o superusuario"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
 "Whether the users-admin tool should show the root user in the users list."
-msgstr "Indica se a ferramenta de administración de usuarios debe mostrar o usuario root na lista de usuarios."
+msgstr "Indica se a ferramenta de administración de usuarios debe amosra o usuario administrador (root) na lista de usuarios."
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -799,11 +800,11 @@ msgstr "Produciuse un erro descoñecido."
 
 #: ../src/common/gst-tool.c:422
 msgid "Could not display help"
-msgstr "Non se pode mostrar a axuda"
+msgstr "Non é posíbel amosar a axuda"
 
 #: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
-msgstr "Pode que a configuración do sistema cambiara."
+msgstr "É probábel que a configuración do sistema cambiara."
 
 #: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
@@ -814,7 +815,7 @@ msgstr "Quere actualizar o contido? Isto fará que se perda calquera modificaci�
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr "Produciuse un erro ao verificar as autorizacións: %s\nDebería informar isto como un erro."
+msgstr "Produciuse un erro ao comprobar as autorizacións: %s\nDebería informar disto como un fallo."
 
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
@@ -842,11 +843,11 @@ msgstr "Non foi posíbel detectar automaticamente o dispositivo de módem"
 msgid ""
 "Check that the device is not busy and that is correctly attached to the "
 "computer."
-msgstr "Verifique que o dispositivo non está ocupado e que está conectado correctamente ao computador."
+msgstr "Comprobe que o dispositivo non está ocupado e que está conectado correctamente ao computador."
 
 #: ../src/network/callbacks.c:523
 msgid "The host name has changed"
-msgstr "Cambiou o nome do host"
+msgstr "Cambiou o nome da máquina/servidor"
 
 #: ../src/network/callbacks.c:526
 msgid ""
@@ -856,7 +857,7 @@ msgstr "Isto impediralle iniciar aplicativos novos e polo tanto terá que inicia
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
-msgstr "Cambiar o nome do _host"
+msgstr "Cambiar o nome da _máquina/servidor"
 
 #: ../src/network/connection.c:40
 msgid "Automatic configuration (DHCP)"
@@ -1008,7 +1009,7 @@ msgstr "A interface non existe"
 msgid ""
 "Check that it is correctly typed and that it is correctly supported by your "
 "system."
-msgstr "Verifique que está escrita correctamente e que é compatíbel co seu sistema."
+msgstr "Comprobe que está escrita correctamente e que é compatíbel co seu sistema."
 
 #: ../src/network/main.c:183
 msgid "Configure a network interface"
@@ -1163,7 +1164,7 @@ msgstr "Analiza o correo entrante buscando virus"
 #. GST_ROLE_ANTIVIRUS
 #: ../src/services/service.c:47
 msgid "Firewall"
-msgstr "Devasa (firewall)"
+msgstr "Devasa"
 
 #: ../src/services/service.c:47
 msgid "Blocks undesired network access to your computer"
@@ -1335,7 +1336,7 @@ msgstr "Cliente de disco"
 #. GST_ROLE_DISK_CLIENT
 #: ../src/services/service.c:80
 msgid "Route server"
-msgstr "Servidor de camiño"
+msgstr "Servidor de encamiñado"
 
 #. GST_ROLE_ROUTE_SERVER
 #: ../src/services/service.c:81
@@ -1512,11 +1513,11 @@ msgstr "Outros equipos na súa rede deixarán de ver isto."
 
 #: ../src/shares/main.c:103
 msgid "Add a shared path, modifies it if it already exists"
-msgstr "Engadir un camiño compartido; modifícao se xa existe"
+msgstr "Engadir unha ruta compartida; modifícaa se xa existe"
 
 #: ../src/shares/main.c:103
 msgid "PATH"
-msgstr "CAMIÑO"
+msgstr "RUTA"
 
 #: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
@@ -1532,7 +1533,7 @@ msgstr "Host/rede permitidos"
 
 #: ../src/shares/share-nfs-add-hosts.c:117
 msgid "Specify hostname"
-msgstr "Especifique o nome do host"
+msgstr "Especifique o nome da máquina/servidor"
 
 #: ../src/shares/share-nfs-add-hosts.c:124
 msgid "Specify IP address"
@@ -1896,7 +1897,7 @@ msgstr "A confirmación do contrasinal non é correcta"
 
 #: ../src/users/user-password.c:102
 msgid "Check that you have provided the same password in both text fields."
-msgstr "Verifique que proporcionou o mesmo contrasinal nos dous campos de texto."
+msgstr "Comprobe que proporcionou o mesmo contrasinal nos dous campos de texto."
 
 #: ../src/users/user-password.c:445
 msgid "Please choose another password."
@@ -1975,21 +1976,21 @@ msgstr "Ningún"
 #: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
-msgstr "Carácter non válido \"%c\" no comentario"
+msgstr "Carácter «%c» incorrecto no comentario"
 
 #: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
-msgstr "Verifique que este carácter non estea en uso."
+msgstr "Comprobe que este carácter non estea en uso."
 
 #: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
-msgstr "Camiño incompleto no cartafol persoal"
+msgstr "Ruta incompleta no cartafol persoal"
 
 #: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr "Introduza o camiño completo para o cartafol persoal\n<span size=\"smaller\">p.e.: /home/alba</span>."
+msgstr "Introduza a ruta completa para o cartafol persoal\n<span size=\"smaller\">p.e.: /home/alba</span>."
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
@@ -2001,7 +2002,7 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
 "In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
-msgstr "O cartafol persoal para %s estabeleceuse a <tt>%s</tt>, o cal xa existe. Desexa usar os ficheiros deste cartafol ou copiar os contidos de <tt>%s</tt> ao novo cartafol persoal, sobrescribíndoos?\n\nSe ten dúbidas, use un novo cartafol para evitar a perda de datos e copie os ficheiros desde o antigo cartafol."
+msgstr "O cartafol persoal para %s estabeleceuse a <tt>%s</tt>, o cal xa existe. Quere usar os ficheiros deste cartafol ou copiar os contidos de <tt>%s</tt> ao novo cartafol persoal, sobrescribíndoos?\n\nSe ten dúbidas, use un novo cartafol para evitar a perda de datos e copie os ficheiros desde o antigo cartafol."
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
@@ -2080,13 +2081,13 @@ msgstr "Seleccione un identificador numérico diferente para %s."
 
 #: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
-msgstr "Camiño incompleto no intérprete de ordes"
+msgstr "Ruta incompleta no intérprete de ordes"
 
 #: ../src/users/user-settings.c:629
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr "Introduza un camiño completo para o intérprete de ordes\n<span size=\"smaller\">p.ex.: /bin/bash</span>."
+msgstr "Introduza unha ruta completa para o intérprete de ordes\n<span size=\"smaller\">p.ex.: /bin/bash</span>."
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"

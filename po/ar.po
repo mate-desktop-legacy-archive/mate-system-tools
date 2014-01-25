@@ -3,25 +3,26 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-# Ahmad Farghal <ahmad.farghal@gmail.com>, 2007.
-# Anas Husseini <linux.anas@gmail.com>, 2008.
-# Ayman Hourieh <aymanh@gmail.com>, 2004.
-# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2009, 2010.
-# Osama Khalid <osamak.wfm@gmail.com>, 2009.
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004
+# Ahmad Farghal <ahmad.farghal@gmail.com>, 2007
+# linostar <linux.anas@gmail.com>, 2008
+# Ayman Hourieh <aymanh@gmail.com>, 2004
+# Khaled Hosny <khaledhosny@eglug.org>, 2006-2007,2009-2010
+# moceap <moceap@hotmail.com>, 2013
+# Osama Khalid <osamak.wfm@gmail.com>, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:52+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-10-05 15:08+0000\n"
+"Last-Translator: mauron\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
@@ -125,11 +126,11 @@ msgstr "اسم الشبكة (_ESSID):"
 
 #: ../interfaces/network.ui.h:26
 msgid "Network _password:"
-msgstr "_كلمة سر الشبكة:"
+msgstr "_كلمة مرور الشبكة:"
 
 #: ../interfaces/network.ui.h:27
 msgid "Password _type:"
-msgstr "_نوع كلمة السر:"
+msgstr "_نوع كلمة المرور:"
 
 #: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
@@ -177,7 +178,7 @@ msgstr "اسم نقطة الوصول:"
 
 #: ../interfaces/network.ui.h:39
 msgid "Internet service provider data"
-msgstr "بيانات موفر خدمة الإنترنت"
+msgstr "بيانات موفر خدمة الشّابكة"
 
 #: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
 msgid "_Username:"
@@ -185,7 +186,7 @@ msgstr "ا_سم المستخدم:"
 
 #: ../interfaces/network.ui.h:41
 msgid "P_assword"
-msgstr "كلمة ال_سّر"
+msgstr "كلمة ال_مرور"
 
 #: ../interfaces/network.ui.h:42
 msgid "Account data"
@@ -210,7 +211,7 @@ msgstr "ا_كتشاف تلقائي"
 
 #: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
 msgid "Ethernet interface:"
-msgstr "واجهة الإثرنت:"
+msgstr "واجهة الشبكة العادية:"
 
 #: ../interfaces/network.ui.h:49
 msgid "Modem Settings"
@@ -222,11 +223,11 @@ msgstr "مودم"
 
 #: ../interfaces/network.ui.h:51
 msgid "_Set modem as default route to internet"
-msgstr "_عيِّن المودم على أنّه المسلك الرّئيسي للانترنت"
+msgstr "_عيِّن المودم على أنّه المسلك الرّئيسي للشّابكة"
 
 #: ../interfaces/network.ui.h:52
 msgid "Use the Internet service provider nameservers"
-msgstr "استخدم خادومات أسماء موفر خدمة الانترنت"
+msgstr "استخدم خادومات أسماء موفر خدمة الشّابكة"
 
 #: ../interfaces/network.ui.h:53
 msgid "_Retry if the connection breaks or fails to start"
@@ -351,11 +352,11 @@ msgstr "المستخدمون"
 
 #: ../interfaces/shares.ui.h:25
 msgid "Enter password for user"
-msgstr "ادخل كلمة سر المستخدم"
+msgstr "ادخل كلمة مرور المستخدم"
 
 #: ../interfaces/shares.ui.h:26
 msgid "Enter password for user:"
-msgstr "أدخل كلمة سر المستخدم:"
+msgstr "أدخل كلمة مرور المستخدم:"
 
 #: ../interfaces/time.ui.h:1
 msgid "Time zone"
@@ -427,7 +428,7 @@ msgstr "غيّر..."
 
 #: ../interfaces/users.ui.h:4
 msgid "_Password:"
-msgstr "_كلمة السر:"
+msgstr "_كلمة المرور:"
 
 #: ../interfaces/users.ui.h:5
 msgid "_Advanced Settings"
@@ -463,7 +464,7 @@ msgstr "أعضاء المجموعة"
 
 #: ../interfaces/users.ui.h:13
 msgid "Profile Settings"
-msgstr "إعدادات اللاحة:"
+msgstr "إعدادات الملف الشخصي:"
 
 #: ../interfaces/users.ui.h:14
 msgid "Profile _name:"
@@ -491,23 +492,23 @@ msgstr "ال_مجموعة الافتراضيّة:"
 
 #: ../interfaces/users.ui.h:20
 msgid "Password Settings"
-msgstr "إعدادات كلمة السّر"
+msgstr "إعدادات كلمة المرور"
 
 #: ../interfaces/users.ui.h:21
 msgid "Number of days that a password may be used:"
-msgstr "عدد الأيّام التي يمكن فيها استخدام كلمة السّر:"
+msgstr "عدد الأيّام التي يمكن فيها استخدام كلمة المرور:"
 
 #: ../interfaces/users.ui.h:22
 msgid "Minimum days allowed between password changes:"
-msgstr "أدنى عدد مسموح به من الأيّام بين تغييرات كلمة السّر:"
+msgstr "أدنى عدد مسموح به من الأيّام بين تغييرات كلمة المرور:"
 
 #: ../interfaces/users.ui.h:23
 msgid "Days between warning and password expiration:"
-msgstr "الأيّام بين التّحذير و بطلان كلمة السّر:"
+msgstr "الأيّام بين التّحذير و بطلان كلمة المرور:"
 
 #: ../interfaces/users.ui.h:24
 msgid "Assign a random password by default"
-msgstr "ضَع كلمة سرٍّ عشوائيّة افتراضيًّا"
+msgstr "ضَع كلمة مرور عشوائيّة افتراضيًّا"
 
 #: ../interfaces/users.ui.h:25
 msgid "Automatic UID/GID"
@@ -563,7 +564,7 @@ msgstr "غيّر ا_سم المستخدم:"
 
 #: ../interfaces/users.ui.h:39
 msgid "Change User Password"
-msgstr "غيّر كلمة سر المستخدم"
+msgstr "غيّر كلمة مرور المستخدم"
 
 #: ../interfaces/users.ui.h:40
 msgid "Con_firmation:"
@@ -571,7 +572,7 @@ msgstr "التّأ_كيد:"
 
 #: ../interfaces/users.ui.h:41
 msgid "Password set to: "
-msgstr "كلمة السّر مضبوطة لـى:"
+msgstr "كلمة المرور مضبوطة لـى:"
 
 #: ../interfaces/users.ui.h:42
 msgid "_Generate"
@@ -579,27 +580,27 @@ msgstr "ولِّد"
 
 #: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
-msgstr "ضع كلمة السّر _يدويًّا"
+msgstr "ضع كلمة المرور _يدويًّا"
 
 #: ../interfaces/users.ui.h:44
 msgid "New _password:"
-msgstr "كلمة _سر جديدة:"
+msgstr "كلمة _مرور جديدة:"
 
 #: ../interfaces/users.ui.h:45
 msgid "Generate _random password"
-msgstr "ولِّد كلمة سر _عشوائيّة"
+msgstr "ولِّد كلمة مرور _عشوائيّة"
 
 #: ../interfaces/users.ui.h:46
 msgid "Changing user password for:"
-msgstr "غيّر كلمة سر المستخدم:"
+msgstr "غيّر كلمة مرور المستخدم:"
 
 #: ../interfaces/users.ui.h:47
 msgid "Don't ask for password on _login"
-msgstr "لا تطلب كلمة السر عند الو_لوج"
+msgstr "لا تطلب كلمة المرور عند الو_لوج"
 
 #: ../interfaces/users.ui.h:48
 msgid "_Current password:"
-msgstr "كلمة السر ال_حالية:"
+msgstr "كلمة المرور ال_حالية:"
 
 #: ../interfaces/users.ui.h:49
 msgid "Change User Account Type"
@@ -660,7 +661,7 @@ msgid ""
 "Encrypt all your files with your login password to strongly protect them "
 "from people with physical access to your computer, at the expense of a "
 "slightly reduced performance."
-msgstr "عمّ كل ملفاتك بكلمة سر الولوج لحماية أقوى ممن يستطيع الوصول ماديا إلى حاسوبك، على حساب قليل من التدهور في الأداء."
+msgstr "عمّ كل ملفاتك بكلمة مرور الولوج لحماية أقوى ممن يستطيع الوصول ماديا إلى حاسوبك، على حساب قليل من التدهور في الأداء."
 
 #: ../interfaces/users.ui.h:66
 msgid "Change Advanced User Settings"
@@ -720,15 +721,15 @@ msgstr "إعدادت اختياريّة"
 
 #: ../interfaces/users.ui.h:80
 msgid "Mi_nimum days between password changes:"
-msgstr "أ_دنى عدد من الأيّام بين تغييرات كلمة السّر:"
+msgstr "أ_دنى عدد من الأيّام بين تغييرات كلمة المرور:"
 
 #: ../interfaces/users.ui.h:81
 msgid "Ma_ximum days a password may be used:"
-msgstr "أ_قصى عدد من الأيّام التي يمكن استخدام كلمة السّر فيها:"
+msgstr "أ_قصى عدد من الأيّام التي يمكن استخدام كلمة المرور فيها:"
 
 #: ../interfaces/users.ui.h:82
 msgid "_Days between warning and password expiration:"
-msgstr "الأ_يّام بين التّحذير و بطلان كلمة السّر:"
+msgstr "الأ_يّام بين التّحذير و بطلان كلمة المرور:"
 
 #: ../interfaces/users.ui.h:83
 msgid "Advanced"
@@ -983,7 +984,7 @@ msgstr "يوجد مسبقًا مكان بنفس الاسم"
 
 #: ../src/network/locations-combo.c:267
 msgid "Overwrite it?"
-msgstr "إحلاله؟"
+msgstr "الكتابة فوقه؟"
 
 #: ../src/network/locations-combo.c:355
 msgid "Save location"
@@ -1058,7 +1059,7 @@ msgstr "خادوم ويب"
 
 #: ../src/services/service.c:32
 msgid "Shares your web pages over the Internet"
-msgstr "شارك صفحات الويب الخاصة بك عبر طريق الإنترنت"
+msgstr "شارك صفحات الويب الخاصة بك عبر طريق الشابكة"
 
 #. GST_ROLE_WEB_SERVER
 #: ../src/services/service.c:33
@@ -1138,7 +1139,7 @@ msgstr "خدمة FTP"
 
 #: ../src/services/service.c:42 ../src/services/service.c:43
 msgid "Shares folders over the Internet"
-msgstr "مشاركة الملفات عبر إنترنت"
+msgstr "مشاركة الملفات عبر الشّابكة"
 
 #. GST_ROLE_FILE_SERVER_TFTP
 #: ../src/services/service.c:44
@@ -1147,7 +1148,7 @@ msgstr "خدمة تزامن الساعة"
 
 #: ../src/services/service.c:44
 msgid "Synchronizes your computer clock with Internet time servers"
-msgstr "تُزامن ساعة حاسوبك مع خواديم الإنترنت"
+msgstr "تُزامن ساعة حاسوبك مع خواديم الشّابكة"
 
 #. GST_ROLE_NTP_SERVER
 #: ../src/services/service.c:46
@@ -1194,7 +1195,7 @@ msgstr "خادوم نسخ احتياطي بعيد"
 #. GST_ROLE_REMOTE_BACKUP
 #: ../src/services/service.c:53
 msgid "Spam filter"
-msgstr "مرشح سخام"
+msgstr "مرشح المزعجين"
 
 #. GST_ROLE_SPAM_FILTER
 #: ../src/services/service.c:54
@@ -1605,7 +1606,7 @@ msgstr "دعم NTP ليس مثبتا"
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr "رّجاء ثبّت وفعّل دعم NTP في نظامك لتمكِّن مزامنة خادوم التوقيت المحلّي مع خواديم توقيت الإنترنت."
+msgstr "رّجاء ثبّت وفعّل دعم NTP في نظامك لتمكِّن مزامنة خادوم التوقيت المحلّي مع خواديم توقيت الشّابكة."
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
@@ -1621,7 +1622,7 @@ msgstr "يجري مزامنة ساعة النظام"
 
 #: ../src/time/time-tool.c:521
 msgid "Keep synchronized with Internet servers"
-msgstr "ابقِ متزامنا مع خواديم الإنترنت"
+msgstr "ابقِ متزامنا مع خواديم الشّابكة"
 
 #: ../src/time/time-tool.c:522
 msgid "Manual"
@@ -1748,7 +1749,7 @@ msgstr "استخدام المودم"
 
 #: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
-msgstr "الاتصال بالإنترنت باستخدام مودم"
+msgstr "الاتصال بالشّابكة باستخدام مودم"
 
 #: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
@@ -1833,37 +1834,37 @@ msgstr "فشل الاستيثاق"
 #: ../src/users/run-passwd.c:498
 #, c-format
 msgid "The new password is too short"
-msgstr "كلمة السّر الجديدة قصيرة جدًا"
+msgstr "كلمة المرور الجديدة قصيرة جدًا"
 
 #: ../src/users/run-passwd.c:504
 #, c-format
 msgid "The new password is too simple"
-msgstr "كلمة السر الجديدة بسيطة جدا"
+msgstr "كلمة المرور الجديدة بسيطة جدا"
 
 #: ../src/users/run-passwd.c:510
 #, c-format
 msgid "The old and new passwords are too similar"
-msgstr "كلمتا السر القديمة و الجديدة متشابهتان جدا"
+msgstr "كلمتا المرور القديمة و الجديدة متشابهتان جدا"
 
 #: ../src/users/run-passwd.c:513
 #, c-format
 msgid "The new password must contain numeric or special characters"
-msgstr "يجب أن تحتوي كلمة السر الجديدة على محارف خاصة أو أرقام"
+msgstr "يجب أن تحتوي كلمة المرور الجديدة على محارف خاصة أو أرقام"
 
 #: ../src/users/run-passwd.c:517
 #, c-format
 msgid "The old and new passwords are the same"
-msgstr "كلمتا السر القديمة و الجديدة متطابقتان"
+msgstr "كلمتا المرور القديمة و الجديدة متطابقتان"
 
 #: ../src/users/run-passwd.c:520
 #, c-format
 msgid "The new password has already been used recently."
-msgstr "كلمة السر الجديدة سبق استخدامها مؤخرا."
+msgstr "كلمة المرور الجديدة سبق استخدامها مؤخرًا."
 
 #: ../src/users/run-passwd.c:524
 #, c-format
 msgid "Your password has been changed since you initially authenticated!"
-msgstr "تغيِّرت كلمة السر بعد الاستيثاق!"
+msgstr "تغيِّرت كلمة المرور بعد الاستيثاق!"
 
 #: ../src/users/run-passwd.c:528
 #, c-format
@@ -1872,7 +1873,7 @@ msgstr "خطأ مجهول"
 
 #: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
-msgstr "المستخدمين والمجموعات"
+msgstr "المستخدمون و المجموعات"
 
 #: ../src/users/mate-users.desktop.in.in.h:2
 msgid "Add or remove users and groups"
@@ -1880,33 +1881,33 @@ msgstr "أضف أو أزل مستخدمين و مجموعات"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
-msgstr "كلمة السّر قصيرة جدًا"
+msgstr "كلمة المرور قصيرة جدًا"
 
 #: ../src/users/user-password.c:98
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr "يجب أن تكون كلمات سر المستخدمين أطول من 5 محارف ويفضل أن تتكون من أرقام وحروف ومحارف خاصة."
+msgstr "يجب أن تكون كلمات مرور المستخدمين أطول من 5 محارف ويفضل أن تتكون من أرقام وحروف ومحارف خاصة."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
-msgstr "تأكيد كلمة السّر غير صحيح."
+msgstr "تأكيد كلمة المرور غير صحيح."
 
 #: ../src/users/user-password.c:102
 msgid "Check that you have provided the same password in both text fields."
-msgstr "تأكّد أنّك قد أدخلت كلمة السر نفسها في حقلي النّصّ كليهما."
+msgstr "تأكّد أنّك قد أدخلت كلمة المرور نفسها في حقلي النّصّ كليهما."
 
 #: ../src/users/user-password.c:445
 msgid "Please choose another password."
-msgstr "رجاء اختر كلمة سر أخرى."
+msgstr "رجاء اختر كلمة مرور أخرى."
 
 #: ../src/users/user-password.c:456
 msgid "Please type again your current password."
-msgstr "رجاء أعد كتابة كلمة السر الحالية."
+msgstr "رجاء أعد كتابة كلمة المرور الحالية."
 
 #: ../src/users/user-password.c:463
 msgid "Password could not be changed"
-msgstr "لا يمكن تغيير كلمة السر"
+msgstr "لا يمكن تغيير كلمة المرور"
 
 #: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"

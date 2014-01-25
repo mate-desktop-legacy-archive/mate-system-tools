@@ -3,19 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Ivica  Kolić <ikoli@yahoo.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:50+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-12-05 14:33+0000\n"
+"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hr\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
@@ -31,7 +32,7 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:4
 msgid "Loud"
-msgstr ""
+msgstr "Glasno"
 
 #: ../interfaces/network.ui.h:5
 msgid "Tones"
@@ -43,11 +44,11 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:7
 msgid "Plain (ASCII)"
-msgstr ""
+msgstr "Jednostavno (ASCII)"
 
 #: ../interfaces/network.ui.h:8
 msgid "Hexadecimal"
-msgstr ""
+msgstr "Heksadecimalni"
 
 #: ../interfaces/network.ui.h:9
 msgid "Location:"
@@ -111,7 +112,7 @@ msgstr "Uključi \"roaming\" način rada"
 
 #: ../interfaces/network.ui.h:24
 msgid "Connection type:"
-msgstr ""
+msgstr "Vrsta veze:"
 
 #: ../interfaces/network.ui.h:25
 msgid "Network name (_ESSID):"
@@ -131,7 +132,7 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:29
 msgid "Con_figuration:"
-msgstr ""
+msgstr "Kon_figuracija:"
 
 #: ../interfaces/network.ui.h:30
 msgid "_IP address:"
@@ -147,7 +148,7 @@ msgstr "_Adresa uređaja za mrežni izlaz (gateway):"
 
 #: ../interfaces/network.ui.h:33
 msgid "Connection Settings"
-msgstr ""
+msgstr "Postavke veze"
 
 #: ../interfaces/network.ui.h:34
 msgid "_Local IP:"
@@ -204,11 +205,11 @@ msgstr "_Sam pronađi"
 
 #: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
 msgid "Ethernet interface:"
-msgstr ""
+msgstr "Ethernet sučelje:"
 
 #: ../interfaces/network.ui.h:49
 msgid "Modem Settings"
-msgstr ""
+msgstr "Postavke modema"
 
 #: ../interfaces/network.ui.h:50
 msgid "Modem"
@@ -284,7 +285,7 @@ msgstr "Dozvoljena računala"
 
 #: ../interfaces/shares.ui.h:9
 msgid "Share"
-msgstr ""
+msgstr "Dijeli"
 
 #: ../interfaces/shares.ui.h:10
 msgid "Add allowed hosts"
@@ -345,11 +346,11 @@ msgstr "Korisnici"
 
 #: ../interfaces/shares.ui.h:25
 msgid "Enter password for user"
-msgstr ""
+msgstr "Unesi lozinku za korisnika"
 
 #: ../interfaces/shares.ui.h:26
 msgid "Enter password for user:"
-msgstr ""
+msgstr "Unesi lozinku za korisnika:"
 
 #: ../interfaces/time.ui.h:1
 msgid "Time zone"
@@ -393,7 +394,7 @@ msgstr "Poslužitelji s vremenskim servisima:"
 
 #: ../interfaces/time.ui.h:11
 msgid "Se_lect Servers"
-msgstr ""
+msgstr "Oda_berite poslužitelje"
 
 #: ../interfaces/time.ui.h:12
 msgid "_Time:"
@@ -405,7 +406,7 @@ msgstr "_Datum:"
 
 #: ../interfaces/time.ui.h:14
 msgid "Synchronize now"
-msgstr ""
+msgstr "Sinkronizirajte sada"
 
 #: ../interfaces/users.ui.h:1
 msgid "_Manage Groups"
@@ -425,15 +426,15 @@ msgstr "Za_porka:"
 
 #: ../interfaces/users.ui.h:5
 msgid "_Advanced Settings"
-msgstr ""
+msgstr "_Napredne postavke"
 
 #: ../interfaces/users.ui.h:6
 msgid "This account is disabled."
-msgstr ""
+msgstr "Ovaj račun je onemogućen."
 
 #: ../interfaces/users.ui.h:7
 msgid "_Enable Account"
-msgstr ""
+msgstr "_Omogući račun"
 
 #: ../interfaces/users.ui.h:8
 msgid "Group properties"
@@ -457,7 +458,7 @@ msgstr "Članovi grupe"
 
 #: ../interfaces/users.ui.h:13
 msgid "Profile Settings"
-msgstr ""
+msgstr "Postavke profila"
 
 #: ../interfaces/users.ui.h:14
 msgid "Profile _name:"
@@ -541,23 +542,23 @@ msgstr "Postavke grupe"
 
 #: ../interfaces/users.ui.h:35
 msgid "Groups available on the system:"
-msgstr ""
+msgstr "Grupe dostupne u sustavu:"
 
 #: ../interfaces/users.ui.h:36
 msgid "Change User Name"
-msgstr ""
+msgstr "Promjeni korisničko ime"
 
 #: ../interfaces/users.ui.h:37
 msgid "Full _Name:"
-msgstr ""
+msgstr "Puno _ime:"
 
 #: ../interfaces/users.ui.h:38
 msgid "Changing user name for:"
-msgstr ""
+msgstr "Mjenjam korisničko ime za:"
 
 #: ../interfaces/users.ui.h:39
 msgid "Change User Password"
-msgstr ""
+msgstr "Promjeni korisničku lozinku"
 
 #: ../interfaces/users.ui.h:40
 msgid "Con_firmation:"
@@ -577,7 +578,7 @@ msgstr "Ručno postavi _lozinku"
 
 #: ../interfaces/users.ui.h:44
 msgid "New _password:"
-msgstr ""
+msgstr "Nova _lozinka:"
 
 #: ../interfaces/users.ui.h:45
 msgid "Generate _random password"
@@ -585,15 +586,15 @@ msgstr "Stvori _slučajnu lozinku"
 
 #: ../interfaces/users.ui.h:46
 msgid "Changing user password for:"
-msgstr ""
+msgstr "Mjenjam korisničku lozinku za:"
 
 #: ../interfaces/users.ui.h:47
 msgid "Don't ask for password on _login"
-msgstr ""
+msgstr "Ne pitaj za lozinku kod _prijave"
 
 #: ../interfaces/users.ui.h:48
 msgid "_Current password:"
-msgstr ""
+msgstr "_Trennutna lozinka:"
 
 #: ../interfaces/users.ui.h:49
 msgid "Change User Account Type"
@@ -605,7 +606,7 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:51
 msgid "_Custom"
-msgstr ""
+msgstr "_Prilagođeno"
 
 #: ../interfaces/users.ui.h:52
 msgid ""
@@ -615,15 +616,15 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:53
 msgid "Create New User"
-msgstr ""
+msgstr "Napravi novoga korisnika"
 
 #: ../interfaces/users.ui.h:54
 msgid "_Name:"
-msgstr ""
+msgstr "_ime:"
 
 #: ../interfaces/users.ui.h:55
 msgid "Create a new user"
-msgstr ""
+msgstr "Napravi novoga korisnika"
 
 #. No item should exceed a length of 40 characters, to avoid wrapping on two
 #. lines. Better simplifying than making it hard to read!
@@ -633,17 +634,17 @@ msgid ""
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
+msgstr "Korisničko ime mora se sastojati od:\n➣malih slova iz engleskog alfabeta\n➣brojeva\n➣bilo kojega od znakova \".\", \"-\" i \"_\""
 
 #: ../interfaces/users.ui.h:62
 msgid ""
 "A user with this name already exists. Please choose a different name for the"
 " new user."
-msgstr ""
+msgstr "Korisničko ime već postoji.Molim odaberite drugo ime za novoga korisnika."
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
-msgstr ""
+msgstr "Korisničko ime mora počinjati slovom!"
 
 #: ../interfaces/users.ui.h:64
 msgid "_Encrypt home folder to protect sensitive data"
@@ -658,11 +659,11 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:66
 msgid "Change Advanced User Settings"
-msgstr ""
+msgstr "Promjeni napredne korisničke postavke"
 
 #: ../interfaces/users.ui.h:67
 msgid "Changing advanced settings for:"
-msgstr ""
+msgstr "Mjenjam napredne postavke za:"
 
 #: ../interfaces/users.ui.h:68
 msgid "O_ffice location:"
@@ -706,7 +707,7 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:78
 msgid "Disable _account"
-msgstr ""
+msgstr "Onemogući _račun"
 
 #: ../interfaces/users.ui.h:79
 msgid "Optional Settings"
@@ -769,25 +770,25 @@ msgstr "Postavke se nisu mogle učitati"
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:190
 msgid "The configuration could not be saved"
-msgstr ""
+msgstr "Konfiguracija se ne može spremiti"
 
 #: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
-msgstr ""
+msgstr "Nije vam dozvoljeno da pristupate konfiguraciji sustava."
 
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
-msgstr ""
+msgstr "Nije vam dozvoljeno da mijenjate konfiguraciju sustava."
 
 #: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
-msgstr ""
+msgstr "Nađeni su neispravni podaci."
 
 #. OOBS_RESULT_ERROR
 #: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "Došlo je do nepoznate greške."
 
 #: ../src/common/gst-tool.c:422
 msgid "Could not display help"
@@ -872,19 +873,19 @@ msgstr "WEP ključ (heksadecimalni)"
 
 #: ../src/network/connection.c:48
 msgid "WPA Personal"
-msgstr ""
+msgstr "WPA osobno"
 
 #: ../src/network/connection.c:49
 msgid "WPA2 Personal"
-msgstr ""
+msgstr "WPA2 osobno"
 
 #: ../src/network/connection.c:53
 msgid "GPRS/UMTS"
-msgstr ""
+msgstr "GPRS/UMTS"
 
 #: ../src/network/connection.c:54
 msgid "ISDN modem"
-msgstr ""
+msgstr "ISDN modem"
 
 #: ../src/network/connection.c:55
 msgid "Serial modem"
@@ -892,12 +893,12 @@ msgstr ""
 
 #: ../src/network/connection.c:56
 msgid "PPPoE"
-msgstr ""
+msgstr "PPPoE"
 
 #: ../src/network/connection.c:769
 #, c-format
 msgid "%s Properties"
-msgstr ""
+msgstr "%s Osobitosti"
 
 #: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
 #: ../src/shares/table.c:39 ../src/users/table.c:41
@@ -928,7 +929,7 @@ msgstr ""
 #: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
 #: ../src/network/ifaces-list.c:306
 msgid "Address:"
-msgstr ""
+msgstr "Adresa:"
 
 #: ../src/network/ifaces-list.c:298
 msgid "Subnet mask:"
@@ -936,16 +937,16 @@ msgstr ""
 
 #: ../src/network/ifaces-list.c:308
 msgid "Remote address:"
-msgstr ""
+msgstr "Udaljena adresa:"
 
 #: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
 #: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
 msgid "Type:"
-msgstr ""
+msgstr "Tip:"
 
 #: ../src/network/ifaces-list.c:321
 msgid "Phone number:"
-msgstr ""
+msgstr "Telefonski broj:"
 
 #: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
@@ -1267,7 +1268,7 @@ msgstr ""
 #. GST_ROLE_DYNAMIC_DNS_SERVICE
 #: ../src/services/service.c:68
 msgid "DHCP server"
-msgstr ""
+msgstr "DHCP poslužitelj"
 
 #. GST_ROLE_DHCP_SERVER
 #: ../src/services/service.c:69
@@ -1282,7 +1283,7 @@ msgstr ""
 #. GST_ROLE_PROXY_CACHE
 #: ../src/services/service.c:71
 msgid "LDAP server"
-msgstr ""
+msgstr "LDAP poslužitelj"
 
 #. GST_ROLE_LDAP_SERVER
 #: ../src/services/service.c:72
@@ -1386,7 +1387,7 @@ msgstr ""
 #. GST_ROLE_HOTKEYS_MANAGEMENT
 #: ../src/services/service.c:91
 msgid "Power management"
-msgstr ""
+msgstr "Upravljanje energijom"
 
 #. GST_ROLE_POWER_MANAGEMENT
 #: ../src/services/service.c:92
@@ -1406,7 +1407,7 @@ msgstr ""
 #. GST_ROLE_FAX_MANAGEMENT
 #: ../src/services/service.c:95
 msgid "RAID disks management"
-msgstr ""
+msgstr "Upravljanje RAID diskovima"
 
 #. GST_ROLE_RAID_MANAGEMENT
 #: ../src/services/service.c:96
@@ -1416,7 +1417,7 @@ msgstr ""
 #. GST_ROLE_GRAPHIC_TABLETS_MANAGEMENT
 #: ../src/services/service.c:97
 msgid "CPU Frequency manager"
-msgstr ""
+msgstr "Upravitelj frekvencije procesora"
 
 #. GST_ROLE_CPUFREQ_MANAGEMENT
 #: ../src/services/service.c:98
@@ -1431,7 +1432,7 @@ msgstr ""
 #. GST_ROLE_SERIAL_PORTS_MANAGEMENT
 #: ../src/services/service.c:100
 msgid "ISDN modems manager"
-msgstr ""
+msgstr "Upravitelj ISDN modema"
 
 #. GST_ROLE_ISDN_MANAGEMENT
 #: ../src/services/service.c:101
@@ -1471,12 +1472,12 @@ msgstr ""
 #: ../src/services/service-settings-table.c:99
 #: ../src/services/service-settings-table.c:111
 msgid "Stop"
-msgstr ""
+msgstr "Zaustavi"
 
 #: ../src/services/service-settings-table.c:85
 #: ../src/services/service-settings-table.c:102
 msgid "Ignore"
-msgstr ""
+msgstr "Zanemari"
 
 #: ../src/services/service-settings-table.c:175
 msgid "Runlevel"
@@ -1488,7 +1489,7 @@ msgstr "Status"
 
 #: ../src/services/service-settings-table.c:211
 msgid "Priority"
-msgstr ""
+msgstr "Prioritet"
 
 #: ../src/services/services-tool.c:106
 msgid "Services Settings"
@@ -1540,7 +1541,7 @@ msgstr ""
 
 #: ../src/shares/share-settings.c:61
 msgid "File System"
-msgstr ""
+msgstr "Datotečni sustav"
 
 #: ../src/shares/share-settings.c:144
 msgid "Do not share"
@@ -1557,7 +1558,7 @@ msgstr ""
 #: ../src/shares/share-settings.c:462
 #, c-format
 msgid "Settings for folder '%s'"
-msgstr ""
+msgstr "Postavke za mapu '%s' "
 
 #: ../src/shares/share-settings.c:469
 msgid "Share Folder"
@@ -1646,12 +1647,12 @@ msgstr "Ovo može ostaviti datoteke s neispravnim ID-om grupe u datotečnom sust
 
 #: ../src/users/group-settings.c:144
 msgid "New group"
-msgstr ""
+msgstr "Nova grupa"
 
 #: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
-msgstr ""
+msgstr "Svojstva '%s' grupe"
 
 #: ../src/users/group-settings.c:217
 msgid "Group name is empty"
@@ -1758,7 +1759,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:63
 msgid "Configure printers"
-msgstr ""
+msgstr "Konfiguriraj pisače"
 
 #: ../src/users/privileges-table.c:64
 msgid "Connect to wireless and ethernet networks"
@@ -1786,7 +1787,7 @@ msgstr "Uporaba uređaja s trakama"
 
 #: ../src/users/privileges-table.c:70
 msgid "Use USB devices"
-msgstr ""
+msgstr "Koristi USB uređaje"
 
 #: ../src/users/privileges-table.c:71
 msgid "Use VirtualBox virtualization solution"
@@ -1794,7 +1795,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:72
 msgid "Use video devices"
-msgstr ""
+msgstr "Koristi video uređaje"
 
 #: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
@@ -1812,7 +1813,7 @@ msgstr ""
 
 #: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
-msgstr ""
+msgstr "Administrator"
 
 #: ../src/users/user-profiles.conf.in.h:4
 msgid ""
@@ -1827,17 +1828,17 @@ msgstr ""
 #: ../src/users/run-passwd.c:498
 #, c-format
 msgid "The new password is too short"
-msgstr ""
+msgstr "Nova lozinka je prekratka"
 
 #: ../src/users/run-passwd.c:504
 #, c-format
 msgid "The new password is too simple"
-msgstr ""
+msgstr "Nova lozinka je prejednostavna"
 
 #: ../src/users/run-passwd.c:510
 #, c-format
 msgid "The old and new passwords are too similar"
-msgstr ""
+msgstr "Stara i nova lozinka se previše slične"
 
 #: ../src/users/run-passwd.c:513
 #, c-format
@@ -1847,7 +1848,7 @@ msgstr ""
 #: ../src/users/run-passwd.c:517
 #, c-format
 msgid "The old and new passwords are the same"
-msgstr ""
+msgstr "Stara i nova lozinka su iste"
 
 #: ../src/users/run-passwd.c:520
 #, c-format
@@ -1862,7 +1863,7 @@ msgstr ""
 #: ../src/users/run-passwd.c:528
 #, c-format
 msgid "Unknown error"
-msgstr ""
+msgstr "Nepoznata greška"
 
 #: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
@@ -1874,7 +1875,7 @@ msgstr "Dodaje ili uklanja korisnike i grupe"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
-msgstr ""
+msgstr "Lozinka je prekratka"
 
 #: ../src/users/user-password.c:98
 msgid ""
@@ -1884,7 +1885,7 @@ msgstr ""
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
-msgstr ""
+msgstr "Potvrda lozinke nije ispravna"
 
 #: ../src/users/user-password.c:102
 msgid "Check that you have provided the same password in both text fields."
@@ -1892,11 +1893,11 @@ msgstr "Provjerite da ste unesli istu zaporku u oba polja za unos."
 
 #: ../src/users/user-password.c:445
 msgid "Please choose another password."
-msgstr ""
+msgstr "Molim odaberite drugu lozinku"
 
 #: ../src/users/user-password.c:456
 msgid "Please type again your current password."
-msgstr ""
+msgstr "Molim upišite ponovno vašu trenutnu lozinku."
 
 #: ../src/users/user-password.c:463
 msgid "Password could not be changed"
@@ -1909,7 +1910,7 @@ msgstr ""
 #: ../src/users/user-settings.c:96
 #, c-format
 msgid "%s is currently using this computer"
-msgstr ""
+msgstr "%s trenutno koristi ovo računalo"
 
 #: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
@@ -1941,7 +1942,7 @@ msgstr ""
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
-msgstr ""
+msgstr "Zadrži datoteke"
 
 #: ../src/users/user-settings.c:133
 msgid "Don't Remove Account"
@@ -1949,7 +1950,7 @@ msgstr ""
 
 #: ../src/users/user-settings.c:134
 msgid "Delete Files"
-msgstr ""
+msgstr "Izbriši datoteke"
 
 #: ../src/users/user-settings.c:330
 msgid "Superuser"
@@ -1957,7 +1958,7 @@ msgstr ""
 
 #: ../src/users/user-settings.c:335
 msgid "Custom"
-msgstr ""
+msgstr "Prilagođeno"
 
 #. TRANSLATORS: This applies to a password.
 #: ../src/users/user-settings.c:344
@@ -2028,11 +2029,11 @@ msgstr ""
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
-msgstr ""
+msgstr "_Izbriši datoteke"
 
 #: ../src/users/user-settings.c:505
 msgid "_Use Existing Files"
-msgstr ""
+msgstr "_Koristi postojeće datoteke"
 
 #: ../src/users/user-settings.c:526
 msgid "Copy old home directory to new location?"
@@ -2048,12 +2049,12 @@ msgstr ""
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
-msgstr ""
+msgstr "_Koristi prazan direktorij"
 
 #. TRANSLATORS: This means "copy files from the old home directory".
 #: ../src/users/user-settings.c:542
 msgid "Co_py Old Files"
-msgstr ""
+msgstr "Ko_piraj stare datoteke"
 
 #: ../src/users/user-settings.c:604
 msgid "ID for the root user should not be modified"
@@ -2112,4 +2113,4 @@ msgstr ""
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
-msgstr ""
+msgstr "Postavke korisnika"

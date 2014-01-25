@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Matic Žgur <mr.zgur@gmail.com>, 2006.
+# jierro <jierro@windowslive.com>, 2013
+# Matic Žgur <mr.zgur@gmail.com>, 2006
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:53+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-09-03 11:26+0000\n"
+"Last-Translator: jierro <jierro@windowslive.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/projects/p/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sl\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
@@ -104,7 +105,7 @@ msgstr "Lastnosti vmesnika"
 
 #: ../interfaces/network.ui.h:22
 msgid "E_nable this connection"
-msgstr "_Omogoči povezavo"
+msgstr "_Omogoči to povezavo"
 
 #: ../interfaces/network.ui.h:23
 msgid "E_nable roaming mode"
@@ -221,7 +222,7 @@ msgstr "_Določi modem kot privzeto pot do spleta"
 
 #: ../interfaces/network.ui.h:52
 msgid "Use the Internet service provider nameservers"
-msgstr "Uporabi imenski strežnik ponudnika internetnih storitev"
+msgstr "Uporabi imenske strežnike ponudnika internetnih storitev"
 
 #: ../interfaces/network.ui.h:53
 msgid "_Retry if the connection breaks or fails to start"
@@ -233,7 +234,7 @@ msgstr "Možnosti"
 
 #: ../interfaces/network.ui.h:55
 msgid "Host Alias Properties"
-msgstr "Lastnosti imena gostitelja"
+msgstr "Lastnosti vzdevka gostitelja"
 
 #: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
 msgid "IP address:"
@@ -245,7 +246,7 @@ msgstr "Vzdevki:"
 
 #: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
-msgstr "Izbor storitve, ki jo želite zagnati:"
+msgstr "Izberite storitve, ki jih želite omogočiti:"
 
 #: ../interfaces/services.ui.h:2
 msgid "Advanced settings:"
@@ -318,7 +319,7 @@ msgstr "Nastavitev gostiteljev"
 #: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
-msgstr "Souporaba map"
+msgstr "Mape v souporabi"
 
 #: ../interfaces/shares.ui.h:19
 msgid "Domain / _Workgroup:"
@@ -326,11 +327,11 @@ msgstr "Domena / _Delovna skupina:"
 
 #: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
-msgstr "Ta računalnik je _WINS strežnik"
+msgstr "Ta računalnik je strežnik _WINS"
 
 #: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
-msgstr "WINS _strežnik:"
+msgstr "_Strežnik WINS:"
 
 #: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
@@ -374,11 +375,11 @@ msgstr "Časovni strežniki"
 
 #: ../interfaces/time.ui.h:6
 msgid "NTP server"
-msgstr "NTP strežnik"
+msgstr "Strežnik NTP"
 
 #: ../interfaces/time.ui.h:7
 msgid "Add NTP Server"
-msgstr "Dodaj NTP strežnik"
+msgstr "Dodaj strežnik NTP"
 
 #: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
@@ -394,7 +395,7 @@ msgstr "Časovni strežniki:"
 
 #: ../interfaces/time.ui.h:11
 msgid "Se_lect Servers"
-msgstr "_Izbrani strežniki"
+msgstr "_Izberite strežnike"
 
 #: ../interfaces/time.ui.h:12
 msgid "_Time:"
@@ -406,7 +407,7 @@ msgstr "_Datum:"
 
 #: ../interfaces/time.ui.h:14
 msgid "Synchronize now"
-msgstr "Uskladi"
+msgstr "Uskladi zdaj"
 
 #: ../interfaces/users.ui.h:1
 msgid "_Manage Groups"
@@ -530,7 +531,7 @@ msgstr "Dovoljenja"
 
 #: ../interfaces/users.ui.h:32
 msgid "User profiles"
-msgstr "Uporabniški profil"
+msgstr "Uporabniški profili"
 
 #: ../interfaces/users.ui.h:33
 msgid "_Add Profile"
@@ -542,7 +543,7 @@ msgstr "Nastavitev skupin"
 
 #: ../interfaces/users.ui.h:35
 msgid "Groups available on the system:"
-msgstr "Skupine na voljo v sistemu:"
+msgstr "Skupine, na voljo v sistemu:"
 
 #: ../interfaces/users.ui.h:36
 msgid "Change User Name"
@@ -586,7 +587,7 @@ msgstr "Ustvari _naključno geslo"
 
 #: ../interfaces/users.ui.h:46
 msgid "Changing user password for:"
-msgstr "Spremeni uporabniško geslo za:"
+msgstr "Spreminjanje uporabniškega gesla za:"
 
 #: ../interfaces/users.ui.h:47
 msgid "Don't ask for password on _login"
@@ -612,7 +613,7 @@ msgstr "_Po meri"
 msgid ""
 "This account is using special settings that have been defined manually. Use "
 "the <i>Advanced Settings</i> dialog to tune them."
-msgstr "Račun uporablja posebne nastavitve, ki so bile določene ročno. Nastavite jih med <i>naprednimi nastavitvami</i>."
+msgstr "Račun uporablja posebne nastavitve, ki so bile določene ročno. Nastavite jih v pogovornem oknu <i>Napredne nastavitve</i>."
 
 #: ../interfaces/users.ui.h:53
 msgid "Create New User"
@@ -659,11 +660,11 @@ msgstr "Šifriranje vseh datotek in podatkov za močno zaščito pred uporabniki
 
 #: ../interfaces/users.ui.h:66
 msgid "Change Advanced User Settings"
-msgstr "Spreminjanje naprednih nastavitev uporabnika"
+msgstr "Spremeni napredne nastavitve uporabnika"
 
 #: ../interfaces/users.ui.h:67
 msgid "Changing advanced settings for:"
-msgstr "Spremeni napredne nastavitve za:"
+msgstr "Spreminjanje naprednih nastavitev za:"
 
 #: ../interfaces/users.ui.h:68
 msgid "O_ffice location:"
@@ -740,7 +741,7 @@ msgstr "Ali naj orodje user-admin pokaže sistemske uporabnike na seznamu uporab
 
 #: ../org.mate.system-tools.gschema.xml.in.h:3
 msgid "Show root user"
-msgstr "Pokaži korenskega uporabnika"
+msgstr "Pokaži skrbnika"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
@@ -757,15 +758,15 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr "Če ste prepričani, da deluje kot kakšna izmed spodaj naštetih platform, lahko le-to izberete in nadaljujete. Lahko pa to poškoduje nastavitev sistema ali ohromi računalnik"
+msgstr "Če ste prepričani, da deluje kot kakšna izmed spodaj naštetih platform, lahko le-to izberete in nadaljujete. Lahko pa to poškoduje nastavitev sistema ali ohromi računalnik."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
-msgstr "Nepodprt sistem"
+msgstr "Nepodprto okolje"
 
 #: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
-msgstr "Ni mogoče naložiti nastavitve"
+msgstr "Nastavitve ni mogoče naložiti"
 
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:190
@@ -774,16 +775,16 @@ msgstr "Nastavitev ni mogoče shraniti"
 
 #: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
-msgstr "Ni ustreznega dovoljenja za dostop do sistemskih nastavitev."
+msgstr "Nimate ustreznih dovoljenj za dostop do sistemskih nastavitev."
 
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
-msgstr "Ni ustreznega dovoljenja za spreminjanje sistemskih nastavitev."
+msgstr "Nimate ustreznih dovoljenj za spreminjanje sistemskih nastavitev."
 
 #: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
-msgstr "Najdeni neveljavni podatki."
+msgstr "Najdeni so neveljavni podatki."
 
 #. OOBS_RESULT_ERROR
 #: ../src/common/gst-tool.c:201
@@ -796,7 +797,7 @@ msgstr "Ni mogoče prikazati pomoči"
 
 #: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
-msgstr "Sistemske nastavitve so spremenjene."
+msgstr "Sistemske nastavitve so se morda spremenile."
 
 #: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
@@ -807,7 +808,7 @@ msgstr "Ali naj se posodobi vsebina? Med posodobitvijo bodo izgubljene vse nakna
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr "Prišlo je od napake med preverjanjem overitve: %s\nNapako je mogoče prijaviti kot hrošč."
+msgstr "Med preverjanjem overitve je prišlo od napake: %s\nNapako je mogoče prijaviti kot hrošč."
 
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
@@ -845,7 +846,7 @@ msgstr "Ime gostitelja se je spremenilo"
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr "To vam bo preprečilo zagon novih programov in tako se boste morali znova prijaviti. Ali želite vseeno nadaljevati?"
+msgstr "To vam bo preprečilo zagon novih programov in posledično se boste morali znova prijaviti. Ali želite vseeno nadaljevati?"
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
@@ -857,7 +858,7 @@ msgstr "Samodejne nastavitve (DHCP)"
 
 #: ../src/network/connection.c:41
 msgid "Local Zeroconf network (IPv4 LL)"
-msgstr "Krajevno Zeroconf omrežje (IPv4 LL)"
+msgstr "Krajevno omrežje Zeroconf (IPv4 LL)"
 
 #: ../src/network/connection.c:42
 msgid "Static IP address"
@@ -865,11 +866,11 @@ msgstr "Statični naslov IP"
 
 #: ../src/network/connection.c:46
 msgid "WEP key (ascii)"
-msgstr "WEP ključ (ascii)"
+msgstr "Ključ WEP (ascii)"
 
 #: ../src/network/connection.c:47
 msgid "WEP key (hexadecimal)"
-msgstr "WEP ključ (hex)"
+msgstr "Ključ WEP (šestnajstičko)"
 
 #: ../src/network/connection.c:48
 msgid "WPA Personal"
@@ -919,7 +920,7 @@ msgstr "Omrežni vmesnik ni nastavljen"
 
 #: ../src/network/ifaces-list.c:282
 msgid "Roaming mode enabled"
-msgstr "Prihajajoči način omogočen"
+msgstr "Prehajajoči način je omogočen"
 
 #: ../src/network/ifaces-list.c:289
 #, c-format
@@ -966,7 +967,7 @@ msgstr "Povezava z vzporednimi vrati"
 
 #: ../src/network/ifaces-list.c:364
 msgid "Point to point connection"
-msgstr "Povezava točke do točke"
+msgstr "Povezava od točke do točke"
 
 #: ../src/network/locations-combo.c:221
 msgid "Changing network location"
@@ -978,7 +979,7 @@ msgstr "Mesto s tem imenom že obstaja"
 
 #: ../src/network/locations-combo.c:267
 msgid "Overwrite it?"
-msgstr "Ali naj prepišem?"
+msgstr "Ali naj se prepiše?"
 
 #: ../src/network/locations-combo.c:355
 msgid "Save location"
@@ -1034,7 +1035,7 @@ msgstr "Omrežne nastavitve"
 #: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
-msgstr "Nastavitve storitev \"%s\""
+msgstr "Nastavitve za storitev \"%s\""
 
 #: ../src/services/callbacks.c:122
 #, c-format
@@ -1053,7 +1054,7 @@ msgstr "Spletni strežnik"
 
 #: ../src/services/service.c:32
 msgid "Shares your web pages over the Internet"
-msgstr "Souporaba vaših spletnih strani preko spleta"
+msgstr "Souporablja vaše spletne strani preko spleta"
 
 #. GST_ROLE_WEB_SERVER
 #: ../src/services/service.c:33
@@ -1062,7 +1063,7 @@ msgstr "Urnik dejanj"
 
 #: ../src/services/service.c:33
 msgid "Executes scheduled actions"
-msgstr "Izvaja načrtovana dejanja"
+msgstr "Izvede načrtovana dejanja"
 
 #. GST_ROLE_COMMAND_SCHEDULER
 #: ../src/services/service.c:34
@@ -1085,7 +1086,7 @@ msgstr "Dostavlja vašo odhajajočo pošto"
 #. GST_ROLE_MTA
 #: ../src/services/service.c:36
 msgid "MTA authentication service"
-msgstr "Storitev MTA overitve"
+msgstr "Storitev overitve MTA"
 
 #. GST_ROLE_MTA_AUTH
 #: ../src/services/service.c:37
@@ -1094,7 +1095,7 @@ msgstr "Zajemalnik pošte"
 
 #: ../src/services/service.c:37
 msgid "Downloads your mail from remote accounts"
-msgstr "Prenos pošte iz oddaljenih računov"
+msgstr "Prenaša Vašo pošto iz oddaljenih računov"
 
 #. GST_ROLE_MAIL_FETCHER
 #: ../src/services/service.c:38
@@ -1120,7 +1121,7 @@ msgstr "Sistem za shranjevanje podatkov"
 #: ../src/services/service.c:40 ../src/services/service.c:41
 #: ../src/services/service.c:43
 msgid "Folder sharing service"
-msgstr "Storitev deljenja map"
+msgstr "Storitev za souporabo map"
 
 #: ../src/services/service.c:40 ../src/services/service.c:41
 msgid "Shares folders over your network"
@@ -1147,7 +1148,7 @@ msgstr "Uskladi računalniško uro s spletnimi časovnimi strežniki"
 #. GST_ROLE_NTP_SERVER
 #: ../src/services/service.c:46
 msgid "Antivirus"
-msgstr "Proti virusni program"
+msgstr "Protivirusni program"
 
 #: ../src/services/service.c:46
 msgid "Analyzes your incoming mail for virus"
@@ -1179,7 +1180,7 @@ msgstr "Dnevnik dejavnosti računalnika"
 
 #: ../src/services/service.c:51
 msgid "Keeps a log of your computer activity"
-msgstr "Piše dnevnik dejavnosti računalnika"
+msgstr "Beleži dnevnik dejavnosti računalnika"
 
 #. GST_ROLE_SYSTEM_LOGGER
 #: ../src/services/service.c:52
@@ -1238,7 +1239,7 @@ msgstr "Strežnik spletnega koledarja"
 #. GST_ROLE_WEB_CALENDAR_SERVER
 #: ../src/services/service.c:62
 msgid "OEM configuration manager"
-msgstr "OEM upravljalnik nastavitev"
+msgstr "Upravljalnik nastavitev OEM"
 
 #. GST_ROLE_OEM_CONFIGURATION_MANAGEMENT
 #: ../src/services/service.c:63
@@ -1253,17 +1254,17 @@ msgstr "Omogočanje prostorskega omejevanja"
 #. GST_ROLE_QUOTA_MANAGEMENT
 #: ../src/services/service.c:65
 msgid "Package index monitor"
-msgstr "Nadzornik paketov"
+msgstr "Nadzornik kazala paketov"
 
 #. GST_ROLE_PACKAGE_INDEX_MONITORING
 #: ../src/services/service.c:66
 msgid "Network service"
-msgstr "Storitve omrežja"
+msgstr "Storitev omrežja"
 
 #. GST_ROLE_NETWORK
 #: ../src/services/service.c:67
 msgid "Dynamic DNS services updater"
-msgstr "Posodabljanje dinamičnih DNS storitev"
+msgstr "Posodobilnik dinamičnih storitev DNS"
 
 #. GST_ROLE_DYNAMIC_DNS_SERVICE
 #: ../src/services/service.c:68
@@ -1273,7 +1274,7 @@ msgstr "Strežnik DHCP"
 #. GST_ROLE_DHCP_SERVER
 #: ../src/services/service.c:69
 msgid "Domain name server"
-msgstr "Imenski strežnik domene"
+msgstr "Strežnik domenskih imen"
 
 #. GST_ROLE_DNS
 #: ../src/services/service.c:70
@@ -1293,7 +1294,7 @@ msgstr "Upravljalnik seznamov pošiljanja pošte"
 #. GST_ROLE_MAILING_LISTS_MANAGER
 #: ../src/services/service.c:73
 msgid "Multicast DNS service discovery"
-msgstr "Odkrivanje oddajanja DNS storitev"
+msgstr "Odkrivanje oddajanja storitev DNS"
 
 #. GST_ROLE_RENDEZVOUS
 #: ../src/services/service.c:74
@@ -1303,17 +1304,17 @@ msgstr "Razreševalnik podrobnosti računov"
 #. GST_ROLE_NSS
 #: ../src/services/service.c:75
 msgid "Virtual Private Network server"
-msgstr "Navidezni strežnik VPN"
+msgstr "Navidezni zasebni strežnik (VPN)"
 
 #. GST_ROLE_VPN_SERVER
 #: ../src/services/service.c:76
 msgid "Router advertisement server"
-msgstr "Reklamni usmerjevalni strežnik"
+msgstr "Usmerjevalniško reklamni strežnik"
 
 #. GST_ROLE_ROUTER_ADVERTISEMENT_SERVER
 #: ../src/services/service.c:77
 msgid "IPSec key exchange server"
-msgstr "Izmenjalni strežnik IPSec"
+msgstr "Strežnik za Izmenjavo ključev IPSec"
 
 #. GST_ROLE_IPSEC_KEY_EXCHANGE_SERVER
 #: ../src/services/service.c:78
@@ -1333,7 +1334,7 @@ msgstr "Usmerjevalni strežnik"
 #. GST_ROLE_ROUTE_SERVER
 #: ../src/services/service.c:81
 msgid "RPC mapper"
-msgstr "Preslikavanje RPC"
+msgstr "Preslikovalnik RPC"
 
 #. GST_ROLE_RPC_MAPPER
 #: ../src/services/service.c:82
@@ -1348,7 +1349,7 @@ msgstr "Strežniški terminalski odjemalec"
 #. GST_ROLE_LTSP_CLIENT
 #: ../src/services/service.c:84
 msgid "Audio settings management"
-msgstr "Upravljalnik zvočnih nastavitev"
+msgstr "Upravljanje zvočnih nastavitev"
 
 #. GST_ROLE_AUDIO_MANAGEMENT
 #: ../src/services/service.c:85
@@ -1372,7 +1373,7 @@ msgstr "Upravljanje z Braille zaslonom"
 #. GST_ROLE_BRAILLE_DISPLAY_MANAGEMENT
 #: ../src/services/service.c:88
 msgid "Bluetooth device management"
-msgstr "Upravljanje z Bluetooth napravami"
+msgstr "Upravljanje z napravami Bluetooth"
 
 #. GST_ROLE_BLUETOOTH_MANAGEMENT
 #: ../src/services/service.c:89
@@ -1387,12 +1388,12 @@ msgstr "Upravljanje tipkovnih povezav"
 #. GST_ROLE_HOTKEYS_MANAGEMENT
 #: ../src/services/service.c:91
 msgid "Power management"
-msgstr "Upravljanje napajanja"
+msgstr "Upravljanje porabe energije"
 
 #. GST_ROLE_POWER_MANAGEMENT
 #: ../src/services/service.c:92
 msgid "Logical volume management"
-msgstr "Upravljalnik logičnih enot"
+msgstr "Upravljanje logičnih nosilcev"
 
 #. GST_ROLE_LVM_MANAGEMENT
 #: ../src/services/service.c:93
@@ -1402,17 +1403,17 @@ msgstr "Orodje za upravljanje gruč"
 #. GST_ROLE_CLUSTER_MANAGEMENT
 #: ../src/services/service.c:94
 msgid "Fax settings management"
-msgstr "Upravljalnik nastavitev faksa"
+msgstr "Upravljanje nastavitev faksa"
 
 #. GST_ROLE_FAX_MANAGEMENT
 #: ../src/services/service.c:95
 msgid "RAID disks management"
-msgstr "Upravljalnik RAID diskov"
+msgstr "Upravljanje RAID diskov"
 
 #. GST_ROLE_RAID_MANAGEMENT
 #: ../src/services/service.c:96
 msgid "Graphic tablets management"
-msgstr "Upravljanje grafični tablic"
+msgstr "Upravljanje grafičnih tablic"
 
 #. GST_ROLE_GRAPHIC_TABLETS_MANAGEMENT
 #: ../src/services/service.c:97
@@ -1422,7 +1423,7 @@ msgstr "Upravljalnik frekvence CPE"
 #. GST_ROLE_CPUFREQ_MANAGEMENT
 #: ../src/services/service.c:98
 msgid "Eagle USB ADSL modems manager"
-msgstr "Upravljalnik Eagle USB ADSL modemov"
+msgstr "Upravljalnik modemov Eagle USB ADSL"
 
 #. GST_ROLE_EAGLE_USB_MODEMS_MANAGEMENT
 #: ../src/services/service.c:99
@@ -1432,12 +1433,12 @@ msgstr "Upravljanje nastavitev serijskih vrat"
 #. GST_ROLE_SERIAL_PORTS_MANAGEMENT
 #: ../src/services/service.c:100
 msgid "ISDN modems manager"
-msgstr "Upravljalnik ISDN modemov"
+msgstr "Upravljalnik modemov ISDN"
 
 #. GST_ROLE_ISDN_MANAGEMENT
 #: ../src/services/service.c:101
 msgid "Telstra Bigpond Cable Network client"
-msgstr "Odjemalec Telstra Bigpond Cable omrežja"
+msgstr "Odjemalec omrežja Telstra Bigpond Cable"
 
 #. GST_ROLE_TELSTRA_BIGPOND_NETWORK_CLIENT
 #: ../src/services/service.c:102
@@ -1460,7 +1461,7 @@ msgstr "Storitve"
 
 #: ../src/services/mate-services.desktop.in.in.h:2
 msgid "Configure which services will be run when the system starts"
-msgstr "Nastavite, katere storitve naj se zaženejo, ko se zažene sistem"
+msgstr "Nastavite, katere storitve naj se zaženejo ob zagonu sistema"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1517,7 +1518,7 @@ msgstr "_Souporaba mape ..."
 
 #: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
-msgstr "Souporaba mape z ostalimi računalniki"
+msgstr "Souporaba te mape z ostalimi računalniki"
 
 #: ../src/shares/nfs-acl-table.c:50
 msgid "Allowed host/network"
@@ -1549,16 +1550,16 @@ msgstr "Ne souporabljaj"
 
 #: ../src/shares/share-settings.c:152
 msgid "Windows networks (SMB)"
-msgstr "Windows omrežja (SMB)"
+msgstr "Omrežja Windows (SMB)"
 
 #: ../src/shares/share-settings.c:160
 msgid "Unix networks (NFS)"
-msgstr "Unix omrežja (NFS)"
+msgstr "Omrežja Unix (NFS)"
 
 #: ../src/shares/share-settings.c:462
 #, c-format
 msgid "Settings for folder '%s'"
-msgstr "Nastavitve nape '%s'"
+msgstr "Nastavitve mape '%s'"
 
 #: ../src/shares/share-settings.c:469
 msgid "Share Folder"
@@ -1566,13 +1567,13 @@ msgstr "Souporaba mape"
 
 #: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
-msgstr "Storitve deljenja niso nameščene"
+msgstr "Storitve souporabe niso nameščene"
 
 #: ../src/shares/shares-tool.c:154
 msgid ""
 "You need to install at least either Samba or NFS in order to share your "
 "folders."
-msgstr "Namestiti morate vsaj Sambo ali NFS za souporabo mape."
+msgstr "Za souporabo map morate namestiti vsaj Sambo ali NFS."
 
 #: ../src/time/e-map/e-map.c:620
 msgid "World Map"
@@ -1582,7 +1583,7 @@ msgstr "Zemljevid sveta"
 msgid ""
 "Mouse-based interactive map widget for selecting timezone. Keyboard users "
 "should instead select the timezone from the drop-down combination box below."
-msgstr "Gradnik za izbor časovnega pasu z miško na zemljevidu. Uporabniki tipkovnice lahko časovni pas izberejo iz spodnjega spustnega polja."
+msgstr "Gradnik za izbor časovnega pasu na zemljevidu s pomočjo miške. Uporabniki tipkovnice lahko časovni pas izberejo iz spodnjega spustnega polja."
 
 #: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
@@ -1600,7 +1601,7 @@ msgstr "Podpora za NTP ni nameščena"
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr "Namestite in vključite podporo za NTP da bi vključili usklajevanje vašega krajevnega časovnega strežnika s spletnimi časovnimi strežniki."
+msgstr "Namestite in omogočite podporo za NTP, da bi vključili usklajevanje vašega krajevnega časovnega strežnika s spletnimi časovnimi strežniki."
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
@@ -1687,22 +1688,22 @@ msgstr "Izberite drugo ime skupine."
 
 #: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
-msgstr "Skrbniški ID skupine ne sme biti spremenjen"
+msgstr "ID skupine skrbniškega računa ne sme biti spremenjen"
 
 #. check that GID is free
 #: ../src/users/group-settings.c:261
 #, c-format
 msgid "Group ID %d is already used by group \"%s\""
-msgstr "Skupinski ID %d je že uporabljen pri skupini \"%s\""
+msgstr "ID skupine %d je že uporabljen pri skupini \"%s\""
 
 #: ../src/users/group-settings.c:264
 msgid "Please choose a different numeric identifier for the new group."
-msgstr "Izberite drugo številčno določilo nove skupine \"%s\"."
+msgstr "Izberite drugo številsko določilo za novo skupino."
 
 #: ../src/users/group-settings.c:266
 #, c-format
 msgid "Please choose a different numeric identifier for group \"%s\"."
-msgstr "Izberite drugo številčno določilo skupine \"%s\"."
+msgstr "Izberite drugo številsko določilo za skupino \"%s\"."
 
 #: ../src/users/groups-table.c:44
 msgid "Group name"
@@ -1715,15 +1716,15 @@ msgstr "Ne vprašaj ob prijavi"
 
 #: ../src/users/main.c:74 ../src/users/user-settings.c:349
 msgid "Asked on login"
-msgstr "Vprašanje ob prijavi"
+msgstr "Vprašaj ob prijavi"
 
 #: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
-msgstr "Nadzor sistema beleženja"
+msgstr "Nadzor sistemskih dnevnikov"
 
 #: ../src/users/privileges-table.c:54
 msgid "Administer the system"
-msgstr "Oskrbovanje sistema"
+msgstr "Upravljanje sistema"
 
 #: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
@@ -1731,7 +1732,7 @@ msgstr "Uporabi zvočne naprave"
 
 #: ../src/users/privileges-table.c:56
 msgid "Use CD-ROM drives"
-msgstr "Uporabi CD naprave"
+msgstr "Uporabi pogone CD-ROM"
 
 #: ../src/users/privileges-table.c:57
 msgid "Burn CDs / DVDs"
@@ -1739,7 +1740,7 @@ msgstr "Zapisovanje CD-jev in DVD-jev"
 
 #: ../src/users/privileges-table.c:58
 msgid "Use modems"
-msgstr "Uporabi modem"
+msgstr "Uporabi modeme"
 
 #: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
@@ -1755,7 +1756,7 @@ msgstr "Uporabi disketni pogon"
 
 #: ../src/users/privileges-table.c:62
 msgid "Mount user-space filesystems (FUSE)"
-msgstr "Priklopi uporabniški datotečni sistem (FUSE)"
+msgstr "Priklopi uporabniške datotečne sisteme (FUSE)"
 
 #: ../src/users/privileges-table.c:63
 msgid "Configure printers"
@@ -1763,7 +1764,7 @@ msgstr "Nastavitev tiskalnikov"
 
 #: ../src/users/privileges-table.c:64
 msgid "Connect to wireless and ethernet networks"
-msgstr "Povazava v brežžična ali žična omrežja"
+msgstr "Povezava z brežžičnimi ali žičnimi omrežji"
 
 #: ../src/users/privileges-table.c:65
 msgid "Access external storage devices automatically"
@@ -1771,11 +1772,11 @@ msgstr "Samodejni dostop do zunanjih diskovnih naprav"
 
 #: ../src/users/privileges-table.c:66
 msgid "Suspend and hibernate the computer"
-msgstr "Hiberniranje in mirovanje računalnika"
+msgstr "Postavi računalnik v način pripravljenosti ali mirovanja"
 
 #: ../src/users/privileges-table.c:67
 msgid "Access /proc filesystem"
-msgstr "Dostop do /proc datotečnega sistema"
+msgstr "Dostop do datotečnega sistema /proc"
 
 #: ../src/users/privileges-table.c:68
 msgid "Use scanners"
@@ -1787,11 +1788,11 @@ msgstr "Uporabi tračni pogon"
 
 #: ../src/users/privileges-table.c:70
 msgid "Use USB devices"
-msgstr "Uporabi USB naprave"
+msgstr "Uporabi naprave USB"
 
 #: ../src/users/privileges-table.c:71
 msgid "Use VirtualBox virtualization solution"
-msgstr "Uporabi VirtualBox sistem"
+msgstr "Uporabi virtualizacijsko rešitev VirtualBox"
 
 #: ../src/users/privileges-table.c:72
 msgid "Use video devices"
@@ -1809,7 +1810,7 @@ msgstr "Uporabnik namizja"
 msgid ""
 "Can perform common tasks. Can't install software or change settings "
 "affecting all users."
-msgstr "Mogoče je opravljati splošne naloge, ni pa mogoče spreminjati nastavitev, ki vplivajo na vse uporabnike."
+msgstr "Mogoče je opravljati splošne naloge. Ni pa mogoče namestiti programske opreme ali spreminjati nastavitev, ki vplivajo na vse uporabnike."
 
 #: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
@@ -1819,11 +1820,11 @@ msgstr "Skrbnik"
 msgid ""
 "Can change anything on the system, including installing and upgrading "
 "software."
-msgstr "Spremeniti je mogoče vse nastavitve, vključno z nameščanjem in posodabljanjem sistema."
+msgstr "Spremeniti je mogoče vse nastavitve, vključno z nameščanjem in posodabljanjem programske opreme."
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
-msgstr "Overitev ni uspela"
+msgstr "Overitev je spodletela"
 
 #: ../src/users/run-passwd.c:498
 #, c-format
@@ -1838,17 +1839,17 @@ msgstr "Novo geslo je preveč enostavno"
 #: ../src/users/run-passwd.c:510
 #, c-format
 msgid "The old and new passwords are too similar"
-msgstr "Staro in novo geslo sta si preveč podobna."
+msgstr "Staro in novo geslo sta si preveč podobna"
 
 #: ../src/users/run-passwd.c:513
 #, c-format
 msgid "The new password must contain numeric or special characters"
-msgstr "Novo geslo mora vsebovati številke ali posebne znake."
+msgstr "Novo geslo mora vsebovati številke ali posebne znake"
 
 #: ../src/users/run-passwd.c:517
 #, c-format
 msgid "The old and new passwords are the same"
-msgstr "Staro in novo geslo je enako."
+msgstr "Staro in novo geslo je enako"
 
 #: ../src/users/run-passwd.c:520
 #, c-format
@@ -1881,7 +1882,7 @@ msgstr "Geslo je prekratko"
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr "Uporabniško geslo mora biti daljše od 5 znakov in sestavljeno iz črk, številk in drugih znakov."
+msgstr "Uporabniško geslo mora biti daljše od 5 znakov in sestavljeno iz črk, številk in posebnih znakov."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1901,7 +1902,7 @@ msgstr "Znova vnesite trenutno geslo."
 
 #: ../src/users/user-password.c:463
 msgid "Password could not be changed"
-msgstr "Gesla ni mogoče spremeniti."
+msgstr "Gesla ni mogoče spremeniti"
 
 #: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
@@ -1914,7 +1915,7 @@ msgstr "%si trenutno uporablja računalnik"
 
 #: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
-msgstr "Prepričajte se, da se je uporabnik odjavil pred izbrisanjem računa."
+msgstr "Prepričajte se, da se je uporabnik odjavil pred izbrisom tega računa."
 
 #: ../src/users/user-settings.c:109
 msgid "Can't delete the only administrator account"
@@ -1925,7 +1926,7 @@ msgstr "Ni mogoče izbrisati edinega skrbniškega računa"
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr "%s je edini skrbnik tega sistema. Z izbrisom tega računa, onemogočite nadaljnje izvajanje skrbniških opravil celotnega sistema."
+msgstr "%s je edini skrbnik tega sistema. Z izbrisom tega računa onemogočite nadaljnje izvajanje skrbniških opravil celotnega sistema."
 
 #: ../src/users/user-settings.c:121
 #, c-format
@@ -1938,7 +1939,7 @@ msgid ""
 "Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
 " need them anymore. You may want to back them up before deleting the "
 "account, or keep them so that an administrator can save them later."
-msgstr "Datoteke, katerih lastnik je uporabnik %s v <tt>%s</tt> je mogoče trajno odstraniti. Priporočljivo je narediti varnostne kopije teh datotek, preden se račun dokončno izbriše."
+msgstr "Datoteke, katerih lastnik je uporabnik %s v <tt>%s</tt>, je mogoče trajno odstraniti. Priporočljivo je narediti varnostne kopije teh datotek, preden se račun dokončno izbriše."
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
@@ -1954,7 +1955,7 @@ msgstr "Izbriši datoteke"
 
 #: ../src/users/user-settings.c:330
 msgid "Superuser"
-msgstr "Izkušeni uporabnik"
+msgstr "Skrbnik"
 
 #: ../src/users/user-settings.c:335
 msgid "Custom"
@@ -1982,7 +1983,7 @@ msgstr "Nepopolna pot v domači imenik"
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr "Vnesite celo pot za domačo mapo\n<span size=\"smaller\">npr.: /home/janez</span>."
+msgstr "Vnesite celotno pot za domačo mapo\n<span size=\"smaller\">npr.: /home/janez</span>."
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
@@ -2045,7 +2046,7 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
 "If you choose to copy the files to the new location, it's safe to delete the old directory."
-msgstr "Domača mapa %s je nastavljena na <tt>%s</tt>, ki pa ne obstaja. Ali želite kopirati vsebino stare domače mape (<tt>%s</tt>), ali pa uporabiti povsem prazno domačo mapo?\n\nV kolikor želite kopirati vsebino, lahko staro mapo varno izbrišete."
+msgstr "Domača mapa %s je nastavljena na <tt>%s</tt>, ki pa ne obstaja. Ali želite kopirati vsebino stare domače mape (<tt>%s</tt>) ali uporabiti povsem prazno domačo mapo?\n\nV kolikor želite kopirati vsebino, lahko staro mapo varno izbrišete."
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
@@ -2064,12 +2065,12 @@ msgstr "ID skrbnika ni dovoljeno spreminjati"
 #: ../src/users/user-settings.c:608
 #, c-format
 msgid "User ID %d is already used by user %s"
-msgstr "Uporabniški ID %d je že uporabljen pri uporabniku %s"
+msgstr "Uporabniški ID %d že uporablja uporabnik %s"
 
 #: ../src/users/user-settings.c:610
 #, c-format
 msgid "Please choose a different numeric identifier for %s."
-msgstr "Izberite drugo številčno določilo za %s."
+msgstr "Izberite drugo številsko določilo za %s."
 
 #: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
@@ -2090,7 +2091,7 @@ msgstr "Ni mogoče povrniti skrbniških dovoljenj"
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr "%s je edini skrbnik tega sistema. S preklicom skrbniških dovoljenj za ta račun, onemogočite nadaljnje izvajanje skrbniških opravil celotnega sistema."
+msgstr "%s je edini skrbnik tega sistema. S preklicom skrbniških dovoljenj za ta račun onemogočite nadaljnje izvajanje skrbniških opravil celotnega sistema."
 
 #: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
@@ -2113,4 +2114,4 @@ msgstr "Uveljavljanje sprememb nastavitev uporabnika ..."
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
-msgstr "Nastavitev uporabnika"
+msgstr "Nastavitev uporabnikov"

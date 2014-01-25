@@ -3,21 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# wanderlust <wanderlust@ukr.net>, 2009.
-# Yuri Syrota <rasta@cvs.mate.org>, 2000.
+# Koljan1970 <Stuartlittle1970@gmail.com>, 2013
+# wanderlust <wanderlust@ukr.net>, 2009
+# Yuri Syrota <rasta@cvs.mate.org>, 2000
+# zubr139 <zubr139@ukr.net>, 2013
+# zubr139 <zubr139@ukr.net>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:52+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-06-15 12:32+0000\n"
+"Last-Translator: Koljan1970 <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
@@ -61,7 +64,7 @@ msgstr "Зберегти поточну конфігурацію мережі у
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
-msgstr "Видалити поточне розташування"
+msgstr "Виkexbnb поточне розташування"
 
 #: ../interfaces/network.ui.h:12
 msgid "Connections"
@@ -157,7 +160,7 @@ msgstr "_Локальна IP-адреса:"
 
 #: ../interfaces/network.ui.h:35
 msgid "_Remote IP:"
-msgstr "_Віддала IP-адреса:"
+msgstr "_Віддалена IP-адреса:"
 
 #: ../interfaces/network.ui.h:36
 msgid "_Phone number:"
@@ -169,7 +172,7 @@ msgstr "Префікс _набору номера:"
 
 #: ../interfaces/network.ui.h:38 ../src/network/ifaces-list.c:326
 msgid "Access point name:"
-msgstr "Назва точки доступу:ю"
+msgstr "Назва точки доступу:"
 
 #: ../interfaces/network.ui.h:39
 msgid "Internet service provider data"
@@ -459,7 +462,7 @@ msgstr "Члени групи"
 
 #: ../interfaces/users.ui.h:13
 msgid "Profile Settings"
-msgstr ""
+msgstr "Налаштування профілю"
 
 #: ../interfaces/users.ui.h:14
 msgid "Profile _name:"
@@ -487,7 +490,7 @@ msgstr "Типова _група:"
 
 #: ../interfaces/users.ui.h:20
 msgid "Password Settings"
-msgstr "Параметри пароля"
+msgstr "Параметри паролю"
 
 #: ../interfaces/users.ui.h:21
 msgid "Number of days that a password may be used:"
@@ -543,11 +546,11 @@ msgstr "Параметри груп"
 
 #: ../interfaces/users.ui.h:35
 msgid "Groups available on the system:"
-msgstr ""
+msgstr "Групи доступні у системі:"
 
 #: ../interfaces/users.ui.h:36
 msgid "Change User Name"
-msgstr ""
+msgstr "Змінити ім'я користувача"
 
 #: ../interfaces/users.ui.h:37
 msgid "Full _Name:"
@@ -591,7 +594,7 @@ msgstr "Зміна паролю для:"
 
 #: ../interfaces/users.ui.h:47
 msgid "Don't ask for password on _login"
-msgstr "Не запитувати пароль при в_ході в систему"
+msgstr "Не запитувати пароль при в_ході у систему"
 
 #: ../interfaces/users.ui.h:48
 msgid "_Current password:"
@@ -635,17 +638,17 @@ msgid ""
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
+msgstr "У короткому імені користувача припустимі:\n  ➣ малі латинські літери\n  ➣ цифри\n  ➣ символи «.», «-» и «_»"
 
 #: ../interfaces/users.ui.h:62
 msgid ""
 "A user with this name already exists. Please choose a different name for the"
 " new user."
-msgstr ""
+msgstr "Користувач з таким ім'ям уже існує. Будь ласка, виберіть інше ім'я для нового користувача."
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
-msgstr ""
+msgstr "Ім'я користувача повинно починатися з літери!"
 
 #: ../interfaces/users.ui.h:64
 msgid "_Encrypt home folder to protect sensitive data"
@@ -656,7 +659,7 @@ msgid ""
 "Encrypt all your files with your login password to strongly protect them "
 "from people with physical access to your computer, at the expense of a "
 "slightly reduced performance."
-msgstr "Зашифрувати всі ваші файли паролем входу у систему для надійності захисту від людей, що мають фізичний доступ до комп'ютера, незважаючи на незначне зниження швидкодії."
+msgstr "Зашифрувати усі ваші файли паролем входу у систему для надійності захисту від людей, що мають фізичний доступ до комп'ютера, незважаючи на незначне зниження швидкодії."
 
 #: ../interfaces/users.ui.h:66
 msgid "Change Advanced User Settings"
@@ -680,7 +683,7 @@ msgstr "_Домашній телефон:"
 
 #: ../interfaces/users.ui.h:71
 msgid "Contact Information"
-msgstr ""
+msgstr "Контактна інформація"
 
 #: ../interfaces/users.ui.h:72
 msgid "User Privileges"
@@ -732,21 +735,21 @@ msgstr "Додатково"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
-msgstr ""
+msgstr "Показати користувачів системи"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
 "Whether the users-admin tool should show system users in the users list."
-msgstr ""
+msgstr "Чи показувати системних користувачів у загальному списку у програмі налаштування користувачів."
 
 #: ../org.mate.system-tools.gschema.xml.in.h:3
 msgid "Show root user"
-msgstr ""
+msgstr "Показати користувача root"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
 "Whether the users-admin tool should show the root user in the users list."
-msgstr ""
+msgstr "Чи показувати користувача root у загальному списку у програмі налаштування користувачів."
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -775,12 +778,12 @@ msgstr "Не вдається зберегти конфігурацію"
 
 #: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
-msgstr "У вас немає прав доступу до параметрів системи."
+msgstr "В вас немає прав доступу до параметрів системи."
 
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
-msgstr "У вас немає прав на зміну конфігурації системи."
+msgstr "В вас немає прав на зміну конфігурації системи."
 
 #: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
@@ -818,7 +821,7 @@ msgstr "_Додати"
 #: ../src/network/address-list.c:77 ../src/network/hosts.c:33
 #: ../src/shares/table.c:40 ../src/users/table.c:42
 msgid "_Delete"
-msgstr "В_идалити"
+msgstr "В_илучити"
 
 #: ../src/network/address-list.c:485
 msgid "Type address"
@@ -826,7 +829,7 @@ msgstr "Тип адреси"
 
 #: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
-msgstr "Зміна параметрів інтерфейу"
+msgstr "Зміна параметрів інтерфейсу"
 
 #: ../src/network/callbacks.c:299
 msgid "Could not autodetect modem device"
@@ -840,7 +843,7 @@ msgstr "Перевірте, що пристрій не зайнятий та к�
 
 #: ../src/network/callbacks.c:523
 msgid "The host name has changed"
-msgstr "Змінилась назва вузла"
+msgstr "Змінилася назва вузла"
 
 #: ../src/network/callbacks.c:526
 msgid ""
@@ -925,29 +928,29 @@ msgstr "Увімкнено режим роумінгу"
 #: ../src/network/ifaces-list.c:289
 #, c-format
 msgid "<b>Essid:</b> %s "
-msgstr ""
+msgstr "<b>Essid:</b> %s "
 
 #: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
 #: ../src/network/ifaces-list.c:306
 msgid "Address:"
-msgstr ""
+msgstr "Адреса:"
 
 #: ../src/network/ifaces-list.c:298
 msgid "Subnet mask:"
-msgstr ""
+msgstr "Маска підмережі:"
 
 #: ../src/network/ifaces-list.c:308
 msgid "Remote address:"
-msgstr ""
+msgstr "Вилучена адреса:"
 
 #: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
 #: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
 msgid "Type:"
-msgstr ""
+msgstr "Тип:"
 
 #: ../src/network/ifaces-list.c:321
 msgid "Phone number:"
-msgstr ""
+msgstr "Номер телефону:"
 
 #: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
@@ -992,7 +995,7 @@ msgstr "Назва _розташування:"
 #: ../src/network/locations-combo.c:422
 #, c-format
 msgid "Do you want to delete location \"%s\"?"
-msgstr "Видалити розташування \"%s\"?"
+msgstr "Вилучити розташування \"%s\"?"
 
 #: ../src/network/main.c:135
 msgid "The interface does not exist"
@@ -1143,7 +1146,7 @@ msgstr "Служба синхронізації годинників"
 
 #: ../src/services/service.c:44
 msgid "Synchronizes your computer clock with Internet time servers"
-msgstr "Синхронізує годинник вашого комп'ютера з серверами часу в Інтернет"
+msgstr "Синхронізує годинник вашого комп'ютера з серверами часу у Інтернет"
 
 #. GST_ROLE_NTP_SERVER
 #: ../src/services/service.c:46
@@ -1161,7 +1164,7 @@ msgstr "Мережний фільтр"
 
 #: ../src/services/service.c:47
 msgid "Blocks undesired network access to your computer"
-msgstr "Блокує доступ небажаної мережі до вашому комп'ютеру"
+msgstr "Блокує доступ небажаної мережі до вашого комп'ютеру"
 
 #. GST_ROLE_FIREWALL_MANAGEMENT
 #: ../src/services/service.c:49
@@ -1254,12 +1257,12 @@ msgstr "Вмикання дискової квоти"
 #. GST_ROLE_QUOTA_MANAGEMENT
 #: ../src/services/service.c:65
 msgid "Package index monitor"
-msgstr "Монітор індексу пакетів"
+msgstr "Монітор індексу пакунків"
 
 #. GST_ROLE_PACKAGE_INDEX_MONITORING
 #: ../src/services/service.c:66
 msgid "Network service"
-msgstr "Мережна служба "
+msgstr "Мережна служба"
 
 #. GST_ROLE_NETWORK
 #: ../src/services/service.c:67
@@ -1354,11 +1357,11 @@ msgstr "Керування параметрами звуку"
 #. GST_ROLE_AUDIO_MANAGEMENT
 #: ../src/services/service.c:85
 msgid "Volumes mounter"
-msgstr "Підключення розділів"
+msgstr "Монтування розділів"
 
 #: ../src/services/service.c:85
 msgid "Mounts your volumes automatically"
-msgstr "Автоматично підключає ваші розділи"
+msgstr "Автоматично монтує ваші розділи"
 
 #. GST_ROLE_AUTOMOUNTER
 #: ../src/services/service.c:86
@@ -1498,7 +1501,7 @@ msgstr "Параметри служб"
 
 #: ../src/shares/callbacks.c:196
 msgid "Are you sure you want to delete this share?"
-msgstr "Ви дійсно бажаєте видалити цей спільний ресурс?"
+msgstr "Ви справді бажаєте вилучити цей спільний ресурс?"
 
 #: ../src/shares/callbacks.c:198
 msgid "Other computers in your network will stop viewing this."
@@ -1577,13 +1580,13 @@ msgstr "Для надання спільного доступу до ваших 
 
 #: ../src/time/e-map/e-map.c:620
 msgid "World Map"
-msgstr ""
+msgstr "Мапа світу"
 
 #: ../src/time/e-map/e-map.c:622
 msgid ""
 "Mouse-based interactive map widget for selecting timezone. Keyboard users "
 "should instead select the timezone from the drop-down combination box below."
-msgstr ""
+msgstr "Графічний елемент для вибору часового пояса мишкою. Якщо є лише клавіатура, тоді краще вибрати часовий пояс у випадаючому списку нижче."
 
 #: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
@@ -1629,7 +1632,7 @@ msgstr "Параметри дати й часу"
 
 #: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
-msgstr "Групу адміністраторів не можна видаляти"
+msgstr "Групу адміністраторів не можна вилучати"
 
 #: ../src/users/group-settings.c:58 ../src/users/group-settings.c:221
 #: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
@@ -1640,7 +1643,7 @@ msgstr "Це може привести систему до непрацезда�
 #: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
-msgstr "Ви дійсно бажаєте видалити групу \"%s\"?"
+msgstr "Ви справді бажаєте вилучити групу \"%s\"?"
 
 #: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
@@ -1665,7 +1668,7 @@ msgstr "Необхідно вказати назву групи."
 
 #: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
-msgstr "Назва групи адміністратора не повинна змінюватись"
+msgstr "Назва групи адміністратора не повинна змінюватися"
 
 #: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
@@ -1688,7 +1691,7 @@ msgstr "Вкажіть іншу назву групи."
 
 #: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
-msgstr "Ідентифікатор групи адміністратора не повинен змінюватись"
+msgstr "Ідентифікатор групи адміністратора не повинен змінюватися"
 
 #. check that GID is free
 #: ../src/users/group-settings.c:261
@@ -1744,7 +1747,7 @@ msgstr "Використовувати модеми"
 
 #: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
-msgstr "З'єднуватись з Інтернет, використовуючи модем"
+msgstr "З'єднуватися з Інтернет, використовуючи модем"
 
 #: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
@@ -1756,7 +1759,7 @@ msgstr "Використовувати дисководи гнучких дис�
 
 #: ../src/users/privileges-table.c:62
 msgid "Mount user-space filesystems (FUSE)"
-msgstr "Підключення файлових систем у просторі користувача (FUSE)"
+msgstr "Монтування файлових систем у просторі користувача (FUSE)"
 
 #: ../src/users/privileges-table.c:63
 msgid "Configure printers"
@@ -1820,7 +1823,7 @@ msgstr "Адміністратор"
 msgid ""
 "Can change anything on the system, including installing and upgrading "
 "software."
-msgstr "Може змінювати у системі що завгодно, включаючи встановлення та видалення програм."
+msgstr "Може змінювати у системі що завгодно, включаючи встановлення та вилучення програм."
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
@@ -1854,7 +1857,7 @@ msgstr "Старий та новий паролі збігаються"
 #: ../src/users/run-passwd.c:520
 #, c-format
 msgid "The new password has already been used recently."
-msgstr ""
+msgstr "Новий пароль вже використовувався не так давно."
 
 #: ../src/users/run-passwd.c:524
 #, c-format
@@ -1882,7 +1885,7 @@ msgstr "Пароль надто короткий"
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr ""
+msgstr "Пароль користувача має містити більше 5 символів й, бажано, складатися з чисел, літер та спеціальних символів."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1890,7 +1893,7 @@ msgstr "Підтвердження паролю некоректне"
 
 #: ../src/users/user-password.c:102
 msgid "Check that you have provided the same password in both text fields."
-msgstr "Переконайтесь, що ви вказали однаковий пароль у обох текстових полях."
+msgstr "Переконайтеся, що ви вказали однаковий пароль у обох текстових полях."
 
 #: ../src/users/user-password.c:445
 msgid "Please choose another password."
@@ -1906,7 +1909,7 @@ msgstr "Неможливо змінити пароль"
 
 #: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
-msgstr "Обліковий запис адміністратора видаляти не можна"
+msgstr "Обліковий запис адміністратора вилучати не можна"
 
 #: ../src/users/user-settings.c:96
 #, c-format
@@ -1915,23 +1918,23 @@ msgstr "Користувач %s наразі користується цим к�
 
 #: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
-msgstr "Перед видаленням користувача, перевірте, що він не працює у системі."
+msgstr "Перед вилученням користувача, перевірте, що він не працює у системі."
 
 #: ../src/users/user-settings.c:109
 msgid "Can't delete the only administrator account"
-msgstr "Не можна видаляти обліковий запис адміністратора"
+msgstr "Не можна вилучати обліковий запис адміністратора"
 
 #: ../src/users/user-settings.c:111
 #, c-format
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr "%s - єдиний адміністратор цього комп'ютера. Видалення цього облікового запису зробить неможливим адміністрування комп'ютера."
+msgstr "%s - єдиний адміністратор цього комп'ютера. Вилучення цього облікового запису зробить неможливим адміністрування комп'ютера."
 
 #: ../src/users/user-settings.c:121
 #, c-format
 msgid "Remove home folder for %s?"
-msgstr "Видалити домашню теку користувача %s?"
+msgstr "Вилучити домашню теку користувача %s?"
 
 #: ../src/users/user-settings.c:124
 #, c-format
@@ -1939,7 +1942,7 @@ msgid ""
 "Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
 " need them anymore. You may want to back them up before deleting the "
 "account, or keep them so that an administrator can save them later."
-msgstr "Файли користувача %s у <tt>%s</tt> можна повністю видалити. Але можна залишити їх для створення резервної копії перед видаленням облікового запису, чи щоб адміністратор міг зберегти їх пізніше."
+msgstr "Файли користувача %s у <tt>%s</tt> можна повністю вилучити. Але можна залишити їх для створення резервної копії перед вилученням облікового запису, чи щоб адміністратор міг зберегти їх пізніше."
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
@@ -1951,11 +1954,11 @@ msgstr "Залишити обліковий запис"
 
 #: ../src/users/user-settings.c:134
 msgid "Delete Files"
-msgstr "Видалити файли"
+msgstr "Вилучити файли"
 
 #: ../src/users/user-settings.c:330
 msgid "Superuser"
-msgstr "Привілейований користувача"
+msgstr "Привілейований користувач"
 
 #: ../src/users/user-settings.c:335
 msgid "Custom"
@@ -1983,11 +1986,11 @@ msgstr "Неповний шлях у домашньому каталозі"
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
+msgstr "Вкажіть повний шлях до домашньої теки\n<span size=\"smaller\">наприклад: /home/john</span>."
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
-msgstr ""
+msgstr "Новий домашній каталог вже існує, використовувати його?"
 
 #: ../src/users/user-settings.c:449
 #, c-format
@@ -1995,30 +1998,30 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
 "In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
-msgstr ""
+msgstr "Домашній каталог для %s було встановлено у <tt>%s</tt>, й він вже існує. Бажаєте використовувати файли з цього каталогу чи скопіювати вміст <tt>%s</tt> у новий домашній каталог, перезаписавши його?\n\nЯкщо не впевнені, використовуйте новий каталог, щоб уникнути втрати даних, а пізніше скопіюйте файли зі старого каталогу."
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
-msgstr ""
+msgstr "_Замінити старими файлами"
 
 #: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
 #: ../src/users/user-settings.c:540
 msgid "_Cancel Change"
-msgstr ""
+msgstr "_Скасувати зміну"
 
 #. TRANSLATORS: This means "use the files from the new location",
 #. * as opposed to those from the old location.
 #: ../src/users/user-settings.c:465
 msgid "_Use New Files"
-msgstr ""
+msgstr "_Використовувати нові файли"
 
 #: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
 msgid "Make user the _owner of the new home directory"
-msgstr ""
+msgstr "Зробити користувача _власником нового домашнього каталогу"
 
 #: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
 msgid "_Delete old home directory"
-msgstr ""
+msgstr "_Вилучити старий домашній каталог"
 
 #: ../src/users/user-settings.c:493
 #, c-format
@@ -2026,19 +2029,19 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr ""
+msgstr "Домашній каталог для %s було встановлено у <tt>%s</tt>, й він вже існує. Бажаєте використовувати файли з цього каталогу чи вилучити увесь його вміст та використовувати повністю порожній домашній каталог?\n\nЯкщо не впевнені, збережіть файли та вилучіть їх пізніше за необхідності."
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
-msgstr ""
+msgstr "_Вилучити файли"
 
 #: ../src/users/user-settings.c:505
 msgid "_Use Existing Files"
-msgstr ""
+msgstr "_Використовувати файли що існують"
 
 #: ../src/users/user-settings.c:526
 msgid "Copy old home directory to new location?"
-msgstr ""
+msgstr "Скопіювати старий домашній каталог у новий?"
 
 #: ../src/users/user-settings.c:528
 #, c-format
@@ -2046,20 +2049,20 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
 "If you choose to copy the files to the new location, it's safe to delete the old directory."
-msgstr ""
+msgstr "Домашній каталог для %s було встановлено у <tt>%s</tt>, й його не існує. Бажаєте скопіювати вміст старого домашнього каталогу (<tt>%s</tt>) чи використовувати повністю порожній домашній каталог?\n\nЯкщо скопіювати файли у новий каталог, то можливо безпечно вилучити старий каталог."
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
-msgstr ""
+msgstr "_Використовувати порожній каталог"
 
 #. TRANSLATORS: This means "copy files from the old home directory".
 #: ../src/users/user-settings.c:542
 msgid "Co_py Old Files"
-msgstr ""
+msgstr "С_копіювати зі старого каталогу"
 
 #: ../src/users/user-settings.c:604
 msgid "ID for the root user should not be modified"
-msgstr "Ідентифікатор  адміністратора не повинен змінюватись"
+msgstr "Ідентифікатор  адміністратора не повинен змінюватися"
 
 #. check that UID is free
 #: ../src/users/user-settings.c:608
@@ -2080,7 +2083,7 @@ msgstr "Неповний шлях у оболонці"
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
+msgstr "Введіть повний шлях до інтерпретатора командного рядка\n<span size=\"smaller\">наприклад: /bin/bash</span>."
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
@@ -2091,11 +2094,11 @@ msgstr "Неможливо відкликати привілеї адмініс�
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr "%s є єдиним адміністратором цього комп'ютера. Відкликання прав адміністратора для цього облікового запису зробить унеможливить адміністрування комп'ютера."
+msgstr "%s є єдиним адміністратором цього комп'ютера. Відкликання прав адміністратора для цього облікового запису унеможливить адміністрування комп'ютера."
 
 #: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
-msgstr "Ви намагаєтесь відкликати права адміністратора"
+msgstr "Ви намагаєтеся відкликати права адміністратора"
 
 #: ../src/users/user-settings.c:686
 #, c-format
@@ -2110,7 +2113,7 @@ msgstr "Забрати адміністративні права"
 
 #: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
-msgstr ""
+msgstr "Застосування змін до параметрів користувача…"
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"

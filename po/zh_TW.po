@@ -3,23 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2006.
-# Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2004.
-# Ching-Hung Lin <billlin@wshlab2.ee.kuas.edu.tw>, 2006.
-# Kevin_Wei_2 <kevin_wei3@yahoo.com.tw>, 2010.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2006
+# Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2004
+# Ching-Hung Lin <billlin@wshlab2.ee.kuas.edu.tw>, 2006
+# Kevin_Wei_2 <kevin_wei3@yahoo.com.tw>, 2010
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:50+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-05-27 15:50+0000\n"
+"Last-Translator: Wei-Lun Chao <bluebat@member.fsf.org>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/MATE/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
@@ -421,7 +422,7 @@ msgstr "帳號類型(_T):"
 
 #: ../interfaces/users.ui.h:3
 msgid "_Change..."
-msgstr "改變(_C)..."
+msgstr "改變(_C)…"
 
 #: ../interfaces/users.ui.h:4
 msgid "_Password:"
@@ -461,11 +462,11 @@ msgstr "群組成員"
 
 #: ../interfaces/users.ui.h:13
 msgid "Profile Settings"
-msgstr "設定組合設定值"
+msgstr "側寫檔設定值"
 
 #: ../interfaces/users.ui.h:14
 msgid "Profile _name:"
-msgstr "設定組合名稱(_N):"
+msgstr "側寫檔名稱(_N):"
 
 #: ../interfaces/users.ui.h:15
 msgid "_Comments"
@@ -760,11 +761,11 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr "如果您肯定本系統和以下列出的其中一種作業平台運作方式類似，則可以選取該平台並繼續。然而請注意，這樣做有可能會破壞系統的設定甚至損害您的電腦。"
+msgstr "如果您肯定本系統和以下列出的其中一種作業平臺運作方式類似，則可以選取該平臺並繼續。然而請注意，這樣做有可能會破壞系統的設定甚至損害您的電腦。"
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
-msgstr "不支援的平台"
+msgstr "不支援的平臺"
 
 #: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
@@ -1226,7 +1227,7 @@ msgstr "系統設定管理程式"
 #. GST_ROLE_SYSTEM_CONFIGURATION_MANAGEMENT
 #: ../src/services/service.c:59
 msgid "School management platform"
-msgstr "學校管理平台"
+msgstr "學校管理平臺"
 
 #. GST_ROLE_SCHOOL_MANAGEMENT_PLATFORM
 #: ../src/services/service.c:60
@@ -1365,7 +1366,7 @@ msgstr "自動掛載您的裝置"
 #. GST_ROLE_AUTOMOUNTER
 #: ../src/services/service.c:86
 msgid "Infrared port management"
-msgstr "紅外線連接埠管理"
+msgstr "紅外線通訊埠管理"
 
 #. GST_ROLE_INFRARED_MANAGEMENT
 #: ../src/services/service.c:87
@@ -1375,7 +1376,7 @@ msgstr "點字顯示管理"
 #. GST_ROLE_BRAILLE_DISPLAY_MANAGEMENT
 #: ../src/services/service.c:88
 msgid "Bluetooth device management"
-msgstr "藍芽裝置管理"
+msgstr "藍牙裝置管理"
 
 #. GST_ROLE_BLUETOOTH_MANAGEMENT
 #: ../src/services/service.c:89
@@ -1516,7 +1517,7 @@ msgstr "路徑"
 
 #: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
-msgstr "共享資料夾(_S)..."
+msgstr "共享資料夾(_S)…"
 
 #: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
@@ -1928,7 +1929,7 @@ msgstr "不能刪除唯一的系統管理者帳號"
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr "%s 是這台電腦上唯一的系統管理者。刪除這個帳號會導致您無法管理這個系統。"
+msgstr "%s 是這臺電腦上唯一的系統管理者。刪除這個帳號會導致您無法管理這個系統。"
 
 #: ../src/users/user-settings.c:121
 #, c-format
@@ -2093,7 +2094,7 @@ msgstr "不能註銷系統管理者權限"
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr "%s 是這台電腦上唯一的系統管理者。註銷這個帳號的系統管理者權限會導致您無法管理這個系統。"
+msgstr "%s 是這臺電腦上唯一的系統管理者。註銷這個帳號的系統管理者權限會導致您無法管理這個系統。"
 
 #: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
@@ -2112,7 +2113,7 @@ msgstr "放棄系統管理者權限"
 
 #: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
-msgstr "正在套用變更到使用者設定值..."
+msgstr "正在套用變更到使用者設定值…"
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"

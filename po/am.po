@@ -3,36 +3,37 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002
+# samson <sambelet@yahoo.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:51+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-06-08 17:14+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>\n"
+"Language-Team: Amharic (http://www.transifex.com/projects/p/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: am\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
-msgstr ""
+msgstr "ማጥፊያ"
 
 #: ../interfaces/network.ui.h:2
 msgid "Low"
-msgstr ""
+msgstr "ዝቅተኛ"
 
 #: ../interfaces/network.ui.h:3
 msgid "Medium"
-msgstr ""
+msgstr "መካከለኛ"
 
 #: ../interfaces/network.ui.h:4
 msgid "Loud"
-msgstr ""
+msgstr "ከፍተኛ "
 
 #: ../interfaces/network.ui.h:5
 msgid "Tones"
@@ -52,7 +53,7 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:9
 msgid "Location:"
-msgstr "ቦታ፦"
+msgstr "ቦታ:"
 
 #: ../interfaces/network.ui.h:10
 msgid "Save current network configuration as a location"
@@ -60,35 +61,35 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
-msgstr ""
+msgstr "የአሁኑን አካባቢ ማጥፊያ"
 
 #: ../interfaces/network.ui.h:12
 msgid "Connections"
-msgstr ""
+msgstr "ግንኙነቶች"
 
 #: ../interfaces/network.ui.h:13
 msgid "_Host name:"
-msgstr "የእንግዳ ተቀባይ ስም፦ (_H)"
+msgstr "_የጋባዥ ስም:"
 
 #: ../interfaces/network.ui.h:14
 msgid "D_omain name:"
-msgstr ""
+msgstr "የ_ግዛት ስም:"
 
 #: ../interfaces/network.ui.h:15
 msgid "Host Settings"
-msgstr ""
+msgstr "ጋባዥ ማሰናጃዎች"
 
 #: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
 msgid "General"
-msgstr "አጠቃላይ"
+msgstr "ባጠቃላይ"
 
 #: ../interfaces/network.ui.h:17
 msgid "DNS Servers"
-msgstr "የDNS ሰርቨሮች"
+msgstr "የ DNS ሰርቨሮች"
 
 #: ../interfaces/network.ui.h:18
 msgid "Search Domains"
-msgstr ""
+msgstr "ግዛቶች መፈለጊያ"
 
 #: ../interfaces/network.ui.h:19
 msgid "DNS"
@@ -96,15 +97,15 @@ msgstr "DNS"
 
 #: ../interfaces/network.ui.h:20
 msgid "Hosts"
-msgstr "የእንግዳ ተቀባዮች"
+msgstr "ጋባዦች"
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
-msgstr ""
+msgstr "የገጽታ ባህሪዎች"
 
 #: ../interfaces/network.ui.h:22
 msgid "E_nable this connection"
-msgstr ""
+msgstr "ይህን ግንኙነት ማ_ስቻያ"
 
 #: ../interfaces/network.ui.h:23
 msgid "E_nable roaming mode"
@@ -112,23 +113,23 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:24
 msgid "Connection type:"
-msgstr ""
+msgstr "የግንኙነት አይነት:"
 
 #: ../interfaces/network.ui.h:25
 msgid "Network name (_ESSID):"
-msgstr ""
+msgstr "የኔትዎርክ ስም (_ESSID):"
 
 #: ../interfaces/network.ui.h:26
 msgid "Network _password:"
-msgstr ""
+msgstr "የኔትዎርክ _የመግቢያ ቃል:"
 
 #: ../interfaces/network.ui.h:27
 msgid "Password _type:"
-msgstr ""
+msgstr "የመግቢያ ቃል _አይነት:"
 
 #: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
-msgstr ""
+msgstr "ሽቦ አልባ ማሰናጃዎች"
 
 #: ../interfaces/network.ui.h:29
 msgid "Con_figuration:"
@@ -136,7 +137,7 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:30
 msgid "_IP address:"
-msgstr "_IP አድራሻ፦"
+msgstr "_IP አድራሻ:"
 
 #: ../interfaces/network.ui.h:31
 msgid "_Subnet mask:"
@@ -148,19 +149,19 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:33
 msgid "Connection Settings"
-msgstr ""
+msgstr "ግንኙነት ማሰናጃዎች"
 
 #: ../interfaces/network.ui.h:34
 msgid "_Local IP:"
-msgstr "የቅርብ IP፦ (_L)"
+msgstr "_አካባቢ IP:"
 
 #: ../interfaces/network.ui.h:35
 msgid "_Remote IP:"
-msgstr "የየራቀ IP፦ (_R)"
+msgstr "_የርቀት IP:"
 
 #: ../interfaces/network.ui.h:36
 msgid "_Phone number:"
-msgstr ""
+msgstr "_የስልክ ቁጥር:"
 
 #: ../interfaces/network.ui.h:37
 msgid "_Dial prefix:"
@@ -176,11 +177,11 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
 msgid "_Username:"
-msgstr "የተጠቃሚ ስም፦ (_U)"
+msgstr "_የተጠቃሚ ስም:"
 
 #: ../interfaces/network.ui.h:41
 msgid "P_assword"
-msgstr ""
+msgstr "የ_መግቢያ ቃል"
 
 #: ../interfaces/network.ui.h:42
 msgid "Account data"
@@ -188,20 +189,20 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:43
 msgid "_Modem port:"
-msgstr "የሞደም ፖርት፦ (_M)"
+msgstr "የ_ሞደም ፖርት:"
 
 #: ../interfaces/network.ui.h:44
 msgid "_Dial type:"
-msgstr ""
+msgstr "_መደወያ አይነት:"
 
 #. TRANSLATORS: Volume as in loudness
 #: ../interfaces/network.ui.h:46
 msgid "_Volume:"
-msgstr ""
+msgstr "_መጠን:"
 
 #: ../interfaces/network.ui.h:47
 msgid "_Autodetect"
-msgstr ""
+msgstr "_ራሱ በራሱ ፈልጎ እግኚ "
 
 #: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
 msgid "Ethernet interface:"
@@ -209,11 +210,11 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:49
 msgid "Modem Settings"
-msgstr ""
+msgstr "ሞደም ማሰናጃ "
 
 #: ../interfaces/network.ui.h:50
 msgid "Modem"
-msgstr ""
+msgstr "ሞደም "
 
 #: ../interfaces/network.ui.h:51
 msgid "_Set modem as default route to internet"
@@ -237,7 +238,7 @@ msgstr ""
 
 #: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
 msgid "IP address:"
-msgstr "የIP አድራሻ፦"
+msgstr "IP አድራሻ:"
 
 #: ../interfaces/network.ui.h:57
 msgid "Aliases:"
@@ -249,11 +250,11 @@ msgstr ""
 
 #: ../interfaces/services.ui.h:2
 msgid "Advanced settings:"
-msgstr ""
+msgstr "የረቀቀ ማሰናጃዎች:"
 
 #: ../interfaces/shares.ui.h:1
 msgid "_Path:"
-msgstr "መተላለፊያ፦ (_P)"
+msgstr "_መንገድ:"
 
 #: ../interfaces/shares.ui.h:2
 msgid "Share through:"
@@ -261,23 +262,23 @@ msgstr ""
 
 #: ../interfaces/shares.ui.h:3
 msgid "Shared Folder"
-msgstr ""
+msgstr "ፎልደር ማካፈያ"
 
 #: ../interfaces/shares.ui.h:4
 msgid "Comment:"
-msgstr "አስተያየት፦"
+msgstr "አስተያየት:"
 
 #: ../interfaces/shares.ui.h:5
 msgid "Name:"
-msgstr "ስም፦"
+msgstr "ስም:"
 
 #: ../interfaces/shares.ui.h:6
 msgid "_Read only"
-msgstr ""
+msgstr "_ለንባብ ብቻ"
 
 #: ../interfaces/shares.ui.h:7
 msgid "Share Properties"
-msgstr ""
+msgstr "ባህሪዎች ማካፈያ"
 
 #: ../interfaces/shares.ui.h:8
 msgid "Allowed Hosts"
@@ -285,7 +286,7 @@ msgstr ""
 
 #: ../interfaces/shares.ui.h:9
 msgid "Share"
-msgstr ""
+msgstr "ማካፈያ "
 
 #: ../interfaces/shares.ui.h:10
 msgid "Add allowed hosts"
@@ -297,11 +298,11 @@ msgstr ""
 
 #: ../interfaces/shares.ui.h:12
 msgid "Host name:"
-msgstr "የእንግዳ ተቀባይ ስም፦"
+msgstr "የጋባዥ ስም:"
 
 #: ../interfaces/shares.ui.h:14
 msgid "Network:"
-msgstr ""
+msgstr "ኔትዎርክ:"
 
 #: ../interfaces/shares.ui.h:15
 msgid "Netmask:"
@@ -309,20 +310,20 @@ msgstr ""
 
 #: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
 msgid "Read only"
-msgstr ""
+msgstr "ለንባብ ብቻ "
 
 #: ../interfaces/shares.ui.h:17
 msgid "Hosts Settings"
-msgstr ""
+msgstr "ጋባዥ ማሰናጃ"
 
 #: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
-msgstr ""
+msgstr "የሚካፈሉዋቸው ፎልደሮች "
 
 #: ../interfaces/shares.ui.h:19
 msgid "Domain / _Workgroup:"
-msgstr ""
+msgstr "ግዛት / _የስራ ቡድን: "
 
 #: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
@@ -338,7 +339,7 @@ msgstr ""
 
 #: ../interfaces/shares.ui.h:23
 msgid "General Properties"
-msgstr ""
+msgstr "ባጠቃላይ ባህሪዎች "
 
 #: ../interfaces/shares.ui.h:24
 msgid "Users"
@@ -346,27 +347,27 @@ msgstr "ተጠቃሚዎች"
 
 #: ../interfaces/shares.ui.h:25
 msgid "Enter password for user"
-msgstr ""
+msgstr "ለተጠቃሚው የመግቢያ ቃል ያስገቡ "
 
 #: ../interfaces/shares.ui.h:26
 msgid "Enter password for user:"
-msgstr ""
+msgstr "ለተጠቃሚው የመግቢያ ቃል ያስገቡ:"
 
 #: ../interfaces/time.ui.h:1
 msgid "Time zone"
-msgstr "የሰዓት ክልል"
+msgstr "የሰአት ክልል"
 
 #: ../interfaces/time.ui.h:2
 msgid "Time Zone"
-msgstr ""
+msgstr "የሰአት ክልል "
 
 #: ../interfaces/time.ui.h:3
 msgid "Time zone:"
-msgstr ""
+msgstr "የሰአት ክልል:"
 
 #: ../interfaces/time.ui.h:4
 msgid "Selection"
-msgstr ""
+msgstr "ምርጫ "
 
 #: ../interfaces/time.ui.h:5
 msgid "Time servers"
@@ -386,7 +387,7 @@ msgstr ""
 
 #: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
-msgstr "ምርጫዎች፦ (_C)"
+msgstr "_ማዋቀሪያ:"
 
 #: ../interfaces/time.ui.h:10
 msgid "Time servers:"
@@ -394,23 +395,23 @@ msgstr ""
 
 #: ../interfaces/time.ui.h:11
 msgid "Se_lect Servers"
-msgstr ""
+msgstr "ሰርቨር ይም_ረጡ "
 
 #: ../interfaces/time.ui.h:12
 msgid "_Time:"
-msgstr ""
+msgstr "_ሰአት:"
 
 #: ../interfaces/time.ui.h:13
 msgid "_Date:"
-msgstr ""
+msgstr "_ቀን:"
 
 #: ../interfaces/time.ui.h:14
 msgid "Synchronize now"
-msgstr ""
+msgstr "አሁን ማስማሚያ"
 
 #: ../interfaces/users.ui.h:1
 msgid "_Manage Groups"
-msgstr ""
+msgstr "ቡድን _ማስተዳደሪያ "
 
 #: ../interfaces/users.ui.h:2
 msgid "Account _type:"
@@ -418,11 +419,11 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:3
 msgid "_Change..."
-msgstr ""
+msgstr "_መቀየሪያ..."
 
 #: ../interfaces/users.ui.h:4
 msgid "_Password:"
-msgstr "ሚስጢራዊ ቃል፦ (_P)"
+msgstr "_የመግቢያ ቃል"
 
 #: ../interfaces/users.ui.h:5
 msgid "_Advanced Settings"
@@ -438,43 +439,43 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:8
 msgid "Group properties"
-msgstr ""
+msgstr "የቡድን ባህሪዎች "
 
 #: ../interfaces/users.ui.h:9
 msgid "Basic Settings"
-msgstr ""
+msgstr "መሰረታዊ ማሰናጃ "
 
 #: ../interfaces/users.ui.h:10
 msgid "Group _name:"
-msgstr ""
+msgstr "የቡድን _ስም:"
 
 #: ../interfaces/users.ui.h:11
 msgid "Group _ID:"
-msgstr "የመድረክ _ID፦"
+msgstr "የቡድን _ID:"
 
 #: ../interfaces/users.ui.h:12
 msgid "Group Members"
-msgstr ""
+msgstr "የቡድን አባሎች "
 
 #: ../interfaces/users.ui.h:13
 msgid "Profile Settings"
-msgstr ""
+msgstr "ገጽታ ማሰናጃ"
 
 #: ../interfaces/users.ui.h:14
 msgid "Profile _name:"
-msgstr ""
+msgstr "የገጽታ _ስም:"
 
 #: ../interfaces/users.ui.h:15
 msgid "_Comments"
-msgstr ""
+msgstr "_አስተያየት "
 
 #: ../interfaces/users.ui.h:16
 msgid "System Defaults"
-msgstr ""
+msgstr "ነባር ስርአት "
 
 #: ../interfaces/users.ui.h:17
 msgid "_Home directory:"
-msgstr "የ_ቤት ዶሴ፦"
+msgstr "_የቤት ዳይሬክቶሪ:"
 
 #: ../interfaces/users.ui.h:18
 msgid "Default _shell:"
@@ -482,15 +483,15 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:19
 msgid "Default _group:"
-msgstr ""
+msgstr "ነባር _ቡድን:"
 
 #: ../interfaces/users.ui.h:20
 msgid "Password Settings"
-msgstr ""
+msgstr "የመግቢያ ቃል ማሰናጃ "
 
 #: ../interfaces/users.ui.h:21
 msgid "Number of days that a password may be used:"
-msgstr ""
+msgstr "የመግቢያ ቃሉ የሚያገለግልበት ቀኖች ቁጥር:"
 
 #: ../interfaces/users.ui.h:22
 msgid "Minimum days allowed between password changes:"
@@ -506,79 +507,79 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:25
 msgid "Automatic UID/GID"
-msgstr "አውቶማቲክ UID/GID"
+msgstr "ራሱ በራሱ UID/GID"
 
 #: ../interfaces/users.ui.h:26
 msgid "Maximum UID:"
-msgstr "ከፍተኛ መጠን UID፦"
+msgstr "ከፍተኛ UID:"
 
 #: ../interfaces/users.ui.h:27
 msgid "Maximum GID:"
-msgstr ""
+msgstr "ከፍተኛ GID:"
 
 #: ../interfaces/users.ui.h:28
 msgid "Minimum UID:"
-msgstr "በተቻለ መጠን UID፦"
+msgstr "ዝቅተኛ UID:"
 
 #: ../interfaces/users.ui.h:29
 msgid "Minimum GID:"
-msgstr "በተቻለ መጠን GID፦"
+msgstr "ዝቅተኛ GID:"
 
 #: ../interfaces/users.ui.h:31
 msgid "Privileges"
-msgstr ""
+msgstr "ቅድሚያ"
 
 #: ../interfaces/users.ui.h:32
 msgid "User profiles"
-msgstr ""
+msgstr "የተጠቃሚ ገጽታዎች "
 
 #: ../interfaces/users.ui.h:33
 msgid "_Add Profile"
-msgstr ""
+msgstr " ገጽታዎች _መጨመሪያ "
 
 #: ../interfaces/users.ui.h:34
 msgid "Groups settings"
-msgstr ""
+msgstr "ቡድን ማሰናጃ "
 
 #: ../interfaces/users.ui.h:35
 msgid "Groups available on the system:"
-msgstr ""
+msgstr "በስርአቱ ላይ ቡድኖች አሉ:"
 
 #: ../interfaces/users.ui.h:36
 msgid "Change User Name"
-msgstr ""
+msgstr "የተጠቃሚ ስም መቀየሪያ "
 
 #: ../interfaces/users.ui.h:37
 msgid "Full _Name:"
-msgstr ""
+msgstr "ሙሉ _ስም:"
 
 #: ../interfaces/users.ui.h:38
 msgid "Changing user name for:"
-msgstr ""
+msgstr "የተጠቃሚ ስም መቀየሪያ ለ:"
 
 #: ../interfaces/users.ui.h:39
 msgid "Change User Password"
-msgstr ""
+msgstr "የተጠቃሚ መግቢያ ቃል መቀየሪያ"
 
 #: ../interfaces/users.ui.h:40
 msgid "Con_firmation:"
-msgstr ""
+msgstr "ማረ_ጋገጫ:"
 
 #: ../interfaces/users.ui.h:41
 msgid "Password set to: "
-msgstr ""
+msgstr "የመግቢያ ቃሉ ተሰናድቷል ለ: "
 
 #: ../interfaces/users.ui.h:42
 msgid "_Generate"
-msgstr ""
+msgstr "_ማመንጫ "
 
 #: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
-msgstr ""
+msgstr "የመግቢያ ቃል በ_ እጅ ማሰናጃ "
 
 #: ../interfaces/users.ui.h:44
 msgid "New _password:"
-msgstr ""
+msgstr "አዲስ _የመግቢያ ቃል:"
 
 #: ../interfaces/users.ui.h:45
 msgid "Generate _random password"
@@ -586,15 +587,15 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:46
 msgid "Changing user password for:"
-msgstr ""
+msgstr "የመግቢያ ቃል መቀየሪያ ለ:"
 
 #: ../interfaces/users.ui.h:47
 msgid "Don't ask for password on _login"
-msgstr ""
+msgstr "የመግቢያ ቃል አትጠይቅ _በምገባ ጊዜ "
 
 #: ../interfaces/users.ui.h:48
 msgid "_Current password:"
-msgstr ""
+msgstr "_የአሁኑ መግቢያ ቃል:"
 
 #: ../interfaces/users.ui.h:49
 msgid "Change User Account Type"
@@ -616,15 +617,15 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:53
 msgid "Create New User"
-msgstr ""
+msgstr "አዲስ ተጠቃሚ መፍጠሪያ "
 
 #: ../interfaces/users.ui.h:54
 msgid "_Name:"
-msgstr "ስም፦ (_N)"
+msgstr "_ስም:"
 
 #: ../interfaces/users.ui.h:55
 msgid "Create a new user"
-msgstr ""
+msgstr "አዲስ ተጠቃሚ መፍጠሪያ "
 
 #. No item should exceed a length of 40 characters, to avoid wrapping on two
 #. lines. Better simplifying than making it hard to read!
@@ -644,7 +645,7 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
-msgstr ""
+msgstr "የተጠቃሚ ስም በፊደል መጀመር አለበት! "
 
 #: ../interfaces/users.ui.h:64
 msgid "_Encrypt home folder to protect sensitive data"
@@ -667,23 +668,23 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:68
 msgid "O_ffice location:"
-msgstr "የ_ቢሮ ቦታ፦"
+msgstr "የ_ቢሮ ቦታ:"
 
 #: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
-msgstr "የቢሮ ስልክ፦ (_H)"
+msgstr "_የስራ ስልክ:"
 
 #: ../interfaces/users.ui.h:70
 msgid "_Home phone:"
-msgstr "የቤት ስልክ፦ (_H)"
+msgstr "_የቤት ስልክ:"
 
 #: ../interfaces/users.ui.h:71
 msgid "Contact Information"
-msgstr ""
+msgstr "የግንኙነት መረጃ "
 
 #: ../interfaces/users.ui.h:72
 msgid "User Privileges"
-msgstr ""
+msgstr "የተጠቃሚ ቅድሚያዎች "
 
 #: ../interfaces/users.ui.h:73
 msgid "Advanced Settings"
@@ -691,11 +692,11 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:74
 msgid "_Shell:"
-msgstr "ሼል፦ (_S)"
+msgstr ""
 
 #: ../interfaces/users.ui.h:75
 msgid "_Main group:"
-msgstr "የ_ዋና መድረክ፦"
+msgstr "_ዋናው ቡድን:"
 
 #: ../interfaces/users.ui.h:76
 msgid "User ID:"
@@ -711,7 +712,7 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:79
 msgid "Optional Settings"
-msgstr ""
+msgstr "አማራጭ ማሰናጃዎች "
 
 #: ../interfaces/users.ui.h:80
 msgid "Mi_nimum days between password changes:"
@@ -727,11 +728,11 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:83
 msgid "Advanced"
-msgstr "ጠለቅ"
+msgstr ""
 
 #: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
-msgstr ""
+msgstr "የስርአቱን ተጠቃሚዎች ማሳያ "
 
 #: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
@@ -740,7 +741,7 @@ msgstr ""
 
 #: ../org.mate.system-tools.gschema.xml.in.h:3
 msgid "Show root user"
-msgstr ""
+msgstr "የ root ተጠቃሚ ማሳያ "
 
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
@@ -783,16 +784,16 @@ msgstr ""
 
 #: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
-msgstr ""
+msgstr "ዋጋ የሌለው ዳታ ተገኝቷል "
 
 #. OOBS_RESULT_ERROR
 #: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "ያልታወቀ ስህተት ተፈጥሯል "
 
 #: ../src/common/gst-tool.c:422
 msgid "Could not display help"
-msgstr ""
+msgstr "የእርዳታውን ገጽ ማሳየት አልተቻለም "
 
 #: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
@@ -812,16 +813,16 @@ msgstr ""
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
 msgid "_Add"
-msgstr "ጨምር (_A)"
+msgstr "_መጨመሪያ"
 
 #: ../src/network/address-list.c:77 ../src/network/hosts.c:33
 #: ../src/shares/table.c:40 ../src/users/table.c:42
 msgid "_Delete"
-msgstr "አጥፉ (_D)"
+msgstr "_ማጥፊያ"
 
 #: ../src/network/address-list.c:485
 msgid "Type address"
-msgstr ""
+msgstr "አድራሻ ይጻፉ"
 
 #: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
@@ -893,25 +894,25 @@ msgstr ""
 
 #: ../src/network/connection.c:56
 msgid "PPPoE"
-msgstr ""
+msgstr "PPPoE"
 
 #: ../src/network/connection.c:769
 #, c-format
 msgid "%s Properties"
-msgstr ""
+msgstr "%s ባህሪዎች "
 
 #: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
 #: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
-msgstr ""
+msgstr "_ባህሪዎች "
 
 #: ../src/network/hosts.c:89
 msgid "IP Address"
-msgstr ""
+msgstr "IP አድራሻ"
 
 #: ../src/network/hosts.c:97
 msgid "Aliases"
-msgstr ""
+msgstr "የሀስት ስም "
 
 #: ../src/network/ifaces-list.c:280
 msgid "This network interface is not configured"
@@ -924,12 +925,12 @@ msgstr ""
 #: ../src/network/ifaces-list.c:289
 #, c-format
 msgid "<b>Essid:</b> %s "
-msgstr ""
+msgstr "<b>Essid:</b> %s "
 
 #: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
 #: ../src/network/ifaces-list.c:306
 msgid "Address:"
-msgstr ""
+msgstr "አድራሻ:"
 
 #: ../src/network/ifaces-list.c:298
 msgid "Subnet mask:"
@@ -937,16 +938,16 @@ msgstr ""
 
 #: ../src/network/ifaces-list.c:308
 msgid "Remote address:"
-msgstr ""
+msgstr "የርቀት አድራሻ:"
 
 #: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
 #: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
 msgid "Type:"
-msgstr "ዓይነት፦"
+msgstr "አይነት:"
 
 #: ../src/network/ifaces-list.c:321
 msgid "Phone number:"
-msgstr "የስልክ ቍጥር፦"
+msgstr "የስልክ ቍጥር:"
 
 #: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
@@ -958,7 +959,7 @@ msgstr ""
 
 #: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
-msgstr ""
+msgstr "በሽቦ የተገናኘ"
 
 #: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
@@ -978,20 +979,20 @@ msgstr ""
 
 #: ../src/network/locations-combo.c:267
 msgid "Overwrite it?"
-msgstr ""
+msgstr "በላዩ ላይ ደርቤ ልጻፍበት? "
 
 #: ../src/network/locations-combo.c:355
 msgid "Save location"
-msgstr ""
+msgstr "አካባቢውን ማስቀመጫ "
 
 #: ../src/network/locations-combo.c:370
 msgid "_Location name:"
-msgstr ""
+msgstr "_የአካባቢው ስም:"
 
 #: ../src/network/locations-combo.c:422
 #, c-format
 msgid "Do you want to delete location \"%s\"?"
-msgstr ""
+msgstr "አካባቢውን ማጥፋት ይፈልጋሉ \"%s\"?"
 
 #: ../src/network/main.c:135
 msgid "The interface does not exist"
@@ -1017,11 +1018,11 @@ msgstr ""
 
 #: ../src/network/main.c:184
 msgid "TYPE"
-msgstr ""
+msgstr "አይነት "
 
 #: ../src/network/mate-network.desktop.in.in.h:1
 msgid "Network"
-msgstr ""
+msgstr "ኔትዎርክ"
 
 #: ../src/network/mate-network.desktop.in.in.h:2
 msgid "Configure network devices and connections"
@@ -1029,12 +1030,12 @@ msgstr ""
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
-msgstr "የመረብ ምርጫዎች"
+msgstr "የኔትዎርክ ምርጫዎች"
 
 #: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
-msgstr ""
+msgstr "ግልጋሎት ማሰናጃ \"%s\""
 
 #: ../src/services/callbacks.c:122
 #, c-format
@@ -1049,7 +1050,7 @@ msgstr ""
 
 #: ../src/services/service.c:32
 msgid "Web server"
-msgstr ""
+msgstr "ዌብ ሰርቨር"
 
 #: ../src/services/service.c:32
 msgid "Shares your web pages over the Internet"
@@ -1067,7 +1068,7 @@ msgstr ""
 #. GST_ROLE_COMMAND_SCHEDULER
 #: ../src/services/service.c:34
 msgid "Printer service"
-msgstr ""
+msgstr "የህትመት ግልጋሎት "
 
 #: ../src/services/service.c:34
 msgid "Allows applications to use printers"
@@ -1076,7 +1077,7 @@ msgstr ""
 #. GST_ROLE_PRINTER_SERVICE
 #: ../src/services/service.c:35
 msgid "Mail agent"
-msgstr ""
+msgstr "የደብዳቤ ደንበኛ"
 
 #: ../src/services/service.c:35
 msgid "Delivers your outgoing mail"
@@ -1108,7 +1109,7 @@ msgstr ""
 #. GST_ROLE_DISPLAY_MANAGER
 #: ../src/services/service.c:39
 msgid "Database server"
-msgstr ""
+msgstr "የ ዳታቤዝ ሰርቨር"
 
 #: ../src/services/service.c:39
 msgid "Data storage system"
@@ -1120,7 +1121,7 @@ msgstr ""
 #: ../src/services/service.c:40 ../src/services/service.c:41
 #: ../src/services/service.c:43
 msgid "Folder sharing service"
-msgstr ""
+msgstr "የፎልደር ማካፈያ ግልጋሎት"
 
 #: ../src/services/service.c:40 ../src/services/service.c:41
 msgid "Shares folders over your network"
@@ -1318,12 +1319,12 @@ msgstr ""
 #. GST_ROLE_IPSEC_KEY_EXCHANGE_SERVER
 #: ../src/services/service.c:78
 msgid "Disk server"
-msgstr ""
+msgstr "የዲስክ ሰርቨር"
 
 #. GST_ROLE_DISK_SERVER
 #: ../src/services/service.c:79
 msgid "Disk client"
-msgstr ""
+msgstr "የዲስክ ደንበኛ"
 
 #. GST_ROLE_DISK_CLIENT
 #: ../src/services/service.c:80
@@ -1387,7 +1388,7 @@ msgstr ""
 #. GST_ROLE_HOTKEYS_MANAGEMENT
 #: ../src/services/service.c:91
 msgid "Power management"
-msgstr ""
+msgstr "የሀይል አስተዳዳሪ"
 
 #. GST_ROLE_POWER_MANAGEMENT
 #: ../src/services/service.c:92
@@ -1402,7 +1403,7 @@ msgstr ""
 #. GST_ROLE_CLUSTER_MANAGEMENT
 #: ../src/services/service.c:94
 msgid "Fax settings management"
-msgstr ""
+msgstr "የፋክስ ማሰናጃ አስተዳዳሪ"
 
 #. GST_ROLE_FAX_MANAGEMENT
 #: ../src/services/service.c:95
@@ -1447,7 +1448,7 @@ msgstr ""
 #. GST_ROLE_HARDWARE_MONITORING
 #: ../src/services/service.c:103
 msgid "System monitor"
-msgstr ""
+msgstr "ስርአት መቆጣጠሪያ"
 
 #. GST_ROLE_SYSTEM_MONITORING
 #: ../src/services/service.c:104
@@ -1456,7 +1457,7 @@ msgstr ""
 
 #: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
-msgstr ""
+msgstr "ግልጋሎቶች "
 
 #: ../src/services/mate-services.desktop.in.in.h:2
 msgid "Configure which services will be run when the system starts"
@@ -1466,18 +1467,18 @@ msgstr ""
 #: ../src/services/service-settings-table.c:97
 #: ../src/services/service-settings-table.c:109
 msgid "Start"
-msgstr ""
+msgstr "ማስጀመሪያ "
 
 #: ../src/services/service-settings-table.c:79
 #: ../src/services/service-settings-table.c:99
 #: ../src/services/service-settings-table.c:111
 msgid "Stop"
-msgstr ""
+msgstr "ማስቆሚያ "
 
 #: ../src/services/service-settings-table.c:85
 #: ../src/services/service-settings-table.c:102
 msgid "Ignore"
-msgstr ""
+msgstr "መተው "
 
 #: ../src/services/service-settings-table.c:175
 msgid "Runlevel"
@@ -1485,7 +1486,7 @@ msgstr ""
 
 #: ../src/services/service-settings-table.c:192
 msgid "Status"
-msgstr "ሁኔታ"
+msgstr "ሁኔታው "
 
 #: ../src/services/service-settings-table.c:211
 msgid "Priority"
@@ -1493,7 +1494,7 @@ msgstr "ቅድሚያ"
 
 #: ../src/services/services-tool.c:106
 msgid "Services Settings"
-msgstr ""
+msgstr "ግልጋሎቶች ማሰናጃ "
 
 #: ../src/shares/callbacks.c:196
 msgid "Are you sure you want to delete this share?"
@@ -1509,11 +1510,11 @@ msgstr ""
 
 #: ../src/shares/main.c:103
 msgid "PATH"
-msgstr ""
+msgstr "መንገድ"
 
 #: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
-msgstr ""
+msgstr "ፎልደሮች _ማካፈያ..."
 
 #: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
@@ -1541,11 +1542,11 @@ msgstr ""
 
 #: ../src/shares/share-settings.c:61
 msgid "File System"
-msgstr ""
+msgstr "የፋይል ስርአት "
 
 #: ../src/shares/share-settings.c:144
 msgid "Do not share"
-msgstr ""
+msgstr "አታካፍል "
 
 #: ../src/shares/share-settings.c:152
 msgid "Windows networks (SMB)"
@@ -1562,7 +1563,7 @@ msgstr ""
 
 #: ../src/shares/share-settings.c:469
 msgid "Share Folder"
-msgstr ""
+msgstr "ፎልደር ማካፈያ "
 
 #: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
@@ -1576,7 +1577,7 @@ msgstr ""
 
 #: ../src/time/e-map/e-map.c:620
 msgid "World Map"
-msgstr ""
+msgstr "የአለም ካርታ "
 
 #: ../src/time/e-map/e-map.c:622
 msgid ""
@@ -1586,11 +1587,11 @@ msgstr ""
 
 #: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
-msgstr ""
+msgstr "ሰአት እና ቀን "
 
 #: ../src/time/mate-time.desktop.in.in.h:2
 msgid "Change system time, date, and timezone"
-msgstr ""
+msgstr "የስርአቱን ሰአት ቀን እና የሰአት ክልል መቀየሪያ "
 
 #: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
@@ -1620,11 +1621,11 @@ msgstr ""
 
 #: ../src/time/time-tool.c:522
 msgid "Manual"
-msgstr ""
+msgstr "በ እጅ"
 
 #: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
-msgstr ""
+msgstr "ሰአት እና ቀን ማሰናጃዎች "
 
 #: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
@@ -1647,20 +1648,20 @@ msgstr ""
 
 #: ../src/users/group-settings.c:144
 msgid "New group"
-msgstr ""
+msgstr "አዲስ ቡድን "
 
 #: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
-msgstr ""
+msgstr "የቡድን '%s' ባህሪዎች "
 
 #: ../src/users/group-settings.c:217
 msgid "Group name is empty"
-msgstr ""
+msgstr "የቡድን ስም ባዶ ነው "
 
 #: ../src/users/group-settings.c:218
 msgid "A group name must be specified."
-msgstr ""
+msgstr "የቡድን ስም መወሰን አለበት "
 
 #: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
@@ -1668,7 +1669,7 @@ msgstr ""
 
 #: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
-msgstr ""
+msgstr "የቡድኑ ስም ዋጋ የሌላቸው ባህሪዎች ይዟል  "
 
 #: ../src/users/group-settings.c:224
 msgid ""
@@ -1679,11 +1680,11 @@ msgstr ""
 #: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
-msgstr ""
+msgstr "ቡድኑ \"%s\" ቀደም ሲል ነበር "
 
 #: ../src/users/group-settings.c:230
 msgid "Please choose a different group name."
-msgstr ""
+msgstr "እባክዎን የተለየ የቡድን ስም ይምረጡ "
 
 #: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
@@ -1706,16 +1707,16 @@ msgstr ""
 
 #: ../src/users/groups-table.c:44
 msgid "Group name"
-msgstr ""
+msgstr "የቡድን ስም "
 
 #. TRANSLATORS:  This applies to a password. Keep the string short.
 #: ../src/users/main.c:74 ../src/users/user-settings.c:347
 msgid "Not asked on login"
-msgstr ""
+msgstr "በምገባ ጊዜ አትጠይቀኝ "
 
 #: ../src/users/main.c:74 ../src/users/user-settings.c:349
 msgid "Asked on login"
-msgstr ""
+msgstr "በምገባ ጊዜ ጠይቀኝ "
 
 #: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
@@ -1723,7 +1724,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:54
 msgid "Administer the system"
-msgstr ""
+msgstr "ስርአቱን አስተዳድር "
 
 #: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
@@ -1735,7 +1736,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:57
 msgid "Burn CDs / DVDs"
-msgstr ""
+msgstr "ሲዲ / ዲቪዲ ማቃጠያ"
 
 #: ../src/users/privileges-table.c:58
 msgid "Use modems"
@@ -1759,7 +1760,7 @@ msgstr ""
 
 #: ../src/users/privileges-table.c:63
 msgid "Configure printers"
-msgstr ""
+msgstr "ማተሚያ ማሰናጃ"
 
 #: ../src/users/privileges-table.c:64
 msgid "Connect to wireless and ethernet networks"
@@ -1803,7 +1804,7 @@ msgstr ""
 
 #: ../src/users/user-profiles.conf.in.h:1
 msgid "Desktop user"
-msgstr ""
+msgstr "የዴስክቶፕ ተጠቃሚ"
 
 #: ../src/users/user-profiles.conf.in.h:2
 msgid ""
@@ -1813,7 +1814,7 @@ msgstr ""
 
 #: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
-msgstr ""
+msgstr "አስተዳዳሪ"
 
 #: ../src/users/user-profiles.conf.in.h:4
 msgid ""
@@ -1823,37 +1824,37 @@ msgstr ""
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
-msgstr ""
+msgstr "ማረጋገጫው ወድቋል"
 
 #: ../src/users/run-passwd.c:498
 #, c-format
 msgid "The new password is too short"
-msgstr ""
+msgstr "አዲሱ የመግቢያ ቃል በጣም አጭር ነው "
 
 #: ../src/users/run-passwd.c:504
 #, c-format
 msgid "The new password is too simple"
-msgstr ""
+msgstr "ይህ የመግቢያ ቃል በጣም ቀላል ነው "
 
 #: ../src/users/run-passwd.c:510
 #, c-format
 msgid "The old and new passwords are too similar"
-msgstr ""
+msgstr "አሮጌው እና አዲሱ የመግቢያ ቃል በጣም ይመሳሰላል "
 
 #: ../src/users/run-passwd.c:513
 #, c-format
 msgid "The new password must contain numeric or special characters"
-msgstr ""
+msgstr "አዲሱ የመግቢያ ቃል ቁጥር ወይንም የተለዩ ባህሪዎች መያዝ አለበት"
 
 #: ../src/users/run-passwd.c:517
 #, c-format
 msgid "The old and new passwords are the same"
-msgstr ""
+msgstr "አሮጌው እና አዲሱ የመግቢያ ቃል ተመሳሳይ ነው "
 
 #: ../src/users/run-passwd.c:520
 #, c-format
 msgid "The new password has already been used recently."
-msgstr ""
+msgstr "አዲሱን የመግቢያ ቃል ቀደም ሲል ተጠቅመውበታል "
 
 #: ../src/users/run-passwd.c:524
 #, c-format
@@ -1863,7 +1864,7 @@ msgstr ""
 #: ../src/users/run-passwd.c:528
 #, c-format
 msgid "Unknown error"
-msgstr ""
+msgstr "ያልታወቀ ስህተት "
 
 #: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
@@ -1871,11 +1872,11 @@ msgstr "ተጠቃሚዎች እና መድረኮች"
 
 #: ../src/users/mate-users.desktop.in.in.h:2
 msgid "Add or remove users and groups"
-msgstr ""
+msgstr "ተጠቃሚዎች እና ቡድኖችን መጨመሪያ ወይንም ማስወገጃ "
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
-msgstr ""
+msgstr "የመግቢያው ቃል በጣም አጭር ነው "
 
 #: ../src/users/user-password.c:98
 msgid ""
@@ -1885,23 +1886,23 @@ msgstr ""
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
-msgstr ""
+msgstr "የመግቢያ ቃል ማረጋገጫው ትክክል አይደለም "
 
 #: ../src/users/user-password.c:102
 msgid "Check that you have provided the same password in both text fields."
-msgstr ""
+msgstr "በሁለቱም ጽሁፍ ማስገቢያ ሜዳዎች ውስጥ ተመሳሳይ የመግቢያ ቃል ያስገቡ "
 
 #: ../src/users/user-password.c:445
 msgid "Please choose another password."
-msgstr ""
+msgstr "እባክዎን ሌላ የመግቢያ ቃል ያስገቡ "
 
 #: ../src/users/user-password.c:456
 msgid "Please type again your current password."
-msgstr ""
+msgstr "እባክዎን የአሁኑን የመግቢያ ቃል እንደገና ያስገቡ"
 
 #: ../src/users/user-password.c:463
 msgid "Password could not be changed"
-msgstr ""
+msgstr "የመግቢያ ቃሉን መቀየር አይቻልም "
 
 #: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
@@ -1910,7 +1911,7 @@ msgstr ""
 #: ../src/users/user-settings.c:96
 #, c-format
 msgid "%s is currently using this computer"
-msgstr ""
+msgstr "%s በአሁኑ ጊዜ ይህን ኮምፒዩተር እየተጠቀም ነው "
 
 #: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
@@ -1930,7 +1931,7 @@ msgstr ""
 #: ../src/users/user-settings.c:121
 #, c-format
 msgid "Remove home folder for %s?"
-msgstr ""
+msgstr "የቤት ፎልደሩን ላጥፋው ለ %s?"
 
 #: ../src/users/user-settings.c:124
 #, c-format
@@ -1942,7 +1943,7 @@ msgstr ""
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
-msgstr ""
+msgstr "ፋይሎችን ማስቀመጫ "
 
 #: ../src/users/user-settings.c:133
 msgid "Don't Remove Account"
@@ -1950,11 +1951,11 @@ msgstr ""
 
 #: ../src/users/user-settings.c:134
 msgid "Delete Files"
-msgstr ""
+msgstr "ፋይሎችን ማጥፊያ "
 
 #: ../src/users/user-settings.c:330
 msgid "Superuser"
-msgstr ""
+msgstr "ሱፐር ተጠቃሚ"
 
 #: ../src/users/user-settings.c:335
 msgid "Custom"
@@ -1963,7 +1964,7 @@ msgstr ""
 #. TRANSLATORS: This applies to a password.
 #: ../src/users/user-settings.c:344
 msgid "None"
-msgstr ""
+msgstr "ምንም "
 
 #: ../src/users/user-settings.c:393
 #, c-format
@@ -2003,13 +2004,13 @@ msgstr ""
 #: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
 #: ../src/users/user-settings.c:540
 msgid "_Cancel Change"
-msgstr ""
+msgstr "ለውጦቹን _መሰረዣ "
 
 #. TRANSLATORS: This means "use the files from the new location",
 #. * as opposed to those from the old location.
 #: ../src/users/user-settings.c:465
 msgid "_Use New Files"
-msgstr ""
+msgstr "አዲስ ፋይሎች _መጠቀሚያ "
 
 #: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
 msgid "Make user the _owner of the new home directory"
@@ -2029,7 +2030,7 @@ msgstr ""
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
-msgstr ""
+msgstr "ፋይሎች _ማጥፊያ "
 
 #: ../src/users/user-settings.c:505
 msgid "_Use Existing Files"
@@ -2049,12 +2050,12 @@ msgstr ""
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
-msgstr ""
+msgstr "ባዶ ዳይሬክቶሪ _መጠቀሚያ "
 
 #. TRANSLATORS: This means "copy files from the old home directory".
 #: ../src/users/user-settings.c:542
 msgid "Co_py Old Files"
-msgstr ""
+msgstr "አሮጌ ፋይሎች ኮ_ፒ ማድረጊያ "
 
 #: ../src/users/user-settings.c:604
 msgid "ID for the root user should not be modified"
@@ -2113,4 +2114,4 @@ msgstr ""
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
-msgstr ""
+msgstr "ተጠቃሚዎች ማሰናጃ"

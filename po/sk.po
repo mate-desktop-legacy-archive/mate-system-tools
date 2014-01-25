@@ -3,55 +3,56 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ivan Noris <vix@vazka.sk>, 2005.
-# Pavol Klačanský <pavol@klacansky.com>, 2008, 2009.
-# Stanislav Višňovský <visnovsky@kde.org>, 2003.
-# Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>, 2001, 2002, 2003.
+# Ivan Noris <vix@vazka.sk>, 2005
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2013
+# pavolzetor <pavol@klacansky.com>, 2008, 2009
+# Stanislav Višňovský <visnovsky@kde.org>, 2003
+# Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>, 2001, 2002, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:53+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-04-24 18:54+0000\n"
+"Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
+"Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
-msgstr ""
+msgstr "Vypnuté"
 
 #: ../interfaces/network.ui.h:2
 msgid "Low"
-msgstr ""
+msgstr "Nízka"
 
 #: ../interfaces/network.ui.h:3
 msgid "Medium"
-msgstr ""
+msgstr "Stredná"
 
 #: ../interfaces/network.ui.h:4
 msgid "Loud"
-msgstr ""
+msgstr "Hlasná"
 
 #: ../interfaces/network.ui.h:5
 msgid "Tones"
-msgstr ""
+msgstr "Tónová"
 
 #: ../interfaces/network.ui.h:6
 msgid "Pulses"
-msgstr ""
+msgstr "Pulzná"
 
 #: ../interfaces/network.ui.h:7
 msgid "Plain (ASCII)"
-msgstr ""
+msgstr "Čistý (ASCII)"
 
 #: ../interfaces/network.ui.h:8
 msgid "Hexadecimal"
-msgstr ""
+msgstr "Hexadecimálne"
 
 #: ../interfaces/network.ui.h:9
 msgid "Location:"
@@ -288,7 +289,7 @@ msgstr "Povolení hostitelia"
 
 #: ../interfaces/shares.ui.h:9
 msgid "Share"
-msgstr ""
+msgstr "Zdieľať"
 
 #: ../interfaces/shares.ui.h:10
 msgid "Add allowed hosts"
@@ -417,11 +418,11 @@ msgstr "_Spravovať skupiny"
 
 #: ../interfaces/users.ui.h:2
 msgid "Account _type:"
-msgstr ""
+msgstr "_Typ účtu:"
 
 #: ../interfaces/users.ui.h:3
 msgid "_Change..."
-msgstr ""
+msgstr "_Zmeniť..."
 
 #: ../interfaces/users.ui.h:4
 msgid "_Password:"
@@ -429,15 +430,15 @@ msgstr "_Heslo:"
 
 #: ../interfaces/users.ui.h:5
 msgid "_Advanced Settings"
-msgstr ""
+msgstr "Pokročilé n_astavenia"
 
 #: ../interfaces/users.ui.h:6
 msgid "This account is disabled."
-msgstr ""
+msgstr "Tento účet je zakázaný."
 
 #: ../interfaces/users.ui.h:7
 msgid "_Enable Account"
-msgstr ""
+msgstr "_Povoliť účet"
 
 #: ../interfaces/users.ui.h:8
 msgid "Group properties"
@@ -461,7 +462,7 @@ msgstr "Členovia skupiny"
 
 #: ../interfaces/users.ui.h:13
 msgid "Profile Settings"
-msgstr ""
+msgstr "Nastavenia profilu"
 
 #: ../interfaces/users.ui.h:14
 msgid "Profile _name:"
@@ -517,7 +518,7 @@ msgstr "Maximálne UID:"
 
 #: ../interfaces/users.ui.h:27
 msgid "Maximum GID:"
-msgstr ""
+msgstr "Maximálne GID:"
 
 #: ../interfaces/users.ui.h:28
 msgid "Minimum UID:"
@@ -545,23 +546,23 @@ msgstr "Nastavenia skupín"
 
 #: ../interfaces/users.ui.h:35
 msgid "Groups available on the system:"
-msgstr ""
+msgstr "Skupiny dostupné v systéme:"
 
 #: ../interfaces/users.ui.h:36
 msgid "Change User Name"
-msgstr ""
+msgstr "Zmeniť meno používateľa"
 
 #: ../interfaces/users.ui.h:37
 msgid "Full _Name:"
-msgstr ""
+msgstr "Celé me_no:"
 
 #: ../interfaces/users.ui.h:38
 msgid "Changing user name for:"
-msgstr ""
+msgstr "Zmena mena používateľa pre:"
 
 #: ../interfaces/users.ui.h:39
 msgid "Change User Password"
-msgstr ""
+msgstr "Zmeniť heslo používateľa"
 
 #: ../interfaces/users.ui.h:40
 msgid "Con_firmation:"
@@ -581,7 +582,7 @@ msgstr "Nastaviť heslo _ručne"
 
 #: ../interfaces/users.ui.h:44
 msgid "New _password:"
-msgstr ""
+msgstr "Nové _heslo:"
 
 #: ../interfaces/users.ui.h:45
 msgid "Generate _random password"
@@ -589,45 +590,45 @@ msgstr "Generovať _náhodné heslo"
 
 #: ../interfaces/users.ui.h:46
 msgid "Changing user password for:"
-msgstr ""
+msgstr "Zmena hesla používateľa pre:"
 
 #: ../interfaces/users.ui.h:47
 msgid "Don't ask for password on _login"
-msgstr ""
+msgstr "Nevyžadovať hes_lo pri prihlásení"
 
 #: ../interfaces/users.ui.h:48
 msgid "_Current password:"
-msgstr ""
+msgstr "_Súčasné heslo:"
 
 #: ../interfaces/users.ui.h:49
 msgid "Change User Account Type"
-msgstr ""
+msgstr "Zmeniť typ účtu používateľa"
 
 #: ../interfaces/users.ui.h:50
 msgid "Changing user account type for:"
-msgstr ""
+msgstr "Zmena typu účtu používateľa pre:"
 
 #: ../interfaces/users.ui.h:51
 msgid "_Custom"
-msgstr ""
+msgstr "_Vlastné"
 
 #: ../interfaces/users.ui.h:52
 msgid ""
 "This account is using special settings that have been defined manually. Use "
 "the <i>Advanced Settings</i> dialog to tune them."
-msgstr ""
+msgstr "Tento účet používa špeciálne nastavenia, ktoré boli určené ručne. Použite dialógové okno <i>Pokročilé nastavenia</i> na ich vyladenie."
 
 #: ../interfaces/users.ui.h:53
 msgid "Create New User"
-msgstr ""
+msgstr "Vytvorenie nového používateľa"
 
 #: ../interfaces/users.ui.h:54
 msgid "_Name:"
-msgstr ""
+msgstr "Me_no:"
 
 #: ../interfaces/users.ui.h:55
 msgid "Create a new user"
-msgstr ""
+msgstr "Vytvoriť nového používateľa"
 
 #. No item should exceed a length of 40 characters, to avoid wrapping on two
 #. lines. Better simplifying than making it hard to read!
@@ -637,36 +638,36 @@ msgid ""
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr ""
+msgstr "Meno používateľa musí obsahovať iba: \n➣ malá písmená bez diakritiky \n➣ číslice \n➣ niektoré ze znakov „.“, „-“ a „_“"
 
 #: ../interfaces/users.ui.h:62
 msgid ""
 "A user with this name already exists. Please choose a different name for the"
 " new user."
-msgstr ""
+msgstr "Používateľ s takýmto menom už existuje. Vyberte prosím pre nového používateľa iné meno."
 
 #: ../interfaces/users.ui.h:63
 msgid "Username must start with a letter!"
-msgstr ""
+msgstr "Meno používateľa sa musí začínať písmenom!"
 
 #: ../interfaces/users.ui.h:64
 msgid "_Encrypt home folder to protect sensitive data"
-msgstr ""
+msgstr "_Zašifrovať domovský priečinok kvôli ochrane citlivých dát"
 
 #: ../interfaces/users.ui.h:65
 msgid ""
 "Encrypt all your files with your login password to strongly protect them "
 "from people with physical access to your computer, at the expense of a "
 "slightly reduced performance."
-msgstr ""
+msgstr "Zašifruje všetky vaše súbory vašim prihlasovacím heslom, aby mali silnú ochranu pred ľuďmi s fyzickým prístupom k vášmu počítaču. Cenou za to je mierne zníženie výkonu."
 
 #: ../interfaces/users.ui.h:66
 msgid "Change Advanced User Settings"
-msgstr ""
+msgstr "Zmeniť pokročilé nastavenia použivateľa"
 
 #: ../interfaces/users.ui.h:67
 msgid "Changing advanced settings for:"
-msgstr ""
+msgstr "Zmena pokročilých nastavení pre:"
 
 #: ../interfaces/users.ui.h:68
 msgid "O_ffice location:"
@@ -682,7 +683,7 @@ msgstr "Telefón _domov:"
 
 #: ../interfaces/users.ui.h:71
 msgid "Contact Information"
-msgstr ""
+msgstr "Kontaktné informácie"
 
 #: ../interfaces/users.ui.h:72
 msgid "User Privileges"
@@ -706,11 +707,11 @@ msgstr "ID používateľa:"
 
 #: ../interfaces/users.ui.h:77
 msgid "You can't change user ID while the user is logged in."
-msgstr ""
+msgstr "Nemôžte zmeniť ID používateľa, kým je tento používateľ prihlásený."
 
 #: ../interfaces/users.ui.h:78
 msgid "Disable _account"
-msgstr ""
+msgstr "_Zakázať účet"
 
 #: ../interfaces/users.ui.h:79
 msgid "Optional Settings"
@@ -734,21 +735,21 @@ msgstr "Pokročilé"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:1
 msgid "Show system users"
-msgstr ""
+msgstr "Zobraziť systémových použivateľov"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
 "Whether the users-admin tool should show system users in the users list."
-msgstr ""
+msgstr "Či by mal nástroj pre správu používateľov zobrazovať v zozname používateľov systémových používateľov."
 
 #: ../org.mate.system-tools.gschema.xml.in.h:3
 msgid "Show root user"
-msgstr ""
+msgstr "Zobraziť používateľa root"
 
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
 "Whether the users-admin tool should show the root user in the users list."
-msgstr ""
+msgstr "Či by mal nástroj pre správu používateľov zobrazovať v zozname používateľov používateľa root."
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -786,12 +787,12 @@ msgstr "Nemáte povolené upraviť konfiguráciu systému."
 
 #: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
-msgstr ""
+msgstr "Boli nájdené neplatné dáta."
 
 #. OOBS_RESULT_ERROR
 #: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "Vyskytla sa neznáma chyba."
 
 #: ../src/common/gst-tool.c:422
 msgid "Could not display help"
@@ -810,7 +811,7 @@ msgstr "Aktualizovať obsah? Spôsobí to stratu neuložených zmien."
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr ""
+msgstr "Vyskytla sa chyba pri overovaní oprávnení: %s Môžte to nahlásiť ako chybu."
 
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
@@ -927,29 +928,29 @@ msgstr "Cestovný režim povolený"
 #: ../src/network/ifaces-list.c:289
 #, c-format
 msgid "<b>Essid:</b> %s "
-msgstr ""
+msgstr "<b>Essid:</b> %s "
 
 #: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
 #: ../src/network/ifaces-list.c:306
 msgid "Address:"
-msgstr ""
+msgstr "Adresa:"
 
 #: ../src/network/ifaces-list.c:298
 msgid "Subnet mask:"
-msgstr ""
+msgstr "Maska podsiete:"
 
 #: ../src/network/ifaces-list.c:308
 msgid "Remote address:"
-msgstr ""
+msgstr "Vzdialená adresa:"
 
 #: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
 #: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
 msgid "Type:"
-msgstr ""
+msgstr "Typ:"
 
 #: ../src/network/ifaces-list.c:321
 msgid "Phone number:"
-msgstr ""
+msgstr "Telefónne číslo:"
 
 #: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
@@ -1455,7 +1456,7 @@ msgstr "Monitor systému"
 #. GST_ROLE_SYSTEM_MONITORING
 #: ../src/services/service.c:104
 msgid "Virtual Machine management"
-msgstr ""
+msgstr "Správa virtuálnych strojov"
 
 #: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
@@ -1561,11 +1562,11 @@ msgstr "Siete Unix (NFS)"
 #: ../src/shares/share-settings.c:462
 #, c-format
 msgid "Settings for folder '%s'"
-msgstr ""
+msgstr "Nastavenie priačinka „%s“"
 
 #: ../src/shares/share-settings.c:469
 msgid "Share Folder"
-msgstr ""
+msgstr "Zdieľaný priečinok"
 
 #: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
@@ -1579,13 +1580,13 @@ msgstr "Na zdieľanie priečinkov potrebujete nainštalovať buď Samba alebo NF
 
 #: ../src/time/e-map/e-map.c:620
 msgid "World Map"
-msgstr ""
+msgstr "Mapa sveta"
 
 #: ../src/time/e-map/e-map.c:622
 msgid ""
 "Mouse-based interactive map widget for selecting timezone. Keyboard users "
 "should instead select the timezone from the drop-down combination box below."
-msgstr ""
+msgstr "Widget s interaktívnou mapou pre výber časového pásma používajúci na ovládanie myš. Používatelia používajúci klávesnicu by namiesto neho mali vyberať časové pásmo v kombinovanom výberovom zozname nižšie."
 
 #: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
@@ -1686,7 +1687,7 @@ msgstr "Skupina \"%s\" už existuje"
 
 #: ../src/users/group-settings.c:230
 msgid "Please choose a different group name."
-msgstr ""
+msgstr "Vyberte prosím iný názov skupiny."
 
 #: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
@@ -1696,16 +1697,16 @@ msgstr "ID skupiny správcovského účtu by nemalo byť modifikované"
 #: ../src/users/group-settings.c:261
 #, c-format
 msgid "Group ID %d is already used by group \"%s\""
-msgstr ""
+msgstr "ID skupiny %d už používa skupina „%s“"
 
 #: ../src/users/group-settings.c:264
 msgid "Please choose a different numeric identifier for the new group."
-msgstr ""
+msgstr "Vyberte prosím pre novú skupinu iný číselný identifikátor."
 
 #: ../src/users/group-settings.c:266
 #, c-format
 msgid "Please choose a different numeric identifier for group \"%s\"."
-msgstr ""
+msgstr "vyberte prosím pre skupinu „%s“ iný číselný identifikátor."
 
 #: ../src/users/groups-table.c:44
 msgid "Group name"
@@ -1714,11 +1715,11 @@ msgstr "Názov skupiny"
 #. TRANSLATORS:  This applies to a password. Keep the string short.
 #: ../src/users/main.c:74 ../src/users/user-settings.c:347
 msgid "Not asked on login"
-msgstr ""
+msgstr "Nepýtať sa pri prihlásení"
 
 #: ../src/users/main.c:74 ../src/users/user-settings.c:349
 msgid "Asked on login"
-msgstr ""
+msgstr "Opýtať sa pri prihlásení"
 
 #: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
@@ -1738,7 +1739,7 @@ msgstr "Používať mechaniky CD-ROM"
 
 #: ../src/users/privileges-table.c:57
 msgid "Burn CDs / DVDs"
-msgstr ""
+msgstr "Napaľovať CD / DVD"
 
 #: ../src/users/privileges-table.c:58
 msgid "Use modems"
@@ -1758,15 +1759,15 @@ msgstr "Používať disketové mechaniky"
 
 #: ../src/users/privileges-table.c:62
 msgid "Mount user-space filesystems (FUSE)"
-msgstr ""
+msgstr "Pripájať súborové systémy v priestore používateľa (FUSE)"
 
 #: ../src/users/privileges-table.c:63
 msgid "Configure printers"
-msgstr ""
+msgstr "Nastavovať tlačiarne"
 
 #: ../src/users/privileges-table.c:64
 msgid "Connect to wireless and ethernet networks"
-msgstr ""
+msgstr "Pripájať sa k bezdrôtovým a ethernetovým sieťam"
 
 #: ../src/users/privileges-table.c:65
 msgid "Access external storage devices automatically"
@@ -1774,11 +1775,11 @@ msgstr "Automatický prístup k vonkajším úložným zariadeniam"
 
 #: ../src/users/privileges-table.c:66
 msgid "Suspend and hibernate the computer"
-msgstr ""
+msgstr "Uspávať počítač do pamäte alebo na disk"
 
 #: ../src/users/privileges-table.c:67
 msgid "Access /proc filesystem"
-msgstr ""
+msgstr "Pristupovať k súborovému systému /proc"
 
 #: ../src/users/privileges-table.c:68
 msgid "Use scanners"
@@ -1790,15 +1791,15 @@ msgstr "Používať páskové mechaniky"
 
 #: ../src/users/privileges-table.c:70
 msgid "Use USB devices"
-msgstr ""
+msgstr "Používať USB zariadenia"
 
 #: ../src/users/privileges-table.c:71
 msgid "Use VirtualBox virtualization solution"
-msgstr ""
+msgstr "Používať virtualizačné riešenia VirtualBox"
 
 #: ../src/users/privileges-table.c:72
 msgid "Use video devices"
-msgstr ""
+msgstr "Používať video zariadenia"
 
 #: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
@@ -1806,67 +1807,67 @@ msgstr "Môcť získať práva správcu"
 
 #: ../src/users/user-profiles.conf.in.h:1
 msgid "Desktop user"
-msgstr ""
+msgstr "Bežný používateľ"
 
 #: ../src/users/user-profiles.conf.in.h:2
 msgid ""
 "Can perform common tasks. Can't install software or change settings "
 "affecting all users."
-msgstr ""
+msgstr "Môže prevádzať bežné úlohy. Nemôže inštalovať software nebo meniť nastavenia dotýkajúce sa všetkých používateľov."
 
 #: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
-msgstr ""
+msgstr "Správca"
 
 #: ../src/users/user-profiles.conf.in.h:4
 msgid ""
 "Can change anything on the system, including installing and upgrading "
 "software."
-msgstr ""
+msgstr "Môže v systéme meniť čokoľvek, vrátane inštalovania a aktualizovania softwaru."
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
-msgstr ""
+msgstr "Overenie zlyhalo"
 
 #: ../src/users/run-passwd.c:498
 #, c-format
 msgid "The new password is too short"
-msgstr ""
+msgstr "Nové heslo je príliš krátke"
 
 #: ../src/users/run-passwd.c:504
 #, c-format
 msgid "The new password is too simple"
-msgstr ""
+msgstr "Nové heslo je príliš jednoduché"
 
 #: ../src/users/run-passwd.c:510
 #, c-format
 msgid "The old and new passwords are too similar"
-msgstr ""
+msgstr "Staré a nové heslo sú si podobné"
 
 #: ../src/users/run-passwd.c:513
 #, c-format
 msgid "The new password must contain numeric or special characters"
-msgstr ""
+msgstr "Nové heslo musí obsahovať číslice nebo špeciálne znaky"
 
 #: ../src/users/run-passwd.c:517
 #, c-format
 msgid "The old and new passwords are the same"
-msgstr ""
+msgstr "Staré a nové heslo sú rovnaké"
 
 #: ../src/users/run-passwd.c:520
 #, c-format
 msgid "The new password has already been used recently."
-msgstr ""
+msgstr "Rovnaké heslo, ako nové, bolo použité nedávno."
 
 #: ../src/users/run-passwd.c:524
 #, c-format
 msgid "Your password has been changed since you initially authenticated!"
-msgstr ""
+msgstr "Vaše heslo bolo od vášho prvotného overenia zmenené!"
 
 #: ../src/users/run-passwd.c:528
 #, c-format
 msgid "Unknown error"
-msgstr ""
+msgstr "Neznáma chyba"
 
 #: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
@@ -1884,7 +1885,7 @@ msgstr "Heslo je príliš krátke"
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr ""
+msgstr "Používateľské heslá musia byť dlhšie než 5 znakov a je vhodné, aby kombinovala číslice, písmena a špeciálne znaky."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1896,15 +1897,15 @@ msgstr "Skontrolujte, či ste zadali rovnaké heslo v oboch poliach."
 
 #: ../src/users/user-password.c:445
 msgid "Please choose another password."
-msgstr ""
+msgstr "Vyberte si prosím iné heslo."
 
 #: ../src/users/user-password.c:456
 msgid "Please type again your current password."
-msgstr ""
+msgstr "Napíšte prosím svoje súčasné heslo znova."
 
 #: ../src/users/user-password.c:463
 msgid "Password could not be changed"
-msgstr ""
+msgstr "Heslo sa nepodarilo zmeniť"
 
 #: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
@@ -1913,27 +1914,27 @@ msgstr "Účet správcu nemôže byť odstránený"
 #: ../src/users/user-settings.c:96
 #, c-format
 msgid "%s is currently using this computer"
-msgstr ""
+msgstr "Používateľ %s práve používa tento počítač"
 
 #: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
-msgstr ""
+msgstr "Uistite sa prosím, že sa používateľ pred vymazaním účtu odhlásil."
 
 #: ../src/users/user-settings.c:109
 msgid "Can't delete the only administrator account"
-msgstr ""
+msgstr "Nemôžte vymazať jediný účet správcu"
 
 #: ../src/users/user-settings.c:111
 #, c-format
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr ""
+msgstr "%s je na tomto počítači jediný správca. Vymazanie tohto účtu by mohlo zablokovať správu systému."
 
 #: ../src/users/user-settings.c:121
 #, c-format
 msgid "Remove home folder for %s?"
-msgstr ""
+msgstr "Odstrániť domovský priečinok používateľa %s?"
 
 #: ../src/users/user-settings.c:124
 #, c-format
@@ -1941,32 +1942,32 @@ msgid ""
 "Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
 " need them anymore. You may want to back them up before deleting the "
 "account, or keep them so that an administrator can save them later."
-msgstr ""
+msgstr "Súbory vlastnené používateľom %s v <tt>%s</tt> môžu byť kompletne zmazané, ak ich už viac nepotrebujete. Možno ich budete chcieť pred odstránením účtu zálohovať, alebo ich zachovať tak, aby ich mohol správca neskôr zachrániť."
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
-msgstr ""
+msgstr "Zachovať súbory"
 
 #: ../src/users/user-settings.c:133
 msgid "Don't Remove Account"
-msgstr ""
+msgstr "Neodstraňovať účet"
 
 #: ../src/users/user-settings.c:134
 msgid "Delete Files"
-msgstr ""
+msgstr "Vymazať súbory"
 
 #: ../src/users/user-settings.c:330
 msgid "Superuser"
-msgstr ""
+msgstr "Superpoužívateľ"
 
 #: ../src/users/user-settings.c:335
 msgid "Custom"
-msgstr ""
+msgstr "Vlastné"
 
 #. TRANSLATORS: This applies to a password.
 #: ../src/users/user-settings.c:344
 msgid "None"
-msgstr ""
+msgstr "Žiadne"
 
 #: ../src/users/user-settings.c:393
 #, c-format
@@ -1985,11 +1986,11 @@ msgstr "Neúplná cesta k domovskom priečinku"
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
+msgstr "Zadajte prosím plnú cestu k domovskému priečinku \n<span size=\"smaller\">napr.: /home/janko</span>."
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
-msgstr ""
+msgstr "Nový domovský priečinok už existuje, použiť ho?"
 
 #: ../src/users/user-settings.c:449
 #, c-format
@@ -1997,30 +1998,30 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
 "In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
-msgstr ""
+msgstr "Domovský priečinok pre %s bol nastavený na priečinok <tt>%s</tt>, ktorý už existuje. Chcete použiť súbory z tohto priečinka, alebo skopírovať obsah priečinka <tt>%s</tt> do nového domovského, a tým ho prepísať? Ak si nie ste istí, čo vybrať, použite nový priečinok, aby ste zamedzili strate dát, a súbory zo starého priečinka skopírujte dodatočne."
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
-msgstr ""
+msgstr "Nah_radiť starými súbormi"
 
 #: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
 #: ../src/users/user-settings.c:540
 msgid "_Cancel Change"
-msgstr ""
+msgstr "_Zrušiť zmeny"
 
 #. TRANSLATORS: This means "use the files from the new location",
 #. * as opposed to those from the old location.
 #: ../src/users/user-settings.c:465
 msgid "_Use New Files"
-msgstr ""
+msgstr "Po_užiť nové súbory"
 
 #: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
 msgid "Make user the _owner of the new home directory"
-msgstr ""
+msgstr "Nastaviť používateľa ak_o vlastníka nového domovského priečinku"
 
 #: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
 msgid "_Delete old home directory"
-msgstr ""
+msgstr "_Vymazať starý domovský priečinok"
 
 #: ../src/users/user-settings.c:493
 #, c-format
@@ -2028,19 +2029,19 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr ""
+msgstr "Domovský priečinok pre %s bol nastavený na priečinok <tt>%s</tt>, ktorý už existuje. Chcete použiť súbory z tohto priečinka, alebo vymazať celý jeho obsah a použiť úplne prázdny domovský priečinok? Ak si nie ste istí, čo vybrať, tak súbory zachovajte a keď bude treba, odstráňte ich dodatočne."
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
-msgstr ""
+msgstr "_Vymazať súbory"
 
 #: ../src/users/user-settings.c:505
 msgid "_Use Existing Files"
-msgstr ""
+msgstr "Po_užiť existujúce súbory"
 
 #: ../src/users/user-settings.c:526
 msgid "Copy old home directory to new location?"
-msgstr ""
+msgstr "Skopírovať starý domovský priečinok do nového umiestnenia?"
 
 #: ../src/users/user-settings.c:528
 #, c-format
@@ -2048,31 +2049,31 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
 "If you choose to copy the files to the new location, it's safe to delete the old directory."
-msgstr ""
+msgstr "Domovský priečinok pre %s bol nastavený na priečinok <tt>%s</tt>, ktorý už existuje. Chcete skopírovať obsah starého domovského priečinka (<tt>%s</tt>), alebo použiť úplne prázdny domovský priečinok? Ak vyberiete skopírovanie súborov do nového umiestnenia, môžete starý priečinok bezpečne vymazať."
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
-msgstr ""
+msgstr "Po_užiť prázdny priečinok"
 
 #. TRANSLATORS: This means "copy files from the old home directory".
 #: ../src/users/user-settings.c:542
 msgid "Co_py Old Files"
-msgstr ""
+msgstr "_Kopírovať staré súbory"
 
 #: ../src/users/user-settings.c:604
 msgid "ID for the root user should not be modified"
-msgstr ""
+msgstr "ID používateľa root nemôže byť zmenené"
 
 #. check that UID is free
 #: ../src/users/user-settings.c:608
 #, c-format
 msgid "User ID %d is already used by user %s"
-msgstr ""
+msgstr "ID používateľa %d už používa používateľ %s"
 
 #: ../src/users/user-settings.c:610
 #, c-format
 msgid "Please choose a different numeric identifier for %s."
-msgstr ""
+msgstr "Vyberte prosím iný číselný identifikátor pre používateľa %s."
 
 #: ../src/users/user-settings.c:628
 msgid "Incomplete path in shell"
@@ -2082,37 +2083,37 @@ msgstr "Neúplná cesta v shelli"
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
+msgstr "Zadajte prosím plnú cestu k shellu \n<span size=\"smaller\">napr.: /bin/bash</span>."
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
-msgstr ""
+msgstr "Nemôžte odňať oprávnenia správcu"
 
 #: ../src/users/user-settings.c:666
 #, c-format
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr ""
+msgstr "%s je jediný správca na tomto počítači. Odobratie oprávnení správcu tomuto účtu by mohlo zablokovať správu systému."
 
 #: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
-msgstr ""
+msgstr "Chystáte sa odňať svoje vlastné oprávnenia správcu"
 
 #: ../src/users/user-settings.c:686
 #, c-format
 msgid ""
 "%s will no longer be able to perform administrative tasks. This account "
 "won't be allowed to get administration rights back on its own."
-msgstr ""
+msgstr "Používateľ %s nebude môcť naďalej prevádzať úlohy správcu. Tomuto účtu nebude umožnené získať oprávnenia správcu späť vlastnými silami."
 
 #: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
-msgstr ""
+msgstr "Vzdať sa oprávnení správcu"
 
 #: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
-msgstr ""
+msgstr "Aplikujú sa zmeny do nastavení používateľa…"
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
