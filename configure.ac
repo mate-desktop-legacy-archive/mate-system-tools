@@ -302,10 +302,8 @@ Makefile
 doc/Makefile
 doc/network/Makefile
 doc/services/Makefile
-doc/services/nl/Makefile
 doc/shares/Makefile
 doc/time/Makefile
-doc/time/nl/Makefile
 doc/users/Makefile
 icons/Makefile
 icons/16x16/Makefile

@@ -10,7 +10,4 @@ HELP_MEDIA = \
 
 HELP_LINGUAS = ca cs de el en_GB es fr gl it oc pt_BR ru sv zh_CN
 
-# This isn't still ported to mate-doc-utils
-SUBDIRS = nl
-
 -include $(top_srcdir)/git.mk
