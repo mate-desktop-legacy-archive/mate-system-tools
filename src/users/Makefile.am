@@ -17,7 +17,8 @@ mate_users_admin_LDADD = $(GST_TOOL_LIBS)
 mate_users_admin_DEPENDENCIES = $(GST_TOOL_DEPENDENCIES) 
 mate_users_admin_SOURCES = \
 	main.c \
-	passwd.c \passwd.h \
+	passwd.c \
+	passwd.h \
 	users-tool.c \
 	users-tool.h \
 	callbacks.c \
