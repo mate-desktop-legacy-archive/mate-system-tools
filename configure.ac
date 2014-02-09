@@ -286,12 +286,20 @@ if test "x$enable_caja" = "xyes"; then
 		   ])
 fi
 
+AC_ARG_WITH(cajadir,
+	AS_HELP_STRING([--with-cajadir=DIR],[Installation path for Caja extension @<:@auto@:>@]),
+	[ac_with_cajadir=$withval],
+	[ac_with_cajadir=""])
+if test "${ac_with_cajadir}" = ""; then
+        ac_with_cajadir=`pkg-config --variable=extensiondir libcaja-extension`
+fi
+
 AC_SUBST(CAJA_LIBS)
 AC_SUBST(CAJA_CFLAGS)
 
 dnl Determine the install dir for caja extension.
-CAJADIR=`pkg-config --variable=extensiondir libcaja-extension`
-AC_SUBST(CAJADIR)
+AC_MSG_NOTICE([installing caja plugin in ${ac_with_cajadir}])
+AC_SUBST([CAJADIR],[${ac_with_cajadir}])
 
 dnl ===========================
 dnl END: CAJA EXTENSION

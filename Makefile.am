@@ -45,6 +45,6 @@ MAINTAINERCLEANFILES = \
 	xmldocs.make \
 	`find "$(srcdir)" -type f -name Makefile.in -print`
 
-DISTCHECK_CONFIGURE_FLAGS = --disable-scrollkeeper
+DISTCHECK_CONFIGURE_FLAGS = --disable-scrollkeeper --with-cajadir='$${libdir}/caja/extensions-2.0-distcheck'
 
 -include $(top_srcdir)/git.mk
