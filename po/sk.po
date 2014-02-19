@@ -6,15 +6,17 @@
 # Ivan Noris <vix@vazka.sk>, 2005
 # Ján Ďanovský <dagsoftware@yahoo.com>, 2013
 # pavolzetor <pavol@klacansky.com>, 2008, 2009
+# pavolzetor <pavol@klacansky.com>, 2008-2009
 # Stanislav Višňovský <visnovsky@kde.org>, 2003
-# Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>, 2001, 2002, 2003
+# Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>, 2001-2003
+# tibbi <tibbbi2@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2013-04-24 18:54+0000\n"
-"Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
+"PO-Revision-Date: 2014-02-13 21:12+0000\n"
+"Last-Translator: tibbi <tibbbi2@gmail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -221,7 +223,7 @@ msgstr "Modem"
 
 #: ../interfaces/network.ui.h:51
 msgid "_Set modem as default route to internet"
-msgstr "_Nastaviť modem ako štandardné smerovanie na internet"
+msgstr "_Nastaviť modem ako predvolené smerovanie na internet"
 
 #: ../interfaces/network.ui.h:52
 msgid "Use the Internet service provider nameservers"
@@ -233,7 +235,7 @@ msgstr "_Skúsiť znovu, ak spojenie spadne alebo sa nespustí"
 
 #: ../interfaces/network.ui.h:54
 msgid "Options"
-msgstr "Nastavenia"
+msgstr "Možnosti"
 
 #: ../interfaces/network.ui.h:55
 msgid "Host Alias Properties"
@@ -273,7 +275,7 @@ msgstr "Komentár:"
 
 #: ../interfaces/shares.ui.h:5
 msgid "Name:"
-msgstr "Meno:"
+msgstr "Názov:"
 
 #: ../interfaces/shares.ui.h:6
 msgid "_Read only"
@@ -474,19 +476,19 @@ msgstr "_Komentáre"
 
 #: ../interfaces/users.ui.h:16
 msgid "System Defaults"
-msgstr "Štandardné nastavenia systému"
+msgstr "Predvolené nastavenia systému"
 
 #: ../interfaces/users.ui.h:17
 msgid "_Home directory:"
-msgstr "_Domovský priečinok:"
+msgstr "_Domovský adresár:"
 
 #: ../interfaces/users.ui.h:18
 msgid "Default _shell:"
-msgstr "Štandardný s_hell:"
+msgstr "Predvolený s_hell:"
 
 #: ../interfaces/users.ui.h:19
 msgid "Default _group:"
-msgstr "Štandardná _skupina:"
+msgstr "Predvolená _skupina:"
 
 #: ../interfaces/users.ui.h:20
 msgid "Password Settings"
@@ -502,11 +504,11 @@ msgstr "Minimálny počet dní medzi zmenami hesla:"
 
 #: ../interfaces/users.ui.h:23
 msgid "Days between warning and password expiration:"
-msgstr "Dní medzi varovaním a vypršaním hesla: "
+msgstr "Dní medzi upozornením a vypršaním hesla: "
 
 #: ../interfaces/users.ui.h:24
 msgid "Assign a random password by default"
-msgstr "Štandardne priradiť náhodné heslo"
+msgstr "Priradiť v predvolenom stave náhodné heslo"
 
 #: ../interfaces/users.ui.h:25
 msgid "Automatic UID/GID"
@@ -530,7 +532,7 @@ msgstr "Minimálne GID:"
 
 #: ../interfaces/users.ui.h:31
 msgid "Privileges"
-msgstr "Práva"
+msgstr "Výsady"
 
 #: ../interfaces/users.ui.h:32
 msgid "User profiles"
@@ -638,7 +640,7 @@ msgid ""
 "  ➣ lower case letters from the English alphabet\n"
 "  ➣ digits\n"
 "  ➣ any of the characters \".\", \"-\" and \"_\""
-msgstr "Meno používateľa musí obsahovať iba: \n➣ malá písmená bez diakritiky \n➣ číslice \n➣ niektoré ze znakov „.“, „-“ a „_“"
+msgstr "Meno používateľa musí obsahovať iba: \n➣ malá písmená bez diakritiky \n➣ číslice \n➣ niektoré zo znakov „.“, „-“ a „_“"
 
 #: ../interfaces/users.ui.h:62
 msgid ""
@@ -652,7 +654,7 @@ msgstr "Meno používateľa sa musí začínať písmenom!"
 
 #: ../interfaces/users.ui.h:64
 msgid "_Encrypt home folder to protect sensitive data"
-msgstr "_Zašifrovať domovský priečinok kvôli ochrane citlivých dát"
+msgstr "_Zašifrovať domovský adresár kvôli ochrane citlivých dát"
 
 #: ../interfaces/users.ui.h:65
 msgid ""
@@ -687,7 +689,7 @@ msgstr "Kontaktné informácie"
 
 #: ../interfaces/users.ui.h:72
 msgid "User Privileges"
-msgstr "Používateľské práva"
+msgstr "Používateľské výsady"
 
 #: ../interfaces/users.ui.h:73
 msgid "Advanced Settings"
@@ -727,7 +729,7 @@ msgstr "Heslo môže byť použité ma_x. dní:"
 
 #: ../interfaces/users.ui.h:82
 msgid "_Days between warning and password expiration:"
-msgstr "_Dní medzi varovaním a vypršaním hesla: "
+msgstr "_Dní medzi upozornením a vypršaním hesla: "
 
 #: ../interfaces/users.ui.h:83
 msgid "Advanced"
@@ -995,7 +997,7 @@ msgstr "Názov _umiestnenia:"
 #: ../src/network/locations-combo.c:422
 #, c-format
 msgid "Do you want to delete location \"%s\"?"
-msgstr "Naozaj chcete odstrániť umiestnenie \"%s\"?"
+msgstr "Naozaj chcete odstrániť umiestnenie „%s“?"
 
 #: ../src/network/main.c:135
 msgid "The interface does not exist"
@@ -1038,7 +1040,7 @@ msgstr "Nastavenia siete"
 #: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
-msgstr "Nastavenia pre službu \"%s\""
+msgstr "Nastavenia pre službu „%s“"
 
 #: ../src/services/callbacks.c:122
 #, c-format
@@ -1317,7 +1319,7 @@ msgstr "Router advertisement server"
 #. GST_ROLE_ROUTER_ADVERTISEMENT_SERVER
 #: ../src/services/service.c:77
 msgid "IPSec key exchange server"
-msgstr "Výmený server IPSec kľúčov"
+msgstr "Výmenný server IPSec kľúčov"
 
 #. GST_ROLE_IPSEC_KEY_EXCHANGE_SERVER
 #: ../src/services/service.c:78
@@ -1357,11 +1359,11 @@ msgstr "Správa nastavení zvuku"
 #. GST_ROLE_AUDIO_MANAGEMENT
 #: ../src/services/service.c:85
 msgid "Volumes mounter"
-msgstr "Pripájanie diskov"
+msgstr "Pripájač zväzkov"
 
 #: ../src/services/service.c:85
 msgid "Mounts your volumes automatically"
-msgstr "Automaticky pripája disky"
+msgstr "Automaticky pripája zväzky"
 
 #. GST_ROLE_AUTOMOUNTER
 #: ../src/services/service.c:86
@@ -1386,7 +1388,7 @@ msgstr "Ladenie pevného disku"
 #. GST_ROLE_HDD_MANAGEMENT
 #: ../src/services/service.c:90
 msgid "Hotkeys management"
-msgstr "Správa klavesových skratiek"
+msgstr "Správa klávesových skratiek"
 
 #. GST_ROLE_HOTKEYS_MANAGEMENT
 #: ../src/services/service.c:91
@@ -1643,7 +1645,7 @@ msgstr "Toto môže spôsobiť, že sa systém stane nepoužiteľným."
 #: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
-msgstr "Naozaj chcete odstrániť skupinu \"%s\"?"
+msgstr "Naozaj chcete odstrániť skupinu „%s“?"
 
 #: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
@@ -1678,12 +1680,12 @@ msgstr "Názov skupiny obsahuje neplatné znaky"
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr "Prosím, zadajte platný názov skupiny zloženého s malého písmena nasledovaného malými písmenami a číslami."
+msgstr "Prosím, zadajte platný názov skupiny zloženého z malého písmena nasledovaného malými písmenami a číslami."
 
 #: ../src/users/group-settings.c:229
 #, c-format
 msgid "Group \"%s\" already exists"
-msgstr "Skupina \"%s\" už existuje"
+msgstr "Skupina „%s“ už existuje"
 
 #: ../src/users/group-settings.c:230
 msgid "Please choose a different group name."
@@ -1803,7 +1805,7 @@ msgstr "Používať video zariadenia"
 
 #: ../src/users/privileges-table.c:73
 msgid "Be able to get administrator privileges"
-msgstr "Môcť získať práva správcu"
+msgstr "Môcť získať výsady správcu"
 
 #: ../src/users/user-profiles.conf.in.h:1
 msgid "Desktop user"
@@ -1813,7 +1815,7 @@ msgstr "Bežný používateľ"
 msgid ""
 "Can perform common tasks. Can't install software or change settings "
 "affecting all users."
-msgstr "Môže prevádzať bežné úlohy. Nemôže inštalovať software nebo meniť nastavenia dotýkajúce sa všetkých používateľov."
+msgstr "Môže prevádzať bežné úlohy. Nemôže inštalovať softvér nebo meniť nastavenia týkajúce sa všetkých používateľov."
 
 #: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
@@ -1823,7 +1825,7 @@ msgstr "Správca"
 msgid ""
 "Can change anything on the system, including installing and upgrading "
 "software."
-msgstr "Môže v systéme meniť čokoľvek, vrátane inštalovania a aktualizovania softwaru."
+msgstr "Môže v systéme meniť čokoľvek, vrátane inštalovania a aktualizovania softvéru."
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
@@ -1847,7 +1849,7 @@ msgstr "Staré a nové heslo sú si podobné"
 #: ../src/users/run-passwd.c:513
 #, c-format
 msgid "The new password must contain numeric or special characters"
-msgstr "Nové heslo musí obsahovať číslice nebo špeciálne znaky"
+msgstr "Nové heslo musí obsahovať číslice alebo špeciálne znaky"
 
 #: ../src/users/run-passwd.c:517
 #, c-format
@@ -1862,7 +1864,7 @@ msgstr "Rovnaké heslo, ako nové, bolo použité nedávno."
 #: ../src/users/run-passwd.c:524
 #, c-format
 msgid "Your password has been changed since you initially authenticated!"
-msgstr "Vaše heslo bolo od vášho prvotného overenia zmenené!"
+msgstr "Vaše heslo bolo od vášho počiatočného overenia zmenené!"
 
 #: ../src/users/run-passwd.c:528
 #, c-format
@@ -1885,7 +1887,7 @@ msgstr "Heslo je príliš krátke"
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr "Používateľské heslá musia byť dlhšie než 5 znakov a je vhodné, aby kombinovala číslice, písmena a špeciálne znaky."
+msgstr "Používateľské heslá musia byť dlhšie než 5 znakov a je vhodné, aby kombinovali číslice, písmena a špeciálne znaky."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1901,7 +1903,7 @@ msgstr "Vyberte si prosím iné heslo."
 
 #: ../src/users/user-password.c:456
 msgid "Please type again your current password."
-msgstr "Napíšte prosím svoje súčasné heslo znova."
+msgstr "Napíšte prosím svoje súčasné heslo znovu."
 
 #: ../src/users/user-password.c:463
 msgid "Password could not be changed"
@@ -1934,7 +1936,7 @@ msgstr "%s je na tomto počítači jediný správca. Vymazanie tohto účtu by m
 #: ../src/users/user-settings.c:121
 #, c-format
 msgid "Remove home folder for %s?"
-msgstr "Odstrániť domovský priečinok používateľa %s?"
+msgstr "Odstrániť domovský adresár používateľa %s?"
 
 #: ../src/users/user-settings.c:124
 #, c-format
@@ -1972,7 +1974,7 @@ msgstr "Žiadne"
 #: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
-msgstr "Neplatný znak \"%c\" v komentári"
+msgstr "Neplatný znak „%c“ v komentári"
 
 #: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
@@ -1980,17 +1982,17 @@ msgstr "Skontrolujte, či sa tento znak nepoužíva."
 
 #: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
-msgstr "Neúplná cesta k domovskom priečinku"
+msgstr "Neúplná cesta v domovskom adresári"
 
 #: ../src/users/user-settings.c:427
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr "Zadajte prosím plnú cestu k domovskému priečinku \n<span size=\"smaller\">napr.: /home/janko</span>."
+msgstr "Zadajte prosím plnú cestu k domovskému adresáru \n<span size=\"smaller\">napr.: /home/janko</span>."
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
-msgstr "Nový domovský priečinok už existuje, použiť ho?"
+msgstr "Nový domovský adresár už existuje, použiť ho?"
 
 #: ../src/users/user-settings.c:449
 #, c-format
@@ -1998,7 +2000,7 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
 "In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
-msgstr "Domovský priečinok pre %s bol nastavený na priečinok <tt>%s</tt>, ktorý už existuje. Chcete použiť súbory z tohto priečinka, alebo skopírovať obsah priečinka <tt>%s</tt> do nového domovského, a tým ho prepísať? Ak si nie ste istí, čo vybrať, použite nový priečinok, aby ste zamedzili strate dát, a súbory zo starého priečinka skopírujte dodatočne."
+msgstr "Domovský adresár pre %s bol nastavený na <tt>%s</tt>, ktorý už existuje. Chcete použiť súbory z tohto adresára, alebo skopírovať obsah adresára <tt>%s</tt> do nového domovského, a tým ho prepísať? Ak si nie ste istí, čo vybrať, použite nový adresár, aby ste zamedzili strate dát, a súbory zo starého adresára skopírujte dodatočne."
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
@@ -2017,11 +2019,11 @@ msgstr "Po_užiť nové súbory"
 
 #: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
 msgid "Make user the _owner of the new home directory"
-msgstr "Nastaviť používateľa ak_o vlastníka nového domovského priečinku"
+msgstr "Nastaviť používateľa ak_o vlastníka nového domovského adresára"
 
 #: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
 msgid "_Delete old home directory"
-msgstr "_Vymazať starý domovský priečinok"
+msgstr "_Vymazať starý domovský adresár"
 
 #: ../src/users/user-settings.c:493
 #, c-format
@@ -2029,7 +2031,7 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr "Domovský priečinok pre %s bol nastavený na priečinok <tt>%s</tt>, ktorý už existuje. Chcete použiť súbory z tohto priečinka, alebo vymazať celý jeho obsah a použiť úplne prázdny domovský priečinok? Ak si nie ste istí, čo vybrať, tak súbory zachovajte a keď bude treba, odstráňte ich dodatočne."
+msgstr "Domovský adresár pre %s bol nastavený na <tt>%s</tt>, ktorý už existuje. Chcete použiť súbory z tohto adresára, alebo vymazať celý jeho obsah a použiť úplne prázdny domovský adresár? Ak si nie ste istí, čo vybrať, tak súbory zachovajte a keď bude treba, odstráňte ich dodatočne."
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
@@ -2041,7 +2043,7 @@ msgstr "Po_užiť existujúce súbory"
 
 #: ../src/users/user-settings.c:526
 msgid "Copy old home directory to new location?"
-msgstr "Skopírovať starý domovský priečinok do nového umiestnenia?"
+msgstr "Skopírovať starý domovský adresár do nového umiestnenia?"
 
 #: ../src/users/user-settings.c:528
 #, c-format
@@ -2049,11 +2051,11 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
 "If you choose to copy the files to the new location, it's safe to delete the old directory."
-msgstr "Domovský priečinok pre %s bol nastavený na priečinok <tt>%s</tt>, ktorý už existuje. Chcete skopírovať obsah starého domovského priečinka (<tt>%s</tt>), alebo použiť úplne prázdny domovský priečinok? Ak vyberiete skopírovanie súborov do nového umiestnenia, môžete starý priečinok bezpečne vymazať."
+msgstr "Domovský adresár pre %s bol nastavený na <tt>%s</tt>, ktorý už existuje. Chcete skopírovať obsah starého domovského adresára (<tt>%s</tt>), alebo použiť úplne prázdny domovský adresár? Ak vyberiete skopírovanie súborov do nového umiestnenia, môžete starý adresár bezpečne vymazať."
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
-msgstr "Po_užiť prázdny priečinok"
+msgstr "Po_užiť prázdny adresár"
 
 #. TRANSLATORS: This means "copy files from the old home directory".
 #: ../src/users/user-settings.c:542
