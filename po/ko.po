@@ -4,14 +4,15 @@
 # 
 # Translators:
 # kentarch <bkrhlim@aol.com>, 2013
-# Changwoo Ryu <cwryu@debian.org>, 2006, 2007, 2008, 2009, 2010
+# Changwoo Ryu <cwryu@debian.org>, 2006-2010
+# kentarch <bkrhlim@aol.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2013-08-19 23:24+0000\n"
-"Last-Translator: kentarch <bkrhlim@aol.com>\n"
+"PO-Revision-Date: 2014-02-27 14:29+0000\n"
+"Last-Translator: Darkcircle <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/MATE/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +46,7 @@ msgstr "펄스"
 
 #: ../interfaces/network.ui.h:7
 msgid "Plain (ASCII)"
-msgstr "보통 (ASCII)"
+msgstr "보통(ASCII)"
 
 #: ../interfaces/network.ui.h:8
 msgid "Hexadecimal"
@@ -117,7 +118,7 @@ msgstr "연결 종류:"
 
 #: ../interfaces/network.ui.h:25
 msgid "Network name (_ESSID):"
-msgstr "네트워크 이름 (_ESSID):"
+msgstr "네트워크 이름(_ESSID):"
 
 #: ../interfaces/network.ui.h:26
 msgid "Network _password:"
@@ -335,7 +336,7 @@ msgstr "WINS 서버(_S):"
 
 #: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
-msgstr "윈도우즈 공유"
+msgstr "윈도우 공유"
 
 #: ../interfaces/shares.ui.h:23
 msgid "General Properties"
@@ -543,11 +544,11 @@ msgstr "그룹 설정"
 
 #: ../interfaces/users.ui.h:35
 msgid "Groups available on the system:"
-msgstr "시스템에서 사용 가능한 그룹들 "
+msgstr "시스템에 존재하는 그룹:"
 
 #: ../interfaces/users.ui.h:36
 msgid "Change User Name"
-msgstr "사용자 이름 "
+msgstr "사용자 이름 바꾸기"
 
 #: ../interfaces/users.ui.h:37
 msgid "Full _Name:"
@@ -737,7 +738,7 @@ msgstr "시스템 사용자 보기"
 #: ../org.mate.system-tools.gschema.xml.in.h:2
 msgid ""
 "Whether the users-admin tool should show system users in the users list."
-msgstr "사용자-관리 도구의 사용자 목록에서 시스템 사용자 보기 여부"
+msgstr "사용자-관리 도구의 사용자 목록에서 시스템 사용자 표시를 설정합니다."
 
 #: ../org.mate.system-tools.gschema.xml.in.h:3
 msgid "Show root user"
@@ -746,7 +747,7 @@ msgstr "루트 사용자 보기"
 #: ../org.mate.system-tools.gschema.xml.in.h:4
 msgid ""
 "Whether the users-admin tool should show the root user in the users list."
-msgstr "사용자-관리 도구의 사용자 목록에서 루트 사용자 보기 여부 "
+msgstr "사용자-관리 도구의 사용자 목록에서 루트 사용자 표시를 설정합니다."
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
@@ -854,11 +855,11 @@ msgstr "호스트 이름 바꾸기(_H)"
 
 #: ../src/network/connection.c:40
 msgid "Automatic configuration (DHCP)"
-msgstr "자동 설정 (DHCP)"
+msgstr "자동 설정(DHCP)"
 
 #: ../src/network/connection.c:41
 msgid "Local Zeroconf network (IPv4 LL)"
-msgstr "로컬 zeroconf 네트워크 (IPv4 LL)"
+msgstr "로컬 zeroconf 네트워크(IPv4 LL)"
 
 #: ../src/network/connection.c:42
 msgid "Static IP address"
@@ -866,11 +867,11 @@ msgstr "고정 IP 주소"
 
 #: ../src/network/connection.c:46
 msgid "WEP key (ascii)"
-msgstr "WEP 키 (ASCII)"
+msgstr "WEP 키(ASCII)"
 
 #: ../src/network/connection.c:47
 msgid "WEP key (hexadecimal)"
-msgstr "WEP 키 (16진수)"
+msgstr "WEP 키(16진수)"
 
 #: ../src/network/connection.c:48
 msgid "WPA Personal"
@@ -1550,11 +1551,11 @@ msgstr "공유하지 말기"
 
 #: ../src/shares/share-settings.c:152
 msgid "Windows networks (SMB)"
-msgstr "윈도우즈 네트워크 (SMB)"
+msgstr "윈도우 네트워크(SMB)"
 
 #: ../src/shares/share-settings.c:160
 msgid "Unix networks (NFS)"
-msgstr "유닉스 네트워크 (NFS)"
+msgstr "유닉스 네트워크(NFS)"
 
 #: ../src/shares/share-settings.c:462
 #, c-format
@@ -1583,7 +1584,7 @@ msgstr "세계 "
 msgid ""
 "Mouse-based interactive map widget for selecting timezone. Keyboard users "
 "should instead select the timezone from the drop-down combination box below."
-msgstr ""
+msgstr "시간대를 설정하는데 활용할 마우스 기반 상호작용 맵 위젯입니다. 키보드 사용자는 대신 하단의 드롭다운 조합 상자에서 시간대를 설정하십시오."
 
 #: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
@@ -1601,7 +1602,7 @@ msgstr "NTP 기능을 설치하지 않았습니다"
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr "로컬 시간서버와 인터넷 시간서버의 시계를 똑같이 맞추기 위해서는 시스템에서 NTP 기능을 설치하고 실행해야 합니다."
+msgstr "로컬 시간 서버와 인터넷 시간 서버의 시계를 똑같이 맞추려면 시스템에서 NTP 기능을 설치하고 실행해야 합니다."
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
@@ -1756,7 +1757,7 @@ msgstr "플로피 드라이브 사용"
 
 #: ../src/users/privileges-table.c:62
 msgid "Mount user-space filesystems (FUSE)"
-msgstr "유저스페이스 파일 시스템 마운트 (FUSE)"
+msgstr "사용자 영역 파일 시스템 마운트(FUSE)"
 
 #: ../src/users/privileges-table.c:63
 msgid "Configure printers"
@@ -1854,7 +1855,7 @@ msgstr "예전 암호와 새 암호가 같습니다"
 #: ../src/users/run-passwd.c:520
 #, c-format
 msgid "The new password has already been used recently."
-msgstr ""
+msgstr "새 암호는 최근에 사용했습니다."
 
 #: ../src/users/run-passwd.c:524
 #, c-format
@@ -1882,7 +1883,7 @@ msgstr "암호가 너무 짧습니다"
 msgid ""
 "User passwords must be longer than 5 characters and preferably formed by "
 "numbers, letters and special characters."
-msgstr ""
+msgstr "사용자 암호는 5글자 보다 길어야 하며, 숫자, 문자, 특수문자로 구성해야 합니다."
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
@@ -1983,11 +1984,11 @@ msgstr "홈 디렉터리의 전체 경로를 입력하십시오."
 msgid ""
 "Please enter full path for home directory\n"
 "<span size=\"smaller\">i.e.: /home/john</span>."
-msgstr ""
+msgstr "내 폴더의 전체 경로를 입력하십시오\n<span size=\"smaller\">예: /home/john</span>."
 
 #: ../src/users/user-settings.c:447 ../src/users/user-settings.c:491
 msgid "New home directory already exists, use it?"
-msgstr ""
+msgstr "새로운 내 폴더가 존재합니다. 사용하시겠습니까?"
 
 #: ../src/users/user-settings.c:449
 #, c-format
@@ -1995,30 +1996,30 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or copy the contents of <tt>%s</tt> to the new home, overwriting it?\n"
 "\n"
 "In doubt, use the new directory to avoid losing data, and copy files from the old directory later."
-msgstr ""
+msgstr "%s의 내 폴더를 존재하지 않는 <tt>%s</tt>(으)로 설정했습니다. 이 디렉터리의 파일을 사용하거나 새로운 내 폴더로 <tt>%s</tt>의 내용을 복사하여 덮어쓰시겠습니까?\n\n의심된다면, 데이터 손실 방지 목적으로 새 디렉터리를 사용하시고, 나중에 이전 디렉터리의 파일을 복사하십시오."
 
 #: ../src/users/user-settings.c:461
 msgid "_Replace With Old Files"
-msgstr ""
+msgstr "오래된 파일 바꾸기(_R)"
 
 #: ../src/users/user-settings.c:462 ../src/users/user-settings.c:504
 #: ../src/users/user-settings.c:540
 msgid "_Cancel Change"
-msgstr ""
+msgstr "바꾸기 취소(_C)"
 
 #. TRANSLATORS: This means "use the files from the new location",
 #. * as opposed to those from the old location.
 #: ../src/users/user-settings.c:465
 msgid "_Use New Files"
-msgstr ""
+msgstr "새 파일 사용(_U)"
 
 #: ../src/users/user-settings.c:470 ../src/users/user-settings.c:510
 msgid "Make user the _owner of the new home directory"
-msgstr ""
+msgstr "새로운 내 폴더 소유자 만들기(_O)"
 
 #: ../src/users/user-settings.c:473 ../src/users/user-settings.c:547
 msgid "_Delete old home directory"
-msgstr ""
+msgstr "오래된 내 폴더 삭제(_D)"
 
 #: ../src/users/user-settings.c:493
 #, c-format
@@ -2026,19 +2027,19 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr ""
+msgstr "%s의 내 폴더를 존재하지 않는 <tt>%s</tt>(으)로 설정했습니다. 이 디렉터리의 파일을 사용하거나 모든 내용을 삭제하고 완전히 빈 내 폴더를 사용하시겠습니까?\n\n의심된다면, 파일을 그대로 두시고, 필요한 경우 제거하십시오."
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"
-msgstr ""
+msgstr "파일 삭제(_D)"
 
 #: ../src/users/user-settings.c:505
 msgid "_Use Existing Files"
-msgstr ""
+msgstr "기존 파일 사용(_U)"
 
 #: ../src/users/user-settings.c:526
 msgid "Copy old home directory to new location?"
-msgstr ""
+msgstr "이전 내 폴더를 새 위치로 복사하시겠습니까?"
 
 #: ../src/users/user-settings.c:528
 #, c-format
@@ -2046,20 +2047,20 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which doesn't exist. Do you want to copy the contents of the old home directory (<tt>%s</tt>), or use a completely empty home directory?\n"
 "\n"
 "If you choose to copy the files to the new location, it's safe to delete the old directory."
-msgstr ""
+msgstr "%s의 내 폴더를 존재하지 않는 <tt>%s</tt>(으)로 설정했습니다. 이전 내 폴더*(<tt>%s</tt>)의 내용을 복사하시거나 완전히 빈 내 폴더를 사용하시겠습니까?\n\n파일을 복사할 새 경로를 선택하면, 이전 디렉터리를 안전하게 삭제합니다."
 
 #: ../src/users/user-settings.c:539
 msgid "_Use Empty Directory"
-msgstr ""
+msgstr "빈 디렉터리 사용(_U)"
 
 #. TRANSLATORS: This means "copy files from the old home directory".
 #: ../src/users/user-settings.c:542
 msgid "Co_py Old Files"
-msgstr ""
+msgstr "이전 파일 복사(_P)"
 
 #: ../src/users/user-settings.c:604
 msgid "ID for the root user should not be modified"
-msgstr "루트(root) 사용자의 ID는 수정할 수 없습니다"
+msgstr "루트 사용자의 ID는 수정할 수 없습니다"
 
 #. check that UID is free
 #: ../src/users/user-settings.c:608
@@ -2080,7 +2081,7 @@ msgstr "완전하지 않은 셸 경로"
 msgid ""
 "Please enter full path for shell\n"
 "<span size=\"smaller\">i.e.: /bin/bash</span>."
-msgstr ""
+msgstr "쉘 전체 경로를 입력하십시오\n<span size=\"smaller\">예: /bin/bash</span>."
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
@@ -2110,7 +2111,7 @@ msgstr "관리자 권한 포기"
 
 #: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
-msgstr ""
+msgstr "바뀐 사용자 설정 적용중..."
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"

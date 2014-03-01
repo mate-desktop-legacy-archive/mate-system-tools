@@ -3,22 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
-# Paulo Silva <paulojjs@bragatel.pt>, 2002.
-# Sérgio Marques <smarquespt@gmail.com>, 2012.
+# Carlos <crolidge@gmail.com>, 2014
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010
+# Paulo Silva <paulojjs@bragatel.pt>, 2002
+# Sérgio Marques <smarquespt@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-05-16 14:53+0000\n"
-"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
+"PO-Revision-Date: 2014-03-01 00:47+0000\n"
+"Last-Translator: Carlos <crolidge@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/MATE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
@@ -1912,7 +1913,7 @@ msgstr "Não é possível eliminar a conta de administrador"
 #: ../src/users/user-settings.c:96
 #, c-format
 msgid "%s is currently using this computer"
-msgstr "Atualmente, %s está a utilizar este computador"
+msgstr "%s está a utilizar este computador agora"
 
 #: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
@@ -2027,7 +2028,7 @@ msgid ""
 "The home directory for %s has been set to <tt>%s</tt>, which already exists. Do you want to use files from this directory, or delete all its contents and use a completely empty home directory?\n"
 "\n"
 "In doubt, keep the files, and remove them later if needed."
-msgstr "O diretório pessoal de %s foi definido como <tt>%s</tt>, que já existe. Deseja utilizar ficheiros deste diretório ou eliminar o seu conteúdo e utilizar um diretório pessoal completamente vazio?\n\nEm caso de dúvida, mantenha os ficheiros e, se necessário, remova-os mais tarde."
+msgstr "O diretório pessoal de %s foi definido como <tt>%s</tt>, o qual já existe. Deseja usar ficheiros deste diretório, ou eliminar o seu conteúdo e usar um diretório pessoal completamente vazio?\n\nEm caso de dúvida, mantenha os ficheiros e, se necessário, remova-os mais tarde."
 
 #: ../src/users/user-settings.c:503
 msgid "_Delete Files"

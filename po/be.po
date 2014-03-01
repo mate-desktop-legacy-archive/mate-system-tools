@@ -3,25 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2006, 2010.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2010.
+# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2006,2010
+# booxter <ihar.hrachyshka@gmail.com>, 2010,2014
+# booxter <ihar.hrachyshka@gmail.com>, 2010
+# meequz <meequz@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 09:46+0100\n"
-"PO-Revision-Date: 2012-03-15 08:50+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-02-26 12:00+0000\n"
+"Last-Translator: meequz <meequz@gmail.com>\n"
+"Language-Team: Belarusian (http://www.transifex.com/projects/p/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: be\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../interfaces/network.ui.h:1
 msgid "Off"
-msgstr "Выключана"
+msgstr "Адключана"
 
 #: ../interfaces/network.ui.h:2
 msgid "Low"
@@ -53,19 +55,19 @@ msgstr "Шаснаццатковы"
 
 #: ../interfaces/network.ui.h:9
 msgid "Location:"
-msgstr "Знаходжаньне:"
+msgstr "Знаходжанне:"
 
 #: ../interfaces/network.ui.h:10
 msgid "Save current network configuration as a location"
-msgstr "Захаваць гэтую канфігурацыю сеткі як асобнае месцазнаходжаньне"
+msgstr "Захаваць гэтую канфігурацыю сеткі як асобнае месцазнаходжанне"
 
 #: ../interfaces/network.ui.h:11
 msgid "Delete current location"
-msgstr "Выдаліць гэтае месцазнаходжаньне"
+msgstr "Выдаліць гэтае месцазнаходжанне"
 
 #: ../interfaces/network.ui.h:12
 msgid "Connections"
-msgstr "Спалучэньні"
+msgstr "Далучэнні"
 
 #: ../interfaces/network.ui.h:13
 msgid "_Host name:"
@@ -73,11 +75,11 @@ msgstr "_Назва вузла:"
 
 #: ../interfaces/network.ui.h:14
 msgid "D_omain name:"
-msgstr "Да_мэнная назва:"
+msgstr "Да_менная назва:"
 
 #: ../interfaces/network.ui.h:15
 msgid "Host Settings"
-msgstr "Наладкі вузла"
+msgstr "Настáўленні вузла"
 
 #: ../interfaces/network.ui.h:16 ../interfaces/users.ui.h:30
 msgid "General"
@@ -85,11 +87,11 @@ msgstr "Агульнае"
 
 #: ../interfaces/network.ui.h:17
 msgid "DNS Servers"
-msgstr "Паслужнікі DNS"
+msgstr "DNS-серверы"
 
 #: ../interfaces/network.ui.h:18
 msgid "Search Domains"
-msgstr "Пошукавыя дамэны"
+msgstr "Пошукавыя дамены"
 
 #: ../interfaces/network.ui.h:19
 msgid "DNS"
@@ -101,11 +103,11 @@ msgstr "Вузлы"
 
 #: ../interfaces/network.ui.h:21
 msgid "Interface properties"
-msgstr "Уласьцівасьці спалучэньня"
+msgstr "Уласцівасці далучэння"
 
 #: ../interfaces/network.ui.h:22
 msgid "E_nable this connection"
-msgstr "_Актывізаваць гэтае спалучэньне"
+msgstr "_Уключыць гэтае далучэнне"
 
 #: ../interfaces/network.ui.h:23
 msgid "E_nable roaming mode"
@@ -113,7 +115,7 @@ msgstr "Уключыць рэжым _роўмінгу"
 
 #: ../interfaces/network.ui.h:24
 msgid "Connection type:"
-msgstr "Тып спалучэньня:"
+msgstr "Тып далучэння:"
 
 #: ../interfaces/network.ui.h:25
 msgid "Network name (_ESSID):"
@@ -129,11 +131,11 @@ msgstr "_Тып пароля:"
 
 #: ../interfaces/network.ui.h:28
 msgid "Wireless Settings"
-msgstr "Парамэтры бяздротавай сувязі"
+msgstr "Параметры бяздротавай сувязі"
 
 #: ../interfaces/network.ui.h:29
 msgid "Con_figuration:"
-msgstr "На_ладка:"
+msgstr "Настáўленні:"
 
 #: ../interfaces/network.ui.h:30
 msgid "_IP address:"
@@ -149,7 +151,7 @@ msgstr "Адрас _шлюза:"
 
 #: ../interfaces/network.ui.h:33
 msgid "Connection Settings"
-msgstr "Наладкі спалучэньня"
+msgstr "Настáўленні далучэння"
 
 #: ../interfaces/network.ui.h:34
 msgid "_Local IP:"
@@ -173,7 +175,7 @@ msgstr "Назва пункта доступу:"
 
 #: ../interfaces/network.ui.h:39
 msgid "Internet service provider data"
-msgstr "Зьвесткі аб Інтэрнэт-правайдэры"
+msgstr "Звесткі аб Інтэрнэт-правайдэры"
 
 #: ../interfaces/network.ui.h:40 ../interfaces/users.ui.h:56
 msgid "_Username:"
@@ -185,7 +187,7 @@ msgstr "_Пароль"
 
 #: ../interfaces/network.ui.h:42
 msgid "Account data"
-msgstr "Зьвесткі рахунка"
+msgstr "Звесткі конта"
 
 #: ../interfaces/network.ui.h:43
 msgid "_Modem port:"
@@ -198,11 +200,11 @@ msgstr "_Спосаб набору:"
 #. TRANSLATORS: Volume as in loudness
 #: ../interfaces/network.ui.h:46
 msgid "_Volume:"
-msgstr "_Гучнасьць:"
+msgstr "_Гучнасць:"
 
 #: ../interfaces/network.ui.h:47
 msgid "_Autodetect"
-msgstr "_Аўтавызначэньне"
+msgstr "_Аўтавызначэнне"
 
 #: ../interfaces/network.ui.h:48 ../src/network/ifaces-list.c:335
 msgid "Ethernet interface:"
@@ -210,7 +212,7 @@ msgstr "Ethernet-інтэрфэйс:"
 
 #: ../interfaces/network.ui.h:49
 msgid "Modem Settings"
-msgstr "Наладкі мадэма"
+msgstr "Настáўленні мадэма"
 
 #: ../interfaces/network.ui.h:50
 msgid "Modem"
@@ -218,23 +220,23 @@ msgstr "Мадэм"
 
 #: ../interfaces/network.ui.h:51
 msgid "_Set modem as default route to internet"
-msgstr "Зрабіць _мадэм прадвызначанай прыладаю для доступу да Інтэрнэта"
+msgstr "Зрабіць _мадэм стандартнай прыладай для доступу да інтэрнэта"
 
 #: ../interfaces/network.ui.h:52
 msgid "Use the Internet service provider nameservers"
-msgstr "Выкарыстоўваць паслужнікі назваў Інтэрнэт-правайдэра"
+msgstr "Выкарыстоўваць серверы назваў Інтэрнэт-правайдэра"
 
 #: ../interfaces/network.ui.h:53
 msgid "_Retry if the connection breaks or fails to start"
-msgstr "_Паўтараць спробу пры разрыве альбо памылцы спалучэньня"
+msgstr "_Паўтараць спробу пры разрыве альбо памылцы далучэння"
 
 #: ../interfaces/network.ui.h:54
 msgid "Options"
-msgstr "Парамэтры"
+msgstr "Параметры"
 
 #: ../interfaces/network.ui.h:55
 msgid "Host Alias Properties"
-msgstr "Наладкі псэўданімаў вузлоў"
+msgstr "Настáўленні аліасаў вузлоў"
 
 #: ../interfaces/network.ui.h:56 ../interfaces/shares.ui.h:13
 msgid "IP address:"
@@ -242,7 +244,7 @@ msgstr "IP-адрас:"
 
 #: ../interfaces/network.ui.h:57
 msgid "Aliases:"
-msgstr "Псэўданімы:"
+msgstr "Аліасы:"
 
 #: ../interfaces/services.ui.h:1
 msgid "Select the services that you wish to activate:"
@@ -250,7 +252,7 @@ msgstr "Абярыце паслугі для актывацыі:"
 
 #: ../interfaces/services.ui.h:2
 msgid "Advanced settings:"
-msgstr "Адмысловыя наладкі:"
+msgstr "Адмысловыя настáўленні:"
 
 #: ../interfaces/shares.ui.h:1
 msgid "_Path:"
@@ -258,15 +260,15 @@ msgstr "_Шлях:"
 
 #: ../interfaces/shares.ui.h:2
 msgid "Share through:"
-msgstr "Дазволіць супольны доступ пры дапамозе:"
+msgstr "Супольны доступ праз:"
 
 #: ../interfaces/shares.ui.h:3
 msgid "Shared Folder"
-msgstr "Супольна даступная тэчка"
+msgstr "Супольна даступны каталог"
 
 #: ../interfaces/shares.ui.h:4
 msgid "Comment:"
-msgstr "Камэнтар:"
+msgstr "Каментар:"
 
 #: ../interfaces/shares.ui.h:5
 msgid "Name:"
@@ -274,11 +276,11 @@ msgstr "Назва:"
 
 #: ../interfaces/shares.ui.h:6
 msgid "_Read only"
-msgstr "Толькі для _чытаньня"
+msgstr "Толькі для _чытання"
 
 #: ../interfaces/shares.ui.h:7
 msgid "Share Properties"
-msgstr "Уласьцівасьці супольнага доступу"
+msgstr "Уласцівасці супольнага доступу"
 
 #: ../interfaces/shares.ui.h:8
 msgid "Allowed Hosts"
@@ -310,28 +312,28 @@ msgstr "Маска сеткі:"
 
 #: ../interfaces/shares.ui.h:16 ../src/shares/nfs-acl-table.c:56
 msgid "Read only"
-msgstr "Толькі для  чытаньня"
+msgstr "Толькі для  чытання"
 
 #: ../interfaces/shares.ui.h:17
 msgid "Hosts Settings"
-msgstr "Наладкі вузлоў"
+msgstr "Настáўленні вузлоў"
 
 #: ../interfaces/shares.ui.h:18 ../src/shares/mate-shares.desktop.in.in.h:1
 #: ../src/shares/shares-tool.c:237
 msgid "Shared Folders"
-msgstr "Супольна даступныя тэчкі"
+msgstr "Супольна даступныя каталогі"
 
 #: ../interfaces/shares.ui.h:19
 msgid "Domain / _Workgroup:"
-msgstr "Дамэн / _Працоўная група:"
+msgstr "Дамен / _Працоўная група:"
 
 #: ../interfaces/shares.ui.h:20
 msgid "This computer is a _WINS server"
-msgstr "Гэты кампутар зьяўляецца паслужнікам _WINS"
+msgstr "Гэты кампутар ёсць _WINS-серверам"
 
 #: ../interfaces/shares.ui.h:21
 msgid "WINS _server:"
-msgstr "Па_служнік WINS:"
+msgstr "INS-_сервер:"
 
 #: ../interfaces/shares.ui.h:22
 msgid "Windows sharing"
@@ -339,7 +341,7 @@ msgstr "Супольныя рэсурсы Windows"
 
 #: ../interfaces/shares.ui.h:23
 msgid "General Properties"
-msgstr "Агульныя ўласьцівасьці"
+msgstr "Агульныя ўласцівасці"
 
 #: ../interfaces/shares.ui.h:24
 msgid "Users"
@@ -347,11 +349,11 @@ msgstr "Карыстальнікі"
 
 #: ../interfaces/shares.ui.h:25
 msgid "Enter password for user"
-msgstr "Упішыце пароль карыстальніка"
+msgstr "Задайце пароль карыстальніка"
 
 #: ../interfaces/shares.ui.h:26
 msgid "Enter password for user:"
-msgstr "Упішыце пароль карыстальніка:"
+msgstr "Задайце пароль карыстальніка:"
 
 #: ../interfaces/time.ui.h:1
 msgid "Time zone"
@@ -367,35 +369,35 @@ msgstr "Часавы пояс:"
 
 #: ../interfaces/time.ui.h:4
 msgid "Selection"
-msgstr "Вылучэньне"
+msgstr "Вылучэнне"
 
 #: ../interfaces/time.ui.h:5
 msgid "Time servers"
-msgstr "Паслужнікі часу"
+msgstr "Серверы часу"
 
 #: ../interfaces/time.ui.h:6
 msgid "NTP server"
-msgstr "Паслужнік NTP"
+msgstr "Сервер NTP"
 
 #: ../interfaces/time.ui.h:7
 msgid "Add NTP Server"
-msgstr "Дадаць паслужнік NTP"
+msgstr "Дадаць NTP-сервер"
 
 #: ../interfaces/time.ui.h:8
 msgid "Unconfigured"
-msgstr "Не наладжана"
+msgstr "Не настаўлена"
 
 #: ../interfaces/time.ui.h:9
 msgid "_Configuration:"
-msgstr "На_ладка:"
+msgstr "На_стáўленні:"
 
 #: ../interfaces/time.ui.h:10
 msgid "Time servers:"
-msgstr "Паслужнікі часу:"
+msgstr "Серверы часу:"
 
 #: ../interfaces/time.ui.h:11
 msgid "Se_lect Servers"
-msgstr "Вы_браць паслужнікі"
+msgstr "Вы_браць серверы"
 
 #: ../interfaces/time.ui.h:12
 msgid "_Time:"
@@ -407,7 +409,7 @@ msgstr "_Дата:"
 
 #: ../interfaces/time.ui.h:14
 msgid "Synchronize now"
-msgstr "Сынхранізаваць зараз"
+msgstr "Сінхранізаваць зараз"
 
 #: ../interfaces/users.ui.h:1
 msgid "_Manage Groups"
@@ -419,7 +421,7 @@ msgstr "_Тып конта:"
 
 #: ../interfaces/users.ui.h:3
 msgid "_Change..."
-msgstr "_Зьмяніць..."
+msgstr "_Змяніць..."
 
 #: ../interfaces/users.ui.h:4
 msgid "_Password:"
@@ -427,23 +429,23 @@ msgstr "_Пароль:"
 
 #: ../interfaces/users.ui.h:5
 msgid "_Advanced Settings"
-msgstr "_Адмысловыя наладкі"
+msgstr "_Адмысловыя настáўленні"
 
 #: ../interfaces/users.ui.h:6
 msgid "This account is disabled."
-msgstr "Гэты ўліковы запіс выключаны."
+msgstr "Гэты конт адключаны."
 
 #: ../interfaces/users.ui.h:7
 msgid "_Enable Account"
-msgstr "_Уключыць уліковы запіс"
+msgstr "_Уключыць конт"
 
 #: ../interfaces/users.ui.h:8
 msgid "Group properties"
-msgstr "Уласьцівасьці групы"
+msgstr "Уласцівасці групы"
 
 #: ../interfaces/users.ui.h:9
 msgid "Basic Settings"
-msgstr "Асноўныя наладкі"
+msgstr "Асноўныя настáўленні"
 
 #: ../interfaces/users.ui.h:10
 msgid "Group _name:"
@@ -467,43 +469,43 @@ msgstr "_Назва профілю:"
 
 #: ../interfaces/users.ui.h:15
 msgid "_Comments"
-msgstr "_Камэнтары"
+msgstr "_Каментары"
 
 #: ../interfaces/users.ui.h:16
 msgid "System Defaults"
-msgstr "Сыстэмныя парамэтры"
+msgstr "Сістэмныя параметры"
 
 #: ../interfaces/users.ui.h:17
 msgid "_Home directory:"
-msgstr "_Хатні каталёг:"
+msgstr "_Хатні каталог:"
 
 #: ../interfaces/users.ui.h:18
 msgid "Default _shell:"
-msgstr "Прадвызначаная а_балонка:"
+msgstr "Стандартная а_балонка:"
 
 #: ../interfaces/users.ui.h:19
 msgid "Default _group:"
-msgstr "Прадвызначаная _група:"
+msgstr "Стандартная _група:"
 
 #: ../interfaces/users.ui.h:20
 msgid "Password Settings"
-msgstr "Парамэтры пароля"
+msgstr "Настáўленні пароля"
 
 #: ../interfaces/users.ui.h:21
 msgid "Number of days that a password may be used:"
-msgstr "Колькасьць дзён для выкарыстаньня пароля:"
+msgstr "Колькасць дзён для выкарыстання пароля:"
 
 #: ../interfaces/users.ui.h:22
 msgid "Minimum days allowed between password changes:"
-msgstr "Найменшая колькасьць дзён да зьмены пароля:"
+msgstr "Найменшая колькасць дзён да змены пароля:"
 
 #: ../interfaces/users.ui.h:23
 msgid "Days between warning and password expiration:"
-msgstr "Колькасьць дзён ад папярэджаньня да блякаваньня пароля:"
+msgstr "Колькасць дзён ад папярэджання да блакавання пароля:"
 
 #: ../interfaces/users.ui.h:24
 msgid "Assign a random password by default"
-msgstr "Прызначаць выпадковы прадвызначаны пароль"
+msgstr "Прызначаць выпадковы стандартны пароль"
 
 #: ../interfaces/users.ui.h:25
 msgid "Automatic UID/GID"
@@ -539,7 +541,7 @@ msgstr "_Дадаць профіль"
 
 #: ../interfaces/users.ui.h:34
 msgid "Groups settings"
-msgstr "Наладкі групаў"
+msgstr "Настáўленні груп"
 
 #: ../interfaces/users.ui.h:35
 msgid "Groups available on the system:"
@@ -555,15 +557,15 @@ msgstr "Поўнае _імя:"
 
 #: ../interfaces/users.ui.h:38
 msgid "Changing user name for:"
-msgstr "Зьмена імя карыстальніка для:"
+msgstr "Змена імя карыстальніка для:"
 
 #: ../interfaces/users.ui.h:39
 msgid "Change User Password"
-msgstr "Зьмяніць пароль карыстальніка"
+msgstr "Змяніць пароль карыстальніка"
 
 #: ../interfaces/users.ui.h:40
 msgid "Con_firmation:"
-msgstr "Па_цьверджаньне:"
+msgstr "Па_цверджанне:"
 
 #: ../interfaces/users.ui.h:41
 msgid "Password set to: "
@@ -571,11 +573,11 @@ msgstr "Пароль:"
 
 #: ../interfaces/users.ui.h:42
 msgid "_Generate"
-msgstr "З_генэраваць"
+msgstr "З_генераваць"
 
 #: ../interfaces/users.ui.h:43
 msgid "Set password b_y hand"
-msgstr "_Самастойна ўпішыце пароль"
+msgstr "_Самастойна задайце пароль"
 
 #: ../interfaces/users.ui.h:44
 msgid "New _password:"
@@ -583,11 +585,11 @@ msgstr "Новы _пароль:"
 
 #: ../interfaces/users.ui.h:45
 msgid "Generate _random password"
-msgstr "Згенэраваць _выпадковы пароль"
+msgstr "Згенераваць _выпадковы пароль"
 
 #: ../interfaces/users.ui.h:46
 msgid "Changing user password for:"
-msgstr "Зьмена пароля карыстальніка для:"
+msgstr "Змена пароля карыстальніка для:"
 
 #: ../interfaces/users.ui.h:47
 msgid "Don't ask for password on _login"
@@ -599,11 +601,11 @@ msgstr "_Дзейны пароль:"
 
 #: ../interfaces/users.ui.h:49
 msgid "Change User Account Type"
-msgstr "Зьмяніць тып уліковага запісу карыстальніка"
+msgstr "Змяніць тып конта карыстальніка"
 
 #: ../interfaces/users.ui.h:50
 msgid "Changing user account type for:"
-msgstr "Зьмена тыпу ўліковага запісу для:"
+msgstr "Змена тыпу конта для:"
 
 #: ../interfaces/users.ui.h:51
 msgid "_Custom"
@@ -613,7 +615,7 @@ msgstr "_Іншае"
 msgid ""
 "This account is using special settings that have been defined manually. Use "
 "the <i>Advanced Settings</i> dialog to tune them."
-msgstr "Гэты ўліковы запіс утрымлівае асаблівыя парамэтры, якія былі прызначаны ўручную. Выкарыстоўвайце дыялёгавае вакно <i>Адмысловыя наладкі</i> для іх зьмены."
+msgstr "Гэты конт утрымлівае асаблівыя параметры, якія былі прызначаны ўручную. Выкарыстоўвайце акенца <i>Адмысловыя настáўленні</i> для іх змены."
 
 #: ../interfaces/users.ui.h:53
 msgid "Create New User"
@@ -649,26 +651,26 @@ msgstr ""
 
 #: ../interfaces/users.ui.h:64
 msgid "_Encrypt home folder to protect sensitive data"
-msgstr "_Шыфраваць хатнюю тэчку для аховы важных зьвестак"
+msgstr "_Шыфраваць хатні каталог для аховы важных звестак"
 
 #: ../interfaces/users.ui.h:65
 msgid ""
 "Encrypt all your files with your login password to strongly protect them "
 "from people with physical access to your computer, at the expense of a "
 "slightly reduced performance."
-msgstr "Зашыфраваць усе вашы файлы паролем уваходу ў сыстэму для надзейнай абароны ад людзей, якія маюць магчымасьць фізычнага доступу да гэтага кампутара. Гэта крыху зьмяншае хуткасьць кампутара."
+msgstr "Зашыфраваць усе вашы файлы паролем уваходу ў сістэму для надзейнай аховы ад людзей, якія маюць магчымасць фізічнага доступу да гэтага кампутара. Гэта крыху змяншае хуткасць кампутара."
 
 #: ../interfaces/users.ui.h:66
 msgid "Change Advanced User Settings"
-msgstr "Зьмяніць адмысловыя парамэтры карыстальніка"
+msgstr "Змяніць адмысловыя настáўленні карыстальніка"
 
 #: ../interfaces/users.ui.h:67
 msgid "Changing advanced settings for:"
-msgstr "Зьмена дадатковых парамэтраў для:"
+msgstr "Змена дадатковых настáўленняў для:"
 
 #: ../interfaces/users.ui.h:68
 msgid "O_ffice location:"
-msgstr "Знаходжаньне о_фісу:"
+msgstr "Знаходжанне о_фісу:"
 
 #: ../interfaces/users.ui.h:69
 msgid "_Work phone:"
@@ -688,7 +690,7 @@ msgstr "Прывілеі карыстальніка"
 
 #: ../interfaces/users.ui.h:73
 msgid "Advanced Settings"
-msgstr "Адмысловыя наладкі"
+msgstr "Адмысловыя настáўленні"
 
 #: ../interfaces/users.ui.h:74
 msgid "_Shell:"
@@ -704,27 +706,27 @@ msgstr "ID карыстальніка:"
 
 #: ../interfaces/users.ui.h:77
 msgid "You can't change user ID while the user is logged in."
-msgstr "Нельга зьмяніць ID карыстальніка, які ўвайшоў у сыстэму."
+msgstr "Нельга змяніць ID карыстальніка, які ўвайшоў у сістэму."
 
 #: ../interfaces/users.ui.h:78
 msgid "Disable _account"
-msgstr "Выключыць _уліковы запіс"
+msgstr "Адключыць _конт"
 
 #: ../interfaces/users.ui.h:79
 msgid "Optional Settings"
-msgstr "Неабавязковыя наладкі"
+msgstr "Неабавязковыя настáўленні"
 
 #: ../interfaces/users.ui.h:80
 msgid "Mi_nimum days between password changes:"
-msgstr "Най_меншая колькасьць дзён да зьмены пароля:"
+msgstr "Най_меншая колькасць дзён да змены пароля:"
 
 #: ../interfaces/users.ui.h:81
 msgid "Ma_ximum days a password may be used:"
-msgstr "Най_большая колькасьць дзён для карыстаньня паролем:"
+msgstr "Най_большая колькасць дзён для карыстання паролем:"
 
 #: ../interfaces/users.ui.h:82
 msgid "_Days between warning and password expiration:"
-msgstr "_Колькасьць дзён ад папярэжданьня да блякаваньня пароля:"
+msgstr "_Колькасць дзён ад папярэждання да блакавання пароля:"
 
 #: ../interfaces/users.ui.h:83
 msgid "Advanced"
@@ -750,7 +752,7 @@ msgstr ""
 
 #: ../src/common/gst-platform-dialog.c:179
 msgid "The platform you are running is not supported by this tool"
-msgstr "Гэтая праграма не падтрымлівае вашай плятформы"
+msgstr "Гэтая праграма не падтрымлівае вашай платформы"
 
 #. label
 #: ../src/common/gst-platform-dialog.c:185
@@ -758,11 +760,11 @@ msgid ""
 "If you know for sure that it works like one of the platforms listed below, "
 "you can select that and continue. Note, however, that this might damage the "
 "system configuration or downright cripple your computer."
-msgstr "Калі вы сапраўды ўпэўнены, што праца адбываецца таксама ж, як на адной з плятформаў, пералічаных ніжэй, то можаце абраць яе й працягнуць. Аднак, ёсьць вялікая рызыка пашкоджаньня сыстэмнай канфігурацыі, зьвестак і нават кампутара."
+msgstr "Калі вы сапраўды ўпэўнены, што праца адбываецца таксама ж, як на адной з платформаў, пералічаных ніжэй, то можаце абраць яе і працягнуць. Аднак ёсць вялікая рызыка пашкоджання сістэмнай канфігурацыі, звестак і нават кампутара."
 
 #: ../src/common/gst-platform-dialog.c:212
 msgid "Unsupported platform"
-msgstr "Плятформа не падтрымліваецца"
+msgstr "Платформа не падтрымліваецца"
 
 #: ../src/common/gst-tool.c:188
 msgid "The configuration could not be loaded"
@@ -775,21 +777,21 @@ msgstr "Нельга захаваць канфігурацыю"
 
 #: ../src/common/gst-tool.c:194
 msgid "You are not allowed to access the system configuration."
-msgstr "У вас няма прывілеяў на доступ да парамэтраў сыстэмы."
+msgstr "У вас няма прывілеяў на доступ да параметраў сістэмы."
 
 #. OPERATION_COMMIT
 #: ../src/common/gst-tool.c:196 ../src/common/gst-tool.c:685
 msgid "You are not allowed to modify the system configuration."
-msgstr "У вас няма прывілеяў на зьмену парамэтраў сыстэмы."
+msgstr "У вас няма прывілеяў на змену параметраў сістэмы."
 
 #: ../src/common/gst-tool.c:199
 msgid "Invalid data was found."
-msgstr "Знойдзеныя хібныя зьвесткі."
+msgstr "Знойдзены хібныя звесткі."
 
 #. OOBS_RESULT_ERROR
 #: ../src/common/gst-tool.c:201
 msgid "An unknown error occurred."
-msgstr "Узьнікла невядомая памылка."
+msgstr "Узнікла невядомая памылка."
 
 #: ../src/common/gst-tool.c:422
 msgid "Could not display help"
@@ -797,18 +799,18 @@ msgstr "Немагчыма паказаць даведку"
 
 #: ../src/common/gst-tool.c:616
 msgid "The system configuration has potentially changed."
-msgstr "Магчыма, былі зьмененыя наладкі сыстэмы."
+msgstr "Магчыма, былі змененыя настáўленні сістэмы."
 
 #: ../src/common/gst-tool.c:618
 msgid "Update content? This will lose any modification in course."
-msgstr "Абнавіць зьмесьціва? Усе ўчыненыя зьмены будуць страчаныя."
+msgstr "Абнавіць змесціва? Усе змены будуць страчаны."
 
 #: ../src/common/gst-tool.c:687
 #, c-format
 msgid ""
 "An error occurred while checking for authorizations: %s\n"
 "You may report this as a bug."
-msgstr "Памылка падчас праверкі аўтарызацыі: %s\nПаведаміце аб гэтай памылцы."
+msgstr "Памылка падчас праверкі аўтарызацыі: %s\nМожаце паведаміць пра гэтую хібу."
 
 #: ../src/network/address-list.c:76 ../src/network/hosts.c:31
 #: ../src/shares/table.c:38 ../src/users/table.c:40
@@ -826,11 +828,11 @@ msgstr "Упішыце адрас"
 
 #: ../src/network/callbacks.c:237 ../src/network/callbacks.c:487
 msgid "Changing interface configuration"
-msgstr "Зьмена наладкі спалучэньня"
+msgstr "Змена настáўленняў далучэння"
 
 #: ../src/network/callbacks.c:299
 msgid "Could not autodetect modem device"
-msgstr "Не ўдалося аўтаматычна знайсьці мадэм"
+msgstr "Не выйшла аўтаматычна знайсці мадэм"
 
 #: ../src/network/callbacks.c:302
 msgid ""
@@ -840,25 +842,25 @@ msgstr "Праверце, што прылада не занятая і далу�
 
 #: ../src/network/callbacks.c:523
 msgid "The host name has changed"
-msgstr "Назва вузла зьмененая"
+msgstr "Назва вузла змененая"
 
 #: ../src/network/callbacks.c:526
 msgid ""
 "This will prevent you from launching new applications, and so you will have "
 "to log in again. Continue anyway?"
-msgstr "Гэта не дазволіць вам запускаць новыя праграмы, і таму прыйдзецца ўвайсьці ў сыстэму зноў. Усё роўна працягнуць?"
+msgstr "Гэта забароніць вам запускаць новыя праграмы, і таму прыйдзецца ўвайсці ў сістэму зноў. Усё адно працягваць?"
 
 #: ../src/network/callbacks.c:532
 msgid "Change _Host name"
-msgstr "Зьмяніць _назву вузла"
+msgstr "Змяніць _назву вузла"
 
 #: ../src/network/connection.c:40
 msgid "Automatic configuration (DHCP)"
-msgstr "Аўтаматычная наладка (DHCP)"
+msgstr "Аўтаматычнае настáўленне (DHCP)"
 
 #: ../src/network/connection.c:41
 msgid "Local Zeroconf network (IPv4 LL)"
-msgstr "Лякальная сетка Zeroconf (IPv4 узровень)"
+msgstr "Лакальная сетка Zeroconf (IPv4-узровень)"
 
 #: ../src/network/connection.c:42
 msgid "Static IP address"
@@ -890,7 +892,7 @@ msgstr "ISDN-мадэм"
 
 #: ../src/network/connection.c:55
 msgid "Serial modem"
-msgstr "Мадэм на пасьлядоўным порце"
+msgstr "Мадэм на паслядоўным порце"
 
 #: ../src/network/connection.c:56
 msgid "PPPoE"
@@ -899,12 +901,12 @@ msgstr "PPPoE"
 #: ../src/network/connection.c:769
 #, c-format
 msgid "%s Properties"
-msgstr "Уласьцівасьці %s"
+msgstr "Уласцівасці %s"
 
 #: ../src/network/hosts.c:32 ../src/network/ifaces-list.c:33
 #: ../src/shares/table.c:39 ../src/users/table.c:41
 msgid "_Properties"
-msgstr "_Уласьцівасьці"
+msgstr "_Уласцівасці"
 
 #: ../src/network/hosts.c:89
 msgid "IP Address"
@@ -912,11 +914,11 @@ msgstr "IP-Адрас"
 
 #: ../src/network/hosts.c:97
 msgid "Aliases"
-msgstr "Псэўданімы"
+msgstr "Аліасы"
 
 #: ../src/network/ifaces-list.c:280
 msgid "This network interface is not configured"
-msgstr "Гэты сеткавы інтэрфэйс не наладжаны"
+msgstr "Гэты сеткавы інтэрфэйс не настаўлены"
 
 #: ../src/network/ifaces-list.c:282
 msgid "Roaming mode enabled"
@@ -930,28 +932,28 @@ msgstr ""
 #: ../src/network/ifaces-list.c:296 ../src/network/ifaces-list.c:301
 #: ../src/network/ifaces-list.c:306
 msgid "Address:"
-msgstr ""
+msgstr "Адрас:"
 
 #: ../src/network/ifaces-list.c:298
 msgid "Subnet mask:"
-msgstr ""
+msgstr "Маска падсеткі:"
 
 #: ../src/network/ifaces-list.c:308
 msgid "Remote address:"
-msgstr ""
+msgstr "Адлеглы адрас:"
 
 #: ../src/network/ifaces-list.c:320 ../src/network/ifaces-list.c:325
 #: ../src/network/ifaces-list.c:334 ../src/network/ifaces-list.c:339
 msgid "Type:"
-msgstr ""
+msgstr "Тып:"
 
 #: ../src/network/ifaces-list.c:321
 msgid "Phone number:"
-msgstr ""
+msgstr "Тэлефонны нумар:"
 
 #: ../src/network/ifaces-list.c:356
 msgid "Wireless connection"
-msgstr "Бяздротавае спалучэньне"
+msgstr "Бяздротавае далучэнне"
 
 #: ../src/network/ifaces-list.c:358
 msgid "Infrared connection"
@@ -959,23 +961,23 @@ msgstr "Інфрачырвоная сувязь"
 
 #: ../src/network/ifaces-list.c:360
 msgid "Wired connection"
-msgstr "Драцяное спалучэньне"
+msgstr "Драцяное далучэнне"
 
 #: ../src/network/ifaces-list.c:362
 msgid "Parallel port connection"
-msgstr "Спалучэньне праз паралельны порт"
+msgstr "Далучэнне праз паралельны порт"
 
 #: ../src/network/ifaces-list.c:364
 msgid "Point to point connection"
-msgstr "Спалучэньне \"пункт-пункт\""
+msgstr "Далучэнне \"пункт-пункт\""
 
 #: ../src/network/locations-combo.c:221
 msgid "Changing network location"
-msgstr "Зьмена сеткавага знаходжаньня"
+msgstr "Змена сеткавага знаходжання"
 
 #: ../src/network/locations-combo.c:265
 msgid "There is already a location with the same name"
-msgstr "Месцазнаходжаньне з такой назваю ўжо існуе"
+msgstr "Месцазнаходжанне з такой назваю ўжо існуе"
 
 #: ../src/network/locations-combo.c:267
 msgid "Overwrite it?"
@@ -983,16 +985,16 @@ msgstr "Перазапісаць яго?"
 
 #: ../src/network/locations-combo.c:355
 msgid "Save location"
-msgstr "Захаваць знаходжаньне"
+msgstr "Захаваць знаходжанне"
 
 #: ../src/network/locations-combo.c:370
 msgid "_Location name:"
-msgstr "Назва _знаходжаньня:"
+msgstr "Назва _знаходжання:"
 
 #: ../src/network/locations-combo.c:422
 #, c-format
 msgid "Do you want to delete location \"%s\"?"
-msgstr "Хочаце выдаліць знаходжаньне «%s»?"
+msgstr "Хочаце выдаліць знаходжанне «%s»?"
 
 #: ../src/network/main.c:135
 msgid "The interface does not exist"
@@ -1002,11 +1004,11 @@ msgstr "Такі інтэрфэйс не існуе"
 msgid ""
 "Check that it is correctly typed and that it is correctly supported by your "
 "system."
-msgstr "Праверце, што значэньне сапраўднае й падтрымліваецца вашай сыстэмай."
+msgstr "Праверце, што значэнне сапраўднае і падтрымліваецца вашай сістэмай."
 
 #: ../src/network/main.c:183
 msgid "Configure a network interface"
-msgstr "Наладка сеткавага інтэрфэйсу"
+msgstr "Настáўленне сеткавага інтэрфэйсу"
 
 #: ../src/network/main.c:183
 msgid "INTERFACE"
@@ -1014,7 +1016,7 @@ msgstr "ІНТЭРФЭЙС"
 
 #: ../src/network/main.c:184
 msgid "Configure the first network interface with a specific type"
-msgstr "Тып для першага сеткавага спалучэньня"
+msgstr "Тып для першага сеткавага далучэння"
 
 #: ../src/network/main.c:184
 msgid "TYPE"
@@ -1026,44 +1028,44 @@ msgstr "Сетка"
 
 #: ../src/network/mate-network.desktop.in.in.h:2
 msgid "Configure network devices and connections"
-msgstr "Наладка сеткавых прылад і спалучэньняў"
+msgstr "Настáўленне сеткавых прылад і далучэнняў"
 
 #: ../src/network/network-tool.c:280
 msgid "Network Settings"
-msgstr "Сеткавыя наладкі"
+msgstr "Сеткавыя настáўленні"
 
 #: ../src/services/callbacks.c:65
 #, c-format
 msgid "Settings for service \"%s\""
-msgstr "Наладкі службы \"%s\""
+msgstr "Настáўленні службы \"%s\""
 
 #: ../src/services/callbacks.c:122
 #, c-format
 msgid "Are you sure you want to deactivate %s?"
-msgstr "Сапраўды хочаце выключыць %s?"
+msgstr "Сапраўды хочаце адключыць %s?"
 
 #: ../src/services/callbacks.c:126
 msgid ""
 "This may affect your system behavior in several ways, possibly leading to "
 "data loss."
-msgstr "Гэта можа адбіцца на паводзінах сыстэмы й нават прывесьці да страты зьвестак."
+msgstr "Гэта можа адбіцца на паводзінах сістэмы і нават прывесці да страты звестак."
 
 #: ../src/services/service.c:32
 msgid "Web server"
-msgstr "Web-паслужнік"
+msgstr "Web-сервер"
 
 #: ../src/services/service.c:32
 msgid "Shares your web pages over the Internet"
-msgstr "Публікуе ўэб-старонкі ў Інтэрнэце"
+msgstr "Публікуе web-старонкі ў інтэрнэце"
 
 #. GST_ROLE_WEB_SERVER
 #: ../src/services/service.c:33
 msgid "Actions scheduler"
-msgstr "Плянавальнік апэрацыяў"
+msgstr "Планавальнік аперацый"
 
 #: ../src/services/service.c:33
 msgid "Executes scheduled actions"
-msgstr "Выконвае заплянаваныя апэрацыі"
+msgstr "Выконвае запланаваныя аперацыі"
 
 #. GST_ROLE_COMMAND_SCHEDULER
 #: ../src/services/service.c:34
@@ -1072,7 +1074,7 @@ msgstr "Служба друку"
 
 #: ../src/services/service.c:34
 msgid "Allows applications to use printers"
-msgstr "Дазваляе праграмам выкарыстоўваць прынтэры"
+msgstr "Дазваляе праграмам выкарыстоўваць прынтары"
 
 #. GST_ROLE_PRINTER_SERVICE
 #: ../src/services/service.c:35
@@ -1081,7 +1083,7 @@ msgstr "Паштовы агент"
 
 #: ../src/services/service.c:35
 msgid "Delivers your outgoing mail"
-msgstr "Дастаўляе вашы лісты да адрасатаў"
+msgstr "Дастаўляе вашыя лісты да адрасатаў"
 
 #. GST_ROLE_MTA
 #: ../src/services/service.c:36
@@ -1095,7 +1097,7 @@ msgstr "Збіральнік пошты"
 
 #: ../src/services/service.c:37
 msgid "Downloads your mail from remote accounts"
-msgstr "Выцягвае пошту з аддаленых паштовых скрыняў"
+msgstr "Выцягвае пошту з адлеглых паштовых скрынак"
 
 #. GST_ROLE_MAIL_FETCHER
 #: ../src/services/service.c:38
@@ -1104,16 +1106,16 @@ msgstr "Графічны кіраўнік уваходу"
 
 #: ../src/services/service.c:38
 msgid "Allows users to login graphically"
-msgstr "Абслугоўвае графічны спосаб уваходу карыстальнікаў у сыстэму"
+msgstr "Дазваляе карыстальнікам уваходзіць праз графічны інтэрфэйс"
 
 #. GST_ROLE_DISPLAY_MANAGER
 #: ../src/services/service.c:39
 msgid "Database server"
-msgstr "Паслужнік базаў зьвестак"
+msgstr "Сервер базаў звестак"
 
 #: ../src/services/service.c:39
 msgid "Data storage system"
-msgstr "Сыстэма захоўваньня зьвестак"
+msgstr "Сістэма захоўвання звестак"
 
 #. GST_ROLE_DATABASE_SERVER
 #. GST_ROLE_FILE_SERVER_SMB
@@ -1121,11 +1123,11 @@ msgstr "Сыстэма захоўваньня зьвестак"
 #: ../src/services/service.c:40 ../src/services/service.c:41
 #: ../src/services/service.c:43
 msgid "Folder sharing service"
-msgstr "Сыстэма публікацыі тэчак для супольнага доступу"
+msgstr "Сістэма публікацыі каталогаў для супольнага доступу"
 
 #: ../src/services/service.c:40 ../src/services/service.c:41
 msgid "Shares folders over your network"
-msgstr "Робіць тэчкі вашага кампутара даступнымі для іншых карыстальнікаў сеткі"
+msgstr "Робіць каталогі вашага кампутара даступнымі для іншых карыстальнікаў сеткі"
 
 #. GST_ROLE_FILE_SERVER_NFS
 #: ../src/services/service.c:42
@@ -1134,16 +1136,16 @@ msgstr "Служба FTP"
 
 #: ../src/services/service.c:42 ../src/services/service.c:43
 msgid "Shares folders over the Internet"
-msgstr "Робіць тэчкі вашага кампутара даступнымі праз Інтэрнэт"
+msgstr "Робіць каталогі вашага кампутара даступнымі праз інтэрнэт"
 
 #. GST_ROLE_FILE_SERVER_TFTP
 #: ../src/services/service.c:44
 msgid "Clock synchronization service"
-msgstr "Служба сынхранізацыі гадзіньніка"
+msgstr "Служба сінхранізацыі гадзінніка"
 
 #: ../src/services/service.c:44
 msgid "Synchronizes your computer clock with Internet time servers"
-msgstr "Сынхранізуе гадзіньнік вашага кампутара з паслужнікамі ў Інтэрнэце"
+msgstr "Сінхранізуе гадзіннік вашага кампутара з серверамі ў інтэрнэце"
 
 #. GST_ROLE_NTP_SERVER
 #: ../src/services/service.c:46
@@ -1161,31 +1163,31 @@ msgstr "Сеткавая заслона"
 
 #: ../src/services/service.c:47
 msgid "Blocks undesired network access to your computer"
-msgstr "Блякуе непажаданы доступ да кампутара празь сетку"
+msgstr "Блакуе непажаданы доступ да кампутара празь сетку"
 
 #. GST_ROLE_FIREWALL_MANAGEMENT
 #: ../src/services/service.c:49
 msgid "Dictionary server"
-msgstr "Паслужнік слоўнікаў"
+msgstr "Сервер слоўнікаў"
 
 #. GST_ROLE_DICTIONARY_SERVER
 #: ../src/services/service.c:50
 msgid "Speech synthesis support"
-msgstr "Падтрымка сынтэзаваньня мовы"
+msgstr "Падтрымка сінтэзавання мовы"
 
 #. GST_ROLE_SPEECH_SYNTHESIS
 #: ../src/services/service.c:51
 msgid "Computer activity logger"
-msgstr "Рэгістратар актыўнасьці сыстэмы"
+msgstr "Рэгістратар актыўнасці сістэмы"
 
 #: ../src/services/service.c:51
 msgid "Keeps a log of your computer activity"
-msgstr "Вядзе часопіс актыўнасьці сыстэмы"
+msgstr "Вядзе часопіс актыўнасці сістэмы"
 
 #. GST_ROLE_SYSTEM_LOGGER
 #: ../src/services/service.c:52
 msgid "Remote backup server"
-msgstr "Аддалены паслужнік рэзэрвовага капіяваньня"
+msgstr "Адлеглы сервер рэзэрвовага капіявання"
 
 #. GST_ROLE_REMOTE_BACKUP
 #: ../src/services/service.c:53
@@ -1195,51 +1197,51 @@ msgstr "Фільтр спаму"
 #. GST_ROLE_SPAM_FILTER
 #: ../src/services/service.c:54
 msgid "Remote shell server"
-msgstr "Аддалены загадны радок"
+msgstr "Адлеглы загадны радок"
 
 #: ../src/services/service.c:54
 msgid "Secure shell server"
-msgstr "Бясьпечны аддалены загадны радок"
+msgstr "Бяспечны адлеглы загадны радок"
 
 #. GST_ROLE_SECURE_SHELL_SERVER
 #: ../src/services/service.c:55
 msgid "Application server"
-msgstr "Паслужнік праграмаў"
+msgstr "Сервер праграм"
 
 #. GST_ROLE_APPLICATION_SERVER
 #: ../src/services/service.c:56
 msgid "Automated crash reports support"
-msgstr "Генэрацыя аўтаматычных справаздачаў аб памылках"
+msgstr "Генерацыя аўтаматычных справаздачаў аб памылках"
 
 #. GST_ROLE_AUTOMATED_CRASH_REPORTS_MANAGEMENT
 #: ../src/services/service.c:57
 msgid "System communication bus"
-msgstr "Магістраль сыстэмнай камунікацыі"
+msgstr "Магістраль сістэмнай камунікацыі"
 
 #. GST_ROLE_DBUS,
 #: ../src/services/service.c:58
 msgid "System configuration manager"
-msgstr "Кіраўнік сыстэмных наладак"
+msgstr "Кіраўнік сістэмных настáўленняў"
 
 #. GST_ROLE_SYSTEM_CONFIGURATION_MANAGEMENT
 #: ../src/services/service.c:59
 msgid "School management platform"
-msgstr "Плятформа арганізацыі навучаньня"
+msgstr "Платформа арганізацыі навучання"
 
 #. GST_ROLE_SCHOOL_MANAGEMENT_PLATFORM
 #: ../src/services/service.c:60
 msgid "Network security auditor"
-msgstr "Аўдытар сеткавай бясьпекі"
+msgstr "Аўдытар сеткавай бяспекі"
 
 #. GST_ROLE_SECURITY_AUDITING
 #: ../src/services/service.c:61
 msgid "Web calendar server"
-msgstr "Паслужнік ўэб-календара"
+msgstr "Сервер web-календара"
 
 #. GST_ROLE_WEB_CALENDAR_SERVER
 #: ../src/services/service.c:62
 msgid "OEM configuration manager"
-msgstr "Кіраўнік наладкі OEM"
+msgstr "Кіраўнік настáўлення OEM"
 
 #. GST_ROLE_OEM_CONFIGURATION_MANAGEMENT
 #: ../src/services/service.c:63
@@ -1254,7 +1256,7 @@ msgstr "Падтрымка дыскавых квотаў"
 #. GST_ROLE_QUOTA_MANAGEMENT
 #: ../src/services/service.c:65
 msgid "Package index monitor"
-msgstr "Назіральнік за індэксам пакункаў"
+msgstr "Назіральнік за спісам пакункаў"
 
 #. GST_ROLE_PACKAGE_INDEX_MONITORING
 #: ../src/services/service.c:66
@@ -1264,17 +1266,17 @@ msgstr "Сеткавая служба"
 #. GST_ROLE_NETWORK
 #: ../src/services/service.c:67
 msgid "Dynamic DNS services updater"
-msgstr "Абнаўленьне сэрвісаў дынамічнага DNS"
+msgstr "Абнаўленне сэрвісаў дынамічнага DNS"
 
 #. GST_ROLE_DYNAMIC_DNS_SERVICE
 #: ../src/services/service.c:68
 msgid "DHCP server"
-msgstr "Паслужнік DHCP"
+msgstr "DHCP-сервер"
 
 #. GST_ROLE_DHCP_SERVER
 #: ../src/services/service.c:69
 msgid "Domain name server"
-msgstr "Паслужнік дамэнных назваў"
+msgstr "Сервер даменных назваў"
 
 #. GST_ROLE_DNS
 #: ../src/services/service.c:70
@@ -1284,12 +1286,12 @@ msgstr "Служба кэш-проксі"
 #. GST_ROLE_PROXY_CACHE
 #: ../src/services/service.c:71
 msgid "LDAP server"
-msgstr "Паслужнік LDAP"
+msgstr "LDAP-сервер"
 
 #. GST_ROLE_LDAP_SERVER
 #: ../src/services/service.c:72
 msgid "Mailing lists manager"
-msgstr "Кіраўнік паштовых сьпісаў распаўсюду"
+msgstr "Кіраўнік паштовых спісаў распаўсюду"
 
 #. GST_ROLE_MAILING_LISTS_MANAGER
 #: ../src/services/service.c:73
@@ -1299,27 +1301,27 @@ msgstr "Пошук сэрвісаў мультыкаставага DNS"
 #. GST_ROLE_RENDEZVOUS
 #: ../src/services/service.c:74
 msgid "Account information resolver"
-msgstr "Атрыманьне інфармацыі аб уліковых запісах"
+msgstr "Атрыманне інфармацыі пра конты"
 
 #. GST_ROLE_NSS
 #: ../src/services/service.c:75
 msgid "Virtual Private Network server"
-msgstr "Паслужнік віртуальных сетак"
+msgstr "Сервер віртуальных сетак"
 
 #. GST_ROLE_VPN_SERVER
 #: ../src/services/service.c:76
 msgid "Router advertisement server"
-msgstr "Паслужнік абвяшчэньня зьвестак аб магчымых маршрутах"
+msgstr "Сервер абвяшчэння звестак аб магчымых маршрутах"
 
 #. GST_ROLE_ROUTER_ADVERTISEMENT_SERVER
 #: ../src/services/service.c:77
 msgid "IPSec key exchange server"
-msgstr "Паслужнік абмену ключамі IPSec"
+msgstr "Сервер абмену ключамі IPSec"
 
 #. GST_ROLE_IPSEC_KEY_EXCHANGE_SERVER
 #: ../src/services/service.c:78
 msgid "Disk server"
-msgstr "Дыскавы паслужнік"
+msgstr "Дыскавы сервер"
 
 #. GST_ROLE_DISK_SERVER
 #: ../src/services/service.c:79
@@ -1334,111 +1336,111 @@ msgstr "Маршрутызатар"
 #. GST_ROLE_ROUTE_SERVER
 #: ../src/services/service.c:81
 msgid "RPC mapper"
-msgstr "Каталёг сэрвісаў RPC"
+msgstr "Каталог сэрвісаў RPC"
 
 #. GST_ROLE_RPC_MAPPER
 #: ../src/services/service.c:82
 msgid "SNMP server"
-msgstr "Паслужнік SNMP"
+msgstr "SNMP-сервер"
 
 #. GST_ROLE_SNMP_SERVER
 #: ../src/services/service.c:83
 msgid "Terminal server client"
-msgstr "Кліент тэрмінальнага паслужніка"
+msgstr "Кліент тэрмінальнага сервера"
 
 #. GST_ROLE_LTSP_CLIENT
 #: ../src/services/service.c:84
 msgid "Audio settings management"
-msgstr "Кіраваньне гукам"
+msgstr "Кіраванне гукам"
 
 #. GST_ROLE_AUDIO_MANAGEMENT
 #: ../src/services/service.c:85
 msgid "Volumes mounter"
-msgstr "Далучэньне дыскавых масіваў"
+msgstr "Далучэнне дыскавых тамоў"
 
 #: ../src/services/service.c:85
 msgid "Mounts your volumes automatically"
-msgstr "Аўтаматычна прымацоўвае новыя дыскавыя масівы зьвестак"
+msgstr "Мантуе дыскавыя тамы аўтаматычна"
 
 #. GST_ROLE_AUTOMOUNTER
 #: ../src/services/service.c:86
 msgid "Infrared port management"
-msgstr "Кіраваньне інфрачырвоным портам"
+msgstr "Кіраванне інфрачырвоным портам"
 
 #. GST_ROLE_INFRARED_MANAGEMENT
 #: ../src/services/service.c:87
 msgid "Braille display management"
-msgstr "Кіраваньне дысплэем Брайля"
+msgstr "Кіраванне дысплеем Брайля"
 
 #. GST_ROLE_BRAILLE_DISPLAY_MANAGEMENT
 #: ../src/services/service.c:88
 msgid "Bluetooth device management"
-msgstr "Кіраваньне прыладамі Bluetooth"
+msgstr "Кіраванне прыладамі Bluetooth"
 
 #. GST_ROLE_BLUETOOTH_MANAGEMENT
 #: ../src/services/service.c:89
 msgid "Hard disk tuning"
-msgstr "Наладка цьвёрдага дыска"
+msgstr "Настáўленне цвёрдага дыска"
 
 #. GST_ROLE_HDD_MANAGEMENT
 #: ../src/services/service.c:90
 msgid "Hotkeys management"
-msgstr "Кіраваньне клявіятурнымі скаротамі"
+msgstr "Кіраванне клавіятурнымі скаротамі"
 
 #. GST_ROLE_HOTKEYS_MANAGEMENT
 #: ../src/services/service.c:91
 msgid "Power management"
-msgstr "Кіраваньне сілкаваньнем"
+msgstr "Кіраванне сілкаваннем"
 
 #. GST_ROLE_POWER_MANAGEMENT
 #: ../src/services/service.c:92
 msgid "Logical volume management"
-msgstr "Кіраваньне лягічнымі дыскавымі масівамі"
+msgstr "Кіраванне лагічнымі дыскавымі тамамі"
 
 #. GST_ROLE_LVM_MANAGEMENT
 #: ../src/services/service.c:93
 msgid "Cluster management tool"
-msgstr "Сродак кіраваньня клястэрам"
+msgstr "Прылада кіравання кластэрам"
 
 #. GST_ROLE_CLUSTER_MANAGEMENT
 #: ../src/services/service.c:94
 msgid "Fax settings management"
-msgstr "Кіраваньне факсам"
+msgstr "Кіраванне факсам"
 
 #. GST_ROLE_FAX_MANAGEMENT
 #: ../src/services/service.c:95
 msgid "RAID disks management"
-msgstr "Кіраваньне RAID-масівамі"
+msgstr "Кіраванне RAID-масівамі"
 
 #. GST_ROLE_RAID_MANAGEMENT
 #: ../src/services/service.c:96
 msgid "Graphic tablets management"
-msgstr "Кіраваньне графічнымі пляншэтамі"
+msgstr "Кіраванне графічнымі планшэтамі"
 
 #. GST_ROLE_GRAPHIC_TABLETS_MANAGEMENT
 #: ../src/services/service.c:97
 msgid "CPU Frequency manager"
-msgstr "Кіраваньне часьцінёй цэнтральнага працэсара"
+msgstr "Кіраванне частатой цэнтральнага працэсара"
 
 #. GST_ROLE_CPUFREQ_MANAGEMENT
 #: ../src/services/service.c:98
 msgid "Eagle USB ADSL modems manager"
-msgstr "Кіраваньне USB ADSL мадэмамі Eagle"
+msgstr "Кіраванне USB ADSL-мадэмамі Eagle"
 
 #. GST_ROLE_EAGLE_USB_MODEMS_MANAGEMENT
 #: ../src/services/service.c:99
 msgid "Serial port settings management"
-msgstr "Кіраваньне парамэтрамі пасьлядоўнага порта"
+msgstr "Кіраванне параметрамі паслядоўнага порта"
 
 #. GST_ROLE_SERIAL_PORTS_MANAGEMENT
 #: ../src/services/service.c:100
 msgid "ISDN modems manager"
-msgstr "Кіраваньне ISDN-мадэмамі"
+msgstr "Кіраванне ISDN-мадэмамі"
 
 #. GST_ROLE_ISDN_MANAGEMENT
 #: ../src/services/service.c:101
 msgid "Telstra Bigpond Cable Network client"
-msgstr "Кліент кабэльнай сеткі Telstra Bigpond"
+msgstr "Кліент кабельнай сеткі Telstra Bigpond"
 
 #. GST_ROLE_TELSTRA_BIGPOND_NETWORK_CLIENT
 #: ../src/services/service.c:102
@@ -1448,12 +1450,12 @@ msgstr "Апаратны назіральнік"
 #. GST_ROLE_HARDWARE_MONITORING
 #: ../src/services/service.c:103
 msgid "System monitor"
-msgstr "Сыстэмны назіральнік"
+msgstr "Сістэмны назіральнік"
 
 #. GST_ROLE_SYSTEM_MONITORING
 #: ../src/services/service.c:104
 msgid "Virtual Machine management"
-msgstr "Кіраваньне віртуальнымі машынамі"
+msgstr "Кіраванне віртуальнымі машынамі"
 
 #: ../src/services/mate-services.desktop.in.in.h:1
 msgid "Services"
@@ -1461,7 +1463,7 @@ msgstr "Службы"
 
 #: ../src/services/mate-services.desktop.in.in.h:2
 msgid "Configure which services will be run when the system starts"
-msgstr "Наладка службаў, якія будуць запускацца цягам загрузкі сыстэмы"
+msgstr "Настáўленне службаў, якія будуць запускацца цягам загрузкі сістэмы"
 
 #: ../src/services/service-settings-table.c:73
 #: ../src/services/service-settings-table.c:97
@@ -1482,7 +1484,7 @@ msgstr "Ігнараваць"
 
 #: ../src/services/service-settings-table.c:175
 msgid "Runlevel"
-msgstr "Узровень уключэньня"
+msgstr "Узровень уключэння"
 
 #: ../src/services/service-settings-table.c:192
 msgid "Status"
@@ -1494,19 +1496,19 @@ msgstr "Прыярытэт"
 
 #: ../src/services/services-tool.c:106
 msgid "Services Settings"
-msgstr "Наладкі службаў"
+msgstr "Настáўленні службаў"
 
 #: ../src/shares/callbacks.c:196
 msgid "Are you sure you want to delete this share?"
-msgstr "Вы сапраўды хочаце выдаліць гэтую публікацыю?"
+msgstr "Сапраўды жадаеце выдаліць гэтую публікацыю?"
 
 #: ../src/shares/callbacks.c:198
 msgid "Other computers in your network will stop viewing this."
-msgstr "Іншыя кампутары ў сетцы ня змогуць атрымаць доступ."
+msgstr "Іншыя кампутары ў сетцы не змогуць атрымаць доступ."
 
 #: ../src/shares/main.c:103
 msgid "Add a shared path, modifies it if it already exists"
-msgstr "Дадаць шлях публікацыі, выправіць існуючы"
+msgstr "Дадаць шлях публікацыі, выправіць існы"
 
 #: ../src/shares/main.c:103
 msgid "PATH"
@@ -1514,11 +1516,11 @@ msgstr "ШЛЯХ"
 
 #: ../src/shares/caja/caja-shares.c:151
 msgid "_Share Folder..."
-msgstr "_Зрабіць тэчку супольна даступнай..."
+msgstr "_Зрабіць каталог супольна даступным..."
 
 #: ../src/shares/caja/caja-shares.c:152
 msgid "Share this folder with other computers"
-msgstr "Зрабіць тэчку супольна даступнай для іншых кампутараў"
+msgstr "Зрабіць каталог супольна даступным для іншых кампутараў"
 
 #: ../src/shares/nfs-acl-table.c:50
 msgid "Allowed host/network"
@@ -1538,15 +1540,15 @@ msgstr "Пазначце сетку"
 
 #: ../src/shares/mate-shares.desktop.in.in.h:2
 msgid "Configure which folders are available for your network neighborhood"
-msgstr "Наладка тэчак, даступных для вашага сеткавага навакольля"
+msgstr "Настáўленне каталогаў, даступных для вашага сеткавага навакольля"
 
 #: ../src/shares/share-settings.c:61
 msgid "File System"
-msgstr "Файлавая сыстэма"
+msgstr "Файлавая сістэма"
 
 #: ../src/shares/share-settings.c:144
 msgid "Do not share"
-msgstr "Не даваць супольнага доступу"
+msgstr "Забараніць супольны доступ"
 
 #: ../src/shares/share-settings.c:152
 msgid "Windows networks (SMB)"
@@ -1559,25 +1561,25 @@ msgstr "Сеткі Unix (NFS)"
 #: ../src/shares/share-settings.c:462
 #, c-format
 msgid "Settings for folder '%s'"
-msgstr "Наладкі для тэчкі «%s»"
+msgstr "Настáўленні для каталогу «%s»"
 
 #: ../src/shares/share-settings.c:469
 msgid "Share Folder"
-msgstr "Супольны доступ да тэчкі"
+msgstr "Супольны доступ да каталогу"
 
 #: ../src/shares/shares-tool.c:152
 msgid "Sharing services are not installed"
-msgstr "Службы супольнага доступу да тэчак не ўсталяваныя"
+msgstr "Службы супольнага доступу да каталогаў не ўсталяваныя"
 
 #: ../src/shares/shares-tool.c:154
 msgid ""
 "You need to install at least either Samba or NFS in order to share your "
 "folders."
-msgstr "Трэба ўсталяваць прынамсі Samba альбо NFS для магчымасьці супольнага доступу да вашых тэчак."
+msgstr "Трэба ўсталяваць прынамсі Samba альбо NFS для магчымасці супольнага доступу да вашых каталогаў."
 
 #: ../src/time/e-map/e-map.c:620
 msgid "World Map"
-msgstr ""
+msgstr "Мапа свету"
 
 #: ../src/time/e-map/e-map.c:622
 msgid ""
@@ -1587,11 +1589,11 @@ msgstr ""
 
 #: ../src/time/mate-time.desktop.in.in.h:1
 msgid "Time and Date"
-msgstr "Дата й час"
+msgstr "Дата і час"
 
 #: ../src/time/mate-time.desktop.in.in.h:2
 msgid "Change system time, date, and timezone"
-msgstr "Зьмена сыстэмнага часу, даты і часавага поясу"
+msgstr "Змена сістэмнага часу, даты і часавага поясу"
 
 #: ../src/time/time-tool.c:398
 msgid "NTP support is not installed"
@@ -1601,31 +1603,31 @@ msgstr "Падтрымка NTP не ўсталяваная"
 msgid ""
 "Please install and activate NTP support in the system to enable "
 "synchronization of your local time server with internet time servers."
-msgstr "Усталюйце й актывізуйце падтрымку NTP для забесьпячэньня магчымасьці сынхранізацыі лякальнага паслужніка часу з паслужнікамі часу ў Інтэрнэце."
+msgstr "Усталюйце і актывізуйце падтрымку NTP для забеспячэння магчымасці сінхранізацыі лакальнага сервера часу з серверамі часу ў інтэрнэце."
 
 #: ../src/time/time-tool.c:429
 msgid "Enabling NTP"
-msgstr "Уключэньне NTP"
+msgstr "Уключэнне NTP"
 
 #: ../src/time/time-tool.c:429
 msgid "Disabling NTP"
-msgstr "Выключэньне NTP"
+msgstr "Адключэнне NTP"
 
 #: ../src/time/time-tool.c:441
 msgid "Synchronizing system clock"
-msgstr "Сынхранізацыя сыстэмнага гадзіньніка"
+msgstr "Сінхранізацыя сістэмнага гадзінніка"
 
 #: ../src/time/time-tool.c:521
 msgid "Keep synchronized with Internet servers"
-msgstr "Сынхранізаваць час з Інтэрнэт-паслужнікамі"
+msgstr "Сінхранізаваць час з інтэрнэт-серверамі"
 
 #: ../src/time/time-tool.c:522
 msgid "Manual"
-msgstr "Уручную"
+msgstr "Уласнаручна"
 
 #: ../src/time/time-tool.c:665
 msgid "Time and Date Settings"
-msgstr "Наладкі даты й часу"
+msgstr "Настáўленні даты і часу"
 
 #: ../src/users/group-settings.c:55
 msgid "Administrator group can not be deleted"
@@ -1635,16 +1637,16 @@ msgstr "Нельга выдаліць групу адміністратара"
 #: ../src/users/group-settings.c:258 ../src/users/user-settings.c:88
 #: ../src/users/user-settings.c:605
 msgid "This would leave the system unusable."
-msgstr "Гэта можа зрабіць сыстэму няздатнай да выкарыстаньня."
+msgstr "Гэта можа зрабіць сістэму няпрыдатнай да выкарыстання."
 
 #: ../src/users/group-settings.c:71
 #, c-format
 msgid "Are you sure you want to delete group \"%s\"?"
-msgstr "Сапраўды хочаце выдаліць групу «%s»?"
+msgstr "Сапраўды жадаеце выдаліць групу «%s»?"
 
 #: ../src/users/group-settings.c:74
 msgid "This may leave files with invalid group ID in the filesystem."
-msgstr "Могуць застацца файлы зь несапраўдным ідэнтыфікатарам групы."
+msgstr "Могуць застацца файлы з несапраўдным ідэнтыфікатарам групы."
 
 #: ../src/users/group-settings.c:144
 msgid "New group"
@@ -1653,7 +1655,7 @@ msgstr "Новая група"
 #: ../src/users/group-settings.c:151
 #, c-format
 msgid "Group '%s' Properties"
-msgstr "Уласьцівасьці групы «%s»"
+msgstr "Уласцівасці групы «%s»"
 
 #: ../src/users/group-settings.c:217
 msgid "Group name is empty"
@@ -1665,17 +1667,17 @@ msgstr "Трэба падаць назву групы."
 
 #: ../src/users/group-settings.c:220
 msgid "Group name of the administrator group user should not be modified"
-msgstr "Нельга зьмяніць назву групы адміністратараў"
+msgstr "Нельга змяніць назву групы адміністратараў"
 
 #: ../src/users/group-settings.c:223
 msgid "Group name has invalid characters"
-msgstr "Назва групы ўтрымлівае забароненыя сымбалі"
+msgstr "Назва групы ўтрымлівае забароненыя знакі"
 
 #: ../src/users/group-settings.c:224
 msgid ""
 "Please set a valid group name consisting of a lower case letter followed by "
 "lower case letters and numbers."
-msgstr "Пазначце канкрэтную назву групы, якая складаецца з лацінскай літары ў ніжнім рэгістры і наступных за ёй лацінскіх літараў у ніжнім рэгістры й лічбаў."
+msgstr "Пазначце канкрэтную назву групы, якая складаецца з лацінскай літары ў ніжнім рэгістры і наступных за ёй лацінскіх літараў у ніжнім рэгістры і лічбаў."
 
 #: ../src/users/group-settings.c:229
 #, c-format
@@ -1688,7 +1690,7 @@ msgstr "Калі ласка, абярыце іншую назву групы."
 
 #: ../src/users/group-settings.c:257
 msgid "Group ID of the Administrator account should not be modified"
-msgstr "Нельга зьмяніць ID групы адміністратараў"
+msgstr "Нельга змяніць ID групы адміністратараў"
 
 #. check that GID is free
 #: ../src/users/group-settings.c:261
@@ -1720,11 +1722,11 @@ msgstr "Пытацца пры ўваходзе"
 
 #: ../src/users/privileges-table.c:53
 msgid "Monitor system logs"
-msgstr "Назіраць за сыстэмнымі часопісамі"
+msgstr "Назіраць за сістэмнымі логамі"
 
 #: ../src/users/privileges-table.c:54
 msgid "Administer the system"
-msgstr "Кіраваць сыстэмай"
+msgstr "Кіраваць сістэмай"
 
 #: ../src/users/privileges-table.c:55
 msgid "Use audio devices"
@@ -1744,7 +1746,7 @@ msgstr "Карыстацца мадэмамі"
 
 #: ../src/users/privileges-table.c:59
 msgid "Connect to Internet using a modem"
-msgstr "Спалучацца зь сецівам праз мадэм"
+msgstr "Далучацца з сецівам праз мадэм"
 
 #: ../src/users/privileges-table.c:60
 msgid "Send and receive faxes"
@@ -1756,19 +1758,19 @@ msgstr "Карыстацца дыскаводамі"
 
 #: ../src/users/privileges-table.c:62
 msgid "Mount user-space filesystems (FUSE)"
-msgstr "Прымацоўваць карыстальніцкія файлавыя сыстэмы (FUSE)"
+msgstr "Прымацоўваць карыстальніцкія файлавыя сістэмы (FUSE)"
 
 #: ../src/users/privileges-table.c:63
 msgid "Configure printers"
-msgstr "Наладжваць прынтэры"
+msgstr "Настаўляць прынтэры"
 
 #: ../src/users/privileges-table.c:64
 msgid "Connect to wireless and ethernet networks"
-msgstr "Спалучацца зь бяздротавымі і драцянымі сеткамі"
+msgstr "Далучацца да бяздротавых і ethernet-сетак"
 
 #: ../src/users/privileges-table.c:65
 msgid "Access external storage devices automatically"
-msgstr "Аўтаматычны доступ да вонкавых носьбітаў зьвестак"
+msgstr "Аўтаматычны доступ да знешніх носьбітаў"
 
 #: ../src/users/privileges-table.c:66
 msgid "Suspend and hibernate the computer"
@@ -1776,7 +1778,7 @@ msgstr "Прыпыняць і ўсыпляць кампутар"
 
 #: ../src/users/privileges-table.c:67
 msgid "Access /proc filesystem"
-msgstr "Мець доступ да файлавай сыстэмы /proc"
+msgstr "Мець доступ да файлавай сістэмы /proc"
 
 #: ../src/users/privileges-table.c:68
 msgid "Use scanners"
@@ -1810,7 +1812,7 @@ msgstr "Звычайны карыстальнік"
 msgid ""
 "Can perform common tasks. Can't install software or change settings "
 "affecting all users."
-msgstr "Можа выконваць тыповыя для карыстальніка дзеяньні. Ня можа ўсталёўваць праграмы або зьмяняць наладкі, якія тычацца ўсіх карыстальнікаў."
+msgstr "Можа выконваць тыповыя для карыстальніка дзеянні. Не можа ўсталёўваць праграмы або змяняць настáўленні, якія датычаць усіх карыстальнікаў."
 
 #: ../src/users/user-profiles.conf.in.h:3
 msgid "Administrator"
@@ -1820,11 +1822,11 @@ msgstr "Адміністратар"
 msgid ""
 "Can change anything on the system, including installing and upgrading "
 "software."
-msgstr "Можа зьмяняць у сыстэме што заўгодна, у тым ліку набор усталяваных праграмаў."
+msgstr "Можа змяняць у сістэме што заўгодна, у тым ліку набор усталяваных праграм."
 
 #: ../src/users/run-passwd.c:421
 msgid "Authentication failed"
-msgstr "Няўдалася аўтэнтыфікацыя"
+msgstr "Аўтэнтыфікацыя не адбылася"
 
 #: ../src/users/run-passwd.c:498
 #, c-format
@@ -1839,17 +1841,17 @@ msgstr "Новы пароль надта просты"
 #: ../src/users/run-passwd.c:510
 #, c-format
 msgid "The old and new passwords are too similar"
-msgstr "Стары й новы паролі надта падобныя"
+msgstr "Стары і новы паролі надта падобныя"
 
 #: ../src/users/run-passwd.c:513
 #, c-format
 msgid "The new password must contain numeric or special characters"
-msgstr "Новы пароль мусіць утрымліваць лічбавыя альбо спэцыяльныя сымбалі"
+msgstr "Новы пароль мусіць утрымліваць лічбавыя альбо спецыяльныя знакі"
 
 #: ../src/users/run-passwd.c:517
 #, c-format
 msgid "The old and new passwords are the same"
-msgstr "Стары й новы паролі аднолькавыя"
+msgstr "Стары і новы паролі аднолькавыя"
 
 #: ../src/users/run-passwd.c:520
 #, c-format
@@ -1859,7 +1861,7 @@ msgstr ""
 #: ../src/users/run-passwd.c:524
 #, c-format
 msgid "Your password has been changed since you initially authenticated!"
-msgstr "Ваш пароль быў зьменены з часу першапачатковай аўтэнтыфікацыі!"
+msgstr "Ваш пароль быў зменены з часу першапачатковай аўтэнтыфікацыі!"
 
 #: ../src/users/run-passwd.c:528
 #, c-format
@@ -1868,11 +1870,11 @@ msgstr "Невядомая памылка"
 
 #: ../src/users/mate-users.desktop.in.in.h:1
 msgid "Users and Groups"
-msgstr "Карыстальнікі й групы"
+msgstr "Карыстальнікі і групы"
 
 #: ../src/users/mate-users.desktop.in.in.h:2
 msgid "Add or remove users and groups"
-msgstr "Дадаваньне й выдаленьне карыстальнікаў і груп"
+msgstr "Дадаванне і выдаленне карыстальнікаў і груп"
 
 #: ../src/users/user-password.c:97
 msgid "Password is too short"
@@ -1886,11 +1888,11 @@ msgstr ""
 
 #: ../src/users/user-password.c:101
 msgid "Password confirmation is not correct"
-msgstr "Пацьверджаньне пароля не супадае з самім паролем"
+msgstr "Пацверджанне пароля не супадае з самім паролем"
 
 #: ../src/users/user-password.c:102
 msgid "Check that you have provided the same password in both text fields."
-msgstr "Праверце, што вы ўпісалі аднолькавыя паролі ў абодва тэкставыя палі."
+msgstr "Праверце, што вы ўвялі аднолькавыя паролі ў абодва тэкставыя палі."
 
 #: ../src/users/user-password.c:445
 msgid "Please choose another password."
@@ -1902,36 +1904,36 @@ msgstr "Калі ласка, увядзіце дзейны пароль яшчэ
 
 #: ../src/users/user-password.c:463
 msgid "Password could not be changed"
-msgstr "Нельга зьмяніць пароль"
+msgstr "Нельга змяніць пароль"
 
 #: ../src/users/user-settings.c:85
 msgid "Administrator account cannot be deleted"
-msgstr "Нельга выдаліць уліковы запіс адміністратара"
+msgstr "Нельга выдаліць конт адміністратара"
 
 #: ../src/users/user-settings.c:96
 #, c-format
 msgid "%s is currently using this computer"
-msgstr "%s зараз выкарыстоўвае гэты кампутар"
+msgstr "%s цяпер выкарыстоўвае гэты кампутар"
 
 #: ../src/users/user-settings.c:99
 msgid "Please ensure the user has logged out before deleting this account."
-msgstr "Упэўніцеся, што карыстальнік выйшаў з сыстэмы перад выдаленьнем яго ўліковага запісу."
+msgstr "Упэўніцеся, што карыстальнік выйшаў з сістэмы перад выдаленнем яго конту."
 
 #: ../src/users/user-settings.c:109
 msgid "Can't delete the only administrator account"
-msgstr "Нельга выдаліць адзіны ўліковы запіс адміністратара"
+msgstr "Нельга выдаліць адзіны конт адміністратара"
 
 #: ../src/users/user-settings.c:111
 #, c-format
 msgid ""
 "%s is the only administrator on this computer. Deleting this account would "
 "lock you out of administrating the system."
-msgstr "%s зьяўляецца адзіным адміністратарам гэтага кампутара. Выдаленьне гэтага ўліковага запісу прывядзе да адсутнасьці магчымасьці адміністраваньня сыстэмы."
+msgstr "%s з'яўляецца адзіным адміністратарам гэтага кампутара. Выдаленне гэтага ўліковага запісу прывядзе да адсутнасці магчымасці адміністравання сістэмы."
 
 #: ../src/users/user-settings.c:121
 #, c-format
 msgid "Remove home folder for %s?"
-msgstr "Выдаліць хатнюю тэчку карыстальніка %s?"
+msgstr "Выдаліць хатні каталог карыстальніка %s?"
 
 #: ../src/users/user-settings.c:124
 #, c-format
@@ -1939,7 +1941,7 @@ msgid ""
 "Files owned by user %s in <tt>%s</tt> can be completely removed if you don't"
 " need them anymore. You may want to back them up before deleting the "
 "account, or keep them so that an administrator can save them later."
-msgstr "Файлы карыстальніка %s у <tt>%s</tt> можна поўнасьцю выдаліць. Але можна пакінуць іх для стварэньня рэзэрвовай копіі перад выдаленьнем уліковага запісу, альбо каб адміністратар мог захаваць іх пазьней."
+msgstr "Файлы карыстальніка %s у <tt>%s</tt> можна цалкам выдаліць, калі яны непатрэбныя. Але можна пакінуць іх для стварэння рэзэрвовай копіі перад выдаленнем конту, альбо каб адміністратар мог захаваць іх пазней."
 
 #: ../src/users/user-settings.c:132
 msgid "Keep Files"
@@ -1947,7 +1949,7 @@ msgstr "Пакінуць файлы"
 
 #: ../src/users/user-settings.c:133
 msgid "Don't Remove Account"
-msgstr "Не выдаляць уліковы запіс"
+msgstr "Не выдаляць конт"
 
 #: ../src/users/user-settings.c:134
 msgid "Delete Files"
@@ -1955,7 +1957,7 @@ msgstr "Выдаліць файлы"
 
 #: ../src/users/user-settings.c:330
 msgid "Superuser"
-msgstr "Супэркарыстальнік"
+msgstr "Суперкарыстальнік"
 
 #: ../src/users/user-settings.c:335
 msgid "Custom"
@@ -1969,15 +1971,15 @@ msgstr "Няма"
 #: ../src/users/user-settings.c:393
 #, c-format
 msgid "Invalid character \"%c\" in comment"
-msgstr "У камэнтарах нельга выкарыстоўваць сымбаль «%c»"
+msgstr "У каментарах нельга выкарыстоўваць знак «%c»"
 
 #: ../src/users/user-settings.c:394
 msgid "Check that this character is not used."
-msgstr "Праверце, што гэты сымбаль не выкарыстоўваецца."
+msgstr "Праверце, што гэты знак не выкарыстоўваецца."
 
 #: ../src/users/user-settings.c:426
 msgid "Incomplete path in home directory"
-msgstr "Няпоўны шлях да хатняга каталёга"
+msgstr "Няпоўны шлях да хатняга каталогу"
 
 #: ../src/users/user-settings.c:427
 msgid ""
@@ -2059,13 +2061,13 @@ msgstr ""
 
 #: ../src/users/user-settings.c:604
 msgid "ID for the root user should not be modified"
-msgstr "Нельга зьмяніць ID супэркарыстальніка"
+msgstr "Нельга змяніць ID суперкарыстальніка"
 
 #. check that UID is free
 #: ../src/users/user-settings.c:608
 #, c-format
 msgid "User ID %d is already used by user %s"
-msgstr "Карыстальніцкі ID %d ужо выкарыстоўваецца карыстальнікам %s"
+msgstr "ID %d ужо выкарыстоўваецца карыстальнікам %s"
 
 #: ../src/users/user-settings.c:610
 #, c-format
@@ -2084,34 +2086,34 @@ msgstr ""
 
 #: ../src/users/user-settings.c:663
 msgid "Can't revoke administration rights"
-msgstr "Не ўдалося забраць правы адміністраваньня"
+msgstr "Не выйшла забраць правы на адміністравання"
 
 #: ../src/users/user-settings.c:666
 #, c-format
 msgid ""
 "%s is the only administrator on this computer. Revoking administration "
 "rights for this account would lock you out of administrating the system."
-msgstr "%s зьяўляецца адзіным адміністратарам гэтага кампутара. Водгук правоў адміністраваньня ў гэтага ўліковага запісу прывядзе да адсутнасьці магчымасьці адміністраваньня сыстэмы."
+msgstr "%s з'яўляецца адзіным адміністратарам гэтага кампутара. Адбіранне правоў на адміністравання ў гэтага конту прывядзе да немагчымасці адміністравання сістэмы."
 
 #: ../src/users/user-settings.c:683
 msgid "You are about to revoke your own administration rights"
-msgstr "Вы зьбіраецеся адклікаць свае асабістыя правы адміністраваньня"
+msgstr "Вы збіраецеся адабраць свае ўласныя правы на адміністраванне"
 
 #: ../src/users/user-settings.c:686
 #, c-format
 msgid ""
 "%s will no longer be able to perform administrative tasks. This account "
 "won't be allowed to get administration rights back on its own."
-msgstr "%s больш ня зможа выконваць задачы адміністраваньня. Гэты ўліковы запіс ня зможа вярнуць іх сабе назад сам."
+msgstr "%s больш не зможа выконваць задачы адміністравання. Гэты конт не зможа вярнуць іх сабе назад сам."
 
 #: ../src/users/user-settings.c:691
 msgid "Give up administration rights"
-msgstr "Адмовіцца ад правоў адміністраваньня"
+msgstr "Адмовіцца ад правоў на адміністраванне"
 
 #: ../src/users/user-settings.c:1469
 msgid "Applying changes to user settings..."
-msgstr ""
+msgstr "Ужыванне зменаў на настáўленні карыстальніка..."
 
 #: ../src/users/users-tool.c:288
 msgid "Users Settings"
-msgstr "Наладкі карыстальнікаў"
+msgstr "Настáўленні карыстальнікаў"
