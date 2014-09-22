@@ -118,16 +118,16 @@ gst_users_tool_finalize (GObject *object)
 {
 	GstUsersTool *tool = GST_USERS_TOOL (object);
 
-	g_object_unref (tool->users_config);
-	g_object_unref (tool->self_config);
-	g_object_unref (tool->groups_config);
-	g_object_unref (tool->profiles);
-	g_object_unref (tool->settings);
-
 	/* Clear models to unreference OobsUsers and OobsGroups
 	 * to be sure they are finalized properly (passwords...) */
 	users_table_clear ();
 	groups_table_clear ();
+
+	g_object_unref (tool->users_config);
+	g_object_unref (tool->groups_config);
+	g_object_unref (tool->self_config);
+	g_object_unref (tool->profiles);
+	g_object_unref (tool->settings);
 
 	(* G_OBJECT_CLASS (gst_users_tool_parent_class)->finalize) (object);
 }
@@ -184,7 +184,6 @@ update_groups (GstUsersTool *tool)
 		/* update privileges table too */
 		privileges_table_add_group (OOBS_GROUP (group));
 
-		g_object_unref (group);
 		valid = oobs_list_iter_next (list, &iter);
 	}
 }
