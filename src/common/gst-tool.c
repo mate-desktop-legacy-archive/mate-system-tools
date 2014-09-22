@@ -558,6 +558,10 @@ update_async_func (OobsObject *object,
 		gst_tool_update_config (tool);
 		gst_tool_update_gui (tool);
 	}
+
+	if (result != OOBS_RESULT_OK) {
+		show_oobs_error_dialog (tool, OPERATION_UPDATE, result);
+	}
 }
 
 void
