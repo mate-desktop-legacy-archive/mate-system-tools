@@ -1,3 +1,9 @@
+1.8.1
+-----
+
+ * mate-users-admin: process liboobs errors in the callback function
+ * mate-users-admin: fix possible segfault on exit
+
 1.8.0
 -----
 
