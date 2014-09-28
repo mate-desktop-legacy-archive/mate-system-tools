@@ -1,5 +1,5 @@
 AC_PREREQ(2.60)
-AC_INIT(mate-system-tools, 1.8.0, http://wwww.mate-desktop.org/)
+AC_INIT(mate-system-tools, 1.8.1, http://wwww.mate-desktop.org/)
 AC_CONFIG_SRCDIR(src/common/gst-tool.c)
 AC_CONFIG_MACRO_DIR([m4])
 AM_INIT_AUTOMAKE([no-dist-gzip dist-xz check-news])
