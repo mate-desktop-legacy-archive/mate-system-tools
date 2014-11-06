@@ -1136,7 +1136,7 @@ gst_network_locations_delete_location (GstNetworkLocations *locations,
   GstNetworkLocationsPrivate *priv;
   gchar *filename, *str, *location_path;
 
-  g_return_val_if_fail (GST_IS_NETWORK_LOCATIONS (locations), FALSE);
+  g_return_if_fail (GST_IS_NETWORK_LOCATIONS (locations));
 
   priv = GST_NETWORK_LOCATIONS_GET_PRIVATE (locations);
 
